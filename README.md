@@ -58,15 +58,16 @@ Enterprise and use your normal plan usage), and a GitHub account.
 
 ### 2. Connect Google Drive and Gmail
 At **claude.ai/customize/connectors** connect **Google Drive** and **Gmail**. The Google account
-you connect must be able to open the FIDELITY sheet. Right now the connected account cannot see
-it, so either share the sheet with that account (Viewer is enough) or reconnect using
+you connect must be able to open the FIDELITY sheet (checked on 2026-10-04: it can). If it ever
+cannot, either share the sheet with that account (Viewer is enough) or reconnect using
 sgomezo2003@gmail.com. The email is sent from whichever Gmail account is connected.
 
 ### 3. Create the cloud environment
 In claude.ai/code open the environment menu and add a cloud environment named `portfolio-intel`:
 - **Network access:** Custom, tick "Also include default list of common package managers", and
-  allow `query1.finance.yahoo.com`, `query2.finance.yahoo.com`, `stooq.com`, `www.sec.gov`,
-  `data.sec.gov` (plus `www.alphavantage.co` if you add a key). Choose **Full** instead if you want
+  allow `query1.finance.yahoo.com`, `query2.finance.yahoo.com`, `api.nasdaq.com`, `www.sec.gov`,
+  `data.sec.gov` (plus `www.alphavantage.co` if you add a key), and the news and investor-relations
+  sites listed in `setup/SETUP_PROMPT.md` Phase 8. Choose **Full** instead if you want
   the researchers to open any news site.
 - **Environment variables:** none required. Optional: an Alpha Vantage key as an API credential
   named `ALPHAVANTAGE_API_KEY` (a free backup price source).
@@ -102,12 +103,12 @@ October 7, 2026; expires November 4, 2026) pays for ordinary cloud sessions but 
 - **Write your reasons** in `theses/<TICKER>.md` under "Why I own it". The report tests the news
   against them every day.
 - **Set your rules** in `config/rules.toml` and the Stop-loss and Target columns of your sheet.
-- **New stock?** Add it to the sheet; add its industry fund and themes in `config/portfolio.toml`
+- **New stock?** Add it to the sheet; add its industry fund, sector, themes and playbook in `config/portfolio.toml`
   and copy `theses/TEMPLATE.md`.
 - **Already know a term?** Mark it "known" in `learning/concepts.json` and it stops being defined.
 
 ## Honest limits
-- Prices come from free sources (Yahoo, Stooq) that can rate-limit or change; failures are
+- Prices come from free sources (Yahoo, Nasdaq) that can rate-limit or change; failures are
   reported, never hidden. SEC data is official and free.
 - Entry prices are only exact when your Fidelity fill price is in the sheet; otherwise they are
   estimated and labelled.

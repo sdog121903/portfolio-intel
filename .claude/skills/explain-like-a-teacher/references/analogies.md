@@ -31,7 +31,7 @@ An analogy opens the door; the precise sentence after it stops the analogy from 
 | Moving average | Your average mood over the last 50 days compared with your mood today. | The average closing price over N days; price above it means recent prices are higher than the period's norm. |
 | RSI | A runner's breathing after a sprint. | A 0-100 gauge of recent gains versus losses; above 70 means it rose fast, which is not a reason by itself for it to stop. |
 | Correlation | Umbrellas and raincoats sell on the same days; umbrellas and sunscreen do not. | From -1 to +1: how much two prices move together. High correlation means less diversification. |
-| Concentration | All your eggs in one basket, even if they look like different eggs. | Five stocks driven by one theme (AI data centers) behave more like one big bet. |
+| Concentration | All your eggs in one basket, even if they look like different eggs. | Several stocks driven by one theme (AI data centers) behave more like one big bet. |
 | Market vs limit order | Buying at a market stall at whatever price is on the sign, versus saying "I'll pay up to $5, no more". | Market orders fill now at the current price; limit orders fill only at your price or better. |
 | 10b5-1 plan | Setting up an automatic savings transfer months in advance. | A pre-scheduled trading plan that lets insiders sell without being accused of using secret information. |
 | Moat | The water around a castle that keeps attackers out. | A durable advantage (technology, switching costs, scale) that protects profits from competitors. |

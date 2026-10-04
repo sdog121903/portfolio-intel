@@ -3,7 +3,7 @@
 | Data | Endpoint | Key? | Notes |
 |---|---|---|---|
 | Daily prices (1st choice) | `https://query1.finance.yahoo.com/v8/finance/chart/<T>?range=2y&interval=1d` | No | Unofficial; can rate-limit or change. Adjusted closes included |
-| Daily prices (2nd) | `https://stooq.com/q/d/l/?s=<t>.us&i=d` | No | CSV; split-adjusted closes |
+| Daily prices (2nd) | `https://api.nasdaq.com/api/quote/<T>/historical?assetclass=stocks\|etf&fromdate=...&todate=...&limit=9999` | No | JSON; closes not dividend-adjusted. (Stooq was dropped in October 2026: its downloads now sit behind a browser check) |
 | Daily prices (3rd) | `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=<T>` | Yes (free) | Set `ALPHAVANTAGE_API_KEY` as an API credential; compact output is about 100 days |
 | Ticker -> SEC CIK | `https://www.sec.gov/files/company_tickers.json` | No | Needs a User-Agent with an email |
 | Filings list | `https://data.sec.gov/submissions/CIK##########.json` | No | Includes 8-K item numbers |
@@ -21,7 +21,7 @@ package-manager list):
 ```
 query1.finance.yahoo.com
 query2.finance.yahoo.com
-stooq.com
+api.nasdaq.com
 www.alphavantage.co
 www.sec.gov
 data.sec.gov

@@ -14,8 +14,8 @@ order. Do not skip a phase, and do not mark anything done that you have not veri
 - A beginner investor who wants to become an expert. Lives in Spain (Europe/Madrid time).
 - Trades US-listed stocks and ETFs at Fidelity, in US dollars, buying fractional shares, usually
   with market orders. Logs every trade in a Google Sheet named **FIDELITY**, tab **Trades**,
-  file id `1q0DLvB7WieV30mpA8a9rNgg6-GoqmXaWyr0Kyvrkf8M`. Current open positions: STRL, CRWD,
-  NVDA, CRDO, LITE (tiny fractional amounts).
+  file id `1q0DLvB7WieV30mpA8a9rNgg6-GoqmXaWyr0Kyvrkf8M`. Current open positions (October 2026): STRL,
+  CRWD, MRNA, CRDO, LITE, TSM, AMD, PANW, BE, SNOW, A (tiny fractional amounts).
 - Uses Claude on a Max plan, Claude Code in the terminal and the Desktop app, on a MacBook Air.
   Homebrew is installed; git and SSH access to GitHub were set up earlier.
 - Does not want to pay for any new subscription.
@@ -87,12 +87,12 @@ Confirm every item below exists. If anything is missing, stop and tell Santi.
 - `theses/`: `README.md`, `TEMPLATE.md`, `CRWD.md`, `NVDA.md`, `STRL.md`, `CRDO.md`, `LITE.md`
 - `reports/daily/`, `reports/deep-dives/`, `data/` (with its README and empty subfolders)
 - `docs/`: `architecture.md`, `sources-and-credits.md`, `requirements.md`
-- `LICENSES/` (3 files), `tests/test_tools.py`, `tests/fixtures/` (6 files), `setup/SETUP_PROMPT.md`
+- `LICENSES/` (3 files), `tests/test_tools.py`, `tests/fixtures/` (6 files, including `nasdaq.json`), `setup/SETUP_PROMPT.md`
 
 ## 4. Phase 2: prove it works
 
 1. `python3 --version`. If older than 3.11, run `python3 -m pip install -r requirements.txt`.
-2. `python3 -m unittest discover -s tests -v` must report **23 tests, OK**.
+2. `python3 -m unittest discover -s tests -v` must report **37 tests, OK**.
 3. `python3 .claude/skills/portfolio-daily-report/scripts/lint_report.py .claude/skills/portfolio-daily-report/templates/example-report.md` must print **PASS**.
 4. Parse every TOML file in `config/` with `tomllib` and confirm the sections `owner`, `repo`,
    `sheet`, `sheet.columns`, `benchmarks`, `sector_etf`, `sector_playbooks`, `themes`, `goals`,
@@ -106,7 +106,7 @@ Confirm every item below exists. If anything is missing, stop and tell Santi.
    cat data/snapshots/*-pipeline.json | python3 -m json.tool | head -80
    ```
    Expect holdings, prices, metrics, attribution, portfolio, rules, filings and fundamentals to
-   succeed (prices from Yahoo or Stooq; filings and fundamentals from SEC EDGAR, which receives
+   succeed (prices from Yahoo or Nasdaq; filings and fundamentals from SEC EDGAR, which receives
    Santi's name and email as the required User-Agent from `config/portfolio.toml`). Show Santi one
    line per holding from `data/metrics/<DATE>.json` (close price, day change, trend). Any
    failure: diagnose and fix the code, add a test, rerun the suite. Then delete the temp folder.
@@ -133,7 +133,8 @@ Also confirm these specifics, which came up in conversation and must not be lost
 5. Stay/Retreat is delivered as his own rules (`config/rules.toml`, stop-loss and target from the
    sheet), a thesis status (Intact, Watch, Challenged, Broken) and three sourced reasons each way,
    never as advice. `grep -rniE "you should (buy|sell)|we recommend|i recommend" --include=*.md .`
-   may only match places that list forbidden phrases (the linter's pattern list, the "What never
+   may only match places that list forbidden phrases or show them as counter-examples (the linter's
+   pattern list, the vendored `stock-analysis/SKILL.md` counter-example, the "What never
    appears" list in `position-review/SKILL.md`, and this prompt); any other match is a GAP.
 6. The email goes only to `sgomezo2003@gmail.com`; the report is also committed to
    `reports/daily/YYYY/MM/<DATE>.md`.
@@ -188,13 +189,13 @@ default cloud environment. Path B: already connected.
 Give him these steps:
 1. Open claude.ai/customize/connectors.
 2. Connect **Google Drive** and **Gmail** using the Google account that can open the FIDELITY
-   sheet. Important: the account currently connected to Claude cannot see the sheet. Either
-   share the sheet with that account (in the sheet: Share, add that email as Viewer) or disconnect
-   and reconnect both connectors with sgomezo2003@gmail.com. Reconnecting with his personal account
-   is simplest, because the report email is sent from whichever Gmail account is connected.
+   sheet. (Verified 2026-10-04: the Drive connector on his Claude account already opens it.) If the
+   connected account cannot see it, either share the sheet with that account (in the sheet: Share,
+   add that email as Viewer) or disconnect and reconnect both connectors with sgomezo2003@gmail.com.
+   The report email is sent from whichever Gmail account is connected.
 3. If this session has Google Drive connector tools, read file
    `1q0DLvB7WieV30mpA8a9rNgg6-GoqmXaWyr0Kyvrkf8M` and confirm you can see the Trades tab and its
-   five open rows. If not, the first routine run is the test (a "FALLBACK" warning at the top of
+   eleven open rows. If not, the first routine run is the test (a "FALLBACK" warning at the top of
    the report means the sheet could not be read).
 
 ## 10. Phase 8: the cloud environment (Santi clicks, you dictate)
@@ -206,7 +207,7 @@ Give him these steps:
    ```
    query1.finance.yahoo.com
    query2.finance.yahoo.com
-   stooq.com
+   api.nasdaq.com
    www.sec.gov
    data.sec.gov
    www.reuters.com
@@ -219,14 +220,26 @@ Give him these steps:
    finance.yahoo.com
    ir.crowdstrike.com
    www.crowdstrike.com
-   investor.nvidia.com
-   nvidianews.nvidia.com
    investors.credosemi.com
    credosemi.com
    investor.lumentum.com
    www.lumentum.com
    www.strlco.com
-   investors.strlco.com
+   investors.modernatx.com
+   www.modernatx.com
+   investor.tsmc.com
+   pr.tsmc.com
+   www.tsmc.com
+   ir.amd.com
+   www.amd.com
+   investors.paloaltonetworks.com
+   www.paloaltonetworks.com
+   investor.bloomenergy.com
+   www.bloomenergy.com
+   investors.snowflake.com
+   www.snowflake.com
+   investor.agilent.com
+   www.agilent.com
    ```
    Explain the trade-off in one sentence: Custom keeps the session from talking to unknown sites;
    if run transcripts show many blocked pages, add those domains or switch to Full.
@@ -285,7 +298,7 @@ and connectors.
   ordinary cloud sessions but **not for routines**. Useful for this setup if done in a cloud
   session, and for extra on-demand cloud runs before it expires. Claiming may switch on usage
   credits (pay-as-you-go after limits), so he should check his spend controls in Settings, Usage.
-- Everything else is free: price data (Yahoo, Stooq), SEC EDGAR, GitHub private repository.
+- Everything else is free: price data (Yahoo, Nasdaq), SEC EDGAR, GitHub private repository.
 
 ## 15. Phase 13: hand-over
 
@@ -299,7 +312,7 @@ and connectors.
 
 ## Definition of done (verify every box before saying you are finished)
 
-- [ ] 23 tests pass; the example report lints PASS; `docs/requirements-audit.md` shows R1-R18 PASS
+- [ ] 37 tests pass; the example report lints PASS; `docs/requirements-audit.md` shows R1-R18 PASS
 - [ ] Private repository `portfolio-intel` on GitHub, including `.claude/`; `repo.url` set
 - [ ] Cloud access to the repository (`/web-setup` or the Claude GitHub App)
 - [ ] Google Drive (sheet readable) and Gmail connectors connected

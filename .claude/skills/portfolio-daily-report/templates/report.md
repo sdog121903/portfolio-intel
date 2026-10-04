@@ -11,6 +11,10 @@
 
 ## Your rules today
 
+*These are your own rules from `config/rules.toml` and your sheet. The report shows which fired and
+the evidence both ways, never a buy or sell call: the decision, and the knowledge of your whole
+situation, are yours.*
+
 | Stock | Status | Why |
 |---|---|---|
 | <TICKER> | <No rule fired / WATCH / RETREAT RULE HIT / TARGET REACHED / THESIS ALERT> | <one plain sentence with the numbers> |
@@ -53,7 +57,8 @@ bad day in dollars. What a 5% market drop or 10% industry drop would roughly mea
 
 **Against your goals** <from goals_check: "You want to diversify beyond tech; today X% of your
 money is in technology companies and Y% rides on AI data centers. Volatility: ... High movers: ...".
-Facts only, no suggestions.>
+Use portfolio_volatility_ann_pct, portfolio_beta_vs_market and high_movers_beta_1_5_plus; name
+any unclassified_tickers as not yet set up in config/portfolio.toml. Facts only, no suggestions.>
 
 **Next 14 days:** <calendar of earnings dates and events>
 

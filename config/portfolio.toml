@@ -49,6 +49,13 @@ CRDO = "SMH"     # semiconductors (connectivity chips)
 LITE = "SMH"     # closest liquid proxy for optical components
 CRWD = "CIBR"    # cybersecurity
 STRL = "PAVE"    # US infrastructure construction
+TSM = "SMH"      # semiconductors (contract chip manufacturing)
+AMD = "SMH"      # semiconductors
+PANW = "CIBR"    # cybersecurity
+SNOW = "IGV"     # software
+MRNA = "XBI"     # biotech
+A = "XLV"        # health care (closest liquid proxy for life-science tools)
+BE = "ICLN"      # clean energy (closest liquid proxy for fuel-cell power)
 default = "SPY"
 
 # Which stock-analysis sector playbook fits each company (weekly deep dive).
@@ -58,6 +65,13 @@ CRDO = "semiconductors"
 LITE = "semiconductors"
 CRWD = "it-saas"
 STRL = "infra-capitalgoods"
+TSM = "semiconductors"
+AMD = "semiconductors"
+PANW = "it-saas"
+SNOW = "it-saas"
+MRNA = "pharma-healthcare"      # has approved products, so not the pre-revenue biotech playbook
+A = "pharma-healthcare"         # diagnostics and research tools
+BE = "infra-capitalgoods"       # electrical equipment
 
 # Shared stories behind the holdings: shows how much money rides on one idea.
 [themes]
@@ -66,6 +80,13 @@ CRDO = ["AI data centers", "semiconductors"]
 LITE = ["AI data centers", "optical networking"]
 STRL = ["AI data centers", "construction"]
 CRWD = ["cybersecurity", "software"]
+TSM = ["AI data centers", "semiconductors"]
+AMD = ["AI data centers", "semiconductors"]
+PANW = ["cybersecurity", "software"]
+SNOW = ["cloud data platforms", "software"]
+MRNA = ["mRNA medicines", "biotech"]
+A = ["life-science tools", "healthcare"]
+BE = ["AI data centers", "power generation"]
 
 # Santi's own goals for the portfolio, in his words. The report describes the portfolio
 # against them (how much is in technology, how concentrated, how bumpy); it never tells him
@@ -84,6 +105,13 @@ CRDO = "Technology"
 LITE = "Technology"
 CRWD = "Technology"
 STRL = "Industrials"
+TSM = "Technology"
+AMD = "Technology"
+PANW = "Technology"
+SNOW = "Technology"
+MRNA = "Health Care"
+A = "Health Care"
+BE = "Industrials"
 
 [run]
 price_history_range = "2y"     # enough for 200-day averages and 1-year statistics

@@ -1,7 +1,7 @@
 # Weekly deep dive runbook
 
-One company per week gets a full fundamental analysis, so that over a month every holding's
-thesis is rebuilt from primary documents and Santi learns how a professional reads a company.
+One company per week gets a full fundamental analysis, so that over about three months (one
+holding a week) every holding's thesis is rebuilt from primary documents and Santi learns how a professional reads a company.
 
 ## 1. Choose the company
 
@@ -29,9 +29,10 @@ no buy/sell call.
    "Plain-English summary" (300 words max) written with `explain-like-a-teacher`: what the
    company sells, who buys it, how it makes money, what the numbers say, the strongest case
    for and against, and what would prove the thesis wrong.
-2. Update `theses/<TICKER>.md`: refresh "What the company does", "Facts as of", "Metrics that
-   matter", "What must stay true" and "Invalidation triggers", each with sources, and set
-   "Last deep dive". **Never edit "Why I own it"**: that section is Santi's own words. If the
+2. Update `theses/<TICKER>.md`: refresh "What the company does", "How it makes money", "Facts as
+   of" and "Metrics that matter", each with sources, and set "Last deep dive". "What must stay
+   true" and "Invalidation triggers" are Santi's to edit: add new sourced items, but never delete
+   or reword his; propose any other change in the "Change log". **Never edit "Why I own it"**: that section is Santi's own words. If the
    evidence contradicts it, say so in the deep dive instead.
 
 ## 4. Teach

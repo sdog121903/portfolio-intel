@@ -97,6 +97,10 @@ def compute(values: dict, series: dict, betas: dict, themes: dict, sectors: dict
             if c is not None:
                 pairs.append(c)
     beta = sum(weights[t] * betas[t] for t in weights if betas.get(t) is not None) if betas else None
+    known_themes = {k: v for k, v in theme_exp.items() if k != "Unclassified"}
+    unclassified = sorted({t.split("-")[0] for t in weights
+                           if t.split("-")[0] not in themes or t.split("-")[0] not in (sectors or {})})
+    high_movers = sorted(t for t in weights if (betas or {}).get(t) is not None and betas[t] >= 1.5)
     return {
         "total_value": pilib.r(total), "weights_pct": {t: pilib.r(w * 100, 1) for t, w in weights.items()},
         "concentration": {"hhi": pilib.r(hhi, 3), "effective_number_of_positions": pilib.r(1 / hhi, 1) if hhi else None},
@@ -104,8 +108,12 @@ def compute(values: dict, series: dict, betas: dict, themes: dict, sectors: dict
         "sector_exposure_pct": sector_exp,
         "goals_check": {"stated_goals": goals or [],
                         "technology_share_pct": sector_exp.get("Technology", 0.0),
-                        "largest_theme": max(theme_exp, key=theme_exp.get) if theme_exp else None,
-                        "largest_theme_share_pct": pilib.r(max(theme_exp.values()), 1) if theme_exp else None,
+                        "largest_theme": max(known_themes, key=known_themes.get) if known_themes else None,
+                        "largest_theme_share_pct": pilib.r(max(known_themes.values()), 1) if known_themes else None,
+                        "portfolio_volatility_ann_pct": pilib.r(vol, 1), "portfolio_beta_vs_market": pilib.r(beta),
+                        "high_movers_beta_1_5_plus": high_movers,
+                        "high_movers_share_pct": pilib.r(sum(weights[t] for t in high_movers) * 100, 1),
+                        "unclassified_tickers": unclassified,
                         "note": "Facts to compare with the owner's goals; never a recommendation to buy or sell."},
         "correlation_60d": matrix, "avg_pairwise_correlation_60d": pilib.r(sum(pairs) / len(pairs)) if pairs else None,
         "volatility_ann_pct": pilib.r(vol, 1), "beta_vs_market": pilib.r(beta),

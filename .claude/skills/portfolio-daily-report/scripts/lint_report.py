@@ -3,9 +3,14 @@
 
 ERRORS (must fix):
   - a required section is missing, or "The bottom line" is not the first section
-  - a position section lacks "What happened, and why", "Case to stay", "Case to retreat" or "Thesis check"
+  - a position section lacks one of its parts (Bottom line, What happened and why, How this works,
+    Case to stay, Case to retreat, Thesis check, Coming up)
+  - an open holding in data/holdings/<DATE>.json has no position section (date read from the file name)
+  - today's lesson was not saved to learning/lessons/<DATE>.md (date read from the file name)
   - a news bullet has no citation in the form [Source, YYYY-MM-DD](https://...) and is not "No material news"
-  - advice language ("you should sell", "we recommend", "price target", ...)
+  - advice language ("you should sell", "we recommend", "consider selling", ...)
+  - analyst-style calls ("price target of", "buy rating") on a line without a citation: reported
+    analyst opinions are fine when cited, uncited they read as our own call
   - a link to an "avoid" source (config/sources.toml)
   - a jargon word that the learning ledger marks as "new" is used but not explained under "New words today"
 WARNINGS:
@@ -25,10 +30,12 @@ import pilib  # noqa: E402
 
 REQUIRED = ["The bottom line", "Your rules today", "Your portfolio as a whole", "Lesson of the day",
             "New words today", "Data quality and sources"]
-POSITION_PARTS = ["What happened, and why", "Case to stay", "Case to retreat", "Thesis check"]
-ADVICE = [r"\byou should (buy|sell|hold|trim|add)\b", r"\bwe recommend\b", r"\bi recommend\b",
-          r"\bprice target of\b", r"\b(strong )?(buy|sell) rating\b", r"\bbuy now\b", r"\bsell now\b",
-          r"\btime to (buy|sell)\b", r"\bposition siz(e|ing)\b", r"\bguaranteed\b"]
+POSITION_PARTS = ["Bottom line", "What happened, and why", "How this works", "Case to stay", "Case to retreat",
+                  "Thesis check", "Coming up"]
+ADVICE = [r"\byou should (consider )?(buy|sell|hold|trim|add)(ing)?\b", r"\bwe recommend\b", r"\bi recommend\b",
+          r"\bconsider (buying|selling|trimming|exiting)\b", r"\bi would (buy|sell|hold)\b",
+          r"\bbuy now\b", r"\bsell now\b", r"\btime to (buy|sell)\b", r"\bposition siz(e|ing)\b", r"\bguaranteed\b"]
+OPINION = [r"\bprice target of\b", r"\b(strong )?(buy|sell) rating\b"]
 CITATION = re.compile(r"\[[^\]]+?,\s*\d{4}-\d{2}-\d{2}\]\((https?://[^)\s]+)\)")
 LINK = re.compile(r"\]\((https?://[^)\s]+)\)")
 DISCLAIMER = "not investment advice"
@@ -58,7 +65,7 @@ def host_tier(url: str, tiers: dict) -> str:
     return "other"
 
 
-def lint(text: str, tiers: dict, ledger: dict, jargon: list) -> tuple:
+def lint(text: str, tiers: dict, ledger: dict, jargon: list, open_tickers: list | None = None) -> tuple:
     errors, warnings = [], []
     secs = sections(text)
     names = list(secs)
@@ -70,6 +77,12 @@ def lint(text: str, tiers: dict, ledger: dict, jargon: list) -> tuple:
     positions = [n for n in names if n.startswith("Position:")]
     if not positions:
         errors.append("no '## Position: TICKER ...' sections")
+    if open_tickers is not None:
+        covered = {n.split(":", 1)[1].split()[0].upper() for n in positions if n.split(":", 1)[1].split()}
+        for t in sorted(set(open_tickers) - covered):
+            errors.append(f"open holding {t} has no '## Position: {t}' section")
+        for t in sorted(covered - set(open_tickers)):
+            warnings.append(f"'## Position: {t}' is not an open holding today")
     for n in positions:
         body = secs[n]
         for part in POSITION_PARTS:
@@ -82,9 +95,14 @@ def lint(text: str, tiers: dict, ledger: dict, jargon: list) -> tuple:
                 if s.startswith(("- ", "* ")) and "no material news" not in s.lower() and not CITATION.search(s):
                     errors.append(f"{n}: news bullet without a [Source, YYYY-MM-DD](url) citation: {s[:80]}")
     low = text.lower()
-    for pat in ADVICE:
-        for mm in re.finditer(pat, low):
-            errors.append(f"advice language: '{mm.group(0)}'")
+    for line in low.splitlines():
+        for pat in ADVICE:
+            for mm in re.finditer(pat, line):
+                errors.append(f"advice language: '{mm.group(0)}'")
+        if not CITATION.search(line):
+            for pat in OPINION:
+                for mm in re.finditer(pat, line):
+                    errors.append(f"'{mm.group(0)}' without a citation: name and cite the analyst, or remove it")
     counts = {"tier1": 0, "tier2": 0, "tier3": 0, "other": 0, "avoid": 0}
     for url in LINK.findall(text):
         t = host_tier(url, tiers)
@@ -104,7 +122,7 @@ def lint(text: str, tiers: dict, ledger: dict, jargon: list) -> tuple:
         tl = term.lower()
         if re.search(r"(?<![a-z])" + re.escape(tl) + r"(?![a-z])", body_wo_glossary):
             level = concepts.get(" ".join(tl.split()), {}).get("level", "new")
-            if level == "new" and tl not in new_words:
+            if level == "new" and not re.search(r"(?<![a-z])" + re.escape(tl) + r"(?![a-z])", new_words):
                 errors.append(f"jargon '{term}' is new to the reader but not explained under 'New words today'")
     if DISCLAIMER not in low:
         warnings.append("disclaimer line ('... not investment advice') is missing")
@@ -116,13 +134,22 @@ def main(argv=None) -> int:
     if not argv:
         print(__doc__)
         return 2
-    text = Path(argv[0]).read_text(encoding="utf-8")
+    path = Path(argv[0])
+    text = path.read_text(encoding="utf-8")
     tiers = pilib.load_toml(pilib.CONFIG / "sources.toml")
     ledger_path = pilib.LEARNING / "concepts.json"
     ledger = pilib.read_json(ledger_path) if ledger_path.exists() else {"concepts": {}}
     jl = Path(__file__).resolve().parents[2] / "explain-like-a-teacher" / "references" / "jargon-watchlist.txt"
     jargon = [l.strip() for l in jl.read_text(encoding="utf-8").splitlines() if l.strip() and not l.startswith("#")] if jl.exists() else []
-    errors, warnings, counts = lint(text, tiers, ledger, jargon)
+    dm = re.search(r"\d{4}-\d{2}-\d{2}", path.name)
+    open_tickers = None
+    if dm:
+        hp = pilib.DATA / "holdings" / f"{dm.group(0)}.json"
+        if hp.exists():
+            open_tickers = [p["ticker"].split("-")[0] for p in pilib.read_json(hp).get("positions", [])]
+    errors, warnings, counts = lint(text, tiers, ledger, jargon, open_tickers)
+    if dm and not (pilib.LEARNING / "lessons" / f"{dm.group(0)}.md").exists():
+        errors.append(f"lesson of the day not saved to learning/lessons/{dm.group(0)}.md")
     print(f"links by tier: {counts}")
     for w in warnings:
         print("WARNING:", w)

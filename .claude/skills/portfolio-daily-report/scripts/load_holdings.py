@@ -106,11 +106,11 @@ def normalise(rows: list, source: str, as_of: str) -> dict:
             total = p["shares"] + row["shares"]
             if p["entry_price"] is not None and row["entry_price"] is not None:
                 p["entry_price"] = (p["entry_price"] * p["shares"] + row["entry_price"] * row["shares"]) / total
+                if p["entry_price_source"] != row["entry_price_source"]:
+                    p["entry_price_source"] = "mixed"
             else:
                 p["entry_price"] = None
                 p["entry_price_source"] = "missing"
-            if row["entry_price_source"] == "sheet-estimate" and p["entry_price_source"] == "fill":
-                p["entry_price_source"] = "mixed"
             p["shares"] = total
             p["fees"] += row["fees"]
             p["lots"] += 1

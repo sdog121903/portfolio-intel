@@ -10,7 +10,7 @@ is a buy or sell signal by itself; say so whenever a reader might take it that w
 
 ## Where the numbers come from
 
-- `scripts/fetch_prices.py`: daily prices (Yahoo, then Stooq, then Alpha Vantage) for every
+- `scripts/fetch_prices.py`: daily prices (Yahoo, then Nasdaq, then Alpha Vantage) for every
   holding, the benchmarks and each holding's industry fund (`[sector_etf]`). Which provider
   served each ticker is in `data/prices/_provenance.json`.
 - `scripts/market_metrics.py`: `data/metrics/<DATE>.json`, per holding:

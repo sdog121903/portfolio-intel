@@ -5,7 +5,7 @@ description: Looks at the portfolio as a whole: position weights, how concentrat
 
 # Portfolio risk
 
-Five stocks can behave like one if they all ride the same story. This section shows Santi how
+Several stocks can behave like one if they all ride the same story. This section shows Santi how
 much of his money depends on a single idea and what a normal bad day looks like, in dollars.
 
 ## Where the numbers come from

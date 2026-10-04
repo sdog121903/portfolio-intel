@@ -53,7 +53,16 @@ FORMS = {  # form: (plain-English meaning, materiality)
     "SD": ("Specialized disclosure (e.g. conflict minerals)", "low"), "11-K": ("Annual report of an employee stock plan", "low"),
     "425": ("Communication about a merger or acquisition", "high"), "SC TO-T": ("Tender offer by a third party", "high"),
     "SC TO-I": ("Company tender offer for its own shares", "medium"),
+    "6-K": ("Report from a foreign company: news it published at home (results, events, announcements)", "medium"),
+    "6-K/A": ("Amended foreign-company report", "low"),
+    "20-F": ("Annual report of a foreign company (its version of a 10-K)", "high"),
+    "20-F/A": ("Amended foreign-company annual report", "medium"),
+    "40-F": ("Annual report of a Canadian company (its version of a 10-K)", "high"),
 }
+
+# "not made pursuant to a Rule 10b5-1 plan", "outside of any 10b5-1 plan": a negated plan clause
+NOT_A_PLAN = re.compile(r"\bnot\s+(?:\w+\s+){0,2}(?:pursuant\s+to|under|in\s+accordance\s+with)\b[^.;]{0,90}10b5-1"
+                        r"|\boutside\s+(?:of\s+)?(?:a|any|the)\b[^.;]{0,40}10b5-1")
 
 ITEMS_8K = {  # item: (plain-English meaning, materiality)
     "1.01": ("Signed a major contract or agreement", "high"), "1.02": ("Ended a major contract", "high"),
@@ -155,9 +164,9 @@ def parse_form4(xml_bytes: bytes) -> dict:
             if (rel.findtext(tag) or "").strip() in ("1", "true"):
                 roles.append(label)
     plan_flag = (root.findtext("aff10b5One") or "").strip().lower() in ("1", "true")
-    footnotes = " ".join((f.text or "") for f in root.iter("footnote")).lower()
-    if "10b5-1" in footnotes:
-        plan_flag = True
+    notes = [(f.text or "").lower() for f in root.iter("footnote")]
+    if any("10b5-1" in n and not NOT_A_PLAN.search(n) for n in notes):
+        plan_flag = True  # each footnote on its own: "not pursuant to a 10b5-1 plan" is not a plan
     trades = []
     for tx in root.iter("nonDerivativeTransaction"):
         code = (tx.findtext("transactionCoding/transactionCode") or "").strip()
@@ -210,14 +219,21 @@ def main(argv=None) -> int:
         pilib.write_json(cache, json.loads(pilib.http_get("https://www.sec.gov/files/company_tickers.json", hdr)))
     ciks = cik_map(pilib.read_json(cache))
     out = {"window_start": since, "window_end": date, "tickers": {}}
+    failed = []
     for t in tickers:
         cik = ciks.get(t)
         if not cik:
             out["tickers"][t] = {"error": "ticker not found in SEC list"}
             continue
         time.sleep(0.2)
-        subs = json.loads(pilib.http_get(f"https://data.sec.gov/submissions/CIK{cik:010d}.json", hdr))
-        filings = recent_filings(subs, since, cik)
+        try:
+            subs = json.loads(pilib.http_get(f"https://data.sec.gov/submissions/CIK{cik:010d}.json", hdr))
+            filings = recent_filings(subs, since, cik)
+        except Exception as e:
+            out["tickers"][t] = {"cik": cik, "error": str(e)}
+            print(f"{t}: FAILED to read filings: {e}")
+            failed.append(t)
+            continue
         form4s = []
         for f in filings:
             if f["form"] in ("4", "4/A") and f["url"].endswith(".xml"):
@@ -232,6 +248,9 @@ def main(argv=None) -> int:
                              "insider_summary": summarise_insiders(form4s)}
         print(f"{t}: {len(filings)} filings since {since} ({len(form4s)} insider reports)")
     pilib.write_json(pilib.DATA / "filings" / f"{date}.json", out)
+    if failed:  # non-zero so the pipeline marks the step failed and the report says what is missing
+        print(f"filings missing for: {', '.join(failed)}", file=sys.stderr)
+        return 1
     return 0
 
 

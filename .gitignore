@@ -3,3 +3,8 @@ __pycache__/
 .DS_Store
 # Price CSVs are re-downloaded every run; metrics, filings and research snapshots are kept.
 data/prices/*.csv
+# Secrets never belong in the repository; keys live in the cloud environment.
+.env
+.env.*
+*.pem
+*.key

@@ -5,7 +5,8 @@
 [tier1]   # primary sources
 domains = ["sec.gov", "data.sec.gov", "investor.nvidia.com", "nvidianews.nvidia.com", "ir.crowdstrike.com",
            "crowdstrike.com", "investors.credosemi.com", "credosemi.com", "investor.lumentum.com", "lumentum.com",
-           "strlco.com", "investors.strlco.com", "businesswire.com", "prnewswire.com", "globenewswire.com",
+           "strlco.com", "modernatx.com", "tsmc.com", "amd.com",
+           "paloaltonetworks.com", "bloomenergy.com", "snowflake.com", "agilent.com", "businesswire.com", "prnewswire.com", "globenewswire.com",
            "federalreserve.gov", "bls.gov", "bea.gov", "commerce.gov", "bis.doc.gov", "nyse.com"]
 
 [tier2]   # established newsrooms with editorial standards

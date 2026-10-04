@@ -7,7 +7,7 @@ failed in the report's "Data quality and sources" section.
 1. Read `CLAUDE.md` first, then follow `routines/daily-report.md` step by step.
 2. The report date is today's date in Europe/Madrid.
 3. Read the trade log with the Google Drive connector: file id
-   `1q0DLvB7WieV30mpA8a9rNgg6-GoqmXaWyr0Kyvrkf8M`, tab "Trades". If it cannot be read, run the
+   `1q0DLvB7WieV30mpA8a9rNgg6-GoqmXaWyr0Kyvrkf8M`, tab "Trades". Read only: never change the sheet. If it cannot be read, run the
    pipeline with `--fallback` and put a warning at the top of the report.
 4. The overriding goal: Santi is a beginner who wants to become an expert. Lead with the
    conclusion, then explain why and how it works in plain English, defining every new term

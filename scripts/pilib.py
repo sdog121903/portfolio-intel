@@ -10,6 +10,7 @@ import datetime as dt
 import gzip
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -22,7 +23,14 @@ DATA = ROOT / "data"
 CONFIG = ROOT / "config"
 LEARNING = ROOT / "learning"
 
-BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+# An honest, identifying User-Agent. Yahoo answers 429 to spoofed browser strings but serves this.
+DEFAULT_UA = "portfolio-intel/1.0 (personal research)"
+SECRET_PARAM = re.compile(r"((?:api_?key|token)=)[^&\s]+", re.I)
+
+
+def redact(text: str) -> str:
+    """Hide API keys and tokens in URLs; error messages end up in committed status files."""
+    return SECRET_PARAM.sub(r"\1REDACTED", text)
 
 
 # ---------------------------------------------------------------- config
@@ -68,7 +76,7 @@ def days_between(a: str, b: str) -> int:
 def http_get(url: str, headers: Optional[dict] = None, timeout: int = 30, retries: int = 3,
              backoff: float = 2.0) -> bytes:
     """GET with retries and gzip handling. Raises the last error if every attempt fails."""
-    hdrs = {"User-Agent": BROWSER_UA, "Accept-Encoding": "gzip"}
+    hdrs = {"User-Agent": DEFAULT_UA, "Accept-Encoding": "gzip"}
     hdrs.update(headers or {})
     last: Optional[Exception] = None
     for attempt in range(retries):
@@ -86,7 +94,7 @@ def http_get(url: str, headers: Optional[dict] = None, timeout: int = 30, retrie
         except Exception as e:  # network errors, timeouts
             last = e
         time.sleep(backoff * (attempt + 1))
-    raise RuntimeError(f"GET failed for {url}: {last}")
+    raise RuntimeError(redact(f"GET failed for {url}: {last}"))
 
 
 # ---------------------------------------------------------------- files

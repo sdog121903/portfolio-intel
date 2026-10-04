@@ -6,16 +6,14 @@ data/prices/_provenance.json (which provider answered, when, how many rows).
 
 Provider chain, tried in order until one works:
   1. yahoo        query1.finance.yahoo.com chart API   (free, unofficial, adjusted closes)
-  2. stooq        stooq.com daily CSV                  (free, unofficial)
+  2. nasdaq       api.nasdaq.com historical quotes     (free, unofficial, no key; closes not dividend-adjusted)
   3. alphavantage www.alphavantage.co                  (free key in ALPHAVANTAGE_API_KEY; compact = ~100 days)
 These are unofficial or rate-limited sources: the report must say which one was used.
 """
 from __future__ import annotations
 
 import argparse
-import csv
 import datetime as dt
-import io
 import json
 import os
 import sys
@@ -54,19 +52,24 @@ def parse_yahoo_chart(raw: bytes) -> list:
     return dedupe(rows)
 
 
-def parse_stooq_csv(raw: bytes) -> list:
-    text = raw.decode("utf-8", errors="replace")
-    if not text.lower().startswith("date"):
-        raise ValueError("stooq: unexpected response (no CSV header)")
+def parse_nasdaq(raw: bytes) -> list:
+    data = json.loads(raw)
+    rows_in = (((data.get("data") or {}).get("tradesTable") or {}).get("rows")) or []
+    if not rows_in:
+        raise ValueError(f"nasdaq: no rows ({(data.get('status') or {}).get('bCodeMessage')})")
+
+    def num(v):
+        v = str(v or "").replace("$", "").replace(",", "").strip()
+        return float(v) if v not in ("", "N/A") else None
+
     rows = []
-    for r in csv.DictReader(io.StringIO(text)):
-        try:
-            close = float(r["Close"])
-        except (KeyError, ValueError):
+    for r in rows_in:
+        close = num(r.get("close"))
+        if close is None:
             continue
-        rows.append({"date": r["Date"], "open": float(r["Open"]), "high": float(r["High"]),
-                     "low": float(r["Low"]), "close": close, "adj_close": close,
-                     "volume": float(r.get("Volume") or 0)})
+        m, d, y = r["date"].split("/")
+        rows.append({"date": f"{y}-{m}-{d}", "open": num(r.get("open")), "high": num(r.get("high")),
+                     "low": num(r.get("low")), "close": close, "adj_close": close, "volume": num(r.get("volume"))})
     return dedupe(rows)
 
 
@@ -96,11 +99,19 @@ def fetch_yahoo(ticker: str, rng: str) -> list:
     return parse_yahoo_chart(pilib.http_get(url))
 
 
-def fetch_stooq(ticker: str, rng: str) -> list:
-    url = f"https://stooq.com/q/d/l/?s={ticker.lower()}.us&i=d"
-    rows = parse_stooq_csv(pilib.http_get(url))
-    keep = {"1y": 400, "2y": 800, "5y": 2000}.get(rng, 800)
-    return rows[-keep:]
+def fetch_nasdaq(ticker: str, rng: str) -> list:
+    days = {"1y": 400, "2y": 740, "5y": 1830}.get(rng, 740)
+    end = dt.date.today()
+    start = end - dt.timedelta(days=days)
+    errors = []
+    for asset_class in ("stocks", "etf"):  # the API needs the right class; unknown symbols return no rows
+        url = (f"https://api.nasdaq.com/api/quote/{ticker}/historical?assetclass={asset_class}"
+               f"&fromdate={start.isoformat()}&todate={end.isoformat()}&limit=9999")
+        try:
+            return parse_nasdaq(pilib.http_get(url, {"Accept": "application/json"}))
+        except ValueError as e:
+            errors.append(str(e))
+    raise ValueError("; ".join(errors))
 
 
 def fetch_alphavantage(ticker: str, rng: str) -> list:
@@ -112,7 +123,7 @@ def fetch_alphavantage(ticker: str, rng: str) -> list:
     return parse_alphavantage(pilib.http_get(url))
 
 
-PROVIDERS = {"yahoo": fetch_yahoo, "stooq": fetch_stooq, "alphavantage": fetch_alphavantage}
+PROVIDERS = {"yahoo": fetch_yahoo, "nasdaq": fetch_nasdaq, "alphavantage": fetch_alphavantage}
 
 
 def fetch_one(ticker: str, rng: str, order: list) -> tuple:
@@ -145,7 +156,7 @@ def universe(cfg: dict, holdings: dict) -> list:
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--tickers", nargs="*", help="override the ticker list")
-    ap.add_argument("--providers", default="yahoo,stooq,alphavantage")
+    ap.add_argument("--providers", default="yahoo,nasdaq,alphavantage")
     a = ap.parse_args(argv)
     cfg = pilib.portfolio_config()
     rng = cfg.get("run", {}).get("price_history_range", "2y")

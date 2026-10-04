@@ -14,7 +14,7 @@ deserves more. Spend effort where something actually happened.
 
 ## 1. Holdings from the Google Sheet
 
-Read the sheet with the **Google Drive connector** (`sheet.file_id`, tab `sheet.tab`). Rows start
+Read only: never write to, format, comment on or share the sheet. Read the sheet with the **Google Drive connector** (`sheet.file_id`, tab `sheet.tab`). Rows start
 at `sheet.first_data_row`. Map columns with `[sheet.columns]` and write
 `data/holdings/raw-<DATE>.json`:
 
@@ -112,21 +112,26 @@ For each term explained today:
 `python3 .claude/skills/learning-tracker/scripts/concept_ledger.py taught "<term>" --one-liner "<plain definition>"`
 Tick topics covered in `learning/curriculum.md`.
 
-## 11. Email
+## 11. Write the email file, then commit and push
 
-Fill `templates/email.md` into `reports/daily/<YYYY>/<MM>/<DATE>-email.md`, render it with
-`python3 .claude/skills/portfolio-daily-report/scripts/render_email.py <that file> > /tmp/email.html`,
-and send it with the **Gmail connector** to `owner.email_to` only. Subject:
-`Portfolio report <DATE>: <bottom line in under 10 words>`. If sending fails, say so in the
-session summary; the report is still in the repo.
-
-## 12. Commit and push
+Fill `templates/email.md` into `reports/daily/<YYYY>/<MM>/<DATE>-email.md` (it is saved with the
+report; do not lint it, the linter is for the full report only). Then:
 
 ```bash
 git add reports data learning
 git commit -m "Daily report <DATE>"
 git push origin HEAD:main
 ```
+
+Push before emailing, so the email's "read the full report" link already works.
+
+## 12. Send the email
+
+Render the email file from step 11 with
+`python3 .claude/skills/portfolio-daily-report/scripts/render_email.py <that file> > /tmp/email.html`,
+and send it with the **Gmail connector** to `owner.email_to` only. Subject:
+`Portfolio report <DATE>: <bottom line in under 10 words>`. If sending fails, say so in the
+session summary; the report is still in the repo.
 
 ## If things go wrong
 

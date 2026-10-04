@@ -47,18 +47,19 @@ class TestPriceParsers(unittest.TestCase):
         self.assertEqual(rows[-1]["close"], 270.04)
         self.assertEqual(rows[-1]["adj_close"], 270.04)
 
-    def test_stooq(self):
-        rows = fp.parse_stooq_csv((FIX / "stooq.csv").read_bytes())
-        self.assertEqual([r["date"] for r in rows][-1], "2026-10-02")
+    def test_nasdaq_dates_dollars_and_order(self):
+        rows = fp.parse_nasdaq((FIX / "nasdaq.json").read_bytes())
+        self.assertEqual([r["date"] for r in rows], ["2026-10-01", "2026-10-02"])  # N/A row dropped
         self.assertAlmostEqual(rows[-1]["close"], 233.95)
+        self.assertAlmostEqual(rows[-1]["volume"], 162e6)
 
     def test_alphavantage_sorted(self):
         rows = fp.parse_alphavantage((FIX / "alphavantage.json").read_bytes())
         self.assertEqual([r["date"] for r in rows], ["2026-10-01", "2026-10-02"])
 
-    def test_bad_stooq(self):
+    def test_nasdaq_unknown_symbol(self):
         with self.assertRaises(ValueError):
-            fp.parse_stooq_csv(b"<html>blocked</html>")
+            fp.parse_nasdaq(b'{"data":null,"status":{"rCode":400,"bCodeMessage":[{"errorMessage":"Symbol not exists."}]}}')
 
 
 class TestEdgar(unittest.TestCase):
@@ -89,6 +90,56 @@ class TestEdgar(unittest.TestCase):
         self.assertEqual(s["sellers_not_under_10b5_1_plan"], ["Example Officer"])
 
 
+class TestEdgarExtras(unittest.TestCase):
+    def test_foreign_filer_forms_are_decoded(self):
+        for form in ("6-K", "20-F", "40-F"):
+            self.assertIn(form, ed.FORMS)
+
+    def test_not_pursuant_to_a_plan_is_not_a_plan(self):
+        xml = (FIX / "form4.xml").read_bytes()
+        neg = xml.replace(b"</ownershipDocument>", b"<footnotes><footnote id='F9'>These sales were not made pursuant "
+                                                    b"to a Rule 10b5-1 trading plan.</footnote></footnotes></ownershipDocument>")
+        pos = xml.replace(b"</ownershipDocument>", b"<footnotes><footnote id='F9'>Sold under a Rule 10b5-1 trading "
+                                                    b"plan adopted in May.</footnote></footnotes></ownershipDocument>")
+        self.assertFalse(ed.parse_form4(neg)["under_10b5_1_plan"])
+        self.assertTrue(ed.parse_form4(pos)["under_10b5_1_plan"])
+        # an unrelated "not" in another footnote must not cancel a real plan
+        mixed = xml.replace(b"</ownershipDocument>", b"<footnotes><footnote id='F8'>Includes units that have not yet "
+                                                      b"vested</footnote><footnote id='F9'>Sold pursuant to a Rule 10b5-1 "
+                                                      b"trading plan.</footnote></footnotes></ownershipDocument>")
+        self.assertTrue(ed.parse_form4(mixed)["under_10b5_1_plan"])
+        outside = xml.replace(b"</ownershipDocument>", b"<footnotes><footnote id='F9'>Sold outside of any Rule 10b5-1 "
+                                                       b"plan.</footnote></footnotes></ownershipDocument>")
+        self.assertFalse(ed.parse_form4(outside)["under_10b5_1_plan"])
+
+    def test_failed_ticker_fails_the_step(self):
+        """The pipeline marks a step failed only from its exit code, so SEC failures must not exit 0."""
+        import pilib
+        tmp = Path(tempfile.mkdtemp())
+        old_data, old_get = pilib.DATA, pilib.http_get
+        try:
+            pilib.DATA = tmp
+            pilib.write_json(tmp / "filings" / "company_tickers.json",
+                             {"0": {"cik_str": 2488, "ticker": "AMD", "title": "Advanced Micro Devices"}})
+
+            def blocked(*a, **k):
+                raise RuntimeError("GET failed: HTTP Error 403: Forbidden")
+            pilib.http_get = blocked
+            self.assertEqual(ed.main(["--date", "2026-10-04", "--tickers", "AMD"]), 1)
+            self.assertIn("error", json.loads((tmp / "filings" / "2026-10-04.json").read_text())["tickers"]["AMD"])
+        finally:
+            pilib.DATA, pilib.http_get = old_data, old_get
+            shutil.rmtree(tmp, ignore_errors=True)
+
+
+class TestSecrets(unittest.TestCase):
+    def test_api_keys_are_redacted_from_errors(self):
+        import pilib
+        msg = pilib.redact("GET failed for https://www.alphavantage.co/query?symbol=SPY&apikey=SECRET123&x=1: 429")
+        self.assertNotIn("SECRET123", msg)
+        self.assertIn("apikey=REDACTED&x=1", msg)
+
+
 class TestFundamentals(unittest.TestCase):
     def test_build_derives_q4_and_growth(self):
         out = ff.build(json.loads((FIX / "companyfacts.json").read_text()))
@@ -102,6 +153,70 @@ class TestFundamentals(unittest.TestCase):
         self.assertAlmostEqual(qs["2026-06-30"]["gross_margin_pct"], 62.0)
         self.assertAlmostEqual(out["ttm"]["revenue"], 566e6)
         self.assertAlmostEqual(out["ttm"]["eps_diluted"], 5.65)
+
+    def test_most_recent_tag_wins(self):
+        """A company that switched revenue tags must not report the abandoned tag's old quarters."""
+        old = [{"start": "2019-10-28", "end": "2020-01-26", "val": 3.1e9, "form": "10-K", "filed": "2020-02-20"}]
+        new = [{"start": "2026-05-01", "end": "2026-07-31", "val": 4.0e10, "form": "10-Q", "filed": "2026-08-27"}]
+        facts = {"facts": {"us-gaap": {
+            "RevenueFromContractWithCustomerExcludingAssessedTax": {"units": {"USD": old}},
+            "Revenues": {"units": {"USD": new}}}}}
+        tag, entries = ff.pick_series(facts, "revenue")
+        self.assertIn("Revenues", tag)
+        self.assertEqual(ff.quarterly(entries)[-1]["end"], "2026-07-31")
+
+    def test_quarters_and_annual_split_across_tags(self):
+        """LITE files its quarters under one tag and the annual total under both; Q4 must still be derived."""
+        def e(start, end, val, form):
+            return {"start": start, "end": end, "val": val, "form": form, "filed": "2026-08-17", "fy": 2026}
+        annual = e("2025-06-29", "2026-06-27", 1000.0, "10-K")
+        facts = {"facts": {"us-gaap": {
+            "RevenueFromContractWithCustomerExcludingAssessedTax": {"units": {"USD": [annual]}},
+            "RevenueFromContractWithCustomerIncludingAssessedTax": {"units": {"USD": [
+                e("2025-06-29", "2025-09-27", 200.0, "10-Q"), e("2025-09-28", "2025-12-27", 250.0, "10-Q"),
+                e("2025-12-28", "2026-03-28", 260.0, "10-Q"), annual]}}}}}
+        q = ff.quarterly(ff.pick_series(facts, "revenue")[1])
+        self.assertEqual(q[-1]["end"], "2026-06-27")
+        self.assertAlmostEqual(q[-1]["value"], 290.0)
+        self.assertTrue(q[-1]["derived"])
+
+    def test_staleness_warning(self):
+        out = {"latest_quarters": [{"period_end": "2026-03-31"}]}
+        self.assertIn("2026-03-31", ff.staleness(out, "2026-10-04"))
+        self.assertIsNone(ff.staleness({"latest_quarters": [{"period_end": "2026-06-30"}]}, "2026-10-04"))
+
+    def test_total_revenue_preferred_and_labels_from_first_filing(self):
+        def e(tag_val, end, fy, fp, filed, form="10-Q", start=None):
+            return {"start": start, "end": end, "val": tag_val, "fy": fy, "fp": fp, "filed": filed, "form": form}
+        facts = {"facts": {"us-gaap": {
+            "Revenues": {"units": {"USD": [
+                e(751.0, "2026-03-31", 2026, "Q1", "2026-04-29", start="2026-01-01"),
+                e(322.0, "2025-03-31", 2025, "Q1", "2025-04-30", start="2025-01-01"),
+                e(322.0, "2025-03-31", 2026, "Q1", "2026-04-29", start="2025-01-01")]}},   # comparative, newer fy
+            "RevenueFromContractWithCustomerExcludingAssessedTax": {"units": {"USD": [
+                e(746.0, "2026-03-31", 2026, "Q1", "2026-04-29", start="2026-01-01")]}},
+            "NetIncomeLoss": {"units": {"USD": [e(-10.0, "2026-03-31", 2026, "Q1", "2026-04-29", start="2026-01-01")]}},
+            "ProfitLoss": {"units": {"USD": [e(-12.0, "2026-03-31", 2026, "Q1", "2026-04-29", start="2026-01-01"),
+                                             e(-30.0, "2025-03-31", 2025, "Q1", "2025-04-30", start="2025-01-01")]}}}}}
+        out = ff.build(facts)
+        qs = {q["period_end"]: q for q in out["latest_quarters"]}
+        self.assertEqual(qs["2026-03-31"]["revenue"], 751.0)            # total, not contract-only
+        self.assertEqual(qs["2025-03-31"]["fiscal"], "2025 Q1")          # not the comparative's 2026
+        self.assertEqual(out["tags_used"]["net_income"], "NetIncomeLoss")
+        self.assertEqual(qs["2026-03-31"]["net_income"], -10.0)
+        self.assertIsNone(qs["2025-03-31"]["net_income"])                # ProfitLoss not mixed in
+
+    def test_derived_q4_eps_is_not_shown(self):
+        out = ff.build(json.loads((FIX / "companyfacts.json").read_text()))
+        q4 = {q["period_end"]: q for q in out["latest_quarters"]}["2025-12-31"]
+        self.assertTrue(q4["eps_derived"])
+        self.assertIsNone(q4["eps_diluted"])
+        self.assertAlmostEqual(out["ttm"]["eps_diluted"], 5.65)  # TTM still uses the derived value
+
+    def test_ifrs_filer_is_explained(self):
+        out = ff.build({"entityName": "Foreign Co", "facts": {"ifrs-full": {"Revenue": {}}}})
+        self.assertEqual(out["latest_quarters"], [])
+        self.assertIn("IFRS", out["notes"][0])
 
 
 class TestMetrics(unittest.TestCase):
@@ -220,6 +335,7 @@ GOOD = """# Portfolio report: 2026-10-05
 No rule fired.
 
 ## Position: CRWD (CrowdStrike)
+**Bottom line:** CRWD rose with the market.
 **Where it stands** 0.074 shares.
 **What happened, and why**
 - CrowdStrike raised its yearly forecast [Reuters, 2026-08-27](https://www.reuters.com/x)
@@ -227,6 +343,7 @@ No rule fired.
 **Case to stay** ...
 **Case to retreat** ...
 **Thesis check** Intact.
+**Coming up** Results on 2026-12-02 (estimated).
 
 ## Your portfolio as a whole
 Five stocks.
@@ -244,9 +361,8 @@ Prices from Yahoo. Research and education, not investment advice.
 
 class TestLintAndRender(unittest.TestCase):
     def setUp(self):
-        import tomllib
-        with open(ROOT / "config/sources.toml", "rb") as f:
-            self.tiers = tomllib.load(f)
+        import pilib
+        self.tiers = pilib.load_toml(ROOT / "config/sources.toml")  # tomllib on 3.11+, tomli before
 
     def test_good_report_passes(self):
         errors, warnings, counts = lr.lint(GOOD, self.tiers, {"concepts": {}}, ["guidance", "beta"])
@@ -263,6 +379,31 @@ class TestLintAndRender(unittest.TestCase):
         self.assertIn("citation", text)
         self.assertIn("advice language", text)
         self.assertIn("jargon 'beta'", text)
+
+    def test_position_contract_and_coverage(self):
+        no_parts = GOOD.replace("**Bottom line:** CRWD rose with the market.\n", "").replace("**Coming up**", "**Later**")
+        text = " | ".join(lr.lint(no_parts, self.tiers, {"concepts": {}}, [])[0])
+        self.assertIn("missing 'Bottom line'", text)
+        self.assertIn("missing 'Coming up'", text)
+        errors, warnings, _ = lr.lint(GOOD, self.tiers, {"concepts": {}}, [], open_tickers=["CRWD", "NVDA"])
+        self.assertEqual(errors, ["open holding NVDA has no '## Position: NVDA' section"])
+        _, warnings, _ = lr.lint(GOOD, self.tiers, {"concepts": {}}, [], open_tickers=[])
+        self.assertTrue(any("not an open holding" in w for w in warnings))
+
+    def test_cited_analyst_opinion_allowed_paraphrased_advice_caught(self):
+        cited = GOOD.replace("Five stocks.", "- Morgan Stanley kept its buy rating with a price target of $500 "
+                                             "[Reuters, 2026-10-04](https://www.reuters.com/y)")
+        self.assertEqual(lr.lint(cited, self.tiers, {"concepts": {}}, [])[0], [])
+        uncited = GOOD.replace("Five stocks.", "Our price target of $500 looks fair.")
+        self.assertIn("without a citation", " | ".join(lr.lint(uncited, self.tiers, {"concepts": {}}, [])[0]))
+        for phrase in ("You should consider selling CRWD.", "Consider trimming NVDA.", "I would sell here."):
+            errs = lr.lint(GOOD.replace("Five stocks.", phrase), self.tiers, {"concepts": {}}, [])[0]
+            self.assertTrue(any("advice language" in e for e in errs), phrase)
+
+    def test_new_word_must_be_a_whole_word(self):
+        report = GOOD.replace("Five stocks.", "EPS rose.").replace("- **Guidance**: the company's own forecast.",
+                                                                   "- **Guidance**: the next steps.")
+        self.assertIn("jargon 'eps'", " | ".join(lr.lint(report, self.tiers, {"concepts": {}}, ["eps"])[0]))
 
     def test_render(self):
         html = re_.convert("# Title\n\n**Bold** and [link](https://x.com)\n\n- a\n- b\n\n| A | B |\n|---|---|\n| 1 | 2 |\n")
@@ -281,6 +422,9 @@ class TestHoldings(unittest.TestCase):
         ]
         out = lh.normalise(rows, "test", "2026-10-05")
         pos = {p["ticker"]: p for p in out["positions"]}
+        mixed = lh.normalise([{"ticker": "X", "shares": 1, "entry_price_estimate": 10},
+                              {"ticker": "X", "shares": 1, "fill_price": 12}], "test", "2026-10-05")
+        self.assertEqual(mixed["positions"][0]["entry_price_source"], "mixed")
         self.assertAlmostEqual(pos["NVDA"]["shares"], 0.053)
         self.assertAlmostEqual(pos["NVDA"]["entry_price"], (230 * 0.043 + 240 * 0.01) / 0.053, places=3)
         self.assertEqual(pos["NVDA"]["open_date"], "2026-10-05")
@@ -363,6 +507,17 @@ class TestGoalsLens(unittest.TestCase):
         self.assertAlmostEqual(out["goals_check"]["technology_share_pct"], 60.0)
         self.assertEqual(out["goals_check"]["largest_theme"], "AI data centers")
         self.assertAlmostEqual(out["goals_check"]["largest_theme_share_pct"], 100.0)
+        self.assertEqual(out["goals_check"]["high_movers_beta_1_5_plus"], ["NVDA"])
+        self.assertAlmostEqual(out["goals_check"]["high_movers_share_pct"], 60.0)
+        self.assertEqual(out["goals_check"]["unclassified_tickers"], [])
+
+    def test_unknown_ticker_never_becomes_the_largest_theme(self):
+        stock, _, _ = synthetic()
+        s1 = pr.returns_by_date(stock)
+        out = pr.compute({"NEW": 70.0, "NVDA": 30.0}, {"NEW": s1, "NVDA": s1}, {"NEW": 1.0, "NVDA": 1.8},
+                         {"NVDA": ["AI data centers"]}, {"NVDA": "Technology"}, [])
+        self.assertEqual(out["goals_check"]["largest_theme"], "AI data centers")
+        self.assertEqual(out["goals_check"]["unclassified_tickers"], ["NEW"])
 
 
 def _mk(repo, t):
