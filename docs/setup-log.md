@@ -85,3 +85,13 @@ A multi-agent review (5 finders, 3 skeptics per finding, 110 agents) checked eve
 - Old Cowork task "Daily portfolio report" (07:50 daily, on the setup account, routine id
   trig_01EsqNyLTgh3utJMNPgcJ5Cw, 11 connectors attached): pause after the first clean run of the
   new routine (owner's choice).
+
+## 2026-10-04: delivery and scheduling changed
+
+- Email switched off; every report is saved as Markdown and as a PDF (`reports/pdf/`, `render_pdf.py`).
+- Research (74-agent check of docs and terms, every claim verified by two skeptics): the cloud-session
+  credit does **not** cover Routines; there is no supported way to start an ordinary cloud session
+  on a timer. Owner's choice: **tap to run** (`daily report` at 07:07, `deep dive` Sundays 10:07),
+  paid by the credit until it ends. Steps in `setup/ROUTINE_SETUP.md`.
+- Noted: the Claude CLI on this Mac reports a Pro plan for the setup account (Pro credit is $100);
+  the credit must be on the account used to start the runs.

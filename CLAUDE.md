@@ -4,6 +4,15 @@ This repository produces Santi's daily portfolio report. It runs as a Claude Cod
 in Anthropic's cloud: each morning a fresh session clones this repo, reads this file, follows
 `routines/daily-report.md`, and commits the report (Markdown and PDF) to `reports/`.
 
+## Quick commands (the owner starts each run by hand from claude.ai/code or the Claude app)
+
+- **`daily report`**: run `routines/daily-routine-prompt.md` (and so `routines/daily-report.md`)
+  start to finish, unattended. Planned for 07:07 Europe/Madrid each day.
+- **`deep dive`**: run `routines/weekly-routine-prompt.md`. Planned for Sundays at 10:07.
+
+Do not stop to ask questions during these runs; finish with a short summary of what worked and
+what failed, and the paths of the new report and PDF.
+
 ## The bottom line (overrides everything else)
 
 **Santi is a beginner who wants to become an expert. Every report must teach.**
