@@ -75,3 +75,13 @@ A multi-agent review (5 finders, 3 skeptics per finding, 110 agents) checked eve
 - Re-verified before pushing: 37 tests OK, example report lints PASS, live pipeline 8/8 OK,
   secret scan clean.
 - `repo.url` set to the repository address.
+
+## 2026-10-04: decisions for the routines
+
+- Routines will run on the owner's **personal** Claude account, not the account used for this setup
+  session (santiago@hobetu.ai). Routines, connectors, environment and billing are per account, so
+  they are created there; step-by-step values are in `setup/ROUTINE_SETUP.md`.
+- Model: Opus 5.5. Daily report 07:07 Europe/Madrid; weekly deep dive Sundays 10:07 Europe/Madrid.
+- Old Cowork task "Daily portfolio report" (07:50 daily, on the setup account, routine id
+  trig_01EsqNyLTgh3utJMNPgcJ5Cw, 11 connectors attached): pause after the first clean run of the
+  new routine (owner's choice).
