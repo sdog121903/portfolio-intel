@@ -18,8 +18,8 @@
  5. portfolio view: portfolio-risk + 14-day calendar
  6. teaching layer: lesson of the day, new words, learning ledger
  7. report from template  ->  challenger -> fact-checker -> plain-english-editor -> linter
- 8. commit + push to main  ->  reports/daily/YYYY/MM/<DATE>.md
- 9. Gmail connector  ->  email to sgomezo2003@gmail.com
+ 8. render_pdf.py  ->  reports/pdf/<DATE>.pdf
+ 9. commit + push to main  ->  reports/daily/YYYY/MM/<DATE>.md + the PDF (no email)
 ```
 
 Weekly (optional second routine): one holding gets a full `stock-analysis` deep dive, and its

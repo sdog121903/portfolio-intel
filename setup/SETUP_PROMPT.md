@@ -1,5 +1,10 @@
 # Setup prompt: portfolio-intel (paste this whole file into Claude Code)
 
+> **Superseded in parts (2026-10-04).** Setup was done; see `docs/setup-log.md`. Since then:
+> no email (each report is saved as Markdown and as a PDF in `reports/`), the repository is
+> `github.com/sdog121903/portfolio-intel`, and scheduling and billing are described in
+> `setup/ROUTINE_SETUP.md`. Phases 7-12 below (Gmail, routines, first email) are history.
+
 You are setting up a finished system for Santi (Santiago Gomez). The system is a folder of
 skills, scripts, routines and templates in `portfolio-intel.zip`. Your job is to install it,
 prove it works, audit it against every one of his objectives, publish it to a private GitHub

@@ -1,3 +1,5 @@
 # The pipeline uses only the Python standard library.
 # tomli is needed only if the cloud image runs Python older than 3.11.
 tomli; python_version < "3.11"
+# PDF copies of each report (reports/pdf/).
+fpdf2>=2.8

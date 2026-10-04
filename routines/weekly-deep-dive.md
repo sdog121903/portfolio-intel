@@ -40,7 +40,8 @@ no buy/sell call.
 Add the new concepts this deep dive used to `learning/` (lesson file and ledger), exactly as
 in the daily runbook, steps 7 and 10.
 
-## 5. Commit, push, email
+## 5. PDF, commit, push
 
-Commit to `main`. Email a short summary (the plain-English summary plus a link to the full
-deep dive) to `owner.email_to` only, subject `Deep dive: <TICKER> - <one-line conclusion>`.
+`python3 .claude/skills/portfolio-daily-report/scripts/render_pdf.py reports/deep-dives/<TICKER>-<DATE>.md`
+writes `reports/pdf/deep-dive-<TICKER>-<DATE>.pdf`. Then `git add reports theses learning data`,
+commit and push to `main`. No email.

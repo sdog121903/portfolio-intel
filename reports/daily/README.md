@@ -1,2 +1,1 @@
-Daily reports, one per day: `YYYY/MM/YYYY-MM-DD.md` (full report) and `YYYY-MM-DD-email.md`
-(the short version that was emailed).
+Daily reports, one per day: `YYYY/MM/YYYY-MM-DD.md`. The same report as a PDF is in `../pdf/`.

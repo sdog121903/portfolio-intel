@@ -2,12 +2,12 @@
 
 [owner]
 name = "Santiago Gomez"
-email_to = "sgomezo2003@gmail.com"   # the ONLY address reports are ever sent to
+email_to = "sgomezo2003@gmail.com"   # contact for the SEC User-Agent; email delivery is switched off
 timezone = "Europe/Madrid"           # decides the report date
 currency = "USD"
 
 [repo]
-# Used for "read the full report" links in the email. Fill in after you create the repo.
+# The repository that holds every report.
 url = "https://github.com/sdog121903/portfolio-intel"
 branch = "main"
 

@@ -71,4 +71,5 @@ seriously rather than adding caveats.
 
 - `scripts/load_holdings.py`: sheet rows or fallback CSV -> `data/holdings/<DATE>.json`
 - `scripts/lint_report.py`: the report contract check (exit 1 on errors)
-- `scripts/render_email.py`: email markdown -> mobile-friendly HTML
+- `scripts/render_pdf.py`: finished report -> `reports/pdf/<DATE>.pdf` (fpdf2)
+- `scripts/render_email.py`: markdown -> simple HTML (used by `render_pdf.py`; email delivery is off)

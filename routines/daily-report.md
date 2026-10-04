@@ -112,10 +112,17 @@ For each term explained today:
 `python3 .claude/skills/learning-tracker/scripts/concept_ledger.py taught "<term>" --one-liner "<plain definition>"`
 Tick topics covered in `learning/curriculum.md`.
 
-## 11. Write the email file, then commit and push
+## 11. Make the PDF
 
-Fill `templates/email.md` into `reports/daily/<YYYY>/<MM>/<DATE>-email.md` (it is saved with the
-report; do not lint it, the linter is for the full report only). Then:
+```bash
+python3 .claude/skills/portfolio-daily-report/scripts/render_pdf.py reports/daily/<YYYY>/<MM>/<DATE>.md
+```
+
+This writes `reports/pdf/<DATE>.pdf`, the same report as a PDF that opens anywhere. If it fails
+(for example `fpdf2` could not be installed), say so in the session summary and commit anyway:
+the Markdown report is the record.
+
+## 12. Commit and push
 
 ```bash
 git add reports data learning
@@ -123,15 +130,8 @@ git commit -m "Daily report <DATE>"
 git push origin HEAD:main
 ```
 
-Push before emailing, so the email's "read the full report" link already works.
-
-## 12. Send the email
-
-Render the email file from step 11 with
-`python3 .claude/skills/portfolio-daily-report/scripts/render_email.py <that file> > /tmp/email.html`,
-and send it with the **Gmail connector** to `owner.email_to` only. Subject:
-`Portfolio report <DATE>: <bottom line in under 10 words>`. If sending fails, say so in the
-session summary; the report is still in the repo.
+**No email.** Email delivery is switched off (owner's decision, 2026-10-04): the report lives in
+`reports/`. Never send, draft or forward email.
 
 ## If things go wrong
 

@@ -132,6 +132,36 @@ class TestEdgarExtras(unittest.TestCase):
             shutil.rmtree(tmp, ignore_errors=True)
 
 
+class TestPdf(unittest.TestCase):
+    """render_pdf.py: file naming and the font fallback run without fpdf2; the PDF itself needs it."""
+
+    def setUp(self):
+        self.rp = load(SK / "portfolio-daily-report/scripts/render_pdf.py", "render_pdf")
+
+    def test_output_names(self):
+        self.assertEqual(self.rp.default_out(ROOT / "reports/daily/2026/10/2026-10-05.md").relative_to(ROOT).as_posix(),
+                         "reports/pdf/2026-10-05.pdf")
+        self.assertEqual(self.rp.default_out(ROOT / "reports/deep-dives/CRWD-2026-10-11.md").name,
+                         "deep-dive-CRWD-2026-10-11.pdf")
+
+    def test_builtin_font_fallback_never_fails_on_symbols(self):
+        out = self.rp.to_latin1("up \u2192 down \u2013 \u201cquote\u201d \u2248 5% \u20ac10 \u6f22 caf\u00e9")
+        self.assertEqual(out, 'up -> down - "quote" ~ 5% EUR10 ? caf\u00e9')
+        out.encode("latin-1")  # drawable by the built-in font
+
+    @unittest.skipUnless(importlib.util.find_spec("fpdf"), "fpdf2 not installed")
+    def test_example_report_renders(self):
+        md = (SK / "portfolio-daily-report/templates/example-report.md").read_text()
+        for fonts in (self.rp.FONT_FAMILIES, []):  # a Unicode font if present, and the built-in fallback
+            old, self.rp.FONT_FAMILIES = self.rp.FONT_FAMILIES, fonts
+            try:
+                data = bytes(self.rp.build_pdf(md + "\nArrow \u2192 and \u6f22.\n", "t").output())
+            finally:
+                self.rp.FONT_FAMILIES = old
+            self.assertTrue(data.startswith(b"%PDF"))
+            self.assertGreater(len(data), 3000)
+
+
 class TestSecrets(unittest.TestCase):
     def test_api_keys_are_redacted_from_errors(self):
         import pilib

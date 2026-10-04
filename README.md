@@ -3,7 +3,7 @@
 A daily, sourced, beginner-friendly report on every stock in Santi's FIDELITY trade tracker,
 produced by a Claude Code **routine** that runs entirely in the cloud. Each morning it reads the
 Google Sheet, downloads prices and SEC filings, researches every holding, explains what happened
-and **why** in plain English, checks his own Stay/Retreat rules, emails the report, and saves it
+and **why** in plain English, checks his own Stay/Retreat rules, and saves the report (Markdown and PDF)
 in this repository so the history and his learning build up over time.
 
 > Informational research and education, not investment advice. The report never tells you to
@@ -17,7 +17,7 @@ in this repository so the history and his learning build up over time.
 | `routines/` | The prompts to paste into the routines, and step-by-step runbooks |
 | `.claude/skills/` | 13 skills: teaching, why-analysis, sources, filings, market metrics, earnings, products, news, position review, portfolio risk, learning tracker, the report itself, and the vendored stock-analysis deep-dive skill |
 | `.claude/agents/` | Researcher (one per stock, in parallel), challenger, fact-checker, plain-English editor |
-| `config/` | Your sheet, email, rules, source tiers, benchmarks and themes |
+| `config/` | Your sheet, rules, source tiers, benchmarks and themes |
 | `theses/` | Why you own each stock (write yours!) and what would prove it wrong |
 | `learning/` | Your textbook: daily lessons, the terms you know, the curriculum |
 | `reports/` | Every report ever written |

@@ -1,5 +1,8 @@
 # Routine setup on your personal Claude account
 
+> Billing note (verified 2026-10-04, support.claude.com/en/articles/17152539): the promotional
+> cloud-session credit does **not** cover Routines; routine runs use normal plan usage.
+
 Everything in this repository is ready. What is left belongs to a Claude account, not to the
 repository: the routines, the connectors, the cloud environment, and whose plan pays for each run.
 Do these steps **signed in to your personal Claude account** at claude.ai. About 10 minutes.
@@ -15,11 +18,11 @@ You need a paid plan (Pro or Max) on that account: routines need Claude Code on 
 Terminal alternative: run `claude`, type `/login` and choose the personal account, then type
 `/web-setup`. The GitHub CLI on your Mac is already logged in as sdog121903, so it copies that login.
 
-## 2. Connect Google Drive and Gmail
+## 2. Connect Google Drive
 
 1. Open **claude.ai/customize/connectors**.
-2. Connect **Google Drive** and **Gmail** with **sgomezo2003@gmail.com**. That account owns the
-   FIDELITY sheet, and the report email is sent from the connected Gmail account to the same address.
+2. Connect **Google Drive** with **sgomezo2003@gmail.com** (that account owns the FIDELITY sheet).
+   No Gmail: email delivery is switched off; reports are saved as Markdown and PDF in `reports/`.
 
 ## 3. Create the cloud environment
 
@@ -82,7 +85,7 @@ Open **claude.ai/code/routines** -> **New routine**:
 | Repository | sdog121903/portfolio-intel |
 | Environment | portfolio-intel |
 | Trigger | Schedule, daily, **07:07**, time zone **Europe/Madrid** |
-| Connectors | **Only** Google Drive and Gmail. Remove every other one: a routine can use every tool of every connector it has, without asking |
+| Connectors | **Only** Google Drive. Remove every other one: a routine can use every tool of every connector it has, without asking |
 
 Click **Create**.
 
@@ -98,7 +101,7 @@ Same as step 4, except: Name `Weekly deep dive`; Instructions = everything in
    ran, not that every step worked). Then check:
    - `reports/daily/2026/10/<date>.md` exists on GitHub (main branch).
    - No "FALLBACK" warning at the top of the report (that would mean the sheet was not read).
-   - The email reached sgomezo2003@gmail.com.
+   - `reports/pdf/<date>.pdf` exists on GitHub.
    - No blocked downloads (403 or "host_not_allowed") in the run log; if there are, fix step 3.
 
 ## 7. Switch off the old version (only after a clean test run)
@@ -112,6 +115,6 @@ sheet, run its `deleteDailyTrigger` function too.
 
 In Terminal: `cd ~/portfolio/portfolio-intel && claude`, `/login` with the personal account, then
 `/web-setup`, then ask: "Read setup/ROUTINE_SETUP.md and create both routines with /schedule,
-attaching only the Google Drive and Gmail connectors". Schedules in that form:
+attaching only the Google Drive connector". Schedules in that form:
 `CRON_TZ=Europe/Madrid 7 7 * * *` (daily) and `CRON_TZ=Europe/Madrid 7 10 * * 0` (Sundays).
 The environment (step 3) is still created in the browser.
