@@ -2,8 +2,8 @@
 
 > **Superseded in parts (2026-10-04).** Setup was done; see `docs/setup-log.md`. Since then:
 > no email (each report is saved as Markdown and as a PDF in `reports/`), the repository is
-> `github.com/sdog121903/portfolio-intel`, and scheduling and billing are described in
-> `setup/ROUTINE_SETUP.md`. Phases 7-12 below (Gmail, routines, first email) are history.
+> `github.com/sdog121903/portfolio-intel`, and it runs locally with `/go` (see
+> `setup/HOW_TO_RUN.md`). Phases 6-12 below (cloud, Gmail, routines, first email) are history.
 
 You are setting up a finished system for Santi (Santiago Gomez). The system is a folder of
 skills, scripts, routines and templates in `portfolio-intel.zip`. Your job is to install it,

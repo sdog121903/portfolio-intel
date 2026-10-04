@@ -1,17 +1,15 @@
 # portfolio-intel: operating manual
 
-This repository produces Santi's daily portfolio report. It runs as a Claude Code **routine**
-in Anthropic's cloud: each morning a fresh session clones this repo, reads this file, follows
-`routines/daily-report.md`, and commits the report (Markdown and PDF) to `reports/`.
+This repository produces Santi's daily portfolio report. He types `/go` in Claude Code in this
+folder; the session reads this file, follows `routines/daily-report.md`, and saves the report
+(Markdown and PDF) in `reports/` on his computer.
 
-## Quick commands (the owner starts each run by hand from claude.ai/code or the Claude app)
+## How it runs
 
-- **`daily report`**: run `routines/daily-routine-prompt.md` (and so `routines/daily-report.md`)
-  start to finish, unattended. Planned for 07:07 Europe/Madrid each day.
-- **`deep dive`**: run `routines/weekly-routine-prompt.md`. Planned for Sundays at 10:07.
-
-Do not stop to ask questions during these runs; finish with a short summary of what worked and
-what failed, and the paths of the new report and PDF.
+Locally, on the owner's computer, when he types **`/go`** in Claude Code inside this folder
+(`.claude/commands/go.md`): the daily report, plus the weekly deep dive on Sundays. Reports, PDFs,
+data and lessons stay on this computer (git ignores them). The GitHub repository shares the tool
+so others can download it and connect it to their own Claude.
 
 ## The bottom line (overrides everything else)
 
@@ -46,8 +44,8 @@ Read `.claude/skills/explain-like-a-teacher/SKILL.md` before writing anything fo
 - **The FIDELITY sheet is read-only.** Read it; never write, format, comment on or share it.
 - **No email.** Delivery is the report in `reports/` (Markdown plus PDF). Never send, draft,
   reply to, forward or delete email.
-- **Never commit secrets.** Keys live in the cloud environment.
-- Work only inside this repository. Push reports and data to `main`.
+- **Never commit secrets.**
+- Work only inside this repository. Never commit or push reports, PDFs, data or lessons.
 
 ## Map of the repo
 

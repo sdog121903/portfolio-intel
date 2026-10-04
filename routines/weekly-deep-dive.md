@@ -43,5 +43,5 @@ in the daily runbook, steps 7 and 10.
 ## 5. PDF, commit, push
 
 `python3 .claude/skills/portfolio-daily-report/scripts/render_pdf.py reports/deep-dives/<TICKER>-<DATE>.md`
-writes `reports/pdf/deep-dive-<TICKER>-<DATE>.pdf`. Then `git add reports theses learning data`,
-commit and push to `main`. No email.
+writes `reports/pdf/deep-dive-<TICKER>-<DATE>.pdf`. Everything stays on this computer: do not
+commit or push, and no email.

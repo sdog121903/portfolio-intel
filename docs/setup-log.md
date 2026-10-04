@@ -95,3 +95,12 @@ A multi-agent review (5 finders, 3 skeptics per finding, 110 agents) checked eve
   paid by the credit until it ends. Steps in `setup/ROUTINE_SETUP.md`.
 - Noted: the Claude CLI on this Mac reports a Pro plan for the setup account (Pro credit is $100);
   the credit must be on the account used to start the runs.
+
+## 2026-10-04: local only
+
+- Owner's decision: run locally with a personal Claude account, triggered by `/go`
+  (`.claude/commands/go.md`); no cloud sessions, no routines, no email.
+- Reports, PDFs, data and lessons stay on the computer; `.gitignore` excludes them so personal
+  output never reaches GitHub. The repository shares the tool.
+- `scripts/bootstrap.sh` creates `.venv` with `requirements.txt` (tomli on Python < 3.11, fpdf2).
+- `setup/ROUTINE_SETUP.md` replaced by `setup/HOW_TO_RUN.md`.

@@ -122,15 +122,10 @@ This writes `reports/pdf/<DATE>.pdf`, the same report as a PDF that opens anywhe
 (for example `fpdf2` could not be installed), say so in the session summary and commit anyway:
 the Markdown report is the record.
 
-## 12. Commit and push
+## 12. Keep it on this computer
 
-```bash
-git add reports data learning
-git commit -m "Daily report <DATE>"
-git push origin HEAD:main
-```
-
-**No email.** Email delivery is switched off (owner's decision, 2026-10-04): the report lives in
+The report, PDF, data and lesson stay in this folder; git ignores them on purpose. **Do not
+commit or push** them (the GitHub repository shares the tool, not anyone's reports). **No email.** Email delivery is switched off (owner's decision, 2026-10-04): the report lives in
 `reports/`. Never send, draft or forward email.
 
 ## If things go wrong

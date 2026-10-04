@@ -8,3 +8,12 @@ data/prices/*.csv
 .env.*
 *.pem
 *.key
+# Local Python environment created by scripts/bootstrap.sh
+.venv/
+# Personal output stays on this computer (the repository shares only the tool)
+reports/daily/*/
+reports/deep-dives/*-20*.md
+reports/pdf/*.pdf
+learning/lessons/20*.md
+data/*/*
+!data/*/.gitkeep
