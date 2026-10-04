@@ -1,0 +1,93 @@
+# Portfolio settings. The routine and every script re-read this file on each run.
+
+[owner]
+name = "Santiago Gomez"
+email_to = "sgomezo2003@gmail.com"   # the ONLY address reports are ever sent to
+timezone = "Europe/Madrid"           # decides the report date
+currency = "USD"
+
+[repo]
+# Used for "read the full report" links in the email. Fill in after you create the repo.
+url = "https://github.com/YOUR-GITHUB-USERNAME/portfolio-intel"
+branch = "main"
+
+[sheet]
+# The FIDELITY trade tracker, read each morning with the Google Drive connector.
+file_id = "1q0DLvB7WieV30mpA8a9rNgg6-GoqmXaWyr0Kyvrkf8M"
+url = "https://docs.google.com/spreadsheets/d/1q0DLvB7WieV30mpA8a9rNgg6-GoqmXaWyr0Kyvrkf8M/edit"
+tab = "Trades"
+header_row = 4
+first_data_row = 5
+
+[sheet.columns]          # column letter -> field name written to data/holdings/raw-<DATE>.json
+A = "open_date"
+B = "ticker"
+C = "side"
+D = "order_type"
+E = "shares"
+F = "name"
+G = "entry_price_estimate"   # the sheet's own estimate; often #N/A when read remotely
+K = "fees"
+Q = "fill_price"             # your Fidelity fill price: the best entry price
+R = "limit_or_stop_price"
+S = "stop_loss_alert"
+T = "target_price"
+U = "fee_override"
+V = "exit_date"
+W = "exit_price"
+X = "notes"
+
+[benchmarks]             # always downloaded; used for "the market" comparisons
+market = "SPY"           # S&P 500: the 500 largest US companies
+growth = "QQQ"           # Nasdaq-100: big US tech and growth companies
+
+# The industry fund each holding is compared with, so the report can say
+# "the whole industry fell" vs "only my company fell". Add new tickers here.
+[sector_etf]
+NVDA = "SMH"     # semiconductors
+CRDO = "SMH"     # semiconductors (connectivity chips)
+LITE = "SMH"     # closest liquid proxy for optical components
+CRWD = "CIBR"    # cybersecurity
+STRL = "PAVE"    # US infrastructure construction
+default = "SPY"
+
+# Which stock-analysis sector playbook fits each company (weekly deep dive).
+[sector_playbooks]
+NVDA = "semiconductors"
+CRDO = "semiconductors"
+LITE = "semiconductors"
+CRWD = "it-saas"
+STRL = "infra-capitalgoods"
+
+# Shared stories behind the holdings: shows how much money rides on one idea.
+[themes]
+NVDA = ["AI data centers", "semiconductors"]
+CRDO = ["AI data centers", "semiconductors"]
+LITE = ["AI data centers", "optical networking"]
+STRL = ["AI data centers", "construction"]
+CRWD = ["cybersecurity", "software"]
+
+# Santi's own goals for the portfolio, in his words. The report describes the portfolio
+# against them (how much is in technology, how concentrated, how bumpy); it never tells him
+# what to buy or sell.
+[goals]
+statements = [
+  "Diversify beyond tech",
+  "Keep the portfolio reasonably safe",
+  "Still have some bets on high movers",
+]
+
+# Broad sector of each holding, for the diversification check. Add new tickers here.
+[sectors]
+NVDA = "Technology"
+CRDO = "Technology"
+LITE = "Technology"
+CRWD = "Technology"
+STRL = "Industrials"
+
+[run]
+price_history_range = "2y"     # enough for 200-day averages and 1-year statistics
+filings_window_days = 10       # SEC filings to look back over each day
+news_window_hours = 30         # normal day: news since about yesterday's report
+monday_window_hours = 78       # Monday: Friday evening plus the weekend
+deep_dive_max_age_days = 30    # the weekly routine refreshes the oldest thesis first

@@ -1,0 +1,9 @@
+{"cik":"0001633917","name":"Lumentum Holdings Inc.","tickers":["LITE"],
+"filings":{"recent":{
+"accessionNumber":["0001633917-26-000101","0001633917-26-000099","0001633917-26-000090","0001633917-26-000050"],
+"filingDate":["2026-10-02","2026-09-30","2026-09-25","2026-08-15"],
+"acceptanceDateTime":["2026-10-02T16:31:05.000Z","2026-09-30T18:02:11.000Z","2026-09-25T08:00:00.000Z","2026-08-15T16:00:00.000Z"],
+"form":["4","8-K","144","10-K"],
+"items":["","5.02,9.01","",""],
+"primaryDocument":["xslF345X05/wk-form4_1727901000.xml","lite-20260930.htm","xsl144X01/primary_doc.xml","lite-20260627.htm"],
+"primaryDocDescription":["FORM 4","8-K","FORM 144","10-K"]}}}

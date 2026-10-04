@@ -1,0 +1,27 @@
+# Source tiers used by the research agents and checked by the report linter.
+# Tier 1 = the company or a regulator said it. Tier 2 = top-tier journalism. Tier 3 = useful, verify it.
+# "avoid" = never cite as evidence (fine for finding a primary source, never as the proof).
+
+[tier1]   # primary sources
+domains = ["sec.gov", "data.sec.gov", "investor.nvidia.com", "nvidianews.nvidia.com", "ir.crowdstrike.com",
+           "crowdstrike.com", "investors.credosemi.com", "credosemi.com", "investor.lumentum.com", "lumentum.com",
+           "strlco.com", "investors.strlco.com", "businesswire.com", "prnewswire.com", "globenewswire.com",
+           "federalreserve.gov", "bls.gov", "bea.gov", "commerce.gov", "bis.doc.gov", "nyse.com"]
+
+[tier2]   # established newsrooms with editorial standards
+domains = ["reuters.com", "bloomberg.com", "wsj.com", "ft.com", "apnews.com", "cnbc.com", "barrons.com",
+           "marketwatch.com", "theinformation.com", "economist.com", "nytimes.com", "axios.com"]
+
+[tier3]   # useful context; confirm anything material with tier 1 or 2
+# (nasdaq.com market-data pages are fine for prices and earnings dates; its syndicated articles are tier 3)
+domains = ["nasdaq.com", "finance.yahoo.com", "seekingalpha.com", "investors.com", "fool.com", "zacks.com", "morningstar.com",
+           "tipranks.com", "marketbeat.com", "stockanalysis.com", "macrotrends.net", "semianalysis.com",
+           "anandtech.com", "tomshardware.com", "servethehome.com", "lightreading.com", "eetimes.com",
+           "theregister.com", "techcrunch.com", "theverge.com", "datacenterdynamics.com"]
+
+[avoid]   # auto-generated, promotional, or prediction content
+domains = ["coincodex.com", "walletinvestor.com", "stockinvest.us", "marketbeat.com/instant-alerts",
+           "benzinga.com/pressreleases", "accessnewswire.com/newsroom/en/class-action", "thestockobserver.com",
+           "tickerreport.com", "financialcontent.com", "stocktitan.net"]
+keywords = ["price prediction", "AI sets price", "could soar", "to the moon", "class action lawsuit reminder",
+            "investors who lost money", "sponsored", "paid advertisement"]

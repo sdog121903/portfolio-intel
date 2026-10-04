@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+# Price CSVs are re-downloaded every run; metrics, filings and research snapshots are kept.
+data/prices/*.csv

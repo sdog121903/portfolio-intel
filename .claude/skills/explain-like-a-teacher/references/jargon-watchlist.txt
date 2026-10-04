@@ -1,0 +1,50 @@
+# Terms the report linter checks. If one appears and learning/concepts.json does not mark it as
+# "learning" or "known", it must be explained under "## New words today". One term per line.
+guidance
+consensus
+earnings per share
+EPS
+gross margin
+operating margin
+free cash flow
+P/E
+price-to-earnings
+forward P/E
+multiple compression
+priced in
+non-GAAP
+GAAP
+EBITDA
+enterprise value
+market cap
+ARR
+net new ARR
+net revenue retention
+remaining performance obligations
+backlog
+book-to-bill
+hyperscaler
+capex
+GPU
+ASIC
+SerDes
+optical transceiver
+active electrical cable
+8-K
+10-Q
+10-K
+Form 4
+Form 144
+10b5-1
+dilution
+buyback
+ETF
+beta
+volatility
+drawdown
+moving average
+RSI
+correlation
+value at risk
+VaR
+export controls

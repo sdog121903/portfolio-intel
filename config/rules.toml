@@ -1,0 +1,70 @@
+# YOUR rules. Every morning the report tells you which ones fired and explains why.
+# These are your plan, written down while calm. The report never adds advice of its own.
+#
+# action = "retreat"  -> shown as RETREAT RULE HIT
+# action = "target"   -> shown as TARGET REACHED
+# action = "watch"    -> shown as WATCH (look closer, nothing more)
+# To switch a rule on, set enabled = true and choose the threshold yourself.
+
+[[rule]]
+id = "stop-loss"
+type = "stop_loss_from_sheet"          # uses "Stop-loss alert ($)", column S, per trade
+action = "retreat"
+enabled = true
+
+[[rule]]
+id = "target"
+type = "target_from_sheet"             # uses "Target price ($)", column T, per trade
+action = "target"
+enabled = true
+
+[[rule]]
+id = "explain-big-moves"
+type = "abs_day_move_pct"              # any one-day move this big gets a full "why" investigation
+threshold = 5
+action = "watch"
+enabled = true
+
+[[rule]]
+id = "max-loss"
+type = "loss_from_entry_pct"           # e.g. 15 = flag when a position is down 15% from your entry
+threshold = 15
+action = "retreat"
+enabled = false
+
+[[rule]]
+id = "trailing"
+type = "drawdown_from_peak_since_entry_pct"   # e.g. 20 = 20% below the best close since you bought
+threshold = 20
+action = "retreat"
+enabled = false
+
+[[rule]]
+id = "long-trend"
+type = "close_below_sma"               # price below its 200-day average
+window = 200
+action = "watch"
+enabled = false
+
+[[rule]]
+id = "concentration"
+type = "position_weight_pct"           # e.g. 35 = flag when one stock is over 35% of the portfolio
+threshold = 35
+action = "watch"
+enabled = false
+
+[thesis_breakers]
+# Events the research agents must actively look for. Any one found = THESIS ALERT,
+# explained in plain English with its source. Edit freely.
+events = [
+  "the company cut its revenue or profit forecast (guidance)",
+  "results missed analysts' revenue or EPS estimates",
+  "a major customer was lost, or a major customer cut orders",
+  "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+  "the auditor resigned or was dismissed (8-K Item 4.01)",
+  "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+  "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+  "a regulator opened an investigation, or major litigation was filed",
+  "two or more analyst downgrades within five trading days",
+  "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+]
