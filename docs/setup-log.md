@@ -42,7 +42,7 @@ No secrets are recorded here.
 
 ## Still to do
 
-- Private GitHub repository and push; `repo.url` in `config/portfolio.toml`.
+- ~~Private GitHub repository and push; `repo.url` in `config/portfolio.toml`.~~ Done, see below.
 - Cloud access (`/web-setup`), environment `portfolio-intel` with the allowlist in the setup prompt.
 - Daily routine 07:07 Europe/Madrid; weekly deep dive Sundays 10:07 (optional).
 - First run and checks; retire the Cowork task (not visible from this session) and any Apps Script trigger.
@@ -62,3 +62,16 @@ A multi-agent review (5 finders, 3 skeptics per finding, 110 agents) checked eve
 - Leftover Stooq mentions, sheet-access wording, audit counts; also references keyed to the
   current 11 holdings, KPIs for the new industries, a non-existent Sterling host removed,
   AMD and PANW thesis wording corrected.
+
+## 2026-10-04: GitHub repository
+
+- Owner's choice: GitHub account **sdog121903** (not santiago848). `gh auth login` added it as the
+  active GitHub CLI account; santiago848 stays logged in (`gh auth switch` to change).
+- Repository: https://github.com/sdog121903/portfolio-intel (**private**), branch `main`.
+- History: commit 1 is the zip exactly as shipped; commit 2 is every local fix (diff = the review
+  surface); later commits are configuration.
+- Commit author: Santiago Gomez <145298037+sdog121903@users.noreply.github.com> (GitHub's private
+  no-reply address, set in this repository only).
+- Re-verified before pushing: 37 tests OK, example report lints PASS, live pipeline 8/8 OK,
+  secret scan clean.
+- `repo.url` set to the repository address.

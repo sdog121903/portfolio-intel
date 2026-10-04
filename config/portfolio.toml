@@ -8,7 +8,7 @@ currency = "USD"
 
 [repo]
 # Used for "read the full report" links in the email. Fill in after you create the repo.
-url = "https://github.com/YOUR-GITHUB-USERNAME/portfolio-intel"
+url = "https://github.com/sdog121903/portfolio-intel"
 branch = "main"
 
 [sheet]
