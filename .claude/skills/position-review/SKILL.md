@@ -36,6 +36,10 @@ Compare today's evidence with "What must stay true" and "Invalidation triggers" 
 Status changes need a sentence explaining what changed. If the thesis file is empty, say
 "No written thesis yet: add your reasons to theses/<TICKER>.md" and judge against the company's
 own stated strategy.
+If "Why I own it" is still TODO but the file has a "Draft thesis" (statements Santi has not yet
+approved), judge against the draft's "(Proposed)" pillars and triggers and say so plainly:
+"judged against the draft thesis, not yet approved by you". A draft trigger that happens is
+reported as a THESIS ALERT on the draft, never as his thesis breaking.
 
 ## 4. The two cases
 

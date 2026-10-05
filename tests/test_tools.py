@@ -38,6 +38,7 @@ cl = load(SK / "learning-tracker/scripts/concept_ledger.py", "concept_ledger")
 lr = load(SK / "portfolio-daily-report/scripts/lint_report.py", "lint_report")
 re_ = load(SK / "portfolio-daily-report/scripts/render_email.py", "render_email")
 lh = load(SK / "portfolio-daily-report/scripts/load_holdings.py", "load_holdings")
+nl = load(SK / "news-and-events/scripts/news_log.py", "news_log")
 
 
 class TestPriceParsers(unittest.TestCase):
@@ -548,6 +549,64 @@ class TestGoalsLens(unittest.TestCase):
                          {"NVDA": ["AI data centers"]}, {"NVDA": "Technology"}, [])
         self.assertEqual(out["goals_check"]["largest_theme"], "AI data centers")
         self.assertEqual(out["goals_check"]["unclassified_tickers"], ["NEW"])
+
+
+class TestNewsLog(unittest.TestCase):
+    def _prices(self, closes, start="2026-09-01"):
+        import datetime as dt
+        d, out = dt.date.fromisoformat(start), []
+        for c in closes:
+            while d.weekday() >= 5:
+                d += dt.timedelta(days=1)
+            out.append({"date": d.isoformat(), "close": c, "adj_close": c})
+            d += dt.timedelta(days=1)
+        return out
+
+    def test_reaction_day_timing_and_size(self):
+        rnd = random.Random(3)
+        mk_closes, st_closes = [100.0], [50.0]
+        for _ in range(60):
+            m = rnd.gauss(0, 1)
+            mk_closes.append(mk_closes[-1] * (1 + m / 100))
+            st_closes.append(st_closes[-1] * (1 + (m + rnd.gauss(0, 2)) / 100))
+        st_closes[50:] = [c * 1.20 for c in st_closes[50:]]   # a 20% jump on day 50 that holds
+        stock, market = self._prices(st_closes), self._prices(mk_closes)
+        day50 = stock[50]["date"]
+        rx = nl.reaction(stock, market, day50, "during")
+        self.assertEqual(rx["day"], day50)
+        self.assertGreater(rx["beyond_market_pct"], 15)
+        self.assertEqual(nl.size_label(rx["z"]), "very big")
+        after = nl.reaction(stock, market, stock[49]["date"], "after close")   # after the close -> next day
+        self.assertEqual(after["day"], day50)
+        self.assertIsNotNone(after["next_5_days_pct"])
+        self.assertIsNone(nl.reaction(stock, market, stock[0]["date"], "during"))  # no prior close
+
+    def test_merge_dedups_and_upgrades_to_fact_checked(self):
+        log = nl.empty_log("XYZ")
+        raw = [{"date": "2026-09-01", "what": "Results beat.", "direction": "supports", "materiality": "high"}]
+        self.assertEqual(nl.merge_items(log, "XYZ", raw, "2026-09-02", False), 1)
+        self.assertEqual(log["items"][0]["direction"], "good")
+        fixed = [{"date": "2026-09-01", "what": "Results beat.", "direction": "good", "materiality": "high",
+                  "source": {"name": "8-K", "date": "2026-09-01", "url": "https://sec.gov/x", "tier": 1}}]
+        self.assertEqual(nl.merge_items(log, "XYZ", fixed, "2026-09-03", True), 0)   # same item: not added twice
+        it = log["items"][0]
+        self.assertTrue(it["fact_checked"])
+        self.assertEqual(it["reports"], ["2026-09-02", "2026-09-03"])
+        self.assertEqual(it["source"]["tier"], 1)
+
+    def test_render_newest_first_one_row_per_trading_day(self):
+        log = nl.empty_log("XYZ")
+        nl.merge_items(log, "XYZ", [{"key": "a", "date": "2026-08-01", "what": "Old news.", "direction": "bad"},
+                                    {"key": "b", "date": "2026-09-01", "what": "New news.", "direction": "good"}],
+                       "2026-09-02", True)
+        nl.merge_day(log, {"report": "2026-09-05", "trading_day": "2026-09-04", "close": 10.0, "day_pct": 1.0})
+        nl.merge_day(log, {"report": "2026-09-06", "trading_day": "2026-09-04", "close": 10.0, "day_pct": 1.0})
+        self.assertEqual(len(log["days"]), 1)                     # weekend re-run replaces, not duplicates
+        page = nl.render(log)
+        self.assertLess(page.index("New news."), page.index("Old news."))
+        self.assertIn("Too early to draw conclusions", page)
+        self.assertTrue(page.rstrip().endswith("not investment advice."))
+        self.assertNotIn("should buy", page.lower())
 
 
 def _mk(repo, t):

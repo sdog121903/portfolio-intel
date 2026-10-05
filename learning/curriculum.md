@@ -7,8 +7,8 @@ Tick a topic (`[x]`) when it has been taught. Order is a guide, not a rule.
 - [ ] What a share is, and what a fractional share is
 - [ ] How a price is set: buyers, sellers and expectations
 - [ ] Market cap: what the market says the whole company is worth
-- [ ] Market orders vs limit orders, and why a weekend order fills at Monday's open
-- [ ] Indexes and ETFs: SPY, QQQ and industry funds like SMH
+- [x] Market orders vs limit orders, and why a weekend order fills at Monday's open
+- [x] Indexes and ETFs: SPY, QQQ and industry funds like SMH
 - [ ] Why the whole market moves together on some days
 
 ## Level 2: Reading a company's results

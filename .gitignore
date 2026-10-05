@@ -17,3 +17,6 @@ reports/pdf/*.pdf
 learning/lessons/20*.md
 data/*/*
 !data/*/.gitkeep
+# Each stock's news log is personal history: the record lives in data/news-log/, the pages here
+theses/news/*.md
+!theses/news/README.md

@@ -55,7 +55,8 @@ New terms get a full explanation; "learning" terms a one-line reminder; "known" 
 ## 4. Research each holding (in parallel)
 
 Spawn one **holding-researcher** subagent per open position (`.claude/agents/holding-researcher.md`).
-Give each: ticker, company name, news window, `theses/<TICKER>.md`, its slice of
+Give each: ticker, company name, news window, `theses/<TICKER>.md`, its news log
+`theses/news/<TICKER>.md` (so it can tell new news from old), its slice of
 `data/metrics/<DATE>.json`, `attribution-<DATE>.json`, `rules-<DATE>.json`,
 `data/filings/<DATE>.json`, the thesis breakers from `config/rules.toml`, and yesterday's report
 section. Each returns `data/research/<DATE>/<TICKER>.json` (schema in the agent file): events
@@ -106,13 +107,27 @@ Fill `.claude/skills/portfolio-daily-report/templates/report.md` and save it to
 4. Lint until PASS:
    `python3 .claude/skills/portfolio-daily-report/scripts/lint_report.py reports/daily/<YYYY>/<MM>/<DATE>.md`
 
-## 10. Update the learning ledger
+## 10. Update each stock's news log
+
+Every stock keeps a running record of its news and how the price reacted (`news-and-events`,
+section "The news log"). Write `data/research/<DATE>/news-log.json` with the items that made it
+into the final, fact-checked report (same numbers, same sources; reuse an item's `key` when the
+same event appears again), then run:
+
+```bash
+python3 .claude/skills/news-and-events/scripts/news_log.py update --date <DATE>
+```
+
+It updates `data/news-log/<TICKER>.json` and rebuilds `theses/news/<TICKER>.md` for every
+holding. If it fails, say so in "Data quality and sources"; the report itself is unaffected.
+
+## 11. Update the learning ledger
 
 For each term explained today:
 `python3 .claude/skills/learning-tracker/scripts/concept_ledger.py taught "<term>" --one-liner "<plain definition>"`
 Tick topics covered in `learning/curriculum.md`.
 
-## 11. Make the PDF
+## 12. Make the PDF
 
 ```bash
 python3 .claude/skills/portfolio-daily-report/scripts/render_pdf.py reports/daily/<YYYY>/<MM>/<DATE>.md
@@ -122,9 +137,9 @@ This writes `reports/pdf/<DATE>.pdf`, the same report as a PDF that opens anywhe
 (for example `fpdf2` could not be installed), say so in the session summary and commit anyway:
 the Markdown report is the record.
 
-## 12. Keep it on this computer
+## 13. Keep it on this computer
 
-The report, PDF, data and lesson stay in this folder; git ignores them on purpose. **Do not
+The report, PDF, data, news logs and lesson stay in this folder; git ignores them on purpose. **Do not
 commit or push** them (the GitHub repository shares the tool, not anyone's reports). **No email.** Email delivery is switched off (owner's decision, 2026-10-04): the report lives in
 `reports/`. Never send, draft or forward email.
 

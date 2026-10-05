@@ -12,7 +12,8 @@ Read first: `.claude/skills/source-hierarchy/SKILL.md` and its `references/searc
 relevant, `earnings-analysis` and `product-explainer`.
 
 Method:
-1. Start from the data you were given: the attribution numbers tell you whether there is a
+1. Read the stock's news log (`theses/news/<TICKER>.md`) first: an event already in it is a
+   rehash unless there is new information. Then start from the data you were given: the attribution numbers tell you whether there is a
    company-specific move to explain; the filings file tells you what the company formally disclosed.
 2. Run the search playbook for the window. Primary sources first. Confirm every high-materiality
    item with a second independent source.

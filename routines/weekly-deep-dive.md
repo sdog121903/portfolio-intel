@@ -34,6 +34,12 @@ no buy/sell call.
    true" and "Invalidation triggers" are Santi's to edit: add new sourced items, but never delete
    or reword his; propose any other change in the "Change log". **Never edit "Why I own it"**: that section is Santi's own words. If the
    evidence contradicts it, say so in the deep dive instead.
+   If the file still has a "Draft thesis" section (Santi has not approved it yet), refresh its
+   recent-news table and its evidence with the deep dive's sourced figures, and mark any draft
+   statement the evidence now contradicts. Once Santi approves a draft, his wording moves to
+   "Why I own it" and the pillars, and the draft section is removed.
+3. Add the deep dive's material, sourced events (results, guidance, filings) to the news log the
+   same way as the daily runbook, step 10, so the stock's long-run record includes them.
 
 ## 4. Teach
 

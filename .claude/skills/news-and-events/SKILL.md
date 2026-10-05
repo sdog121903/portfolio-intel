@@ -29,3 +29,25 @@ change what a company will earn, or what investors believe it will earn, and by 
 List dated upcoming events across all holdings: earnings (confirmed or estimated), investor days,
 product launches, major industry conferences, lock-up expiries, index changes, regulatory
 decisions. Confirm dates on company investor-relations pages.
+
+## The news log (one running record per stock)
+Every run adds its fact-checked items to each stock's log, so over months Santi can see how the
+stock tends to react to each kind of news (results, downgrades, share sales, contracts, policy).
+
+- **Input**: after the quality gates, write `data/research/<DATE>/news-log.json`
+  (`{"date", "fact_checked": true, "tickers": {"<TICKER>": [items]}}`). Each item:
+  `key` (stable id, e.g. `lite-2026-08-11-q4-results`; reuse it when the same event comes back),
+  `date` (the event's own date, `YYYY-MM-DD`), `timing` (before open / during / after close /
+  unknown), `type`, `materiality`, `direction` (good / bad / neutral / mixed for the stock),
+  `what` (one plain-English sentence, with the numbers exactly as the final report states
+  them) and `source` (`name`, `date`, `url`, `tier`). Only items that made it into the report.
+- **Run**: `python3 .claude/skills/news-and-events/scripts/news_log.py update --date <DATE>`.
+  It merges the items into `data/news-log/<TICKER>.json` (the record; nothing is deleted, repeat
+  items are not added twice), calculates each item's price reaction from `data/prices/`
+  (stock vs S&P 500 on the first trading day the news could affect, its size against a normal
+  day, and the next five days), adds one row per report day from the move attribution, and
+  rebuilds `theses/news/<TICKER>.md`, newest first.
+- If `news-log.json` is missing, the script falls back to the researcher files and marks every
+  item "not fact-checked". Fix that on the next run by writing the curated file with the same keys.
+- The "What the log shows so far" section is arithmetic, not a forecast. Under 20 items it says
+  so; never turn a pattern into a buy or sell call.

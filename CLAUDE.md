@@ -56,7 +56,7 @@ Read `.claude/skills/explain-like-a-teacher/SKILL.md` before writing anything fo
 | `scripts/` | `run_daily_data.py` (runs every data step) and `pilib.py` (shared helpers) |
 | `.claude/skills/` | The knowledge library: one folder per skill, each with `SKILL.md`, `references/` and `scripts/` |
 | `.claude/agents/` | holding-researcher, challenger, fact-checker, plain-english-editor |
-| `theses/` | Why he owns each stock and what would prove it wrong |
+| `theses/` | Why he owns each stock and what would prove it wrong; `theses/news/` holds each stock's running news log (news plus price reaction, newest first) |
 | `learning/` | His textbook: lessons, concept ledger, curriculum |
 | `reports/` | Every daily report and deep dive |
 | `data/` | The evidence behind each report (holdings, prices, metrics, filings, fundamentals, research) |

@@ -56,6 +56,11 @@ SNOW = "IGV"     # software
 MRNA = "XBI"     # biotech
 A = "XLV"        # health care (closest liquid proxy for life-science tools)
 BE = "ICLN"      # clean energy (closest liquid proxy for fuel-cell power)
+AAOI = "SMH"    # closest liquid proxy for optical components
+AXTI = "SMH"    # semiconductors (compound-semiconductor wafers)
+VIAV = "SMH"    # closest liquid proxy for network test and optical equipment
+FORM = "SMH"    # semiconductors (chip test equipment)
+ASML = "SMH"    # semiconductors (chipmaking equipment)
 default = "SPY"
 
 # Which stock-analysis sector playbook fits each company (weekly deep dive).
@@ -72,6 +77,11 @@ SNOW = "it-saas"
 MRNA = "pharma-healthcare"      # has approved products, so not the pre-revenue biotech playbook
 A = "pharma-healthcare"         # diagnostics and research tools
 BE = "infra-capitalgoods"       # electrical equipment
+AAOI = "semiconductors"
+AXTI = "semiconductors"
+VIAV = "semiconductors"
+FORM = "semiconductors"
+ASML = "semiconductors"
 
 # Shared stories behind the holdings: shows how much money rides on one idea.
 [themes]
@@ -87,6 +97,11 @@ SNOW = ["cloud data platforms", "software"]
 MRNA = ["mRNA medicines", "biotech"]
 A = ["life-science tools", "healthcare"]
 BE = ["AI data centers", "power generation"]
+AAOI = ["AI data centers", "optical networking"]
+AXTI = ["AI data centers", "semiconductors"]
+VIAV = ["AI data centers", "optical networking"]
+FORM = ["AI data centers", "semiconductors"]
+ASML = ["AI data centers", "semiconductors"]
 
 # Santi's own goals for the portfolio, in his words. The report describes the portfolio
 # against them (how much is in technology, how concentrated, how bumpy); it never tells him
@@ -112,6 +127,11 @@ SNOW = "Technology"
 MRNA = "Health Care"
 A = "Health Care"
 BE = "Industrials"
+AAOI = "Technology"
+AXTI = "Technology"
+VIAV = "Technology"
+FORM = "Technology"
+ASML = "Technology"
 
 [run]
 price_history_range = "2y"     # enough for 200-day averages and 1-year statistics
