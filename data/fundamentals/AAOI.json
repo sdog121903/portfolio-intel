@@ -1,0 +1,168 @@
+{
+  "entity": "APPLIED OPTOELECTRONICS, INC.",
+  "cik": 1158114,
+  "tags_used": {
+    "revenue": "Revenues+RevenueFromContractWithCustomerExcludingAssessedTax+SalesRevenueNet",
+    "gross_profit": "GrossProfit",
+    "operating_income": "OperatingIncomeLoss",
+    "net_income": "NetIncomeLoss",
+    "eps_diluted": "EarningsPerShareDiluted",
+    "diluted_shares": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "rnd": "ResearchAndDevelopmentExpense"
+  },
+  "latest_quarters": [
+    {
+      "period_end": "2024-09-30",
+      "fiscal": "2024 Q3",
+      "revenue": 65151000,
+      "revenue_yoy_pct": 4.16,
+      "gross_margin_pct": 24.43,
+      "operating_margin_pct": -25.4,
+      "net_income": -17757000,
+      "eps_diluted": -0.42,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-06",
+        "accession": "0001437749-25-033627",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "fiscal": "2024 Q4",
+      "revenue": 100271000,
+      "revenue_yoy_pct": 65.86,
+      "gross_margin_pct": 28.65,
+      "operating_margin_pct": -6.45,
+      "net_income": -119691000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-02-26",
+        "accession": "0001437749-26-005875",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2025-03-31",
+      "fiscal": "2025 Q1",
+      "revenue": 99859000,
+      "revenue_yoy_pct": 145.52,
+      "gross_margin_pct": 30.59,
+      "operating_margin_pct": -8.95,
+      "net_income": -9172000,
+      "eps_diluted": -0.18,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "accession": "0001437749-26-015620",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "fiscal": "2025 Q2",
+      "revenue": 102952000,
+      "revenue_yoy_pct": 137.93,
+      "gross_margin_pct": 30.27,
+      "operating_margin_pct": -15.52,
+      "net_income": -9098000,
+      "eps_diluted": -0.16,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "accession": "0001437749-26-026278",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "fiscal": "2025 Q3",
+      "revenue": 118630000,
+      "revenue_yoy_pct": 82.08,
+      "gross_margin_pct": 28.04,
+      "operating_margin_pct": -15.33,
+      "net_income": -17936000,
+      "eps_diluted": -0.28,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-06",
+        "accession": "0001437749-25-033627",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-12-31",
+      "fiscal": "2025 Q4",
+      "revenue": 134274000,
+      "revenue_yoy_pct": 33.91,
+      "gross_margin_pct": 31.24,
+      "operating_margin_pct": -8.57,
+      "net_income": -2022000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-02-26",
+        "accession": "0001437749-26-005875",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "fiscal": "2026 Q1",
+      "revenue": 151144000,
+      "revenue_yoy_pct": 51.36,
+      "gross_margin_pct": 29.06,
+      "operating_margin_pct": -8.6,
+      "net_income": -14281000,
+      "eps_diluted": -0.19,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-05-07",
+        "accession": "0001437749-26-015620",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-06-30",
+      "fiscal": "2026 Q2",
+      "revenue": 191922000,
+      "revenue_yoy_pct": 86.42,
+      "gross_margin_pct": 27.72,
+      "operating_margin_pct": -12.88,
+      "net_income": -22781000,
+      "eps_diluted": -0.28,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "accession": "0001437749-26-026278",
+        "derived": false
+      }
+    }
+  ],
+  "ttm": {
+    "revenue": 595970000,
+    "eps_diluted": -0.77,
+    "periods": [
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30"
+    ]
+  },
+  "notes": [
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "AAOI",
+  "fetched": "2026-10-04T15:49:22+00:00",
+  "stale_warning": null
+}

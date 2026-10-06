@@ -1,0 +1,168 @@
+{
+  "entity": "FormFactor, Inc.",
+  "cik": 1039399,
+  "tags_used": {
+    "revenue": "Revenues+RevenueFromContractWithCustomerExcludingAssessedTax+SalesRevenueNet",
+    "gross_profit": "GrossProfit",
+    "operating_income": "OperatingIncomeLoss",
+    "net_income": "NetIncomeLoss",
+    "eps_diluted": "EarningsPerShareDiluted",
+    "diluted_shares": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "rnd": "ResearchAndDevelopmentExpense"
+  },
+  "latest_quarters": [
+    {
+      "period_end": "2024-09-28",
+      "fiscal": "2024 Q3",
+      "revenue": 207917000,
+      "revenue_yoy_pct": 21.18,
+      "gross_margin_pct": 40.74,
+      "operating_margin_pct": 8.59,
+      "net_income": 18736000,
+      "eps_diluted": 0.24,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-04",
+        "accession": "0001039399-25-000113",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2024-12-28",
+      "fiscal": "2024 Q4",
+      "revenue": 189483000,
+      "revenue_yoy_pct": 12.68,
+      "gross_margin_pct": 38.83,
+      "operating_margin_pct": 4.14,
+      "net_income": 9705000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-02-20",
+        "accession": "0001039399-26-000009",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2025-03-29",
+      "fiscal": "2025 Q1",
+      "revenue": 171356000,
+      "revenue_yoy_pct": 1.56,
+      "gross_margin_pct": 37.65,
+      "operating_margin_pct": 1.91,
+      "net_income": 6401000,
+      "eps_diluted": 0.08,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-05-05",
+        "accession": "0001039399-26-000023",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-06-28",
+      "fiscal": "2025 Q2",
+      "revenue": 195798000,
+      "revenue_yoy_pct": -0.85,
+      "gross_margin_pct": 37.25,
+      "operating_margin_pct": 6.29,
+      "net_income": 9086000,
+      "eps_diluted": 0.12,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "accession": "0001039399-26-000033",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-09-27",
+      "fiscal": "2025 Q3",
+      "revenue": 202676000,
+      "revenue_yoy_pct": -2.52,
+      "gross_margin_pct": 39.78,
+      "operating_margin_pct": 8.88,
+      "net_income": 15656000,
+      "eps_diluted": 0.2,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-04",
+        "accession": "0001039399-25-000113",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-12-27",
+      "fiscal": "2025 Q4",
+      "revenue": 215163000,
+      "revenue_yoy_pct": 13.55,
+      "gross_margin_pct": 42.18,
+      "operating_margin_pct": 10.92,
+      "net_income": 23218000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-02-20",
+        "accession": "0001039399-26-000009",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2026-03-28",
+      "fiscal": "2026 Q1",
+      "revenue": 226144000,
+      "revenue_yoy_pct": 31.97,
+      "gross_margin_pct": 38.38,
+      "operating_margin_pct": 7.36,
+      "net_income": 20384000,
+      "eps_diluted": 0.26,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-05-05",
+        "accession": "0001039399-26-000023",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-06-27",
+      "fiscal": "2026 Q2",
+      "revenue": 258242000,
+      "revenue_yoy_pct": 31.89,
+      "gross_margin_pct": 50.7,
+      "operating_margin_pct": 22.38,
+      "net_income": 56207000,
+      "eps_diluted": 0.71,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "accession": "0001039399-26-000033",
+        "derived": false
+      }
+    }
+  ],
+  "ttm": {
+    "revenue": 902225000,
+    "eps_diluted": 1.46,
+    "periods": [
+      "2025-09-27",
+      "2025-12-27",
+      "2026-03-28",
+      "2026-06-27"
+    ]
+  },
+  "notes": [
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "FORM",
+  "fetched": "2026-10-04T15:49:27+00:00",
+  "stale_warning": null
+}

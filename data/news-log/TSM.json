@@ -1,0 +1,162 @@
+{
+  "ticker": "TSM",
+  "items": [
+    {
+      "key": "tsm-2026-10-01-texas-campus",
+      "date": "2026-10-01",
+      "timing": "after close",
+      "type": "possible expansion (unconfirmed)",
+      "materiality": "medium",
+      "direction": "mixed",
+      "what": "Bloomberg reported TSMC is weighing a multi-factory campus near Dallas, each factory costing at least $20bn; early stage, and TSMC said \"no comment on market rumors\".",
+      "source": {
+        "name": "Bloomberg",
+        "date": "2026-10-01",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-01/tsmc-mulls-multibillion-dollar-texas-campus-for-more-ai-chips",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-10-02",
+        "stock_pct": 2.96,
+        "market_pct": 0.74,
+        "beyond_market_pct": 2.22,
+        "typical_day_pct": 1.86,
+        "z": 1.19,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "tsm-2026-09-10-august-sales",
+      "date": "2026-09-10",
+      "timing": "before open",
+      "type": "monthly sales",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "August sales were a record NT$514.81bn (New Taiwan dollars), up 53.3% from a year earlier, driven by AI chips.",
+      "source": {
+        "name": "TSMC",
+        "date": "2026-09-10",
+        "url": "https://pr.tsmc.com/english/news/3340",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-10",
+        "stock_pct": -1.68,
+        "market_pct": -0.6,
+        "beyond_market_pct": -1.08,
+        "typical_day_pct": 1.93,
+        "z": -0.56,
+        "next_5_days_pct": 0.79
+      }
+    },
+    {
+      "key": "tsm-2026-07-16-q2-results",
+      "date": "2026-07-16",
+      "timing": "before open",
+      "type": "earnings",
+      "materiality": "high",
+      "direction": "good",
+      "what": "Q2 revenue US$40.20bn (+36%) with a 67.7% gross margin; Q3 guided to US$44.6-45.8bn, with margin guided slightly lower (65-67%) because new 2-nanometre factories cost more at first.",
+      "source": {
+        "name": "TSMC Q2 2026 results",
+        "date": "2026-07-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-07-16",
+        "stock_pct": -2.32,
+        "market_pct": -0.54,
+        "beyond_market_pct": -1.78,
+        "typical_day_pct": 1.88,
+        "z": -0.95,
+        "next_5_days_pct": 1.43
+      }
+    },
+    {
+      "key": "tsm-2026-10-03-musk-terafab-talks",
+      "date": "2026-10-03",
+      "timing": "unknown",
+      "type": "possible new customer / partnership (talks)",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "Elon Musk confirmed early talks about TSMC helping his Texas Terafab chip-factory project (\"Just discussions, but something may come of it\"); no TSMC comment. TSM rose 2.75% on Monday (+2.08 points company-specific), possibly partly on this, while AI-chip leaders also rallied; no single cause confirmed (tier-3 reports).",
+      "source": {
+        "name": "Motley Fool",
+        "date": "2026-10-05",
+        "url": "https://www.fool.com/investing/2026/10/05/elon-musk-confirmed-terafab-talks-with-tsmc-intel-has-been-its-only-named-chip-partner/",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-05",
+      "reports": [
+        "2026-10-05"
+      ],
+      "reaction": {
+        "day": "2026-10-05",
+        "stock_pct": 2.75,
+        "market_pct": 0.67,
+        "beyond_market_pct": 2.08,
+        "typical_day_pct": 1.86,
+        "z": 1.12,
+        "next_5_days_pct": null
+      }
+    }
+  ],
+  "days": [
+    {
+      "report": "2026-10-04",
+      "trading_day": "2026-10-02",
+      "close": 472.78,
+      "day_pct": 2.96,
+      "market_part_pct": 0.85,
+      "industry_part_pct": 0.98,
+      "company_part_pct": 1.12,
+      "z": 0.82,
+      "main_news": "Bloomberg reported TSMC is weighing a multi-factory campus near Dallas, each factory costing at least $20bn; early stage, and TSMC said \"no comment on market rumors\"."
+    },
+    {
+      "report": "2026-10-05",
+      "trading_day": "2026-10-05",
+      "close": 485.8,
+      "day_pct": 2.75,
+      "market_part_pct": 0.79,
+      "industry_part_pct": -0.11,
+      "company_part_pct": 2.08,
+      "z": 1.53,
+      "main_news": "Elon Musk confirmed early talks about TSMC helping his Texas Terafab chip-factory project (\"Just discussions, but something may come of it\"); no TSMC comment. TSM rose 2.75% on Monday (+2.08 points company-specific), possibly partly on this, while AI-chip leaders also rallied; no single cause confirmed (tier-3 reports)."
+    }
+  ],
+  "upcoming": {
+    "as_of": "2026-10-05",
+    "events": [
+      {
+        "date": "2026-10-08",
+        "event": "September 2026 monthly sales",
+        "confirmed": true,
+        "source": {}
+      },
+      {
+        "date": "2026-10-15",
+        "event": "Q3 2026 results, 2:00 a.m. US Eastern (guidance US$44.6-45.8bn)",
+        "confirmed": true,
+        "source": {}
+      }
+    ]
+  }
+}

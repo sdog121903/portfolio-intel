@@ -1,0 +1,527 @@
+{
+  "ticker": "CRDO",
+  "company": "Credo Technology Group Holding Ltd",
+  "window": {
+    "from": "2026-10-01 (after US close)",
+    "to": "2026-10-04"
+  },
+  "newest_item_checked": "SEC Form 4 (COO Lam Yat Tung), accepted 2026-10-02 20:57 per EDGAR; web search for news dated 2026-10-03/04 found nothing company-specific",
+  "events": [
+    {
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "price move (market/industry-driven)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "CRDO closed at $218.64 on Friday, up 4.03% from $210.17 (intraday high reported at $231.59). The pipeline's attribution splits it into about +0.78 pts market, +2.21 pts semiconductor industry (SMH) and +1.04 pts company-specific; the company-specific part is a z-score of 0.22, i.e. well inside a normal day (typical company-specific daily move 4.74%). No company press release, filing with news content, or tier-1/2 report explaining the day was found.",
+      "why_it_matters": "Friday's close is the reference price for Santi's pending Monday market order. The move was mostly 'chips went up', not new information about Credo.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "Pipeline metrics/attribution data/metrics/attribution-2026-10-04.json",
+          "date": "2026-10-04",
+          "url": "data/metrics/attribution-2026-10-04.json",
+          "tier": 1
+        },
+        {
+          "name": "MarketBeat (price alert)",
+          "date": "2026-10-02",
+          "url": "https://www.marketbeat.com/instant-alerts/price-credo-technology-group-nasdaq-crdo-shares-climb-4-still-a-buy-2026-10-02/",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "timing": "after close",
+      "type": "insider trade (Form 4)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "COO and director Lam Yat Tung reported selling 50,000 shares on 2026-10-01 at an average $205.2175 (about $10.26 million), leaving 2,254,169 shares in that reporting line (about 2.2% of that holding sold). The filing is flagged as under a pre-planned 10b5-1 trading plan. Same filing: a 75,000-share gift between his own holding entities on 2026-09-30 and 3,180 shares withheld for taxes (code F, routine) on 2026-10-02. This follows his earlier filing of 2026-09-29 reporting about 100,000 shares sold on 2026-09-25 at roughly $205-208 (about $20.6 million).",
+      "why_it_matters": "Large-dollar, repeated selling by a co-founder-level officer is worth watching, but 10b5-1 plans are scheduled months ahead, so they say little about his current view. Does not meet Santi's thesis-breaker definition (needs several insiders selling OUTSIDE plans).",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "SEC Form 4, Lam Yat Tung",
+          "date": "2026-10-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064627/xslF345X06/wk-form4_1790974671.xml",
+          "tier": 1
+        },
+        {
+          "name": "SEC Form 4, Lam Yat Tung",
+          "date": "2026-09-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026063815/xslF345X06/wk-form4_1790713681.xml",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "timing": "after close",
+      "type": "insider trade (Form 4 + Form 144)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "CTO and director Cheng Chi Fung reported selling 27,500 shares on 2026-09-29 at about $189.65-$198.61 (roughly $5.3 million total from the filed lines), leaving about 5.66 million shares (under 0.5% of his holding); flagged as under a 10b5-1 plan. Separately, a Form 144 (notice of a planned sale, not the sale itself) showed officer James L. Laufman (Chief Legal Officer per tier-3 coverage) planning to sell 5,000 shares worth about $1.025 million on or about 2026-10-01, shares acquired as restricted stock on 2026-08-19. The Form 144 summary did not show a 10b5-1 plan adoption date.",
+      "why_it_matters": "Small relative to holdings; adds to a steady stream of insider selling into the September-October rebound. Whether Laufman's sale was under a 10b5-1 plan is not confirmed.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "SEC Form 4, Cheng Chi Fung",
+          "date": "2026-10-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064300/xslF345X06/wk-form4_1790887761.xml",
+          "tier": 1
+        },
+        {
+          "name": "SEC Form 144, James L. Laufman",
+          "date": "2026-10-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195004726009924/xsl144X01/primary_doc.xml",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "timing": "after close",
+      "type": "BACKGROUND: earnings (Q4 FY2026) and run to 52-week high",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Credo reported Q4 FY2026 (quarter ended 2026-05-02) revenue of $437.0 million, up 157.0% year over year, GAAP gross margin 68.2%, non-GAAP 68.3%, and fiscal-2026 revenue that more than tripled to about $1.3 billion. Non-GAAP EPS $1.16 vs about $1.02-1.03 expected (tier-3 consensus). The stock went on to its 52-week high of $308.67 (pipeline data); tier-3 data dates the record close ($302.52) to 2026-06-22.",
+      "why_it_matters": "Sets the starting point: the stock is now ~29% below that June peak even though the business kept growing, so the drop since then is mostly about what investors are willing to pay and what worries them, not shrinking sales.",
+      "direction": "supports",
+      "sources": [
+        {
+          "name": "Credo Q4 FY2026 earnings release (8-K Ex.99.1)",
+          "date": "2026-06-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026039474/credoq42026ex-991.htm",
+          "tier": 1
+        },
+        {
+          "name": "StockAnalysis (price history)",
+          "date": "2026-10-03",
+          "url": "https://stockanalysis.com/stocks/crdo/",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "timing": "unknown",
+      "type": "BACKGROUND: acquisition closed (DustPhotonics)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "Credo completed its acquisition of DustPhotonics, a silicon-photonics chip designer, announced 2026-04-13: $750 million cash upfront plus about 0.92 million Credo shares, with up to about 3.21 million more shares contingent on milestones (about $1.3 billion total per trade press). Cash and short-term investments fell from $1.4 billion (end of Q4 FY26) to $764.3 million (end of Q1 FY27).",
+      "why_it_matters": "It is Credo's bet on the shift from copper to optical connections (the main long-term threat to its copper cables). It also explains part of the GAAP gross-margin drop in Q1 (inference: acquisition-related amortization) and the lower cash balance. Contingent shares are a small potential dilution.",
+      "direction": "supports",
+      "sources": [
+        {
+          "name": "Credo press release via Business Wire",
+          "date": "2026-05-27",
+          "url": "https://www.businesswire.com/news/home/20260527239270/en/Credo-Completes-Acquisition-of-DustPhotonics",
+          "tier": 1
+        },
+        {
+          "name": "Credo 8-K Ex.99.1 (deal announcement)",
+          "date": "2026-04-13",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026024892/april20268-kex991.htm",
+          "tier": 1
+        },
+        {
+          "name": "DatacenterDynamics",
+          "date": "2026-04",
+          "url": "https://www.datacenterdynamics.com/en/news/credo-technology-group-acquires-dustphotonics-in-13bn-cash-and-stock-deal/",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "timing": "after close",
+      "type": "BACKGROUND: earnings (Q1 FY2027) and 20% one-day drop",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Q1 FY2027 (ended 2026-08-01): revenue $479.0 million (+114.7% y/y, +9.6% q/q), non-GAAP EPS $1.20 vs $1.17 consensus, GAAP gross margin 64.5% (vs 68.2% prior quarter), non-GAAP 68.0%. Q2 guide $525-535 million, non-GAAP gross margin 67-69%. On the call management disclosed four customers at 33%, 28%, 13% and 10% of revenue (84% combined) and reiterated fiscal-2027 growth of more than 85%. The stock fell about 20% on 2026-09-02; coverage attributed it to the GAAP margin drop, rising costs, customer concentration and a high valuation.",
+      "why_it_matters": "This is the single biggest reason the stock sits well below its June high: results beat, but investors focused on dependence on two customers (61% of sales) and margins.",
+      "direction": "weakens",
+      "sources": [
+        {
+          "name": "Credo Q1 FY2027 earnings release (8-K Ex.99.1)",
+          "date": "2026-09-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm",
+          "tier": 1
+        },
+        {
+          "name": "Q1 FY2027 earnings call transcript (Motley Fool)",
+          "date": "2026-09-01",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/09/08/credo-crdo-q1-2027-earnings-call-transcript/",
+          "tier": 3
+        },
+        {
+          "name": "Motley Fool: Why Credo stock plunged 20% today",
+          "date": "2026-09-02",
+          "url": "https://www.fool.com/investing/2026/09/02/why-credo-technology-stock-plunged-20-today/",
+          "tier": 3
+        },
+        {
+          "name": "Seeking Alpha news",
+          "date": "2026-09-02",
+          "url": "https://seekingalpha.com/news/4639142-credo-technology-shares-fall-as-margin-pressure-overshadows-earnings-beat",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "timing": "during",
+      "type": "BACKGROUND: volatility, insider selling, rebound",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "After the September plunge the stock rebounded (+32% over one month per pipeline), but swung hard: about -9% on 2026-09-28 (tier-3 coverage cites insider selling, profit-taking and tech weakness) and about +7.9% to $210.17 on 2026-10-01 (tier-3 coverage cites generic 'AI demand and optical optimism'; no company news found).",
+      "why_it_matters": "Shows how volatile the stock is (beta about 3.3 vs the market; 60-day annualized volatility 97.8%): 5-10% daily moves without company news are normal for it.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "TradingKey",
+          "date": "2026-09-28",
+          "url": "https://www.tradingkey.com/news/market-movers/262190334-market-movers-crdo-20260928",
+          "tier": 3
+        },
+        {
+          "name": "TradingKey",
+          "date": "2026-10-01",
+          "url": "https://www.tradingkey.com/news/market-movers/262196642-market-movers-crdo-20261001",
+          "tier": 3
+        },
+        {
+          "name": "Pipeline metrics data/metrics/2026-10-04.json",
+          "date": "2026-10-04",
+          "url": "data/metrics/2026-10-04.json",
+          "tier": 1
+        }
+      ]
+    }
+  ],
+  "why_chain": [
+    {
+      "rung": 1,
+      "text": "CRDO rose 4.03% on Friday 2026-10-02 to $218.64.",
+      "evidence": "data/metrics/2026-10-04.json (pipeline price data)"
+    },
+    {
+      "rung": 2,
+      "text": "About 3.0 of those 4.0 points came from the market (+0.78) and the semiconductor industry (+2.21); the company-specific remainder (+1.04, z=0.22) is normal noise for this stock.",
+      "evidence": "data/metrics/attribution-2026-10-04.json"
+    },
+    {
+      "rung": 3,
+      "text": "No Credo-specific news (press release, 8-K, analyst action) was found for Friday; the only filings were routine insider Form 4/144s.",
+      "evidence": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1807794 (pipeline filings file) | inference (high) from searches"
+    },
+    {
+      "rung": 4,
+      "text": "Why chip stocks rose on Friday was not established from a tier-1/2 source in this research.",
+      "evidence": "not available"
+    },
+    {
+      "rung": 5,
+      "text": "Bigger picture (why the stock is ~29% below its June high): the 2026-09-02 ~20% plunge after Q1 results, attributed to GAAP gross-margin compression (68.2% to 64.5%), rising operating costs, and customer concentration (top two customers 61% of revenue) at a high valuation.",
+      "evidence": "https://www.fool.com/investing/2026/09/02/why-credo-technology-stock-plunged-20-today/ | https://seekingalpha.com/news/4639142-credo-technology-shares-fall-as-margin-pressure-overshadows-earnings-beat | https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm"
+    },
+    {
+      "rung": 6,
+      "text": "Basic driver: Credo's sales depend on a handful of hyperscalers' data-center build plans; when investors worry one of them could slow or switch suppliers, they pay a lower multiple of earnings even while revenue is still growing fast. The non-GAAP margin barely moved (68.3% to 68.0%), so the GAAP drop likely reflects acquisition-related costs rather than weaker pricing.",
+      "evidence": "inference (medium)"
+    }
+  ],
+  "products": [
+    {
+      "name": "Active Electrical Cables (AECs), branded ZeroFlap AECs",
+      "what_it_is": "Copper cables with small signal-boosting chips (retimers/DSPs) built into each end, used to connect servers and switches inside AI data-center racks at 400G-1.6T speeds.",
+      "analogy": "Like a garden hose with a booster pump at each end: plain copper is cheap but loses pressure (signal) over distance; the chips restore it so the cable can be longer and thinner.",
+      "buyers": "Hyperscale cloud companies and 'neo-cloud' AI providers (management cited engagement with five hyperscalers); actual customer names are not disclosed by Credo. Tier-3 analyst coverage cites design wins at Microsoft and Amazon (unconfirmed by the company).",
+      "how_it_works": "Credo designs the chips and sells the finished cable (product revenue); cheaper and lower-power than optical links over short distances (a few meters), more reliable ('ZeroFlap' refers to avoiding link drop-outs).",
+      "price": "not disclosed",
+      "sales": "Not disclosed separately. Proxy (labelled): AECs are Credo's largest business per management; total company revenue was $479.0 million in Q1 FY2027. Management said AEC revenue 'more than tripled' in fiscal 2026 (transcript summary, tier 3).",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm ; https://www.fool.com/earnings/call-transcripts/2026/09/08/credo-crdo-q1-2027-earnings-call-transcript/",
+      "stage": "Volume production; moving to 200G-per-lane / 1.6T ports",
+      "size_for_company": "Largest product line (exact share not disclosed)",
+      "competition": "Marvell (including its 'Golden Cable' ecosystem), Broadcom, Astera Labs (reportedly pricing lower), cable makers such as Amphenol; long-term threat from co-packaged/near-packaged optics replacing copper (tier-3 analysis).",
+      "why_investors_care": "It is the engine of the 100%+ growth; its future depends on copper staying the cheaper choice inside racks as speeds rise.",
+      "watch_next": "Q2 FY27 results (est. 2026-12-02): AEC customer count, 1.6T ramps, any change in the top-customer mix."
+    },
+    {
+      "name": "Optical portfolio: optical DSPs, ZeroFlap optical transceivers, silicon-photonics PICs (from DustPhotonics)",
+      "what_it_is": "Chips and modules that turn electrical signals into light for longer links between racks; the DSP cleans up the signal, the PIC is the light-handling chip.",
+      "analogy": "If AECs are the hallway wiring inside one building, optics are the fiber line between buildings.",
+      "buyers": "Optical module makers and hyperscalers/neo-clouds (names not disclosed).",
+      "how_it_works": "Sells DSP chips and PICs to module makers, and complete ZeroFlap optical modules; aims to bundle DSP + PIC + firmware/telemetry.",
+      "price": "not disclosed",
+      "sales": "Guidance, not actual: management expects more than $600 million of optical revenue in fiscal 2027, with ZeroFlap optics, silicon-photonics PICs and optical DSPs each above $100 million. Q1 FY27: record optical DSP revenue and first PIC revenue (amounts not disclosed).",
+      "sales_source": "https://www.fool.com/earnings/call-transcripts/2026/09/08/credo-crdo-q1-2027-earnings-call-transcript/ ; https://finance.yahoo.com/markets/stocks/articles/credo-q1-earnings-call-highlights-140000598.html",
+      "stage": "Early ramp (production shipments of ZeroFlap optics; first PIC revenue in Q1 FY27)",
+      "size_for_company": "Guided >$600M vs fiscal-2027 total implied by '>85% growth' on ~$1.3B FY26 (inference: roughly a quarter of FY27 revenue)",
+      "competition": "Marvell and Broadcom (incumbent optical DSP leaders), plus other silicon-photonics suppliers.",
+      "why_investors_care": "It is Credo's hedge against the shift from copper to optics and the source of most of the expected second-half acceleration.",
+      "watch_next": "Whether Q2/Q3 results show the optical ramp on track to the >$600M target."
+    }
+  ],
+  "earnings": {
+    "status": "reported",
+    "date": "2026-09-01",
+    "confirmed": true,
+    "consensus": {
+      "eps_non_gaap": "$1.17 (Zacks / MarketBeat)",
+      "revenue": "$475.7M (Zacks) / $473.3M (MarketBeat)"
+    },
+    "actual": {
+      "revenue": "$479.0M (+114.7% y/y, +9.6% q/q)",
+      "eps_non_gaap": "$1.20",
+      "eps_gaap": "$0.67",
+      "gross_margin_gaap": "64.5%",
+      "gross_margin_non_gaap": "68.0%",
+      "net_income_gaap": "$129.4M",
+      "net_income_non_gaap": "$236.3M"
+    },
+    "guidance": {
+      "q2_fy27_revenue": "$525-535M",
+      "q2_gross_margin_non_gaap": "67.0-69.0%",
+      "q2_gross_margin_gaap": "62.9-64.9%",
+      "q2_opex_non_gaap": "$100-105M",
+      "q2_opex_gaap": "$199-204M",
+      "fy27_revenue_growth": ">85% y/y (reiterated, 'still expected')",
+      "fy27_optical_revenue": ">$600M",
+      "eps": "not provided"
+    },
+    "key_metrics": {
+      "customer_concentration": "33% / 28% / 13% / 10% (top four = 84%)",
+      "cash_and_st_investments": "$764.3M (down from $1.4B after DustPhotonics cash payment)",
+      "opex_gaap_vs_non_gaap": "$188.4M vs $95.2M"
+    },
+    "quality_flags": [
+      "Large GAAP vs non-GAAP gap: GAAP gross margin 64.5% vs non-GAAP 68.0%; GAAP opex roughly double non-GAAP (stock compensation and acquisition-related items)",
+      "Extreme customer concentration: top two customers 61% of revenue",
+      "Q2 guidance is for revenue only; no EPS guidance"
+    ],
+    "management_explanation": "Management framed fiscal 2027 as optical's 'stepping stone', expects 3-4 customers above 10% going forward, fiscal-2027 non-GAAP gross margins broadly consistent with fiscal 2026, and noted guidance assumes 'the current tariff regime, which remains fluid' (CFO Fleming, per transcript).",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm",
+      "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Technology-Group-Holding-Ltd-Reports-First-Quarter-of-Fiscal-Year-2027-Financial-Results/",
+      "https://www.fool.com/earnings/call-transcripts/2026/09/08/credo-crdo-q1-2027-earnings-call-transcript/",
+      "https://finance.yahoo.com/markets/stocks/articles/credo-q1-earnings-call-highlights-140000598.html",
+      "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-crdo-17-143002233.html"
+    ]
+  },
+  "next_earnings": {
+    "date": "2026-12-02 (estimated, after close; Q2 FY27 quarter ends 2026-10-31)",
+    "confirmed": false,
+    "consensus_eps": "not reliably available: MarketBeat shows $0.43, which is inconsistent with Q1's $1.20 non-GAAP and looks stale or GAAP-based; FY2027 Zacks consensus $6.23 non-GAAP EPS",
+    "consensus_revenue": "$513.8M per MarketBeat (below the company's own $525-535M guide, so likely stale); FY2027 Zacks consensus about $2.5B",
+    "company_guidance": "Q2 FY27 revenue $525-535M; non-GAAP gross margin 67-69%; non-GAAP opex $100-105M; FY27 revenue growth >85%; optical revenue >$600M in FY27",
+    "sources": [
+      "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings/",
+      "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm",
+      "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-crdo-17-143002233.html"
+    ]
+  },
+  "analyst_actions": [
+    {
+      "date": "2026-09-02",
+      "firm": "Bank of America",
+      "action": "Price target cut $340 -> $275, Buy maintained",
+      "reason": "Post-Q1 revision (reason not available in sources read)",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61572886/these-analysts-revise-their-forecasts-on-credo-technology-group-following-q1-results"
+    },
+    {
+      "date": "2026-09-02",
+      "firm": "JPMorgan",
+      "action": "Price target cut $335 -> $310, Overweight maintained",
+      "reason": "Post-Q1 revision (reason not available)",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61572886/these-analysts-revise-their-forecasts-on-credo-technology-group-following-q1-results"
+    },
+    {
+      "date": "2026-09 (exact date not confirmed)",
+      "firm": "Mizuho",
+      "action": "Price target cut $290 -> $245, Outperform maintained",
+      "reason": "not available",
+      "url": "https://www.tradingkey.com/news/market-movers/262190334-market-movers-crdo-20260928"
+    },
+    {
+      "date": "2026-09-02",
+      "firm": "Rosenblatt (Mike Genovese)",
+      "action": "Neutral maintained, price target raised $215 -> $235",
+      "reason": "not available; MarketBeat headlines labelled this a 'downgrade' but the rating appears unchanged",
+      "url": "https://www.marketbeat.com/instant-alerts/price-credo-technology-group-nasdaq-crdo-shares-down-20-after-analyst-downgrade-2026-09-02/"
+    },
+    {
+      "date": "not confirmed (before 2026-09-21)",
+      "firm": "Stifel (Tore Svanberg)",
+      "action": "Buy, price target $350 (street high), raised from $250",
+      "reason": "AEC dominance as hyperscalers move to 800G/1.6T active cables",
+      "url": "https://247wallst.com/investing/2026/09/21/credo-technology-crashed-for-3-months-this-wall-street-pro-says-its-about-to-double/"
+    }
+  ],
+  "insiders": {
+    "summary": "Window (filed 2026-10-01 to 2026-10-02): COO Lam Yat Tung sold 50,000 shares (~$10.26M) and CTO Cheng Chi Fung sold 27,500 shares (~$5.3M), both flagged as 10b5-1 planned sales; officer James Laufman filed a Form 144 to sell 5,000 shares (~$1.03M), plan status not confirmed. Over the pipeline's filings window (Sept 23 - Oct 2) the parsed Form 4s show 23 open-market sale lines worth about $41.5M, zero open-market buys, and no sellers flagged as outside a 10b5-1 plan.",
+    "notable": [
+      "COO Lam Yat Tung: ~150,000 shares sold across 2026-09-25 and 2026-10-01 (~$30.9M), 10b5-1 flagged; still holds about 2.25M shares in the main reporting line (SEC Form 4s 2026-09-29 and 2026-10-02)",
+      "CTO Cheng Chi Fung: 27,500 shares on 2026-09-23 and 27,500 on 2026-09-29, 10b5-1 flagged; still about 5.66M shares",
+      "No insider open-market purchases found"
+    ]
+  },
+  "filings": [
+    {
+      "form": "4",
+      "items": "Insider sale (S), gifts (G), tax withholding (F)",
+      "plain_english": "COO and director Lam Yat Tung sold 50,000 shares on 2026-10-01 at ~$205.22 (~$10.26M) under a pre-arranged 10b5-1 plan; the gifts moved shares between his own entities; 3,180 shares were withheld for taxes.",
+      "materiality": "medium",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064627/xslF345X06/wk-form4_1790974671.xml"
+    },
+    {
+      "form": "4",
+      "items": "Insider sales (S)",
+      "plain_english": "CTO and director Cheng Chi Fung sold 27,500 shares on 2026-09-29 at ~$190-199 under a 10b5-1 plan; holds ~5.66M shares afterwards (sale is under 0.5% of holding).",
+      "materiality": "low",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064300/xslF345X06/wk-form4_1790887761.xml"
+    },
+    {
+      "form": "144",
+      "items": "Notice of planned sale",
+      "plain_english": "Officer James L. Laufman notified a planned sale of 5,000 shares (~$1.025M) around 2026-10-01, from restricted stock received 2026-08-19. A notice, not proof the sale happened.",
+      "materiality": "low",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195004726009924/xsl144X01/primary_doc.xml"
+    },
+    {
+      "form": "4",
+      "items": "Insider sales (S) and gifts (G) (pre-window, 2026-09-29)",
+      "plain_english": "COO sold about 100,000 shares on 2026-09-25 at ~$205-208 (~$20.6M), 10b5-1 flagged.",
+      "materiality": "medium",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026063815/xslF345X06/wk-form4_1790713681.xml"
+    },
+    {
+      "form": "4",
+      "items": "Insider sales (S) (pre-window, 2026-09-25)",
+      "plain_english": "CTO sold 27,500 shares on 2026-09-23 at ~$190-196, 10b5-1 flagged.",
+      "materiality": "low",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026063555/xslF345X06/wk-form4_1790366633.xml"
+    }
+  ],
+  "catalysts": [
+    {
+      "date": "2026-10-05",
+      "event": "Santi's market order expected to fill at Monday's open (price will differ from Friday's $218.64 close)",
+      "confirmed": true,
+      "url": "data/metrics/2026-10-04.json"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "Fiscal Q2 2027 quarter ends",
+      "confirmed": true,
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm"
+    },
+    {
+      "date": "2026-12-02",
+      "event": "Q2 FY2027 earnings (estimated; watch for the company's 'schedules conference call' release about 2-3 weeks before)",
+      "confirmed": false,
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings/"
+    },
+    {
+      "date": "late Oct 2026 (not confirmed)",
+      "event": "Hyperscaler (Microsoft, Amazon, Alphabet, Meta) quarterly results with capital-spending updates, which drive demand for Credo's products",
+      "confirmed": false,
+      "url": "not available"
+    }
+  ],
+  "thesis_breaker_checks": [
+    {
+      "event": "the company cut its revenue or profit forecast (guidance)",
+      "found": false,
+      "evidence": "Latest guidance (2026-09-01) raised revenue to $525-535M for Q2 and reiterated >85% FY27 growth; no update since. https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm"
+    },
+    {
+      "event": "results missed analysts' revenue or EPS estimates",
+      "found": false,
+      "evidence": "Q1 FY27 beat: non-GAAP EPS $1.20 vs $1.17; revenue $479.0M vs $473-476M. https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm ; https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-crdo-17-143002233.html"
+    },
+    {
+      "event": "a major customer was lost, or a major customer cut orders",
+      "found": false,
+      "evidence": "No report found in the window or the past month. Management added a new 10% customer in Q1. Risk is elevated by concentration (top two = 61%). https://www.fool.com/earnings/call-transcripts/2026/09/08/credo-crdo-q1-2027-earnings-call-transcript/"
+    },
+    {
+      "event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+      "found": false,
+      "evidence": "No 8-K in the pipeline filings file (data/filings/2026-10-04.json); no news found."
+    },
+    {
+      "event": "the auditor resigned or was dismissed (8-K Item 4.01)",
+      "found": false,
+      "evidence": "No 8-K Item 4.01 in the filings file; no news found."
+    },
+    {
+      "event": "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+      "found": false,
+      "evidence": "No 8-K Item 5.02 in the filings file; CEO Bill Brennan and CFO Dan Fleming both spoke on the 2026-09-01 call."
+    },
+    {
+      "event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+      "found": false,
+      "evidence": "No S-3/424B/3.02 in the filings file. Note: up to ~3.21M contingent shares may be issued to DustPhotonics sellers on milestones (announced April 2026, not new). https://www.sec.gov/Archives/edgar/data/1807794/000162828026024892/april20268-kex991.htm"
+    },
+    {
+      "event": "a regulator opened an investigation, or major litigation was filed",
+      "found": false,
+      "evidence": "Search found only Credo's own trademark suit against Credo.AI (Credo is plaintiff) and a 2023 law-firm 'investigation' ad; nothing new in 2026."
+    },
+    {
+      "event": "two or more analyst downgrades within five trading days",
+      "found": false,
+      "evidence": "Sept 2 actions were price-target cuts with ratings maintained (BofA, JPMorgan; Mizuho date unconfirmed); Rosenblatt stayed Neutral. MarketBeat headlines called it a 'downgrade' but no rating downgrade by a broker was confirmed. Nothing in the window. https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61572886/these-analysts-revise-their-forecasts-on-credo-technology-group-following-q1-results"
+    },
+    {
+      "event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+      "found": false,
+      "evidence": "All parsed Form 4 sales (COO, CTO) are flagged 10b5-1. One gap: officer Laufman's Form 144 showed no plan adoption date, so his 5,000-share sale's plan status is unconfirmed; even if outside a plan it would be one insider, not several. https://www.sec.gov/Archives/edgar/data/1807794/000195004726009924/xsl144X01/primary_doc.xml"
+    }
+  ],
+  "disconfirming_evidence": [
+    {
+      "claim": "Customer concentration: four customers = 84% of Q1 revenue (33%/28%/13%/10%); a pause by one hyperscaler would hit sales hard.",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/09/08/credo-crdo-q1-2027-earnings-call-transcript/",
+      "assessment": "Fact from management; the main bear point and the reason for the Sept 2 plunge. Partly mitigated by a new 10% customer this quarter."
+    },
+    {
+      "claim": "Historical precedent: in February 2023 Credo cut its outlook after a major customer (widely reported as Microsoft) reduced demand forecasts; the stock fell ~47%.",
+      "url": "https://www.businesswire.com/news/home/20230222005780/en",
+      "assessment": "Relevant precedent for thesis breaker #1; the 2023 details came via a law-firm summary in search results and were not verified against the primary release in this run."
+    },
+    {
+      "claim": "GAAP gross margin fell from 68.2% to 64.5% and Q2 GAAP guide is 62.9-64.9%; GAAP opex is about double non-GAAP (stock pay).",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm",
+      "assessment": "Fact. Non-GAAP margin is stable (~68%), so this looks driven by acquisition and stock-pay accounting rather than price pressure (inference, medium), but stock compensation is a real cost to shareholders."
+    },
+    {
+      "claim": "Competition and technology shift: Marvell, Broadcom and Astera Labs compete in AECs (Astera reportedly prices lower) and co-packaged optics could eventually displace copper cables.",
+      "url": "https://www.viksnewsletter.com/p/cpo-fears-credo-and-role-of-aec-in-cpo-era",
+      "assessment": "Tier-3 analysis; a long-term risk rather than a near-term event. Credo's DustPhotonics deal is its hedge."
+    },
+    {
+      "claim": "Valuation: even after the drop the stock traded around 59x trailing earnings with a beta about 3.2 (Motley Fool, 2026-09-02); pipeline shows beta 3.34 and a max 1-year drawdown of -53.6%.",
+      "url": "https://www.fool.com/investing/2026/09/02/why-credo-technology-stock-plunged-20-today/",
+      "assessment": "Opinion plus data; means large swings either way are normal for this stock."
+    },
+    {
+      "claim": "Seeking Alpha contributors published 'Sell' / rating-downgrade pieces ('Credo Is Not Micron; Sell').",
+      "url": "https://seekingalpha.com/article/4917340-credo-is-not-micron-sell-rating-downgrade",
+      "assessment": "Individual contributor opinion (tier 3); not read in full; not a broker downgrade."
+    }
+  ],
+  "open_questions": [
+    "Why chip stocks (SMH) rose on 2026-10-02: no tier-1/2 explanation found.",
+    "What specifically drove the +7.9% on 2026-10-01 and the ~+32% one-month rebound: only generic tier-3 explanations found.",
+    "Q2 FY27 consensus EPS and revenue: MarketBeat figures ($0.43 / $513.8M) look stale or inconsistent; need a second source (e.g. LSEG via Reuters) closer to results.",
+    "Whether officer Laufman's planned sale is under a 10b5-1 plan.",
+    "Exact dates/reasons of the Mizuho and Stifel price-target changes (Benzinga page returned 403).",
+    "Identity of the 33% and 28% customers (Credo does not name them).",
+    "Q2 FY27 earnings date not yet announced by the company."
+  ],
+  "searches_run": 16
+}

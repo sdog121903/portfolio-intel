@@ -1,0 +1,23 @@
+{
+  "entity": "Taiwan Semiconductor Manufacturing Company Limited",
+  "cik": 1046179,
+  "tags_used": {
+    "revenue": null,
+    "gross_profit": null,
+    "operating_income": null,
+    "net_income": null,
+    "eps_diluted": null,
+    "diluted_shares": null,
+    "rnd": null
+  },
+  "latest_quarters": [],
+  "ttm": {},
+  "notes": [
+    "No US-GAAP figures: a foreign filer reporting under IFRS (20-F / 6-K). Use the company's own quarterly results release instead.",
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "TSM",
+  "fetched": "2026-10-04T15:49:32+00:00",
+  "stale_warning": null
+}

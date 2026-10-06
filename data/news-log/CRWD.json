@@ -1,0 +1,214 @@
+{
+  "ticker": "CRWD",
+  "items": [
+    {
+      "key": "crwd-2026-10-02-sentonas-sale",
+      "date": "2026-10-02",
+      "timing": "after close",
+      "type": "insider sale (pre-planned)",
+      "materiality": "medium",
+      "direction": "neutral",
+      "what": "President Michael Sentonas sold about $64.2m of shares (about 16% of his direct stake) under a 10b5-1 plan, a selling schedule set in advance.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015176/xslF345X06/ownership.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-10-05",
+        "stock_pct": 0.97,
+        "market_pct": 0.67,
+        "beyond_market_pct": 0.3,
+        "typical_day_pct": 2.34,
+        "z": 0.13,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "crwd-2026-09-29-openai-marketplace",
+      "date": "2026-09-29",
+      "timing": "unknown",
+      "type": "new sales channel",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "Put Falcon on the OpenAI Marketplace, so OpenAI business customers can pay for it from their OpenAI budgets.",
+      "source": {
+        "name": "CrowdStrike",
+        "date": "2026-09-29",
+        "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-brings-the-falcon-platform-to-the-openai-marketplace/",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-29",
+        "stock_pct": 1.35,
+        "market_pct": -0.18,
+        "beyond_market_pct": 1.53,
+        "typical_day_pct": 2.33,
+        "z": 0.66,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "crwd-2026-09-24-cfo-sale",
+      "date": "2026-09-24",
+      "timing": "unknown",
+      "type": "insider sale (pre-planned)",
+      "materiality": "medium",
+      "direction": "neutral",
+      "what": "The chief financial officer sold about $125.5m of shares under a pre-planned plan; insiders sold about $210m in a few weeks and bought nothing.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-09-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177861026000024/xslF345X06/form4-09252026_090901.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-24",
+        "stock_pct": -1.07,
+        "market_pct": -0.08,
+        "beyond_market_pct": -0.99,
+        "typical_day_pct": 2.31,
+        "z": -0.43,
+        "next_5_days_pct": 2.47
+      }
+    },
+    {
+      "key": "crwd-2026-09-14-ai-risk-rally",
+      "date": "2026-09-14",
+      "timing": "during",
+      "type": "industry move",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "Security stocks surged after AI-lab leaders warned about the risks of powerful AI (Forbes headline: CrowdStrike +14%).",
+      "source": {
+        "name": "Forbes",
+        "date": "2026-09-14",
+        "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/09/14/crowdstrike-skyrockets-14-as-ai-fears-send-cybersecurity-stocks-surging/",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-14",
+        "stock_pct": 13.85,
+        "market_pct": -0.45,
+        "beyond_market_pct": 14.3,
+        "typical_day_pct": 2.24,
+        "z": 6.4,
+        "next_5_days_pct": 5.94
+      }
+    },
+    {
+      "key": "crwd-2026-08-26-q2-results",
+      "date": "2026-08-26",
+      "timing": "after close",
+      "type": "earnings + guidance raise",
+      "materiality": "high",
+      "direction": "good",
+      "what": "Q2: ARR $5.84bn (+25%), revenue $1.47bn (+26%), record net new ARR $332.8m (+51%); full-year revenue forecast raised to $5,991-6,011m. Standard (GAAP) profit only $5.3m.",
+      "source": {
+        "name": "CrowdStrike Q2 FY2027 results (Yahoo Finance copy)",
+        "date": "2026-08-26",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-reports-second-quarter-fiscal-200500872.html",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-08-27",
+        "stock_pct": 20.5,
+        "market_pct": 0.66,
+        "beyond_market_pct": 19.84,
+        "typical_day_pct": 2.15,
+        "z": 9.22,
+        "next_5_days_pct": -5.7
+      }
+    },
+    {
+      "key": "crwd-2026-10-02-tdcowen-target",
+      "date": "2026-10-02",
+      "timing": "unknown",
+      "type": "analyst price target raised",
+      "materiality": "low",
+      "direction": "good",
+      "what": "TD Cowen raised its price target to $280 from $250 (Buy) after meeting management, citing strong demand.",
+      "source": {
+        "name": "Investing.com",
+        "date": "2026-10-02",
+        "url": "https://www.investing.com/news/analyst-ratings/td-cowen-raises-crowdstrike-stock-price-target-on-strong-demand-93CH-4929295",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-05",
+      "reports": [
+        "2026-10-05"
+      ],
+      "reaction": {
+        "day": "2026-10-02",
+        "stock_pct": 1.48,
+        "market_pct": 0.74,
+        "beyond_market_pct": 0.74,
+        "typical_day_pct": 2.34,
+        "z": 0.32,
+        "next_5_days_pct": null
+      }
+    }
+  ],
+  "days": [
+    {
+      "report": "2026-10-04",
+      "trading_day": "2026-10-02",
+      "close": 270.04,
+      "day_pct": 1.48,
+      "market_part_pct": 0.95,
+      "industry_part_pct": 0.26,
+      "company_part_pct": 0.27,
+      "z": 0.17,
+      "main_news": "President Michael Sentonas sold about $64.2m of shares (about 16% of his direct stake) under a 10b5-1 plan, a selling schedule set in advance."
+    },
+    {
+      "report": "2026-10-05",
+      "trading_day": "2026-10-05",
+      "close": 272.67,
+      "day_pct": 0.97,
+      "market_part_pct": 0.87,
+      "industry_part_pct": 1.03,
+      "company_part_pct": -0.93,
+      "z": -0.61,
+      "main_news": "President Michael Sentonas sold about $64.2m of shares (about 16% of his direct stake) under a 10b5-1 plan, a selling schedule set in advance."
+    }
+  ],
+  "upcoming": {
+    "as_of": "2026-10-05",
+    "events": [
+      {
+        "date": "early Dec 2026",
+        "event": "Q3 FY2027 results (guidance revenue $1,523.2-1,529.2m)",
+        "confirmed": false,
+        "source": {}
+      }
+    ]
+  }
+}

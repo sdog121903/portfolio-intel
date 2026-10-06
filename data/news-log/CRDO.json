@@ -1,0 +1,185 @@
+{
+  "ticker": "CRDO",
+  "items": [
+    {
+      "key": "crdo-2026-10-02-coo-sale",
+      "date": "2026-10-02",
+      "timing": "after close",
+      "type": "insider sale (pre-planned)",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "The chief operating officer sold 50,000 shares (about $10.3m) under a pre-planned 10b5-1 plan; insiders sold about $41.5m from 2026-09-23 to 10-02, all flagged as pre-planned, and bought nothing.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064627/xslF345X06/wk-form4_1790974671.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-10-05",
+        "stock_pct": -2.82,
+        "market_pct": 0.67,
+        "beyond_market_pct": -3.49,
+        "typical_day_pct": 5.92,
+        "z": -0.59,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "crdo-2026-09-02-target-cuts",
+      "date": "2026-09-02",
+      "timing": "unknown",
+      "type": "analyst actions",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "After the results, BofA (to $275 from $340) and JPMorgan (to $310 from $335) cut their price targets, and Mizuho did too later in September; none lowered its rating.",
+      "source": {
+        "name": "Benzinga",
+        "date": "2026-09-02",
+        "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61572886/these-analysts-revise-their-forecasts-on-credo-technology-group-following-q1-results",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-02",
+        "stock_pct": -20.04,
+        "market_pct": 0.44,
+        "beyond_market_pct": -20.48,
+        "typical_day_pct": 5.82,
+        "z": -3.52,
+        "next_5_days_pct": -2.97
+      }
+    },
+    {
+      "key": "crdo-2026-09-01-q1-results",
+      "date": "2026-09-01",
+      "timing": "after close",
+      "type": "earnings",
+      "materiality": "high",
+      "direction": "mixed",
+      "what": "Q1 revenue $479.0m (+114.7%), above forecasts; next quarter guided to $525-535m and full-year growth above 85%. But the standard gross margin fell to 64.5% from 68.2%, and the stock fell about 20% the next day (margin drop the likely cause, inference).",
+      "source": {
+        "name": "Credo Q1 FY2027 results",
+        "date": "2026-09-01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-02",
+        "stock_pct": -20.04,
+        "market_pct": 0.44,
+        "beyond_market_pct": -20.48,
+        "typical_day_pct": 5.82,
+        "z": -3.52,
+        "next_5_days_pct": -2.97
+      }
+    },
+    {
+      "key": "crdo-2026-05-27-dustphotonics",
+      "date": "2026-05-27",
+      "timing": "unknown",
+      "type": "acquisition",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "Completed its purchase of DustPhotonics, expanding into optical chips.",
+      "source": {
+        "name": "Credo via Business Wire",
+        "date": "2026-05-27",
+        "url": "https://www.businesswire.com/news/home/20260527239270/en/Credo-Completes-Acquisition-of-DustPhotonics",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-05-27",
+        "stock_pct": -0.18,
+        "market_pct": -0.02,
+        "beyond_market_pct": -0.17,
+        "typical_day_pct": 5.22,
+        "z": -0.03,
+        "next_5_days_pct": -3.0
+      }
+    },
+    {
+      "key": "crdo-2026-10-01-laufman-sale",
+      "date": "2026-10-01",
+      "timing": "unknown",
+      "type": "insider sale (not pre-planned)",
+      "materiality": "low",
+      "direction": "bad",
+      "what": "Chief Legal Officer James Laufman sold 5,000 shares at $205.00 (about $1.03m, about 3% of his holding) without the 10b5-1 box checked; one person, so not the 'several insiders' breaker.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-10-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064939/xslF345X06/wk-form4_1791231688.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-05",
+      "reports": [
+        "2026-10-05"
+      ],
+      "reaction": {
+        "day": "2026-10-01",
+        "stock_pct": 7.9,
+        "market_pct": 0.18,
+        "beyond_market_pct": 7.72,
+        "typical_day_pct": 6.04,
+        "z": 1.28,
+        "next_5_days_pct": null
+      }
+    }
+  ],
+  "days": [
+    {
+      "report": "2026-10-04",
+      "trading_day": "2026-10-02",
+      "close": 218.64,
+      "day_pct": 4.03,
+      "market_part_pct": 0.78,
+      "industry_part_pct": 2.21,
+      "company_part_pct": 1.04,
+      "z": 0.22,
+      "main_news": "The chief operating officer sold 50,000 shares (about $10.3m) under a pre-planned 10b5-1 plan; insiders sold about $41.5m from 2026-09-23 to 10-02, all flagged as pre-planned, and bought nothing."
+    },
+    {
+      "report": "2026-10-05",
+      "trading_day": "2026-10-05",
+      "close": 212.48,
+      "day_pct": -2.82,
+      "market_part_pct": 0.7,
+      "industry_part_pct": -0.25,
+      "company_part_pct": -3.27,
+      "z": -0.69,
+      "main_news": "The chief operating officer sold 50,000 shares (about $10.3m) under a pre-planned 10b5-1 plan; insiders sold about $41.5m from 2026-09-23 to 10-02, all flagged as pre-planned, and bought nothing."
+    }
+  ],
+  "upcoming": {
+    "as_of": "2026-10-05",
+    "events": [
+      {
+        "date": "about 2026-12-02",
+        "event": "Q2 FY2027 results (guidance $525-535m; not confirmed)",
+        "confirmed": false,
+        "source": {}
+      }
+    ]
+  }
+}

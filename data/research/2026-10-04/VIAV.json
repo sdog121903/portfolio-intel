@@ -1,0 +1,545 @@
+{
+  "ticker": "VIAV",
+  "company": "Viavi Solutions Inc. (VIAVI)",
+  "window": {
+    "from": "2026-10-01 after US close",
+    "to": "2026-10-04"
+  },
+  "newest_item_checked": "SEC EDGAR filing list for CIK 912093 as of 2026-10-04 (newest: ARS annual report filed 2026-10-02, accepted 20:26:57 UTC = 4:26 pm ET, after the close); VIAVI IR news-release page shows no October 2026 release.",
+  "events": [
+    {
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "price move / sector momentum (no company news)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "VIAV closed at $47.10, up 5.18% from $44.78, its 13th straight higher close (Trefis counted 12 straight gains totalling 32.6% through Oct 1). No VIAVI press release or 8-K appeared before or during the session. Call-option buying was unusually heavy: 17,135 calls vs a typical 6,024 (+184%, MarketBeat). Share volume was 1.73x its 20-day average (pipeline). Same day: semiconductor ETF SMH +2.07% (617.81 to 630.60), S&P 500 ETF SPY +0.74%, optical peer Lumentum +3.79% (pipeline price files). Attribution: market 0.17 pts, industry 1.8 pts, company-specific 3.2 pts (z-score 0.81, within normal noise for this stock).",
+      "why_it_matters": "The move fired Santi's >5% 'explain big moves' WATCH rule, but no new fundamental fact about VIAVI was published. It looks like a continuation of the optical/AI-networking rally that started Oct 1, plus momentum and options buying. That is sentiment, not a change in what the company earns.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "Trefis",
+          "date": "2026-10-02",
+          "url": "https://www.trefis.com/stock/viav/articles/617392/viavi-solutions-stock-rides-a-12-day-winning-streak-to-a-33-gain/2026-10-02",
+          "tier": 3
+        },
+        {
+          "name": "MarketBeat (options activity)",
+          "date": "2026-10-02",
+          "url": "https://www.marketbeat.com/instant-alerts/options-traders-buy-large-volume-of-call-options-on-viavi-solutions-nasdaq-viav-2026-10-02/",
+          "tier": 3
+        },
+        {
+          "name": "VIAVI news releases page",
+          "date": "2026-10-04",
+          "url": "https://www.viavisolutions.com/en-us/corporate/news-and-events/news-releases",
+          "tier": 1
+        },
+        {
+          "name": "Pipeline metrics and attribution",
+          "date": "2026-10-04",
+          "url": "data/metrics/attribution-2026-10-04.json",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "timing": "after close",
+      "type": "SEC filing: proxy statement (DEF 14A), extra proxy material (DEFA14A), annual report to shareholders (ARS)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Routine annual-meeting paperwork. The virtual annual meeting is set for 2026-11-11 at 10:00 a.m. Mountain Time (record date 2026-09-23). Shareholders vote on three things: electing nine directors, ratifying PwC as auditor for FY2027, and a non-binding 'say-on-pay' vote. No share-authorization increase or new equity-plan reserve was found in the proxy. Oleg Khaykin is still President and CEO.",
+      "why_it_matters": "It confirms no auditor change and no CEO change, and adds no new share-issuance request. It does not explain the price move because it was filed after the close.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "SEC DEF 14A",
+          "date": "2026-10-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "timing": "during",
+      "type": "peer/sector news (context just before window)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "Optical-networking stocks jumped on Oct 1. Bernstein initiated coverage of the optical group at Outperform, calling it 'structural AI winners', and Coherent launched its PhotonLink AI data-center optics platform (20 customer engagements). Coherent rose about 11%, Lumentum about 7% and Ciena about 7%. VIAV rose 6.82% that day to $44.78 (pipeline). The Yahoo article does not mention VIAVI.",
+      "why_it_matters": "VIAVI sells test equipment used to develop and make the same high-speed optical links. Investors tend to trade it with this group, so the sector mood carried over into Friday.",
+      "direction": "supports",
+      "sources": [
+        {
+          "name": "Yahoo Finance (Grace O'Donnell)",
+          "date": "2026-10-01",
+          "url": "https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html",
+          "tier": 3
+        },
+        {
+          "name": "Pipeline price files (LITE, VIAV, SMH)",
+          "date": "2026-10-02",
+          "url": "data/metrics/2026-10-04.json; data/prices/VIAV.csv, SMH.csv, SPY.csv, LITE.csv (pipeline price files)",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "timing": "unknown",
+      "type": "product/certification (background)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "VIAVI announced that its Aerospace and Defense business achieved CMMC Level 2 certification, a mandatory US Department of Defense cybersecurity standard for contractors handling controlled unclassified information. It covers its radio test, avionics, synthetic and modular, and Position, Navigation and Timing product lines. The stock rose 9.27% on 2026-09-25 (pipeline). Investing.com credited the certification plus a 2026-09-23 analyst note (Rosenblatt reiterated Buy, $70 target).",
+      "why_it_matters": "Without this certification, VIAVI could not keep selling to many US defense customers, so it protects existing sales. Aerospace and defense is about 17% of NSE revenue. It is a permission to sell, not a new contract.",
+      "direction": "supports",
+      "sources": [
+        {
+          "name": "VIAVI news releases page",
+          "date": "2026-09-24",
+          "url": "https://www.viavisolutions.com/en-us/corporate/news-and-events/news-releases",
+          "tier": 1
+        },
+        {
+          "name": "Investing.com",
+          "date": "2026-09-25",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-viavi-solutions-stock-surging-today-93CH-4917731",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "timing": "after close",
+      "type": "earnings (background): Q4 FY2026 results and Q1 FY2027 guidance",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Q4 FY26 (quarter ended 2026-06-27): revenue $443.1M, up 52.5% year over year and above the $427-437M guidance range. Non-GAAP EPS was $0.34 vs a ~$0.30 consensus; GAAP EPS was $0.13. Non-GAAP operating margin was 24.0%, up 960 bps. NSE segment revenue was $353.9M (+69.2%) and OSP $89.2M (+9.6%). FY26 revenue was $1.518B (+40.0%). Q1 FY27 guidance (quarter ending 2026-10-03): revenue $450-460M, non-GAAP EPS $0.40-0.42, operating margin 27.1% +/-40 bps. Diluted share count rose to 261.0M. The stock closed -3.52% on Aug 5 and +4.34% on Aug 6 (pipeline).",
+      "why_it_matters": "This is the core fundamental story: AI data-center testing demand plus the Spirent acquisition drove growth and margins. The dilution from the May share sale is why per-share growth is lower than revenue growth.",
+      "direction": "supports",
+      "sources": [
+        {
+          "name": "VIAVI Q4 FY26 earnings release (8-K Ex. 99.1)",
+          "date": "2026-08-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000912093/000162828026053381/viavq4fy268-kex991.htm",
+          "tier": 1
+        },
+        {
+          "name": "Investing.com",
+          "date": "2026-08-05",
+          "url": "https://www.investing.com/news/company-news/viavi-q4-2026-slides-52-revenue-surge-but-shares-fall-on-dilution-93CH-4839510",
+          "tier": 3
+        },
+        {
+          "name": "Yahoo Finance call highlights",
+          "date": "2026-08-06",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/viavi-solutions-inc-viav-q4-051054244.html",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "timing": "unknown",
+      "type": "share offering / dilution (background)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "VIAVI announced a proposed ~$500M public offering of common stock, with underwriters holding a 15% extra option (bookrunners Stifel, Needham and UBS). The money was to repay its $450M Term Loan B. Per Investing.com, it raised $575M at $45 per share, about 12.78M new shares, and the diluted share count rose 15.0% year over year to 261.0M. A Tickeron blog (tier 3, unverified) linked part of the June-July slide (from $47.63 on 6/26 to $37.52 on 7/27) to the expiry of the offering's lock-up.",
+      "why_it_matters": "Dilution means each share owns a smaller slice of profits. This is a thesis-breaker category, but it happened in May, before the window. It also cut debt and interest costs.",
+      "direction": "weakens",
+      "sources": [
+        {
+          "name": "VIAVI press release (PR Newswire)",
+          "date": "2026-05-19",
+          "url": "https://www.prnewswire.com/news-releases/viavi-announces-proposed-public-offering-of-common-stock-302776610.html",
+          "tier": 1
+        },
+        {
+          "name": "Investing.com",
+          "date": "2026-08-05",
+          "url": "https://www.investing.com/news/company-news/viavi-q4-2026-slides-52-revenue-surge-but-shares-fall-on-dilution-93CH-4839510",
+          "tier": 3
+        }
+      ]
+    }
+  ],
+  "why_chain": [
+    {
+      "rung": 1,
+      "text": "VIAV rose 5.18% on Fri 2026-10-02 to $47.10, its 13th higher close in a row. It is +15.78% over 5 days and +36.52% over 1 month.",
+      "evidence": "data/metrics/2026-10-04.json (pipeline); https://www.trefis.com/stock/viav/articles/617392/viavi-solutions-stock-rides-a-12-day-winning-streak-to-a-33-gain/2026-10-02"
+    },
+    {
+      "rung": 2,
+      "text": "Sizing: about 0.17 pts came from the overall market, 1.8 pts from the chip/AI-hardware industry (SMH), and 3.2 pts was company-specific. The company-specific z-score of 0.81 means that is a normal-sized day for this very volatile stock (typical company-specific daily move 3.94%).",
+      "evidence": "data/metrics/attribution-2026-10-04.json"
+    },
+    {
+      "rung": 3,
+      "text": "No VIAVI press release, 8-K or analyst rating change was found for Oct 1-2. The only filings (proxy and annual report) came after Friday's close.",
+      "evidence": "https://www.viavisolutions.com/en-us/corporate/news-and-events/news-releases ; SEC EDGAR filing list; https://www.marketbeat.com/instant-alerts/options-traders-buy-large-volume-of-call-options-on-viavi-solutions-nasdaq-viav-2026-10-02/"
+    },
+    {
+      "rung": 4,
+      "text": "The sector backdrop was strong. On Oct 1, Bernstein's Outperform initiation on optical networking and Coherent's PhotonLink launch sent Coherent, Lumentum and Ciena up 7-11%. On Oct 2 the move continued: Lumentum +3.79% and SMH +2.07%.",
+      "evidence": "https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html ; pipeline price files"
+    },
+    {
+      "rung": 5,
+      "text": "Investors treat VIAVI as part of the AI optical build-out because it sells the test gear used to develop and make those links. The data-center ecosystem is about 50% of NSE revenue, and it more than doubled year over year excluding Spirent. So sector enthusiasm spilled over to VIAV.",
+      "evidence": "inference (medium), built on sourced segment facts: https://finance.yahoo.com/markets/stocks/articles/viavi-solutions-inc-viav-q4-051054244.html"
+    },
+    {
+      "rung": 6,
+      "text": "Momentum and speculative buying probably amplified the move: call-option volume was 184% above average, volume was 1.73x normal, and RSI was 72.6 ('hot').",
+      "evidence": "inference (medium); options data https://www.marketbeat.com/instant-alerts/options-traders-buy-large-volume-of-call-options-on-viavi-solutions-nasdaq-viav-2026-10-02/ ; RSI and volume from data/metrics/2026-10-04.json"
+    },
+    {
+      "rung": 7,
+      "text": "Basic driver: AI data-center spending pushes network speeds toward 800G/1.6T. Chip, optics and equipment makers need test equipment to prove their gear works, and that demand lifted VIAVI's NSE revenue 69.2% year over year in Q4 FY26. No one published a VIAVI-specific reason for Friday's gain.",
+      "evidence": "https://www.sec.gov/Archives/edgar/data/0000912093/000162828026053381/viavq4fy268-kex991.htm (fact for NSE growth); link to Friday's move = inference (medium)"
+    }
+  ],
+  "products": [
+    {
+      "name": "VIAVI company overview (two segments)",
+      "what_it_is": "VIAVI makes test-and-measurement equipment and software for networks (NSE segment, ~80% of revenue) and specialty optical coatings and filters (OSP segment, ~20%).",
+      "analogy": "NSE is like the diagnostic machines a car mechanic plugs in, but for internet links, data centers and radios. OSP is like a maker of special inks and lenses, such as the color-shifting ink on banknotes.",
+      "buyers": "Data-center chip, optics and equipment makers and hyperscalers' suppliers; telecom/cable operators; aerospace and defense; for OSP, central-bank currency printers and consumer-electronics makers (OSP buyer detail from general knowledge of the 10-K; not re-verified this run).",
+      "how_it_works": "NSE sells hardware testers plus software that send traffic through a link or device and measure errors, speed and security. Spirent (acquired) adds Ethernet/AI-network and security testing. OSP sells thin-film optical pigments and filters.",
+      "price": "not disclosed",
+      "sales": "Q4 FY26: NSE $353.9M (+69.2% YoY), OSP $89.2M (+9.6% YoY), total $443.1M. FY26 total $1.518B (+40.0%).",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/0000912093/000162828026053381/viavq4fy268-kex991.htm (2026-08-05); segment growth % from https://www.investing.com/news/company-news/viavi-q4-2026-slides-52-revenue-surge-but-shares-fall-on-dilution-93CH-4839510",
+      "stage": "shipping",
+      "size_for_company": "100% (whole company)",
+      "competition": "Keysight Technologies is the main test-and-measurement rival (general knowledge, not sourced this run)",
+      "why_investors_care": "NSE has become an AI data-center story; OSP is a steady, high-margin cash business (40% Q4 operating margin per call highlights).",
+      "watch_next": "Q1 FY27 results (estimated 2026-10-28): revenue vs $450-460M guidance and margin vs 27.1%."
+    },
+    {
+      "name": "Data-center ecosystem test portfolio (high-speed Ethernet / 1.6T, PCIe 7.0, Ultra Ethernet validation, Spirent products)",
+      "what_it_is": "Testers that check whether the very fast connections inside AI data centers (800G/1.6T optical links, PCIe chip-to-chip links, Ultra Ethernet AI networking) work correctly before they ship.",
+      "analogy": "A crash-test lab for data highways: before a new car (network chip or optical module) goes on sale, you run it hard on a test track and record every failure.",
+      "buyers": "Makers of network chips, optical transceivers, switches and servers, and the labs of large cloud companies (category; named customers not disclosed)",
+      "how_it_works": "The tester generates huge streams of traffic at line rate, sends them through the device or link, and measures bit errors, latency and protocol compliance. It is used both in R&D labs and on factory lines.",
+      "price": "not disclosed",
+      "sales": "not disclosed as a separate number. Proxy: management said the data-center ecosystem is ~50% of NSE revenue and 'more than doubled' year over year excluding Spirent. 50% of Q4 NSE $353.9M implies roughly $177M for the quarter (labelled inference from rounded % ).",
+      "sales_source": "https://finance.yahoo.com/markets/stocks/articles/viavi-solutions-inc-viav-q4-051054244.html (2026-08-06); NSE figure https://www.sec.gov/Archives/edgar/data/0000912093/000162828026053381/viavq4fy268-kex991.htm",
+      "stage": "shipping and ramping. Ultra Ethernet validation launched 2026-06-23; showcased at ECOC 2026 (VIAVI release 2026-09-09).",
+      "size_for_company": "About 40% of total quarterly revenue (inference: ~50% of NSE, and NSE is 79.9% of revenue)",
+      "competition": "Keysight and others in high-speed network test (not sourced this run)",
+      "why_investors_care": "This is the AI exposure behind the stock's +164% year-to-date run, and the reason it trades with optical stocks.",
+      "watch_next": "Whether data-center share and NSE growth hold in Q1 FY27. Management target: $500M quarterly revenue during calendar 2027."
+    },
+    {
+      "name": "CyberFlood CF50 (100G application, security and AI-inference test platform)",
+      "what_it_is": "A small 100G test box that simulates real application and attack traffic to test firewalls, security gear and AI-inference systems (announced 2026-09-29).",
+      "analogy": "A sparring partner that throws realistic punches (traffic and cyberattacks) at a security guard (firewall) to see whether it holds up.",
+      "buyers": "Enterprise security vendors, network-equipment makers, enterprises (category; customers not disclosed)",
+      "how_it_works": "Generates stateful application traffic and attack scenarios at up to 100G and measures throughput and blocking.",
+      "price": "not disclosed",
+      "sales": "not disclosed; no proxy available",
+      "sales_source": "https://www.viavisolutions.com/en-us/corporate/news-and-events/news-releases (2026-09-29 release title)",
+      "stage": "announced",
+      "size_for_company": "not disclosed; likely small relative to $443M quarterly revenue (inference, low)",
+      "competition": "not sourced this run",
+      "why_investors_care": "Shows Spirent's security-test line being refreshed. A minor item.",
+      "watch_next": "Any order or customer mentions on the Q1 FY27 call."
+    }
+  ],
+  "earnings": {
+    "status": "reported",
+    "date": "2026-08-05",
+    "confirmed": true,
+    "consensus": {
+      "eps_non_gaap": "$0.30 (MarketBeat)",
+      "revenue": "$432.62M (MarketBeat)"
+    },
+    "actual": {
+      "revenue": "$443.1M (+52.5% YoY)",
+      "eps_non_gaap": "$0.34",
+      "eps_gaap": "$0.13",
+      "op_margin_non_gaap": "24.0%",
+      "op_margin_gaap": "13.8%",
+      "fy26_revenue": "$1.518B (+40.0%)"
+    },
+    "guidance": {
+      "q1_fy27_revenue": "$450-460M",
+      "q1_fy27_eps_non_gaap": "$0.40-0.42",
+      "q1_fy27_op_margin": "27.1% +/-40 bps",
+      "q1_fy27_quarter_end": "2026-10-03 (includes one extra week)",
+      "longer_term": "$500M quarterly revenue achievable during calendar 2027 (management, per call highlights)"
+    },
+    "key_metrics": {
+      "NSE_revenue": "$353.9M (+69.2%)",
+      "OSP_revenue": "$89.2M (+9.6%)",
+      "data_center_share_of_NSE": "~50%",
+      "aerospace_defense_share_of_NSE": "~17%",
+      "diluted_shares_Q4": "261.0M",
+      "cash": "$656.7M",
+      "debt": "$250M 0.625% convertible notes + $400M 3.75% 2029 notes (Investing.com)"
+    },
+    "quality_flags": [
+      "GAAP EPS ($0.13) far below non-GAAP EPS ($0.34): adjustments include acquisition-related costs and amortization; FY26 included a $56.7M loss on debt extinguishment",
+      "Diluted share count up 15.0% YoY after the May equity offering",
+      "Management flagged 'anemic' wireless demand and service-provider business growing only 1-2% a year",
+      "1.6T adoption partly substitutes for 800G test demand (call highlights)"
+    ],
+    "management_explanation": "CEO Oleg Khaykin: 'Our diversification strategy into datacenter ecosystem and aerospace and defense end markets has been a key growth driver for us during FY26.' Spirent integration 'fully complete and ahead of schedule'.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/0000912093/000162828026053381/viavq4fy268-kex991.htm",
+      "https://www.investing.com/news/company-news/viavi-q4-2026-slides-52-revenue-surge-but-shares-fall-on-dilution-93CH-4839510",
+      "https://finance.yahoo.com/markets/stocks/articles/viavi-solutions-inc-viav-q4-051054244.html",
+      "https://www.marketbeat.com/instant-alerts/price-viavi-solutions-nasdaq-viav-shares-climb-51-whats-next-2026-10-01/"
+    ]
+  },
+  "next_earnings": {
+    "date": "2026-10-28 (estimated, after close; MarketBeat). Prior-year Q1 was reported 2025-10-29. Fiscal Q1 FY27 ended 2026-10-03.",
+    "confirmed": false,
+    "consensus_eps": "$0.36 (MarketBeat). This is BELOW the company's own $0.40-0.42 guidance and may be stale or differently defined; treat as unverified.",
+    "consensus_revenue": "$433.2M (MarketBeat). This is BELOW the company's $450-460M guidance and may be stale; treat as unverified.",
+    "company_guidance": "Revenue $450-460M; non-GAAP EPS $0.40-0.42; non-GAAP operating margin 27.1% +/-40 bps; OSP operating margin 43.2% +/-20 bps (given 2026-08-05)",
+    "sources": [
+      "https://www.marketbeat.com/stocks/NASDAQ/VIAV/earnings/",
+      "https://www.sec.gov/Archives/edgar/data/0000912093/000162828026053381/viavq4fy268-kex991.htm",
+      "https://finance.yahoo.com/markets/stocks/articles/viavi-solutions-inc-viav-q4-051054244.html"
+    ]
+  },
+  "analyst_actions": [
+    {
+      "date": "2026-09-23",
+      "firm": "Rosenblatt Securities",
+      "action": "Reiterated Buy, $70 target",
+      "reason": "not stated in source",
+      "url": "https://www.marketbeat.com/instant-alerts/price-viavi-solutions-nasdaq-viav-shares-climb-51-whats-next-2026-10-01/"
+    },
+    {
+      "date": "2026-08-06",
+      "firm": "UBS",
+      "action": "Neutral; target cut to $44 from $60",
+      "reason": "not stated in source",
+      "url": "https://www.defenseworld.net/2026/08/07/viavi-solutions-nasdaqviav-price-target-lowered-to-44-00-at-ubs-group.html"
+    },
+    {
+      "date": "2026-08-06",
+      "firm": "B. Riley",
+      "action": "Buy; target cut to $60 from $63",
+      "reason": "not stated in source",
+      "url": "https://www.defenseworld.net/2026/08/07/viavi-solutions-nasdaqviav-given-new-60-00-price-target-at-b-riley-financial.html"
+    },
+    {
+      "date": "2026-08-06 (approx.; reported 2026-08-07)",
+      "firm": "Stifel",
+      "action": "Buy; target raised to $65 from $60",
+      "reason": "not stated in source",
+      "url": "https://www.defenseworld.net/2026/08/07/viavi-solutions-nasdaqviav-price-target-raised-to-65-00-at-stifel-nicolaus.html"
+    },
+    {
+      "date": "not verified",
+      "firm": "Susquehanna",
+      "action": "Positive rating; target raised to $66 from $65",
+      "reason": "not stated",
+      "url": "https://www.tipranks.com/stocks/viav"
+    },
+    {
+      "date": "2026-10-02 (snapshot)",
+      "firm": "Consensus",
+      "action": "StockAnalysis: average target $61.43 (low $44, high $70), 'Strong Buy'. MarketBeat: 'Moderate Buy', average $55.43. The two aggregators disagree.",
+      "reason": "aggregator",
+      "url": "https://stockanalysis.com/stocks/viav/forecast/"
+    }
+  ],
+  "insiders": {
+    "summary": "No insider trades in the window (pipeline: 0 open-market buys or sells). Background, Aug-Sep 2026 (from SEC Form 4 XML): 2026-09-22 was a routine vesting day for the CEO, CFO and other officers (code M vesting plus code F shares withheld for tax at $36.40; no market sales). Open-market sales (code S) WITHOUT the 10b5-1 plan box checked: director Laura A. Black, 71,000 shares at $46.12 on 2026-08-17 (~$3.27M, about half her holding: 71,497 left); director Joanne Solomon, 10,000 at $42.92 on 2026-08-14 (~$0.43M; 65,924 left); EVP Paul McNab, 1,595 at $37.37 on 2026-08-10 and 11,032 at ~$38.97 on 2026-09-11 (~$0.43M; 25,639 left). SVP Luke Scrivanich sold 35,866 at $36.24 on 2026-09-23 under a 10b5-1 plan. No open-market insider purchases were found.",
+    "notable": [
+      {
+        "date": "2026-08-17",
+        "who": "Laura A. Black (director)",
+        "code": "S",
+        "shares": 71000,
+        "price": 46.12,
+        "value_usd": "~3,274,520",
+        "after": 71497,
+        "plan_10b5_1": "box not checked",
+        "url": "https://www.sec.gov/Archives/edgar/data/912093/000091209326000060/"
+      },
+      {
+        "date": "2026-08-14",
+        "who": "Joanne Solomon (director)",
+        "code": "S",
+        "shares": 10000,
+        "price": 42.92,
+        "value_usd": "~429,200",
+        "after": 65924,
+        "plan_10b5_1": "box not checked",
+        "url": "https://www.sec.gov/Archives/edgar/data/912093/000091209326000058/"
+      },
+      {
+        "date": "2026-09-11",
+        "who": "Paul McNab (EVP, Chief Marketing & Strategy Officer)",
+        "code": "S",
+        "shares": 11032,
+        "price": "38.96-38.98",
+        "value_usd": "~429,900",
+        "after": 25639,
+        "plan_10b5_1": "box not checked",
+        "url": "https://www.sec.gov/Archives/edgar/data/912093/000091209326000080/"
+      },
+      {
+        "date": "2026-09-23",
+        "who": "Luke Scrivanich (SVP, GM OSP)",
+        "code": "S",
+        "shares": 35866,
+        "price": 36.24,
+        "value_usd": "~1,299,800",
+        "after": 39598,
+        "plan_10b5_1": "yes",
+        "url": "https://www.sec.gov/Archives/edgar/data/912093/000091209326000096/"
+      },
+      {
+        "date": "2026-09-22",
+        "who": "Oleg Khaykin (CEO), Ilan Daskal (CFO) and 5 other officers",
+        "code": "M/F",
+        "shares": "vesting; tax withholding at $36.40",
+        "price": 36.4,
+        "value_usd": "routine",
+        "after": "CEO 1,778,065 after",
+        "plan_10b5_1": "n/a",
+        "url": "https://www.sec.gov/Archives/edgar/data/912093/000091209326000086/"
+      }
+    ]
+  },
+  "filings": [
+    {
+      "form": "DEF 14A",
+      "items": "proxy statement",
+      "plain_english": "Annual-meeting agenda: virtual meeting 2026-11-11, elect 9 directors, ratify PwC as auditor for FY2027, advisory say-on-pay vote. No new share authorization found.",
+      "materiality": "low",
+      "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm"
+    },
+    {
+      "form": "DEFA14A",
+      "items": "additional proxy material",
+      "plain_english": "Supplementary proxy material filed alongside the proxy; nothing material identified (document not opened in detail).",
+      "materiality": "low",
+      "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064533/defa14-afy26a.htm"
+    },
+    {
+      "form": "ARS",
+      "items": "annual report to shareholders",
+      "plain_english": "The glossy annual report for FY2026; the numbers repeat the 10-K filed 2026-08-13.",
+      "materiality": "low",
+      "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064554/viavisolutionsinccombinedp.pdf"
+    }
+  ],
+  "catalysts": [
+    {
+      "date": "2026-10-28 (estimated)",
+      "event": "Q1 FY2027 results and outlook for Q2 FY27",
+      "confirmed": false,
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/VIAV/earnings/"
+    },
+    {
+      "date": "2026-11-11",
+      "event": "Annual shareholder meeting (virtual)",
+      "confirmed": true,
+      "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm"
+    },
+    {
+      "date": "calendar 2027",
+      "event": "Management target of $500M quarterly revenue",
+      "confirmed": false,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/viavi-solutions-inc-viav-q4-051054244.html"
+    }
+  ],
+  "thesis_breaker_checks": [
+    {
+      "event": "the company cut its revenue or profit forecast (guidance)",
+      "found": false,
+      "evidence": "The latest guidance (2026-08-05) is for Q1 FY27 revenue of $450-460M, above Q4's $443.1M. No update since; no 8-K after 2026-08-05 in EDGAR."
+    },
+    {
+      "event": "results missed analysts' revenue or EPS estimates",
+      "found": false,
+      "evidence": "Q4 FY26 beat: EPS $0.34 vs $0.30, revenue $443.1M vs $432.62M (MarketBeat), and above the company's own range (8-K 2026-08-05). It beat EPS in each of the last 4 quarters (MarketBeat)."
+    },
+    {
+      "event": "a major customer was lost, or a major customer cut orders",
+      "found": false,
+      "evidence": "Nothing found. Weak spots management flagged: 'anemic' wireless demand and service-provider growth of only 1-2% (call highlights, 2026-08-06)."
+    },
+    {
+      "event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+      "found": false,
+      "evidence": "The EDGAR list since 2026-08-01 shows only one 8-K (2026-08-05, Items 2.02/9.01)."
+    },
+    {
+      "event": "the auditor resigned or was dismissed (8-K Item 4.01)",
+      "found": false,
+      "evidence": "No 4.01 8-K. The 2026-10-02 proxy asks shareholders to ratify PwC for FY2027."
+    },
+    {
+      "event": "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+      "found": false,
+      "evidence": "No 5.02 8-K. The proxy (2026-10-02) names Oleg Khaykin CEO; Ilan Daskal filed a Form 4 as EVP, CFO on 2026-09-23. The 'CEO transition' search hit is a 2015 release."
+    },
+    {
+      "event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+      "found": false,
+      "evidence": "Not found in the window. Background: the May 2026 offering (announced 2026-05-19; ~$575M at $45, ~12.78M shares) lifted the diluted share count 15% YoY to 261.0M. That predates the window but is relevant history; $250M of convertible notes also remain outstanding."
+    },
+    {
+      "event": "a regulator opened an investigation, or major litigation was filed",
+      "found": false,
+      "evidence": "No investigation or suit against VIAVI found. One search hit is VIAVI as plaintiff (patent suits vs LG Electronics, LG Innotek, Optrontec); its date was not verified."
+    },
+    {
+      "event": "two or more analyst downgrades within five trading days",
+      "found": false,
+      "evidence": "No downgrades found in the window. Around results: UBS neutral with target cut to $44 (2026-08-06) and B. Riley target cut but Buy kept. Wall Street Zen (quant site) went to buy from strong-buy on 2026-08-29. No cluster of 2 bank downgrades within 5 days."
+    },
+    {
+      "event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+      "found": false,
+      "evidence": "Not in the window. BORDERLINE in background: between 2026-08-10 and 2026-09-11, three insiders sold without the 10b5-1 box checked (two directors, Black ~$3.27M and Solomon ~$0.43M, plus EVP McNab ~$0.49M across two sales). Main session should judge; the trades are 3-7 weeks old and fall outside the 'window' framing."
+    }
+  ],
+  "disconfirming_evidence": [
+    {
+      "claim": "UBS sees limited upside: Neutral, $44 target (below Friday's $47.10 close).",
+      "url": "https://www.defenseworld.net/2026/08/07/viavi-solutions-nasdaqviav-price-target-lowered-to-44-00-at-ubs-group.html",
+      "assessment": "An opinion from 2026-08-06, when the stock was ~$40. The reason was not available."
+    },
+    {
+      "claim": "Valuation and profitability look stretched: trailing GAAP operating margin of 8.0% vs a 21.6% median for S&P 500 IT stocks. Trefis says it lacks positive trailing earnings, and MarketBeat shows a -2.00% net margin. A GuruFocus model calls it ~166% overvalued.",
+      "url": "https://www.trefis.com/stock/viav/articles/617392/viavi-solutions-stock-rides-a-12-day-winning-streak-to-a-33-gain/2026-10-02",
+      "assessment": "Tier-3 sources and partly model-driven. The trailing GAAP figures are depressed by acquisition costs and a $56.7M debt-extinguishment loss, so non-GAAP margins (24% in Q4) tell a different story. Both views should be shown."
+    },
+    {
+      "claim": "Parts of the business are weak: 'anemic' wireless demand, service providers growing 1-2%, and 1.6T partly cannibalising 800G test demand.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/viavi-solutions-inc-viav-q4-051054244.html",
+      "assessment": "Management's own caveats (2026-08-06); a real but secondary risk next to data-center growth."
+    },
+    {
+      "claim": "The stock is extremely volatile and momentum-driven: 1y max drawdown -41.75%, 60-day annualised volatility 82%, RSI 72.6 after 13 straight up days. It fell from ~$55 (May 1) to $32.23 (July 29) before the current run.",
+      "url": "data/metrics/2026-10-04.json; data/prices/VIAV.csv",
+      "assessment": "Fact from pipeline data. It means that a move of +/-5% on a single day is ordinary for this stock."
+    },
+    {
+      "claim": "VIAV fell 12.72% on 2026-09-14. A tier-3/avoid-tier source attributed it to EVP McNab's $430K share sale.",
+      "url": "https://www.fool.com/coverage/filings/2026/09/13/viavi-solutions-evp-paul-mcnab-sells-11-032-shares-for-usd429-917/",
+      "assessment": "The cause is unverified. A $430K sale is unlikely to explain a 12.7% drop (inference, medium). The true cause is not available."
+    }
+  ],
+  "open_questions": [
+    "No VIAVI-specific cause for Friday's +5.18% was published. The sector-rally and momentum explanation is inference (medium).",
+    "The Q1 FY27 earnings date is not yet confirmed by VIAVI IR (estimate 2026-10-28).",
+    "MarketBeat's Q1 FY27 consensus ($0.36 EPS, $433.2M revenue) sits below the company's own guidance; verify on a second source before quoting.",
+    "Date of Susquehanna's $65 to $66 target raise not verified.",
+    "Cause of the -11.49% (2026-07-02) and -12.72% (2026-09-14) drops not verified.",
+    "COMPANY DESCRIPTION (for Santi, no thesis file yet): VIAVI makes test-and-measurement equipment and software for networks, mostly AI data-center links (NSE, ~80% of revenue), plus optical coatings and anti-counterfeiting pigments (OSP, ~20%). FY26 revenue was $1.518B (+40%); market value about $10.7B (Trefis, 2026-10-02).",
+    "SUGGESTED THESIS METRICS: (1) NSE revenue growth and data-center share of NSE (~50% now); (2) quarterly revenue vs guidance and vs the $500M/quarter calendar-2027 target; (3) non-GAAP operating margin vs guidance (27.1% for Q1 FY27); (4) diluted share count (261.0M) for further dilution or convertible-note conversion; (5) OSP revenue and margin as the stable cash engine."
+  ],
+  "searches_run": 11
+}

@@ -1,0 +1,300 @@
+{
+  "ticker": "MRNA",
+  "items": [
+    {
+      "key": "mrna-2026-10-01-nasdaq-100",
+      "date": "2026-10-01",
+      "timing": "after close",
+      "type": "index inclusion",
+      "materiality": "medium",
+      "direction": "neutral",
+      "what": "Nasdaq said Moderna joins the Nasdaq-100 index before the open on 2026-10-09; index funds must buy shares, but the business is unchanged.",
+      "source": {
+        "name": "Nasdaq",
+        "date": "2026-10-01",
+        "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-10-02",
+        "stock_pct": 0.57,
+        "market_pct": 0.74,
+        "beyond_market_pct": -0.17,
+        "typical_day_pct": 3.43,
+        "z": -0.05,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "mrna-2026-09-30-citi-sell",
+      "date": "2026-09-30",
+      "timing": "before open",
+      "type": "analyst downgrade",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Citi downgraded to Sell and sees the stock at $80, arguing the price already assumes about $13bn a year of cancer-vaccine sales.",
+      "source": {
+        "name": "CNBC",
+        "date": "2026-09-30",
+        "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-30",
+        "stock_pct": -5.35,
+        "market_pct": -0.21,
+        "beyond_market_pct": -5.15,
+        "typical_day_pct": 3.38,
+        "z": -1.52,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "mrna-2026-09-30-new-coo",
+      "date": "2026-09-30",
+      "timing": "before open",
+      "type": "management change",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Named Juan Andres to a new Chief Operating Officer role from 2026-10-05; the chief technical operations and quality officer will retire. The CEO and CFO stay.",
+      "source": {
+        "name": "SEC Form 8-K",
+        "date": "2026-09-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/d18337d8k.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-30",
+        "stock_pct": -5.35,
+        "market_pct": -0.21,
+        "beyond_market_pct": -5.15,
+        "typical_day_pct": 3.38,
+        "z": -1.52,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "mrna-2026-09-01-convertible",
+      "date": "2026-09-01",
+      "timing": "unknown",
+      "type": "financing (convertible bonds)",
+      "materiality": "medium",
+      "direction": "mixed",
+      "what": "Raised $3.0bn with convertible bonds: they could become about 14 million new shares (about 3.6% more) above about $210.58; a capped-call hedge offsets that up to about $392.62.",
+      "source": {
+        "name": "SEC 8-K",
+        "date": "2026-09-01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-01",
+        "stock_pct": 9.93,
+        "market_pct": -0.69,
+        "beyond_market_pct": 10.61,
+        "typical_day_pct": 3.14,
+        "z": 3.38,
+        "next_5_days_pct": -12.1
+      }
+    },
+    {
+      "key": "mrna-2026-08-19-melanoma-phase3",
+      "date": "2026-08-19",
+      "timing": "before open",
+      "type": "clinical trial result",
+      "materiality": "high",
+      "direction": "good",
+      "what": "Moderna and Merck's personalised melanoma vaccine (intismeran) plus Keytruda met its main goal in a Phase 3 trial (the final round of patient testing before approval). The stock rose 177% that day.",
+      "source": {
+        "name": "Moderna/Merck",
+        "date": "2026-08-19",
+        "url": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-08-19",
+        "stock_pct": 176.97,
+        "market_pct": 0.21,
+        "beyond_market_pct": 176.76,
+        "typical_day_pct": 3.05,
+        "z": 57.9,
+        "next_5_days_pct": -14.18
+      }
+    },
+    {
+      "key": "mrna-2026-08-05-flu-approval",
+      "date": "2026-08-05",
+      "timing": "unknown",
+      "type": "regulatory approval",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "The FDA approved mFLUSIVA, Moderna's mRNA flu vaccine, for adults 50 and over.",
+      "source": {
+        "name": "NBC News",
+        "date": "2026-08-05",
+        "url": "https://www.nbcnews.com/health/health-news/fda-approves-1st-mrna-flu-shot-moderna-rcna590599",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-08-05",
+        "stock_pct": -1.29,
+        "market_pct": -0.2,
+        "beyond_market_pct": -1.09,
+        "typical_day_pct": 2.94,
+        "z": -0.37,
+        "next_5_days_pct": 13.18
+      }
+    },
+    {
+      "key": "mrna-2026-07-31-q2-results",
+      "date": "2026-07-31",
+      "timing": "before open",
+      "type": "earnings",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Q2 revenue $145m and a net loss of $0.8bn: today's business (mostly COVID vaccines) is small and loss-making.",
+      "source": {
+        "name": "Moderna Q2 2026 results",
+        "date": "2026-07-31",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-07-31",
+        "stock_pct": -5.35,
+        "market_pct": 0.72,
+        "beyond_market_pct": -6.07,
+        "typical_day_pct": 2.96,
+        "z": -2.05,
+        "next_5_days_pct": 7.94
+      }
+    },
+    {
+      "key": "mrna-2026-10-05-jump-no-news",
+      "date": "2026-10-05",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "medium",
+      "direction": "neutral",
+      "what": "Rose 6.95% with no company news; biotech stocks rose, and one market-news site (citing no evidence) pointed to buying ahead of the Nasdaq-100 entry and the 10-24 data; against its last 20 trading days the move was about one and a half typical days.",
+      "source": {
+        "name": "TradingKey",
+        "date": "2026-10-05",
+        "url": "https://www.tradingkey.com/news/market-movers/262200511-market-movers-mrna-20261005",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-05",
+      "reports": [
+        "2026-10-05"
+      ],
+      "reaction": {
+        "day": "2026-10-05",
+        "stock_pct": 6.95,
+        "market_pct": 0.67,
+        "beyond_market_pct": 6.27,
+        "typical_day_pct": 3.35,
+        "z": 1.87,
+        "next_5_days_pct": null
+      }
+    }
+  ],
+  "days": [
+    {
+      "report": "2026-10-04",
+      "trading_day": "2026-10-02",
+      "close": 190.01,
+      "day_pct": 0.57,
+      "market_part_pct": 1.36,
+      "industry_part_pct": -2.41,
+      "company_part_pct": 1.61,
+      "z": 0.15,
+      "main_news": "Nasdaq said Moderna joins the Nasdaq-100 index before the open on 2026-10-09; index funds must buy shares, but the business is unchanged."
+    },
+    {
+      "report": "2026-10-05",
+      "trading_day": "2026-10-05",
+      "close": 203.21,
+      "day_pct": 6.95,
+      "market_part_pct": 1.25,
+      "industry_part_pct": 1.42,
+      "company_part_pct": 4.28,
+      "z": 0.39,
+      "main_news": "Rose 6.95% with no company news; biotech stocks rose, and one market-news site (citing no evidence) pointed to buying ahead of the Nasdaq-100 entry and the 10-24 data; against its last 20 trading days the move was about one and a half typical days."
+    }
+  ],
+  "upcoming": {
+    "as_of": "2026-10-05",
+    "events": [
+      {
+        "date": "2026-10-08",
+        "event": "Index funds expected to buy at the close, before the Nasdaq-100 entry",
+        "confirmed": false,
+        "source": {}
+      },
+      {
+        "date": "2026-10-09",
+        "event": "Joins the Nasdaq-100 index before the open",
+        "confirmed": true,
+        "source": {
+          "name": "Nasdaq",
+          "date": "2026-10-01",
+          "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Full Phase 3 melanoma data, ESMO Presidential Symposium, 10:30 a.m. New York time; webcast 1:00 p.m.",
+        "confirmed": true,
+        "source": {
+          "name": "Moderna via ACCESS Newswire",
+          "date": "2026-09-21",
+          "url": "https://finance.yahoo.com/healthcare/articles/moderna-announces-breaking-data-presented-141200784.html",
+          "tier": 3
+        }
+      },
+      {
+        "date": "about 2026-10-29",
+        "event": "Q3 2026 results",
+        "confirmed": false,
+        "source": {}
+      }
+    ]
+  }
+}

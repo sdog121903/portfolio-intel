@@ -1,0 +1,229 @@
+{
+  "ticker": "SNOW",
+  "company": "Snowflake Inc.",
+  "window": {"from": "2026-10-01 after US close", "to": "2026-10-04"},
+  "newest_item_checked": "SEC Form 4 (Michael L. Speiser, director), accepted 2026-10-03 00:00 UTC; 8-K accepted 2026-10-02 20:06 UTC (convertible notes closing). No company press release or tier-2 story dated 2026-10-02 to 2026-10-04 found.",
+  "events": [
+    {
+      "date": "2026-10-02",
+      "timing": "after close",
+      "type": "financing / convertible debt (8-K Items 1.01, 2.03, 3.02, 8.01, 9.01)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "8-K formally records that Snowflake CLOSED (on 2026-10-01) its private sale of $3.75 billion of 0.00% convertible senior notes: $2.0 billion due 2029 (conversion price about $500.38 per share) and $1.75 billion due 2031 (about $483.98 per share). Buyers have 13 days to buy up to $300 million more 2029 notes and $250 million more 2031 notes. Snowflake bought 'capped calls' (a hedge) with a cap of $820.30 per share, 150% above the reference price, costing about $383.5 million; about $548.3 million goes to repurchasing part of its 2027 convertible notes (about $261.8 million principal per the pricing release); the rest of the about $3.70 billion net proceeds is for general corporate purposes, including possible share buybacks and acquisitions. Maximum shares issuable on conversion: 7,009,480 (2029) plus 6,095,200 (2031). The deal itself was announced 2026-09-28 and priced that evening, so the closing is new paperwork, not new information.",
+      "why_it_matters": "Zero-interest borrowing gives Snowflake about $3.7 billion of extra cash (versus about $4.3 billion of cash and investments at 2026-07-31 per the 10-Q). The cost to shareholders is possible dilution if the stock rises above about $484-$500 by maturity. Calculation (inference, high): at the initial conversion rates the notes convert into about 7.6 million shares (2,000,000 x 1.9985 + 1,750,000 x 2.0662), about 2.2% of the 352.8 million shares outstanding on 2026-08-21; the 8-K's maximum of about 13.1 million shares (about 3.7%) applies only in special cases. The capped call offsets dilution up to $820.30. Rules check: 8-K Item 3.02 matches the wording of a thesis breaker, but this is debt that converts into shares only if the price rises about 48-53%, not a share sale today.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 8-K (Snowflake), 2026-10-02", "date": "2026-10-02", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm", "tier": 1},
+        {"name": "Snowflake pricing press release (8-K Exhibit 99.2), 2026-09-28", "date": "2026-09-28", "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000043/exhibit992-pricingpressrel.htm", "tier": 1},
+        {"name": "Business Wire: Snowflake Prices Upsized Private Placement of $3.75 Billion", "date": "2026-09-28", "url": "https://www.businesswire.com/news/home/20260928854921/en/Snowflake-Prices-Upsized-Private-Placement-of-%243.75-Billion-of-0.00-Convertible-Senior-Notes", "tier": 1},
+        {"name": "Snowflake 10-Q for quarter ended 2026-07-31 (shares outstanding, cash)", "date": "2026-09-03", "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000037/snow-20260731.htm", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-01 to 2026-10-02",
+      "timing": "during",
+      "type": "insider sales (Form 4, Form 144)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Director Michael L. Speiser reported sales on 2026-10-02 at $344.00 across several holding entities. The parsed rows total 50,741 shares, about $17.45 million (inference from the parsed rows; four identical 840-share rows may be separate entities or a parsing duplicate, so check the filing). All rows are flagged as under a 10b5-1 plan (pre-scheduled). EVP of Product Management Christian Kleinerman sold 15,000 shares on 2026-10-01 at $341.57 (about $5.12 million) under a 10b5-1 plan, leaving 313,738 shares (about 4.6% of his stake sold). Two Form 144 notices (planned sales) were filed on 2026-10-01 and 2026-10-02.",
+      "why_it_matters": "Sales scheduled in advance under 10b5-1 plans say little about insiders' current view. No open-market purchases.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4 (Speiser), 2026-10-02", "date": "2026-10-02", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000143364426000017/xslF345X06/wk-form4_1790985606.xml", "tier": 1},
+        {"name": "SEC Form 4 (Kleinerman), 2026-10-02", "date": "2026-10-02", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000022/xslF345X06/wk-form4_1790985545.xml", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "timing": "before open",
+      "type": "financing announcement (stock reaction)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "Snowflake announced a proposed $3.5 billion convertible notes offering (later upsized to $3.75 billion). Shares fell about 4% that Monday on dilution worries; premarket they were reported at $321.07 (down 4.4%). The conversion premiums imply a 2026-09-28 reference close of about $328.12 (inference: $500.38 / 1.525). Note: Yahoo's launch-day article split the tranches as $1.3 billion (2029) and $2.2 billion (2031); the final 8-K figures ($2.0 billion and $1.75 billion) take priority.",
+      "why_it_matters": "This is the most likely reason for the stock's roughly -1.8% company-specific gap over the past 5 days (inference, medium).",
+      "direction": "weakens",
+      "sources": [
+        {"name": "Yahoo Finance: Snowflake Shares Fall After $3.5 Billion Convertible Note Offering", "date": "2026-09-28", "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-shares-fall-3-5-120618001.html", "tier": 3},
+        {"name": "GuruFocus: shares dip in premarket", "date": "2026-09-28", "url": "https://www.gurufocus.com/news/9099610/snowflake-snow-announces-35-billion-convertible-notes-offering-shares-dip-in-premarket", "tier": 3},
+        {"name": "Snowflake launch press release (8-K Exhibit 99.1)", "date": "2026-09-28", "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000043/exhibit991-launchpressrele.htm", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "timing": "after close",
+      "type": "earnings (background)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Q2 fiscal 2027 (quarter ended 2026-07-31): product revenue $1,491.9 million (+37% YoY, the third quarter in a row of faster growth); total revenue $1,546.8 million (+35%); adjusted EPS $0.62 vs about $0.45 expected; revenue vs about $1.48 billion expected. Net revenue retention 126%; RPO $9.00 billion (+30%); 828 customers spending over $1 million a year. Full-year product revenue guidance raised to $6.07 billion (from $5.84 billion), about 36% growth. Shares rose about 22% in after-hours trading. Management said AI products drove about half of the acceleration.",
+      "why_it_matters": "This is the main fundamental reason the stock trades near $340. It directly supports thesis point 1 (existing customers keep using more) and point 2 (AI adds demand).",
+      "direction": "supports",
+      "sources": [
+        {"name": "Snowflake Q2 FY27 earnings release (8-K Exhibit 99.1)", "date": "2026-09-02", "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm", "tier": 1},
+        {"name": "CNBC: Snowflake spikes 22% on healthy results and AI coding momentum", "date": "2026-09-02", "url": "https://www.cnbc.com/2026/09/02/snowflake-snow-q2-earnings-report-2027.html", "tier": 2}
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "timing": "after close",
+      "type": "earnings + major contract + acquisition (background)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Q1 fiscal 2027: product revenue $1.33 billion (+34%); total revenue $1.39 billion vs about $1.32 billion expected; adjusted EPS $0.39 vs $0.32 expected; RPO $9.21 billion (+38%); NRR 126%. Full-year product revenue guidance raised to $5.84 billion from $5.68 billion. Also announced: a 5-year, $6 billion commitment to spend on AWS cloud infrastructure, and a deal to buy Natoma Labs (tools for managing AI agents) for about $110 million, mostly in stock. Shares jumped about 36-37% after hours. Figures are from search summaries of the release and trade press; not re-checked line by line against the release.",
+      "why_it_matters": "This was the turning point: the stock recovered from its April low because results showed AI adding to demand rather than replacing Snowflake.",
+      "direction": "supports",
+      "sources": [
+        {"name": "Snowflake Q1 FY27 earnings release (8-K Exhibit 99.1)", "date": "2026-05-27", "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000027/fy2027q1earnings.htm", "tier": 1},
+        {"name": "CIO Dive: Snowflake targets AI agent adoption with AWS deal, acquisition", "date": "2026-05-28", "url": "https://www.ciodive.com/news/snowflake-targets-ai-agent-adoption-aws/821393/", "tier": 3},
+        {"name": "TIKR: Snowflake stock surges 36% after Q1 2027 earnings beat", "date": "not available", "url": "https://www.tikr.com/blog/snowflake-stock-surges-36-after-q1-2027-earnings-beat-heres-what-it-means-for-snow", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "timing": "unknown",
+      "type": "sector selloff (background)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "The stock hit its 52-week low of $118.30 (pipeline metrics match this), about 56% below its earlier high of $284.99, during a broad sell-off in software stocks. Two fears drove it: tariffs, and the idea that AI agents would replace traditional software (nicknamed the 'SaaSpocalypse'). On 2026-04-09 Snowflake fell 9% in one session.",
+      "why_it_matters": "This explains why the 1-year maximum drawdown is -56.3% and the 6-month return is +124.6%. The stock can swing hard on AI-versus-software sentiment.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "TIKR: Snowflake stock crashed 56% and then nearly fully recovered", "date": "not available", "url": "https://www.tikr.com/blog/snowflake-stock-crashed-56-and-then-nearly-fully-recovered-here-is-what-the-ai-data-cloud-is-actually-worth", "tier": 3},
+        {"name": "Investing.com: Software sector rallies as Snowflake results soothe broader AI fears", "date": "not available", "url": "https://uk.investing.com/news/stock-market-news/software-sector-rallies-as-snowflake-results-soothe-broader-ai-fears-4703139", "tier": 3}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Friday 2026-10-02: the stock fell 0.28%. The model attributes +0.76 to the market and -0.78 to the software industry (IGV), leaving -0.26 company-specific (z-score -0.08). There is no company move to explain.", "evidence": "data/metrics/attribution-2026-10-04.json"},
+    {"rung": 2, "text": "The big picture is +124.6% over 6 months, from a 52-week low of $118.30 to $341.04.", "evidence": "data/metrics/2026-10-04.json"},
+    {"rung": 3, "text": "Two earnings reports caused most of the rebound: about +36% after hours on 2026-05-27 (Q1 FY27) and about +22% after hours on 2026-09-02 (Q2 FY27).", "evidence": "https://www.cnbc.com/2026/09/02/snowflake-snow-q2-earnings-report-2027.html ; https://www.tikr.com/blog/snowflake-stock-surges-36-after-q1-2027-earnings-beat-heres-what-it-means-for-snow"},
+    {"rung": 4, "text": "Those reports beat expectations because product revenue growth sped up for three quarters in a row, reaching 37% in Q2, and guidance was raised twice ($5.68B to $5.84B to $6.07B).", "evidence": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm"},
+    {"rung": 5, "text": "Management says AI products (CoCo coding agent, CoWork, AI functions, AI Gateway) drove about half of the acceleration; the rest came from the core data platform.", "evidence": "https://www.fool.com/earnings/call-transcripts/2026/09/09/snowflake-snow-q2-2027-earnings-call-transcript/"},
+    {"rung": 6, "text": "Basic driver: Snowflake charges for the computing customers use. AI tools running against company data use more computing, so AI adds billable usage instead of replacing Snowflake. This reversed April's fear that AI would make software like this obsolete.", "evidence": "inference (medium)"},
+    {"rung": 7, "text": "Past 5 days: +1.52%, of which about +3.5 points came from software stocks rising and about -1.8 points was company-specific. The likely cause is the 2026-09-28 convertible notes announcement, after which shares fell about 4% that day.", "evidence": "inference (medium); https://finance.yahoo.com/markets/stocks/articles/snowflake-shares-fall-3-5-120618001.html"}
+  ],
+  "products": [
+    {
+      "name": "0.00% Convertible Senior Notes due 2029 and 2031 ($3.75 billion)",
+      "what_it_is": "An IOU sold to big investors. It pays no interest, and the holder can swap it for Snowflake shares at about $484-$500 each.",
+      "analogy": "A loan where the lender accepts no interest in exchange for the right to take shares instead of cash if the stock rises a lot.",
+      "buyers": "Qualified institutional buyers (Rule 144A private placement), usually hedge funds running convertible-arbitrage strategies.",
+      "how_it_works": "If SNOW stays below the conversion price, Snowflake repays the cash at maturity (2029/2031). If it rises above, holders convert and new shares may be issued. The capped call hedge offsets that dilution up to $820.30 per share.",
+      "price": "Interest 0.00%. Conversion price about $500.38 (2029) and about $483.98 (2031), 52.5% and 47.5% premiums.",
+      "sales": "$3.75 billion principal sold; about $3.70 billion net proceeds; option for up to $550 million more.",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm",
+      "stage": "Closed 2026-10-01; option to buy more open for 13 days.",
+      "size_for_company": "Comparable to the company's roughly $4.3 billion of cash and investments at 2026-07-31. At initial rates it converts into about 2.2% of shares outstanding (inference, high).",
+      "competition": "not applicable",
+      "why_investors_care": "Cheap money for buybacks or acquisitions, against possible future dilution and a short-term price dip as convertible buyers hedge by shorting the stock (inference, medium).",
+      "watch_next": "Whether the extra notes option is exercised (by about 2026-10-14), any buyback or acquisition funded with the cash, and diluted share count in the Q3 10-Q."
+    },
+    {
+      "name": "CoCo (AI coding agent) and CoWork (agentic workflow tool)",
+      "what_it_is": "AI assistants built into Snowflake. CoCo writes and migrates data code; CoWork lets AI agents carry out tasks on a company's governed data.",
+      "analogy": "CoCo is a junior programmer who knows your company's data warehouse; CoWork is an assistant allowed to act on that data within set permissions.",
+      "buyers": "Data engineers and analytics teams at Snowflake's enterprise customers.",
+      "how_it_works": "Customers run the agents inside Snowflake. Using them consumes computing credits, which Snowflake bills as product revenue (inference, medium; Futurum describes AI as a consumption driver, not a separate product line).",
+      "price": "not disclosed",
+      "sales": "Revenue not disclosed. Proxy: CoCo 9,100+ accounts (2,000+ added in Q2); CoWork 5,800 accounts. Management says AI products drove about half of Q2's growth acceleration.",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm ; https://futurumgroup.com/insights/snowflake-q2-fy-2027-coco-and-cowork-expand-ai-consumption/",
+      "stage": "Shipping and ramping",
+      "size_for_company": "Not disclosed separately; AI revenue run-rate not disclosed.",
+      "competition": "Databricks and the cloud providers' own data and AI tools (AWS, Microsoft, Google), which are also Snowflake's infrastructure suppliers (10-Q risk factors). Competitor detail not sourced in this window.",
+      "why_investors_care": "Evidence that AI adds to Snowflake's usage rather than replacing it. This is the core of the 2026 rebound and thesis point 2.",
+      "watch_next": "Account counts and any AI revenue figure at Q3 results (expected 2026-12-02)."
+    },
+    {
+      "name": "AWS infrastructure commitment ($6 billion over 5 years)",
+      "what_it_is": "Snowflake's promise to buy at least $6 billion of Amazon cloud computing (including Graviton chips and GPU capacity) over five years.",
+      "analogy": "A restaurant signing a 5-year bulk deal with its main food supplier: lower prices, but it must buy that much.",
+      "buyers": "Snowflake is the buyer; AWS is the seller.",
+      "how_it_works": "Snowflake runs on AWS, Azure and Google Cloud. A large commitment usually buys better pricing, but Snowflake pays the shortfall if usage falls short (10-Q describes minimum-commitment risk).",
+      "price": "$6 billion over five years (about $1.2 billion a year on average; inference)",
+      "sales": "not applicable (this is a cost commitment, not a sale)",
+      "sales_source": "https://www.pymnts.com/news/artificial-intelligence/2026/snowflake-commits-6-billion-to-aws-for-global-ai-expansion",
+      "stage": "Signed (announced 2026-05-27)",
+      "size_for_company": "About 20% of FY27 product revenue guidance of $6.07 billion per year on average (inference).",
+      "competition": "not applicable",
+      "why_investors_care": "Signals management expects much more usage; affects gross margins.",
+      "watch_next": "Gross margin trend in Q3 results."
+    }
+  ],
+  "earnings": {
+    "status": "reported",
+    "date": "2026-09-02",
+    "confirmed": true,
+    "consensus": {"adjusted_eps": "$0.45", "revenue": "$1.48 billion", "source_note": "as reported by CNBC/Benzinga coverage; CNBC page fetch blocked, figures taken from search result text"},
+    "actual": {"adjusted_eps": "$0.62", "product_revenue": "$1,491.9 million (+37% YoY)", "total_revenue": "$1,546.8 million (+35% YoY)", "gaap_net_loss": "$(191.7) million"},
+    "guidance": {"q3_fy27_product_revenue": "$1,588-$1,593 million (+37-38% YoY)", "q3_fy27_non_gaap_operating_margin": "15.5%", "fy27_product_revenue": "$6,070 million (+36%), raised from $5,840 million", "fy27_non_gaap_operating_margin": "14.5% (from 13.5%)", "fy27_adjusted_fcf_margin": "23.0%"},
+    "key_metrics": {"net_revenue_retention": "126%", "rpo": "$9.00 billion (+30% YoY; it was $9.21 billion at Q1)", "customers_over_1m": "828 (+27% YoY)", "forbes_global_2000_customers": "829", "non_gaap_operating_margin": "15.3%", "non_gaap_fcf_q2": "$83.8 million", "buybacks_h1": "$300.0 million"},
+    "quality_flags": ["GAAP net loss of $191.7 million despite a 15.3% non-GAAP operating margin; the gap is mostly stock-based compensation (inference, high)", "RPO fell from $9.21 billion (Q1) to $9.00 billion (Q2), and RPO growth slowed from 38% to 30%", "Q2 free cash flow of only $83.8 million is seasonally low against the 23% full-year target"],
+    "management_explanation": "CEO Sridhar Ramaswamy: 'AI continues to compound our advantages, creating a flywheel effect across the business.' AI products contributed about half of the growth acceleration.",
+    "sources": ["https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm", "https://www.cnbc.com/2026/09/02/snowflake-snow-q2-earnings-report-2027.html", "https://www.fool.com/earnings/call-transcripts/2026/09/09/snowflake-snow-q2-2027-earnings-call-transcript/"]
+  },
+  "next_earnings": {
+    "date": "2026-12-02 (after close), Q3 fiscal 2027 (quarter ends 2026-10-31)",
+    "confirmed": false,
+    "consensus_eps": "$0.60 (TipRanks, tier 3, as of 2026-10-04)",
+    "consensus_revenue": "not available (not found in a reliable source)",
+    "company_guidance": "Q3 FY27 product revenue $1,588-$1,593 million (+37-38% YoY), non-GAAP operating margin 15.5%. FY27 product revenue $6,070 million, operating margin 14.5%, adjusted FCF margin 23.0% (company, 2026-09-02).",
+    "sources": ["https://www.tipranks.com/stocks/snow/earnings", "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm"]
+  },
+  "analyst_actions": [
+    {"date": "2026-09-03 (approx.)", "firm": "Morgan Stanley (Sanjit Singh)", "action": "Overweight kept; price target raised to $470 from $300", "reason": "Third straight quarter of faster growth after Q2", "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-resets-snowflake-stock-210300184.html"},
+    {"date": "2026-09-03 (approx.)", "firm": "Needham (Mike Cikos)", "action": "Price target raised to $450 from $330", "reason": "Q2 beat", "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61597230/these-analysts-boost-their-forecasts-on-snowflake-following-better-than-expected-q2-earnings"},
+    {"date": "2026-09-03 (approx.)", "firm": "BTIG (Gray Powell)", "action": "Price target raised to $424 from $340", "reason": "Q2 beat", "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61597230/these-analysts-boost-their-forecasts-on-snowflake-following-better-than-expected-q2-earnings"}
+  ],
+  "insiders": {
+    "summary": "Pipeline data for the trailing window shows 10 open-market sale rows worth about $39.8 million and no purchases. Almost all were under pre-scheduled 10b5-1 plans. The only unplanned sale was Chief Revenue Officer Jonathan Beaulier: 755 shares at about $336.36 (about $254k) on 2026-09-23, before this window. Co-founder and director Benoit Dageville sold 50,000 shares at $339.08 (about $17.0 million) on 2026-09-23 under a 10b5-1 plan and still holds 2,434,879.",
+    "notable": [
+      "Speiser (director, Sutter Hill-linked entities per typical filings; not verified): about 50,741 shares at $344.00 on 2026-10-02, 10b5-1 (parsed total; possible duplicate rows)",
+      "Kleinerman (EVP Product): 15,000 shares at $341.57 on 2026-10-01, 10b5-1",
+      "Dageville (director, co-founder): 50,000 shares at $339.08 on 2026-09-23, 10b5-1; plus a 16,668-share gift",
+      "Beaulier (CRO): 755 shares at $336.36 on 2026-09-23, NOT under a 10b5-1 plan (small)"
+    ]
+  },
+  "filings": [
+    {"form": "8-K", "items": "1.01, 2.03, 3.02, 8.01, 9.01", "plain_english": "Closing of the $3.75 billion zero-interest convertible notes (2029/2031), capped call hedge at $820.30, and partial buyback of 2027 notes. Item 3.02 refers to shares that may be issued if the notes convert later, not a stock sale today.", "materiality": "medium (high under the pipeline's rating; downgraded because the deal was already public on 2026-09-28)", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm"},
+    {"form": "4", "items": "", "plain_english": "Director Speiser sold about 50.7k shares at $344 under a pre-set plan.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000143364426000017/xslF345X06/wk-form4_1790985606.xml"},
+    {"form": "4", "items": "", "plain_english": "EVP Kleinerman sold 15,000 shares at $341.57 under a pre-set plan.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000022/xslF345X06/wk-form4_1790985545.xml"},
+    {"form": "144", "items": "", "plain_english": "Notice of a planned insider sale (2026-10-02).", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000197325126000039/xsl144X01/primary_doc.xml"},
+    {"form": "144", "items": "", "plain_english": "Notice of a planned insider sale (2026-10-01).", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007179/xsl144X01/primary_doc.xml"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-13", "event": "Snowflake's motion to dismiss is due in the 2026 securities class action (filed 2026-02-24 against the former CEO and former CFO)", "confirmed": true, "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000037/snow-20260731.htm"},
+    {"date": "about 2026-10-14", "event": "Deadline for initial purchasers to buy up to $550 million more notes (13 days from 2026-10-01; inference)", "confirmed": false, "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm"},
+    {"date": "2026-10-31", "event": "Q3 fiscal 2027 quarter ends", "confirmed": true, "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm"},
+    {"date": "2026-12-02", "event": "Q3 FY27 earnings, after close (third-party calendar says confirmed; not yet seen on Snowflake IR)", "confirmed": false, "url": "https://www.tipranks.com/stocks/snow/earnings"},
+    {"date": "pending", "event": "Court ruling on the motion to dismiss in the original 2024 securities class action (awaiting as of 2026-09-03)", "confirmed": false, "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000037/snow-20260731.htm"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "Last guidance (2026-09-02) RAISED FY27 product revenue to $6.07B and operating margin to 14.5%. No update since."},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "Q2 beat: EPS $0.62 vs $0.45; revenue $1.55B vs $1.48B (CNBC, 2026-09-02)."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "No report found. NRR 126% and 828 $1M+ customers at Q2."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "No Item 4.02 in the filings data."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "No Item 4.01 in the filings data."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "No Item 5.02 in the filings data."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "Technically triggered: 8-K Item 3.02 filed 2026-10-02 for $3.75B convertible notes. Substantively, there is no share sale now. Conversion is possible only above about $484-$500 (vs $341.04 close). It would mean about 2.2% more shares at initial rates (up to about 3.7% maximum), partly offset by the capped call up to $820.30. Main session should decide how to present this; recommend 'flagged, not a breaker in substance'."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "Nothing new in the window. Existing cases per the 10-Q: 2024 securities class action (awaiting ruling on motion to dismiss); new securities class action filed 2026-02-24 (motion to dismiss due 2026-10-13); 2024 data-breach multidistrict litigation in Montana; 2025 copyright class action over LLM training (in discovery); derivative suits. All pre-date the window."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "No downgrades found in Sep-Oct 2026. The Barclays downgrade in search results appears to be from 2025 (mentions Q3 FY2026 data); it is not current."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "Only one non-plan sale (CRO Beaulier, 755 shares, about $254k, 2026-09-23). All other sales were under 10b5-1 plans."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "The convertible issue signals possible dilution, and the stock fell about 4% on announcement", "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-shares-fall-3-5-120618001.html", "assessment": "Real but modest: about 2.2% potential dilution only above about $484-$500, hedged up to $820.30. Raising cash after a 124% rally may also mean management sees the stock as richly valued (inference, low)."},
+    {"claim": "Valuation and multiple risk: 'Eight firms raised targets. Nobody wants to talk about the multiple'", "url": "https://uk.finance.yahoo.com/news/snowflake-snow-eight-firms-raised-205444653.html", "assessment": "Opinion piece (tier 3, not read in full). The stock's 1-year max drawdown of -56.3% and 60-day volatility of 49% show how hard it can fall if growth disappoints."},
+    {"claim": "Pending securities class actions and data-breach litigation", "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000037/snow-20260731.htm", "assessment": "Company cannot estimate possible loss; the 2024 data-breach case is in discovery. Ongoing, not new."},
+    {"claim": "Margin pressure from AI costs and cloud commitments ($6B AWS; $390M minimum with a third-party AI service provider)", "url": "https://247wallst.com/investing/2026/09/03/snowflakes-ai-efforts-accelerate-but-can-margins-withstand-the-pressure/", "assessment": "Plausible watch item; operating margin still rose to 15.3%. Gross margin trend not checked."},
+    {"claim": "RPO fell quarter on quarter ($9.21B to $9.00B) and RPO growth slowed from 38% to 30%", "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm", "assessment": "Worth watching. RPO depends on the timing of large multi-year contract renewals, so one quarter is not conclusive (inference, medium)."}
+  ],
+  "open_questions": [
+    "Q3 FY27 consensus revenue not found in a reliable source; consensus EPS $0.60 is tier 3 only.",
+    "Earnings date 2026-12-02 is from TipRanks; Snowflake has not yet announced it on its IR site (as of this check).",
+    "Q1 FY27 figures (May 27) come from search summaries of the release, not a direct read.",
+    "Speiser Form 4: four identical 840-share rows; true total may be lower than 50,741 shares if they are parser duplicates.",
+    "Whether the $550 million extra-notes option was exercised.",
+    "AI revenue run-rate and gross margin trend not disclosed or not checked.",
+    "Santi's own thesis reasons are still TODO in theses/SNOW.md."
+  ],
+  "searches_run": 17
+}

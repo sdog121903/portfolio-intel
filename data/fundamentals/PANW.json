@@ -1,0 +1,168 @@
+{
+  "entity": "Palo Alto Networks, Inc",
+  "cik": 1327567,
+  "tags_used": {
+    "revenue": "Revenues+RevenueFromContractWithCustomerExcludingAssessedTax+SalesRevenueNet",
+    "gross_profit": "GrossProfit",
+    "operating_income": "OperatingIncomeLoss",
+    "net_income": "NetIncomeLoss",
+    "eps_diluted": "EarningsPerShareDiluted",
+    "diluted_shares": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "rnd": "ResearchAndDevelopmentExpense"
+  },
+  "latest_quarters": [
+    {
+      "period_end": "2024-10-31",
+      "fiscal": "2025 Q1",
+      "revenue": 2139000000,
+      "revenue_yoy_pct": 13.89,
+      "gross_margin_pct": 74.1,
+      "operating_margin_pct": 13.37,
+      "net_income": 351000000,
+      "eps_diluted": 0.49,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-20",
+        "accession": "0001327567-25-000035",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-01-31",
+      "fiscal": "2025 Q2",
+      "revenue": 2257000000,
+      "revenue_yoy_pct": 14.27,
+      "gross_margin_pct": 73.46,
+      "operating_margin_pct": 10.68,
+      "net_income": 267000000,
+      "eps_diluted": 0.38,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-02-18",
+        "accession": "0001327567-26-000005",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-04-30",
+      "fiscal": "2025 Q3",
+      "revenue": 2289000000,
+      "revenue_yoy_pct": 15.33,
+      "gross_margin_pct": 72.96,
+      "operating_margin_pct": 9.57,
+      "net_income": 262000000,
+      "eps_diluted": 0.37,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-06-03",
+        "accession": "0001327567-26-000015",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-07-31",
+      "fiscal": "2025 Q4",
+      "revenue": 2536000000,
+      "revenue_yoy_pct": 15.85,
+      "gross_margin_pct": 73.23,
+      "operating_margin_pct": 19.6,
+      "net_income": 254000000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-09-10",
+        "accession": "0001327567-26-000023",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2025-10-31",
+      "fiscal": "2026 Q1",
+      "revenue": 2474000000,
+      "revenue_yoy_pct": 15.66,
+      "gross_margin_pct": 74.21,
+      "operating_margin_pct": 12.49,
+      "net_income": 334000000,
+      "eps_diluted": 0.47,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-20",
+        "accession": "0001327567-25-000035",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-01-31",
+      "fiscal": "2026 Q2",
+      "revenue": 2594000000,
+      "revenue_yoy_pct": 14.93,
+      "gross_margin_pct": 73.59,
+      "operating_margin_pct": 15.3,
+      "net_income": 432000000,
+      "eps_diluted": 0.61,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-02-18",
+        "accession": "0001327567-26-000005",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-04-30",
+      "fiscal": "2026 Q3",
+      "revenue": 3002000000,
+      "revenue_yoy_pct": 31.15,
+      "gross_margin_pct": 67.55,
+      "operating_margin_pct": -6.1,
+      "net_income": -177000000,
+      "eps_diluted": -0.22,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-06-03",
+        "accession": "0001327567-26-000015",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-07-31",
+      "fiscal": "2026 Q4",
+      "revenue": 3410000000,
+      "revenue_yoy_pct": 34.46,
+      "gross_margin_pct": 67.57,
+      "operating_margin_pct": 5.04,
+      "net_income": -282000000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-09-10",
+        "accession": "0001327567-26-000023",
+        "derived": true
+      }
+    }
+  ],
+  "ttm": {
+    "revenue": 11480000000,
+    "eps_diluted": 0.4,
+    "periods": [
+      "2025-10-31",
+      "2026-01-31",
+      "2026-04-30",
+      "2026-07-31"
+    ]
+  },
+  "notes": [
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "PANW",
+  "fetched": "2026-10-04T15:49:30+00:00",
+  "stale_warning": null
+}

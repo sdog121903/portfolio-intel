@@ -1,0 +1,219 @@
+{
+  "ticker": "AXTI",
+  "items": [
+    {
+      "key": "axti-2026-10-01-q3-date",
+      "date": "2026-10-01",
+      "timing": "before open",
+      "type": "earnings date",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Scheduled its Q3 results for 2026-10-29 after the US close.",
+      "source": {
+        "name": "AXT via Business Wire",
+        "date": "2026-10-01",
+        "url": "https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-10-01",
+        "stock_pct": 5.68,
+        "market_pct": 0.18,
+        "beyond_market_pct": 5.51,
+        "typical_day_pct": 8.93,
+        "z": 0.62,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "axti-2026-08-13-china-permits",
+      "date": "2026-08-13",
+      "timing": "unknown",
+      "type": "export permits (China)",
+      "materiality": "high",
+      "direction": "bad",
+      "what": "The 10-Q said China's export permits for indium phosphide wafers to US customers are still not issued, which AXT calls \"the most significant challenge we currently face\".",
+      "source": {
+        "name": "AXT 10-Q",
+        "date": "2026-08-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926027677/axti20260630_10q.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-08-13",
+        "stock_pct": -1.3,
+        "market_pct": 0.7,
+        "beyond_market_pct": -2.0,
+        "typical_day_pct": 8.49,
+        "z": -0.24,
+        "next_5_days_pct": -5.59
+      }
+    },
+    {
+      "key": "axti-2026-07-29-lumentum-deal",
+      "date": "2026-07-29",
+      "timing": "after close",
+      "type": "supply contract",
+      "materiality": "high",
+      "direction": "good",
+      "what": "Lumentum signed a six-year deal reserving AXT's production, backed by two $43.5m deposits.",
+      "source": {
+        "name": "AXT 8-K",
+        "date": "2026-07-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926024883/axti20260715_8k.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-07-30",
+        "stock_pct": 26.97,
+        "market_pct": 1.68,
+        "beyond_market_pct": 25.29,
+        "typical_day_pct": 8.35,
+        "z": 3.03,
+        "next_5_days_pct": 60.14
+      }
+    },
+    {
+      "key": "axti-2026-06-03-insider-sales",
+      "date": "2026-06-03",
+      "timing": "unknown",
+      "type": "insider sales (not pre-planned)",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "The CEO (about $22.3m) and three directors sold shares without pre-planned plans, which would have met your \"several insiders\" breaker at the time.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-06-03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926019464/0001437749-26-019464.txt",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-06-03",
+        "stock_pct": -3.74,
+        "market_pct": -0.7,
+        "beyond_market_pct": -3.04,
+        "typical_day_pct": 7.53,
+        "z": -0.4,
+        "next_5_days_pct": -20.07
+      }
+    },
+    {
+      "key": "axti-2026-04-21-share-sale",
+      "date": "2026-04-21",
+      "timing": "after close",
+      "type": "share sale (dilution)",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Sold 8.56 million new shares at $64.25, raising the share count about 15%.",
+      "source": {
+        "name": "AXT 424B5",
+        "date": "2026-04-21",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000121390026046176/ea0287123-424b5_axtinc.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-04-22",
+        "stock_pct": 15.97,
+        "market_pct": 1.01,
+        "beyond_market_pct": 14.95,
+        "typical_day_pct": 6.45,
+        "z": 2.32,
+        "next_5_days_pct": -18.25
+      }
+    },
+    {
+      "key": "axti-2026-09-30-blackrock-13g",
+      "date": "2026-10-05",
+      "timing": "during",
+      "type": "large passive holder filing",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "BlackRock reported owning 9,359,639 shares, 14.3% of AXT, as of 2026-09-30; its iShares Core S&P Small-Cap ETF alone holds more than 5%.",
+      "source": {
+        "name": "SEC Schedule 13G/A",
+        "date": "2026-10-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000201238326003311/xslSCHEDULE_13G_X02/primary_doc.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-05",
+      "reports": [
+        "2026-10-05"
+      ],
+      "reaction": {
+        "day": "2026-10-05",
+        "stock_pct": 0.92,
+        "market_pct": 0.67,
+        "beyond_market_pct": 0.25,
+        "typical_day_pct": 8.8,
+        "z": 0.03,
+        "next_5_days_pct": null
+      }
+    }
+  ],
+  "days": [
+    {
+      "report": "2026-10-04",
+      "trading_day": "2026-10-02",
+      "close": 85.87,
+      "day_pct": 4.96,
+      "market_part_pct": 1.27,
+      "industry_part_pct": 2.5,
+      "company_part_pct": 1.19,
+      "z": 0.14,
+      "main_news": null
+    },
+    {
+      "report": "2026-10-05",
+      "trading_day": "2026-10-05",
+      "close": 86.66,
+      "day_pct": 0.92,
+      "market_part_pct": 1.15,
+      "industry_part_pct": -0.29,
+      "company_part_pct": 0.06,
+      "z": 0.01,
+      "main_news": "BlackRock reported owning 9,359,639 shares, 14.3% of AXT, as of 2026-09-30; its iShares Core S&P Small-Cap ETF alone holds more than 5%."
+    }
+  ],
+  "upcoming": {
+    "as_of": "2026-10-05",
+    "events": [
+      {
+        "date": "2026-10-29",
+        "event": "Q3 2026 results, after the US close (guidance about $66m, tier 3)",
+        "confirmed": true,
+        "source": {
+          "name": "AXT via Business Wire",
+          "date": "2026-10-01",
+          "url": "https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026",
+          "tier": 1
+        }
+      }
+    ]
+  }
+}

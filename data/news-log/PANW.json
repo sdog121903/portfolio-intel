@@ -1,0 +1,272 @@
+{
+  "ticker": "PANW",
+  "items": [
+    {
+      "key": "panw-2026-10-02-td-cowen-target",
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "analyst action",
+      "materiality": "low",
+      "direction": "good",
+      "what": "TD Cowen raised its price target to $440 from $400 and kept a Buy rating (an opinion, not new facts).",
+      "source": {
+        "name": "Investing.com",
+        "date": "2026-10-02",
+        "url": "https://investing.com/news/analyst-ratings/td-cowen-raises-palo-alto-networks-stock-price-target-on-ai-tailwinds-93CH-4929302",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-10-02",
+        "stock_pct": 1.76,
+        "market_pct": 0.74,
+        "beyond_market_pct": 1.02,
+        "typical_day_pct": 2.09,
+        "z": 0.49,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "panw-2026-10-01-klarich-gift",
+      "date": "2026-10-01",
+      "timing": "after close",
+      "type": "insider filing (gift)",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Lee Klarich gave away 25,000 shares as a gift, not a sale.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-10-01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000168226026000006/xslF345X06/ownership.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-10-02",
+        "stock_pct": 1.76,
+        "market_pct": 0.74,
+        "beyond_market_pct": 1.02,
+        "typical_day_pct": 2.09,
+        "z": 0.49,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "panw-2026-09-22-unit42-ai-defense",
+      "date": "2026-09-22",
+      "timing": "unknown",
+      "type": "product launch",
+      "materiality": "low",
+      "direction": "good",
+      "what": "Launched new AI-security services such as Unit 42 Frontier AI Defense.",
+      "source": {
+        "name": "Palo Alto Networks via Nasdaq",
+        "date": "2026-09-22",
+        "url": "https://www.nasdaq.com/press-release/palo-alto-networks-delivers-anthropics-mythos-and-openais-gpt-56-customers-unit-42",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-22",
+        "stock_pct": 0.76,
+        "market_pct": -0.02,
+        "beyond_market_pct": 0.77,
+        "typical_day_pct": 2.02,
+        "z": 0.38,
+        "next_5_days_pct": 3.69
+      }
+    },
+    {
+      "key": "panw-2026-09-18-bernstein-downgrade",
+      "date": "2026-09-18",
+      "timing": "before open",
+      "type": "analyst downgrade",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Bernstein lowered its rating, saying the stock had run past fair value.",
+      "source": {
+        "name": "Motley Fool",
+        "date": "2026-09-18",
+        "url": "https://www.fool.com/investing/2026/09/18/why-palo-alto-networks-stock-dropped-today/",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-18",
+        "stock_pct": -3.06,
+        "market_pct": 0.13,
+        "beyond_market_pct": -3.19,
+        "typical_day_pct": 2.01,
+        "z": -1.59,
+        "next_5_days_pct": 3.07
+      }
+    },
+    {
+      "key": "panw-2026-09-14-ai-risk-rally",
+      "date": "2026-09-14",
+      "timing": "during",
+      "type": "industry move",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "Security stocks jumped (PANW about +13%) after AI-lab leaders warned about the risks of powerful AI, which investors read as more security spending ahead.",
+      "source": {
+        "name": "Forbes",
+        "date": "2026-09-14",
+        "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/09/14/crowdstrike-skyrockets-14-as-ai-fears-send-cybersecurity-stocks-surging/",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-14",
+        "stock_pct": 13.09,
+        "market_pct": -0.45,
+        "beyond_market_pct": 13.54,
+        "typical_day_pct": 1.99,
+        "z": 6.81,
+        "next_5_days_pct": -0.58
+      }
+    },
+    {
+      "key": "panw-2026-09-01-q4-results",
+      "date": "2026-09-01",
+      "timing": "after close",
+      "type": "earnings",
+      "materiality": "high",
+      "direction": "mixed",
+      "what": "Q4 revenue $3.41bn (+34%), above forecasts; next-generation security ARR $9.10bn (+63%). Next year's forecast $14.10-14.20bn means growth slows to 23-24% as the CyberArk boost fades; standard (GAAP) loss of $0.35 a share.",
+      "source": {
+        "name": "PANW Q4 FY2026 results",
+        "date": "2026-09-01",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-02",
+        "stock_pct": -9.28,
+        "market_pct": 0.44,
+        "beyond_market_pct": -9.73,
+        "typical_day_pct": 1.92,
+        "z": -5.06,
+        "next_5_days_pct": 3.05
+      }
+    },
+    {
+      "key": "panw-2026-02-11-cyberark-closed",
+      "date": "2026-02-11",
+      "timing": "unknown",
+      "type": "acquisition",
+      "materiality": "high",
+      "direction": "mixed",
+      "what": "Completed the purchase of CyberArk (logins and passwords for people and AI agents) for $21.1bn, paid partly with 112 million new shares.",
+      "source": {
+        "name": "Palo Alto Networks",
+        "date": "2026-02-11",
+        "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-completes-acquisition-of-cyberark-to-secure-the-ai-era",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-02-11",
+        "stock_pct": -0.13,
+        "market_pct": -0.02,
+        "beyond_market_pct": -0.1,
+        "typical_day_pct": 1.43,
+        "z": -0.07,
+        "next_5_days_pct": -8.66
+      }
+    },
+    {
+      "key": "panw-2026-10-01-paul-sale",
+      "date": "2026-10-01",
+      "timing": "unknown",
+      "type": "insider sale (pre-planned)",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Chief accounting officer Josh Paul sold 400 shares at $395.70 under a 10b5-1 plan; 1,308 shares were withheld for tax on vesting stock.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-10-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000188228526000027/xslF345X06/ownership.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-05",
+      "reports": [
+        "2026-10-05"
+      ],
+      "reaction": {
+        "day": "2026-10-01",
+        "stock_pct": -0.27,
+        "market_pct": 0.18,
+        "beyond_market_pct": -0.45,
+        "typical_day_pct": 2.09,
+        "z": -0.21,
+        "next_5_days_pct": null
+      }
+    }
+  ],
+  "days": [
+    {
+      "report": "2026-10-04",
+      "trading_day": "2026-10-02",
+      "close": 403.24,
+      "day_pct": 1.76,
+      "market_part_pct": 0.75,
+      "industry_part_pct": 0.22,
+      "company_part_pct": 0.8,
+      "z": 0.49,
+      "main_news": "TD Cowen raised its price target to $440 from $400 and kept a Buy rating (an opinion, not new facts)."
+    },
+    {
+      "report": "2026-10-05",
+      "trading_day": "2026-10-05",
+      "close": 406.76,
+      "day_pct": 0.87,
+      "market_part_pct": 0.68,
+      "industry_part_pct": 0.85,
+      "company_part_pct": -0.66,
+      "z": -0.41,
+      "main_news": null
+    }
+  ],
+  "upcoming": {
+    "as_of": "2026-10-05",
+    "events": [
+      {
+        "date": "mid-to-late Nov 2026",
+        "event": "Q1 FY2027 results (guidance revenue $3.300-3.310bn)",
+        "confirmed": false,
+        "source": {}
+      }
+    ]
+  }
+}

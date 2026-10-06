@@ -1,0 +1,156 @@
+{
+  "ticker": "A",
+  "items": [
+    {
+      "key": "a-2026-10-02-quiet-day",
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "price move (no news)",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Rose 0.66% with no company news; the past week's fall was mostly health-care stocks falling.",
+      "source": {
+        "name": "Pipeline attribution",
+        "date": "2026-10-04",
+        "url": "",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-10-02",
+        "stock_pct": 0.66,
+        "market_pct": 0.74,
+        "beyond_market_pct": -0.08,
+        "typical_day_pct": 1.6,
+        "z": -0.05,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "a-2026-09-16-dividend",
+      "date": "2026-09-16",
+      "timing": "unknown",
+      "type": "dividend",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Declared a dividend of 25.5 cents a share (record date 2026-10-06, paid 2026-10-28).",
+      "source": {
+        "name": "Agilent via Business Wire",
+        "date": "2026-09-16",
+        "url": "https://www.businesswire.com/news/home/20260916777704/en/CORRECTING-and-REPLACING-Agilent-Announces-Cash-Dividend-of-25.5-Cents-per-Share",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-16",
+        "stock_pct": 2.28,
+        "market_pct": -0.44,
+        "beyond_market_pct": 2.72,
+        "typical_day_pct": 1.55,
+        "z": 1.75,
+        "next_5_days_pct": 7.57
+      }
+    },
+    {
+      "key": "a-2026-09-09-ubs-downgrade",
+      "date": "2026-09-09",
+      "timing": "unknown",
+      "type": "analyst downgrade",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "UBS lowered its rating to Neutral with a $165 price target.",
+      "source": {
+        "name": "TipRanks / The Fly",
+        "date": "2026-09-09",
+        "url": "https://www.tipranks.com/news/the-fly/agilent-downgraded-to-neutral-from-buy-at-ubs",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-09",
+        "stock_pct": -1.43,
+        "market_pct": -0.46,
+        "beyond_market_pct": -0.97,
+        "typical_day_pct": 1.55,
+        "z": -0.62,
+        "next_5_days_pct": 6.18
+      }
+    },
+    {
+      "key": "a-2026-08-26-q3-results",
+      "date": "2026-08-26",
+      "timing": "after close",
+      "type": "earnings + guidance raise",
+      "materiality": "high",
+      "direction": "good",
+      "what": "Q3 revenue $1.88bn and adjusted profit $1.62 a share, both above forecasts; yearly forecast raised. $0.06 of the profit was a one-time tariff refund; core growth +7.3%.",
+      "source": {
+        "name": "Agilent Q3 FY2026 results",
+        "date": "2026-08-26",
+        "url": "https://www.sec.gov/Archives/edgar/data/1090872/000109087226000062/exhibit991-q326pressrelease.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-08-27",
+        "stock_pct": 1.68,
+        "market_pct": 0.66,
+        "beyond_market_pct": 1.03,
+        "typical_day_pct": 1.58,
+        "z": 0.65,
+        "next_5_days_pct": -4.89
+      }
+    }
+  ],
+  "days": [
+    {
+      "report": "2026-10-04",
+      "trading_day": "2026-10-02",
+      "close": 167.78,
+      "day_pct": 0.66,
+      "market_part_pct": 1.07,
+      "industry_part_pct": -0.62,
+      "company_part_pct": 0.21,
+      "z": 0.12,
+      "main_news": "Rose 0.66% with no company news; the past week's fall was mostly health-care stocks falling."
+    }
+  ],
+  "upcoming": {
+    "as_of": "2026-10-04",
+    "events": [
+      {
+        "date": "2026-10-06",
+        "event": "Dividend record date (25.5 cents a share; paid 2026-10-28)",
+        "confirmed": true,
+        "source": {
+          "name": "Agilent via Business Wire",
+          "date": "2026-09-16",
+          "url": "https://www.businesswire.com/news/home/20260916777704/en/CORRECTING-and-REPLACING-Agilent-Announces-Cash-Dividend-of-25.5-Cents-per-Share",
+          "tier": 1
+        }
+      },
+      {
+        "date": "late Nov 2026",
+        "event": "Q4 FY2026 results",
+        "confirmed": false,
+        "source": {}
+      }
+    ]
+  }
+}

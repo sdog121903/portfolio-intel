@@ -1,0 +1,44 @@
+# STRL news log: what happened, what is coming, and how the stock reacted
+
+Every report that covers STRL adds its news here, newest first. Nothing is deleted, so over months this page shows how the stock tends to react to each kind of news. Thesis file: [`theses/STRL.md`](../STRL.md).
+
+This page is rebuilt on every run from `data/news-log/STRL.json` by `.claude/skills/news-and-events/scripts/news_log.py`; edits made here by hand are lost.
+
+**How to read the reaction columns.** *Reaction day* is the first trading day the news could move the price (the next day if it came out after the 4 p.m. New York close). *Stock* is the price change that day; *Market* is the S&P 500 fund (SPY) the same day; *Beyond market* is the difference, the part the market does not explain. *Size* compares that difference with a normal day for this stock over the year before (measured so that one extreme day cannot distort it): normal (under one typical day), big (one to two), very big (two or more). *Next 5 days* shows whether the move held or faded.
+
+## What the log shows so far
+
+- **4** news items and **2** report days logged (first report 2026-10-04, latest 2026-10-05).
+- **Too early to draw conclusions:** fewer than 20 items. Read this page as a diary for now, not as a rule about how the stock behaves.
+- Average move beyond the market on the reaction day to **bad** news: -1.79% (1 item).
+- Biggest reactions so far: 2026-08-04 -13.23% beyond the market (very big) after: Q2 revenue $1.168bn (+90%), backlog $4.33bn (+116%), 2026 outlook raised to $4.00-4.15bn;...; 2026-10-02 +4.86% beyond the market (big) after: Jumped 5.6% with no company news: the whole market and construction stocks rose after a...; 2026-10-05 -2.57% beyond the market (normal) after: Appointed Katherine Hargis as Senior Vice President, General Counsel, Chief Compliance....
+- Report days with a very big company-specific move and no news found: 0.
+- Several items can share one reaction day, so their reactions are not independent.
+
+## Coming up (calendar as of 2026-10-05)
+
+Dated events that could move the stock. When one happens, it moves into the news table below.
+
+| Date | Event | Confirmed? | Source |
+|---|---|---|---|
+| 2026-11-02 to 11-09 | Q3 2026 results (estimated window) | not confirmed | not recorded |
+
+## News, newest first
+
+| Date | What happened | Good or bad for the stock | Importance | Reaction day | Stock | Market | Beyond market | Size | Next 5 days | Source |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-05 | Appointed Katherine Hargis as Senior Vice President, General Counsel, Chief Compliance Officer and Corporate Secretary. | neutral | low | 2026-10-05 | -1.89% | +0.67% | -2.57% | normal | n/a | [SEC 8-K, 2026-10-05](https://www.sec.gov/Archives/edgar/data/874238/000087423826000110/strl-20261005.htm), tier 1 |
+| 2026-10-02 | Jumped 5.6% with no company news: the whole market and construction stocks rose after a weak jobs report made an interest-rate rise less likely, and STRL usually moves about three times as much as the market. | neutral | low | 2026-10-02 | +5.60% | +0.74% | +4.86% | big | n/a | [Motley Fool, 2026-10-02](https://www.fool.com/coverage/stock-market-today/2026/10/02/stock-market-midday-oct-2-stocks-rally-as-weak-jobs-data-cools-fed-rate-hike-bets/), tier 3 |
+| 2026-08-03 | Q2 revenue $1.168bn (+90%), backlog $4.33bn (+116%), 2026 outlook raised to $4.00-4.15bn; yet the stock fell 13% after hours, possibly because the extra revenue comes at lower margins (inference, medium confidence). | mixed | high | 2026-08-04 | -11.42% | +1.80% | -13.23% | very big | -1.64% | [Sterling Q2 2026 results, 2026-08-03](https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/), tier 1 |
+| 2026-05-12 | Filed a shelf registration (S-3) that lets it sell new shares quickly whenever it chooses; none sold so far, but the stock fell 8.3% that week. | bad | medium | 2026-05-12 | -1.94% | -0.15% | -1.79% | normal | -14.45% | [QuiverQuant, 2026-05-18](https://www.quiverquant.com/news/Sterling+Infrastructure+falls+8.3%25+as+investors+react+to+shelf+filing+and+post-rally+profit-taking), tier 3 |
+
+## Price on each report day, newest first
+
+The day's move split into the part from the whole market, the part from its industry and the part that is the company's own (from the report's move attribution).
+
+| Report | Trading day | Close | Day move | Market part | Industry part | Company part | Size of company part | Main news that day |
+|---|---|---|---|---|---|---|---|---|
+| 2026-10-05 | 2026-10-05 | $523.33 | -1.89% | +2.04% | -0.57% | -3.36% | normal | Appointed Katherine Hargis as Senior Vice President, General Counsel, Chief Compliance Officer and Corporate Secretary. |
+| 2026-10-04 | 2026-10-02 | $533.42 | +5.60% | +2.25% | +1.96% | +1.39% | normal | Jumped 5.6% with no company news: the whole market and construction stocks rose after a weak jobs report made an interest-rate rise less likely, and STRL usually moves about three times as much as the market. |
+
+Informational research and education, not investment advice.

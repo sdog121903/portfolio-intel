@@ -1,0 +1,514 @@
+{
+  "STRL": {
+    "market": "SPY",
+    "sector_etf": "PAVE",
+    "model": {
+      "beta_market": 3.03,
+      "beta_industry_excess": 2.32,
+      "typical_daily_company_move_pct": 4.49,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": -1.89,
+      "market_part_pct": 2.04,
+      "industry_part_pct": -0.57,
+      "company_specific_pct": -3.36,
+      "company_specific_zscore": -0.75,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 5.01,
+      "market_part_pct": 3.64,
+      "industry_part_pct": 1.71,
+      "company_specific_pct": -0.34,
+      "company_specific_zscore": -0.03,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  },
+  "CRWD": {
+    "market": "SPY",
+    "sector_etf": "CIBR",
+    "model": {
+      "beta_market": 1.29,
+      "beta_industry_excess": 1.79,
+      "typical_daily_company_move_pct": 1.53,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": 0.97,
+      "market_part_pct": 0.87,
+      "industry_part_pct": 1.03,
+      "company_specific_pct": -0.93,
+      "company_specific_zscore": -0.61,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 5.18,
+      "market_part_pct": 1.55,
+      "industry_part_pct": 5.48,
+      "company_specific_pct": -1.86,
+      "company_specific_zscore": -0.54,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  },
+  "MRNA": {
+    "market": "SPY",
+    "sector_etf": "XBI",
+    "model": {
+      "beta_market": 1.86,
+      "beta_industry_excess": 3.05,
+      "typical_daily_company_move_pct": 11.05,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": 6.95,
+      "market_part_pct": 1.25,
+      "industry_part_pct": 1.42,
+      "company_specific_pct": 4.28,
+      "company_specific_zscore": 0.39,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 3.01,
+      "market_part_pct": 2.24,
+      "industry_part_pct": -4.49,
+      "company_specific_pct": 5.26,
+      "company_specific_zscore": 0.21,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  },
+  "CRDO": {
+    "market": "SPY",
+    "sector_etf": "SMH",
+    "model": {
+      "beta_market": 1.04,
+      "beta_industry_excess": 1.66,
+      "typical_daily_company_move_pct": 4.74,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": -2.82,
+      "market_part_pct": 0.7,
+      "industry_part_pct": -0.25,
+      "company_specific_pct": -3.27,
+      "company_specific_zscore": -0.69,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 10.28,
+      "market_part_pct": 1.25,
+      "industry_part_pct": 7.39,
+      "company_specific_pct": 1.64,
+      "company_specific_zscore": 0.15,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  },
+  "LITE": {
+    "market": "SPY",
+    "sector_etf": "SMH",
+    "model": {
+      "beta_market": 0.49,
+      "beta_industry_excess": 1.73,
+      "typical_daily_company_move_pct": 4.99,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": 0.58,
+      "market_part_pct": 0.33,
+      "industry_part_pct": -0.26,
+      "company_specific_pct": 0.5,
+      "company_specific_zscore": 0.1,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 18.49,
+      "market_part_pct": 0.59,
+      "industry_part_pct": 7.68,
+      "company_specific_pct": 10.22,
+      "company_specific_zscore": 0.92,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    }
+  },
+  "TSM": {
+    "market": "SPY",
+    "sector_etf": "SMH",
+    "model": {
+      "beta_market": 1.17,
+      "beta_industry_excess": 0.74,
+      "typical_daily_company_move_pct": 1.36,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": 2.75,
+      "market_part_pct": 0.79,
+      "industry_part_pct": -0.11,
+      "company_specific_pct": 2.08,
+      "company_specific_zscore": 1.53,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 7.27,
+      "market_part_pct": 1.4,
+      "industry_part_pct": 3.28,
+      "company_specific_pct": 2.59,
+      "company_specific_zscore": 0.85,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  },
+  "AMD": {
+    "market": "SPY",
+    "sector_etf": "SMH",
+    "model": {
+      "beta_market": 1.2,
+      "beta_industry_excess": 1.46,
+      "typical_daily_company_move_pct": 2.96,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": -0.34,
+      "market_part_pct": 0.81,
+      "industry_part_pct": -0.22,
+      "company_specific_pct": -0.93,
+      "company_specific_zscore": -0.31,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 3.93,
+      "market_part_pct": 1.45,
+      "industry_part_pct": 6.48,
+      "company_specific_pct": -4.0,
+      "company_specific_zscore": -0.6,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  },
+  "PANW": {
+    "market": "SPY",
+    "sector_etf": "CIBR",
+    "model": {
+      "beta_market": 1.01,
+      "beta_industry_excess": 1.47,
+      "typical_daily_company_move_pct": 1.61,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": 0.87,
+      "market_part_pct": 0.68,
+      "industry_part_pct": 0.85,
+      "company_specific_pct": -0.66,
+      "company_specific_zscore": -0.41,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 3.74,
+      "market_part_pct": 1.22,
+      "industry_part_pct": 4.52,
+      "company_specific_pct": -2.0,
+      "company_specific_zscore": -0.55,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  },
+  "BE": {
+    "market": "SPY",
+    "sector_etf": "ICLN",
+    "model": {
+      "beta_market": 2.22,
+      "beta_industry_excess": 3.16,
+      "typical_daily_company_move_pct": 4.38,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": -0.86,
+      "market_part_pct": 1.5,
+      "industry_part_pct": -0.29,
+      "company_specific_pct": -2.07,
+      "company_specific_zscore": -0.47,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 9.05,
+      "market_part_pct": 2.67,
+      "industry_part_pct": 5.22,
+      "company_specific_pct": 1.16,
+      "company_specific_zscore": 0.12,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  },
+  "SNOW": {
+    "market": "SPY",
+    "sector_etf": "IGV",
+    "model": {
+      "beta_market": 1.02,
+      "beta_industry_excess": 1.4,
+      "typical_daily_company_move_pct": 3.11,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": -0.6,
+      "market_part_pct": 0.69,
+      "industry_part_pct": 0.72,
+      "company_specific_pct": -2.01,
+      "company_specific_zscore": -0.65,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 3.31,
+      "market_part_pct": 1.23,
+      "industry_part_pct": 4.0,
+      "company_specific_pct": -1.91,
+      "company_specific_zscore": -0.28,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  },
+  "AAOI": {
+    "market": "SPY",
+    "sector_etf": "SMH",
+    "model": {
+      "beta_market": 1.58,
+      "beta_industry_excess": 1.95,
+      "typical_daily_company_move_pct": 7.87,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": 5.17,
+      "market_part_pct": 1.06,
+      "industry_part_pct": -0.29,
+      "company_specific_pct": 4.41,
+      "company_specific_zscore": 0.56,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 25.56,
+      "market_part_pct": 1.9,
+      "industry_part_pct": 8.67,
+      "company_specific_pct": 15.0,
+      "company_specific_zscore": 0.85,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    }
+  },
+  "A": {
+    "market": "SPY",
+    "sector_etf": "XLV",
+    "model": {
+      "beta_market": 1.46,
+      "beta_industry_excess": 0.83,
+      "typical_daily_company_move_pct": 1.74,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": 2.09,
+      "market_part_pct": 0.98,
+      "industry_part_pct": 0.03,
+      "company_specific_pct": 1.07,
+      "company_specific_zscore": 0.62,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": -2.24,
+      "market_part_pct": 1.75,
+      "industry_part_pct": -2.9,
+      "company_specific_pct": -1.09,
+      "company_specific_zscore": -0.28,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  },
+  "AXTI": {
+    "market": "SPY",
+    "sector_etf": "SMH",
+    "model": {
+      "beta_market": 1.7,
+      "beta_industry_excess": 1.89,
+      "typical_daily_company_move_pct": 8.49,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": 0.92,
+      "market_part_pct": 1.15,
+      "industry_part_pct": -0.29,
+      "company_specific_pct": 0.06,
+      "company_specific_zscore": 0.01,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 17.63,
+      "market_part_pct": 2.05,
+      "industry_part_pct": 8.39,
+      "company_specific_pct": 7.19,
+      "company_specific_zscore": 0.38,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  },
+  "VIAV": {
+    "market": "SPY",
+    "sector_etf": "SMH",
+    "model": {
+      "beta_market": 0.23,
+      "beta_industry_excess": 1.36,
+      "typical_daily_company_move_pct": 3.94,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": -0.4,
+      "market_part_pct": 0.15,
+      "industry_part_pct": -0.21,
+      "company_specific_pct": -0.35,
+      "company_specific_zscore": -0.09,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 14.78,
+      "market_part_pct": 0.28,
+      "industry_part_pct": 6.04,
+      "company_specific_pct": 8.46,
+      "company_specific_zscore": 0.96,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    }
+  },
+  "FORM": {
+    "market": "SPY",
+    "sector_etf": "SMH",
+    "model": {
+      "beta_market": -0.01,
+      "beta_industry_excess": 2.05,
+      "typical_daily_company_move_pct": 3.65,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": -0.78,
+      "market_part_pct": -0.01,
+      "industry_part_pct": -0.31,
+      "company_specific_pct": -0.46,
+      "company_specific_zscore": -0.13,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 13.0,
+      "market_part_pct": -0.01,
+      "industry_part_pct": 9.11,
+      "company_specific_pct": 3.89,
+      "company_specific_zscore": 0.48,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  },
+  "ASML": {
+    "market": "SPY",
+    "sector_etf": "SMH",
+    "model": {
+      "beta_market": 0.78,
+      "beta_industry_excess": 1.04,
+      "typical_daily_company_move_pct": 1.6,
+      "days_fitted": 252
+    },
+    "last_day": {
+      "days": 1,
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "actual_pct": -0.4,
+      "market_part_pct": 0.52,
+      "industry_part_pct": -0.16,
+      "company_specific_pct": -0.77,
+      "company_specific_zscore": -0.48,
+      "verdict": "mostly company-specific, but within its normal day-to-day noise"
+    },
+    "last_5_days": {
+      "days": 5,
+      "from": "2026-09-29",
+      "to": "2026-10-05",
+      "actual_pct": 4.99,
+      "market_part_pct": 0.94,
+      "industry_part_pct": 4.61,
+      "company_specific_pct": -0.55,
+      "company_specific_zscore": -0.15,
+      "verdict": "mostly explained by the market and/or its industry moving"
+    }
+  }
+}

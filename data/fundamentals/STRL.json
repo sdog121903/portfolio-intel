@@ -1,0 +1,168 @@
+{
+  "entity": "STERLING INFRASTRUCTURE, INC.",
+  "cik": 874238,
+  "tags_used": {
+    "revenue": "Revenues+RevenueFromContractWithCustomerExcludingAssessedTax",
+    "gross_profit": "GrossProfit",
+    "operating_income": "OperatingIncomeLoss",
+    "net_income": "NetIncomeLoss",
+    "eps_diluted": "EarningsPerShareDiluted",
+    "diluted_shares": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "rnd": null
+  },
+  "latest_quarters": [
+    {
+      "period_end": "2024-09-30",
+      "fiscal": "2024 Q3",
+      "revenue": 593741000,
+      "revenue_yoy_pct": 5.96,
+      "gross_margin_pct": 21.86,
+      "operating_margin_pct": 14.74,
+      "net_income": 61321000,
+      "eps_diluted": 1.97,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-04",
+        "accession": "0000874238-25-000136",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "fiscal": "2024 Q4",
+      "revenue": 498833000,
+      "revenue_yoy_pct": 2.65,
+      "gross_margin_pct": 21.39,
+      "operating_margin_pct": 12.48,
+      "net_income": 113213000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-02-26",
+        "accession": "0000874238-26-000024",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2025-03-31",
+      "fiscal": "2025 Q1",
+      "revenue": 430949000,
+      "revenue_yoy_pct": -2.14,
+      "gross_margin_pct": 22.01,
+      "operating_margin_pct": 13.01,
+      "net_income": 39477000,
+      "eps_diluted": 1.28,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-05-05",
+        "accession": "0000874238-26-000055",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "fiscal": "2025 Q2",
+      "revenue": 614468000,
+      "revenue_yoy_pct": 5.43,
+      "gross_margin_pct": 23.29,
+      "operating_margin_pct": 17.02,
+      "net_income": 70991000,
+      "eps_diluted": 2.31,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "accession": "0000874238-26-000103",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "fiscal": "2025 Q3",
+      "revenue": 689019000,
+      "revenue_yoy_pct": 16.05,
+      "gross_margin_pct": 24.7,
+      "operating_margin_pct": 18.19,
+      "net_income": 92088000,
+      "eps_diluted": 2.97,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-04",
+        "accession": "0000874238-25-000136",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-12-31",
+      "fiscal": "2025 Q4",
+      "revenue": 755613000,
+      "revenue_yoy_pct": 51.48,
+      "gross_margin_pct": 21.72,
+      "operating_margin_pct": 15.88,
+      "net_income": 87597000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-02-26",
+        "accession": "0000874238-26-000024",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "fiscal": "2026 Q1",
+      "revenue": 825675000,
+      "revenue_yoy_pct": 91.59,
+      "gross_margin_pct": 23.53,
+      "operating_margin_pct": 16.69,
+      "net_income": 95969000,
+      "eps_diluted": 3.09,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-05-05",
+        "accession": "0000874238-26-000055",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-06-30",
+      "fiscal": "2026 Q2",
+      "revenue": 1168179000,
+      "revenue_yoy_pct": 90.11,
+      "gross_margin_pct": 24.82,
+      "operating_margin_pct": 18.77,
+      "net_income": 155826000,
+      "eps_diluted": 5,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "accession": "0000874238-26-000103",
+        "derived": false
+      }
+    }
+  ],
+  "ttm": {
+    "revenue": 3438486000,
+    "eps_diluted": 13.88,
+    "periods": [
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30"
+    ]
+  },
+  "notes": [
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "STRL",
+  "fetched": "2026-10-04T15:49:31+00:00",
+  "stale_warning": null
+}

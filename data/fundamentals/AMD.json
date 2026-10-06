@@ -1,0 +1,168 @@
+{
+  "entity": "ADVANCED MICRO DEVICES INC",
+  "cik": 2488,
+  "tags_used": {
+    "revenue": "Revenues+RevenueFromContractWithCustomerExcludingAssessedTax+SalesRevenueNet",
+    "gross_profit": "GrossProfit",
+    "operating_income": "OperatingIncomeLoss",
+    "net_income": "NetIncomeLoss",
+    "eps_diluted": "EarningsPerShareDiluted",
+    "diluted_shares": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "rnd": "ResearchAndDevelopmentExpense"
+  },
+  "latest_quarters": [
+    {
+      "period_end": "2024-09-28",
+      "fiscal": "2024 Q3",
+      "revenue": 6819000000,
+      "revenue_yoy_pct": 17.57,
+      "gross_margin_pct": 50.14,
+      "operating_margin_pct": 10.62,
+      "net_income": 771000000,
+      "eps_diluted": 0.47,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-05",
+        "accession": "0000002488-25-000166",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2024-12-28",
+      "fiscal": "2024 Q4",
+      "revenue": 7658000000,
+      "revenue_yoy_pct": 24.16,
+      "gross_margin_pct": 50.69,
+      "operating_margin_pct": 11.37,
+      "net_income": 482000000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-02-04",
+        "accession": "0000002488-26-000018",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2025-03-29",
+      "fiscal": "2025 Q1",
+      "revenue": 7438000000,
+      "revenue_yoy_pct": 35.9,
+      "gross_margin_pct": 50.23,
+      "operating_margin_pct": 10.84,
+      "net_income": 709000000,
+      "eps_diluted": 0.44,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "accession": "0000002488-26-000076",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-06-28",
+      "fiscal": "2025 Q2",
+      "revenue": 7685000000,
+      "revenue_yoy_pct": 31.71,
+      "gross_margin_pct": 39.8,
+      "operating_margin_pct": -1.74,
+      "net_income": 872000000,
+      "eps_diluted": 0.54,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "accession": "0000002488-26-000123",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-09-27",
+      "fiscal": "2025 Q3",
+      "revenue": 9246000000,
+      "revenue_yoy_pct": 35.59,
+      "gross_margin_pct": 51.7,
+      "operating_margin_pct": 13.74,
+      "net_income": 1243000000,
+      "eps_diluted": 0.75,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-05",
+        "accession": "0000002488-25-000166",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-12-27",
+      "fiscal": "2025 Q4",
+      "revenue": 10270000000,
+      "revenue_yoy_pct": 34.11,
+      "gross_margin_pct": 54.3,
+      "operating_margin_pct": 17.06,
+      "net_income": 1511000000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-02-04",
+        "accession": "0000002488-26-000018",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2026-03-28",
+      "fiscal": "2026 Q1",
+      "revenue": 10253000000,
+      "revenue_yoy_pct": 37.85,
+      "gross_margin_pct": 52.82,
+      "operating_margin_pct": 14.4,
+      "net_income": 1383000000,
+      "eps_diluted": 0.84,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-05-06",
+        "accession": "0000002488-26-000076",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-06-27",
+      "fiscal": "2026 Q2",
+      "revenue": 11536000000,
+      "revenue_yoy_pct": 50.11,
+      "gross_margin_pct": 53.77,
+      "operating_margin_pct": 17.25,
+      "net_income": 2297000000,
+      "eps_diluted": 1.38,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "accession": "0000002488-26-000123",
+        "derived": false
+      }
+    }
+  ],
+  "ttm": {
+    "revenue": 41305000000,
+    "eps_diluted": 3.89,
+    "periods": [
+      "2025-09-27",
+      "2025-12-27",
+      "2026-03-28",
+      "2026-06-27"
+    ]
+  },
+  "notes": [
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "AMD",
+  "fetched": "2026-10-04T15:49:23+00:00",
+  "stale_warning": null
+}

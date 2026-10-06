@@ -1,0 +1,247 @@
+{
+  "ticker": "PANW",
+  "company": "Palo Alto Networks Inc",
+  "window": {"from": "2026-10-01 (after US close)", "to": "2026-10-04"},
+  "newest_item_checked": "Motley Fool, 2026-10-03 ('Palo Alto Networks Stock is Soaring: Is it Too Late to Buy?'); no company press release or SEC filing dated 2026-10-02 to 2026-10-04 found",
+  "events": [
+    {
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "analyst action (price target raise)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "TD Cowen raised its PANW price target from $400 to $440 and kept a Buy rating, arguing the shift from a single-product hardware (firewall) vendor to a broad security-software provider supports structurally higher growth. Stock closed +1.76% at $403.24 and touched a 52-week high of $409.50 the same day.",
+      "why_it_matters": "An opinion, not new company facts. The attribution model says Friday's +1.76% was mostly market (+0.75 pts) and industry (+0.22 pts); the company-specific part (+0.80 pts, z-score 0.49) is within a normal day's noise, so no special cause is needed.",
+      "direction": "supports",
+      "sources": [
+        {"name": "Investing.com", "date": "2026-10-02", "url": "https://investing.com/news/analyst-ratings/td-cowen-raises-palo-alto-networks-stock-price-target-on-ai-tailwinds-93CH-4929302", "tier": 3},
+        {"name": "GuruFocus via Yahoo Finance", "date": "2026-10-02", "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-stocks-gain-1-195640157.html", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "timing": "after close",
+      "type": "insider filing (Form 4, gift)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Lee Klarich (director and EVP Chief Product & Technology Officer) reported a gift of 25,000 shares on 2026-09-30, at $0 price; he still holds 615,070 shares (gift is about 3.9% of his pre-gift holding of 640,070).",
+      "why_it_matters": "Gifts (code G) are routine estate/charity moves, not a market sale; carries little information about his view.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4", "date": "2026-10-01", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000168226026000006/xslF345X06/ownership.xml", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "timing": "unknown",
+      "type": "product launch",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "Palo Alto launched Unit 42 Continuous Frontier AI Defense, a subscription service that uses gated frontier AI models (Anthropic's Claude Mythos and OpenAI's GPT-5.6) plus Unit 42 specialists to continuously find, test and fix weaknesses in a customer's systems. Company says it was validated over six months and 100+ customer engagements, backed by a $17 million R&D investment. A GuruFocus piece on 2026-10-02 cited it as context for Friday's gain, but that is a tier-3 attribution, not a confirmed cause.",
+      "why_it_matters": "Shows the company turning the 'AI makes attacks worse' fear into a recurring-revenue product; also ties it to the two leading AI labs. Sales not disclosed.",
+      "direction": "supports",
+      "sources": [
+        {"name": "Palo Alto Networks press release via Nasdaq", "date": "2026-09-22", "url": "https://www.nasdaq.com/press-release/palo-alto-networks-delivers-anthropics-mythos-and-openais-gpt-56-customers-unit-42", "tier": 1},
+        {"name": "Palo Alto Networks blog", "date": "2026-09-22", "url": "https://www.paloaltonetworks.com/blog/2026/09/introducing-unit-42-continuous-frontier-ai-defense/", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "timing": "before open",
+      "type": "analyst action (downgrade)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "Bernstein (analyst Peter Weed) downgraded PANW to Market Perform from Outperform with a $351 target, saying the AI-driven demand story is intact but the stock had run past his target and had 'limited near-term upside'. Shares fell about 4.5% by mid-morning. Fool cites the stock at about 940x trailing (GAAP) earnings and 75x free cash flow at that point.",
+      "why_it_matters": "The main bear argument right now is valuation, not business weakness. Only one downgrade found in the period, so the 'two downgrades in five trading days' breaker did not fire.",
+      "direction": "weakens",
+      "sources": [
+        {"name": "Motley Fool", "date": "2026-09-18", "url": "https://www.fool.com/investing/2026/09/18/why-palo-alto-networks-stock-dropped-today/", "tier": 3},
+        {"name": "ad-hoc-news", "date": "2026-09-18", "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/palo-alto-networks-stock-falls-after-bernstein-downgrade-despite-strong/70125376", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "timing": "during",
+      "type": "industry move (sector rally)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Cybersecurity stocks had one of their best days in years: PANW rose about 13-14% (CrowdStrike +15%, Okta +13%, Fortinet +9%), after AI-lab leaders including Anthropic's Dario Amodei and OpenAI's Sam Altman called for slower frontier-model development and investors focused on AI-enabled cyber risk (reports also cite a breach at Revolut). Chip stocks fell the same day. Wedbush also added PANW to its Best Ideas list with a $400 target around this date.",
+      "why_it_matters": "Explains much of the 1-month +22.8% move: money rotated from AI chip stocks into security stocks on the idea that more powerful AI means more attacks and more security spending. This is an industry move, not PANW-specific news.",
+      "direction": "supports",
+      "sources": [
+        {"name": "Forbes", "date": "2026-09-14", "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/09/14/crowdstrike-skyrockets-14-as-ai-fears-send-cybersecurity-stocks-surging/", "tier": 3},
+        {"name": "24/7 Wall St.", "date": "2026-09-14", "url": "https://247wallst.com/investing/2026/09/14/cybersecurity-stocks-surge-as-ai-safety-warnings-spark-security-bid-crowdstrike-and-zscaler-jump-12-palo-alto-rallies-11/", "tier": 3},
+        {"name": "Seeking Alpha news", "date": "2026-09-14", "url": "https://seekingalpha.com/news/4642523-crowdstrike-palo-alto-networks-lead-cybersecurity-stocks-higher-amid-ai-worries", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "timing": "after close",
+      "type": "earnings (Q4 FY2026) plus acquisition",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Q4 FY2026 (quarter to July 31): revenue $3.41B (+34% YoY) vs about $3.35B expected; non-GAAP EPS $1.02 vs $0.98 expected; NGS ARR $9.10B (+63%); RPO $21.2B (+34%); GAAP EPS -$0.35. FY2027 guide: revenue $14.10-14.20B (+23-24%), NGS ARR $11.075-11.175B (+22-23%), non-GAAP EPS $4.16-4.19. Also announced buying Console (AI help-desk automation; terms undisclosed, TechCrunch sources say about $500M). Stock fell anyway (reports range from about 5% to 8% on 2026-09-02).",
+      "why_it_matters": "Beat on every line, but the stock had run up into the report and FY27 ARR growth of 22-23% looks much slower than 63% because the CyberArk acquisition (closed Feb 2026) stops inflating the comparison. BofA said the reaction reflected an unusually high bar, not weak execution.",
+      "direction": "supports",
+      "sources": [
+        {"name": "Palo Alto Networks Q4 FY2026 earnings release (SEC 8-K Ex. 99.1)", "date": "2026-09-01", "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm", "tier": 1},
+        {"name": "CNBC", "date": "2026-09-01", "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html", "tier": 2},
+        {"name": "24/7 Wall St.", "date": "2026-09-02", "url": "https://247wallst.com/investing/2026/09/02/palo-alto-sinks-8-despite-34-revenue-growth-crowdstrike-falls-3-fortinet-slips/", "tier": 3},
+        {"name": "TechCrunch", "date": "2026-09-02", "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "timing": "after close",
+      "type": "earnings (Q3 FY2026)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Q3 FY2026 (quarter to April 30): revenue $3.00B (+31%) vs $2.94B expected; non-GAAP EPS $0.85 vs $0.80 expected; NGS ARR $8.1B (+60%). CEO Nikesh Arora said organic bookings growth accelerated as customers secure AI deployments, and that advances at the AI frontier (reports cite Anthropic's Mythos model) increased urgency around cybersecurity. CNBC reported shares up as much as 12% after hours.",
+      "why_it_matters": "This is where the narrative turned: from 'AI may replace security tools' and a disappointing February guide, to 'powerful AI models create more threats, so security demand rises'. Part of revenue growth is acquired (about $388M from CyberArk and Chronosphere in that quarter, per a tier-3 summary).",
+      "direction": "supports",
+      "sources": [
+        {"name": "Palo Alto Networks Q3 FY2026 earnings release (SEC 8-K Ex. 99.1)", "date": "2026-06-02", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000012/ex991q326earningsrelease.htm", "tier": 1},
+        {"name": "CNBC", "date": "2026-06-02", "url": "https://www.cnbc.com/2026/06/02/palo-alto-networks-panw-q3-earnings-2026.html", "tier": 2}
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "timing": "unknown",
+      "type": "acquisition closed",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Palo Alto completed its acquisition of CyberArk (identity security: protecting logins and privileged accounts, including machine and AI-agent identities). Total consideration $21.1B: about $2.3B cash plus 112 million newly issued PANW shares valued at $18.5B (per the 10-Q). Chronosphere (observability) also closed in the period.",
+      "why_it_matters": "The biggest deal in its history; it inflates growth rates for the 12 months after closing (63% NGS ARR growth) and diluted shareholders by issuing 112M shares. From February 2027 the comparisons become organic, which is why FY27 guidance shows slower growth.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Palo Alto Networks press release", "date": "2026-02-11", "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-completes-acquisition-of-cyberark-to-secure-the-ai-era", "tier": 1},
+        {"name": "PANW Form 10-Q for quarter ended 2026-04-30", "date": "2026-06", "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000015/panw-20260430.htm", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "PANW is up 147% in six months and 22.8% in one month to $403.24, near its 52-week high of $409.50 (2026-10-02).", "evidence": "data/metrics/2026-10-04.json (pipeline price data)"},
+    {"rung": 2, "text": "The last week (+7.6%) and Friday (+1.8%) were mostly explained by the cybersecurity industry and the market moving, not company news: over 5 days, industry part +5.8 pts, company-specific +2.0 pts (z 0.56, normal).", "evidence": "data/metrics/attribution-2026-10-04.json"},
+    {"rung": 3, "text": "The one-month jump came largely from a sector-wide rally on 2026-09-14 (PANW +13-14%) when AI-lab leaders called for slower frontier-AI development and investors priced in more AI-enabled cyber risk; money rotated from chip stocks to security stocks.", "evidence": "https://www.forbes.com/sites/antoniopequenoiv/2026/09/14/crowdstrike-skyrockets-14-as-ai-fears-send-cybersecurity-stocks-surging/ ; https://247wallst.com/investing/2026/09/14/cybersecurity-stocks-surge-as-ai-safety-warnings-spark-security-bid-crowdstrike-and-zscaler-jump-12-palo-alto-rallies-11/"},
+    {"rung": 4, "text": "The six-month run rests on results: revenue growth of 31% (Q3) and 34% (Q4), NGS ARR growth of 60-63%, and management saying AI is accelerating organic bookings.", "evidence": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm"},
+    {"rung": 5, "text": "Those growth rates are partly bought: the $21.1B CyberArk deal (closed 2026-02-11) and Chronosphere add revenue that was not in last year's numbers, so headline growth overstates organic growth until early 2027.", "evidence": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-completes-acquisition-of-cyberark-to-secure-the-ai-era ; inference on the size of the organic share (medium)"},
+    {"rung": 6, "text": "Basic driver: investors believe more capable AI models (e.g. Anthropic's Mythos) make attacks easier and create new things to protect (AI agents and their identities), so security budgets must grow; PANW is seen as a top beneficiary because it sells many tools on one platform. Much of the gain is a higher valuation multiple (the price investors pay per dollar of profit) rather than profit growth alone.", "evidence": "inference (medium), supported by CEO comments in Q3 release coverage https://www.cnbc.com/2026/06/02/palo-alto-networks-panw-q3-earnings-2026.html and Bernstein valuation downgrade https://www.fool.com/investing/2026/09/18/why-palo-alto-networks-stock-dropped-today/"}
+  ],
+  "products": [
+    {
+      "name": "Unit 42 Continuous Frontier AI Defense",
+      "what_it_is": "A subscription service that uses top AI models plus human hackers-for-hire (Unit 42 specialists) to continuously search a company's systems for weaknesses and help fix them before criminals find them.",
+      "analogy": "Like hiring a team of friendly burglars, armed with the newest tools, to try every door and window of your house all year and tell you which locks to change.",
+      "buyers": "Large enterprises that want access to gated cyber-capable AI models (Anthropic Claude Mythos, OpenAI GPT-5.6) that are not generally available.",
+      "how_it_works": "A proprietary 'multi-model harness' runs the frontier AI models against the customer's applications, identities, cloud and networks, validates whether a weakness can really be exploited, and Unit 42 specialists recommend fixes. Company says internal use found a year's worth of exposures in three weeks.",
+      "price": "not disclosed (sold as an annual subscription)",
+      "sales": "not disclosed. Proxy: company says it was tested across more than 100 Unit 42 customer engagements and backed by a $17 million R&D investment (both company figures, 2026-09-22). These are not sales figures.",
+      "sales_source": "https://www.nasdaq.com/press-release/palo-alto-networks-delivers-anthropics-mythos-and-openais-gpt-56-customers-unit-42",
+      "stage": "launched and generally available worldwide (2026-09-22)",
+      "size_for_company": "unknown; services are a small part of a company guiding to $14.10-14.20B revenue for FY2027. Inference (medium): immaterial to revenue in the near term; matters more as a showcase.",
+      "competition": "Other security firms' AI-driven offensive testing and exposure-management services (e.g. CrowdStrike, consulting firms); AI labs could also offer similar capabilities directly (inference).",
+      "why_investors_care": "It positions PANW as the channel through which enterprises use the most powerful (and most dangerous) AI models for defense, supporting the 'AI raises security demand' story.",
+      "watch_next": "Any customer count or revenue mention on the Q1 FY2027 call (expected mid/late November 2026); margin impact of AI compute costs."
+    },
+    {
+      "name": "Next-Generation Security (NGS) ARR (platform: Prisma/SASE cloud security, Cortex security operations, CyberArk identity)",
+      "what_it_is": "The yearly recurring subscription revenue from PANW's newer software and cloud products, the number Santi's thesis tracks.",
+      "analogy": "Like a gym's total monthly memberships times 12: it shows the steady income already signed up, separate from one-off equipment sales.",
+      "buyers": "Enterprises and governments consolidating many security tools onto one vendor ('platformization').",
+      "how_it_works": "Customers pay subscriptions; ARR adds up the annual value of active contracts at quarter end.",
+      "price": "varies by contract; not disclosed",
+      "sales": "NGS ARR $9.10B at Q4 FY2026 (+63% YoY), nearly $1B net new in the quarter; guided $9.54-9.56B for Q1 FY2027 and $11.075-11.175B for FY2027 (+22-23%). About 220 net new platformizations in Q4 (tier-3 report). Company reiterated a $20B FY2030 NGS ARR target (tier-3 report).",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm",
+      "stage": "scaling; growth currently boosted by CyberArk acquisition",
+      "size_for_company": "$9.10B ARR vs FY2027 revenue guide of $14.10-14.20B, i.e. the majority of the business by annualised value.",
+      "competition": "CrowdStrike, Zscaler, Fortinet, Microsoft, Okta (identity), Cisco.",
+      "why_investors_care": "It is the main proof that customers keep consolidating onto PANW (thesis point 1).",
+      "watch_next": "Q1 FY2027 NGS ARR vs the $9.54-9.56B guide; organic vs acquired growth once CyberArk laps in February 2027."
+    }
+  ],
+  "earnings": {
+    "status": "reported",
+    "date": "2026-09-01",
+    "confirmed": true,
+    "consensus": {"revenue": "about $3.35B (per news coverage)", "non_gaap_eps": "$0.98 (per news coverage)", "fy2027_revenue_street": "$13.84B (tier-3 report)"},
+    "actual": {"revenue": "$3.41B (+34% YoY)", "non_gaap_eps": "$1.02", "gaap_eps": "-$0.35", "fy2026_non_gaap_eps": "$3.84", "fy2026_gaap_eps": "$0.40", "q4_gaap_operating_income": "$172M (vs $497M a year earlier)", "q4_non_gaap_operating_income": "$1.0B (vs $768M)"},
+    "guidance": {"q1_fy2027_revenue": "$3.300-3.310B (+33-34%)", "q1_fy2027_ngs_arr": "$9.54-9.56B (+63%)", "q1_fy2027_non_gaap_eps": "$0.96-0.98", "fy2027_revenue": "$14.10-14.20B (+23-24%)", "fy2027_ngs_arr": "$11.075-11.175B (+22-23%)", "fy2027_rpo": "$25.2-25.4B (+19-20%)", "fy2027_non_gaap_eps": "$4.16-4.19", "fy2027_adj_fcf_margin": "38.0%"},
+    "key_metrics": {"ngs_arr": "$9.10B (+63%)", "rpo": "$21.2B (+34%)", "fy2026_adj_fcf_margin": "38.4%"},
+    "quality_flags": [
+      "Large gap between GAAP (-$0.35) and non-GAAP (+$1.02) EPS in Q4: acquisition costs, amortization and stock compensation are excluded from the adjusted number.",
+      "Headline growth includes CyberArk (closed 2026-02-11) and Chronosphere; organic growth is lower and not cleanly separated in sources checked.",
+      "112 million shares issued for CyberArk; guided FY2027 diluted share count 844-847 million."
+    ],
+    "management_explanation": "CEO Nikesh Arora: 'We delivered a strong Q4 to close out the year, adding nearly $1 billion of Net New NGS ARR in a single quarter.' AI-driven demand for security cited as the driver.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm",
+      "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html",
+      "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-q4-2026-124827219.html"
+    ]
+  },
+  "next_earnings": {
+    "date": "estimated mid-to-late November 2026 (third-party estimates: 2026-11-12 or 2026-11-18); not yet confirmed by the company",
+    "confirmed": false,
+    "consensus_eps": "$0.97 non-GAAP for Q1 FY2027 (tier-3 aggregator)",
+    "consensus_revenue": "not available",
+    "company_guidance": "Q1 FY2027: revenue $3.300-3.310B, NGS ARR $9.54-9.56B, non-GAAP EPS $0.96-0.98 (company, 2026-09-01)",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm",
+      "https://fn2.ai/earnings/panw/next",
+      "https://www.tipranks.com/stocks/panw/earnings"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-10-02", "firm": "TD Cowen", "action": "Price target raised $400 -> $440, Buy maintained", "reason": "Shift from single-product hardware vendor to broad security-software provider supports structurally higher growth", "url": "https://investing.com/news/analyst-ratings/td-cowen-raises-palo-alto-networks-stock-price-target-on-ai-tailwinds-93CH-4929302"},
+    {"date": "not available (recent, cited 2026-10-02)", "firm": "BTIG", "action": "Price target raised to $425, Buy maintained", "reason": "not available", "url": "https://investing.com/news/analyst-ratings/td-cowen-raises-palo-alto-networks-stock-price-target-on-ai-tailwinds-93CH-4929302"},
+    {"date": "not available (recent, cited 2026-10-02)", "firm": "Cantor Fitzgerald", "action": "Overweight reiterated, $425 target", "reason": "not available", "url": "https://investing.com/news/analyst-ratings/td-cowen-raises-palo-alto-networks-stock-price-target-on-ai-tailwinds-93CH-4929302"},
+    {"date": "2026-09-18", "firm": "Bernstein", "action": "Downgrade to Market Perform from Outperform, $351 target", "reason": "Valuation; stock ran past target, limited near-term upside; AI demand story intact", "url": "https://www.fool.com/investing/2026/09/18/why-palo-alto-networks-stock-dropped-today/"},
+    {"date": "around 2026-09-14", "firm": "Wedbush", "action": "Added to Best Ideas list / Outperform, $400 target (sources differ on whether initiation or upgrade)", "reason": "AI security demand", "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/palo-alto-networks-stock-jumps-on-ai-cybersecurity-rally-and-wedbush/70106186"}
+  ],
+  "insiders": {
+    "summary": "No insider buying. In the filings window, the CFO sold 27,500 shares (about $10.77M) on 2026-09-24 under a pre-planned 10b5-1 plan; director Aparna Bawa sold 260 shares (about $102K) without a plan flag; CPO Lee Klarich gifted 25,000 shares on 2026-09-30. Total open-market sells about $10.87M. Only one non-plan seller and a small amount, so the 'several insiders selling outside plans' breaker did not fire.",
+    "notable": [
+      {"who": "Dipak Golechha (EVP, CFO)", "date": "2026-09-24", "what": "Sold 27,500 shares at about $388.69-396.21 (about $10.77M) under a 10b5-1 plan; 117,750 shares left, so he sold about 19% of his holding", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000185254026000007/xslF345X06/ownership.xml"},
+      {"who": "Aparna Bawa (director)", "date": "2026-09-24", "what": "Sold 260 shares at $392.685 (about $102K), not flagged as 10b5-1; 4,677 shares left (about 5% of holding)", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526405399/xslF345X06/ownership.xml"},
+      {"who": "Lee Klarich (director, EVP Chief Product & Technology Officer)", "date": "2026-09-30", "what": "Gift of 25,000 shares (routine, not a sale); 615,070 shares left", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000168226026000006/xslF345X06/ownership.xml"}
+    ]
+  },
+  "filings": [
+    {"form": "4", "items": "Gift (code G), filed 2026-10-01", "plain_english": "Lee Klarich gave away 25,000 shares (e.g. to family or charity); not a sale.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000168226026000006/xslF345X06/ownership.xml"},
+    {"form": "4", "items": "Open-market sales (code S) under 10b5-1 plan, filed 2026-09-28", "plain_english": "The CFO sold about $10.77M of stock on a schedule set in advance.", "materiality": "medium", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000185254026000007/xslF345X06/ownership.xml"},
+    {"form": "4", "items": "Open-market sale (code S), filed 2026-09-28", "plain_english": "A director sold 260 shares (about $102K); small.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526405399/xslF345X06/ownership.xml"},
+    {"form": "144", "items": "Two notices filed 2026-09-24", "plain_english": "Advance notices of planned insider sales; they line up with the 2026-09-24 sales above (inference, high).", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000196858226001007/xsl144X01/primary_doc.xml"}
+  ],
+  "catalysts": [
+    {"date": "estimated mid-to-late November 2026", "event": "Q1 FY2027 earnings (date not yet announced by company)", "confirmed": false, "url": "https://fn2.ai/earnings/panw/next"},
+    {"date": "around February 2027", "event": "CyberArk acquisition anniversary: growth comparisons turn organic, NGS ARR growth guided to slow from 63% to 22-23% for FY2027", "confirmed": false, "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "Latest guidance (2026-09-01) set FY2027 revenue at $14.10-14.20B, above a cited $13.84B street view; no later revision found. https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm"},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "Q4 FY2026 beat: revenue $3.41B vs about $3.35B, non-GAAP EPS $1.02 vs $0.98 (CNBC/Yahoo, 2026-09-01). No results in the window."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "No reports found in searches of the window or recent news."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "No 8-K in data/filings/2026-10-04.json; none found in searches."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "No 8-K in the filings window."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "No 8-K Item 5.02 in the window; CFO Dipak Golechha still filing as CFO on 2026-09-28 Form 4."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "No S-3/424B in window. Note: 112M shares were issued for CyberArk in February 2026 (outside window, acquisition-related, disclosed in 10-Q)."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "Searches for lawsuits/investigations found none in the window. Product vulnerabilities were disclosed in 2026 (CVE-2026-0300 exploited in May; CVE-2026-0310 disclosed in September, not known exploited as of 2026-09-09); no regulatory action found."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "Only Bernstein (2026-09-18) found in recent weeks; window actions were price-target raises (TD Cowen 2026-10-02). BTIG and HSBC downgrades found in search are older (BTIG dated 2025-01-08)."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "Only one non-plan seller (director Bawa, 260 shares, about $102K, 2026-09-24); CFO sales were under a 10b5-1 plan; Klarich was a gift."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Valuation is extreme: Bernstein downgraded on valuation (2026-09-18); Fool cites about 940x trailing earnings and 75x free cash flow; GuruFocus says shares trade about 72% above its $234 'GF Value' estimate.", "url": "https://www.fool.com/investing/2026/09/18/why-palo-alto-networks-stock-dropped-today/", "assessment": "Credible concern. The price ($403) is now above the average analyst target (about $390-396 per tier-3 aggregators), meaning analysts on average see little upside. Trailing GAAP P/E is distorted by acquisition charges; on FY27 non-GAAP EPS guide $4.16-4.19 the stock is about 96-97x (computed from cited figures)."},
+    {"claim": "Growth slows sharply in FY2027: NGS ARR guided +22-23% vs +63% now, RPO +19-20% vs +34%.", "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm", "assessment": "Mostly the acquisition effect wearing off, which the company flagged; but it is exactly the kind of slowdown thesis trigger 1 watches, so the organic rate matters. Not a breaker now (stated one-off cause)."},
+    {"claim": "Firewall product vulnerabilities: CVE-2026-0300 (Captive Portal) exploited by suspected state-sponsored hackers for nearly a month from April 2026; CVE-2026-0310 disclosed September 2026.", "url": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/", "assessment": "Relevant to thesis trigger 2 (major product failure). No evidence found of customers leaving or lawsuits; vulnerabilities are common across firewall vendors. Low-medium risk, watch."},
+    {"claim": "Stock fell 5-8% after a clean Q4 beat (2026-09-02), showing very high expectations.", "url": "https://247wallst.com/investing/2026/09/02/palo-alto-sinks-8-despite-34-revenue-growth-crowdstrike-falls-3-fortinet-slips/", "assessment": "Shows the stock can fall even on good news when expectations are high; relevant to a new buyer near the 52-week high. High volatility: 20-day annualised volatility 57%, average daily range (ATR) 4.3% of price, max drawdown in last year -36% (metrics file)."}
+  ],
+  "open_questions": [
+    "Organic (excluding CyberArk/Chronosphere) revenue and NGS ARR growth rates: not cleanly found in sources checked.",
+    "Exact Q1 FY2027 earnings date (company has not announced) and consensus revenue for Q1 FY2027 (not available).",
+    "Exact size of the 2026-09-02 post-earnings drop (reports range from about 5% to 8%); one Fool article refers to a 2026-09-08 earnings call, which conflicts with the 2026-09-01 release date; release date per SEC 8-K is 2026-09-01.",
+    "Sales or customer counts for Unit 42 Continuous Frontier AI Defense: not disclosed.",
+    "Console acquisition price (about $500M) is a TechCrunch source report, not a company figure.",
+    "Dates and reasons for BTIG ($425) and Cantor ($425) target actions not verified.",
+    "Tier-2 confirmation of the 2026-09-14 sector rally cause relies on Forbes/24/7/Seeking Alpha (tier 3); no Reuters/Bloomberg article retrieved."
+  ],
+  "searches_run": 15
+}

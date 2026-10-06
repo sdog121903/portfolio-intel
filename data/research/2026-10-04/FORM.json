@@ -1,0 +1,226 @@
+{
+  "ticker": "FORM",
+  "company": "FormFactor, Inc.",
+  "window": {"from": "2026-10-01 (after US close)", "to": "2026-10-04"},
+  "newest_item_checked": "S&P Dow Jones Indices index-change release dated 2026-10-01 (after close); EDGAR filing list checked 2026-10-04 (latest FormFactor filing: Form 4 dated 2026-09-17); price data through the 2026-10-02 close",
+  "events": [
+    {
+      "date": "2026-10-01",
+      "timing": "after close",
+      "type": "index change",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "S&P Dow Jones Indices said FormFactor moves from the S&P SmallCap 600 into the S&P MidCap 400, replacing Twilio (which moves up into the S&P 500 in place of Warner Bros. Discovery). Effective before the open on Monday 2026-10-06. Workiva takes FormFactor's SmallCap 600 seat. The release gives no reason beyond the chain of replacements. A contemporaneous post quoting the release shows FORM at 148.44, its 2026-10-01 close, which places the announcement after Thursday's close.",
+      "why_it_matters": "This is a promotion to a bigger-company index because the company has grown (market value about $11.65B per a tier-3 quote page, not independently confirmed). Funds that track the MidCap 400 must buy, and funds that track the SmallCap 600 must sell, so the net effect on demand is unclear. Index rebalancing usually happens at the close before the effective date, which here is Friday 2026-10-02 (inference). It changes nothing about the business itself.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "S&P Dow Jones Indices press release", "date": "2026-10-01", "url": "https://press.spglobal.com/2026-10-01-Vylor-Added-to-the-S-P-500-Twilio-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600", "tier": 1},
+        {"name": "MarketScreener", "date": "2026-10-01", "url": "https://www.marketscreener.com/news/formfactor-to-join-s-p-midcap-400-replacing-twilio-ce785ddada8ef42c", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "price action (no company news)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "FORM closed at $149.15, up 0.48%. The chip-stock ETF SMH rose about 2.1% (617.81 to 630.60, local price data). The attribution model splits it as 0% market, +2.72% industry and -2.24% company-specific (z-score -0.62), so it was a normal day. Volume was 1.66x the 20-day average, which fits index-rebalancing trades at the close (inference, medium). No company press release or SEC filing was found from 2026-10-01 after the close through 2026-10-04.",
+      "why_it_matters": "Friday's small gain was the chip sector moving, not FormFactor news. The stock slightly lagged its sector.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Local metrics file data/metrics/attribution-2026-10-04.json", "date": "2026-10-04", "url": "file:data/metrics/attribution-2026-10-04.json", "tier": 1},
+        {"name": "SEC EDGAR FormFactor filing index", "date": "2026-10-04", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001039399&type=&dateb=&owner=include&count=40", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "timing": "before open",
+      "type": "analyst initiation",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "BACKGROUND. Deutsche Bank (analyst George Brown) started covering FormFactor with a Buy rating and a $200 price target. The note's central claim is that FormFactor has become the second qualified supplier of probe cards for Nvidia GPUs made at TSMC. DB says this market is worth about $0.5B, expects first sales in the second half of 2026, and sees roughly 20% share and more than $0.2B of sales by 2028. DB also sees HBM-related sales approaching $0.4B by 2028. FORM rose 9.6% that day (136.25 to 149.31, local data) while SMH rose only 0.35% (606.90 to 609.00), so almost all of the move was company-specific.",
+      "why_it_matters": "This is the single biggest company-specific move of the past week, and it explains most of the 15% weekly gain. The price target and the 2028 sales numbers are one analyst's opinions. FormFactor itself has not named Nvidia. On its Q2 call it said only that it is 'qualified' and 'shipping production units for revenue' in GPU probe cards in Q3.",
+      "direction": "supports",
+      "sources": [
+        {"name": "Investing.com", "date": "2026-09-30", "url": "https://www.investing.com/news/stock-market-news/why-is-formfactor-stock-surging-today-93CH-4925395", "tier": 3},
+        {"name": "StockStory via Yahoo Finance", "date": "2026-09-30", "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-form-shares-skyrocket-know-212513458.html", "tier": 3},
+        {"name": "Investing.com earnings call transcript (company remarks on GPU qualification)", "date": "2026-07-29", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-formfactor-beats-q2-2026-estimates-shares-jump-after-hours-93CH-4821881", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "timing": "after close",
+      "type": "earnings",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "BACKGROUND. Q2 2026 brought record results. Revenue was $258.2M, up 14.2% from Q1's $226.1M and up 31.9% from $195.8M a year earlier. Non-GAAP gross margin was 53.3% (38.5% a year earlier) and non-GAAP EPS was $0.82 ($0.27 a year earlier); GAAP EPS was $0.71. All three beat the top of the company's own range. Q3 guidance: revenue $270M +/- $10M, non-GAAP gross margin 54.0% +/- 1.5pts, non-GAAP EPS $0.86 +/- $0.09. Consensus had been about $240M revenue (Zacks) and $0.59-$0.61 EPS (sources differ). The stock jumped 26.3% the next day (83.45 to 105.38) while SMH rose 6.9%.",
+      "why_it_matters": "It showed that the AI story (HBM memory testing, GPU and custom-chip testing, and optics test systems) is turning into actual revenue and much higher margins. Management attributed about one third of the Q2 margin improvement to items that will not repeat (tariff refunds, precious-metal reclaim).",
+      "direction": "supports",
+      "sources": [
+        {"name": "FormFactor Q2 2026 earnings release (SEC 8-K Ex. 99.1)", "date": "2026-07-29", "url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000030/ex9901-earningsreleasexq226.htm", "tier": 1},
+        {"name": "Zacks via Yahoo Finance", "date": "2026-07-30", "url": "https://finance.yahoo.com/markets/stocks/articles/formfactors-q2-earnings-beat-estimates-171500874.html", "tier": 3},
+        {"name": "Public.com earnings page", "date": "2026-10-04", "url": "https://public.com/stocks/form/earnings", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-07-02",
+      "timing": "during",
+      "type": "sector selloff",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "BACKGROUND. FORM fell 16.0% on the day (147.13 to 123.59, local data; StockStory reported 17.5%). This was part of a chip-sector selloff over fears that AI chip demand may be cooling. A Citi analyst questioned whether cloud giants would keep spending heavily on AI if they could not show returns, and Meta's plan to lease out spare AI computing capacity raised fears of overbuilding. SMH fell 4.5% that day (local data). The slide continued to $83.45 on 2026-07-29, about 48% below the $160.27 intraday high of 2026-06-30, before earnings reversed it.",
+      "why_it_matters": "It shows how violently this stock reacts to any doubt about AI spending. Its beta (how much it tends to move when the market moves) is 2.82, and its 60-day volatility is 95.7% a year. A 1-month gain of 54% sits inside a 1-year range in which the stock also fell 48% from peak to trough.",
+      "direction": "weakens",
+      "sources": [
+        {"name": "StockStory via Yahoo Finance", "date": "2026-07-03", "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-allegro-microsystems-shares-plummet-031624838.html", "tier": 3},
+        {"name": "Local price data data/prices/FORM.csv and SMH.csv", "date": "2026-10-04", "url": "file:data/prices/FORM.csv", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "timing": "after close",
+      "type": "peer/customer-industry earnings",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "BACKGROUND (industry). Micron reported fiscal Q4 revenue of $54.23B against $51.07B expected, and adjusted EPS of $33.42 against $31.61 expected. Its DRAM revenue rose 343% from a year earlier to $39.8B, and it cited a strong HBM roadmap. The figures come from a search summary of CNBC; the CNBC page returned an error, and the Micron 8-K was not opened.",
+      "why_it_matters": "DRAM, and especially HBM, is FormFactor's largest end market: HBM was about two-thirds of FormFactor's DRAM revenue in Q2. Memory makers' results are a read-through for FormFactor's probe-card demand. SK hynix was 24.3% of FormFactor's Q2 revenue.",
+      "direction": "supports",
+      "sources": [
+        {"name": "CNBC", "date": "2026-09-30", "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html", "tier": 2},
+        {"name": "Micron 8-K Ex. 99.1", "date": "2026-09-30", "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "FORM rose 54.4% in one month (about $96.58 on 2026-09-02 to $149.15 on 2026-10-02), versus about +14.6% for the chip ETF SMH (550.48 to 630.60). So most of the month's move was company-specific (excess vs sector, 1m: +39.9 pts). In the last week (+15.0%), the attribution model gives +8.6% to industry and +6.4% to the company.", "evidence": "file:data/metrics/2026-10-04.json; file:data/metrics/attribution-2026-10-04.json"},
+    {"rung": 2, "text": "The largest single company-specific day was 2026-09-30 (+9.6% vs SMH +0.35%), when Deutsche Bank started coverage with Buy and a $200 target.", "evidence": "https://www.investing.com/news/stock-market-news/why-is-formfactor-stock-surging-today-93CH-4925395"},
+    {"rung": 3, "text": "DB's reason: FormFactor is now the second qualified probe-card supplier for Nvidia GPUs made at TSMC (about a $0.5B market per DB), and its HBM test business keeps growing.", "evidence": "https://finance.yahoo.com/markets/stocks/articles/formfactor-form-shares-skyrocket-know-212513458.html"},
+    {"rung": 4, "text": "The company's own facts back the direction. It said it is 'qualified' and 'shipping production units for revenue' in GPU probe cards in Q3 2026, without naming the customer. It also reported record Q2 revenue and margins and guided Q3 to another record ($270M midpoint).", "evidence": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000030/ex9901-earningsreleasexq226.htm"},
+    {"rung": 5, "text": "Root driver: AI chips (GPUs, custom accelerators) and the HBM memory stacked beside them are expensive and complex, so every chip must be tested on the wafer before packaging. That raises demand for advanced probe cards. Cloud companies' AI spending is the money at the bottom of the chain.", "evidence": "inference (high)"},
+    {"rung": 6, "text": "Part of the September rebound was simply recovery from an oversold base. The stock had fallen to about $95 on 2026-09-01 amid general chip-stock weakness, and the gains from 2026-09-04 to 2026-09-23 (about $96.76 to $131.26) have no single published company-specific reason that I found. Memory-sector strength ahead of Micron's 2026-09-30 report is a plausible contributor.", "evidence": "inference (medium); no published cause found for the 2026-09-04 to 2026-09-23 leg"}
+  ],
+  "products": [
+    {
+      "name": "Probe cards (DRAM/HBM, foundry and logic incl. GPU and custom ASIC)",
+      "what_it_is": "A custom-made test head with thousands of microscopic needles that touches every chip while the chips are still on the silicon wafer, to check which ones work before they are cut out and packaged.",
+      "analogy": "A bed of nails built to fit one specific chip design. It presses down on the wafer like a cookie-cutter shaped stethoscope and listens to every chip at once. A new chip design needs a new card, and cards wear out, so customers keep buying.",
+      "buyers": "Memory makers (SK hynix was 24.3% of Q2 2026 revenue), foundries (TSMC was 11.0%), and chip designers such as Intel. Per Deutsche Bank, Nvidia GPUs made at TSMC are now included.",
+      "how_it_works": "A tester sends electrical signals through the card's probes into each chip's contact pads on the wafer, then reads the responses. Bad chips are marked and discarded before expensive packaging. That matters most for HBM, where many memory dies are stacked together and one bad die ruins the whole stack, and for big AI chips.",
+      "price": "not disclosed",
+      "sales": "Segment revenue for Q2 2026 is not disclosed in the release text (posted separately on the IR site; not retrieved). Total company revenue was $258.2M, of which the Systems segment was $48.5M (per the call), which implies about $209.7M from Probe Cards (my arithmetic). HBM was about two-thirds of DRAM probe-card revenue. GPU probe cards: 'shipping production units for revenue' starting Q3 2026; amount not disclosed. Deutsche Bank estimates more than $0.2B of GPU probe-card sales by 2028 and about $0.4B of HBM sales by 2028 (analyst estimates, not company figures).",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000030/ex9901-earningsreleasexq226.htm ; https://www.investing.com/news/transcripts/earnings-call-transcript-formfactor-beats-q2-2026-estimates-shares-jump-after-hours-93CH-4821881 ; https://www.investing.com/news/stock-market-news/why-is-formfactor-stock-surging-today-93CH-4925395",
+      "stage": "HBM/DRAM: shipping in volume. GPU probe cards: qualified and shipping first production units (Q3 2026).",
+      "size_for_company": "Probe cards are roughly 80% of revenue (proxy: $209.7M of $258.2M in Q2 2026, derived). If DB's more than $0.2B GPU estimate for 2028 came true, it would be about 19% of 2026 consensus revenue of $1.03B (stockanalysis.com consensus).",
+      "competition": "Technoprobe (Italy) and Micronics Japan (MJC) are the main probe-card rivals. Per DB, FormFactor is the second source at Nvidia/TSMC, so a competitor is the primary supplier (not named in the sources I read).",
+      "why_investors_care": "Each new AI chip or HBM generation needs new, more complex and pricier cards. Being a qualified second source at the biggest AI chip customer opens a new revenue stream.",
+      "watch_next": "Q3 results (est. 2026-10-28): GPU revenue disclosure, DRAM mix shift from HBM to DDR (management flagged it), and Q4 guidance."
+    },
+    {
+      "name": "Co-packaged optics (CPO) test systems (Systems segment)",
+      "what_it_is": "Precision test stations that check chips which combine electronics and laser-light (optical) connections in one package, the kind of parts used to link AI servers with light instead of copper.",
+      "analogy": "A quality-control bench for a new kind of hybrid part, half electronic chip and half fibre-optic plug, that must be checked with both electricity and light before it ships.",
+      "buyers": "Makers and developers of silicon photonics and CPO devices for AI data-center networking (customer names not disclosed).",
+      "how_it_works": "Systems (probe stations) hold the wafer or device in place under precise temperature and alignment while electrical and optical signals are applied. FormFactor's Keystone Photonics acquisition added CPO and silicon-photonics test capability.",
+      "price": "not disclosed",
+      "sales": "Systems segment revenue was $48.5M in Q2 2026, up 74% from Q1 (call). CPO revenue for 2026 was originally guided at $10-20M; management now expects to 'significantly exceed the $20 million level for the year overall'.",
+      "sales_source": "https://www.investing.com/news/transcripts/earnings-call-transcript-formfactor-beats-q2-2026-estimates-shares-jump-after-hours-93CH-4821881",
+      "stage": "Shipping; ramping faster than expected",
+      "size_for_company": "More than $20M a year would be about 2% of 2026 consensus revenue ($1.03B): small today, but an option on optical AI networking.",
+      "competition": "not available from sources read (test-equipment peers in photonics test exist; not verified)",
+      "why_investors_care": "It ties FormFactor to the next AI networking shift (CPO), which other holdings in the portfolio are also exposed to.",
+      "watch_next": "An updated 2026 CPO revenue figure on the Q3 call."
+    }
+  ],
+  "earnings": {
+    "status": "reported",
+    "date": "2026-07-29",
+    "confirmed": true,
+    "consensus": {"revenue": "$240M (Zacks)", "eps_non_gaap": "$0.59 (Public.com) / about $0.61 implied by Zacks' 34.43% beat; sources differ"},
+    "actual": {"revenue": "$258.2M", "gaap_gross_margin": "50.7%", "non_gaap_gross_margin": "53.3%", "gaap_eps": "$0.71", "non_gaap_eps": "$0.82"},
+    "guidance": {"q3_2026_revenue": "$270M +/- $10M", "q3_gaap_gross_margin": "52.0% +/- 1.5pts", "q3_non_gaap_gross_margin": "54.0% +/- 1.5pts", "q3_gaap_eps": "$0.75 +/- $0.09", "q3_non_gaap_eps": "$0.86 +/- $0.09"},
+    "key_metrics": {"revenue_qoq": "+14.2%", "revenue_yoy": "+31.9%", "systems_revenue": "$48.5M, +74% QoQ (call)", "hbm_share_of_dram": "about two-thirds (call)", "top_customers_q2": "SK hynix 24.3%, TSMC 11.0% (10-Q)", "cash_and_marketable_securities": "$109.8M cash + $235.9M marketable securities at 2026-06-27 (10-Q)", "capex_2026_plan": "$140-170M (call)"},
+    "quality_flags": [
+      "Management said about one third of the Q2 gross-margin improvement came from items not expected to recur (IEEPA tariff refunds, precious metal reclaimed from the Baldwin Park site shutdown).",
+      "The Q3 guide includes tariff refunds. The transcript text says '$79 million, or about 300 basis points', which is internally inconsistent: 300 bps of $270M is about $8M. The true amount is unverified and needs checking against the 10-Q or official transcript.",
+      "Customer concentration: SK hynix alone was 24.3% of Q2 revenue.",
+      "Management flagged a Q3 DRAM mix shift from HBM toward DDR, and ramp inefficiencies at the new Farmers Branch (Texas) site through 2027."
+    ],
+    "management_explanation": "CEO Mike Slessor: 'Over the past four quarters, FormFactor has grown revenue more than 30%, expanded Non-GAAP gross margin 1,500 basis points, and tripled earnings per share... These improvements reflect years of investment to create and expand our unique position at the intersection of high-performance compute and advanced packaging, coupled with stronger execution to enhance profitability and drive operating leverage.' Demand drivers cited: HBM and co-packaged optics.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000030/ex9901-earningsreleasexq226.htm",
+      "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000033/form-20260627.htm",
+      "https://www.investing.com/news/transcripts/earnings-call-transcript-formfactor-beats-q2-2026-estimates-shares-jump-after-hours-93CH-4821881",
+      "https://finance.yahoo.com/markets/stocks/articles/formfactors-q2-earnings-beat-estimates-171500874.html"
+    ]
+  },
+  "next_earnings": {
+    "date": "2026-10-28 (estimated; not yet announced by the company; last year's pattern was a release about 3 weeks ahead, and the Q2 date was announced 2026-07-08)",
+    "confirmed": false,
+    "consensus_eps": "$0.85 non-GAAP (Public.com, tier 3)",
+    "consensus_revenue": "not available for Q3 (full-year 2026 consensus $1.03B, 2027 $1.20B per stockanalysis.com)",
+    "company_guidance": "Q3 2026: revenue $270M +/- $10M; non-GAAP gross margin 54.0% +/- 1.5pts; non-GAAP EPS $0.86 +/- $0.09; GAAP EPS $0.75 +/- $0.09 (guidance given 2026-07-29)",
+    "sources": [
+      "https://public.com/stocks/form/earnings",
+      "https://stockanalysis.com/stocks/form/forecast/",
+      "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000030/ex9901-earningsreleasexq226.htm",
+      "https://www.formfactor.com/company/news-events/press-releases/"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-09-30", "firm": "Deutsche Bank (George Brown)", "action": "Initiated at Buy, price target $200", "reason": "Second qualified probe-card source for Nvidia GPUs at TSMC (about $0.5B market, about 20% share and more than $0.2B of sales by 2028 per DB); HBM test market more than doubling by 2028", "url": "https://www.investing.com/news/stock-market-news/why-is-formfactor-stock-surging-today-93CH-4925395"},
+    {"date": "2026-07-31", "firm": "Stifel (Brian Chin)", "action": "Maintains Hold, $115", "reason": "not available", "url": "https://stockanalysis.com/stocks/form/forecast/"},
+    {"date": "2026-07-30", "firm": "Craig-Hallum (Christian Schwab)", "action": "Reiterates Buy, $175", "reason": "not available (post-Q2)", "url": "https://stockanalysis.com/stocks/form/forecast/"},
+    {"date": "2026-07-30", "firm": "B. Riley (Craig Ellis)", "action": "Maintains Buy, $165", "reason": "not available (post-Q2)", "url": "https://stockanalysis.com/stocks/form/forecast/"},
+    {"date": "2026-07-30", "firm": "Evercore ISI (Vedvati Shrotre)", "action": "Maintains Buy, $150", "reason": "not available (post-Q2)", "url": "https://stockanalysis.com/stocks/form/forecast/"}
+  ],
+  "insiders": {
+    "summary": "No insider filings in the 10-day pipeline window (latest FormFactor filing on EDGAR is a Form 4 dated 2026-09-17). Over the past ~2 months, the CEO has sold regularly under a pre-arranged 10b5-1 plan (adopted 2025-08-19), and one director made a single unplanned sale. This does not meet the 'several insiders sold outside 10b5-1 plans' breaker.",
+    "notable": [
+      "2026-09-16: CEO Mike Slessor sold 17,510 shares at weighted average prices of $104.26-$105.80 (about $1.83M, my arithmetic) under his 10b5-1 plan; 466,694 shares still held (sale was about 3.6% of his holding). https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001039399&type=4",
+      "2026-08-14: CEO Mike Slessor sold 16,002 shares at $128.72-$133.33 under the same 10b5-1 plan; 484,204 shares still held.",
+      "2026-09-03: Director Kelley Steven-Waiss sold 2,100 shares at $96.10 (about $0.20M), NOT under a 10b5-1 plan; 24,426 shares still held (sale was about 7.9% of her holding). One insider only."
+    ]
+  },
+  "filings": [
+    {"form": "none in window", "items": "", "plain_english": "FormFactor filed nothing with the SEC from 2026-09-24 to 2026-10-04 (pipeline window of 10 days, confirmed on EDGAR). The most recent filings are Form 4 and Form 144 notices of the CEO's planned sales (2026-09-16/17).", "materiality": "low", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001039399"},
+    {"form": "10-Q (background)", "items": "Q2 2026 quarterly report, filed 2026-08-04", "plain_english": "Quarterly financial report. Shows SK hynix at 24.3% and TSMC at 11.0% of Q2 revenue, and $345.6M of cash plus marketable securities.", "materiality": "medium", "url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000033/form-20260627.htm"},
+    {"form": "8-K (background)", "items": "2.02, 9.01, filed 2026-07-29", "plain_english": "Q2 2026 earnings release.", "materiality": "high", "url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000030/ex9901-earningsreleasexq226.htm"},
+    {"form": "S-8 (background)", "items": "filed 2026-08-04", "plain_english": "Registers shares for employee stock plans: routine, not a share sale to the public.", "materiality": "low", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001039399&type=S-8"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-06", "event": "FormFactor joins the S&P MidCap 400 (leaves the SmallCap 600) before the open", "confirmed": true, "url": "https://press.spglobal.com/2026-10-01-Vylor-Added-to-the-S-P-500-Twilio-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600"},
+    {"date": "2026-10-13", "event": "Management at the 18th Annual CEO Investor Summit, San Francisco (per company release dated 2026-09-30; the release page itself could not be opened)", "confirmed": true, "url": "https://stockhouse.com/news/press-releases/2026/09/30/formfactor-announces-participation-in-18th-annual-ceo-investor-summit-2026"},
+    {"date": "2026-10-28", "event": "Q3 2026 results (estimated date; company has not announced it yet)", "confirmed": false, "url": "https://public.com/stocks/form/earnings"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "No guidance update since 2026-07-29 (Q3 guide $270M +/- $10M). No 8-K since then (EDGAR)."},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "Last report (Q2, 2026-07-29) beat: revenue $258.2M vs about $240M and EPS $0.82 vs $0.59-$0.61. Next report not until about 2026-10-28."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "Nothing found in the window. Watch item: management flagged a Q3 DRAM mix shift from HBM toward DDR, which is a mix change, not a lost customer."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "No 8-K Item 4.02 on EDGAR."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "No 8-K Item 4.01 on EDGAR."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "The only 2026 Item 5.02 8-K was filed 2026-05-19 alongside items 5.03/5.07 (annual meeting); not opened. Mike Slessor is still CEO per his 2026-09-17 Form 4."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "No S-3/424B/3.02 on EDGAR. The 2026-08-04 S-8 is for employee plans (routine)."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "Disconfirming search found only an old 2016 Cascade Microtech merger suit; nothing new."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "No downgrades found since July. The Needham Buy-to-Hold downgrade that surfaced in search refers to 2025 WFE estimates (older)."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "CEO sales are under a 10b5-1 plan. Only one director (Steven-Waiss, 2,100 shares on 2026-09-03) sold outside a plan."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Valuation is stretched: the stock trades above the average analyst target", "url": "https://stockanalysis.com/stocks/form/forecast/", "assessment": "stockanalysis.com shows an average target of $138.63 (range $64-$175) across 10 analysts, below the $149.15 close. That page seems not to include DB's $200, since it lists $175 as the high. Simply Wall St (Jan 2026) cited a P/E of about 140x and a bear 'short call' on valuation. Fact: the price is above most targets. Whether that is too high is opinion."},
+    {"claim": "Extreme volatility and sensitivity to AI-spending fears", "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-allegro-microsystems-shares-plummet-031624838.html", "assessment": "Strong evidence. The stock fell 16% on 2026-07-02 and 48% peak to trough (June 30 to July 29). Beta is 2.82 and RSI is 72.8 ('hot'). A beginner should expect 5%+ daily swings (StockStory counted 80 such moves in a year)."},
+    {"claim": "Customer concentration and memory-cycle exposure", "url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000033/form-20260627.htm", "assessment": "Fact: SK hynix was 24.3% of Q2 revenue. A memory capex slowdown or a share shift at SK hynix would hit hard."},
+    {"claim": "Part of the margin jump is one-off", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-formfactor-beats-q2-2026-estimates-shares-jump-after-hours-93CH-4821881", "assessment": "Management itself said about one third of the Q2 margin gain will not recur, and Q3 guidance includes tariff refunds. Underlying margins are lower than the headline."},
+    {"claim": "Nvidia second-source status is an analyst claim", "url": "https://www.investing.com/news/stock-market-news/why-is-formfactor-stock-surging-today-93CH-4925395", "assessment": "FormFactor confirms GPU qualification and production shipments but has not named Nvidia. The $0.2B by 2028 figure is DB's estimate. As second source, it may get a minority share."},
+    {"claim": "Short interest", "url": "https://www.marketbeat.com/stocks/NASDAQ/FORM/short-interest/", "assessment": "About 2.95M shares short (about 4.2% of float) as of 2026-08-31 per a search summary of MarketBeat (tier 3, not opened). Moderate, not a short-seller report. No activist short report found."}
+  ],
+  "open_questions": [
+    "Exact amount of the IEEPA tariff refund in Q3 guidance: the transcript says '$79 million, or about 300 basis points', but 300 bps of $270M is about $8M. Needs checking in the official transcript or the 10-Q.",
+    "Q3 2026 earnings date not yet announced by the company (estimated 2026-10-28).",
+    "Q3 consensus revenue not found; only consensus EPS of $0.85 (single tier-3 source).",
+    "Probe-card segment revenue and the DRAM vs foundry/logic split for Q2 were posted on the IR site; not retrieved (the IR site timed out twice).",
+    "No published company-specific reason found for the 2026-09-04 to 2026-09-23 rise (about $96.8 to $131.3).",
+    "The Deutsche Bank initiation is confirmed only by tier-3 outlets (Investing.com, StockStory/Yahoo); no tier-2 confirmation was found because the search budget ran out.",
+    "The Micron figures (tier 2 CNBC) come from a search summary; the CNBC page returned 403, and the Micron 8-K was not opened.",
+    "Suggested metrics for Santi's future FORM thesis: (1) quarterly revenue growth vs guidance; (2) non-GAAP gross margin, stripping out one-offs (target trend in the 50s%); (3) DRAM/HBM revenue and SK hynix concentration; (4) GPU/foundry-and-logic probe-card revenue, the proof of the Nvidia second-source story; (5) Systems/CPO revenue vs the 'well above $20M' 2026 goal."
+  ],
+  "searches_run": 13
+}

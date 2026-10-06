@@ -1,0 +1,501 @@
+{
+  "ticker": "MRNA",
+  "company": "Moderna, Inc.",
+  "window": {
+    "from": "2026-10-01 (after US close)",
+    "to": "2026-10-04"
+  },
+  "newest_item_checked": "2026-10-02: coverage of Friday premarket move on Nasdaq-100 inclusion (Invezz) and Friday close $190.01 from pipeline metrics; no Moderna press release or SEC filing found dated 2026-10-01 to 2026-10-04 (EDGAR submissions list checked 2026-10-04; latest filing is the 2026-09-30 8-K).",
+  "events": [
+    {
+      "date": "2026-10-01",
+      "timing": "after close",
+      "type": "index inclusion",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Nasdaq announced Moderna will join the Nasdaq-100 index before the market opens on 2026-10-09, replacing Warner Bros. Discovery, which is leaving ahead of its merger with Paramount Skydance (expected to close 2026-10-06). Reuters-syndicated coverage put Moderna's market value at about $75.43 billion after a more-than-sixfold rise this year. Timing 'after close' is inferred from the Friday premarket reaction (medium confidence).",
+      "why_it_matters": "Funds that track the Nasdaq-100 (the index is linked to products with over $800 billion in assets, per the reporting) must buy the shares around 2026-10-09: a one-off source of demand, not a change in the business. Index inclusion reflects the rally that already happened; it does not change what Moderna will earn.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "Nasdaq press release",
+          "date": "2026-10-01",
+          "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
+          "tier": 1
+        },
+        {
+          "name": "Reuters via WTAQ",
+          "date": "2026-10-01",
+          "url": "https://wtaq.com/2026/10/01/moderna-to-join-nasdaq-100-replacing-warner-bros-discovery/",
+          "tier": 2
+        },
+        {
+          "name": "Invezz",
+          "date": "2026-10-02",
+          "url": "https://invezz.com/en-ae/news/2026/10/02/moderna-stock-rises-2percent-on-nasdaq-100-entry-but-this-analyst-says-sell/",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "price action",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Shares rose more than 2% in early premarket trading on the Nasdaq-100 news but closed only +0.57% at $190.01. The pipeline's attribution model puts the company-specific part at +1.61% (z-score 0.15), i.e. within normal noise for a stock whose typical daily company-specific move is 11.05%.",
+      "why_it_matters": "Friday was a quiet day for Moderna by its own very volatile standards; nothing in the window changed the business picture.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "Invezz",
+          "date": "2026-10-02",
+          "url": "https://invezz.com/en-ae/news/2026/10/02/moderna-stock-rises-2percent-on-nasdaq-100-entry-but-this-analyst-says-sell/",
+          "tier": 3
+        },
+        {
+          "name": "Pipeline metrics/attribution data/metrics/attribution-2026-10-04.json",
+          "date": "2026-10-02",
+          "url": "local file",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "timing": "before open",
+      "type": "analyst downgrade / management change (just before window)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "Two items on 2026-09-30, the day before the window. (a) Citi analyst Geoff Meacham downgraded Moderna to Sell from Neutral and raised his price target to $80 from $60, arguing the price implies about $13 billion a year of cancer revenue and 'unrealistic' probability-of-success assumptions; shares opened nearly 7% lower and coverage reported a ~6% fall. (b) An 8-K: Juan Andres named to a newly created Chief Operating Officer role effective 2026-10-05 (base salary $800,000; $5,000,000 new-hire equity over four years), and Jerh Collins, Chief Technical Operations and Quality Officer, will retire. Coverage says the COO role is meant to help scale manufacturing for the cancer vaccine work.",
+      "why_it_matters": "The downgrade is an opinion, but it states the core bear case plainly: the share price already assumes large cancer sales that do not exist yet. The COO hire is a planned addition, not an unexpected CEO/CFO departure; the retiring manufacturing/quality head matters because personalized vaccines are a manufacturing challenge.",
+      "direction": "weakens",
+      "sources": [
+        {
+          "name": "SEC Form 8-K",
+          "date": "2026-09-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/d18337d8k.htm",
+          "tier": 1
+        },
+        {
+          "name": "CNBC",
+          "date": "2026-09-30",
+          "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html",
+          "tier": 2
+        },
+        {
+          "name": "Forbes",
+          "date": "2026-09-30",
+          "url": "https://www.forbes.com/sites/maryroeloffs/2026/09/30/moderna-shares-slump-as-citi-downgrades-to-sell-after-cancer-vaccine-rally/",
+          "tier": 2
+        },
+        {
+          "name": "TheStreet",
+          "date": "2026-09-30",
+          "url": "https://www.thestreet.com/investing/stocks/mrna-mordena-stock-citi-downgrades-to-sell-raises-price-target-after-703-run",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "timing": "before open",
+      "type": "clinical trial result (background driver #1)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Merck and Moderna said the Phase 3 INTerpath-001 trial of intismeran autogene (a personalized mRNA cancer vaccine) plus Merck's Keytruda met its main goal (recurrence-free survival) and a key secondary goal (distant metastasis-free survival) versus Keytruda alone in 1,137 patients with surgically removed stage IIB-IV melanoma, at a pre-planned interim analysis. No hazard ratios were released; full data come at ESMO on 2026-10-24. The stock closed 2026-08-19 at $174.38, up 176.97%, its biggest day ever, then fell about 25% the next day.",
+      "why_it_matters": "First positive Phase 3 for any mRNA cancer therapy. It turned Moderna from a shrinking COVID-vaccine company into a potential cancer-drug company in investors' eyes; this one event explains most of the 2026 rally.",
+      "direction": "supports",
+      "sources": [
+        {
+          "name": "Moderna/Merck press release",
+          "date": "2026-08-19",
+          "url": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma",
+          "tier": 1
+        },
+        {
+          "name": "Axios",
+          "date": "2026-08-19",
+          "url": "https://www.axios.com/2026/08/19/moderna-merck-mrna-cancer-vaccine",
+          "tier": 2
+        },
+        {
+          "name": "BioPharma Dive",
+          "date": "2026-08-19",
+          "url": "https://www.biopharmadive.com/news/moderna-merck-intismeran-melanoma-vaccine-stock-reaction/828332/",
+          "tier": 3
+        },
+        {
+          "name": "Forbes (next-day 25% drop)",
+          "date": "2026-08-20",
+          "url": "https://www.forbes.com/sites/tylerroush/2026/08/20/moderna-stock-plunges-25-wiping-out-18-billion-after-historic-cancer-vaccine-breakthrough/",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "timing": "unknown",
+      "type": "regulatory approval (background driver #2)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "FDA approved mFLUSIVA (mRNA-1010), the first mRNA flu vaccine, for adults 50 and older, after a unanimous advisory-committee vote. Phase 3 showed 26.6% relative efficacy versus a standard-dose flu shot. This came after the FDA first refused to review the application (2026-02-03 Refusal-to-File letter) and then reversed itself on 2026-02-18; shares rose about 6% on the reversal.",
+      "why_it_matters": "A new product that can sell alongside its COVID and RSV shots in the 2026-27 season, partly addressing the thesis need to replace shrinking COVID sales. The February flip-flop also shows US vaccine-regulation risk.",
+      "direction": "supports",
+      "sources": [
+        {
+          "name": "Moderna press release",
+          "date": "2026-08-05",
+          "url": "https://feeds.issuerdirect.com/news-release.html?newsid=4801915282452025&symbol=MRNA",
+          "tier": 1
+        },
+        {
+          "name": "NBC News",
+          "date": "2026-08-05",
+          "url": "https://www.nbcnews.com/health/health-news/fda-approves-1st-mrna-flu-shot-moderna-rcna590599",
+          "tier": 2
+        },
+        {
+          "name": "Healthcare Dive",
+          "date": "2026-08-05",
+          "url": "https://www.healthcaredive.com/news/moderna-fda-approve-mflusiva-seasonal-influenza/827180/",
+          "tier": 3
+        },
+        {
+          "name": "CNBC (Feb reversal)",
+          "date": "2026-02-18",
+          "url": "https://www.cnbc.com/2026/02/18/fda-agrees-to-review-modernas-flu-shot-application-after-refusal.html",
+          "tier": 2
+        },
+        {
+          "name": "STAT (Feb reversal)",
+          "date": "2026-02-18",
+          "url": "https://www.statnews.com/2026/02/18/fda-moderna-reverse-course-flu-vaccine/",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "timing": "unknown",
+      "type": "financing: convertible notes (background driver #3)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Riding the rally, Moderna sold $3.4 billion of 0.00% convertible senior notes due 2032-03-01 (priced 2026-08-28; $3.0B plus $400M option). Net proceeds about $2,957.3 million, of which $328.8 million paid for a 'capped call' hedge. Conversion price about $210.58 per share; about 14,246,100 shares under normal conversion (up to 21,012,600 in limited cases), roughly 3.6% of the 399,235,889 shares outstanding on 2026-07-24 (percentage is our calculation). The capped call offsets dilution up to about $392.62 per share.",
+      "why_it_matters": "Extends the cash runway (thesis point 2) without an immediate share sale, but creates potential future dilution if the stock is above ~$210.58 at conversion, and $3.4B of debt to repay in 2032 if it is not.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "SEC Form 8-K (Items 1.01, 2.03, 3.02)",
+          "date": "2026-09-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm",
+          "tier": 1
+        },
+        {
+          "name": "Moderna Q2 2026 Form 10-Q (share count)",
+          "date": "2026-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000150/mrna-20260630.htm",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "timing": "before open",
+      "type": "earnings (background driver #4)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "Q2 2026: total revenue $145 million (vs $142 million a year earlier); product sales $94 million (vs $114 million) on lower US and South America COVID sales; net loss $0.8 billion, EPS -$1.97; cash and investments $6.9 billion at 2026-06-30 (down from $7.5 billion at 2026-03-31). 2026 guidance: revenue up to 10% growth from 2025; year-end cash $4.7-5.2 billion (set before the $3.4B convertible). Norovirus vaccine mRNA-1403 did not meet criteria for early success at a Phase 3 interim look.",
+      "why_it_matters": "Shows the underlying business today: tiny off-season sales and a large quarterly loss. The valuation rests on future products, not current revenue.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "Moderna Q2 2026 earnings release (8-K Ex. 99.1)",
+          "date": "2026-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm",
+          "tier": 1
+        },
+        {
+          "name": "Moderna Q2 2026 Form 10-Q",
+          "date": "2026-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000150/mrna-20260630.htm",
+          "tier": 1
+        }
+      ]
+    }
+  ],
+  "why_chain": [
+    {
+      "rung": 1,
+      "text": "Friday 2026-10-02: MRNA +0.57% to $190.01; the model attributes it mostly to market (+1.36%) and industry (-2.41%) with a company-specific +1.61% (z 0.15): no meaningful company-specific move to explain.",
+      "evidence": "data/metrics/attribution-2026-10-04.json (pipeline)"
+    },
+    {
+      "rung": 2,
+      "text": "The bigger story is the year: the stock is up 544% year to date and 138% over 3 months (close $190.01 vs 52-week low $22.28).",
+      "evidence": "data/metrics/2026-10-04.json (pipeline)"
+    },
+    {
+      "rung": 3,
+      "text": "The largest single jump came on 2026-08-19 (+176.97% close to $174.38) when the Phase 3 personalized cancer vaccine trial in melanoma succeeded.",
+      "evidence": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma ; https://www.axios.com/2026/08/19/moderna-merck-mrna-cancer-vaccine"
+    },
+    {
+      "rung": 4,
+      "text": "Before that, the stock had already risen on the flu-vaccine path: FDA reversed its refusal to review (2026-02-18) and approved mFLUSIVA (2026-08-05); coverage put the year-to-date gain at about 88% by mid-June.",
+      "evidence": "https://www.cnbc.com/2026/02/18/fda-agrees-to-review-modernas-flu-shot-application-after-refusal.html ; https://feeds.issuerdirect.com/news-release.html?newsid=4801915282452025&symbol=MRNA"
+    },
+    {
+      "rung": 5,
+      "text": "Investors re-priced Moderna from a COVID company with collapsing sales into a possible oncology platform: the trial is the first proof that the same mRNA technology can work as a cancer treatment, which could apply to other tumours (lung, bladder, kidney trials ongoing).",
+      "evidence": "inference (high) supported by https://www.modernatx.com/ir-insights-phase-3-intesmeran"
+    },
+    {
+      "rung": 6,
+      "text": "Basic driver: expected future cancer profits (shared 50/50 with Merck), not current earnings. Current revenue is tiny (Q2 $145 million) and losses large, so the rally is a valuation re-rating on expectations; that is why sell-side skeptics (Citi, Redburn) call it overvalued and why the stock swings so hard (25% fall the day after the result; 60-day annualized volatility 374%).",
+      "evidence": "inference (high) from https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm ; https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000150/mrna-20260630.htm ; https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html"
+    }
+  ],
+  "products": [
+    {
+      "name": "Intismeran autogene (mRNA-4157 / V940), with Merck's Keytruda",
+      "what_it_is": "A personalized cancer vaccine: after a tumour is surgically removed, its DNA is sequenced and an mRNA medicine is made for that one patient, teaching the immune system to recognise up to dozens of that tumour's unique mutations (neoantigens).",
+      "analogy": "Like giving a police force a wanted poster made from the exact fingerprints left at the crime scene, so they can catch the same criminal if he comes back.",
+      "buyers": "Oncologists treating patients after melanoma surgery (stage IIB-IV); later possibly lung, bladder and kidney cancer patients if other trials succeed. Paid for by insurers and health systems.",
+      "how_it_works": "Given as injections alongside Keytruda (an existing immunotherapy) to lower the chance the cancer returns. Moderna mainly makes the product; Merck generally leads clinical trials; costs and any profits are shared equally worldwide.",
+      "price": "not disclosed (not yet approved)",
+      "sales": "none: not approved; no filing date announced",
+      "sales_source": "Moderna/Merck press release 2026-08-19 and Q2 2026 10-Q (collaboration note). Proxy (labelled, analyst opinion): Citi says the share price implies about $13 billion a year of oncology revenue, far above its own model.",
+      "stage": "Phase 3 met primary endpoint at interim analysis (melanoma, 2026-08-19); detailed data at ESMO 2026-10-24; regulatory filing timing not disclosed. Nine Phase 2/3 trials across tumour types per the Q2 10-Q.",
+      "size_for_company": "Zero revenue today; it is the main reason for the 2026 re-rating (inference, high confidence).",
+      "competition": "Other personalized/neoantigen approaches (e.g. BioNTech's mRNA cancer programs) - not researched in detail here; standard of care is Keytruda alone.",
+      "why_investors_care": "First positive Phase 3 for an mRNA cancer therapy; could be a large, recurring revenue stream and validates the platform for other cancers.",
+      "watch_next": "Hazard ratios and safety at ESMO Presidential Symposium 2026-10-24 (10:30 AM EDT) and the investor event the same day (1:00 PM EDT); any regulatory filing timeline; manufacturing scale-up plans (new COO)."
+    },
+    {
+      "name": "mFLUSIVA (mRNA-1010) seasonal flu vaccine",
+      "what_it_is": "The first FDA-approved mRNA flu shot, for adults 50 and older (approved 2026-08-05).",
+      "analogy": "Same recipe-card approach as its COVID shot, but the card describes flu proteins; the card can be rewritten quickly each season.",
+      "buyers": "Pharmacies, clinics and health systems for the 2026-27 flu season; adults 50+.",
+      "how_it_works": "Sold per dose like other flu shots; showed 26.6% relative efficacy versus a standard-dose comparator in Phase 3.",
+      "price": "not disclosed",
+      "sales": "not disclosed (launching in the 2026-27 season; first sales would appear in Q3/Q4 2026 results)",
+      "sales_source": "Moderna press release 2026-08-05; Q2 2026 release (no product split for flu yet)",
+      "stage": "Approved (US), launching",
+      "size_for_company": "Unknown; total 2026 revenue guidance is only 'up to 10% growth from 2025 revenue'.",
+      "competition": "Established flu vaccines from Sanofi, GSK, CSL Seqirus and others (general industry knowledge; not sourced in this run).",
+      "why_investors_care": "A new respiratory product to help offset declining COVID vaccine sales (thesis point 1).",
+      "watch_next": "Product sales line for flu in Q3 2026 results (~2026-10-29, unconfirmed)."
+    }
+  ],
+  "earnings": {
+    "status": "reported",
+    "date": "2026-07-31",
+    "confirmed": true,
+    "consensus": {
+      "note": "not available from a verified source in this run"
+    },
+    "actual": {
+      "total_revenue": "$145 million (Q2 2025: $142 million)",
+      "product_sales": "$94 million (Q2 2025: $114 million)",
+      "net_loss": "$(0.8) billion",
+      "eps": "$(1.97)"
+    },
+    "guidance": {
+      "revenue_2026": "up to 10% growth from 2025 revenue",
+      "year_end_cash_2026": "$4.7-5.2 billion (set before the $3.4B convertible in Aug/Sep)"
+    },
+    "key_metrics": {
+      "cash_and_investments_2026-06-30": "$6.9 billion (2026-03-31: $7.5 billion)",
+      "shares_outstanding_2026-07-24": "399,235,889"
+    },
+    "quality_flags": [
+      "$950 million Arbutus/Genevant patent settlement payment due on or before 2026-07-08 (per settlement terms) affects 2026 cash",
+      "Norovirus Phase 3 (mRNA-1403) missed early-success criteria at interim"
+    ],
+    "management_explanation": "Lower COVID vaccine sales in the U.S. and South America.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm",
+      "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000150/mrna-20260630.htm"
+    ]
+  },
+  "next_earnings": {
+    "date": "2026-10-29 (estimated; not yet confirmed on Moderna IR)",
+    "confirmed": false,
+    "consensus_eps": "about -$1.25 to -$1.27 for Q3 2026 (TipRanks / MarketScreener, tier 3, as of 2026-10-04)",
+    "consensus_revenue": "about $895 million for Q3 2026 (MarketScreener, tier 3); FY2026 consensus net sales about $2,101 million",
+    "company_guidance": "FY2026 revenue up to 10% growth from 2025; year-end 2026 cash and investments $4.7-5.2 billion (Q2 release 2026-07-31; not updated for the $3.4B convertible notes as far as found)",
+    "sources": [
+      "https://www.marketscreener.com/quote/stock/MODERNA-INC-47437573/calendar/",
+      "https://www.tipranks.com/stocks/mrna/earnings",
+      "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm"
+    ]
+  },
+  "analyst_actions": [
+    {
+      "date": "2026-09-30",
+      "firm": "Citi (Geoff Meacham)",
+      "action": "Downgrade to Sell from Neutral; target raised to $80 from $60",
+      "reason": "Valuation: price implies about $13B a year of oncology revenue and 'unrealistic' probability-of-success assumptions; 'negatively skewed risk/reward'",
+      "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html"
+    },
+    {
+      "date": "2026-09-03",
+      "firm": "Rothschild & Co Redburn",
+      "action": "Downgrade to Sell from Neutral; target raised to $81 from $40",
+      "reason": "Valuation after the cancer-vaccine rally (tier 3 source)",
+      "url": "https://www.marketbeat.com/instant-alerts/price-moderna-nasdaq-mrna-shares-gap-down-on-analyst-downgrade-2026-09-03/"
+    }
+  ],
+  "insiders": {
+    "summary": "No insider trades in the news window. Since the 2026-08-19 rally, executives sold shares in Form 4 filings marked as made under pre-planned 10b5-1 plans, mostly linked to option exercises; other entries are tax withholding (code F). No open-market purchases found.",
+    "notable": [
+      "President Stephen Hoge: sold 80,575 shares on 2026-09-14/15 at about $144-146 (about $11.7 million) after exercising options at $12.21; still held about 1.56 million shares; 10b5-1 plan (Form 4 filed 2026-09-16)",
+      "CFO James Mock: sold 34,836 shares on 2026-09-10 at $134.49 (about $4.7 million); 10b5-1 plan (Form 4 filed 2026-09-14)",
+      "CEO Stephane Bancel: sold 499,246 shares on 2026-08-05 at about $56-59 (about $28.7 million) after exercising options at $19.15; 10b5-1 plan (Form 4 filed 2026-08-07)",
+      "Several Form 144 notices of planned sales filed 2026-09-01 to 2026-09-15"
+    ],
+    "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=4&dateb=&owner=include&count=40"
+  },
+  "filings": [
+    {
+      "form": "8-K",
+      "items": "5.02, 7.01, 9.01",
+      "plain_english": "Juan Andres hired in a new Chief Operating Officer role from 2026-10-05; Jerh Collins (Chief Technical Operations and Quality Officer) to retire; pay terms disclosed. Filed 2026-09-30, just before the window.",
+      "materiality": "medium (Item 5.02 is rated high by default, but this is a planned addition, not an unexpected CEO/CFO exit)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/d18337d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "items": "1.01, 2.03, 3.02, 8.01, 9.01",
+      "plain_english": "$3.4 billion of 0% convertible notes due 2032, conversion price about $210.58, with a capped call up to about $392.62. Filed 2026-09-01 (background).",
+      "materiality": "high",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm"
+    }
+  ],
+  "catalysts": [
+    {
+      "date": "2026-10-05",
+      "event": "Juan Andres starts as COO",
+      "confirmed": true,
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/d18337d8k.htm"
+    },
+    {
+      "date": "2026-10-09",
+      "event": "Moderna joins the Nasdaq-100 before market open (index-fund buying expected around this date)",
+      "confirmed": true,
+      "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "ESMO Congress Presidential Symposium: full INTerpath-001 Phase 3 melanoma data (LBA1, 10:30 AM EDT), then Moderna investor webcast 1:00 PM EDT",
+      "confirmed": true,
+      "url": "https://www.tradingview.com/news/acceswire:3162f0566094b:0-moderna-announces-late-breaking-data-to-be-presented-at-esmo-congress-2026/"
+    },
+    {
+      "date": "2026-10-25/26",
+      "event": "ESMO posters: intismeran in pancreatic cancer (Phase 1) and INTerpath-014 lung cancer Phase 3 design",
+      "confirmed": true,
+      "url": "https://www.stocktitan.net/news/MRNA/moderna-announces-late-breaking-data-to-be-presented-at-esmo-rn0ancy7qmrm.html"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "Q3 2026 results (estimated, not confirmed)",
+      "confirmed": false,
+      "url": "https://www.tipranks.com/stocks/mrna/earnings"
+    }
+  ],
+  "thesis_breaker_checks": [
+    {
+      "event": "the company cut its revenue or profit forecast (guidance)",
+      "found": false,
+      "evidence": "No guidance change found in the window; last guidance in Q2 release 2026-07-31 (revenue up to 10% growth from 2025). https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm"
+    },
+    {
+      "event": "results missed analysts' revenue or EPS estimates",
+      "found": false,
+      "evidence": "No results in the window; next results estimated 2026-10-29. Q2 consensus not verified."
+    },
+    {
+      "event": "a major customer was lost, or a major customer cut orders",
+      "found": false,
+      "evidence": "Nothing found in the window. Q2 release cites lower US and South America COVID sales (background, not a customer loss)."
+    },
+    {
+      "event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+      "found": false,
+      "evidence": "No Item 4.02 in EDGAR filings since 2026-07-01."
+    },
+    {
+      "event": "the auditor resigned or was dismissed (8-K Item 4.01)",
+      "found": false,
+      "evidence": "No Item 4.01 in EDGAR filings since 2026-07-01."
+    },
+    {
+      "event": "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+      "found": false,
+      "evidence": "The 2026-09-30 Item 5.02 is a new COO hire plus retirement of the Chief Technical Operations and Quality Officer; CEO Bancel and CFO Mock remain. Not a CEO/CFO exit. https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/d18337d8k.htm"
+    },
+    {
+      "event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+      "found": true,
+      "evidence": "Outside the window (2026-09-01): Item 3.02 8-K for $3.4B convertible notes; potential ~14.2 million new shares (~3.6% of shares outstanding, our calculation) only if converted above ~$210.58, partly offset by a capped call to ~$392.62. Not a direct share sale and not new in this window; main session should judge whether it counts. https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm"
+    },
+    {
+      "event": "a regulator opened an investigation, or major litigation was filed",
+      "found": false,
+      "evidence": "No new investigation or new lawsuit in the window. Existing litigation continues: a US judge refused to dismiss Bayer/Monsanto mRNA patent suits against Moderna (reported around 2026-09-30, exact ruling date not verified); BioNTech patent suit over mNEXSPIKE pending. https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45K130:0-pfizer-moderna-lose-bids-to-escape-bayer-us-mrna-patent-lawsuit/"
+    },
+    {
+      "event": "two or more analyst downgrades within five trading days",
+      "found": false,
+      "evidence": "Citi downgrade 2026-09-30; previous found downgrade was Redburn 2026-09-03, about four weeks earlier. No second downgrade found within five trading days of 2026-09-30."
+    },
+    {
+      "event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+      "found": false,
+      "evidence": "All sales found (Hoge, Mock, Bancel, Klinger) are in Form 4s marked as 10b5-1 plan trades; no Form 4s in the window. https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=4&dateb=&owner=include&count=40"
+    }
+  ],
+  "disconfirming_evidence": [
+    {
+      "claim": "Valuation far ahead of fundamentals: Citi says the price needs about $13B a year of oncology revenue and sets an $80 target (about 58% below $190.01).",
+      "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html",
+      "assessment": "Opinion, but grounded in facts: Q2 revenue was $145 million and the cancer vaccine is unapproved, with profits split 50/50 with Merck. Credible bear case."
+    },
+    {
+      "claim": "Interim Phase 3 result released without hazard ratios; the stock fell about 25% the day after the result.",
+      "url": "https://www.forbes.com/sites/tylerroush/2026/08/20/moderna-stock-plunges-25-wiping-out-18-billion-after-historic-cancer-vaccine-breakthrough/",
+      "assessment": "Size of benefit unknown until ESMO 2026-10-24; a weaker-than-hoped number is a key near-term risk (inference, medium)."
+    },
+    {
+      "claim": "Patent litigation: Bayer/Monsanto mRNA suits allowed to proceed; BioNTech suit over mNEXSPIKE; earlier Arbutus/Genevant settlement cost $950 million upfront (up to $2.25 billion).",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45K130:0-pfizer-moderna-lose-bids-to-escape-bayer-us-mrna-patent-lawsuit/",
+      "assessment": "Ongoing cost and uncertainty; no damages figure verified."
+    },
+    {
+      "claim": "US vaccine-regulation risk: FDA issued a Refusal-to-File for the flu vaccine on 2026-02-03 before reversing on 2026-02-18.",
+      "url": "https://www.statnews.com/2026/02/18/fda-moderna-reverse-course-flu-vaccine/",
+      "assessment": "Shows policy can swing; relevant for any future filing including intismeran."
+    },
+    {
+      "claim": "Insiders (CEO, President, CFO) sold shares after the rally.",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=4&dateb=&owner=include&count=40",
+      "assessment": "All under 10b5-1 plans, so weak signal; but no insider buying either."
+    },
+    {
+      "claim": "A search summary said MRNA rose about 26.5% in a week to close Friday at $194.82.",
+      "url": "https://www.heygotrade.com/en/us-stock/mrna/",
+      "assessment": "Contradicts pipeline data (1-week -4.46%, Friday close $190.01). Treated as unreliable / wrong week; not used."
+    }
+  ],
+  "open_questions": [
+    "Exact hazard ratio and safety data for INTerpath-001 (due 2026-10-24).",
+    "Regulatory filing timeline for intismeran and Moderna's manufacturing capacity for individualized doses.",
+    "Confirmed Q3 2026 earnings date (estimated 2026-10-29) and whether 2026 cash guidance is raised for the convertible proceeds.",
+    "Early mFLUSIVA sales; no figure disclosed yet.",
+    "Exact date and details of the Bayer patent ruling (Reuters article paywalled).",
+    "Nasdaq announcement time on 2026-10-01 (after close inferred, not read directly: Nasdaq page timed out)."
+  ],
+  "searches_run": 14
+}

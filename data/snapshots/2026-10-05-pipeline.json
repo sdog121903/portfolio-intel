@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-05",
+  "steps": [
+    {
+      "step": "holdings",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "16 open positions, 0 closed -> /Users/santiagogomez/portfolio/portfolio-intel/data/holdings/2026-10-05.json\nWARNING: STRL: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: CRWD: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: MRNA: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: CRDO: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: LITE: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: TSM: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: AMD: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: PANW: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: BE: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: SNOW: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: AAOI: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: A: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: AXTI: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: VIAV: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: FORM: entry price is the sheet's estimate, not your Fidelity fill price\nWARNING: ASML: entry price is the sheet's estimate, not your Fidelity fill price\n",
+      "stderr": "",
+      "seconds": 0
+    },
+    {
+      "step": "prices",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "STRL: 500 rows from yahoo, last 2026-10-05\nCRWD: 500 rows from yahoo, last 2026-10-05\nMRNA: 500 rows from yahoo, last 2026-10-05\nCRDO: 500 rows from yahoo, last 2026-10-05\nLITE: 500 rows from yahoo, last 2026-10-05\nTSM: 500 rows from yahoo, last 2026-10-05\nAMD: 500 rows from yahoo, last 2026-10-05\nPANW: 500 rows from yahoo, last 2026-10-05\nBE: 500 rows from yahoo, last 2026-10-05\nSNOW: 500 rows from yahoo, last 2026-10-05\nAAOI: 500 rows from yahoo, last 2026-10-05\nA: 500 rows from yahoo, last 2026-10-05\nAXTI: 500 rows from yahoo, last 2026-10-05\nVIAV: 500 rows from yahoo, last 2026-10-05\nFORM: 500 rows from yahoo, last 2026-10-05\nASML: 500 rows from yahoo, last 2026-10-05\nSPY: 500 rows from yahoo, last 2026-10-05\nQQQ: 500 rows from yahoo, last 2026-10-05\nPAVE: 500 rows from yahoo, last 2026-10-05\nCIBR: 500 rows from yahoo, last 2026-10-05\nXBI: 500 rows from yahoo, last 2026-10-05\nSMH: 500 rows from yahoo, last 2026-10-05\nICLN: 500 rows from yahoo, last 2026-10-05\nIGV: 500 rows from yahoo, last 2026-10-05\nXLV: 500 rows from yahoo, last 2026-10-05\n",
+      "stderr": "",
+      "seconds": 5
+    },
+    {
+      "step": "metrics",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "metrics for 16 positions -> /Users/santiagogomez/portfolio/portfolio-intel/data/metrics/2026-10-05.json\n",
+      "stderr": "",
+      "seconds": 0
+    },
+    {
+      "step": "attribution",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "attribution for 16 positions -> /Users/santiagogomez/portfolio/portfolio-intel/data/metrics/attribution-2026-10-05.json\n",
+      "stderr": "",
+      "seconds": 0
+    },
+    {
+      "step": "portfolio",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "portfolio risk -> /Users/santiagogomez/portfolio/portfolio-intel/data/metrics/portfolio-2026-10-05.json\n",
+      "stderr": "",
+      "seconds": 0
+    },
+    {
+      "step": "rules",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "STRL: No rule fired\nCRWD: No rule fired\nMRNA: WATCH\n  - The stock moved up 7.0% in one day, more than your 5% 'explain this' threshold, so the report must investigate why.\nCRDO: No rule fired\nLITE: No rule fired\nTSM: No rule fired\nAMD: No rule fired\nPANW: No rule fired\nBE: No rule fired\nSNOW: No rule fired\nAAOI: WATCH\n  - The stock moved up 5.2% in one day, more than your 5% 'explain this' threshold, so the report must investigate why.\nA: No rule fired\nAXTI: No rule fired\nVIAV: No rule fired\nFORM: No rule fired\nASML: No rule fired\n",
+      "stderr": "",
+      "seconds": 0
+    },
+    {
+      "step": "filings",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "A: 0 filings since 2026-09-25 (0 insider reports)\nAAOI: 1 filings since 2026-09-25 (0 insider reports)\nAMD: 1 filings since 2026-09-25 (0 insider reports)\nASML: 0 filings since 2026-09-25 (0 insider reports)\nAXTI: 1 filings since 2026-09-25 (0 insider reports)\nBE: 4 filings since 2026-09-25 (3 insider reports)\nCRDO: 6 filings since 2026-09-25 (5 insider reports)\nCRWD: 7 filings since 2026-09-25 (5 insider reports)\nFORM: 0 filings since 2026-09-25 (0 insider reports)\nLITE: 7 filings since 2026-09-25 (3 insider reports)\nMRNA: 1 filings since 2026-09-25 (0 insider reports)\nPANW: 4 filings since 2026-09-25 (4 insider reports)\nSNOW: 5 filings since 2026-09-25 (2 insider reports)\nSTRL: 1 filings since 2026-09-25 (0 insider reports)\nTSM: 0 filings since 2026-09-25 (0 insider reports)\nVIAV: 4 filings since 2026-09-25 (0 insider reports)\n",
+      "stderr": "",
+      "seconds": 17
+    }
+  ],
+  "ok": true
+}

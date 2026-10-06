@@ -1,0 +1,168 @@
+{
+  "entity": "CrowdStrike Holdings, Inc.",
+  "cik": 1535527,
+  "tags_used": {
+    "revenue": "RevenueFromContractWithCustomerIncludingAssessedTax",
+    "gross_profit": "GrossProfit",
+    "operating_income": "OperatingIncomeLoss",
+    "net_income": "NetIncomeLoss",
+    "eps_diluted": "EarningsPerShareDiluted",
+    "diluted_shares": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "rnd": "ResearchAndDevelopmentExpense"
+  },
+  "latest_quarters": [
+    {
+      "period_end": "2024-10-31",
+      "fiscal": "2025 Q3",
+      "revenue": 1010178000,
+      "revenue_yoy_pct": 28.52,
+      "gross_margin_pct": 74.75,
+      "operating_margin_pct": -5.52,
+      "net_income": -16822000,
+      "eps_diluted": -0.07,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-12-03",
+        "accession": "0001535527-25-000033",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-01-31",
+      "fiscal": "2024 Q4",
+      "revenue": 1058538000,
+      "revenue_yoy_pct": 25.22,
+      "gross_margin_pct": 74.24,
+      "operating_margin_pct": -7.68,
+      "net_income": -85577000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-03-05",
+        "accession": "0001535527-26-000010",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2025-04-30",
+      "fiscal": "2025 Q1",
+      "revenue": 1103434000,
+      "revenue_yoy_pct": 19.8,
+      "gross_margin_pct": 73.91,
+      "operating_margin_pct": -10.76,
+      "net_income": -104264000,
+      "eps_diluted": -0.42,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-06-04",
+        "accession": "0001535527-26-000025",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-07-31",
+      "fiscal": "2026 Q2",
+      "revenue": 1168952000,
+      "revenue_yoy_pct": 21.28,
+      "gross_margin_pct": 73.6,
+      "operating_margin_pct": -9.02,
+      "net_income": -70153000,
+      "eps_diluted": -0.07,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-08-27",
+        "accession": "0001535527-26-000031",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-10-31",
+      "fiscal": "2026 Q3",
+      "revenue": 1234244000,
+      "revenue_yoy_pct": 22.18,
+      "gross_margin_pct": 75.06,
+      "operating_margin_pct": -5.63,
+      "net_income": -33997000,
+      "eps_diluted": -0.14,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-12-03",
+        "accession": "0001535527-25-000033",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-01-31",
+      "fiscal": "2026 Q4",
+      "revenue": 1305375000,
+      "revenue_yoy_pct": 23.32,
+      "gross_margin_pct": 75.89,
+      "operating_margin_pct": 0.02,
+      "net_income": 47249000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-03-05",
+        "accession": "0001535527-26-000010",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2026-04-30",
+      "fiscal": "2027 Q1",
+      "revenue": 1385629000,
+      "revenue_yoy_pct": 25.57,
+      "gross_margin_pct": 75.3,
+      "operating_margin_pct": -2.21,
+      "net_income": 27774000,
+      "eps_diluted": 0.11,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-06-04",
+        "accession": "0001535527-26-000025",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-07-31",
+      "fiscal": "2027 Q2",
+      "revenue": 1470897000,
+      "revenue_yoy_pct": 25.83,
+      "gross_margin_pct": 74.57,
+      "operating_margin_pct": -2.26,
+      "net_income": 5306000,
+      "eps_diluted": 0.01,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-08-27",
+        "accession": "0001535527-26-000031",
+        "derived": false
+      }
+    }
+  ],
+  "ttm": {
+    "revenue": 5396145000,
+    "eps_diluted": -0.04,
+    "periods": [
+      "2025-10-31",
+      "2026-01-31",
+      "2026-04-30",
+      "2026-07-31"
+    ]
+  },
+  "notes": [
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "CRWD",
+  "fetched": "2026-10-04T15:49:26+00:00",
+  "stale_warning": null
+}

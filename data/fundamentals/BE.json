@@ -1,0 +1,168 @@
+{
+  "entity": "BLOOM ENERGY CORPORATION",
+  "cik": 1664703,
+  "tags_used": {
+    "revenue": "Revenues",
+    "gross_profit": "GrossProfit",
+    "operating_income": "OperatingIncomeLoss",
+    "net_income": "ProfitLoss",
+    "eps_diluted": "EarningsPerShareDiluted",
+    "diluted_shares": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "rnd": "ResearchAndDevelopmentExpense"
+  },
+  "latest_quarters": [
+    {
+      "period_end": "2024-06-30",
+      "fiscal": "2024 Q2",
+      "revenue": 335767000,
+      "revenue_yoy_pct": 11.52,
+      "gross_margin_pct": 20.41,
+      "operating_margin_pct": -6.89,
+      "net_income": -61185000,
+      "eps_diluted": -0.27,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-07-31",
+        "accession": "0001628280-25-037074",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2024-09-30",
+      "fiscal": "2024 Q3",
+      "revenue": 330399000,
+      "revenue_yoy_pct": -17.46,
+      "gross_margin_pct": 23.83,
+      "operating_margin_pct": -2.92,
+      "net_income": -14632000,
+      "eps_diluted": -60,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-10-28",
+        "accession": "0001628280-25-046844",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "fiscal": "2024 Q4",
+      "revenue": 572392000,
+      "revenue_yoy_pct": 60.37,
+      "gross_margin_pct": 38.32,
+      "operating_margin_pct": 18.29,
+      "net_income": 105157000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-02-09",
+        "accession": "0001628280-26-006516",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2025-03-31",
+      "fiscal": "2025 Q1",
+      "revenue": 326021000,
+      "revenue_yoy_pct": 38.56,
+      "gross_margin_pct": 27.21,
+      "operating_margin_pct": -5.85,
+      "net_income": -23414000,
+      "eps_diluted": -0.1,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-04-29",
+        "accession": "0001628280-26-028021",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "fiscal": "2025 Q2",
+      "revenue": 401242000,
+      "revenue_yoy_pct": 19.5,
+      "gross_margin_pct": 26.7,
+      "operating_margin_pct": -0.87,
+      "net_income": -42192000,
+      "eps_diluted": -0.18,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-07-31",
+        "accession": "0001628280-25-037074",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "fiscal": "2025 Q3",
+      "revenue": 519048000,
+      "revenue_yoy_pct": 57.1,
+      "gross_margin_pct": 29.22,
+      "operating_margin_pct": 1.51,
+      "net_income": -22960000,
+      "eps_diluted": -100,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-10-28",
+        "accession": "0001628280-25-046844",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-12-31",
+      "fiscal": "2025 Q4",
+      "revenue": 777683000,
+      "revenue_yoy_pct": 35.87,
+      "gross_margin_pct": 30.85,
+      "operating_margin_pct": 11.26,
+      "net_income": 1426000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-02-09",
+        "accession": "0001628280-26-006516",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "fiscal": "2026 Q1",
+      "revenue": 751054000,
+      "revenue_yoy_pct": 130.37,
+      "gross_margin_pct": 30.03,
+      "operating_margin_pct": 9.61,
+      "net_income": 73691000,
+      "eps_diluted": 0.23,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-04-29",
+        "accession": "0001628280-26-028021",
+        "derived": false
+      }
+    }
+  ],
+  "ttm": {
+    "revenue": 2449027000,
+    "eps_diluted": -0.04,
+    "periods": [
+      "2025-06-30",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31"
+    ]
+  },
+  "notes": [
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "BE",
+  "fetched": "2026-10-04T15:49:25+00:00",
+  "stale_warning": "Newest quarter in the SEC data ends 2026-03-31 (187 days ago): a later report may exist but is missing from the XBRL data. Do not call these the latest results; check the newest 10-Q or 10-K."
+}

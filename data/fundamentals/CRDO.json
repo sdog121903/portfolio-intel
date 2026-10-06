@@ -1,0 +1,168 @@
+{
+  "entity": "Credo Technology Group Holding Ltd",
+  "cik": "0001807794",
+  "tags_used": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "gross_profit": "GrossProfit",
+    "operating_income": "OperatingIncomeLoss",
+    "net_income": "NetIncomeLoss",
+    "eps_diluted": "EarningsPerShareDiluted",
+    "diluted_shares": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "rnd": "ResearchAndDevelopmentExpense"
+  },
+  "latest_quarters": [
+    {
+      "period_end": "2024-11-02",
+      "fiscal": "2025 Q2",
+      "revenue": 72034000,
+      "revenue_yoy_pct": 63.58,
+      "gross_margin_pct": 63.18,
+      "operating_margin_pct": -11.67,
+      "net_income": -4225000,
+      "eps_diluted": -0.03,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-12-02",
+        "accession": "0001628280-25-054549",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-02-01",
+      "fiscal": "2025 Q3",
+      "revenue": 135002000,
+      "revenue_yoy_pct": 154.44,
+      "gross_margin_pct": 63.65,
+      "operating_margin_pct": 19.4,
+      "net_income": 29360000,
+      "eps_diluted": 0.16,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-03-03",
+        "accession": "0001628280-26-014017",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-05-03",
+      "fiscal": "2025 Q4",
+      "revenue": 170025000,
+      "revenue_yoy_pct": 179.73,
+      "gross_margin_pct": 67.16,
+      "operating_margin_pct": 19.87,
+      "net_income": 36588000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-06-15",
+        "accession": "0001628280-26-043303",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2025-08-02",
+      "fiscal": "2026 Q1",
+      "revenue": 223074000,
+      "revenue_yoy_pct": 273.57,
+      "gross_margin_pct": 67.41,
+      "operating_margin_pct": 27.23,
+      "net_income": 63399000,
+      "eps_diluted": 0.34,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-09-02",
+        "accession": "0001628280-26-060111",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-11-01",
+      "fiscal": "2026 Q2",
+      "revenue": 268027000,
+      "revenue_yoy_pct": 272.08,
+      "gross_margin_pct": 67.55,
+      "operating_margin_pct": 29.4,
+      "net_income": 82636000,
+      "eps_diluted": 0.44,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-12-02",
+        "accession": "0001628280-25-054549",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-01-31",
+      "fiscal": "2026 Q3",
+      "revenue": 407012000,
+      "revenue_yoy_pct": 201.49,
+      "gross_margin_pct": 68.52,
+      "operating_margin_pct": 36.76,
+      "net_income": 157142000,
+      "eps_diluted": 0.82,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-03-03",
+        "accession": "0001628280-26-014017",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-05-02",
+      "fiscal": "2026 Q4",
+      "revenue": 437003000,
+      "revenue_yoy_pct": 157.02,
+      "gross_margin_pct": 68.21,
+      "operating_margin_pct": 35.66,
+      "net_income": 169102000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-06-15",
+        "accession": "0001628280-26-043303",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2026-08-01",
+      "fiscal": "2027 Q1",
+      "revenue": 479003000,
+      "revenue_yoy_pct": 114.73,
+      "gross_margin_pct": 64.53,
+      "operating_margin_pct": 25.2,
+      "net_income": 129425000,
+      "eps_diluted": 0.67,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-09-02",
+        "accession": "0001628280-26-060111",
+        "derived": false
+      }
+    }
+  ],
+  "ttm": {
+    "revenue": 1591045000,
+    "eps_diluted": 2.84,
+    "periods": [
+      "2025-11-01",
+      "2026-01-31",
+      "2026-05-02",
+      "2026-08-01"
+    ]
+  },
+  "notes": [
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "CRDO",
+  "fetched": "2026-10-04T15:49:25+00:00",
+  "stale_warning": null
+}

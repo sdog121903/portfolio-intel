@@ -1,0 +1,199 @@
+{
+  "ticker": "ASML",
+  "company": "ASML Holding NV (US-listed shares, Nasdaq: ASML; reports in euros)",
+  "window": {"from": "2026-10-01 (after US close)", "to": "2026-10-04"},
+  "newest_item_checked": "CoinCentral article dated 2026-10-03 (tier 3); SEC EDGAR 6-K list checked: newest ASML 6-K is the Q2 results release of 2026-07-15, nothing filed in the window",
+  "company_overview_for_beginner": {
+    "what_it_does": "ASML, based in Veldhoven in the Netherlands, makes lithography machines: giant printers that use light to draw chip circuit patterns onto silicon wafers. It is the only company that sells EUV (extreme ultraviolet) machines, which every maker of the most advanced chips (TSMC, Samsung, Intel, memory makers) needs. It earns money two ways: selling new systems, and 'installed base management' (servicing and upgrading machines already sold).",
+    "evidence": "https://www.investing.com/news/transcripts/earnings-call-transcript-asml-beats-q2-2026-forecasts-and-lifts-fullyear-outlook-93CH-4793698 (Q2 2026: installed base management EUR 2.8bn in the quarter); https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm",
+    "suggested_thesis_metrics": [
+      "Net sales vs the company's own guidance: Q3 2026 guided EUR 11.0-12.0bn; full-year 2026 EUR 43-45bn (Q2 release, 2026-07-15)",
+      "Gross margin vs guidance: Q3 2026 guided 55-57%; full year 54-56% (Q2 release, 2026-07-15)",
+      "EUV system sales and EUV capacity/coverage for 2027 (management said 2027 Low-NA EUV is close to fully covered with orders and plans a 30% capacity increase; Q2 call, 2026-07-15)",
+      "Installed base management (service and upgrades) revenue: EUR 2.8bn in Q2 2026; expected to grow over 30% in 2026 (Q2 call per Investing.com, 2026-07-15)",
+      "China share of sales and any export-control change (expected around 20% of 2026 net sales; MATCH Act in the US Congress)"
+    ]
+  },
+  "events": [
+    {
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "price move / sector rally (no company news)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "ASML's US shares rose 3.25% to $1,867.31 on Friday 2026-10-02 as chip stocks rallied broadly (iShares Semiconductor ETF SOXX about +3%, Arm +8%, AMD +3%, NVIDIA +2%; S&P 500 +0.64%). No ASML press release, 6-K or tier-1/2 company news was found in the window. Attribution model: market part +0.58 pts, industry part +1.38 pts, company-specific +1.30 pts (z-score 0.81, i.e. a normal-sized day).",
+      "why_it_matters": "The move is mostly the whole chip sector moving, not new information about ASML. It does not change what ASML will earn.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Pipeline attribution data (data/metrics/attribution-2026-10-04.json)", "date": "2026-10-04", "url": "data/metrics/attribution-2026-10-04.json", "tier": 1},
+        {"name": "24/7 Wall St.", "date": "2026-10-02", "url": "https://247wallst.com/investing/2026/10/02/amd-climbs-3-as-chip-stocks-extend-their-run-arm-jumps-8-nvidia-rises-2/", "tier": 3},
+        {"name": "TradingKey (no named sources; generic 'AI optimism' explanation)", "date": "2026-10-02", "url": "https://www.tradingkey.com/news/market-movers/262198063-market-movers-asml-20261002", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "timing": "unknown",
+      "type": "media attribution (rehash)",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "A tier-3 article dated 2026-10-03 linked ASML's roughly 4% rise to a deepened High-NA EUV partnership with Samsung (larger 12-inch photomasks; Samsung aiming to use High-NA EUV in high-volume DRAM production by 2028). The same article dates that agreement to 2026-09-08 and says no order totals or delivery timelines were disclosed. So it is old news, not a cause of Friday's move.",
+      "why_it_matters": "If true, Samsung adopting High-NA for memory supports demand for ASML's newest, most expensive machine. Not confirmed by a tier-1 or tier-2 source (search budget ran out before this could be checked).",
+      "direction": "supports",
+      "sources": [
+        {"name": "CoinCentral", "date": "2026-10-03", "url": "https://coincentral.com/asml-holding-asml-stock-rises-4-after-samsung-high-na-deal", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "timing": "before open",
+      "type": "earnings / guidance raise (background)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Q2 2026: net sales EUR 9.3bn (Reuters: EUR 9.33bn vs analysts' EUR 8.80bn), net income EUR 2.9bn (vs EUR 2.62bn expected), gross margin 54.0%, EPS EUR 7.59. ASML raised full-year 2026 sales guidance to EUR 43-45bn from EUR 36-40bn (second raise of the year) and guided Q3 to EUR 11.0-12.0bn with 55-57% gross margin. CEO Christophe Fouquet said AI investment is driving demand for advanced logic and memory chips; ASML plans about 30% more EUV and DUV capacity, and said expanded EUV capacity through 2027 is nearly fully booked.",
+      "why_it_matters": "This is the main reason the stock is up about 75% this year: the company's own forecast rose sharply because of AI-driven chip demand.",
+      "direction": "supports",
+      "sources": [
+        {"name": "ASML Q2 2026 results release (6-K)", "date": "2026-07-15", "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm", "tier": 1},
+        {"name": "Reuters via Investing.com", "date": "2026-07-15", "url": "https://www.investing.com/news/stock-market-news/asml-tops-q2-estimates-on-ai-chip-demand-4792151", "tier": 2}
+      ]
+    },
+    {
+      "date": "2026-08-16 to 2026-09-25",
+      "timing": "unknown",
+      "type": "regulatory / export controls (background)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "The US MATCH Act (introduced 2026-04-02, bipartisan) would push allies to copy US chip-tool export rules. Reported versions would stop ASML selling its older DUV immersion machines to Chinese chipmakers such as SMIC, Huawei, CXMT, YMTC and Hua Hong, and would also stop it servicing machines already installed there. In August it was reported to be on track for inclusion in the Senate defence bill (NDAA). On 2026-09-25 Dutch PM Rob Jetten was reported to be lobbying Washington and Trump against it and said he was 'very confident' of a deal. ASML expects China to be about 20% of 2026 sales (about EUR 8.8bn at the guidance midpoint, per a Dutch outlet's calculation).",
+      "why_it_matters": "It is the largest known policy risk: it would hit both new China sales and the recurring service income from Chinese machines. It is not law yet; the final text and timing are unknown.",
+      "direction": "weakens",
+      "sources": [
+        {"name": "DIGITIMES (paywalled; headline only)", "date": "2026-09-25", "url": "https://www.digitimes.com/news/a20260925VL203/dutch-asml-sales-equipment-revenue.html", "tier": 3},
+        {"name": "NL Times (citing NU.nl)", "date": "2026-08-20", "url": "https://nltimes.nl/2026/08/20/us-preparing-force-netherlands-ban-asml-selling-china", "tier": 3},
+        {"name": "De Belegger (Jetten quote, EUR 8.8bn figure)", "date": "not available", "url": "https://www.debelegger.nl/post/jetten-trump-asml-exportregels-match-act-china-8-8-miljard", "tier": 3},
+        {"name": "Reuters via Investing.com (China ~20% of 2026 sales)", "date": "2026-07-15", "url": "https://www.investing.com/news/stock-market-news/asml-tops-q2-estimates-on-ai-chip-demand-4792151", "tier": 2}
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "timing": "unknown",
+      "type": "analyst action (background)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "Morgan Stanley reportedly cut its price target on ASML's Amsterdam shares to EUR 1,700 from EUR 1,930 and kept an Overweight (positive) rating, citing worry that near-term China demand and profit margins could disappoint after the stock's big run. Reported only by tier-3 outlets.",
+      "why_it_matters": "It shows the main bear points ahead of Q3 results: China and margins. It is an opinion, not a fact about value.",
+      "direction": "weakens",
+      "sources": [
+        {"name": "ad-hoc-news", "date": "2026-09-10", "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/asml-holding-stock-slips-after-morgan-stanley-trims-price-target-on-china/70081340", "tier": 3},
+        {"name": "Bitget news", "date": "not available", "url": "https://www.bitget.com/news/detail/12560605801781", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-04-22",
+      "timing": "unknown",
+      "type": "customer adoption (background)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "TSMC, ASML's largest customer, said it had no plans to adopt High-NA EUV through 2029 because the machines are 'very, very expensive' (over EUR 350m each). ASML fell 3.3% that day; Bernstein called the delay neutral or even positive, since TSMC had already signalled reluctance. In Q2, Intel began using High-NA EUV on its 18A process for some Core Ultra Series 3 chips.",
+      "why_it_matters": "High-NA is ASML's next growth engine. How fast customers adopt it shapes revenue after 2027.",
+      "direction": "weakens",
+      "sources": [
+        {"name": "Investing.com", "date": "2026-04-22", "url": "https://www.investing.com/news/stock-market-news/asml-shares-slide-3-as-tsmc-delay-deals-blow-to-highna-euv-rollout-4630380", "tier": 3},
+        {"name": "TrendForce (citing Reuters)", "date": "2026-05-20", "url": "https://www.trendforce.com/news/2026/05/20/news-asml-expects-first-high-na-euv-memory-logic-products-within-months-amid-tsmcs-cost-driven-delay/", "tier": 3}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "ASML US shares rose 3.25% on 2026-10-02.", "evidence": "data/metrics/2026-10-04.json (close 1867.31 vs 1808.49)"},
+    {"rung": 2, "text": "About 1.96 of the 3.25 points is explained by the market (+0.58) and the chip sector (+1.38). The company-specific remainder (+1.30, z 0.81) is within a normal day's range.", "evidence": "data/metrics/attribution-2026-10-04.json"},
+    {"rung": 3, "text": "Chip stocks rallied broadly that day (SOXX about +3%, Arm +8%, AMD +3%, NVIDIA +2%) on continued AI-infrastructure enthusiasm after strong recent results from AMD, NVIDIA and Broadcom.", "evidence": "https://247wallst.com/investing/2026/10/02/amd-climbs-3-as-chip-stocks-extend-their-run-arm-jumps-8-nvidia-rises-2/ (tier 3)"},
+    {"rung": 4, "text": "Investors buy ASML in AI rallies because every advanced AI chip is made with its EUV machines, and the company raised 2026 guidance to EUR 43-45bn on AI-driven demand.", "evidence": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm"},
+    {"rung": 5, "text": "Positioning ahead of Q3 results on 2026-10-14 probably added to the buying, but no source names a specific ASML catalyst for Friday. Nobody published a company-specific reason.", "evidence": "inference (medium)"}
+  ],
+  "products": [
+    {
+      "name": "EUV lithography systems (Low-NA NXE and High-NA EXE)",
+      "what_it_is": "Machines that print the tiniest chip circuits using extreme ultraviolet light, which has a very short wavelength (13.5 nm).",
+      "analogy": "A photo projector that shrinks a stencil of a circuit and 'prints' it onto a silicon wafer, like printing with an ultra-fine pen instead of a marker. High-NA is the same idea with a bigger lens that captures more light, so it draws even finer lines.",
+      "buyers": "Makers of leading-edge logic and memory chips: TSMC, Samsung, Intel, SK hynix, Micron.",
+      "how_it_works": "A laser hits tiny droplets of tin to create EUV light. Special mirrors reflect it through a patterned mask onto a wafer coated with light-sensitive material, repeated many times per chip layer. Customers buy the machines up front, then pay ASML for service and upgrades for years.",
+      "price": "High-NA: over EUR 350m each (Investing.com, 2026-04-22, citing TSMC) / up to US$400m (TrendForce, 2026-05-20). Low-NA price: not available from a source checked this session.",
+      "sales": "Q2 2026 EUV system sales EUR 3.8bn; full-year 2026 EUV net system sales growth expected over 45%; one High-NA system recognised in Q2 2026. Total new lithography systems sold in Q2 2026: 86 (all types).",
+      "sales_source": "EUV figures: Investing.com Q2 call transcript summary, 2026-07-15 (tier 3; to verify against ASML's tier-1 release). 86 systems: ASML Q2 2026 release 6-K, 2026-07-15.",
+      "stage": "Low-NA EUV: shipping in volume, with 2027 close to fully covered by orders. High-NA: early production use (Intel 18A); TSMC not adopting before 2029-2030; Samsung reportedly aiming for DRAM volume by 2028.",
+      "size_for_company": "EUR 3.8bn EUV of EUR 9.3bn total Q2 net sales is about 41% (inference from the cited figures).",
+      "competition": "No other company sells EUV machines. In older DUV machines, Nikon and Canon compete; China is developing domestic lithography (TrendForce, 2026-08-25).",
+      "why_investors_care": "It is a monopoly product that every AI chip needs, so ASML's sales track the chipmakers' spending on AI capacity.",
+      "watch_next": "Q3 results on 2026-10-14: EUV units and sales, comments on 2027 capacity and demand, and High-NA orders."
+    }
+  ],
+  "earnings": {
+    "status": "upcoming",
+    "date": "2026-10-14",
+    "confirmed": false,
+    "consensus": {"eps_usd_per_share": "11.97 (MarketBeat; currency/basis as shown by MarketBeat, not company-reported basis)", "revenue_usd": "13.13bn (MarketBeat)"},
+    "actual": {},
+    "guidance": {"q3_2026_net_sales": "EUR 11.0-12.0bn", "q3_2026_gross_margin": "55-57%", "q3_2026_rnd": "about EUR 1.2bn", "q3_2026_sga": "about EUR 0.4bn", "fy2026_net_sales": "EUR 43-45bn", "fy2026_gross_margin": "54-56%"},
+    "key_metrics": {"last_quarter_q2_2026": "Net sales EUR 9.3bn; GM 54.0%; net income EUR 2.9bn; EPS EUR 7.59; installed base mgmt EUR 2.8bn; buyback EUR 1.1bn in Q2; dividend EUR 1.88/share paid 2026-08-05"},
+    "quality_flags": ["Consensus is from MarketBeat (tier 3) in USD; ASML reports in EUR, so compare carefully", "ASML IR calendar page timed out; date taken from MarketBeat plus a search snippet citing a 07:00 CET GlobeNewswire release"],
+    "management_explanation": "Raise attributed to 'continued strong momentum in customer demand and our ability to respond to that by driving higher output through strengths in our supply chain' (Q2 call, 2026-07-15, per Investing.com).",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm",
+      "https://www.marketbeat.com/earnings/reports/2026-10-14-asml-holding-stock/",
+      "https://www.investing.com/news/transcripts/earnings-call-transcript-asml-beats-q2-2026-forecasts-and-lifts-fullyear-outlook-93CH-4793698"
+    ]
+  },
+  "next_earnings": {
+    "date": "2026-10-14 (Wednesday), release about 07:00 CET before the US open; call reported for 09:00 ET",
+    "confirmed": false,
+    "consensus_eps": "$11.97 per share (MarketBeat, retrieved 2026-10-04)",
+    "consensus_revenue": "$13.13bn (MarketBeat, retrieved 2026-10-04); company guidance is EUR 11.0-12.0bn",
+    "company_guidance": "Q3 2026 net sales EUR 11.0-12.0bn, gross margin 55-57%; FY2026 net sales EUR 43-45bn, gross margin 54-56% (ASML Q2 release, 2026-07-15)",
+    "sources": [
+      "https://www.marketbeat.com/earnings/reports/2026-10-14-asml-holding-stock/",
+      "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-09-08", "firm": "Morgan Stanley", "action": "Price target on Amsterdam shares cut to EUR 1,700 from EUR 1,930; Overweight kept", "reason": "Near-term China demand and margins could disappoint after the strong run", "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/asml-holding-stock-slips-after-morgan-stanley-trims-price-target-on-china/70081340"},
+    {"date": "2026-09-14", "firm": "Cantor Fitzgerald", "action": "Reiterated Overweight (from a search summary; not opened)", "reason": "not available", "url": "https://www.benzinga.com/quote/ASML/analyst-ratings"},
+    {"date": "2026-09-16", "firm": "Weiss Ratings", "action": "Downgraded to Hold (C+) from Buy (B-) (quantitative rating service; from a search summary)", "reason": "not available", "url": "https://www.marketbeat.com/stocks/NASDAQ/ASML/forecast/"}
+  ],
+  "insiders": {"summary": "As a foreign private issuer, ASML insiders do not file US Form 4s; the pipeline shows 0 open-market buys and 0 sells. Dutch AFM insider filings were not checked.", "notable": []},
+  "filings": [
+    {"form": "6-K", "items": "Q2 2026 results press release", "plain_english": "Most recent SEC filing (2026-07-15): the Q2 results and raised 2026 outlook. Nothing filed with the SEC in the news window.", "materiality": "high (background)", "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-14", "event": "ASML Q3 2026 results (before US open) and conference call", "confirmed": false, "url": "https://www.marketbeat.com/earnings/reports/2026-10-14-asml-holding-stock/"},
+    {"date": "not available", "event": "US MATCH Act / Senate NDAA progress, and any US-Netherlands deal on ASML China export rules", "confirmed": false, "url": "https://www.digitimes.com/news/a20260925VL203/dutch-asml-sales-equipment-revenue.html"},
+    {"date": "mid-October 2026 (date not verified)", "event": "TSMC Q3 results: ASML's largest customer, whose capex comments move ASML", "confirmed": false, "url": "not available"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "Last guidance (2026-07-15) was raised to EUR 43-45bn. No update in the window; no 6-K since 2026-07-15 (SEC EDGAR)."},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "Q2 beat (EUR 9.33bn vs EUR 8.80bn expected; Reuters 2026-07-15). Q3 not yet reported."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "Nothing found in the window. Background: TSMC said in April 2026 it will not adopt High-NA through 2029. That is a delay, not a lost customer, and it predates the window."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "No such 6-K/20-F amendment found; pipeline filings list empty for the window."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "Nothing found; no filings in the window."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "CEO Christophe Fouquet quoted on the Q2 call (2026-07-15); no departure news found."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "The opposite: ASML is buying back shares (EUR 1.1bn in Q2 2026, per the 6-K)."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "No new investigation or lawsuit found. A US securities class action covers purchases from 2024-01-24 to 2024-10-15 (old; ktmc.com). The MATCH Act is proposed legislation, not an investigation, but is a live regulatory risk."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "None found in the window. Last noted: Weiss Ratings downgrade 2026-09-16 (single, quantitative) and Morgan Stanley target cut 2026-09-08 (rating unchanged)."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "Pipeline: 0 sells (ASML insiders file with the Dutch AFM, not SEC Form 4; AFM register not checked)."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "US MATCH Act could ban ASML's remaining DUV immersion sales and servicing in China (about 20% of 2026 sales), with reported momentum for inclusion in the Senate NDAA", "url": "https://cryptobriefing.com/match-act-senate-ndaa-chip-export-controls/", "assessment": "Real, unresolved risk; tier-3 sources only. The Dutch PM said (2026-09-25) he expects a deal. Final text and timing unknown."},
+    {"claim": "Morgan Stanley sees near-term China demand and margin disappointment risk", "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/asml-holding-stock-slips-after-morgan-stanley-trims-price-target-on-china/70081340", "assessment": "An opinion, worth testing against Q3 margin (guided 55-57%) and China commentary on 2026-10-14."},
+    {"claim": "TSMC will not use High-NA EUV through 2029 because it is too expensive", "url": "https://www.investing.com/news/stock-market-news/asml-shares-slide-3-as-tsmc-delay-deals-blow-to-highna-euv-rollout-4630380", "assessment": "Slows the newest product's ramp. Low-NA EUV demand remains strong (2027 nearly fully covered)."},
+    {"claim": "Valuation and volatility: the stock is up 75% YTD, its 1-year beta vs the market is 2.21, and the max drawdown over the past year was -22%. Chip stocks whipsawed in early August 2026.", "url": "https://fortune.com/2026/08/02/wall-street-ai-trade-chip-stocks-volatility-sox-selloff/", "assessment": "High expectations are priced in, so a Q3 or 2027 outlook disappointment could cause a sharp fall. Metrics from data/metrics/2026-10-04.json; Fortune article not opened (title only)."},
+    {"claim": "Securities class action over 2024 disclosures", "url": "https://www.ktmc.com/new-cases/asml-holding-nv", "assessment": "Old (2024 class period), not new in the window; low materiality."}
+  ],
+  "open_questions": [
+    "Q3 date 2026-10-14 not verified on ASML's own IR calendar (investor.asml.com timed out three times); MarketBeat and a search snippet agree.",
+    "Samsung High-NA partnership (reportedly 2026-09-08): not verified with an ASML/Samsung release or tier-2 report; web search budget was exhausted.",
+    "Morgan Stanley target cut reported only by tier-3 outlets.",
+    "MATCH Act current status (passed the Senate NDAA? conference text?) as of early October 2026: not confirmed by a tier-1/2 source.",
+    "Whether ASML still discloses quarterly bookings/backlog: the Q2 release summary did not show it. Check the Q3 release.",
+    "Consensus EPS/revenue in EUR on ASML's basis not available; MarketBeat USD figures only.",
+    "EUV EUR 3.8bn Q2 figure comes from an Investing.com transcript summary; not cross-checked against the tier-1 release table."
+  ],
+  "searches_run": 12
+}

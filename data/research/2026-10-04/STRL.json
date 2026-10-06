@@ -1,0 +1,463 @@
+{
+  "ticker": "STRL",
+  "company": "Sterling Infrastructure, Inc.",
+  "window": {
+    "from": "2026-10-01 (after US close)",
+    "to": "2026-10-04"
+  },
+  "newest_item_checked": "2026-10-02: market-wrap coverage of the September jobs report rally (Motley Fool, 2026-10-02) and GuruFocus price note (2026-10-02). Newest company press release found: 2026-09-04 'Sterling to Participate in Upcoming Investor Conferences' (StockTitan news list). Pipeline found no SEC filings for STRL in the window.",
+  "events": [
+    {
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "macro / market-wide rally",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "STRL rose 5.6% to $533.42 on Friday. No company news, filing or analyst action was found for the day. The whole market rallied after a weak September jobs report: the US added only 29,000 jobs and unemployment rose to 4.2%, both weaker than expected; traders cut the odds of an October Fed rate hike to 21% from 64% the week before. S&P 500 +0.73%, Nasdaq +1.19% (record), Dow +0.49%; industrials were among the leading sectors.",
+      "why_it_matters": "The pipeline attribution says 2.25 points of the 5.6% came from the market and 1.96 points from the industry (PAVE), leaving only +1.39 points company-specific (z-score 0.31, i.e. a normal day for this stock). STRL has a 1-year beta of about 3 vs the market, so it amplifies market moves both ways. This is not new information about Sterling's business.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "Motley Fool market coverage",
+          "date": "2026-10-02",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/02/stock-market-midday-oct-2-stocks-rally-as-weak-jobs-data-cools-fed-rate-hike-bets/",
+          "tier": 3
+        },
+        {
+          "name": "CNBC markets live (page blocked to fetch; headline 'Stocks rise Friday after soft jobs data, Nvidia leads Nasdaq to intraday record' seen in search)",
+          "date": "2026-10-02",
+          "url": "https://www.cnbc.com/2026/10/01/stock-market-today-live-updates-.html",
+          "tier": 2
+        },
+        {
+          "name": "GuruFocus price note (confirms +5.6% to $533.42, gives no reason)",
+          "date": "2026-10-02",
+          "url": "https://www.gurufocus.com/news/9108131/sterling-infrastructure-inc-strl-shares-surge-56-what-gf-score-of-85-tells-investors",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "timing": "unknown",
+      "type": "background: price peak and sector selloff",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "STRL hit an all-time high of $1,005.68 on 2026-06-04, then fell with the whole engineering and construction group. Example: on 2026-07-02 it fell 10.8% to $692.44 while peers Dycom (-7.7%), Comfort Systems (-7.4%), MasTec (-5.5%), EMCOR (-4.7%) and Quanta (-4.5%) also fell. By 2026-09-11 it was about 51% below the June high. A Seeking Alpha news item (date not verified) reported 'AI slowdown fears' hitting data-center power and construction stocks.",
+      "why_it_matters": "Most of the drop from the June high came alongside peers, i.e. investors marking down the whole 'AI data-center builders' group, not a Sterling-specific problem. A beginner should know the stock can halve in three months even while the business grows.",
+      "direction": "weakens",
+      "sources": [
+        {
+          "name": "Alphastreet (sector selloff, 2026-07-02 figures; page blocked, from search snippet)",
+          "date": "2026-07-02",
+          "url": "https://news.alphastreet.com/sterling-infrastructure-plunges-10-8-amid-sector-wide-selling/",
+          "tier": 3
+        },
+        {
+          "name": "Trefis STRL page (peak 2026-06-04, -51% by 2026-09-11; from search snippet)",
+          "date": "not available",
+          "url": "https://www.trefis.com/data/companies/STRL",
+          "tier": 3
+        },
+        {
+          "name": "Seeking Alpha news: AI slowdown fears hammer data-center power and construction stocks (page blocked; date not verified)",
+          "date": "not available",
+          "url": "https://seekingalpha.com/news/4642534-ai-slowdown-fears-hammer-data-center-power-and-construction-stocks",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "timing": "unknown",
+      "type": "background: acquisition (Stone Ridge)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "Sterling bought substantially all assets of Stone Ridge Contracting (Pocatello, Idaho; heavy civil, concrete and construction management for data centers, mining and industrial sites in ID, OR, ND, WA, TX). Closed 2026-06-01 for $178.0 million total: $140.0 million cash and about 32 thousand shares worth $27.4 million, plus up to $15 million earn-out on an EBITDA target. Company expected Stone Ridge 2026 revenue of $180-200 million at mid-teens EBITDA margins.",
+      "why_it_matters": "It adds data-center site work, but at mid-teens margins versus Sterling's ~22% company adjusted EBITDA margin, so it dilutes the margin percentage. This became the core of the post-earnings worry in August. Stone Ridge also brought $1.24 billion of unsigned awards into 'combined backlog'.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "Sterling 10-Q for Q2 2026 (acquisition note)",
+          "date": "2026-08",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000874238/000087423826000103/strl-20260630.htm",
+          "tier": 1
+        },
+        {
+          "name": "Sterling 8-K press release on Stone Ridge",
+          "date": "2026-06-09",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000874238/000087423826000087/a20260609ex991pressrelease.htm",
+          "tier": 1
+        },
+        {
+          "name": "StockTitan summary of the 8-K (revenue and margin expectations)",
+          "date": "2026-06-09",
+          "url": "https://www.stocktitan.net/sec-filings/STRL/8-k-sterling-infrastructure-inc-reports-material-event-84867fc55580.html",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "timing": "after close",
+      "type": "background: earnings (Q2 2026) and guidance raise",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Q2 2026: revenue $1.168B (+90%, about 50% organic), adjusted EPS $5.80 (+116%), GAAP EPS $5.00, adjusted EBITDA $256.7M (22% margin). Signed backlog $4.33B (+116%), combined backlog $5.62B, future phases >$1.4B. Beat consensus (revenue est. ~$963M, adjusted EPS est. ~$4.99-5.01). Full-year 2026 guidance raised to revenue $4.00-4.15B, adjusted EPS $19.70-20.30, adjusted EBITDA $891-916M (from $3.70-3.80B, $18.40-19.05, $843-873M given 2026-05-04). Yet the stock fell 13.39% after hours to $529.61 from a $611.47 close.",
+      "why_it_matters": "A strong beat and raise still sent the stock down. The main explanation in coverage: the raise came mostly from lower-margin acquired revenue (incremental guidance margin about 14% vs ~22% today), and the price was already high (P/E ~47.6 at the time). Lesson: price depends on expectations and valuation, not just growth.",
+      "direction": "supports",
+      "sources": [
+        {
+          "name": "Sterling Q2 2026 earnings release (company site)",
+          "date": "2026-08-03",
+          "url": "https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/",
+          "tier": 1
+        },
+        {
+          "name": "Sterling Q2 2026 earnings release (SEC 8-K Ex. 99.1)",
+          "date": "2026-08-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000874238/000087423826000100/a20260803ex991earningsrele.htm",
+          "tier": 1
+        },
+        {
+          "name": "Sterling Q1 2026 earnings release (prior guidance, SEC 8-K Ex. 99.1)",
+          "date": "2026-05-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000052/a20260504ex991earningsrele.htm",
+          "tier": 1
+        },
+        {
+          "name": "Investing.com Q2 slides coverage (consensus, after-hours move)",
+          "date": "2026-08-04",
+          "url": "https://www.investing.com/news/company-news/sterling-infrastructure-q2-2026-slides-90-revenue-jump-shares-fall-93CH-4835176",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "timing": "unknown",
+      "type": "background: shelf registration (S-3)",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "Sterling filed a Form S-3 shelf registration on 2026-05-12 that can allow future share or debt sales, including resales by selling securityholders. The stock fell 8.3% on 2026-05-18, attributed partly to dilution worries and profit taking. No sale under it was found in the window. Diluted share count was about 31.1M in Q2 2026 vs about 30.8M in 2025, and the company bought back $35.3M of stock in H1 2026.",
+      "why_it_matters": "A shelf is permission to sell later, not a sale. A large actual sale would be a thesis breaker; none was found. Size of shelf not verified.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "QuiverQuant",
+          "date": "2026-05-18",
+          "url": "https://www.quiverquant.com/news/Sterling+Infrastructure+falls+8.3%25+as+investors+react+to+shelf+filing+and+post-rally+profit-taking",
+          "tier": 3
+        },
+        {
+          "name": "Sterling Q2 2026 earnings release (share count, buybacks)",
+          "date": "2026-08-03",
+          "url": "https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/",
+          "tier": 1
+        }
+      ]
+    }
+  ],
+  "why_chain": [
+    {
+      "rung": 1,
+      "text": "STRL rose 5.6% on Friday 2026-10-02 to $533.42.",
+      "evidence": "https://www.gurufocus.com/news/9108131/sterling-infrastructure-inc-strl-shares-surge-56-what-gf-score-of-85-tells-investors"
+    },
+    {
+      "rung": 2,
+      "text": "Pipeline attribution: market part +2.25 pts, industry (PAVE) part +1.96 pts, company-specific only +1.39 pts (z 0.31). So about three quarters of the move was the market and its industry.",
+      "evidence": "data/metrics/attribution-2026-10-04.json (pipeline calculation)"
+    },
+    {
+      "rung": 3,
+      "text": "The whole market rose (S&P 500 +0.73%, Nasdaq +1.19% to a record) and industrials were among the leading sectors.",
+      "evidence": "https://www.fool.com/coverage/stock-market-today/2026/10/02/stock-market-midday-oct-2-stocks-rally-as-weak-jobs-data-cools-fed-rate-hike-bets/"
+    },
+    {
+      "rung": 4,
+      "text": "Cause of the market rally: a weak September jobs report (+29,000 jobs, unemployment 4.2%) cut the odds of an October Fed rate hike to 21% from 64% a week earlier.",
+      "evidence": "https://www.fool.com/coverage/stock-market-today/2026/10/02/stock-market-midday-oct-2-stocks-rally-as-weak-jobs-data-cools-fed-rate-hike-bets/"
+    },
+    {
+      "rung": 5,
+      "text": "Why that lifts STRL more than the market: lower expected interest rates help expensive growth stocks (future profits are worth more today) and ease worries about financing for big construction projects; STRL's 1-year beta is about 3, so it typically moves about three times the market.",
+      "evidence": "inference (medium); beta from data/metrics/2026-10-04.json"
+    },
+    {
+      "rung": 6,
+      "text": "No company-specific news was found for 2026-10-02; the small company-specific remainder (+1.39 pts) is within normal daily noise for this stock (typical company move 4.49%).",
+      "evidence": "inference (high), based on no press release/filing found and attribution z-score 0.31"
+    }
+  ],
+  "products": [
+    {
+      "name": "E-Infrastructure Solutions (site development and electrical work for data centers and other mission-critical sites)",
+      "what_it_is": "Getting a large plot of land ready for a data center, factory or warehouse: clearing, grading, excavation, foundations, underground utilities, and since the CEC deal (closed 2025-09-01) electrical contracting too.",
+      "analogy": "Before a house can be built someone has to level the lot, dig the foundation and lay the pipes and wires; Sterling does that for buildings the size of several football fields.",
+      "buyers": "Data-center developers and hyperscalers' contractors, plus manufacturing, semiconductor and e-commerce distribution builders. Customer names and concentration not disclosed in the Q2 10-Q.",
+      "how_it_works": "Project contracts; revenue is recognized as work progresses. Signed contracts sit in 'backlog'; awarded-but-unsigned work sits in 'combined backlog'; expected later phases of the same campuses are 'future phases'.",
+      "price": "not disclosed per project",
+      "sales": "Q2 2026 segment revenue $905.0M (+192% YoY), 78% of company revenue; adjusted operating margin 24.1%. Mission-critical projects (data centers, manufacturing, semiconductor) were 92% of E-Infrastructure backlog at 2026-06-30. Company-wide signed backlog $4.33B, combined $5.62B, future phases >$1.4B (total visibility >$7B).",
+      "sales_source": "https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/",
+      "stage": "Mature and scaling fast; capacity limited by skilled labor (CEO: more electricians would mean faster growth, per Q2 call coverage).",
+      "size_for_company": "About 78% of Q2 2026 revenue and the large majority of operating income ($210.8M of segment operating income vs $28.2M Transportation and $8.5M Building).",
+      "competition": "Not detailed in sources read; peers often grouped with it by investors include Quanta Services, Comfort Systems USA, EMCOR, MasTec, Dycom (all moved with STRL in the 2026-07-02 selloff).",
+      "why_investors_care": "It is the growth engine and the reason the stock is treated as an 'AI data-center builder'. Its fate is tied to how long big tech keeps building data centers.",
+      "watch_next": "Q3 2026 backlog, book-to-burn (Q2 was 1.4x signed ex Stone Ridge), E-Infrastructure margin after the Stone Ridge mix, any customer delays."
+    },
+    {
+      "name": "Stone Ridge Contracting (acquired 2026-06-01)",
+      "what_it_is": "Idaho-based heavy civil, concrete and construction-management contractor for data centers, mining and industrial infrastructure.",
+      "analogy": "Buying a regional crew that already has jobs lined up in new territory.",
+      "buyers": "Data-center, mining and industrial owners in ID, OR, ND, WA, TX (names not disclosed).",
+      "how_it_works": "Project contracting, now reported inside E-Infrastructure.",
+      "price": "Acquisition price $178.0M ($140.0M cash + $27.4M stock + up to $15M earn-out).",
+      "sales": "Company expected 2026 revenue of $180-200M at mid-teens EBITDA margins; brought $1.24B of unsigned awards. Acquisitions together contributed $250.8M of Q2 revenue.",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/0000874238/000087423826000103/strl-20260630.htm ; https://www.stocktitan.net/sec-filings/STRL/8-k-sterling-infrastructure-inc-reports-material-event-84867fc55580.html ; https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/",
+      "stage": "Integrating",
+      "size_for_company": "Roughly 5% of 2026 revenue guidance midpoint (inference: $190M / $4.075B), but a large share of combined backlog added.",
+      "competition": "not disclosed",
+      "why_investors_care": "Lower margins than the rest of Sterling, which investors blamed for the August drop.",
+      "watch_next": "Whether margins at Stone Ridge improve; conversion of the $1.24B unsigned awards into signed backlog."
+    }
+  ],
+  "earnings": {
+    "status": "reported",
+    "date": "2026-08-03",
+    "confirmed": true,
+    "consensus": {
+      "revenue": "about $963M-$969M (Investing.com / MarketBeat)",
+      "adjusted_eps": "$4.99 (Investing.com) to $5.01 (MarketBeat)"
+    },
+    "actual": {
+      "revenue": "$1,168.2M (+90% YoY; ~50% organic)",
+      "adjusted_eps": "$5.80 (+116%)",
+      "gaap_eps": "$5.00",
+      "adjusted_ebitda": "$256.7M (22.0% margin)",
+      "net_income": "$155.8M"
+    },
+    "guidance": {
+      "fy2026_revenue": "$4.00-4.15B (prior $3.70-3.80B, 2026-05-04)",
+      "fy2026_adjusted_eps": "$19.70-20.30 (prior $18.40-19.05)",
+      "fy2026_adjusted_ebitda": "$891-916M (prior $843-873M)",
+      "fy2026_gaap_eps": "$17.25-17.85",
+      "implied_incremental_ebitda_margin": "about 14% (calculation: midpoint EBITDA +$45.5M / midpoint revenue +$325M; from the two company releases)"
+    },
+    "key_metrics": {
+      "signed_backlog": "$4.33B (+116% YoY, +50% organic)",
+      "combined_backlog": "$5.62B (+150%)",
+      "future_phases": ">$1.4B",
+      "book_to_burn": "1.4x signed, 1.3x combined (ex Stone Ridge)",
+      "e_infra_revenue": "$905.0M (+192%)",
+      "transportation_revenue": "$156.7M (-20%)",
+      "building_revenue": "$106.5M (-1%)",
+      "cash": "$464.5M",
+      "h1_operating_cash_flow": "$328.0M",
+      "h1_buybacks": "$35.3M"
+    },
+    "quality_flags": [
+      "Growth includes acquisitions: $250.8M of Q2 revenue came from acquisitions (CEC, Stone Ridge); organic growth ~50%.",
+      "Adjusted EPS excludes stock compensation, intangible amortization, acquisition costs and earn-out expenses (GAAP $5.00 vs adjusted $5.80).",
+      "Combined backlog includes $1.28B of unsigned awards, $1.24B of them from CEC/Stone Ridge: not yet contracts.",
+      "Transportation revenue fell 20% as resources shifted to E-Infrastructure."
+    ],
+    "management_explanation": "Management raised guidance citing market visibility and project awards; CEO Joe Cutillo said labor is the constraint ('If we had 1,000 or 2,000 more electricians, we'd be growing it even faster', as reported by Investing.com).",
+    "sources": [
+      "https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/",
+      "https://www.sec.gov/Archives/edgar/data/0000874238/000087423826000100/a20260803ex991earningsrele.htm",
+      "https://www.sec.gov/Archives/edgar/data/874238/000087423826000052/a20260504ex991earningsrele.htm",
+      "https://www.investing.com/news/company-news/sterling-infrastructure-q2-2026-slides-90-revenue-jump-shares-fall-93CH-4835176",
+      "https://www.marketbeat.com/stocks/NASDAQ/STRL/earnings/"
+    ]
+  },
+  "next_earnings": {
+    "date": "Early November 2026, not confirmed. MarketBeat estimates Monday 2026-11-02 (unconfirmed); TipRanks search snippet showed 2026-11-09. Sterling announced its Q2 date on 2026-07-22, so a scheduling release is likely in late October (inference).",
+    "confirmed": false,
+    "consensus_eps": "$5.93 adjusted EPS for Q3 2026 (MarketBeat); full-year 2026 consensus $18.81 (MarketBeat) or $19.1 (MarketBeat article 2026-09-25) - both below the company's own $19.70-20.30 range",
+    "consensus_revenue": "not available",
+    "company_guidance": "FY2026 (given 2026-08-03): revenue $4.00-4.15B, adjusted EPS $19.70-20.30, adjusted EBITDA $891-916M. No quarterly guidance. H1 adjusted EPS was $3.59 + $5.80 = $9.39, so guidance implies H2 adjusted EPS of about $10.31-10.91 (calculation).",
+    "sources": [
+      "https://www.marketbeat.com/stocks/NASDAQ/STRL/earnings/",
+      "https://www.tipranks.com/stocks/strl/earnings",
+      "https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/",
+      "https://www.sec.gov/Archives/edgar/data/874238/000087423826000052/a20260504ex991earningsrele.htm",
+      "https://www.stocktitan.net/news/STRL/"
+    ]
+  },
+  "analyst_actions": [
+    {
+      "date": "2026-05-28",
+      "firm": "Oppenheimer",
+      "action": "Initiated at Outperform, $950 target",
+      "reason": "not available",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-sterling-infrastructure-inc-nasdaq-strl-stock-has-consensus-price-target-of-69033-according-to-analysts-2026-09-25/"
+    },
+    {
+      "date": "2026-08-05",
+      "firm": "Cantor Fitzgerald",
+      "action": "Target cut to $742 from $956, kept Overweight",
+      "reason": "not available (followed Q2 results)",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-sterling-infrastructure-inc-nasdaq-strl-stock-has-consensus-price-target-of-69033-according-to-analysts-2026-09-25/"
+    },
+    {
+      "date": "2026-08-07",
+      "firm": "Zacks Research",
+      "action": "Downgraded to Hold from Strong Buy",
+      "reason": "not available",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-sterling-infrastructure-inc-nasdaq-strl-stock-has-consensus-price-target-of-69033-according-to-analysts-2026-09-25/"
+    },
+    {
+      "date": "2026-08-21",
+      "firm": "DA Davidson",
+      "action": "Initiated at Buy, $700 target",
+      "reason": "not available",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-sterling-infrastructure-inc-nasdaq-strl-stock-has-consensus-price-target-of-69033-according-to-analysts-2026-09-25/"
+    },
+    {
+      "date": "2026-09-05",
+      "firm": "Wall Street Zen",
+      "action": "Downgraded to Buy from Strong Buy",
+      "reason": "not available (quant rating service, low weight)",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-sterling-infrastructure-inc-nasdaq-strl-stock-has-consensus-price-target-of-69033-according-to-analysts-2026-09-25/"
+    },
+    {
+      "date": "2026-09-25",
+      "firm": "Consensus (MarketBeat, 8 brokers)",
+      "action": "Moderate Buy; 6 buy, 2 hold; average target $690.33",
+      "reason": "aggregate; other aggregators show different averages (e.g. ~$815-$873), so treat as approximate",
+      "url": "https://www.marketbeat.com/instant-alerts/consensus-sterling-infrastructure-inc-nasdaq-strl-stock-has-consensus-price-target-of-69033-according-to-analysts-2026-09-25/"
+    }
+  ],
+  "insiders": {
+    "summary": "No Form 4 filings for STRL in the pipeline window (data/filings/2026-10-04.json: 0 open-market buys, 0 open-market sells). GuruFocus (2026-10-02) states insiders sold $96.3M of shares over the past 12 months with no buying; not verified against SEC Form 4s, and 10b5-1 status not known.",
+    "notable": [
+      {
+        "date": "trailing 12 months to 2026-10-02",
+        "detail": "Insider sales totaling $96.3M, no purchases (tier 3, unverified)",
+        "url": "https://www.gurufocus.com/news/9108131/sterling-infrastructure-inc-strl-shares-surge-56-what-gf-score-of-85-tells-investors"
+      }
+    ]
+  },
+  "filings": [],
+  "catalysts": [
+    {
+      "date": "late October 2026 (estimated)",
+      "event": "Sterling announces Q3 2026 release date and call",
+      "confirmed": false,
+      "url": "https://www.stocktitan.net/news/STRL/"
+    },
+    {
+      "date": "2026-11-02 (estimated; another aggregator shows 2026-11-09)",
+      "event": "Q3 2026 earnings release (after close) and call next morning",
+      "confirmed": false,
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/STRL/earnings/"
+    },
+    {
+      "date": "late October 2026 (estimated)",
+      "event": "Big tech (hyperscaler) Q3 earnings with capital-spending plans: the demand signal for data-center site work",
+      "confirmed": false,
+      "url": "inference (medium)"
+    },
+    {
+      "date": "2026-10 FOMC meeting (date not verified)",
+      "event": "Fed decision; hike odds fell to 21% after the jobs report. STRL's high beta makes it sensitive to rate expectations.",
+      "confirmed": false,
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/10/02/stock-market-midday-oct-2-stocks-rally-as-weak-jobs-data-cools-fed-rate-hike-bets/"
+    }
+  ],
+  "thesis_breaker_checks": [
+    {
+      "event": "the company cut its revenue or profit forecast (guidance)",
+      "found": false,
+      "evidence": "Last guidance change was a raise on 2026-08-03 (revenue $4.00-4.15B, adj. EPS $19.70-20.30). No update since; newest press release 2026-09-04. https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/"
+    },
+    {
+      "event": "results missed analysts' revenue or EPS estimates",
+      "found": false,
+      "evidence": "Q2 2026 beat: adj. EPS $5.80 vs ~$4.99-5.01; revenue $1.168B vs ~$963-969M. No results in window. https://www.investing.com/news/company-news/sterling-infrastructure-q2-2026-slides-90-revenue-jump-shares-fall-93CH-4835176"
+    },
+    {
+      "event": "a major customer was lost, or a major customer cut orders",
+      "found": false,
+      "evidence": "No report found. Q2 book-to-burn 1.4x. Customer names/concentration not disclosed in the 10-Q. Sector-level 'AI slowdown' worries exist but no Sterling customer cancellation found."
+    },
+    {
+      "event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+      "found": false,
+      "evidence": "No 8-K in window (pipeline); none found in searches."
+    },
+    {
+      "event": "the auditor resigned or was dismissed (8-K Item 4.01)",
+      "found": false,
+      "evidence": "No 8-K in window (pipeline); none found in searches."
+    },
+    {
+      "event": "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+      "found": false,
+      "evidence": "No 8-K in window; CEO Joe Cutillo spoke on the Q2 call (August 2026). No departure news found."
+    },
+    {
+      "event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+      "found": false,
+      "evidence": "An S-3 shelf was filed 2026-05-12 (permission, not a sale); no 424B offering found. Stone Ridge used ~32k shares ($27.4M), about 0.1% of ~31.1M diluted shares (calculation), small. https://www.quiverquant.com/news/Sterling+Infrastructure+falls+8.3%25+as+investors+react+to+shelf+filing+and+post-rally+profit-taking"
+    },
+    {
+      "event": "a regulator opened an investigation, or major litigation was filed",
+      "found": false,
+      "evidence": "Q2 10-Q: company 'not aware of any pending legal proceedings that are expected to result in a material loss'. Lawsuit/investigation search found nothing. https://www.sec.gov/Archives/edgar/data/0000874238/000087423826000103/strl-20260630.htm"
+    },
+    {
+      "event": "two or more analyst downgrades within five trading days",
+      "found": false,
+      "evidence": "In the last five trading days (2026-09-28 to 2026-10-02) no downgrades found. Earlier: Cantor target cut 2026-08-05 and Zacks downgrade 2026-08-07 (target cut is not a downgrade). https://www.marketbeat.com/instant-alerts/consensus-sterling-infrastructure-inc-nasdaq-strl-stock-has-consensus-price-target-of-69033-according-to-analysts-2026-09-25/"
+    },
+    {
+      "event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+      "found": false,
+      "evidence": "Pipeline: no Form 4s in window. Trailing-12-month insider selling of $96.3M reported by GuruFocus (unverified, plan status unknown)."
+    }
+  ],
+  "disconfirming_evidence": [
+    {
+      "claim": "Margin dilution: 2026 guidance raise implies only ~14% incremental EBITDA margin vs ~22% today, driven by lower-margin Stone Ridge (mid-teens) and mix shift.",
+      "url": "https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/ ; https://seekingalpha.com/article/4933724-sterling-infrastructure-q2-2026-review-a-triple-beat-sold-on-the-mix",
+      "assessment": "Real and confirmable from the company's own numbers (calculation). It is about margin percentage, not absolute profit, which was raised. Key thing to watch at Q3."
+    },
+    {
+      "claim": "Valuation remains high: P/E (TTM) 38.4x vs 5-year median 20.8x; GuruFocus 'GF Value' $296.12.",
+      "url": "https://www.gurufocus.com/news/9108131/sterling-infrastructure-inc-strl-shares-surge-56-what-gf-score-of-85-tells-investors",
+      "assessment": "Tier-3 model output; opinion, not fact. Shows how far the price depends on continued data-center growth."
+    },
+    {
+      "claim": "AI data-center spending could slow (sector-wide 'AI slowdown fears'); JPMorgan cited 7% of under-construction data-center projects delayed by supply chain, permits and power shortages (MarketBeat/Yahoo 2026-06-26).",
+      "url": "https://seekingalpha.com/news/4642534-ai-slowdown-fears-hammer-data-center-power-and-construction-stocks ; https://finance.yahoo.com/markets/stocks/articles/data-center-delays-create-opportunity-140000006.html",
+      "assessment": "Sector risk, no Sterling-specific cancellation found. 92% of E-Infrastructure backlog is mission-critical work, so concentration in this theme is high."
+    },
+    {
+      "claim": "Insiders sold $96.3M in 12 months with no buys.",
+      "url": "https://www.gurufocus.com/news/9108131/sterling-infrastructure-inc-strl-shares-surge-56-what-gf-score-of-85-tells-investors",
+      "assessment": "Unverified against Form 4s; plan status unknown. Not in the 5-day window."
+    },
+    {
+      "claim": "Short interest rose: 1,203,339 shares short as of 2026-08-31, up 123,833.",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/STRL/short-interest/",
+      "assessment": "From search snippet (tier 3). Small relative to ~31M shares (~4%, calculation, share base approximate). A Yahoo/Simply Wall St headline mentioned 'short seller claims' but the article (2026-02-26) named no short seller and no claims; no short report found."
+    },
+    {
+      "claim": "Transportation revenue fell 20% in Q2 as resources moved to E-Infrastructure, increasing dependence on AI-linked work.",
+      "url": "https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/",
+      "assessment": "Confirmed in the release; diversification is shrinking."
+    }
+  ],
+  "open_questions": [
+    "Exact Q3 2026 earnings date (company has not announced; aggregators disagree: 2026-11-02 vs 2026-11-09).",
+    "Q3 consensus revenue not found.",
+    "Which customers drive E-Infrastructure backlog, and how concentrated it is (not disclosed in 10-Q).",
+    "The specific trigger(s) for the June-September sector selloff: only tier-3 sources found; no tier-1/2 article confirmed the 'AI slowdown fears' story or its date.",
+    "Insider selling total ($96.3M, 12 months) and whether under 10b5-1 plans: needs SEC Form 4 check.",
+    "Size of the May 2026 S-3 shelf and whether any selling securityholders used it.",
+    "Santi has not yet written his reasons for owning STRL (theses/STRL.md says TODO)."
+  ],
+  "searches_run": 12
+}

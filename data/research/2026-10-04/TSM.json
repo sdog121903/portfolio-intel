@@ -1,0 +1,193 @@
+{
+  "ticker": "TSM",
+  "company": "Taiwan Semiconductor Manufacturing Co. (TSMC), US-listed ADR",
+  "window": {"from": "2026-10-01 (after US close)", "to": "2026-10-04"},
+  "newest_item_checked": "2026-10-03: Motley Fool opinion piece on TSMC (no new facts). Newest factual item: Bloomberg/Reuters Texas-campus report, published 2026-10-01 and carried on 2026-10-02. Newest company filing: 6-K dated 2026-09-24.",
+  "events": [
+    {
+      "date": "2026-10-01",
+      "timing": "after close",
+      "type": "Media report: possible expansion / capital spending (unconfirmed by the company)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Bloomberg (and, per search results, Reuters) reported that TSMC is weighing a new multi-fab campus in Texas, likely near Dallas, adding tens of billions of dollars to its US build-out. Each fab would cost at least $20 billion. The plan depends on Congress extending the 35% US advanced-manufacturing tax credit, which expires at the end of 2026, and is described as early stage, citing unnamed people. Bloomberg also reported TSMC has talked with Singapore officials about investment. TSMC said: 'We have no comment on market rumors.' The story first appeared in Taiwan's Economic Daily News earlier that week. Exact publication time is not available; the Bloomberg URL is dated 2026-10-01, the syndicated copy is dated 2026-10-02, and DIGITIMES ran it at 11:47 on 2026-10-02.",
+      "why_it_matters": "It suggests TSMC expects AI-chip demand to keep exceeding its capacity for years. It also means more spending and a dependence on a US tax credit. It is not a confirmed decision and does not change near-term revenue.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Bloomberg", "date": "2026-10-01", "url": "https://www.bloomberg.com/news/articles/2026-10-01/tsmc-mulls-multibillion-dollar-texas-campus-for-more-ai-chips", "tier": 2},
+        {"name": "Insurance Journal (Bloomberg syndication)", "date": "2026-10-02", "url": "https://www.insurancejournal.com/news/southcentral/2026/10/02/887682.htm", "tier": 3},
+        {"name": "DIGITIMES", "date": "2026-10-02", "url": "https://digitimes.com/news/a20261002VL208/tsmc-texas-expansion-manufacturing-arizona.html", "tier": 3},
+        {"name": "Quartz", "date": "2026-10-01", "url": "https://qz.com/tsmc-texas-chip-campus-expansion-100126", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "Sector move",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Chip stocks rose broadly on Friday. SMH closed up 2.07% (per a Yahoo/ETF article), Arm rose about 8% and NVIDIA about 2%. 24/7 Wall St. attributed the rally to sector-wide buying after AMD, NVIDIA and Broadcom beat estimates, which keeps AI-linked chipmakers in demand. TSM closed at $472.78, up 2.96% (pipeline data), 1.3% below its 52-week high of $479.00.",
+      "why_it_matters": "The attribution model explains most of TSM's +2.96% as market (+0.85 points) plus industry (+0.98 points). The company-specific part (+1.12 points, z-score 0.82) is within a normal day's noise.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "24/7 Wall St.", "date": "2026-10-02", "url": "https://247wallst.com/investing/2026/10/02/amd-climbs-3-as-chip-stocks-extend-their-run-arm-jumps-8-nvidia-rises-2/", "tier": 3},
+        {"name": "ETF Trends / Yahoo Finance", "date": "2026-10-02", "url": "https://www.etftrends.com/equity-etf-content-hub/semiconductor-etfs-draw-cash-chip-stocks-rally/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "timing": "unknown",
+      "type": "Technology roadmap (recirculated in the window)",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "TSMC plans to use ASML's High-NA EUV lithography in volume production from 2030, probably for its A10/A11 (1nm-class) nodes. A joint 12-inch-mask pilot line with ASML is targeted for 2031 and production-ready systems for 2033. CNBC and TrendForce reported this on 2026-09-08. A GuruFocus item on 2026-10-02 ('TSMC Stocks Jump 3.1% as High-NA Road Map Targets 2030') tied Friday's rise to it, but the news was about 3.5 weeks old.",
+      "why_it_matters": "This is TSMC's long-range plan to stay ahead in manufacturing (thesis point 2). It did not cause Friday's move.",
+      "direction": "supports",
+      "sources": [
+        {"name": "CNBC", "date": "2026-09-08", "url": "https://www.cnbc.com/2026/09/08/tsmc-samsung-asml-high-na-euv-machine-ai-chips.html", "tier": 2},
+        {"name": "TrendForce", "date": "2026-09-08", "url": "https://www.trendforce.com/news/2026/09/08/news-asml-expands-high-na-euv-push-with-tsmc-samsung-and-intel-12-inch-photomask-pilot-line-set-for-2031/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "timing": "before open",
+      "type": "BACKGROUND: Q2 2026 results, guidance raise, capex raise, Arizona commitment",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "BACKGROUND. Q2 2026 revenue was US$40.20B (NT$1,270.38B), +36.0% year on year and +12.0% quarter on quarter. EPS was NT$27.25 (US$4.31 per ADR). Gross margin was 67.7%, operating margin 60.3%. Advanced nodes (7nm and below) were 77% of wafer revenue: 2nm 3%, 3nm 30%, 5nm 33%. Q3 guidance: revenue US$44.6-45.8B and gross margin 65-67%, below Q2 because the 2nm ramp dilutes margin by roughly 3-4 points. On the call, management raised its 2026 growth outlook to slightly above 40% in US dollars and raised 2026 capex to $60-64B. It also added $100B in Arizona, bringing the total US commitment to $265B.",
+      "why_it_matters": "This sets the bar for the Oct 15 report. It is also the root of the summer pullback. Bloomberg reported on 2026-07-17 that TSMC 'fails to impress', and articles cite worries about heavy spending and the lower margin guidance.",
+      "direction": "supports",
+      "sources": [
+        {"name": "TSMC 2Q26 earnings release (SEC 6-K)", "date": "2026-07-16", "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm", "tier": 1},
+        {"name": "TSMC press release", "date": "2026-07-16", "url": "https://pr.tsmc.com/english/news/3326", "tier": 1},
+        {"name": "Bloomberg (headline only; paywalled)", "date": "2026-07-17", "url": "https://www.bloomberg.com/news/articles/2026-07-17/chip-stock-selloff-deepens-in-asia-as-tsmc-fails-to-impress", "tier": 2},
+        {"name": "Investing.com call transcript", "date": "2026-07-16", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tsmc-lifts-2026-outlook-as-ai-demand-stays-hot-in-q2-2026-93CH-4794777", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "timing": "before open",
+      "type": "BACKGROUND: Monthly revenue (August 2026)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "BACKGROUND. August 2026 revenue was a record NT$514.81B, +10.1% vs July and +53.3% vs August 2025. January-August revenue was NT$3,386.87B, +39.3% year on year. CNBC described it as a record driven by AI demand.",
+      "why_it_matters": "This is the most recent hard evidence that AI demand is keeping TSMC's advanced factories busy (thesis point 1). It points to strong Q3 revenue relative to guidance. That is an inference; Q3 is not yet reported.",
+      "direction": "supports",
+      "sources": [
+        {"name": "TSMC press release: August 2026 revenue", "date": "2026-09-10", "url": "https://pr.tsmc.com/english/news/3340", "tier": 1},
+        {"name": "TSMC 6-K (SEC)", "date": "2026-09-10", "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000658/tsm-revenue20260910.htm", "tier": 1},
+        {"name": "CNBC", "date": "2026-09-10", "url": "https://www.cnbc.com/2026/09/10/tsmc-august-revenue-chip-ai.html", "tier": 2}
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "timing": "unknown",
+      "type": "BACKGROUND: Trade policy / tariffs",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "BACKGROUND. According to search-result summaries, US Commerce Secretary Lutnick said on 2026-09-02 that the administration is developing a semiconductor tariff framework with exemptions for companies producing chips in the US. Taiwan says earlier trade arrangements could shield its chipmakers. Taiwanese semiconductors have not yet been tariffed, pending the Section 232 investigation. Only tier-3 sources were found, and the primary statement was not fetched.",
+      "why_it_matters": "This is a policy risk to the thesis ('trade rules cut off key customers'). TSMC's US build-out ($265B) is partly a hedge that may qualify it for exemptions (inference, medium).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Vision Times", "date": "2026-09-04", "url": "https://www.visiontimes.com/2026/09/04/taiwan-seeks-tariff-protections-as-us-weighs-new-semiconductor-duties.html", "tier": 3}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "TSM rose 2.96% on Friday 2026-10-02 to $472.78, near its 52-week high of $479.00.", "evidence": "data/metrics/2026-10-04.json (pipeline price data)"},
+    {"rung": 2, "text": "About 1.8 of the 2.96 points is explained by the whole market (+0.85) and the chip industry (+0.98). The company-specific remainder (+1.12 points, z 0.82) is within a normal day.", "evidence": "data/metrics/attribution-2026-10-04.json"},
+    {"rung": 3, "text": "Chip stocks rallied as a group (SMH +2.07%, Arm +8%, NVIDIA +2%). Commentary attributed this to sector-wide buying after AMD, NVIDIA and Broadcom beat estimates.", "evidence": "https://247wallst.com/investing/2026/10/02/amd-climbs-3-as-chip-stocks-extend-their-run-arm-jumps-8-nvidia-rises-2/ (tier 3; no tier-2 explanation for the sector move was found)"},
+    {"rung": 4, "text": "The small company-specific part plausibly reflects the Bloomberg/Reuters Texas-campus report, which suggests TSMC sees demand outrunning its capacity. Some outlets (ad-hoc-news) explicitly tied the gain to it.", "evidence": "inference (medium): https://www.bloomberg.com/news/articles/2026-10-01/tsmc-mulls-multibillion-dollar-texas-campus-for-more-ai-chips ; https://www.ad-hoc-news.de/boerse/news/corporate-news/taiwan-semiconductor-manufacturing-stock-gains-2-96-percent-on-texas-plans/70221557 (avoid-tier)"},
+    {"rung": 5, "text": "Basic driver: investors expect AI data-center spending to keep demand for TSMC's advanced chips above its capacity. August revenue grew 53.3% year on year, and management called AI demand outsized and outpacing supply.", "evidence": "https://pr.tsmc.com/english/news/3340 ; https://finance.biggo.com/news/US_TSM_2026-07-16 (tier 3 call summary). Linking this to Friday's price specifically: inference (medium)"}
+  ],
+  "products": [
+    {
+      "name": "N2 (2-nanometer) process technology",
+      "what_it_is": "TSMC's newest and most advanced manufacturing process. It is a recipe for making chips with smaller, more efficient transistors.",
+      "analogy": "A new generation of printing press that fits more and finer detail on each page. It is expensive and slow to tune at first, then becomes the workhorse.",
+      "buyers": "Designers of leading chips. Reported first-wave 2nm clients include Apple, AMD and Intel (Intel's Nova Lake compute tile), per tier-3 reporting. AI accelerator designers follow.",
+      "how_it_works": "Uses new 'nanosheet' (gate-all-around) transistors instead of FinFETs. More transistors per wafer means faster, lower-power chips. Customers pay per wafer, and leading-edge wafers carry the highest price.",
+      "price": "Not disclosed (TSMC does not publish wafer prices)",
+      "sales": "2nm was 3% of Q2 2026 wafer revenue (first quarter of meaningful contribution), against Q2 total revenue of US$40.20B. Proxy: 3nm was 30% and 5nm 33%; all advanced nodes (7nm and below) were 77%.",
+      "sales_source": "TSMC 2Q26 earnings release, 2026-07-16: https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm",
+      "stage": "Ramping in volume ('steep ramp-up' in Q3 2026 per management)",
+      "size_for_company": "Small today (3% of Q2 wafer revenue), but it is the node meant to carry growth from 2026-2027. It is also currently diluting gross margin by about 3-4 points in the second half of 2026.",
+      "competition": "Samsung Foundry (2nm-class GAA) and Intel Foundry (18A). Intel Foundry made $174M from external customers in Q1 against TSMC's $35.9B (tier-3 figure).",
+      "why_investors_care": "Leading-node share is how TSMC charges premium prices. How fast 2nm reaches normal margins is the key profitability question.",
+      "watch_next": "Oct 15 call: 2nm share of Q3 revenue, and actual gross margin vs the 65-67% guide."
+    }
+  ],
+  "earnings": {
+    "status": "upcoming",
+    "date": "2026-10-15",
+    "confirmed": true,
+    "consensus": {"eps_per_adr_usd": "about 4.4 (TipRanks, tier 3, unverified; other aggregators disagree)", "revenue_usd": "not available from a reliable source"},
+    "actual": {},
+    "guidance": {"revenue_usd": "44.6-45.8B", "gross_margin": "65.0-67.0%", "operating_margin": "56.0-58.0%", "fx_assumption": "USD 1 = NT$32.0", "full_year_2026": "revenue growth slightly above 40% in USD (Q2 call)", "capex_2026": "US$60-64B (Q2 call, tier-3 summaries)"},
+    "key_metrics": {"last_quarter_Q2_2026": "Revenue US$40.20B (+36.0% YoY); GM 67.7%; OM 60.3%; EPS NT$27.25 / US$4.31 per ADR; advanced nodes 77% of wafer revenue", "monthly_revenue_Jul_Aug_2026": "August NT$514.81B (+53.3% YoY); January-August NT$3,386.87B (+39.3%)"},
+    "quality_flags": ["Q3 gross-margin guide is about 1.7 points below Q2 because of 2nm ramp dilution (company-stated, not a surprise)", "Guidance is in USD at an assumed NT$32/USD; currency moves can shift reported margins"],
+    "management_explanation": "Q2 release: 'Moving into third quarter 2026, we expect our business to be supported by continued strong demand for our leading-edge process technologies, including the steep ramp-up of our 2-nanometer technology.'",
+    "sources": ["https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm", "https://investor.tsmc.com/english/financial-calendar", "https://www.tipranks.com/stocks/tsm/earnings"]
+  },
+  "next_earnings": {
+    "date": "2026-10-15 (Thursday), 14:00-15:30 Taipei time = 02:00 US Eastern, i.e. before the US open",
+    "confirmed": true,
+    "consensus_eps": "About US$4.4 per ADR (TipRanks, tier 3, unverified). MarketBeat shows a single estimate of $2.98 and $42.8B revenue, which looks stale or inconsistent and should not be used. Treat consensus as not reliably available.",
+    "consensus_revenue": "Not available from a reliable source (company guide US$44.6-45.8B)",
+    "company_guidance": "Q3 2026: revenue US$44.6-45.8B; gross margin 65-67%; operating margin 56-58%; at NT$32/USD. Full-year 2026 revenue growth slightly above 40% in USD.",
+    "sources": ["https://investor.tsmc.com/english/financial-calendar", "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm", "https://www.tipranks.com/stocks/tsm/earnings"]
+  },
+  "analyst_actions": [
+    {"date": "2026-07 (exact date not verified)", "firm": "Citi", "action": "Price target on Taiwan shares raised to NT$3,800 from NT$2,875; Buy maintained", "reason": "Sustained demand for advanced AI chips strengthening the earnings outlook (opinion)", "url": "https://finance.yahoo.com/technology/ai/articles/citi-raises-tsmc-price-target-105530371.html"},
+    {"date": "2026-07 (exact date not verified)", "firm": "KGI Securities", "action": "Price target raised to NT$3,200 from NT$3,000; Outperform", "reason": "Upward-revised earnings estimates (opinion)", "url": "https://www.investing.com/news/analyst-ratings/kgi-securities-raises-tsmc-stock-price-target-on-earnings-revision-93CH-4796282"},
+    {"date": "not verified", "firm": "Needham / DA Davidson / Susquehanna", "action": "Reported ADR target raises (Needham $480 to $530; DA Davidson to $500; Susquehanna $575 to $600)", "reason": "AI demand (opinion; from a search-result summary, dates and URLs not individually verified)", "url": "https://www.marketbeat.com/stocks/NYSE/TSM/forecast/"},
+    {"date": "2026-10-01 to 2026-10-04", "firm": "none found", "action": "No upgrades or downgrades found in the window", "reason": "", "url": ""}
+  ],
+  "insiders": {
+    "summary": "TSMC is a foreign private issuer, so it files no US Form 4s; the pipeline shows 0 open-market buys or sells. Its monthly 6-K (2026-09-24, covering August 2026) shows two vice presidents increased their holdings of Taiwan-listed shares. It also reports no share pledges and no bond issues, and lists board-approved capital appropriations.",
+    "notable": [
+      "VP B.Z. Tien: 18,051 to 19,051 shares (+1,000), August 2026, per 6-K",
+      "VP Lipen Yuan: 6,650 to 9,000 shares (+2,350), August 2026, per 6-K"
+    ]
+  },
+  "filings": [
+    {"form": "6-K", "items": "Monthly report for August 2026 (filed 2026-09-24)", "plain_english": "Routine monthly disclosure. Two VPs added small amounts of stock. No share pledges, asset deals, bond issues or share cancellations. Capital appropriations listed: advanced-technology machinery US$16,035M; advanced packaging/mature/specialty machinery US$4,791M; real estate and leased assets US$8,616M. This shows the spending plan in action. No new negative information.", "materiality": "low (pipeline tagged medium by default for 6-K)", "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000660/tsm-monthend6kx20260924.htm"},
+    {"form": "6-K", "items": "August 2026 monthly revenue (filed 2026-09-10; outside the pipeline's filing window, found via search)", "plain_english": "Record monthly revenue of NT$514.81B, up 53.3% year on year.", "materiality": "medium", "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000658/tsm-revenue20260910.htm"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-05 to 2026-10-14", "event": "TSMC quiet period (no contact with investors before results)", "confirmed": false, "url": "https://investor.tsmc.com/english/quarterly-results/teleconference"},
+    {"date": "2026-10-08", "event": "September 2026 monthly revenue release. With July and August, this gives the full Q3 revenue figure before the earnings call.", "confirmed": true, "url": "https://investor.tsmc.com/english/financial-calendar"},
+    {"date": "2026-10-15", "event": "Q3 2026 earnings conference: 14:00 Taipei = 02:00 US Eastern, before the US open. Includes Q4 guidance.", "confirmed": true, "url": "https://investor.tsmc.com/english/financial-calendar"},
+    {"date": "2026-11-10", "event": "October 2026 monthly revenue release", "confirmed": true, "url": "https://investor.tsmc.com/english/financial-calendar"},
+    {"date": "2026-12-31", "event": "Expiry of US 35% advanced-manufacturing tax credit, on which the reported Texas plan depends (extension decision by Congress)", "confirmed": false, "url": "https://www.insurancejournal.com/news/southcentral/2026/10/02/887682.htm"},
+    {"date": "not scheduled", "event": "US Section 232 semiconductor tariff decision / framework", "confirmed": false, "url": "https://www.visiontimes.com/2026/09/04/taiwan-seeks-tariff-protections-as-us-weighs-new-semiconductor-duties.html"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "No guidance change since 2026-07-16. Q3 guide is US$44.6-45.8B, and the full-year outlook was raised to >40% growth. The lower Q3 gross-margin guide (65-67%) was given in July with a stated cause (2nm ramp). The company is entering its quiet period."},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "No results in the window; next results are 2026-10-15. August revenue was a record (+53.3% YoY)."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "Nothing found. Searches for customer loss / Intel foundry found Intel itself using TSMC 2nm (tier 3)."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "Not applicable as an 8-K (TSMC files 6-K). No restatement found in 6-Ks or news."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "Nothing found in 6-Ks or news."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "CFO Wendell Huang signed the 2026-09-24 6-K and the 2026-09-10 revenue release. No CEO change found."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "The 2026-09-24 6-K lists no new securities issuance or bonds. None found in the pipeline filings."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "No new investigation or suit in the window. Existing: TSMC's own Nov-2025 trade-secret suit against ex-SVP Lo Wei-jen (now at Intel); TSMC is the plaintiff. A 2025 report of a US export-control probe (Huawei) surfaced in search with no new development found. Status not verified."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "No downgrades found. Recent actions found are target raises (Citi, KGI, others)."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "No Form 4s (foreign issuer). The August 6-K shows two VPs increasing holdings and no insider sales listed."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Heavy spending and a lower margin outlook disappointed investors after Q2. Bloomberg (2026-07-17): 'Chip Stock Rout Deepens as TSMC Selloff Drives Taiwan Correction', TSMC 'fails to impress'. A Yahoo/Fool article said TSM was down nearly 15% in a month despite record AI demand.", "url": "https://www.bloomberg.com/news/articles/2026-07-17/chip-stock-selloff-deepens-in-asia-as-tsmc-fails-to-impress", "assessment": "Real and recent. The market can punish TSMC for capex and margin dilution even with record revenue. Watch the actual Q3 gross margin vs 65-67% on Oct 15. The size of the July fall was not verified (Bloomberg paywalled)."},
+    {"claim": "The stock is extended: RSI 71.5, 1.3% below its 52-week high, 22% above its 200-day average, beta 2.17 vs market over 1y, 1-year max drawdown -21.55%.", "url": "data/metrics/2026-10-04.json", "assessment": "Not a thesis issue but a context risk. The price already reflects strong expectations going into earnings 10 days after his entry. A good-but-not-great report could move it sharply (inference, medium)."},
+    {"claim": "Texas plan adds more capex and depends on a US tax credit expiring 2026-12-31. TSMC called it a rumor.", "url": "https://www.insurancejournal.com/news/southcentral/2026/10/02/887682.htm", "assessment": "Unconfirmed. If it happens, it raises long-run capital intensity. Overseas fabs have historically carried lower margins (general industry knowledge, not sourced here: inference, low-medium)."},
+    {"claim": "US semiconductor tariff framework (Section 232) is pending. Taiwan goods face a 20% tariff, but chips are so far exempt.", "url": "https://www.visiontimes.com/2026/09/04/taiwan-seeks-tariff-protections-as-us-weighs-new-semiconductor-duties.html", "assessment": "Open policy risk. Only tier-3 sourcing found; the primary statement was not verified."},
+    {"claim": "Competition: Intel Foundry (18A) and Samsung (2nm) pursue leading-edge customers. TSMC is suing an ex-SVP who joined Intel over alleged 2nm/A16 trade-secret leakage.", "url": "https://www.bloomberg.com/news/articles/2025-11-25/tsmc-files-trade-secret-suit-against-ex-executive-at-intel", "assessment": "No evidence of share loss. Intel Foundry external revenue is tiny vs TSMC (tier 3). Low near-term risk."}
+  ],
+  "open_questions": [
+    "Exact Q3 2026 consensus EPS and revenue: aggregators disagree (TipRanks ~US$4.4/ADR vs MarketBeat $2.98 / $42.8B). A tier-2 'analysts expect' figure will likely appear in previews around Oct 14-15.",
+    "Size of the July 2026 post-earnings drop: the Bloomberg article was not readable (403). The pipeline shows 3-month return +9.19% vs 6-month +40.15%, consistent with a summer dip.",
+    "Quiet-period dates (Oct 5-14) come from a search snippet of TSMC's teleconference page and were not directly fetched.",
+    "Exact publication time of the Bloomberg/Reuters Texas story (after Thursday close vs during Friday) is not verified. The Reuters URL was not found directly.",
+    "The capital-appropriation amounts in the 2026-09-24 6-K are as summarised by the fetch tool. The board approval date was not verified.",
+    "Platform revenue split (HPC vs smartphone) for Q2 2026 was not extracted. It is in TSMC's management report, not read."
+  ],
+  "searches_run": 13
+}

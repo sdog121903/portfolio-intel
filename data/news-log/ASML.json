@@ -1,0 +1,220 @@
+{
+  "ticker": "ASML",
+  "items": [
+    {
+      "key": "asml-2026-10-02-sector-rally",
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "price move (no company news)",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Rose 3.25% to $1,867.31, mostly because chip stocks rallied; no ASML news.",
+      "source": {
+        "name": "24/7 Wall St.",
+        "date": "2026-10-02",
+        "url": "https://247wallst.com/investing/2026/10/02/amd-climbs-3-as-chip-stocks-extend-their-run-arm-jumps-8-nvidia-rises-2/",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-10-02",
+        "stock_pct": 3.25,
+        "market_pct": 0.74,
+        "beyond_market_pct": 2.51,
+        "typical_day_pct": 2.46,
+        "z": 1.02,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "asml-2026-09-25-match-act-lobbying",
+      "date": "2026-09-25",
+      "timing": "unknown",
+      "type": "regulation / export controls",
+      "materiality": "high",
+      "direction": "bad",
+      "what": "Dutch prime minister lobbied the US against the MATCH Act, a proposed US law that would stop ASML selling older machines to Chinese chipmakers and servicing those already there. Not law; status unconfirmed.",
+      "source": {
+        "name": "DIGITIMES",
+        "date": "2026-09-25",
+        "url": "https://www.digitimes.com/news/a20260925VL203/dutch-asml-sales-equipment-revenue.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-25",
+        "stock_pct": 1.24,
+        "market_pct": 0.54,
+        "beyond_market_pct": 0.7,
+        "typical_day_pct": 2.36,
+        "z": 0.3,
+        "next_5_days_pct": 7.07
+      }
+    },
+    {
+      "key": "asml-2026-09-08-morgan-stanley-target",
+      "date": "2026-09-08",
+      "timing": "unknown",
+      "type": "analyst action",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Morgan Stanley reportedly cut its price target to EUR 1,700 from EUR 1,930 (still positive), worried about China demand and margins.",
+      "source": {
+        "name": "ad-hoc-news",
+        "date": "2026-09-10",
+        "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/asml-holding-stock-slips-after-morgan-stanley-trims-price-target-on-china/70081340",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-08",
+        "stock_pct": 2.91,
+        "market_pct": -0.55,
+        "beyond_market_pct": 3.46,
+        "typical_day_pct": 2.38,
+        "z": 1.46,
+        "next_5_days_pct": -9.82
+      }
+    },
+    {
+      "key": "asml-2026-09-08-samsung-high-na",
+      "date": "2026-09-08",
+      "timing": "unknown",
+      "type": "customer adoption",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "Samsung reportedly deepened its partnership on High-NA EUV, ASML's newest machine, aiming to use it for memory chips by 2028. No order size given; not confirmed by a primary source.",
+      "source": {
+        "name": "CoinCentral",
+        "date": "2026-10-03",
+        "url": "https://coincentral.com/asml-holding-asml-stock-rises-4-after-samsung-high-na-deal",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-08",
+        "stock_pct": 2.91,
+        "market_pct": -0.55,
+        "beyond_market_pct": 3.46,
+        "typical_day_pct": 2.38,
+        "z": 1.46,
+        "next_5_days_pct": -9.82
+      }
+    },
+    {
+      "key": "asml-2026-07-15-q2-guidance-raise",
+      "date": "2026-07-15",
+      "timing": "before open",
+      "type": "earnings + guidance raise",
+      "materiality": "high",
+      "direction": "good",
+      "what": "Q2 beat expectations (sales EUR 9.3bn, profit EUR 2.9bn); 2026 sales forecast raised to EUR 43-45bn from EUR 36-40bn, the second raise this year; 2027 EUV capacity nearly fully booked.",
+      "source": {
+        "name": "ASML Q2 2026 results (6-K)",
+        "date": "2026-07-15",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-07-15",
+        "stock_pct": 2.23,
+        "market_pct": 0.4,
+        "beyond_market_pct": 1.84,
+        "typical_day_pct": 2.25,
+        "z": 0.82,
+        "next_5_days_pct": -0.74
+      }
+    },
+    {
+      "key": "asml-2026-04-22-tsmc-no-high-na",
+      "date": "2026-04-22",
+      "timing": "unknown",
+      "type": "customer adoption",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "TSMC, ASML's biggest customer, said it has no plans to use High-NA EUV machines through 2029 because they are \"very, very expensive\".",
+      "source": {
+        "name": "Investing.com",
+        "date": "2026-04-22",
+        "url": "https://www.investing.com/news/stock-market-news/asml-shares-slide-3-as-tsmc-delay-deals-blow-to-highna-euv-rollout-4630380",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-04-22",
+        "stock_pct": -1.05,
+        "market_pct": 1.01,
+        "beyond_market_pct": -2.06,
+        "typical_day_pct": 1.62,
+        "z": -1.27,
+        "next_5_days_pct": -3.22
+      }
+    }
+  ],
+  "days": [
+    {
+      "report": "2026-10-04",
+      "trading_day": "2026-10-02",
+      "close": 1867.31,
+      "day_pct": 3.25,
+      "market_part_pct": 0.58,
+      "industry_part_pct": 1.38,
+      "company_part_pct": 1.3,
+      "z": 0.81,
+      "main_news": "Rose 3.25% to $1,867.31, mostly because chip stocks rallied; no ASML news."
+    }
+  ],
+  "upcoming": {
+    "as_of": "2026-10-04",
+    "events": [
+      {
+        "date": "2026-10-14",
+        "event": "Q3 2026 results (company expects EUR 11.0-12.0bn sales, 55-57% gross margin)",
+        "confirmed": true,
+        "source": {
+          "name": "ASML 6-K",
+          "date": "2026-07-15",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-10-15",
+        "event": "TSMC Q3 results (ASML's biggest customer; factory-spending plans)",
+        "confirmed": true,
+        "source": {}
+      },
+      {
+        "date": "late 2026",
+        "event": "US defence bill (NDAA) timetable: possible inclusion of the MATCH Act",
+        "confirmed": false,
+        "source": {}
+      }
+    ]
+  }
+}

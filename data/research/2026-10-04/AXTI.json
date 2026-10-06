@@ -1,0 +1,242 @@
+{
+  "ticker": "AXTI",
+  "company": "AXT, Inc.",
+  "window": {"from": "2026-10-01 (after US close)", "to": "2026-10-04"},
+  "newest_item_checked": "SEC EDGAR filing list for AXT (CIK 1051627) checked 2026-10-04: newest filing is a Form 4 dated 2026-08-19; nothing filed in the window. Newest news item: AXT press release 2026-10-01 scheduling Q3 results for 2026-10-29; MarketBeat note on Zacks Research rating change 2026-10-01.",
+  "events": [
+    {
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "price move (sector-driven)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "AXTI closed at $85.87, up 4.96% from $81.81, on a day when semiconductor stocks broadly rose. The attribution model splits the move into market +1.27%, industry (SMH) +2.50% and company-specific +1.19%, a z-score of 0.14 (a normal day for this stock, whose typical company-specific daily move is 8.51%). No company press release, SEC filing or tier-1/2 news item about AXT was found for 2026-10-02.",
+      "why_it_matters": "Nothing company-specific happened; the stock moved with chip stocks. Over the last 5 sessions (+8.78%) the model also attributes almost all of the gain to the industry (+7.85%).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Pipeline attribution file data/metrics/attribution-2026-10-04.json", "date": "2026-10-04", "url": "data/metrics/attribution-2026-10-04.json", "tier": 1},
+        {"name": "Alphastreet (sector-wide chip rally on 2026-10-02)", "date": "2026-10-02", "url": "https://news.alphastreet.com/axcelis-technologies-jumps-6-0-amid-sector-wide-rally/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "timing": "before open",
+      "type": "earnings date announcement",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "AXT said it will release third-quarter 2026 results immediately after the market close on 2026-10-29. (Released on the morning of 2026-10-01, just before the window opened; included because it sets the next catalyst.)",
+      "why_it_matters": "Sets the date of the next big test: whether AXT hits its own Q3 guidance of $66 million revenue.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "AXT press release via Business Wire", "date": "2026-10-01", "url": "https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026", "tier": 1},
+        {"name": "Morningstar (Business Wire copy)", "date": "2026-10-01", "url": "https://www.morningstar.com/news/business-wire/20261001072530/axt-inc-schedules-third-quarter-2026-earnings-release-for-october-29-2026", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "timing": "unknown",
+      "type": "rating change (quantitative ranking, not a broker analyst)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Zacks Research moved AXT from 'strong-buy' to 'hold'. Zacks ratings are a model-driven ranking based mainly on changes in earnings estimates, not a covering broker's research call.",
+      "why_it_matters": "Minor; it is one rating change and not from a firm that underwrites or covers AXT in depth. Does not meet the 'two downgrades in five trading days' thesis breaker.",
+      "direction": "weakens",
+      "sources": [
+        {"name": "MarketBeat", "date": "2026-10-01", "url": "https://marketbeat.com/instant-alerts/analyst-zacks-research-downgrades-axt-nasdaq-axti-to-hold-2026-10-01", "tier": 3}
+      ]
+    },
+    {
+      "date": "2025-02-04 to 2025-11",
+      "timing": "unknown",
+      "type": "background: China export controls on indium phosphide",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "AXT makes most of its wafers in China through its subsidiary Beijing Tongmei Xtal Technology. On 2025-02-04 China added indium phosphide (InP) substrates to its export-control list, so every shipment abroad needs a permit from China's Ministry of Commerce. Q2 2025 revenue fell to $18.0 million (down 35.6% year on year). Tongmei began receiving permits for some customers in Europe and Japan (8-K, 2025-06-11), and Q3 2025 revenue recovered to $28.0 million, well above guidance, after permits were granted. Permits for US customers are still not issued: the April 2026 prospectus said they were 'in the final stages of review but has not yet been issued', and the Q2 2026 10-Q (filed 2026-08-13) says 'InP export permits represent the most significant challenge we currently face' and 'we still cannot predict when a permit application will be reviewed and approved'.",
+      "why_it_matters": "This is the single biggest risk and the single biggest possible upside: AXT can only sell abroad what Beijing allows it to ship. Any US permit would unlock backlogged orders; any tightening would cut sales.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "AXT 8-K (export permits received)", "date": "2025-06-11", "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774925020087/axti20250611_8k.htm", "tier": 1},
+        {"name": "AXT 10-Q for Q2 2026", "date": "2026-08-13", "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926027677/axti20260630_10q.htm", "tier": 1},
+        {"name": "AXT 424B5 prospectus supplement", "date": "2026-04-21", "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000121390026046176/ea0287123-424b5_axtinc.htm", "tier": 1},
+        {"name": "Semiconductor Today", "date": "2025-11-10", "url": "https://www.semiconductor-today.com/news_items/2025/nov/axt-101125.shtml", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-04-20 to 2026-04-21",
+      "timing": "after close",
+      "type": "background: $550 million share sale (dilution)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "AXT filed an automatic shelf registration (S-3ASR) and sold 8,560,311 new shares at $64.25 in an underwritten offering led by Northland, raising $549,999,981.75 gross ($522.5 million before expenses). Shares outstanding rose from 55,578,827 to 64,139,138 (about +15.4%). Stated use: fund Tongmei's InP capacity expansion, R&D, working capital. Same day AXT pre-announced Q1 2026 revenue of $26-28 million.",
+      "why_it_matters": "Each existing share now owns a smaller slice of the company, but AXT now has the cash to triple InP capacity. The automatic shelf means AXT can sell more shares quickly in future.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "AXT 424B5 final prospectus supplement", "date": "2026-04-21", "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000121390026046176/ea0287123-424b5_axtinc.htm", "tier": 1},
+        {"name": "AXT 8-K Item 2.02 (Q1 preliminary results)", "date": "2026-04-20", "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000121390026045652/ea0286900-8k_axt.htm", "tier": 1},
+        {"name": "Finimize", "date": "2026-09 (undated page, data as of 2026-09-18)", "url": "https://finimize.com/content/axti-asset-snapshot", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-05-22 to 2026-07-29",
+      "timing": "unknown",
+      "type": "background: peak and 74% fall",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "The stock closed at a record $140.83 on 2026-05-22 (intraday 52-week high $143.16), after rising from about $5 in September 2025. It then fell to $36.97 on 2026-07-29, a 73.75% drawdown. Events during the fall: (a) insiders sold heavily in early-to-mid June at $88-$115, none flagged as pre-planned 10b5-1 trades: CEO Morris Young sold 197,498 shares on 2026-06-01/02 (about $22.3 million, partly from exercising 2016 options; he still held 2,149,533 shares), director Jesse Chen about $4.4 million across June, director David Chang about $0.9 million, director Leonard LeBlanc about $0.6 million (June-August); (b) on 2026-06-26 Tongmei withdrew its long-pending Shanghai STAR Market IPO to refocus on Hong Kong, which gives 11 Chinese private-equity funds the right to ask for their RMB 324,404,508 (about $49 million) back; AXT says it has the cash to repay in full; (c) on 2026-07-02 the stock fell 15.8% in a broad chip sell-off. No single published cause for the whole decline was found.",
+      "why_it_matters": "Shows how violent this stock is: it lost three-quarters of its value in two months without the business deteriorating. A beginner should expect swings like this again.",
+      "direction": "weakens",
+      "sources": [
+        {"name": "Pipeline price file data/prices/AXTI.csv", "date": "2026-10-02", "url": "data/prices/AXTI.csv", "tier": 1},
+        {"name": "SEC Form 4, Morris S. Young (CEO)", "date": "2026-06-03", "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926019464/0001437749-26-019464.txt", "tier": 1},
+        {"name": "SEC Form 4, Jesse Chen", "date": "2026-06-15", "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926020633/0001437749-26-020633.txt", "tier": 1},
+        {"name": "AXT 8-K Item 2.04 (Tongmei IPO withdrawal)", "date": "2026-07-08", "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022984/axti20260629_8k.htm", "tier": 1},
+        {"name": "QuiverQuant (July 2 drop tied to chip sell-off)", "date": "2026-07-02", "url": "https://www.quiverquant.com/news/AXT+tumbles+as+chip+selloff+and+profit-taking+appear+to+pressure+shares", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-07-29 to 2026-09-21",
+      "timing": "after close",
+      "type": "background: Lumentum contract, record Q2, big guidance, index inclusion",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "After the close on 2026-07-29 AXT disclosed a six-year capacity reservation agreement (signed 2026-07-26) with Lumentum: an initial $43.5 million deposit within 30 business days and a second $43.5 million deposit to be set during 2028, applied as credits against future wafer purchases, with Lumentum paying for any shortfall below its annual commitment. On 2026-07-30 AXT reported record Q2 2026 revenue of $47.6 million (up 164% year on year), InP revenue of $30.7 million, GAAP gross margin 44.9%, GAAP net income $11.1 million ($0.17 per diluted share), and guided Q3 to $66 million revenue and non-GAAP EPS of $0.30-$0.32, versus analyst consensus of about $38.7 million and $0.10. The stock rose 27.0% on 2026-07-30 and 28.7% on 2026-07-31. On 2026-09-16 S&P Dow Jones Indices said AXT would join the S&P SmallCap 600 (effective before the open 2026-09-21); the stock rose 11.4% that day.",
+      "why_it_matters": "This is the core of the bull case: big optical-component makers are paying in advance to lock up AXT's InP supply, and revenue is stepping up fast. Index inclusion forces index funds to buy the shares.",
+      "direction": "supports",
+      "sources": [
+        {"name": "AXT 8-K Item 1.01 (Lumentum agreement)", "date": "2026-07-29", "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926024883/axti20260715_8k.htm", "tier": 1},
+        {"name": "AXT press release on Nasdaq.com", "date": "2026-07-29", "url": "https://www.nasdaq.com/press-release/axt-inc-announces-long-term-supplier-agreement-lumentum-2026-07-29", "tier": 1},
+        {"name": "AXT Q2 2026 results press release (8-K Ex. 99.1)", "date": "2026-07-30", "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926025061/ex_974537.htm", "tier": 1},
+        {"name": "Motley Fool Q2 2026 call transcript", "date": "2026-08-03", "url": "https://www.fool.com/earnings/call-transcripts/2026/08/03/axt-axti-q2-2026-earnings-call-transcript/", "tier": 3},
+        {"name": "MarketBeat (guidance vs consensus)", "date": "2026-07-30", "url": "https://www.marketbeat.com/instant-alerts/axt-nasdaqaxti-issues-q3-2026-earnings-guidance-2026-07-30/", "tier": 3},
+        {"name": "StockTitan (S&P DJI index change notice)", "date": "2026-09", "url": "https://www.stocktitan.net/news/P/bloom-energy-illumina-and-everpure-set-to-join-s-p-500-others-to-a0i4hthbnifg.html", "tier": 3},
+        {"name": "TIKR on index inclusion", "date": "2026-09-17", "url": "https://www.tikr.com/blog/axti-stock-jumped-11-yesterday-the-index-nod-wasnt-the-whole-story", "tier": 3}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Friday 2026-10-02: AXTI +4.96%; about +3.8 points is explained by the market (+1.27) and chip stocks (+2.50); the company-specific remainder (+1.19) is ordinary noise for this stock.", "evidence": "data/metrics/attribution-2026-10-04.json"},
+    {"rung": 2, "text": "No AXT news, filing or analyst action on 2026-10-02 was found; chip stocks rallied broadly that day.", "evidence": "https://news.alphastreet.com/axcelis-technologies-jumps-6-0-amid-sector-wide-rally/ | inference (medium) that the sector rally, not AXT news, drove the day"},
+    {"rung": 3, "text": "Why is the stock up about 1,700% in a year? Because revenue went from $18.0 million (Q2 2025) to $47.6 million (Q2 2026) with $66 million guided for Q3, as AI data centers buy more optical lasers made on InP wafers.", "evidence": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926025061/ex_974537.htm"},
+    {"rung": 4, "text": "Why do AI data centers need InP? The lasers and light detectors inside high-speed optical transceivers (the plug-in modules that turn electrical signals into light between servers) are built on indium phosphide wafers; AXT's CEO attributes the 'step-function increase in our revenue' to 'strong customer demand for data center optical connectivity'.", "evidence": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926025061/ex_974537.htm"},
+    {"rung": 5, "text": "Why is supply tight? Few companies make InP substrates, AXT's capacity was about $20 million a quarter at the start of 2026, and customers (Lumentum, Coherent) are paying deposits to reserve capacity; China's export permits further limit how much can leave China.", "evidence": "https://www.semiconductor-today.com/news_items/2026/aug/axt-040826.shtml ; https://www.sec.gov/Archives/edgar/data/0001051627/000143774926024883/axti20260715_8k.htm"},
+    {"rung": 6, "text": "Why is it 40% below its high? It overshot to $140.83 in May, then fell 74% amid heavy insider selling, the Tongmei IPO withdrawal and chip sell-offs, before recovering on the Lumentum deal and Q3 guidance. No source gives one cause for the May-July drop; momentum trading and valuation are the likeliest explanation.", "evidence": "inference (medium); price data data/prices/AXTI.csv; Form 4s and 8-K cited in events"}
+  ],
+  "products": [
+    {
+      "name": "Indium phosphide (InP) substrates",
+      "what_it_is": "Thin, polished discs (wafers) of indium phosphide crystal on which other companies build lasers and light detectors.",
+      "analogy": "AXT sells the blank canvas; companies like Lumentum and Coherent paint the laser onto it.",
+      "buyers": "Makers of optical components and transceivers for AI and cloud data centers (named customers with supply deals: Lumentum and Coherent in the US, Casella in China), plus telecom and sensing.",
+      "how_it_works": "AXT grows a single crystal of InP in a furnace, slices it into wafers, and polishes them. Customers grow thin layers on top to make lasers that send data as light at very high speeds; InP emits light at the wavelengths used in fiber, which silicon cannot do well.",
+      "price": "not disclosed",
+      "sales": "Q2 2026 InP revenue $30.7 million (company record), about 64.5% of total revenue of $47.6 million; order backlog 'exceeding $100 million'. Unit volumes not disclosed.",
+      "sales_source": "AXT Q2 2026 earnings call, 2026-07-30 (Motley Fool transcript https://www.fool.com/earnings/call-transcripts/2026/08/03/axt-axti-q2-2026-earnings-call-transcript/ ; Semiconductor Today 2026-08-04 https://www.semiconductor-today.com/news_items/2026/aug/axt-040826.shtml). InP revenue is not broken out in the press release itself.",
+      "stage": "shipping and ramping; capacity about $35-40 million per quarter targeted for Q3 2026, about $60 million by end-2026, about $130 million by end-2027 (management targets)",
+      "size_for_company": "Majority of revenue (about 64.5% in Q2 2026). The $130 million per quarter capacity target would be about 2.7x total Q2 2026 company revenue.",
+      "competition": "Other InP substrate makers outside China (in Japan and Germany, per NTD 2026-09-08 report, e.g. Sumitomo Electric; JX Advanced Metals) who do not need Chinese export permits; IQE's CEO called InP substrate access 'an emerging industry supply risk'.",
+      "why_investors_care": "It is the bottleneck material for AI optical links; AXT is one of few large suppliers and customers are prepaying for capacity.",
+      "watch_next": "Q3 InP revenue on 2026-10-29; whether US export permits are granted; whether capacity hits the $60 million per quarter end-2026 target."
+    },
+    {
+      "name": "Lumentum capacity reservation agreement (contract)",
+      "what_it_is": "A six-year contract in which Lumentum reserves a minimum yearly amount of AXT's InP wafer output.",
+      "analogy": "Like paying a large deposit to a builder to hold your spot in a long waiting list; the deposit is later spent on the actual goods.",
+      "buyers": "Lumentum Operations LLC (a US maker of lasers and optical transceivers).",
+      "how_it_works": "Lumentum pays $43.5 million within 30 business days and a second $43.5 million to be set during 2028; deposits are used as credits against future purchases; if Lumentum buys less than its annual commitment it pays the shortfall (exceptions: force majeure, quality).",
+      "price": "not disclosed (per-wafer price and annual committed volume not disclosed)",
+      "sales": "Total contract value not disclosed; deposits total $87.0 million (2 x $43.5 million).",
+      "sales_source": "AXT 8-K Item 1.01, 2026-07-29, https://www.sec.gov/Archives/edgar/data/0001051627/000143774926024883/axti20260715_8k.htm",
+      "stage": "signed 2026-07-26; first deposit due within 30 business days",
+      "size_for_company": "The $43.5 million first deposit is about 91% of AXT's Q2 2026 quarterly revenue ($47.6 million).",
+      "competition": "Coherent signed a similar deal (about $25.4 million prepayment/commitment, per Semiconductor Today 2026-08-04); exact terms differ.",
+      "why_investors_care": "A customer committing cash for six years is strong evidence the demand is real, not hype. Note: the agreements list Chinese export permits among risks the parties will review (NTD, 2026-09-08).",
+      "watch_next": "Whether the first deposit was received (Q3 10-Q, due about mid-November 2026) and whether US export permits allow shipments to Lumentum's US sites."
+    }
+  ],
+  "earnings": {
+    "status": "upcoming",
+    "date": "2026-10-29",
+    "confirmed": true,
+    "consensus": {"note": "Pre-guidance consensus (before 2026-07-30) was EPS $0.10 and revenue $38.7 million per MarketBeat; post-guidance consensus not available from a reliable source (Investing.com still shows EPS $0.102 / revenue $38.81 million, which looks stale)."},
+    "actual": {},
+    "guidance": {"q3_2026_revenue": "$66 million ('high confidence', based on existing permits or non-restricted products)", "q3_2026_eps_non_gaap": "$0.30 to $0.32", "q3_2026_eps_gaap": "$0.29 to $0.31", "share_count": "approximately 66.5 million"},
+    "key_metrics": {"last_quarter_q2_2026": "Revenue $47.6M (+164% y/y), InP revenue $30.7M, GAAP gross margin 44.9%, GAAP net income $11.1M, GAAP EPS $0.17, non-GAAP EPS $0.19, backlog >$100M"},
+    "quality_flags": ["Over 50% of Q2 revenue came from China (analyst remark on the Q2 call, not confirmed in the 10-Q)", "Q3 guidance explicitly excludes shipments still waiting for export permits", "Revenue is lumpy and depends on permit timing"],
+    "management_explanation": "CEO Morris Young: 'Strong customer demand for data center optical connectivity coupled with our continued success in adding manufacturing capacity and improving productivity are driving a step-function increase in our revenue.' (Q2 release, 2026-07-30)",
+    "sources": [
+      "https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026",
+      "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926025061/ex_974537.htm",
+      "https://www.fool.com/earnings/call-transcripts/2026/08/03/axt-axti-q2-2026-earnings-call-transcript/",
+      "https://www.marketbeat.com/instant-alerts/axt-nasdaqaxti-issues-q3-2026-earnings-guidance-2026-07-30/"
+    ]
+  },
+  "next_earnings": {
+    "date": "2026-10-29 (after the US market close)",
+    "confirmed": true,
+    "consensus_eps": "not available (reliable post-guidance figure not found; Investing.com shows $0.102, which matches the pre-guidance consensus and looks stale)",
+    "consensus_revenue": "not available (Investing.com shows $38.81 million, likely stale; company guided $66 million)",
+    "company_guidance": "Q3 2026 revenue $66 million; non-GAAP EPS $0.30-$0.32; GAAP EPS $0.29-$0.31; about 66.5 million shares (given 2026-07-30 on the Q2 call)",
+    "sources": [
+      "https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026",
+      "https://www.fool.com/earnings/call-transcripts/2026/08/03/axt-axti-q2-2026-earnings-call-transcript/",
+      "https://www.marketbeat.com/instant-alerts/axt-nasdaqaxti-issues-q3-2026-earnings-guidance-2026-07-30/",
+      "https://www.investing.com/equities/axt-inc-earnings"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-10-01", "firm": "Zacks Research", "action": "Downgrade from strong-buy to hold (quantitative ranking)", "reason": "not stated in source; Zacks ranks are driven by earnings-estimate revisions", "url": "https://marketbeat.com/instant-alerts/analyst-zacks-research-downgrades-axt-nasdaq-axti-to-hold-2026-10-01"},
+    {"date": "2026-07-31", "firm": "Needham", "action": "Upgrade to Buy, price target $90", "reason": "not available in source found (followed Q2 results and Q3 guidance); single tier-3 source, unconfirmed", "url": "https://www.benzinga.com/quote/AXTI/price-targets"},
+    {"date": "2026-07-31", "firm": "B. Riley Securities", "action": "Neutral maintained, price target raised $52 to $55", "reason": "not available; single tier-3 source, unconfirmed", "url": "https://www.benzinga.com/quote/AXTI/price-targets"}
+  ],
+  "insiders": {
+    "summary": "No insider trades in the window (newest Form 4 is 2026-08-19). Earlier, in June-August 2026, the CEO and three directors sold on the open market, all with the 10b5-1 (pre-planned) box unchecked. AXT co-underwriters Needham and B. Riley also publish research on the stock.",
+    "notable": [
+      "CEO Morris S. Young: exercised 85,703 options at $5.21 (granted 2016) and sold 197,498 shares on 2026-06-01/02 at weighted averages of $112.39 and $113.33, about $22.3 million; still held 2,149,533 shares after (also gifted 1,200 shares 2026-06-12). https://www.sec.gov/Archives/edgar/data/1051627/000143774926019464/0001437749-26-019464.txt",
+      "Director Jesse Chen: seven sales 2026-06-01 to 2026-06-15 totalling 43,505 shares, about $4.44 million at $88.55-$115.24; 50,275 shares left. https://www.sec.gov/Archives/edgar/data/1051627/000143774926020895/0001437749-26-020895.txt",
+      "Director David C. Chang: sold 8,333 shares 2026-06-15 at $111.17 (about $0.93 million); 65,165 left. https://www.sec.gov/Archives/edgar/data/1051627/000143774926020894/0001437749-26-020894.txt",
+      "Director Leonard J. LeBlanc: sold 6,500 shares 2026-06-10 to 2026-08-17 at $88.32-$96.07 (about $0.61 million); 113,129 left. https://www.sec.gov/Archives/edgar/data/1051627/000143774926028573/0001437749-26-028573.txt"
+    ]
+  },
+  "filings": [
+    {"form": "none in window", "items": "", "plain_english": "AXT filed nothing with the SEC between 2026-10-01 and 2026-10-04 (pipeline file data/filings/2026-10-04.json is empty for AXTI; EDGAR list checked directly).", "materiality": "low", "url": "https://data.sec.gov/submissions/CIK0001051627.json"},
+    {"form": "10-Q (background)", "items": "Q2 2026 quarterly report", "plain_english": "Quarterly report filed 2026-08-13; calls InP export permits 'the most significant challenge we currently face' and says AXT 'still cannot predict' when pending permits will be approved.", "materiality": "medium", "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926027677/axti20260630_10q.htm"},
+    {"form": "8-K (background)", "items": "1.01, 9.01", "plain_english": "Lumentum six-year capacity reservation agreement with two $43.5 million deposits (filed 2026-07-29).", "materiality": "high", "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926024883/axti20260715_8k.htm"},
+    {"form": "8-K (background)", "items": "2.04", "plain_english": "Tongmei withdrew its Shanghai IPO application; Chinese funds that invested RMB 324.4 million (about $49 million) may ask for their money back (filed 2026-07-08).", "materiality": "medium", "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022984/axti20260629_8k.htm"},
+    {"form": "8-K (background)", "items": "5.02, 7.01", "plain_english": "New independent directors added (Tracy Liu, 2026-06-17; Jia-Bin Duh, 2026-07-16). Not a CEO/CFO departure.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024184/axti20260720_8k.htm"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-29", "event": "Q3 2026 results after the close (guidance: $66M revenue, non-GAAP EPS $0.30-$0.32) and Q4 outlook", "confirmed": true, "url": "https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026"},
+    {"date": "not scheduled", "event": "Possible Chinese export permits for InP shipments to US customers (timing unpredictable per the company)", "confirmed": false, "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926027677/axti20260630_10q.htm"},
+    {"date": "not scheduled", "event": "Tongmei Hong Kong IPO application and outcome of private-equity redemption talks", "confirmed": false, "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022984/axti20260629_8k.htm"},
+    {"date": "about mid-November 2026 (estimated)", "event": "Q3 10-Q filing: confirms receipt of Lumentum's first $43.5M deposit and cash position", "confirmed": false, "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926024883/axti20260715_8k.htm"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "No new guidance in window. Latest guidance (2026-07-30) was Q3 revenue $66M, far above the prior $38.7M consensus; not cut since. https://www.fool.com/earnings/call-transcripts/2026/08/03/axt-axti-q2-2026-earnings-call-transcript/"},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "No results in window; next results 2026-10-29. Q2 2026 was reported as a beat (Yahoo/Zacks 'AXTI Q2 Earnings Beat'). https://finance.yahoo.com/markets/stocks/articles/axti-q2-earnings-beat-record-151300077.html"},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "No customer loss reported. Related risk: US customers still cannot receive InP from China pending permits (10-Q 2026-08-13)."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "No Item 4.02 8-K in EDGAR filing list (checked back to April 2026)."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "No Item 4.01 8-K in EDGAR filing list."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "The two 2026 Item 5.02 8-Ks (2026-06-22, 2026-07-22) only add new independent directors. CEO Morris Young and CFO Gary Fischer remain (Q2 call 2026-07-30)."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "Not in window. Historical: April 2026 S-3ASR and 424B5, 8,560,311 new shares at $64.25 (~$550M), +15.4% share count. https://www.sec.gov/Archives/edgar/data/0001051627/000121390026046176/ea0287123-424b5_axtinc.htm. The automatic shelf allows further sales."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "Nothing new. An existing securities class action (Nowakowski v. AXT, amended complaint Sept 2024, based on a short-seller post about the Tongmei listing and IP) is pending; AXT has moved to dismiss for a third time. https://www.tipranks.com/news/class-action/axt-inc-urges-dismissal-of-investor-lawsuit-citing-forty-fold-rise-in-company-valuation"},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "Only one: Zacks Research (quant ranking) to hold, 2026-10-01. https://marketbeat.com/instant-alerts/analyst-zacks-research-downgrades-axt-nasdaq-axti-to-hold-2026-10-01"},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "Not in window (no Form 4 since 2026-08-19). Historically YES in June 2026: CEO (~$22.3M) and directors Chen (~$4.44M), Chang (~$0.93M), LeBlanc (~$0.61M, June-August), all with the 10b5-1 box unchecked on their Form 4s. Flag as background for Santi's first report."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "US customers still cannot get AXT's InP wafers from China; AXT 'cannot predict' when permits come, and calls them its 'most significant challenge'.", "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926027677/axti20260630_10q.htm", "assessment": "Fact (tier 1). The central risk: China's government controls how much AXT can sell abroad."},
+    {"claim": "Competitors making InP outside China (Japan, Germany) may gain share because they need no Chinese permits; Lumentum/Coherent agreements list Chinese permits as a risk.", "url": "https://www.ntd.com/china-export-curbs-delay-axts-us-bound-indium-phosphide-shipments_1171386.html", "assessment": "Plausible, tier-3 source (2026-09-08); competitive impact not quantified."},
+    {"claim": "Valuation priced for perfection: EV/revenue about 32.8x and forward P/E about 1,163x.", "url": "https://finimize.com/content/axti-asset-snapshot", "assessment": "Tier-3 snapshot (data as of about 2026-09-18); figures not independently verified; illustrates how much future growth is already in the price."},
+    {"claim": "Heavy insider selling at $88-$115 in June 2026 outside 10b5-1 plans, CEO alone about $22.3M.", "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926019464/0001437749-26-019464.txt", "assessment": "Fact (tier 1). The CEO still holds over 2.1 million shares, so he kept most of his stake."},
+    {"claim": "Pending securities class action alleging misleading statements on the Tongmei listing and IP risk.", "url": "https://www.tipranks.com/news/class-action/axt-inc-urges-dismissal-of-investor-lawsuit-citing-forty-fold-rise-in-company-valuation", "assessment": "Pre-existing (2024), not new; outcome unknown; low near-term materiality."},
+    {"claim": "Customer and geographic concentration: China was above 50% of Q2 revenue (analyst remark on the Q2 call).", "url": "https://www.fool.com/earnings/call-transcripts/2026/08/03/axt-axti-q2-2026-earnings-call-transcript/", "assessment": "Single tier-3 transcript remark; check the 10-Q geographic table before quoting as fact."}
+  ],
+  "open_questions": [
+    "Post-guidance analyst consensus for Q3 2026 EPS and revenue: not available from a reliable source.",
+    "Has Lumentum paid the first $43.5 million deposit (due within 30 business days of 2026-07-26)? Not yet confirmed in a filing.",
+    "Status of the Tongmei private-equity redemptions (up to about $49 million) and the Hong Kong IPO filing: no update found since 2026-07-08.",
+    "No single published cause found for the 74% fall from 2026-05-22 to 2026-07-29; explanation is partly inference.",
+    "Q3 guidance and InP revenue figures come from the call transcript and trade press (tier 3), not the press release; check the Q3 release for InP breakout.",
+    "Suggested metrics to track (no thesis file yet): (1) InP revenue per quarter and its share of total ($30.7M, about 64.5% in Q2 2026); (2) US export permit status / backlog waiting for permits; (3) quarterly InP capacity versus targets ($60M by end-2026, $130M by end-2027); (4) gross margin (44.9% GAAP in Q2 2026, from -6.4% in Q1 2025); (5) share count and cash, for dilution and Tongmei redemption effects (about 66.5M shares guided for Q3)."
+  ],
+  "searches_run": 16
+}

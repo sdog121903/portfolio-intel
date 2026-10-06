@@ -1,0 +1,168 @@
+{
+  "entity": "AGILENT TECHNOLOGIES, INC.",
+  "cik": 1090872,
+  "tags_used": {
+    "revenue": "Revenues+RevenueFromContractWithCustomerExcludingAssessedTax+SalesRevenueNet",
+    "gross_profit": null,
+    "operating_income": "OperatingIncomeLoss",
+    "net_income": "NetIncomeLoss",
+    "eps_diluted": "EarningsPerShareDiluted",
+    "diluted_shares": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "rnd": "ResearchAndDevelopmentExpense"
+  },
+  "latest_quarters": [
+    {
+      "period_end": "2024-10-31",
+      "fiscal": "2024 Q4",
+      "revenue": 1701000000,
+      "revenue_yoy_pct": 0.77,
+      "gross_margin_pct": null,
+      "operating_margin_pct": 23.99,
+      "net_income": 351000000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2025-12-22",
+        "accession": "0001090872-25-000087",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2025-01-31",
+      "fiscal": "2025 Q1",
+      "revenue": 1681000000,
+      "revenue_yoy_pct": 1.39,
+      "gross_margin_pct": null,
+      "operating_margin_pct": 22.37,
+      "net_income": 318000000,
+      "eps_diluted": 1.11,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-03-03",
+        "accession": "0001090872-26-000023",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-04-30",
+      "fiscal": "2025 Q2",
+      "revenue": 1668000000,
+      "revenue_yoy_pct": 6.04,
+      "gross_margin_pct": null,
+      "operating_margin_pct": 17.99,
+      "net_income": 215000000,
+      "eps_diluted": 0.75,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-06-01",
+        "accession": "0001090872-26-000055",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-07-31",
+      "fiscal": "2025 Q3",
+      "revenue": 1738000000,
+      "revenue_yoy_pct": 10.14,
+      "gross_margin_pct": null,
+      "operating_margin_pct": 20.71,
+      "net_income": 336000000,
+      "eps_diluted": 1.18,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-09-01",
+        "accession": "0001090872-26-000064",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-10-31",
+      "fiscal": "2025 Q4",
+      "revenue": 1861000000,
+      "revenue_yoy_pct": 9.41,
+      "gross_margin_pct": null,
+      "operating_margin_pct": 23.8,
+      "net_income": 434000000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2025-12-22",
+        "accession": "0001090872-25-000087",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2026-01-31",
+      "fiscal": "2026 Q1",
+      "revenue": 1798000000,
+      "revenue_yoy_pct": 6.96,
+      "gross_margin_pct": null,
+      "operating_margin_pct": 19.63,
+      "net_income": 305000000,
+      "eps_diluted": 1.07,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-03-03",
+        "accession": "0001090872-26-000023",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-04-30",
+      "fiscal": "2026 Q2",
+      "revenue": 1835000000,
+      "revenue_yoy_pct": 10.01,
+      "gross_margin_pct": null,
+      "operating_margin_pct": 21.74,
+      "net_income": 339000000,
+      "eps_diluted": 1.2,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-06-01",
+        "accession": "0001090872-26-000055",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-07-31",
+      "fiscal": "2026 Q3",
+      "revenue": 1878000000,
+      "revenue_yoy_pct": 8.06,
+      "gross_margin_pct": null,
+      "operating_margin_pct": 23.64,
+      "net_income": 362000000,
+      "eps_diluted": 1.28,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-09-01",
+        "accession": "0001090872-26-000064",
+        "derived": false
+      }
+    }
+  ],
+  "ttm": {
+    "revenue": 7372000000,
+    "eps_diluted": 5.08,
+    "periods": [
+      "2025-10-31",
+      "2026-01-31",
+      "2026-04-30",
+      "2026-07-31"
+    ]
+  },
+  "notes": [
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "A",
+  "fetched": "2026-10-04T15:49:21+00:00",
+  "stale_warning": null
+}

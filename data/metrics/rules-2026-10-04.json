@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-04",
+  "thesis_breakers_to_check": [
+    "the company cut its revenue or profit forecast (guidance)",
+    "results missed analysts' revenue or EPS estimates",
+    "a major customer was lost, or a major customer cut orders",
+    "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+    "the auditor resigned or was dismissed (8-K Item 4.01)",
+    "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+    "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+    "a regulator opened an investigation, or major litigation was filed",
+    "two or more analyst downgrades within five trading days",
+    "several insiders sold on the open market outside pre-planned 10b5-1 trading plans"
+  ],
+  "positions": {
+    "STRL": {
+      "fired": [
+        {
+          "id": "explain-big-moves",
+          "action": "watch",
+          "explain": "The stock moved up 5.6% in one day, more than your 5% 'explain this' threshold, so the report must investigate why.",
+          "numbers": {
+            "day_change_pct": 5.6,
+            "threshold": 5
+          }
+        }
+      ],
+      "status": "WATCH"
+    },
+    "CRWD": {
+      "fired": [],
+      "status": "No rule fired"
+    },
+    "MRNA": {
+      "fired": [],
+      "status": "No rule fired"
+    },
+    "CRDO": {
+      "fired": [],
+      "status": "No rule fired"
+    },
+    "LITE": {
+      "fired": [],
+      "status": "No rule fired"
+    },
+    "TSM": {
+      "fired": [],
+      "status": "No rule fired"
+    },
+    "AMD": {
+      "fired": [],
+      "status": "No rule fired"
+    },
+    "PANW": {
+      "fired": [],
+      "status": "No rule fired"
+    },
+    "BE": {
+      "fired": [],
+      "status": "No rule fired"
+    },
+    "SNOW": {
+      "fired": [],
+      "status": "No rule fired"
+    },
+    "AAOI": {
+      "fired": [
+        {
+          "id": "explain-big-moves",
+          "action": "watch",
+          "explain": "The stock moved up 7.7% in one day, more than your 5% 'explain this' threshold, so the report must investigate why.",
+          "numbers": {
+            "day_change_pct": 7.71,
+            "threshold": 5
+          }
+        }
+      ],
+      "status": "WATCH"
+    },
+    "A": {
+      "fired": [],
+      "status": "No rule fired"
+    },
+    "AXTI": {
+      "fired": [],
+      "status": "No rule fired"
+    },
+    "VIAV": {
+      "fired": [
+        {
+          "id": "explain-big-moves",
+          "action": "watch",
+          "explain": "The stock moved up 5.2% in one day, more than your 5% 'explain this' threshold, so the report must investigate why.",
+          "numbers": {
+            "day_change_pct": 5.18,
+            "threshold": 5
+          }
+        }
+      ],
+      "status": "WATCH"
+    },
+    "FORM": {
+      "fired": [],
+      "status": "No rule fired"
+    },
+    "ASML": {
+      "fired": [],
+      "status": "No rule fired"
+    }
+  }
+}

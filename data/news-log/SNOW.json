@@ -1,0 +1,118 @@
+{
+  "ticker": "SNOW",
+  "items": [
+    {
+      "key": "snow-2026-10-02-convertible-closed",
+      "date": "2026-10-02",
+      "timing": "after close",
+      "type": "financing (convertible bonds)",
+      "materiality": "medium",
+      "direction": "mixed",
+      "what": "Closed the sale of $3.75bn of 0% convertible notes (loans paying no interest that lenders can swap for shares, at about $500.38 and $483.98); a hedge limits dilution up to $820.30. If converted, about 2.2% more shares (up to about 4%). First announced 2026-09-28.",
+      "source": {
+        "name": "SEC 8-K",
+        "date": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ]
+    },
+    {
+      "key": "snow-2026-09-02-q2-results",
+      "date": "2026-09-02",
+      "timing": "after close",
+      "type": "earnings",
+      "materiality": "high",
+      "direction": "good",
+      "what": "Product revenue $1,491.9m (+37%), a third quarter in a row of faster growth; net revenue retention 126%; the stock jumped 22%. Contracted future revenue slipped from $9.21bn to $9.00bn, and the standard (GAAP) loss was $191.7m.",
+      "source": {
+        "name": "Snowflake Q2 FY2027 results",
+        "date": "2026-09-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-09-03",
+        "stock_pct": 16.55,
+        "market_pct": 1.05,
+        "beyond_market_pct": 15.51,
+        "typical_day_pct": 2.37,
+        "z": 6.53,
+        "next_5_days_pct": -7.71
+      }
+    },
+    {
+      "key": "snow-2026-02-24-class-action",
+      "date": "2026-02-24",
+      "timing": "unknown",
+      "type": "litigation",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "A securities class action (shareholders saying they were misled) was filed against the former CEO and former CFO; Snowflake's motion to dismiss is due 2026-10-13 (10-Q).",
+      "source": {
+        "name": "Snowflake 10-Q",
+        "date": "2026-09-03",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000037/snow-20260731.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-02-24",
+        "stock_pct": 2.2,
+        "market_pct": 0.73,
+        "beyond_market_pct": 1.47,
+        "typical_day_pct": 1.74,
+        "z": 0.85,
+        "next_5_days_pct": 2.94
+      }
+    }
+  ],
+  "days": [
+    {
+      "report": "2026-10-04",
+      "trading_day": "2026-10-02",
+      "close": 341.04,
+      "day_pct": -0.28,
+      "market_part_pct": 0.76,
+      "industry_part_pct": -0.78,
+      "company_part_pct": -0.26,
+      "z": -0.08,
+      "main_news": "Closed the sale of $3.75bn of 0% convertible notes (loans paying no interest that lenders can swap for shares, at about $500.38 and $483.98); a hedge limits dilution up to $820.30. If converted, about 2.2% more shares (up to about 4%). First announced 2026-09-28."
+    }
+  ],
+  "upcoming": {
+    "as_of": "2026-10-04",
+    "events": [
+      {
+        "date": "2026-10-13",
+        "event": "Court deadline: Snowflake's motion to dismiss the 2026 class action",
+        "confirmed": true,
+        "source": {
+          "name": "Snowflake 10-Q",
+          "date": "2026-09-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000037/snow-20260731.htm",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-12-02",
+        "event": "Q3 FY2027 results (guidance product revenue $1,588-1,593m)",
+        "confirmed": false,
+        "source": {}
+      }
+    ]
+  }
+}

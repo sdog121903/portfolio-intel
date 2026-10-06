@@ -1,0 +1,168 @@
+{
+  "entity": "AXT INC",
+  "cik": 1051627,
+  "tags_used": {
+    "revenue": "Revenues+RevenueFromContractWithCustomerExcludingAssessedTax",
+    "gross_profit": "GrossProfit",
+    "operating_income": "OperatingIncomeLoss",
+    "net_income": "NetIncomeLoss",
+    "eps_diluted": "EarningsPerShareDiluted",
+    "diluted_shares": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "rnd": "ResearchAndDevelopmentExpense"
+  },
+  "latest_quarters": [
+    {
+      "period_end": "2024-09-30",
+      "fiscal": "2024 Q3",
+      "revenue": 23645000,
+      "revenue_yoy_pct": 36.16,
+      "gross_margin_pct": 24.03,
+      "operating_margin_pct": -14.4,
+      "net_income": -2937000,
+      "eps_diluted": -0.07,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2024-11-12",
+        "accession": "0001558370-24-015320",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "fiscal": "2024 Q4",
+      "revenue": 25105000,
+      "revenue_yoy_pct": 22.89,
+      "gross_margin_pct": 17.56,
+      "operating_margin_pct": -24.56,
+      "net_income": -5088000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2025-03-14",
+        "accession": "0001558370-25-003004",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2025-03-31",
+      "fiscal": "2025 Q1",
+      "revenue": 19356000,
+      "revenue_yoy_pct": -14.69,
+      "gross_margin_pct": -6.41,
+      "operating_margin_pct": -53.08,
+      "net_income": -8798000,
+      "eps_diluted": -0.2,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-05-14",
+        "accession": "0001558370-25-007751",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "fiscal": "2025 Q2",
+      "revenue": 17974000,
+      "revenue_yoy_pct": -35.63,
+      "gross_margin_pct": 7.97,
+      "operating_margin_pct": -37.53,
+      "net_income": -7008000,
+      "eps_diluted": -0.16,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-08-13",
+        "accession": "0001437749-26-027677",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "fiscal": "2025 Q3",
+      "revenue": 27955000,
+      "revenue_yoy_pct": 18.23,
+      "gross_margin_pct": 22.26,
+      "operating_margin_pct": -4.02,
+      "net_income": -1906000,
+      "eps_diluted": -0.04,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-13",
+        "accession": "0001437749-25-034843",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-12-31",
+      "fiscal": "2025 Q4",
+      "revenue": 23041000,
+      "revenue_yoy_pct": -8.22,
+      "gross_margin_pct": 20.95,
+      "operating_margin_pct": -16.64,
+      "net_income": -3548000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-03-17",
+        "accession": "0001437749-26-008612",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "fiscal": "2026 Q1",
+      "revenue": 26924000,
+      "revenue_yoy_pct": 39.1,
+      "gross_margin_pct": 29.63,
+      "operating_margin_pct": -5.89,
+      "net_income": -1620000,
+      "eps_diluted": -0.03,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-05-14",
+        "accession": "0001437749-26-017054",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-06-30",
+      "fiscal": "2026 Q2",
+      "revenue": 47589000,
+      "revenue_yoy_pct": 164.77,
+      "gross_margin_pct": 44.9,
+      "operating_margin_pct": 21.9,
+      "net_income": 11128000,
+      "eps_diluted": 0.17,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-08-13",
+        "accession": "0001437749-26-027677",
+        "derived": false
+      }
+    }
+  ],
+  "ttm": {
+    "revenue": 125509000,
+    "eps_diluted": 0.01,
+    "periods": [
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30"
+    ]
+  },
+  "notes": [
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "AXTI",
+  "fetched": "2026-10-04T15:49:24+00:00",
+  "stale_warning": null
+}

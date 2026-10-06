@@ -1,0 +1,254 @@
+{
+  "ticker": "BE",
+  "company": "Bloom Energy Corp",
+  "window": {"from": "2026-10-01 (after US close)", "to": "2026-10-04"},
+  "newest_item_checked": "2026-10-02: Form 4 filings (accepted 21:00 ET) and Friday 2026-10-02 session coverage (Investing.com 09:55 ET, 24/7 Wall St afternoon, Blockonomi). No company press release or 8-K found dated 2026-10-02 to 2026-10-04.",
+  "events": [
+    {
+      "date": "2026-10-01",
+      "timing": "after close",
+      "type": "policy / government (industry demand)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Virginia Gov. Abigail Spanberger released the 2026 Virginia Energy Plan (about 200 pages plus a 22-page brief). One scenario uses 'noncombustion natural gas resources such as fuel cells' as a near-term bridge. Market coverage (tier 3) reports the plan creates a 'non-combustion gas resource' category and allows up to 5 GW of it from 2029 to 2035; the 5 GW figure was NOT confirmed against the plan document itself. Bloom is not named in the plan per Cardinal News.",
+      "why_it_matters": "Virginia has the world's biggest data center cluster; a state plan that explicitly makes room for fuel cells widens the potential market for Bloom's product, though it is a planning document, not an order.",
+      "direction": "supports",
+      "sources": [
+        {"name": "Cardinal News", "date": "2026-10-01", "url": "https://cardinalnews.org/2026/10/01/spanberger-unveils-energy-plan-with-focus-on-achieving-a-net-zero-power-sector-by-2050/", "tier": 3},
+        {"name": "VPM (Virginia public media)", "date": "2026-10-02", "url": "https://www.vpm.org/news/2026-10-02/spanberger-energy-plan-vcea-rggi-dominion-solar-fossil-fuel-kilgore-sturtevant/", "tier": 3},
+        {"name": "Virginia Energy, 2026 Virginia Energy Plan (PDF, not opened)", "date": "2026-10-01", "url": "https://www.energy.virginia.gov/public/documents/Virginia%20Energy%20Plan/2026%20VEP%200.1%20.pdf", "tier": 1},
+        {"name": "Investing.com", "date": "2026-10-02", "url": "https://investing.com/news/stock-market-news/why-is-bloom-energy-stock-rallying-today-93CH-4930025", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "timing": "after close",
+      "type": "management commentary (media interview)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "CEO KR Sridhar on Bloomberg TV played down Oracle's force majeure notice on Project Jupiter (up to 2.45 GW of Bloom capacity), saying Bloom units are 'fungible': 'after we ship the units, after they're on the trucks, we can redirect the trucks to go to some other location'.",
+      "why_it_matters": "Management's answer to the biggest open risk (a delay at its largest project): if a site slips, boxes can go to another customer. That is a claim, not proof; revenue timing could still shift.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Yahoo Finance (reporting Bloomberg TV interview)", "date": "2026-10-02", "url": "https://finance.yahoo.com/energy/articles/bloom-energy-ceo-shrugs-off-013954535.html", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "timing": "before open",
+      "type": "analyst action",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Barclays (Christine Cho) kept Equal-Weight and raised its price target to $308 from $276, citing a newly acquired second Fremont, California factory (158,000 sq ft vs the existing 164,000 sq ft) that could lift capacity to 10-12 GW from 5-6 GW, and Ameren Missouri's resource plan including 500 MW of natural gas fuel cells by 2030. RBC (Christopher Dendrinos) reiterated Outperform, $335 target. Morgan Stanley Overweight, $310 (reported).",
+      "why_it_matters": "Opinions, not facts. They contain one factual input worth noting: a utility (Ameren) planning fuel cells as grid supply, which would be a new type of buyer for Bloom.",
+      "direction": "supports",
+      "sources": [
+        {"name": "Investing.com", "date": "2026-10-02", "url": "https://www.investing.com/news/stock-market-news/barclays-lifts-bloom-energy-target-to-308-on-factory-expansion-utility-shift-4927314", "tier": 3},
+        {"name": "GuruFocus", "date": "2026-10-02", "url": "https://www.gurufocus.com/news/9107770/be-maintained-by-barclays-price-target-raised-to-308", "tier": 3},
+        {"name": "Blockonomi", "date": "2026-10-02", "url": "https://blockonomi.com/bloom-energy-be-jumps-as-analysts-lift-targets-following-virginias-5-gw-energy-blueprint", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "price move (sector rotation)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "BE closed +4.17% at $289.15 (intraday high $297.59). Onsite-power and hydrogen names rallied as a group: FuelCell Energy +7%, Global X Hydrogen ETF (HYDR) +3%, S&P 500 about +0.7-1.0%. Pipeline attribution: market part +1.65%, industry part +4.23%, company-specific -1.71% (z -0.39), i.e. mostly explained by market and industry.",
+      "why_it_matters": "Friday's gain was not Bloom-specific news; it moved with its group. This stock has a 1-year beta of about 4.2 vs the market, so it swings far more than the index.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "24/7 Wall St", "date": "2026-10-02", "url": "https://247wallst.com/investing/2026/10/02/fuelcell-jumps-7-bloom-energy-climbs-3-as-hydrogen-stocks-rally-plug-power-sits-out", "tier": 3},
+        {"name": "Investing.com", "date": "2026-10-02", "url": "https://investing.com/news/stock-market-news/why-is-bloom-energy-stock-rallying-today-93CH-4930025", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "timing": "after close",
+      "type": "insider trade (Form 4 / Form 144)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Chief Commercial Officer Aman Joshi sold 8,437 shares at $277.17 on 2026-10-01 (about $2.34M), under a 10b5-1 plan adopted 2025-11-26; he still owns 147,092 shares (sale was about 5.4% of his holding). The shares came from RSUs that vested Aug-Sep 2026. Prior planned sales: 3,601 shares on 2026-09-16 and 4,677 on 2026-08-14. Directors Jeffrey Immelt (81 sh) and Cynthia Warner (83 sh) received routine stock grants on 2026-09-30.",
+      "why_it_matters": "Pre-scheduled sale of newly vested pay stock; says little about management's view. Not a thesis breaker.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4 (Joshi)", "date": "2026-10-02", "url": "https://www.sec.gov/Archives/edgar/data/1664703/000119312526412560/xslF345X06/ownership.xml", "tier": 1},
+        {"name": "SEC Form 144 (Joshi)", "date": "2026-10-01", "url": "https://www.sec.gov/Archives/edgar/data/1664703/000195004726009960/xsl144X01/primary_doc.xml", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "timing": "unknown",
+      "type": "customer / project risk (background)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Oracle sent a force majeure notice on Project Jupiter, the roughly $165B AI data center campus in Dona Ana County, New Mexico, built by Blue Owl's STACK Infrastructure for OpenAI and expected to use up to 2.45 GW of Bloom fuel cells. A natural-gas pipeline for the site slipped to February 2027 after permitting setbacks. Oracle said Jupiter 'remains on our planned schedule'; Blue Owl said the notice 'does not change the financial commitments'; Bloom said Oracle 'remains committed to Project Jupiter and to its contract with Bloom Energy'. BE then rose 8% to $288.77 on 2026-09-25.",
+      "why_it_matters": "Jupiter is the single largest project in Bloom's pipeline. A force majeure notice lets Oracle defer certain payments if the campus is late; a delay would push Bloom revenue later even if the contract survives. This is the closest thing to a thesis-breaker candidate (order delay) and must be watched.",
+      "direction": "weakens",
+      "sources": [
+        {"name": "CNBC", "date": "2026-09-24", "url": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html", "tier": 2},
+        {"name": "Bloomberg Law", "date": "2026-09-24", "url": "https://news.bloomberglaw.com/artificial-intelligence/oracle-cites-force-majeure-to-shield-itself-on-big-data-center", "tier": 2},
+        {"name": "24/7 Wall St", "date": "2026-09-25", "url": "https://247wallst.com/investing/2026/09/25/bloom-energy-jumps-8-as-oracle-reaffirms-2-4-gw-fuel-cell-contract-after-force-majeure-notice/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "timing": "after close",
+      "type": "earnings (background)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Q2 2026: revenue $1,065.4M (+165.5% y/y from $401.2M), product revenue $935.4M (+215.4%), service revenue $69.0M, GAAP gross margin 33.4% (non-GAAP 34.3%), operating income $182.2M (vs a $3.5M loss), operating cash flow $226.4M, GAAP EPS $0.62, non-GAAP EPS $0.78 (reported consensus about $0.39, tier 3). Full-year 2026 guidance raised to revenue $3.9-4.2B, non-GAAP gross margin about 34%, non-GAAP operating income $800-900M, non-GAAP EPS $2.55-2.85. Company says all major US hyperscalers and over a dozen neoclouds, AI labs and colocation operators have approved its systems.",
+      "why_it_matters": "This is the fundamental reason the stock has more than tripled this year: sales are growing very fast AND it has turned profitable with positive cash flow, which addresses both points of Santi's proposed thesis.",
+      "direction": "supports",
+      "sources": [
+        {"name": "Bloom Energy Q2 2026 results (8-K Ex. 99.1)", "date": "2026-07-28", "url": "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm", "tier": 1},
+        {"name": "Business Wire", "date": "2026-07-28", "url": "https://www.businesswire.com/news/home/20260728460825/en/Bloom-Energy-Reports-Record-Second-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance", "tier": 1},
+        {"name": "Investing.com earnings call transcript", "date": "2026-07-28", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-bloom-energy-tops-q2-2026-forecasts-shares-jump-after-hours-93CH-4818294", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "timing": "unknown",
+      "type": "short-seller report and litigation (background)",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Hunterbrook Media reported that Bloom relies on Chinese scandium (a rare metal used in its fuel cells), tracing 'four separate China-linked routes' into its supply chain, and questioned its financials. BE fell 5.7% to $254.29 that day. Bloom called the claims 'false and misleading' and said its scandium supply is not dependent on China. A securities class action was filed 2026-07-30 in the Northern District of California (class period 2025-02-27 to 2026-07-08); lead-plaintiff deadline was 2026-09-28.",
+      "why_it_matters": "An open supply-chain and legal risk: if China-linked supply were restricted, production could be affected; the lawsuit is pending. No regulator action found.",
+      "direction": "weakens",
+      "sources": [
+        {"name": "D&O Diary", "date": "2026-08", "url": "https://www.dandodiary.com/2026/08/articles/geopolitical-risk/geopolitical-issues-lead-to-securities-suit-against-fuel-cell-company/", "tier": 3},
+        {"name": "Bloomberg Law", "date": "not available", "url": "https://news.bloomberglaw.com/daily-labor-report/bloom-energy-investor-sues-over-short-sellers-china-accusations", "tier": 2},
+        {"name": "StreetInsider (company rebuttal)", "date": "not available", "url": "https://www.streetinsider.com/Corporate+News/Bloom+Energy+rejects+short-seller+report+on+its+financials/26750598.html", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "timing": "before open",
+      "type": "index inclusion (background)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "S&P Dow Jones announced on 2026-09-04 that Bloom would join the S&P 500; inclusion took effect before the open on 2026-09-21. Separately, on 2026-04-13 Bloom and Oracle expanded their master agreement to up to 2.8 GW of fuel cells, with an initial 1.2 GW contracted and deploying (Oracle also holds a warrant issued 2026-04-09).",
+      "why_it_matters": "Index inclusion forces index funds to own the stock and signals it is now a large company (market cap about $85B reported). The Oracle agreement is the largest disclosed customer framework.",
+      "direction": "supports",
+      "sources": [
+        {"name": "FuelCellsWorks", "date": "2026-09-08", "url": "https://fuelcellsworks.com/2026/09/08/fuel-cells/bloom-energy-to-join-s-and-p-500", "tier": 3},
+        {"name": "Motley Fool", "date": "2026-09-15", "url": "https://www.fool.com/investing/2026/09/15/should-you-buy-bloom-energy-stock-before-it-joins-the-s-and-p-500-on-sept-21/", "tier": 3},
+        {"name": "Bloom Energy press release (Oracle 2.8 GW)", "date": "2026-04-13", "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-and-Oracle-Expand-Strategic-Partnership-to-Deploy-up-to-2-8-GW-to-Accelerate-AI-Infrastructure-Build-Out/default.aspx", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "BE rose 4.17% on Friday 2026-10-02 to $289.15; the pipeline's model attributes +1.65% to the market and +4.23% to its industry, leaving -1.71% company-specific (within normal noise). Over 5 days it is flat (+0.16%).", "evidence": "data/metrics/attribution-2026-10-04.json; data/metrics/2026-10-04.json"},
+    {"rung": 2, "text": "Onsite-power and hydrogen stocks rallied as a group (FuelCell Energy +7%, HYDR ETF +3%) while the S&P 500 rose about 0.7-1.0%.", "evidence": "https://247wallst.com/investing/2026/10/02/fuelcell-jumps-7-bloom-energy-climbs-3-as-hydrogen-stocks-rally-plug-power-sits-out"},
+    {"rung": 3, "text": "Group catalyst: Virginia's 2026 Energy Plan, released Thursday 2026-10-01, includes fuel cells as a near-term 'noncombustion natural gas' resource; market coverage reports up to 5 GW from 2029-2035 (figure not confirmed in the plan document).", "evidence": "https://cardinalnews.org/2026/10/01/spanberger-unveils-energy-plan-with-focus-on-achieving-a-net-zero-power-sector-by-2050/ ; https://investing.com/news/stock-market-news/why-is-bloom-energy-stock-rallying-today-93CH-4930025"},
+    {"rung": 4, "text": "Bloom-specific add-ons the same morning: Barclays target raise to $308 (factory doubling capacity, Ameren utility fuel-cell plan) and RBC reiteration at $335. Because the company-specific residual was slightly negative, these did not add a measurable extra move on top of the group.", "evidence": "https://www.investing.com/news/stock-market-news/barclays-lifts-bloom-energy-target-to-308-on-factory-expansion-utility-shift-4927314 ; inference (medium) for the 'no measurable extra' part"},
+    {"rung": 5, "text": "Basic driver: investors expect AI data center electricity demand to outrun what the grid can deliver in time, so anything that makes onsite power (and fuel cells specifically) more likely to be allowed or bought lifts the whole group; Bloom, with a beta of about 4 vs the market, amplifies those swings.", "evidence": "inference (medium); beta from data/metrics/2026-10-04.json"}
+  ],
+  "products": [
+    {
+      "name": "Bloom Energy Server (solid-oxide fuel cell power system)",
+      "what_it_is": "A refrigerator-sized box that turns natural gas (or hydrogen) into electricity on site through a chemical reaction instead of burning it.",
+      "analogy": "Like a battery that never runs down as long as you keep feeding it gas: no flame, no turbine, just a chemical reaction that pushes out electricity.",
+      "buyers": "AI data center owners and operators (Oracle, Brookfield's AI factories, colocation operators, neoclouds), utilities (AEP and, per Barclays, Ameren Missouri in its plan), factories, hospitals and other commercial and industrial customers.",
+      "how_it_works": "Stacks of ceramic cells (using scandium-containing materials) run hot; natural gas is converted to hydrogen-rich gas and reacts electrochemically with oxygen from the air, producing electricity and heat. Units are modular: add more boxes to add megawatts, and they can be installed in weeks to months versus years for a grid connection.",
+      "price": "not disclosed",
+      "sales": "Unit or MW shipments not found in the Q2 release. Proxy (labelled): Q2 2026 product revenue $935.4M, total revenue $1,065.4M; FY2026 revenue guidance $3.9-4.2B. Oracle master agreement up to 2.8 GW with 1.2 GW initially contracted. Backlog figure not disclosed in the Q2 release (Barclays says backlog growth outstrips revenue growth: opinion).",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm ; https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-and-Oracle-Expand-Strategic-Partnership-to-Deploy-up-to-2-8-GW-to-Accelerate-AI-Infrastructure-Build-Out/default.aspx",
+      "stage": "Shipping and ramping in volume; second Fremont factory acquired (reported 2026-09-29 via City of Fremont post and analyst notes, not a company release found) to expand capacity.",
+      "size_for_company": "Core business: product revenue was about 88% of Q2 2026 revenue ($935.4M of $1,065.4M).",
+      "competition": "Gas turbines and reciprocating engines (e.g. GE Vernova, Caterpillar, Siemens Energy), other fuel cells (FuelCell Energy), batteries plus grid power, and future small nuclear reactors. Bloom's pitch is speed of installation and lower local emissions (no combustion).",
+      "why_investors_care": "It is the product behind the AI-power story; fast growth plus first real profits drove the stock up about 233% year to date.",
+      "watch_next": "Q3 results (late October): product revenue, MW shipped if disclosed, backlog, any update on Project Jupiter timing, factory capacity plan."
+    },
+    {
+      "name": "Project Jupiter (Oracle / OpenAI campus, New Mexico) contract",
+      "what_it_is": "Bloom's largest single project: fuel cells to power a roughly $165B AI data center campus in Dona Ana County, New Mexico.",
+      "analogy": "Like being the sole caterer for a giant new stadium: a huge order, but you only get paid as the stadium is built and opens.",
+      "buyers": "Oracle (tenant), with STACK Infrastructure (Blue Owl) as developer, for OpenAI computing capacity.",
+      "how_it_works": "Bloom boxes generate power on site, fed by natural gas through a pipeline whose in-service date slipped to February 2027.",
+      "price": "not disclosed",
+      "sales": "Up to 2.45 GW of Bloom capacity reported (some reports say 2.4 GW); dollar value not disclosed.",
+      "sales_source": "https://finance.yahoo.com/energy/articles/bloom-energy-ceo-shrugs-off-013954535.html ; https://247wallst.com/investing/2026/09/25/bloom-energy-jumps-8-as-oracle-reaffirms-2-4-gw-fuel-cell-contract-after-force-majeure-notice/",
+      "stage": "Contracted; site under development; Oracle force majeure notice issued 2026-09-24.",
+      "size_for_company": "not available (no dollar value disclosed); in capacity terms it is close to the whole 2.8 GW Oracle framework.",
+      "competition": "not applicable",
+      "why_investors_care": "A delay would push revenue later; CEO says units can be redirected to other customers.",
+      "watch_next": "Pipeline permitting progress; any 8-K or Q3 call comment on Jupiter timing or deferred payments."
+    }
+  ],
+  "earnings": {
+    "status": "none",
+    "date": "",
+    "confirmed": false,
+    "consensus": {},
+    "actual": {},
+    "guidance": {},
+    "key_metrics": {},
+    "quality_flags": [],
+    "management_explanation": "No earnings in the window. Last report Q2 2026 on 2026-07-28 (see background event).",
+    "sources": []
+  },
+  "next_earnings": {
+    "date": "2026-10-27 (estimated; one aggregator says 2026-10-26)",
+    "confirmed": false,
+    "consensus_eps": "$0.69 non-GAAP (aggregator via search snippet, 24 analysts; tier 3, unverified)",
+    "consensus_revenue": "$1.08B (aggregator via search snippet; tier 3, unverified)",
+    "company_guidance": "FY2026 (given 2026-07-28): revenue $3.9-4.2B, non-GAAP gross margin about 34%, non-GAAP operating income $800-900M, non-GAAP EPS $2.55-2.85. No separate quarterly guidance found.",
+    "sources": [
+      "https://finance.biggo.com/news/063e6262-980f-45bd-88f4-f834b715b882",
+      "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm",
+      "https://www.tipranks.com/stocks/be/earnings"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-10-02", "firm": "Barclays (Christine Cho)", "action": "Maintained Equal-Weight; price target raised to $308 from $276", "reason": "Second Fremont factory could lift capacity to 10-12 GW from 5-6 GW; Ameren Missouri plan for 500 MW of fuel cells by 2030 opens utility (front-of-the-meter) market; flagged Project Jupiter delay risk", "url": "https://www.investing.com/news/stock-market-news/barclays-lifts-bloom-energy-target-to-308-on-factory-expansion-utility-shift-4927314"},
+    {"date": "2026-10-02", "firm": "RBC Capital (Christopher Dendrinos)", "action": "Reiterated Outperform, $335 target", "reason": "Virginia Energy Plan favourable for fuel cells", "url": "https://blockonomi.com/bloom-energy-be-jumps-as-analysts-lift-targets-following-virginias-5-gw-energy-blueprint"},
+    {"date": "not available", "firm": "Morgan Stanley", "action": "Overweight, $310 target (reported, date not confirmed)", "reason": "not available", "url": "https://investing.com/news/stock-market-news/why-is-bloom-energy-stock-rallying-today-93CH-4930025"}
+  ],
+  "insiders": {
+    "summary": "One open-market sale in the window, under a pre-arranged 10b5-1 plan; two routine director stock grants. No open-market purchases. No unplanned insider selling.",
+    "notable": [
+      "Aman Joshi (Chief Commercial Officer) sold 8,437 shares at $277.17 on 2026-10-01 (about $2.34M), 10b5-1 plan adopted 2025-11-26; 147,092 shares still held. Earlier planned sales: 3,601 shares (2026-09-16, about $0.97M) and 4,677 shares (2026-08-14, about $1.13M). Sources: https://www.sec.gov/Archives/edgar/data/1664703/000119312526412560/xslF345X06/ownership.xml , https://www.sec.gov/Archives/edgar/data/1664703/000195004726009960/xsl144X01/primary_doc.xml",
+      "Directors Jeffrey Immelt (81 shares) and Cynthia Warner (83 shares) received stock awards on 2026-09-30 at $276.98: routine director pay."
+    ]
+  },
+  "filings": [
+    {"form": "4", "items": "Code S, 10b5-1", "plain_english": "CCO Aman Joshi sold 8,437 shares for about $2.34M under a pre-set trading plan.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1664703/000119312526412560/xslF345X06/ownership.xml"},
+    {"form": "4", "items": "Code A", "plain_english": "Director Jeffrey Immelt received 81 shares as pay.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1664703/000119312526412559/xslF345X06/ownership.xml"},
+    {"form": "4", "items": "Code A", "plain_english": "Director Cynthia Warner received 83 shares as pay.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1664703/000119312526412558/xslF345X06/ownership.xml"},
+    {"form": "144", "items": "", "plain_english": "Advance notice that Aman Joshi planned to sell 8,437 vested RSU shares (about $2.34M) around 2026-10-01; the matching Form 4 confirms the sale.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1664703/000195004726009960/xsl144X01/primary_doc.xml"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-27 (estimated)", "event": "Q3 2026 results and call (date per media; no company announcement found yet)", "confirmed": false, "url": "https://finance.biggo.com/news/063e6262-980f-45bd-88f4-f834b715b882"},
+    {"date": "2027-02 (reported)", "event": "Expected in-service date of the natural-gas pipeline for Oracle's Project Jupiter site", "confirmed": false, "url": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html"},
+    {"date": "not available", "event": "Securities class action (N.D. Cal., filed 2026-07-30): lead plaintiff appointment after the 2026-09-28 deadline", "confirmed": false, "url": "https://www.prnewswire.com/news-releases/levi--korsinsky-reminds-bloom-energy-investors-of-the-pending-class-action-lawsuit-with-a-lead-plaintiff-deadline-of-september-28-2026---be-302887157.html"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "Latest guidance (2026-07-28) was RAISED to $3.9-4.2B revenue; no update since. https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm"},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "No results in window. Last quarter (Q2, 2026-07-28) beat: non-GAAP EPS $0.78 vs about $0.39 consensus (tier 3)."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "Not found, but NEAR MISS: Oracle issued a force majeure notice on Project Jupiter (2026-09-24) letting it defer certain payments if the campus is late; Oracle, Blue Owl and Bloom all say the contract and commitments stand. https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html"},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "No 8-K in data/filings/2026-10-04.json; none found in searches. (Short-seller questioned financials in July; company denied; no restatement.)"},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "No 8-K in filings window; nothing found in searches."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "No 8-K in filings window; CEO KR Sridhar gave a Bloomberg TV interview around 2026-10-01."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "No S-3/424B/3.02 in filings window. Note: Oracle holds a warrant issued 2026-04-09 (potential future dilution, terms announced 2025-10-30, not checked)."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": true, "evidence": "PRE-EXISTING, not new in window: securities class action filed 2026-07-30 (N.D. Cal.) based on the Hunterbrook China-scandium report. No regulator investigation found. https://www.dandodiary.com/2026/08/articles/geopolitical-risk/geopolitical-issues-lead-to-securities-suit-against-fuel-cell-company/"},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "No downgrades found; Barclays raised its target, RBC reiterated Outperform on 2026-10-02."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "Only sale in window (Joshi) was under a 10b5-1 plan; filings file lists no sellers outside plans."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Oracle invoked force majeure on Project Jupiter (up to 2.45 GW of Bloom capacity) after the gas pipeline slipped to Feb 2027.", "url": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html", "assessment": "Real, tier 2, confirmed by Bloomberg Law. Contract not cancelled per all parties, but revenue timing risk on the biggest project is the key open question."},
+    {"claim": "Hunterbrook: Bloom depends on Chinese scandium; financials questioned; class action followed.", "url": "https://www.dandodiary.com/2026/08/articles/geopolitical-risk/geopolitical-issues-lead-to-securities-suit-against-fuel-cell-company/", "assessment": "Company denies. Lawsuit pending; outcome unknown. Supply-chain risk is plausible but unproven."},
+    {"claim": "Valuation is stretched: reported forward P/E about 108x 2026 and 59x 2027 estimates; MarketBeat average target $257.18 is below the $289.15 close; ratings split 15 buy / 12 hold / 2 sell.", "url": "https://finance.biggo.com/news/063e6262-980f-45bd-88f4-f834b715b882", "assessment": "Tier 3 figures, not verified. Directionally consistent: high expectations mean results must keep beating."},
+    {"claim": "Extreme volatility: 1-year max drawdown -52.65%, 60-day annualised volatility 109%, beta 4.23, ATR about 7.2% of price.", "url": "data/metrics/2026-10-04.json", "assessment": "Pipeline data. A normal day can move the stock 5-7% either way; relevant for a brand-new position."}
+  ],
+  "open_questions": [
+    "Exact Q3 2026 report date: no company announcement found yet (media say 2026-10-27; one aggregator says 2026-10-26).",
+    "Q3 consensus EPS $0.69 / revenue $1.08B comes from an aggregator snippet; not verified with a tier 1-2 source.",
+    "Virginia plan's '5 GW of non-combustion gas from 2029-2035' figure not confirmed against the plan PDF.",
+    "Second Fremont factory: reported via a City of Fremont post and analyst notes; no Bloom press release or 8-K found.",
+    "Backlog figure not disclosed in the Q2 release; the 10-Q (not opened) may contain remaining performance obligations.",
+    "Whether Oracle's force majeure notice changes the timing of Bloom's Jupiter revenue in 2026-2027.",
+    "Terms and size of the Oracle warrant (potential dilution) not checked."
+  ],
+  "searches_run": 14
+}

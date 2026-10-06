@@ -1,0 +1,229 @@
+{
+  "ticker": "CRWD",
+  "company": "CrowdStrike Holdings, Inc.",
+  "window": {"from": "2026-10-01 (after US close)", "to": "2026-10-04"},
+  "newest_item_checked": "SEC Form 4 (Michael Sentonas), accepted 2026-10-03T01:31 UTC (2026-10-02 evening US Eastern); SEC EDGAR filing list checked through 2026-10-04 shows no 8-K in the window; CrowdStrike newsroom shows no press release dated 2026-10-01 to 2026-10-04 (newest: 2026-09-29 OpenAI Marketplace).",
+  "events": [
+    {
+      "date": "2026-10-02",
+      "timing": "after close",
+      "type": "insider trades (Form 4, pre-planned 10b5-1 sales)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "President Michael Sentonas sold 241,944 shares on 2026-09-30 at weighted-average prices of $262.71-$267.96, about $64.2 million in total, under a 10b5-1 plan adopted 2026-07-01. 12,920 of the shares came from exercising 2016 stock options with a $1.665 strike. His directly held shares fell from 1,487,461 to 1,245,517 (about 16% of his direct stake sold). The matching Form 144 (2026-09-30) also lists an earlier sale of 49,863 shares on 2026-09-21 for $11,555,359.29. Same evening, CEO George Kurtz reported selling 20,000 shares on 2026-09-30 and 2026-10-01 for about $5.3 million (10,000 a day, about 0.26% of his direct stake). That plan was adopted 2026-01-06. He still holds 7,551,504 shares directly plus 400,000 through a family trust.",
+      "why_it_matters": "All sales are flagged as 10b5-1 (instructions set up in advance, after a cooling-off period), so they say little about management's current view. Kurtz has followed a steady 10,000-shares-a-day pattern all through the filings window. The size is notable, though: the pipeline counts 79 open-market sales worth about $210.4 million in the filings window and no purchases. The CFO's sale is the biggest (see background event). Nobody has sold outside a plan, so the insider thesis breaker did not fire.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4, Michael Sentonas", "date": "2026-10-02", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015176/xslF345X06/ownership.xml", "tier": 1},
+        {"name": "SEC Form 144, Michael Sentonas", "date": "2026-09-30", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000195004726009890/xsl144X01/primary_doc.xml", "tier": 1},
+        {"name": "SEC Form 4, George Kurtz", "date": "2026-10-02", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015151/xslF345X06/ownership.xml", "tier": 1},
+        {"name": "Investing.com", "date": "2026-10-02", "url": "https://investing.com/news/insider-trading-news/crowdstrike-ceo-george-kurtz-sells-53m-in-shares-93CH-4930547", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "timing": "unknown",
+      "type": "planned insider sale notice (Form 144)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Potomac Investments LP, which the form lists with the relationship 'Director', filed notice of a planned sale of 82,000 shares (about $21.8 million) through Goldman Sachs, approximately on 2026-10-01. The notice says the sale is under a 10b5-1 selling plan dated 2026-06-25. The same form lists earlier sales of 20,000 shares on 2026-09-01, 20,000 on 2026-08-04 and 5,000 on 2026-07-01. The shares came from a distribution by an Accel growth fund. The director behind the entity is not named in what we read.",
+      "why_it_matters": "A Form 144 is a notice of a planned sale, not proof of the sale. This one fits a pre-planned, recurring selling pattern, not a sudden exit.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 144, Potomac Investments LP", "date": "2026-10-01", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000195824426000634/xsl144X01/primary_doc.xml", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "timing": "unknown",
+      "type": "analyst price-target changes (opinion)",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "An article dated 2026-10-02 reports that TD Cowen (Buy, 'strong demand') and Stephens ('AI-driven cybersecurity market expansion') each raised their price targets to $280. The exact dates of those notes are not available. On 2026-10-02, StockAnalysis showed an average target of $235.67 from 53 analysts (range $132-$300), which is below the $270.04 close. Bernstein is listed at Hold with a $132 target.",
+      "why_it_matters": "These are opinions, not facts about value. The average analyst target sits below the current price, which suggests the stock has run ahead of many analysts' models.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Investing.com", "date": "2026-10-02", "url": "https://investing.com/news/insider-trading-news/crowdstrike-ceo-george-kurtz-sells-53m-in-shares-93CH-4930547", "tier": 3},
+        {"name": "StockAnalysis forecast page", "date": "2026-10-02", "url": "https://stockanalysis.com/stocks/crwd/forecast/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "timing": "after close",
+      "type": "background: quarterly earnings (Q2 FY2027) with raised guidance",
+      "materiality": "high",
+      "new_or_rehash": "rehash",
+      "summary": "Q2 FY27 (quarter ended 2026-07-31): revenue $1.47B (+26% YoY), subscription revenue $1.40B (+27%), ending ARR $5.84B (+25%), net new ARR $332.8M (+51% YoY, a record), GAAP net income $5.3M ($0.01/share), non-GAAP EPS $0.31, operating cash flow $530.3M, free cash flow $377.4M. Results beat consensus: revenue $1.44B, EPS $0.29, ARR $5.79B expected. Full-year FY27 revenue guidance went up to $5,991.1-$6,011.1M (consensus was $5.94B) and net new ARR growth guidance to 34% at the midpoint. The stock rose as much as 12% in after-hours trading.",
+      "why_it_matters": "This is the most recent hard evidence for the thesis that customers keep adding modules and ARR growth is speeding up, not slowing. It is also the base the market is now pricing from.",
+      "direction": "supports",
+      "sources": [
+        {"name": "CrowdStrike Q2 FY2027 earnings release (Yahoo Finance copy)", "date": "2026-08-26", "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-reports-second-quarter-fiscal-200500872.html", "tier": 1},
+        {"name": "CrowdStrike IR release (primary URL, fetch timed out)", "date": "2026-08-26", "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial", "tier": 1},
+        {"name": "SEC 8-K Items 2.02/9.01", "date": "2026-08-26", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/0001535527-26-000029-index.htm", "tier": 1},
+        {"name": "Quartz via Yahoo Finance", "date": "2026-08-26", "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-q2-fy2027-earnings-beat-204637537.html", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "timing": "unknown",
+      "type": "background: large CFO 10b5-1 sale",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "CFO Burt Podbere sold 480,000 shares on 2026-09-24 at about $259-$264, about $125.5 million in total (filed 2026-09-25). Of these, 320,000 came from his direct holding, which fell from 662,936 to 342,936, and 160,000 came from four family trusts. Direct sales are under a 10b5-1 plan adopted 2026-06-24. After the sales, the accounts that traded still held about 669,000 shares, and other trust holdings are listed with no transactions. The pipeline's '89.9% of holdings sold' figure is a parsing artefact: it mixes direct and trust lines. Calculated from the Form 4 lines, he sold roughly 42% of the shares in the accounts that traded, and less once the other trusts are counted.",
+      "why_it_matters": "This is the largest single insider sale in the window, by the executive who knows the numbers best. It was pre-planned (plan adopted three months earlier) and came after the stock had roughly doubled, so it is most likely diversification. Still, it is worth knowing about.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4, Burt W. Podbere", "date": "2026-09-25", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177861026000024/xslF345X06/form4-09252026_090901.xml", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "timing": "unknown",
+      "type": "background: product distribution / partnership",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "CrowdStrike put its Falcon platform on the OpenAI Marketplace. Eligible OpenAI enterprise customers can pay for Falcon with part of their existing OpenAI spending commitments. The release also mentions Falcon Guardian (runtime protection for OpenAI Codex agents) and a FAIRR readiness service. No pricing or customer numbers were disclosed. Earlier the same month, CrowdStrike bought XM Cyber technology assets on 2026-09-08 and paid with 2,118,022 newly issued shares; an S-3ASR resale shelf for those shares was filed 2026-09-11.",
+      "why_it_matters": "It is a new sales channel tied to the 'AI needs security' story management credits for faster growth. Its revenue effect is not disclosed.",
+      "direction": "supports",
+      "sources": [
+        {"name": "CrowdStrike press release", "date": "2026-09-29", "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-brings-the-falcon-platform-to-the-openai-marketplace/", "tier": 1},
+        {"name": "SEC Form S-3ASR", "date": "2026-09-11", "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000110465926107123/tm2625079-1_s3asr.htm", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "timing": "unknown",
+      "type": "background: 4-for-1 stock split (and Q1 FY27 results)",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "On 2026-06-03, alongside its Q1 FY27 results, the board approved a four-for-one stock split. Shares began trading on a split-adjusted basis on 2026-07-02. That is why today's price (about $270) looks far lower than the $400-plus prices quoted in older articles, and why the 52-week low of $85.68 is a split-adjusted number.",
+      "why_it_matters": "A split changes the number of slices, not the size of the pie, so it does not change the company's value. Santi needs to know it so he does not misread old prices.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC 8-K Items 2.02/8.01/9.01", "date": "2026-06-03", "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000022/crwd-20260603.htm", "tier": 1},
+        {"name": "Dealroom news feed", "date": "2026-06-03", "url": "https://app.dealroom.co/news/feed/crowdstrike-announces-4-for-1-stock-split-as-shares-surge-60-in-2026", "tier": 3}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Friday 2026-10-02: CRWD rose 1.48% to $270.04. The model splits that into +0.95 pt from the market, +0.26 pt from the cybersecurity industry (CIBR) and +0.27 pt company-specific (z-score 0.17). There is no company-specific move to explain. Over the past 5 days (+7.1%), almost all of the move (+7.04 pt) was the industry.", "evidence": "data/metrics/attribution-2026-10-04.json (pipeline)"},
+    {"rung": 2, "text": "No company press release or 8-K landed in the window. The only company-specific items were pre-planned insider sales disclosed after the close on Friday, which cannot explain Friday's move.", "evidence": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1535527&type=&dateb=&owner=include&count=40"},
+    {"rung": 3, "text": "Why cybersecurity stocks as a group rose this week: not established. The search budget ran out before an industry-level search could run. Commentary in tier-3 coverage links the sector rally to enthusiasm for 'AI-driven cybersecurity demand'.", "evidence": "inference (low)"},
+    {"rung": 4, "text": "Longer-run driver of the +130% year-to-date move: management credits AI adoption for faster growth ('The Mythos moment translated into mass-market acceptance that AI adoption needs security'). Net new ARR grew 51% YoY in Q2 and FY27 guidance was raised.", "evidence": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-reports-second-quarter-fiscal-200500872.html"},
+    {"rung": 5, "text": "Much of the price rise is valuation expansion (investors paying more per dollar of sales), not only growth. Trefis puts the stock at about 50x trailing sales against about 3x for the S&P 500, and Zacks puts it at 39x forward sales.", "evidence": "https://trefis.com/stock/crwd/articles/617417/what-changed-for-crowdstrike-stock-and-what-did-not/2026-10-02 (tier 3; medium confidence)"}
+  ],
+  "products": [
+    {
+      "name": "Falcon Flex",
+      "what_it_is": "A flexible way to buy CrowdStrike: the customer commits a budget up front and can switch on any Falcon modules later without signing a new contract each time.",
+      "analogy": "Like a prepaid gift card for a whole shopping mall instead of a receipt for one shop.",
+      "buyers": "Mid-size and large companies that already use some CrowdStrike modules.",
+      "how_it_works": "The customer signs a larger multi-module commitment, then draws it down by deploying modules such as cloud security, identity protection or Next-Gen SIEM as needed.",
+      "price": "not disclosed",
+      "sales": "Ending ARR from accounts that have adopted Falcon Flex exceeded $2.29 billion as of 2026-07-31, up 101% YoY",
+      "sales_source": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-reports-second-quarter-fiscal-200500872.html (copy of CrowdStrike Q2 FY27 release, 2026-08-26)",
+      "stage": "shipping, ramping",
+      "size_for_company": "Falcon Flex accounts make up about 39% of total ARR ($2.29B of $5.84B). Note this is ARR of all accounts that adopted Flex, not ARR sold through Flex alone.",
+      "competition": "Palo Alto Networks (platform bundles), Microsoft Defender (bundled with Microsoft 365), SentinelOne",
+      "why_investors_care": "It is the mechanism behind 'customers keep adding modules' (thesis pillar 1).",
+      "watch_next": "Flex ARR and its growth rate in the Q3 FY27 release (expected early December 2026)"
+    },
+    {
+      "name": "Falcon on the OpenAI Marketplace",
+      "what_it_is": "A new way to buy CrowdStrike: through OpenAI's enterprise marketplace, paid for with money a company has already committed to spend with OpenAI.",
+      "analogy": "Like being able to spend your airline miles at a partner hotel.",
+      "buyers": "Eligible OpenAI enterprise customers.",
+      "how_it_works": "The customer applies part of an existing OpenAI commitment to a Falcon purchase. The launch is paired with Falcon Guardian (runtime protection for OpenAI Codex AI agents) and a FAIRR readiness service.",
+      "price": "not disclosed",
+      "sales": "not disclosed (announced 2026-09-29)",
+      "sales_source": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-brings-the-falcon-platform-to-the-openai-marketplace/",
+      "stage": "announced / available",
+      "size_for_company": "not disclosed. Proxy: total ARR was $5.84B at 2026-07-31; no channel breakdown is given.",
+      "competition": "Other security vendors on cloud and AI marketplaces (e.g. AWS Marketplace); Microsoft security bundled with its own AI stack",
+      "why_investors_care": "It lowers the friction of buying CrowdStrike for companies already spending big on AI, which fits management's 'AI needs security' story.",
+      "watch_next": "Whether management cites OpenAI Marketplace deals or Falcon Guardian ARR on the Q3 call"
+    }
+  ],
+  "earnings": {
+    "status": "none",
+    "date": "",
+    "confirmed": true,
+    "consensus": {},
+    "actual": {},
+    "guidance": {},
+    "key_metrics": {},
+    "quality_flags": [],
+    "management_explanation": "No earnings in the window. Last report: Q2 FY27 on 2026-08-26 (see background event).",
+    "sources": []
+  },
+  "next_earnings": {
+    "date": "early December 2026 (estimated; Q3 FY27 covers the quarter ending 2026-10-31; last year's Q3 8-K was filed 2025-12-02)",
+    "confirmed": false,
+    "consensus_eps": "Q3 FY27 consensus EPS: not available. Full-year FY27 consensus EPS $1.26 (StockAnalysis/S&P Global, 2026-10-02)",
+    "consensus_revenue": "Q3 FY27: about $1.52B (consensus cited by Quartz/Yahoo, 2026-08-26, before guidance was issued). Full-year FY27: $6.01B (StockAnalysis, 2026-10-02)",
+    "company_guidance": "Q3 FY27: revenue $1,523.2-$1,529.2M; non-GAAP operating income $372.7-$375.9M; non-GAAP EPS $0.31. FY27: revenue $5,991.1-$6,011.1M; ending ARR $6,603.0-$6,611.9M; net new ARR growth 34% at midpoint; non-GAAP EPS $1.25-$1.26 (issued 2026-08-26)",
+    "sources": [
+      "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-reports-second-quarter-fiscal-200500872.html",
+      "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-q2-fy2027-earnings-beat-204637537.html",
+      "https://stockanalysis.com/stocks/crwd/forecast/",
+      "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1535527&type=8-K&dateb=&owner=include&count=10"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "not available (reported 2026-10-02)", "firm": "TD Cowen", "action": "Price target raised to $280; Buy maintained", "reason": "Strong demand conditions", "url": "https://investing.com/news/insider-trading-news/crowdstrike-ceo-george-kurtz-sells-53m-in-shares-93CH-4930547"},
+    {"date": "not available (reported 2026-10-02)", "firm": "Stephens", "action": "Price target raised to $280", "reason": "AI-driven cybersecurity market expansion", "url": "https://investing.com/news/insider-trading-news/crowdstrike-ceo-george-kurtz-sells-53m-in-shares-93CH-4930547"},
+    {"date": "not available", "firm": "Bernstein", "action": "Hold, $132 target (listed, not necessarily new)", "reason": "not available", "url": "https://stockanalysis.com/stocks/crwd/forecast/"},
+    {"date": "2026-10-02", "firm": "Zacks (quant ranking)", "action": "Zacks Rank #4 (Sell); Value Score F", "reason": "Valuation: forward price-to-sales 39.35x vs industry 19.86x", "url": "https://www.theglobeandmail.com/investing/markets/stocks/PANW/pressreleases/4930030/the-zacks-analyst-blog-highlights-crowdstrike-okta-and-palo-alto-networks/"}
+  ],
+  "insiders": {
+    "summary": "There were heavy, pre-planned insider sales and no purchases. The pipeline counts 79 open-market sales worth about $210.4M in the filings window, all flagged 10b5-1, with no sellers outside a plan. The CFO (about $125.5M on 2026-09-24) and the President (about $64.2M on 2026-09-30, plus $11.6M on 2026-09-21 per Form 144) are the big ones. The CEO's sales are small relative to his stake (10,000 shares a day). The plans were adopted 2026-01-06 (Kurtz), 2026-06-24 (Podbere), 2026-07-01 (Sentonas) and 2026-06-25 (Potomac Investments LP). The large sales came after the stock had more than doubled year to date.",
+    "notable": [
+      {"who": "Burt Podbere, CFO", "date": "2026-09-24", "action": "Sold 480,000 shares (320,000 direct + 160,000 via trusts), about $125.5M, 10b5-1 plan adopted 2026-06-24", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177861026000024/xslF345X06/form4-09252026_090901.xml"},
+      {"who": "Michael Sentonas, President", "date": "2026-09-30", "action": "Sold 241,944 shares, about $64.2M (incl. 12,920 from option exercise), about 16% of direct stake, 10b5-1 plan adopted 2026-07-01", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015176/xslF345X06/ownership.xml"},
+      {"who": "George Kurtz, CEO", "date": "2026-09-22 to 2026-10-01", "action": "Sold 10,000 shares per trading day (80,000 in the filings file, about $20.7M), 10b5-1 plan adopted 2026-01-06; still holds 7,551,504 direct + 400,000 via trust", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015151/xslF345X06/ownership.xml"},
+      {"who": "Potomac Investments LP (director-related)", "date": "2026-10-01", "action": "Form 144 notice to sell 82,000 shares (about $21.8M), 10b5-1 plan dated 2026-06-25", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000195824426000634/xsl144X01/primary_doc.xml"}
+    ]
+  },
+  "filings": [
+    {"form": "4", "items": "", "plain_english": "President Michael Sentonas sold 241,944 shares (about $64.2M) on 2026-09-30 under a pre-set plan, after exercising 12,920 options.", "materiality": "medium", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015176/xslF345X06/ownership.xml"},
+    {"form": "4", "items": "", "plain_english": "CEO George Kurtz sold 20,000 shares (about $5.3M) on 2026-09-30 and 2026-10-01 under a pre-set plan; routine for him.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015151/xslF345X06/ownership.xml"},
+    {"form": "144", "items": "", "plain_english": "Notice that Potomac Investments LP (director-related) plans to sell 82,000 shares (about $21.8M) under a 10b5-1 plan.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000195824426000634/xsl144X01/primary_doc.xml"},
+    {"form": "144", "items": "", "plain_english": "Notice of Sentonas's planned 241,944-share sale; the Form 4 above confirms it happened.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000195004726009890/xsl144X01/primary_doc.xml"},
+    {"form": "4", "items": "", "plain_english": "CFO Burt Podbere sold 480,000 shares (about $125.5M) on 2026-09-24 under a plan adopted 2026-06-24 (before the window, included for context).", "materiality": "medium", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177861026000024/xslF345X06/form4-09252026_090901.xml"},
+    {"form": "S-3ASR", "items": "", "plain_english": "Filed 2026-09-11 (before the window). Registers the resale of 2,118,022 shares that CrowdStrike issued to an XM Cyber affiliate (seller: Schwarz Digits Alpha Zwolfte GmbH) as payment for technology assets bought 2026-09-08. CrowdStrike gets no money from these sales. The shares were already issued, so this is not a new fundraising by the company.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000110465926107123/tm2625079-1_s3asr.htm"}
+  ],
+  "catalysts": [
+    {"date": "early December 2026 (estimated)", "event": "Q3 FY2027 results (quarter ending 2026-10-31): watch net new ARR against guidance, Falcon Flex ARR and the FY27 outlook", "confirmed": false, "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1535527&type=8-K&dateb=&owner=include&count=10"},
+    {"date": "ongoing", "event": "Possible resale of up to 2,118,022 shares by the XM Cyber affiliate under the 2026-09-11 S-3ASR (selling pressure, not dilution)", "confirmed": true, "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000110465926107123/tm2625079-1_s3asr.htm"},
+    {"date": "ongoing", "event": "Continued 10b5-1 insider sales (CEO about 10,000 shares a day)", "confirmed": true, "url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015151/xslF345X06/ownership.xml"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "Latest guidance (2026-08-26) was raised; no update since (no 8-K after 2026-08-26 on EDGAR through 2026-10-04)."},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "Q2 FY27 beat: revenue $1.47B vs $1.44B, EPS $0.31 vs $0.29 (Quartz/Yahoo, 2026-08-26). No results in the window."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "Nothing in company releases or the coverage read. Note: a dedicated search could not be run (search budget exhausted)."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "EDGAR 8-K list: last 8-K 2026-08-26 (Items 2.02, 9.01); no Item 4.02."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "EDGAR 8-K list shows no Item 4.01."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "No 5.02 8-K in the window. Earlier 5.02 8-Ks exist (2026-04-21, 2025-12-29); content not reviewed. The CEO and CFO are still filing Forms 4 as officers as of 2026-09-25/10-02."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "The S-3ASR of 2026-09-11 is a resale shelf for 2,118,022 shares already issued to an XM Cyber affiliate as acquisition payment. The company is not selling shares or raising money. Those shares were issued on 2026-09-08 (that was the small dilution event, before the window)."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "Nothing found in filings or sources read. A dedicated lawsuit/investigation search could not be run (search budget exhausted), so this is unverified."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "Only price-target raises (TD Cowen, Stephens) were seen. Zacks Rank #4 is a quant ranking, not an analyst downgrade. A dedicated downgrade search could not be run."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "Pipeline: sellers_not_under_10b5_1_plan = []. Form 4 footnotes confirm plan adoption dates: Kurtz 2026-01-06, Podbere 2026-06-24, Sentonas 2026-07-01, Potomac 2026-06-25."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Valuation is stretched: about 50x trailing sales vs about 3x for the S&P 500, and most of the gain came from multiple expansion.", "url": "https://trefis.com/stock/crwd/articles/617417/what-changed-for-crowdstrike-stock-and-what-did-not/2026-10-02", "assessment": "Tier 3, but the direction is consistent with Zacks (39x forward sales). Credible as a risk framing; the exact multiple was not verified."},
+    {"claim": "The average analyst price target ($235.67, 53 analysts) is about 13% below the $270.04 close; Bernstein holds a $132 target.", "url": "https://stockanalysis.com/stocks/crwd/forecast/", "assessment": "Tier 3 aggregator, consistent with the stock running ahead of models. These are opinions, not facts."},
+    {"claim": "Zacks Rank #4 (Sell) and Value Score F on 2026-10-02.", "url": "https://www.theglobeandmail.com/investing/markets/stocks/PANW/pressreleases/4930030/the-zacks-analyst-blog-highlights-crowdstrike-okta-and-palo-alto-networks/", "assessment": "A quant model ranking (tier 3), weak evidence on its own."},
+    {"claim": "Profitability is thin on a GAAP basis: Q2 FY27 GAAP net income was only $5.3M ($0.01/share) vs non-GAAP EPS of $0.31; Trefis says the trailing-12-month operating margin is -2.2%.", "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-reports-second-quarter-fiscal-200500872.html", "assessment": "Fact from the release. The gap between GAAP and non-GAAP is mostly stock-based compensation (inference, high), which the thesis lists as a metric to watch."},
+    {"claim": "Top executives sold about $210M of stock in roughly two weeks near all-time highs.", "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177861026000024/xslF345X06/form4-09252026_090901.xml", "assessment": "Fact. All sales were under 10b5-1 plans adopted months earlier, so they are weak as a signal; still worth stating plainly."}
+  ],
+  "open_questions": [
+    "Why the cybersecurity group (CIBR) rose about 7% in the week of 2026-09-28: not established (no industry search possible).",
+    "Lawsuit, investigation, short-seller and downgrade searches could not be run because the session's web-search budget was exhausted. These thesis breakers are 'not found in sources read', not 'confirmed absent'.",
+    "Exact dates of the TD Cowen and Stephens target raises.",
+    "Q3 FY27 earnings date not confirmed (IR events page timed out); Q3 consensus EPS not available.",
+    "Content of the 2026-04-21 8-K (Item 5.02, executive change) was not reviewed. It may matter for background on leadership.",
+    "Identity ARR above $585M (+34%) comes from Zacks (tier 3); not checked against the release.",
+    "What the 'Mythos moment' cited by the CEO refers to, and how the April 2026 AI-fear selloff unfolded: only Trefis (tier 3) describes it; not confirmed with a tier 1-2 source."
+  ],
+  "searches_run": 6
+}

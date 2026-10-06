@@ -1,0 +1,168 @@
+{
+  "entity": "Moderna, Inc.",
+  "cik": 1682852,
+  "tags_used": {
+    "revenue": "Revenues+RevenueFromContractWithCustomerExcludingAssessedTax",
+    "gross_profit": null,
+    "operating_income": "OperatingIncomeLoss",
+    "net_income": "NetIncomeLoss",
+    "eps_diluted": "EarningsPerShareDiluted",
+    "diluted_shares": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "rnd": "ResearchAndDevelopmentExpense"
+  },
+  "latest_quarters": [
+    {
+      "period_end": "2024-09-30",
+      "fiscal": "2024 Q3",
+      "revenue": 1862000000,
+      "revenue_yoy_pct": 1.69,
+      "gross_margin_pct": null,
+      "operating_margin_pct": -3.76,
+      "net_income": 13000000,
+      "eps_diluted": 0.03,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-06",
+        "accession": "0001682852-25-000075",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2024-12-31",
+      "fiscal": "2024 Q4",
+      "revenue": 966000000,
+      "revenue_yoy_pct": -65.64,
+      "gross_margin_pct": null,
+      "operating_margin_pct": -128.99,
+      "net_income": -1120000000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-02-20",
+        "accession": "0001682852-26-000033",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2025-03-31",
+      "fiscal": "2025 Q1",
+      "revenue": 108000000,
+      "revenue_yoy_pct": -35.33,
+      "gross_margin_pct": null,
+      "operating_margin_pct": -972.22,
+      "net_income": -971000000,
+      "eps_diluted": -2.52,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-05-01",
+        "accession": "0001682852-26-000060",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-06-30",
+      "fiscal": "2025 Q2",
+      "revenue": 142000000,
+      "revenue_yoy_pct": -41.08,
+      "gross_margin_pct": null,
+      "operating_margin_pct": -638.73,
+      "net_income": -825000000,
+      "eps_diluted": -2.13,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accession": "0001682852-26-000150",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-09-30",
+      "fiscal": "2025 Q3",
+      "revenue": 1016000000,
+      "revenue_yoy_pct": -45.44,
+      "gross_margin_pct": null,
+      "operating_margin_pct": -25.59,
+      "net_income": -200000000,
+      "eps_diluted": -0.51,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-11-06",
+        "accession": "0001682852-25-000075",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-12-31",
+      "fiscal": "2025 Q4",
+      "revenue": 678000000,
+      "revenue_yoy_pct": -29.81,
+      "gross_margin_pct": null,
+      "operating_margin_pct": -126.4,
+      "net_income": -826000000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-02-20",
+        "accession": "0001682852-26-000033",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2026-03-31",
+      "fiscal": "2026 Q1",
+      "revenue": 389000000,
+      "revenue_yoy_pct": 260.19,
+      "gross_margin_pct": null,
+      "operating_margin_pct": -356.81,
+      "net_income": -1343000000,
+      "eps_diluted": -3.4,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-05-01",
+        "accession": "0001682852-26-000060",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-06-30",
+      "fiscal": "2026 Q2",
+      "revenue": 145000000,
+      "revenue_yoy_pct": 2.11,
+      "gross_margin_pct": null,
+      "operating_margin_pct": -562.07,
+      "net_income": -782000000,
+      "eps_diluted": -1.97,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accession": "0001682852-26-000150",
+        "derived": false
+      }
+    }
+  ],
+  "ttm": {
+    "revenue": 2228000000,
+    "eps_diluted": -7.98,
+    "periods": [
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30"
+    ]
+  },
+  "notes": [
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "MRNA",
+  "fetched": "2026-10-04T15:49:29+00:00",
+  "stale_warning": null
+}

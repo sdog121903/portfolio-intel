@@ -1,0 +1,205 @@
+{
+  "ticker": "AAOI",
+  "items": [
+    {
+      "key": "aaoi-2026-10-02-optical-rally",
+      "date": "2026-10-02",
+      "timing": "during",
+      "type": "industry move (no company news)",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Jumped 7.71% on Friday (and 8.1% on Thursday) with no company news, as optical-networking stocks rose together.",
+      "source": {
+        "name": "24/7 Wall St.",
+        "date": "2026-10-02",
+        "url": "https://247wallst.com/investing/2026/10/02/applied-optoelectronics-is-unstoppable-up-8-today-and-231-this-year-is-aaoi-stock-too-hot-to-handle-now/",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-10-02",
+        "stock_pct": 7.71,
+        "market_pct": 0.74,
+        "beyond_market_pct": 6.97,
+        "typical_day_pct": 8.1,
+        "z": 0.86,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "aaoi-2026-08-21-600m-share-program",
+      "date": "2026-08-21",
+      "timing": "unknown",
+      "type": "share sale program (dilution)",
+      "materiality": "high",
+      "direction": "bad",
+      "what": "Set up a program to sell up to $600m of new shares over time, its third this year; the stock fell 13.8% the next trading day.",
+      "source": {
+        "name": "AOI 8-K",
+        "date": "2026-08-21",
+        "url": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926099688/tm2623389d2_8k.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-08-21",
+        "stock_pct": -3.32,
+        "market_pct": 0.41,
+        "beyond_market_pct": -3.72,
+        "typical_day_pct": 8.02,
+        "z": -0.46,
+        "next_5_days_pct": -14.89
+      }
+    },
+    {
+      "key": "aaoi-2026-08-06-10q-concentration",
+      "date": "2026-08-06",
+      "timing": "after close",
+      "type": "filing (10-Q)",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "The 10-Q showed shares outstanding rose from 75.0m to 84.4m in six months; top 10 customers are 99% of revenue; customers owe $314.0m, $211.0m of it from one distributor; GAAP net loss $22.8m.",
+      "source": {
+        "name": "AOI 10-Q",
+        "date": "2026-08-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926026278/aaoi20260630_10q.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-08-07",
+        "stock_pct": 9.19,
+        "market_pct": 0.61,
+        "beyond_market_pct": 8.57,
+        "typical_day_pct": 7.92,
+        "z": 1.08,
+        "next_5_days_pct": 10.8
+      }
+    },
+    {
+      "key": "aaoi-2026-08-06-q2-results",
+      "date": "2026-08-06",
+      "timing": "after close",
+      "type": "earnings",
+      "materiality": "high",
+      "direction": "good",
+      "what": "Record Q2 revenue $191.9m (+86.4%), data centers 56.1%, first adjusted profit; Q3 guided to $255-290m; building capacity for about 650,000 high-speed units a month by end-2026.",
+      "source": {
+        "name": "AOI Q2 2026 results",
+        "date": "2026-08-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006055/aaoi_ex9901.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-04",
+      "reports": [
+        "2026-10-04"
+      ],
+      "reaction": {
+        "day": "2026-08-07",
+        "stock_pct": 9.19,
+        "market_pct": 0.61,
+        "beyond_market_pct": 8.57,
+        "typical_day_pct": 7.92,
+        "z": 1.08,
+        "next_5_days_pct": 10.8
+      }
+    },
+    {
+      "key": "aaoi-2026-10-05-atm-completed",
+      "date": "2026-10-05",
+      "timing": "before open",
+      "type": "share sale (dilution) completed",
+      "materiality": "high",
+      "direction": "mixed",
+      "what": "Confirmed its $600m at-the-market share sale (announced 2026-08-21) is complete: 5,694,845 new shares at an average $105.36, $588.0m after fees, about 6.7% more shares; shares are up about 12.5% in five months, meeting AAOI trigger 6 read literally (THESIS ALERT). The stock still rose 5.17%: the end of the selling may have helped, or the optical rally simply continued (inference, low-to-medium confidence).",
+      "source": {
+        "name": "PR Newswire",
+        "date": "2026-10-05",
+        "url": "https://www.prnewswire.com/news-releases/applied-optoelectronics-announces-completion-of-previously-announced-at-the-market-offering-302897857.html",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-05",
+      "reports": [
+        "2026-10-05"
+      ],
+      "reaction": {
+        "day": "2026-10-05",
+        "stock_pct": 5.17,
+        "market_pct": 0.67,
+        "beyond_market_pct": 4.5,
+        "typical_day_pct": 8.1,
+        "z": 0.56,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "aaoi-2026-10-05-form144-yeh",
+      "date": "2026-10-05",
+      "timing": "after close",
+      "type": "insider planned sale (10b5-1)",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Officer Shu-Hua (Joshua) Yeh filed notice to sell 6,000 shares (about $0.72m) under a 10b5-1 plan dated 2026-03-19; about 0.007% of shares.",
+      "source": {
+        "name": "SEC Form 144",
+        "date": "2026-10-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1158114/000197407826000376/xsl144X01/primary_doc.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-05",
+      "reports": [
+        "2026-10-05"
+      ]
+    }
+  ],
+  "days": [
+    {
+      "report": "2026-10-04",
+      "trading_day": "2026-10-02",
+      "close": 115.59,
+      "day_pct": 7.71,
+      "market_part_pct": 1.15,
+      "industry_part_pct": 2.6,
+      "company_part_pct": 3.96,
+      "z": 0.5,
+      "main_news": "Jumped 7.71% on Friday (and 8.1% on Thursday) with no company news, as optical-networking stocks rose together."
+    },
+    {
+      "report": "2026-10-05",
+      "trading_day": "2026-10-05",
+      "close": 121.57,
+      "day_pct": 5.17,
+      "market_part_pct": 1.06,
+      "industry_part_pct": -0.29,
+      "company_part_pct": 4.41,
+      "z": 0.56,
+      "main_news": "Confirmed its $600m at-the-market share sale (announced 2026-08-21) is complete: 5,694,845 new shares at an average $105.36, $588.0m after fees, about 6.7% more shares; shares are up about 12.5% in five months, meeting AAOI trigger 6 read literally (THESIS ALERT). The stock still rose 5.17%: the end of the selling may have helped, or the optical rally simply continued (inference, low-to-medium confidence)."
+    }
+  ],
+  "upcoming": {
+    "as_of": "2026-10-05",
+    "events": [
+      {
+        "date": "about 2026-11-05",
+        "event": "Q3 2026 results (guidance $255-290m; not announced)",
+        "confirmed": false,
+        "source": {}
+      }
+    ]
+  }
+}

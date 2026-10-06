@@ -1,0 +1,168 @@
+{
+  "entity": "Viavi Solutions Inc.",
+  "cik": 912093,
+  "tags_used": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax+SalesRevenueNet",
+    "gross_profit": "GrossProfit",
+    "operating_income": "OperatingIncomeLoss",
+    "net_income": "NetIncomeLoss",
+    "eps_diluted": "EarningsPerShareDiluted",
+    "diluted_shares": "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "rnd": "ResearchAndDevelopmentExpense"
+  },
+  "latest_quarters": [
+    {
+      "period_end": "2024-09-28",
+      "fiscal": "2025 Q1",
+      "revenue": 238200000,
+      "revenue_yoy_pct": -3.91,
+      "gross_margin_pct": 57.14,
+      "operating_margin_pct": 4.83,
+      "net_income": -1800000,
+      "eps_diluted": -0.01,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-10-30",
+        "accession": "0000912093-25-000153",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2024-12-28",
+      "fiscal": "2025 Q2",
+      "revenue": 270800000,
+      "revenue_yoy_pct": 6.4,
+      "gross_margin_pct": 59.38,
+      "operating_margin_pct": 8.2,
+      "net_income": 9100000,
+      "eps_diluted": 0.04,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-01-29",
+        "accession": "0001628280-26-004138",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-03-29",
+      "fiscal": "2025 Q3",
+      "revenue": 284800000,
+      "revenue_yoy_pct": 15.77,
+      "gross_margin_pct": 56.43,
+      "operating_margin_pct": 2.98,
+      "net_income": 19500000,
+      "eps_diluted": 0.09,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-04-30",
+        "accession": "0001628280-26-028926",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-06-28",
+      "fiscal": "2025 Q4",
+      "revenue": 290500000,
+      "revenue_yoy_pct": 15.28,
+      "gross_margin_pct": 56.28,
+      "operating_margin_pct": 5.27,
+      "net_income": 8000000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-08-13",
+        "accession": "0001628280-26-056765",
+        "derived": true
+      }
+    },
+    {
+      "period_end": "2025-09-27",
+      "fiscal": "2026 Q1",
+      "revenue": 299100000,
+      "revenue_yoy_pct": 25.57,
+      "gross_margin_pct": 56.5,
+      "operating_margin_pct": 2.54,
+      "net_income": -21400000,
+      "eps_diluted": -0.1,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2025-10-30",
+        "accession": "0000912093-25-000153",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2025-12-27",
+      "fiscal": "2026 Q2",
+      "revenue": 369300000,
+      "revenue_yoy_pct": 36.37,
+      "gross_margin_pct": 57.03,
+      "operating_margin_pct": 3.09,
+      "net_income": -48100000,
+      "eps_diluted": -0.21,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-01-29",
+        "accession": "0001628280-26-004138",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-03-28",
+      "fiscal": "2026 Q3",
+      "revenue": 406800000,
+      "revenue_yoy_pct": 42.84,
+      "gross_margin_pct": 57.55,
+      "operating_margin_pct": 6.1,
+      "net_income": 6400000,
+      "eps_diluted": 0.03,
+      "eps_derived": false,
+      "source": {
+        "form": "10-Q",
+        "filed": "2026-04-30",
+        "accession": "0001628280-26-028926",
+        "derived": false
+      }
+    },
+    {
+      "period_end": "2026-06-27",
+      "fiscal": "2026 Q4",
+      "revenue": 443100000,
+      "revenue_yoy_pct": 52.53,
+      "gross_margin_pct": 59.06,
+      "operating_margin_pct": 13.83,
+      "net_income": 32700000,
+      "eps_diluted": null,
+      "eps_derived": true,
+      "source": {
+        "form": "10-K",
+        "filed": "2026-08-13",
+        "accession": "0001628280-26-056765",
+        "derived": true
+      }
+    }
+  ],
+  "ttm": {
+    "revenue": 1518300000,
+    "eps_diluted": -0.13,
+    "periods": [
+      "2025-09-27",
+      "2025-12-27",
+      "2026-03-28",
+      "2026-06-27"
+    ]
+  },
+  "notes": [
+    "Q4 values marked derived = annual 10-K figure minus the three 10-Q quarters.",
+    "Derived Q4 EPS is left empty (EPS does not add up across quarters): take Q4 EPS from the company's earnings release. TTM EPS that includes a derived Q4 is approximate."
+  ],
+  "ticker": "VIAV",
+  "fetched": "2026-10-04T15:49:33+00:00",
+  "stale_warning": null
+}
