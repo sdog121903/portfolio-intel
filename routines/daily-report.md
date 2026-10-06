@@ -158,11 +158,22 @@ This writes `reports/pdf/<DATE>.pdf`, the same report as a PDF that opens anywhe
 (for example `fpdf2` could not be installed), say so in the session summary and commit anyway:
 the Markdown report is the record.
 
-## 14. Keep it on this computer
+## 14. Commit and push
 
-The report, PDF, data, news logs and lesson stay in this folder; git ignores them on purpose. **Do not
-commit or push** them (the GitHub repository shares the tool, not anyone's reports). **No email.** Email delivery is switched off (owner's decision, 2026-10-04): the report lives in
-`reports/`. Never send, draft or forward email.
+The report, PDF, data, news logs, lesson, learning ledger and thesis updates are committed and
+pushed to GitHub after every run (owner's decision, 2026-10-06). The repository is public, so they
+are visible to anyone. Price CSVs (`data/prices/*.csv`) stay ignored because each run re-downloads them.
+
+```bash
+git add reports/ data/ learning/ theses/
+git commit -m "Daily report <DATE>"
+git push origin main
+```
+
+Commit only those output paths; leave any other uncommitted work alone and mention it in the
+summary. Never commit secrets. If the push fails, say so in the summary (the commit stays local).
+**No email.** Email delivery is switched off (owner's decision, 2026-10-04). Never send, draft or
+forward email.
 
 ## If things go wrong
 

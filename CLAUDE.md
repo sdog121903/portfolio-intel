@@ -7,9 +7,11 @@ folder; the session reads this file, follows `routines/daily-report.md`, and sav
 ## How it runs
 
 Locally, on the owner's computer, when he types **`/go`** in Claude Code inside this folder
-(`.claude/commands/go.md`): the daily report, plus the weekly deep dive on Sundays. Reports, PDFs,
-data and lessons stay on this computer (git ignores them). The GitHub repository shares the tool
-so others can download it and connect it to their own Claude.
+(`.claude/commands/go.md`): the daily report, plus the weekly deep dive on Sundays. After each run
+the reports, PDFs, data, news logs and lessons are committed and pushed to the GitHub repository
+(owner's decision, 2026-10-06; the repository is public, so they are visible to anyone). Only the
+price CSVs in `data/prices/` stay local. The repository also shares the tool so others can download
+it and connect it to their own Claude.
 
 ## The bottom line (overrides everything else)
 
@@ -45,7 +47,8 @@ Read `.claude/skills/explain-like-a-teacher/SKILL.md` before writing anything fo
 - **No email.** Delivery is the report in `reports/` (Markdown plus PDF). Never send, draft,
   reply to, forward or delete email.
 - **Never commit secrets.**
-- Work only inside this repository. Never commit or push reports, PDFs, data or lessons.
+- Work only inside this repository. After each run, commit and push the report, PDF, data, news
+  logs, lesson and thesis updates (`routines/daily-report.md` step 14). Nothing else is ever sent out.
 
 ## Map of the repo
 

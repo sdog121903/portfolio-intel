@@ -26,8 +26,9 @@ on your computer (in this folder) so the history and his learning build up over 
 ## Set it up and run it
 
 Everything runs on your own computer with your own Claude account: open Claude Code in this
-folder and type **`/go`**. The report and its PDF appear in `reports/` and `reports/pdf/`; nothing
-is uploaded or emailed, and git ignores your reports. Step by step: `setup/HOW_TO_RUN.md`.
+folder and type **`/go`**. The report and its PDF appear in `reports/` and `reports/pdf/`, and each
+run commits and pushes them (with the data behind them) to your repository. Nothing is emailed. If
+you do not want your holdings public, keep your copy of the repository private. Step by step: `setup/HOW_TO_RUN.md`.
 
 ## Make it yours
 - **Write your reasons** in `theses/<TICKER>.md` under "Why I own it". The report tests the news

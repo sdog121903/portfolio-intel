@@ -12,6 +12,6 @@ One page per stock (`<TICKER>.md`), rebuilt on every report run, newest first. E
 
 The record behind each page is `data/news-log/<TICKER>.json`; the pages are rebuilt from it by
 `.claude/skills/news-and-events/scripts/news_log.py`, so edits made here by hand are lost.
-Both stay on this computer (git ignores them), like the reports.
+Both are committed and pushed with each report.
 
 Informational research and education, not investment advice.

@@ -1,7 +1,7 @@
 __pycache__/
 *.pyc
 .DS_Store
-# Price CSVs are re-downloaded every run; metrics, filings and research snapshots are kept.
+# Price CSVs are re-downloaded every run; everything else in data/ is committed with each report.
 data/prices/*.csv
 # Secrets never belong in the repository; keys live in the cloud environment.
 .env
@@ -10,13 +10,5 @@ data/prices/*.csv
 *.key
 # Local Python environment created by scripts/bootstrap.sh
 .venv/
-# Personal output stays on this computer (the repository shares only the tool)
-reports/daily/*/
-reports/deep-dives/*-20*.md
-reports/pdf/*.pdf
-learning/lessons/20*.md
-data/*/*
-!data/*/.gitkeep
-# Each stock's news log is personal history: the record lives in data/news-log/, the pages here
-theses/news/*.md
-!theses/news/README.md
+# Reports, PDFs, lessons, news logs and data are committed and pushed after every run
+# (owner's decision, 2026-10-06). The repository is public, so they are visible to anyone.

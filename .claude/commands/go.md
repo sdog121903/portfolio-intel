@@ -15,6 +15,8 @@ step fails, use the documented fallback, keep going, and say what failed in the 
    pipeline with `--fallback` and put a warning at the top of the report.
 4. If today is Sunday in Europe/Madrid, or no file in `reports/deep-dives/` is newer than 7 days,
    also follow `routines/weekly-deep-dive.md`.
-5. Everything stays on this computer: **do not commit, push or send email.**
-6. Finish with a short summary: what worked, what failed, and the paths of the new report(s) and
-   PDF(s) (`reports/pdf/`).
+5. When the report passes the linter and the PDF is made, commit and push the run's outputs
+   (runbook step 14: reports, PDFs, data, news logs, lessons, learning and thesis updates). **Never
+   send email**, and never commit secrets.
+6. Finish with a short summary: what worked, what failed, the paths of the new report(s) and
+   PDF(s) (`reports/pdf/`), and the commit that was pushed.
