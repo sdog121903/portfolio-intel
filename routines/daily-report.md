@@ -112,7 +112,7 @@ Fill `.claude/skills/portfolio-daily-report/templates/report.md` and save it to
 Every stock keeps a running record of its news and how the price reacted (`news-and-events`,
 section "The news log"). Write `data/research/<DATE>/news-log.json` with the items that made it
 into the final, fact-checked report (same numbers, same sources; reuse an item's `key` when the
-same event appears again), then run:
+same event appears again) plus each stock's `upcoming` calendar, then run:
 
 ```bash
 python3 .claude/skills/news-and-events/scripts/news_log.py update --date <DATE>
@@ -121,13 +121,34 @@ python3 .claude/skills/news-and-events/scripts/news_log.py update --date <DATE>
 It updates `data/news-log/<TICKER>.json` and rebuilds `theses/news/<TICKER>.md` for every
 holding. If it fails, say so in "Data quality and sources"; the report itself is unaffected.
 
-## 11. Update the learning ledger
+## 11. Keep each thesis file current
+
+The theses were approved by Santi on 2026-10-05. Keep them true to today's facts:
+
+```bash
+python3 .claude/skills/position-review/scripts/thesis_tools.py numbers --date <DATE>
+python3 .claude/skills/position-review/scripts/thesis_tools.py check
+```
+
+`numbers` rebuilds the "The numbers behind it" block (SEC quarterly trend and price trend). Then,
+for every stock with material news today (results, guidance, a filing, a trigger's early warning):
+- **Facts as of**: update the figures, change the heading date to today and cite the source.
+- **Key trends**: add or update the sourced trend line (for example "guidance raised from X to Y").
+- **Pillars**: update each affected "Now" line; **Triggers**: update each affected "Status now"
+  (Not hit / Early warning / Hit), with the source.
+- **Change log**: one dated line saying what changed and why.
+Never rewrite the reasons, the theses or the wording of a pillar or trigger: those are Santi's
+approved thesis. If the evidence argues for changing one, propose it in the report ("Your
+rules today") and in the change log as "Proposed:", and wait for his approval. Fix everything
+`check` flags; anything left unfixed goes in "Data quality and sources".
+
+## 12. Update the learning ledger
 
 For each term explained today:
 `python3 .claude/skills/learning-tracker/scripts/concept_ledger.py taught "<term>" --one-liner "<plain definition>"`
 Tick topics covered in `learning/curriculum.md`.
 
-## 12. Make the PDF
+## 13. Make the PDF
 
 ```bash
 python3 .claude/skills/portfolio-daily-report/scripts/render_pdf.py reports/daily/<YYYY>/<MM>/<DATE>.md
@@ -137,7 +158,7 @@ This writes `reports/pdf/<DATE>.pdf`, the same report as a PDF that opens anywhe
 (for example `fpdf2` could not be installed), say so in the session summary and commit anyway:
 the Markdown report is the record.
 
-## 13. Keep it on this computer
+## 14. Keep it on this computer
 
 The report, PDF, data, news logs and lesson stay in this folder; git ignores them on purpose. **Do not
 commit or push** them (the GitHub repository shares the tool, not anyone's reports). **No email.** Email delivery is switched off (owner's decision, 2026-10-04): the report lives in

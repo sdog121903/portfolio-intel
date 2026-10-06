@@ -4,7 +4,7 @@ The daily Lesson of the day takes the next unticked topic that today's news make
 Tick a topic (`[x]`) when it has been taught. Order is a guide, not a rule.
 
 ## Level 1: How the market works
-- [ ] What a share is, and what a fractional share is
+- [x] What a share is, and what a fractional share is
 - [ ] How a price is set: buyers, sellers and expectations
 - [ ] Market cap: what the market says the whole company is worth
 - [x] Market orders vs limit orders, and why a weekend order fills at Monday's open

@@ -32,12 +32,13 @@ no buy/sell call.
 2. Update `theses/<TICKER>.md`: refresh "What the company does", "How it makes money", "Facts as
    of" and "Metrics that matter", each with sources, and set "Last deep dive". "What must stay
    true" and "Invalidation triggers" are Santi's to edit: add new sourced items, but never delete
-   or reword his; propose any other change in the "Change log". **Never edit "Why I own it"**: that section is Santi's own words. If the
+   or reword his; propose any other change in the "Change log". **Never rewrite "Why I own it"**: Santi approved it
+   (2026-10-05). Only its auto-built numbers block and the sourced "Key trends" lines are refreshed. If the
    evidence contradicts it, say so in the deep dive instead.
-   If the file still has a "Draft thesis" section (Santi has not approved it yet), refresh its
-   recent-news table and its evidence with the deep dive's sourced figures, and mark any draft
-   statement the evidence now contradicts. Once Santi approves a draft, his wording moves to
-   "Why I own it" and the pillars, and the draft section is removed.
+   Also refresh "Key trends" and every pillar's "Now" line and trigger's "Status now" from the
+   primary documents, run `thesis_tools.py numbers` and `check`, and add a dated change-log line.
+   If the evidence contradicts a thesis, pillar or trigger, propose the change ("Proposed:" in the
+   change log and in the deep dive) for Santi to approve; never rewrite his approved wording.
 3. Add the deep dive's material, sourced events (results, guidance, filings) to the news log the
    same way as the daily runbook, step 10, so the stock's long-run record includes them.
 

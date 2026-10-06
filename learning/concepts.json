@@ -3,8 +3,8 @@
     "guidance": {
       "term": "guidance",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "A company's own forecast of its future sales or profit."
     },
@@ -27,8 +27,8 @@
     "gross margin": {
       "term": "gross margin",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "What is left of each dollar of sales after paying to make the product."
     },
@@ -51,8 +51,8 @@
     "gaap": {
       "term": "GAAP",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "The official accounting rulebook; non-GAAP numbers leave some costs out."
     },
@@ -75,48 +75,48 @@
     "backlog": {
       "term": "backlog",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "Signed orders not yet delivered."
     },
     "capex": {
       "term": "capex",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "Money spent on long-lasting things like factories and machines."
     },
     "etf": {
       "term": "ETF",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "A fund holding a basket of stocks that trades like one share."
     },
     "beta": {
       "term": "beta",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "How much a stock tends to move when the market moves."
     },
     "volatility": {
       "term": "volatility",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "How bumpy a stock's ride is."
     },
     "correlation": {
       "term": "correlation",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "How closely two stocks move together, from -1 to 1."
     },
@@ -139,24 +139,24 @@
     "rsi": {
       "term": "RSI",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "A 0-100 gauge of how fast a stock has risen or fallen lately."
     },
     "value at risk": {
       "term": "value at risk",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "A loss exceeded only on the worst 1 day in 20, based on the past."
     },
     "8-k": {
       "term": "8-K",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "A US filing reporting an important company event."
     },
@@ -179,32 +179,32 @@
     "form 4": {
       "term": "Form 4",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "A filing showing an insider traded shares."
     },
     "form 144": {
       "term": "Form 144",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "A notice that an insider plans to sell shares."
     },
     "10b5-1": {
       "term": "10b5-1",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "A pre-planned insider trading schedule set months ahead."
     },
     "dilution": {
       "term": "dilution",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "New shares created, so each existing share owns a smaller slice."
     },
@@ -227,8 +227,8 @@
     "arr": {
       "term": "ARR",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "Yearly value of the subscriptions customers have signed."
     },
@@ -259,8 +259,8 @@
     "gpu": {
       "term": "GPU",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "A chip that does many small calculations at once; suits AI."
     },
@@ -275,24 +275,24 @@
     "active electrical cable": {
       "term": "active electrical cable",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "Copper cable with a chip at each end to strengthen the signal."
     },
     "optical transceiver": {
       "term": "optical transceiver",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "Plug-in module turning electrical signals into light and back."
     },
     "market order": {
       "term": "market order",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "An order to buy or sell right away at whatever the price is."
     },
@@ -307,32 +307,32 @@
     "attribution": {
       "term": "attribution",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "How much of a move came from the market, the industry and the company itself."
     },
     "z-score": {
       "term": "z-score",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "How unusual a move is versus the stock's normal day; beyond about 1.5 is unusual."
     },
     "capped call": {
       "term": "capped call",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "A hedge a company buys so convertible bonds create fewer new shares."
     },
     "convertible bonds": {
       "term": "convertible bonds",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "Loans to a company that can be swapped for shares if the price rises enough."
     },
@@ -347,8 +347,8 @@
     "index fund": {
       "term": "index fund",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-04",
-      "days_seen": 1,
+      "last_seen": "2026-10-06",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "A fund that copies an index and must buy stocks added to it."
     },
@@ -375,6 +375,222 @@
       "days_seen": 1,
       "level": "learning",
       "one_liner": "An event on your list that would challenge why you own a stock."
+    },
+    "fractional share": {
+      "term": "fractional share",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A piece of one share; earns the same percentage as a whole share, on fewer dollars."
+    },
+    "at-the-market offering": {
+      "term": "at-the-market offering",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A company selling new shares a little at a time into the market through a broker."
+    },
+    "selling overhang": {
+      "term": "selling overhang",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Steady selling that weighs on a price until it stops."
+    },
+    "schedule 13g": {
+      "term": "Schedule 13G",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Short SEC form a passive holder of 5% or more files; 13D is the activist version."
+    },
+    "index rebalancing": {
+      "term": "index rebalancing",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Index funds buying and selling when a company joins or leaves their list, usually at the close."
+    },
+    "treasury yield": {
+      "term": "Treasury yield",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The interest rate the US government pays to borrow."
+    },
+    "rate hike": {
+      "term": "rate hike",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The central bank making borrowing more expensive to slow price rises."
+    },
+    "conversion price": {
+      "term": "conversion price",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The share price above which a convertible bond's lender gains by swapping it for shares."
+    },
+    "presidential symposium": {
+      "term": "Presidential Symposium",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The main session of a big medical conference, for the most important new trial results."
+    },
+    "foundry": {
+      "term": "foundry",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A factory that makes chips designed by other companies."
+    },
+    "anchor customer": {
+      "term": "anchor customer",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A big first customer whose orders make a new factory worth building."
+    },
+    "general counsel": {
+      "term": "general counsel",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A company's chief lawyer."
+    },
+    "settlement": {
+      "term": "settlement",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "When shares and cash actually change hands; one business day after a US trade (T+1)."
+    },
+    "record date": {
+      "term": "record date",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The day you must be on the company's books to get a dividend."
+    },
+    "price target": {
+      "term": "price target",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The price an analyst expects in about a year; an opinion, not a fact."
+    },
+    "remaining performance obligations": {
+      "term": "remaining performance obligations",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Signed contracts not yet billed: future revenue already agreed."
+    },
+    "var": {
+      "term": "VaR",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A loss exceeded only on the worst 1 day in 20, based on the past."
+    },
+    "fiscal year": {
+      "term": "fiscal year",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A company's own accounting year, which need not match the calendar."
+    },
+    "s&p 500": {
+      "term": "S&P 500",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "An index of 500 large US companies; used here as 'the market'."
+    },
+    "nasdaq-100": {
+      "term": "Nasdaq-100",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A list of 100 large companies on the Nasdaq exchange that many funds copy."
+    },
+    "52-week high": {
+      "term": "52-week high",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The highest price a stock reached in the past year."
+    },
+    "stop-loss": {
+      "term": "stop-loss",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A price set in advance to be alerted if a stock falls that far."
+    },
+    "target price": {
+      "term": "target price",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A price set in advance to be alerted if a stock rises that far."
+    },
+    "phase 3": {
+      "term": "Phase 3",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The final, largest round of patient testing before a medicine can be approved."
+    },
+    "insider": {
+      "term": "insider",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A company's top managers, directors or 10% owners, who must report their trades."
+    },
+    "source tiers": {
+      "term": "source tiers",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Tier 1: company or regulator; tier 2: established newsrooms; tier 3: secondary sites to confirm."
+    },
+    "thesis status": {
+      "term": "thesis status",
+      "first_explained": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Intact, Watch, Challenged or Broken: how today's evidence compares with your pillars and triggers."
     }
   }
 }

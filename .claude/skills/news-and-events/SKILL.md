@@ -41,6 +41,9 @@ stock tends to react to each kind of news (results, downgrades, share sales, con
   unknown), `type`, `materiality`, `direction` (good / bad / neutral / mixed for the stock),
   `what` (one plain-English sentence, with the numbers exactly as the final report states
   them) and `source` (`name`, `date`, `url`, `tier`). Only items that made it into the report.
+  Add `"upcoming": {"<TICKER>": [{date, event, confirmed, source}]}` with the 14-day-plus calendar for
+  each stock: the log page shows it under "Coming up". Past news and upcoming events live **only**
+  in the news log, never as tables in the thesis files.
 - **Run**: `python3 .claude/skills/news-and-events/scripts/news_log.py update --date <DATE>`.
   It merges the items into `data/news-log/<TICKER>.json` (the record; nothing is deleted, repeat
   items are not added twice), calculates each item's price reaction from `data/prices/`

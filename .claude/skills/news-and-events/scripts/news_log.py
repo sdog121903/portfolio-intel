@@ -14,7 +14,8 @@ data/research/<DATE>/news-log.json
                            "direction": "good", "what": "Plain-English sentence.",
                            "source": {"name": "ASML 6-K", "date": "2026-07-15",
                                       "url": "https://...", "tier": 1}}]}}
-If that file is missing, the researcher files data/research/<DATE>/<TICKER>.json are used
+An optional "upcoming": {"<TICKER>": [{"date", "event", "confirmed", "source"}]} replaces that stock's
+"Coming up" calendar on its page. If that file is missing, the researcher files data/research/<DATE>/<TICKER>.json are used
 instead and every item is marked "not fact-checked".
 
 Price reactions are calculated from data/prices/<TICKER>.csv and the market benchmark (SPY):
@@ -74,6 +75,15 @@ def load_items(date: str, ticker: str) -> tuple[list, bool]:
                       "direction": e.get("direction", "neutral"), "what": e.get("summary", ""),
                       "source": {k: src.get(k) for k in ("name", "date", "url", "tier")}})
     return items, False
+
+
+def load_upcoming(date: str, ticker: str) -> Optional[list]:
+    """Upcoming events for one ticker from news-log.json, or None when the file has none."""
+    curated = DATA / "research" / date / "news-log.json"
+    if not curated.exists():
+        return None
+    up = pilib.read_json(curated).get("upcoming", {})
+    return list(up[ticker]) if ticker in up else None
 
 
 def load_prices(ticker: str) -> list:
@@ -276,7 +286,7 @@ def render(log: dict) -> str:
     t = log["ticker"]
     items = sorted(log["items"], key=lambda it: (_first_date(it["date"]) or "", it["logged"]), reverse=True)
     days = sorted(log["days"], key=lambda d: (d.get("trading_day") or "", d["report"]), reverse=True)
-    out = [f"# {t} news log: what happened, and how the stock reacted", "",
+    out = [f"# {t} news log: what happened, what is coming, and how the stock reacted", "",
            f"Every report that covers {t} adds its news here, newest first. Nothing is deleted, so over "
            "months this page shows how the stock tends to react to each kind of news. Thesis file: "
            f"[`theses/{t}.md`](../{t}.md).", "",
@@ -290,6 +300,16 @@ def render(log: dict) -> str:
            "to two), very big (two or more). *Next 5 days* shows whether the move held or faded.", "",
            "## What the log shows so far", ""]
     out += patterns(log)
+    up = log.get("upcoming") or {}
+    out += ["", f"## Coming up (calendar as of {up.get('as_of', 'n/a')})", "",
+            "Dated events that could move the stock. When one happens, it moves into the news table below.", "",
+            "| Date | Event | Confirmed? | Source |", "|---|---|---|---|"]
+    events = sorted(up.get("events", []), key=lambda e: _first_date(e.get("date")) or "9999")
+    for e in events:
+        out.append(f"| {_cell(e.get('date'))} | {_cell(e.get('event'))} | "
+                   f"{'yes' if e.get('confirmed') else 'not confirmed'} | {_source(e.get('source'))} |")
+    if not events:
+        out.append("| - | Nothing scheduled in the log yet | | |")
     out += ["", "## News, newest first", "",
             "| Date | What happened | Good or bad for the stock | Importance | Reaction day | Stock | Market | Beyond market | Size | Next 5 days | Source |",
             "|---|---|---|---|---|---|---|---|---|---|---|"]
@@ -342,6 +362,9 @@ def update(date: str, tickers: list) -> list:
         log = load_log(t)
         items, checked = load_items(date, t)
         added = merge_items(log, t, items, date, checked)
+        upcoming = load_upcoming(date, t)
+        if upcoming is not None:
+            log["upcoming"] = {"as_of": date, "events": upcoming}
         refresh_reactions(log, load_prices(t), market)
         row = day_row(date, t, log)
         if row:

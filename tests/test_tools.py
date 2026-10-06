@@ -39,6 +39,7 @@ lr = load(SK / "portfolio-daily-report/scripts/lint_report.py", "lint_report")
 re_ = load(SK / "portfolio-daily-report/scripts/render_email.py", "render_email")
 lh = load(SK / "portfolio-daily-report/scripts/load_holdings.py", "load_holdings")
 nl = load(SK / "news-and-events/scripts/news_log.py", "news_log")
+tt = load(SK / "position-review/scripts/thesis_tools.py", "thesis_tools")
 
 
 class TestPriceParsers(unittest.TestCase):
@@ -607,6 +608,51 @@ class TestNewsLog(unittest.TestCase):
         self.assertIn("Too early to draw conclusions", page)
         self.assertTrue(page.rstrip().endswith("not investment advice."))
         self.assertNotIn("should buy", page.lower())
+
+
+class TestThesisTools(unittest.TestCase):
+    QS = [{"fiscal": f"2026 Q{i}", "period_end": f"2026-0{i}-28", "revenue": r, "revenue_yoy_pct": y,
+           "gross_margin_pct": g, "operating_margin_pct": o, "net_income": n, "source": {"derived": False}}
+          for i, (r, y, g, o, n) in enumerate([(100e6, 20, 60, 10, 5e6), (110e6, 25, 61, 11, 6e6),
+                                               (120e6, 30, 62, 12, -1e6), (130e6, 35, 63, 13, 8e6)], 1)]
+
+    def test_business_trend_words(self):
+        text = "\n".join(tt.business_block({"latest_quarters": self.QS}))
+        self.assertIn("grown 3 quarters in a row", text)
+        self.assertIn("Growth is speeding up", text)
+        self.assertIn("rising (60.0% to 63.0%", text)
+        self.assertIn("positive net income in 3 of the last 4", text)
+        self.assertIn("foreign company", "\n".join(tt.business_block({})))
+
+    def test_block_replaced_only_between_markers(self):
+        doc = "before\n<!-- numbers:start old -->\nold\n<!-- numbers:end -->\nafter"
+        out = tt.replace_block(doc, "<!-- numbers:start new -->\nNEW\n<!-- numbers:end -->")
+        self.assertEqual(out, "before\n<!-- numbers:start new -->\nNEW\n<!-- numbers:end -->\nafter")
+        with self.assertRaises(ValueError):
+            tt.replace_block("no markers", "x")
+
+    def test_check_flags_stale_facts_and_todo(self):
+        tmp = Path(tempfile.mkdtemp())
+        old_t, old_d = tt.THESES, tt.DATA
+        try:
+            tt.THESES, tt.DATA = tmp / "theses", tmp / "data"
+            (tmp / "theses").mkdir(); (tmp / "data" / "news-log").mkdir(parents=True)
+            body = ("# X\n## Why I own it\nTODO\n<!-- numbers:start -->\n<!-- numbers:end -->\n## What the company does\n.\n"
+                    "## How it makes money\n.\n## Metrics that matter\n.\n## What must stay true\n1.\n"
+                    "## Invalidation triggers\n1.\n## Facts as of 2026-08-01\n- x\n## Change log\n- 2026-08-01: made\n")
+            (tmp / "theses" / "XYZ.md").write_text(body)
+            (tmp / "data" / "news-log" / "XYZ.json").write_text(json.dumps(
+                {"items": [{"date": "2026-09-01", "materiality": "high"}]}))
+            issues = " | ".join(tt.check_file("XYZ", "2026-10-05"))
+            self.assertIn("TODO left", issues)
+            self.assertIn("days old", issues)
+            self.assertIn("high-importance news", issues)
+            fresh = body.replace("TODO", "Because.").replace("2026-08-01", "2026-10-01")
+            (tmp / "theses" / "XYZ.md").write_text(fresh)
+            self.assertEqual(tt.check_file("XYZ", "2026-10-05"), [])
+        finally:
+            tt.THESES, tt.DATA = old_t, old_d
+            shutil.rmtree(tmp, ignore_errors=True)
 
 
 def _mk(repo, t):
