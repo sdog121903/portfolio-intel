@@ -14,7 +14,7 @@ AI labs and cloud companies do not want to depend on a single chip supplier, and
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ AI labs and cloud companies do not want to depend on a single chip supplier, and
 - Operating margin (share left after all running costs): rising (13.7% to 17.2%, +3.5 points).
 - Profit: positive net income in 4 of the last 4 quarters.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +32.3% | +14.4% | +186.9% | +283.6% | +67.7% | -27.8% | 3.7% |
+| +35.2% | +24.8% | +178.6% | +205.4% | +69.4% | -27.8% | 3.6% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -140,14 +140,18 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* Quarterly results.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-04 (every figure sourced)
+## Facts as of 2026-10-07 (every figure sourced)
 - Q2 2026 revenue $11.5bn (+50%); data center $6.7bn (+107%); Q3 guidance about $13.0bn (+41%) [AMD Q2 2026 results, 2026-08-04](https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm)
 - Anthropic: up to 2 GW of AMD GPUs in Helios racks, first GW from H1 2027; AMD to invest up to $5bn in Anthropic [CNBC, 2026-07-22](https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html)
 - World Labs purchase for about $8.2bn in AMD shares (about 0.8% dilution, researcher's calculation) [SEC 8-K, 2026-09-28](https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm)
 - CEO Lisa Su sold about $48.1m on 2026-09-10 under a pre-planned 10b5-1 plan [SEC Form 4](https://www.sec.gov/Archives/edgar/data/2488/000000248826000178/)
 - Record close $633.91 on 2026-10-02; up 191% in six months; about 69% above its 200-day average (data/metrics)
+- Q3 results 2026-11-03 after the close (confirmed) [AMD, 2026-10-06](https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results)
+- CEO Lisa Su (Taipei, 2026-10-06): demand exceeds supply; AMD will 'substantially increase our supply in 2027' and plans capacity three to five years ahead [Taipei Times, 2026-10-07](https://www.taipeitimes.com/News/biz/archives/2026/10/07/2003865507)
+- Record close $649.42 on 2026-10-06; $645.86 on 2026-10-07 (data/metrics)
 
 ## Change log
 - 2026-10-04: Created when the holding appeared in the FIDELITY sheet.
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
+- 2026-10-07 (daily report): Facts updated (results date confirmed; CEO supply comments). No trigger status changed. No change to the reasons, pillars or triggers.

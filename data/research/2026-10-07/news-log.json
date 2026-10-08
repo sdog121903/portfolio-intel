@@ -1,0 +1,989 @@
+{
+  "date": "2026-10-07",
+  "fact_checked": true,
+  "note": "Items from the fact-checked daily report of 2026-10-07 (covers Tue 10-06 and Wed 10-07).",
+  "tickers": {
+    "STRL": [
+      {
+        "key": "strl-2026-10-06-dc-builders-rally",
+        "date": "2026-10-06",
+        "timing": "during",
+        "type": "price move without company news",
+        "materiality": "medium",
+        "direction": "neutral",
+        "what": "Jumped 7.71% with no company news: AI data-center builders rallied (MYR Group +7.5%, Comfort Systems +4.7%) on a record day for the S&P 500 and cooler bond yields; most of Sterling's 'own' 5 points was probably that group (inference, medium).",
+        "source": {
+          "name": "StockStory via Yahoo Finance",
+          "date": "2026-10-06",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-myr-group-ameresco-205634892.html",
+          "tier": 3
+        }
+      },
+      {
+        "key": "strl-2026-10-07-rates-construction-drop",
+        "date": "2026-10-07",
+        "timing": "during",
+        "type": "price move without company news",
+        "materiality": "medium",
+        "direction": "bad",
+        "what": "Fell 5.24% with no company news: infrastructure stocks fell 2.49% on a day the 10-year US bond rate touched its highest since 2002 in the morning (it closed almost unchanged); Sterling moves about 3.3 times the market.",
+        "source": {
+          "name": "CNBC",
+          "date": "2026-10-07",
+          "url": "https://www.cnbc.com/amp/2026/10/07/treasury-yields-auction-fomc-minutes.html",
+          "tier": 2
+        }
+      }
+    ],
+    "AAOI": [
+      {
+        "key": "aaoi-2026-10-06-jump-no-news",
+        "date": "2026-10-06",
+        "timing": "during",
+        "type": "price move without company news",
+        "materiality": "medium",
+        "direction": "neutral",
+        "what": "Rose 7.07% with no new company news: the morning gain was AOI's own (the share-sale completion it was credited to came out a day earlier), the afternoon matched an optics rally on the day Marvell raised its outlook (inference, medium).",
+        "source": {
+          "name": "24/7 Wall St",
+          "date": "2026-10-06",
+          "url": "https://247wallst.com/investing/2026/10/06/applied-optoelectronics-surges-6-as-600m-share-sale-program-closes-lumentum-sits-out-the-rally-corning-edges-higher/",
+          "tier": 3
+        }
+      },
+      {
+        "key": "aaoi-2026-10-07-rates-drop",
+        "date": "2026-10-07",
+        "timing": "during",
+        "type": "price move without company news",
+        "materiality": "medium",
+        "direction": "bad",
+        "what": "Fell 5.85% with no company news as chip and optical stocks fell together on a day of a morning rate spike; it had risen 29% in five sessions.",
+        "source": {
+          "name": "Yahoo Finance",
+          "date": "2026-10-07",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html",
+          "tier": 3
+        }
+      },
+      {
+        "key": "aaoi-2026-10-05-yeh-form4",
+        "date": "2026-10-07",
+        "timing": "after close",
+        "type": "insider sale (10b5-1, executed)",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "SVP Shu-Hua Yeh's planned sale executed: 6,000 shares on 10-05 at $120.03 (about $0.72m) under a 10b5-1 plan; he keeps 371,498 shares.",
+        "source": {
+          "name": "SEC Form 4",
+          "date": "2026-10-07",
+          "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007698/xslF345X06/ownership.xml",
+          "tier": 1
+        }
+      },
+      {
+        "key": "aaoi-2026-09-08-chang-nonplan-sale",
+        "date": "2026-09-08",
+        "timing": "unknown",
+        "type": "insider sale outside 10b5-1 plan",
+        "materiality": "low",
+        "direction": "bad",
+        "what": "Found 2026-10-07 (missed earlier): SVP Hung-Lun (Fred) Chang sold 32,172 shares at $110.21 (about $3.55m, about 11% of his stake) without a 10b5-1 plan.",
+        "source": {
+          "name": "SEC Form 4",
+          "date": "2026-09-10",
+          "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007059/xslF345X06/ownership.xml",
+          "tier": 1
+        }
+      }
+    ],
+    "MRNA": [
+      {
+        "key": "mrna-2026-10-05-plague-scare",
+        "date": "2026-10-05",
+        "timing": "during",
+        "type": "sector theme (disease scare)",
+        "materiality": "medium",
+        "direction": "neutral",
+        "what": "Possible correction to the 10-05 report: Monday's jump coincided with a plague scare (a lab worker in Irkutsk died of a possible plague pneumonia) that lifted vaccine stocks (Novavax +20%); the link to Moderna is tier-3 only and the timing fits poorly (inference, low).",
+        "source": {
+          "name": "Al Jazeera",
+          "date": "2026-10-05",
+          "url": "https://www.aljazeera.com/news/2026/10/5/russian-lab-worker-dies-of-suspected-plague-in-siberia-us-monitoring-case",
+          "tier": 3
+        }
+      },
+      {
+        "key": "mrna-2026-10-06-who-low-risk",
+        "date": "2026-10-06",
+        "timing": "during",
+        "type": "sector theme reversal",
+        "materiality": "medium",
+        "direction": "bad",
+        "what": "Fell 7.75%, mostly with biotech stocks (XBI -3.39%); the plague scare also faded after the WHO called the risk low; it gave back all of Monday's gain.",
+        "source": {
+          "name": "UN News",
+          "date": "2026-10-06",
+          "url": "https://news.un.org/en/story/2026/10/1168533",
+          "tier": 1
+        }
+      },
+      {
+        "key": "mrna-2026-10-07-rise-no-news",
+        "date": "2026-10-07",
+        "timing": "during",
+        "type": "price move without company news",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "Rose 4.81% with no published cause; index funds must buy before the 10-09 Nasdaq-100 entry and traders may buy ahead (inference, low).",
+        "source": {
+          "name": "Nasdaq",
+          "date": "2026-10-01",
+          "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
+          "tier": 1
+        }
+      },
+      {
+        "key": "mrna-2026-10-05-andres-form3",
+        "date": "2026-10-05",
+        "timing": "after close",
+        "type": "insider initial holdings (Form 3)",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "New COO Juan Andres reported 125,000 shares held directly (about $25m).",
+        "source": {
+          "name": "SEC Form 3",
+          "date": "2026-10-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000183/xslF345X06/form3.xml",
+          "tier": 1
+        }
+      }
+    ],
+    "AXTI": [
+      {
+        "key": "axti-2026-10-07-rates-gap-down",
+        "date": "2026-10-07",
+        "timing": "before open",
+        "type": "price move without company news",
+        "materiality": "medium",
+        "direction": "bad",
+        "what": "Fell 5.08% with no company news; the whole fall came at the open, when the 10-year rate touched 5.36% and chip and optical stocks opened lower. Tuesday's 3.00% slide had no published cause.",
+        "source": {
+          "name": "Yahoo Finance",
+          "date": "2026-10-07",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html",
+          "tier": 3
+        }
+      },
+      {
+        "key": "axti-2026-09-30-blackrock-13g",
+        "date": "2026-10-05",
+        "timing": "during",
+        "type": "large holder (13G/A)",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "BlackRock's stake roughly doubled to 9,359,639 shares (14.3%) at 09-30 from 7.1% in June, consistent with AXT joining the S&P SmallCap 600.",
+        "source": {
+          "name": "SEC Schedule 13G/A",
+          "date": "2026-10-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1051627/000201238326003311/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "tier": 1
+        }
+      }
+    ],
+    "CRWD": [
+      {
+        "key": "crwd-2026-10-06-software-highs",
+        "date": "2026-10-06",
+        "timing": "during",
+        "type": "sector rally",
+        "materiality": "medium",
+        "direction": "good",
+        "what": "Rose 2.27% as US software stocks hit 2026 highs on fading AI-disruption fears and higher profit forecasts (sector 2026 growth 20.6% from 13.8%).",
+        "source": {
+          "name": "Reuters via Investing.com",
+          "date": "2026-10-06",
+          "url": "https://www.investing.com/news/stock-market-news/us-software-stocks-scale-fresh-2026-highs-as-ai-disruption-worries-fade-4934831",
+          "tier": 2
+        }
+      },
+      {
+        "key": "crwd-2026-10-07-rates-underperform",
+        "date": "2026-10-07",
+        "timing": "during",
+        "type": "price move without company news",
+        "materiality": "medium",
+        "direction": "bad",
+        "what": "Fell 4.81%, more than its industry (company part z -1.53), with no confirmed cause; one site blamed valuation and profit-taking after seven straight gains (inference, low-medium).",
+        "source": {
+          "name": "Motley Fool",
+          "date": "2026-10-07",
+          "url": "https://www.fool.com/investing/2026/10/07/why-crowdstrike-stock-slumped-on-wednesday/",
+          "tier": 3
+        }
+      },
+      {
+        "key": "crwd-2026-10-07-idc-leader-aidr",
+        "date": "2026-10-07",
+        "timing": "during",
+        "type": "product/recognition",
+        "materiality": "low",
+        "direction": "good",
+        "what": "Named a leader in IDC's endpoint-security report; says its AI-security business grew more than 79-fold in three quarters since launch (base not disclosed).",
+        "source": {
+          "name": "CrowdStrike",
+          "date": "2026-10-07",
+          "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-named-leader-2026-idc-marketscape-modern-endpoint-security-enterprises/",
+          "tier": 1
+        }
+      },
+      {
+        "key": "crwd-2026-10-05-insider-sales-10b5-1",
+        "date": "2026-10-05",
+        "timing": "unknown",
+        "type": "insider sales (10b5-1)",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "Three more insiders reported 10b5-1 plan sales: a director about $14.32m, the chief accounting officer about $6.51m, the CEO about $5.42m.",
+        "source": {
+          "name": "SEC Form 4",
+          "date": "2026-10-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000027/xslF345X06/form4-10052026_081004.xml",
+          "tier": 1
+        }
+      }
+    ],
+    "PANW": [
+      {
+        "key": "panw-2026-10-06-software-highs",
+        "date": "2026-10-06",
+        "timing": "during",
+        "type": "sector rally",
+        "materiality": "medium",
+        "direction": "good",
+        "what": "Rose 3.23% to a record close of $419.91 with the software rally.",
+        "source": {
+          "name": "Reuters via Investing.com",
+          "date": "2026-10-06",
+          "url": "https://www.investing.com/news/stock-market-news/us-software-stocks-scale-fresh-2026-highs-as-ai-disruption-worries-fade-4934831",
+          "tier": 2
+        }
+      },
+      {
+        "key": "panw-2026-10-07-rates-drop",
+        "date": "2026-10-07",
+        "timing": "during",
+        "type": "price move without company news",
+        "materiality": "low",
+        "direction": "bad",
+        "what": "Fell 3.42% with the cybersecurity group; no company news.",
+        "source": {
+          "name": "Yahoo Finance",
+          "date": "2026-10-07",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html",
+          "tier": 3
+        }
+      }
+    ],
+    "SNOW": [
+      {
+        "key": "snow-2026-10-06-asos-breach-claim",
+        "date": "2026-10-06",
+        "timing": "before open",
+        "type": "security incident claim (customer)",
+        "materiality": "medium",
+        "direction": "bad",
+        "what": "Hackers claimed to have 'fully compromised the Snowflake instance' of UK retailer ASOS; Snowflake said it found no compromise of its platform and ASOS blamed third-party messaging platforms; the stock lagged software by 2.52 points that day.",
+        "source": {
+          "name": "Reuters via The Globe and Mail",
+          "date": "2026-10-06",
+          "url": "https://www.theglobeandmail.com/business/international-business/article-british-retailer-asos-hack-customer-data-breached/",
+          "tier": 2
+        }
+      },
+      {
+        "key": "snow-2026-10-07-dageville-form144",
+        "date": "2026-10-07",
+        "timing": "unknown",
+        "type": "insider planned sale (10b5-1)",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "Co-founder Benoit Dageville filed to sell 50,000 shares (about $16.7m) under a 10b5-1 plan, continuing fortnightly sales since July.",
+        "source": {
+          "name": "SEC Form 144",
+          "date": "2026-10-07",
+          "url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007302/xsl144X01/primary_doc.xml",
+          "tier": 1
+        }
+      },
+      {
+        "key": "snow-2026-10-05-expedition-event",
+        "date": "2026-10-05",
+        "timing": "unknown",
+        "type": "event announced",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "Announced EXPEDITION 2026, an online event on 11-03 to 11-05 with Microsoft CEO Satya Nadella.",
+        "source": {
+          "name": "Snowflake",
+          "date": "2026-10-05",
+          "url": "https://www.snowflake.com/en/news/press-releases/snowflake-agentic-transformation-expedition-2026-speaker-satya-nadella/",
+          "tier": 1
+        }
+      }
+    ],
+    "CRDO": [
+      {
+        "key": "crdo-2026-10-05-stifel-target-cut",
+        "date": "2026-10-05",
+        "timing": "before open",
+        "type": "analyst target cut",
+        "materiality": "low",
+        "direction": "bad",
+        "what": "Stifel cut its target to $310 from $350 and kept Buy (missed by the 10-05 report).",
+        "source": {
+          "name": "TipRanks/The Fly",
+          "date": "2026-10-05",
+          "url": "https://www.tipranks.com/news/the-fly/credo-technology-price-target-lowered-to-310-from-350-at-stifel-thefly-news",
+          "tier": 3
+        }
+      },
+      {
+        "key": "crdo-2026-09-04-cto-nonplan-sale",
+        "date": "2026-09-04",
+        "timing": "unknown",
+        "type": "insider sale outside 10b5-1 plan",
+        "materiality": "low",
+        "direction": "bad",
+        "what": "Found 2026-10-07: CTO Chi Fung Cheng sold 3,790 shares at $170.00 (about $0.64m) without a 10b5-1 plan; with the CLO and director Hosein, three non-plan sellers since June, two within four weeks (about $2.6m from 09-04 to 10-01); whether this meets the 'several insiders' breaker depends on Santi's definition.",
+        "source": {
+          "name": "SEC Form 4",
+          "date": "2026-09-09",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026061180/xslF345X06/wk-form4_1788990548.xml",
+          "tier": 1
+        }
+      },
+      {
+        "key": "crdo-2026-10-06-optics-rally",
+        "date": "2026-10-06",
+        "timing": "during",
+        "type": "price move without company news",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "Rose 3.93% with the optical group (AAOI +7.07%, Lumentum +3.82%) with no company news.",
+        "source": {
+          "name": "CNBC",
+          "date": "2026-10-06",
+          "url": "https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html",
+          "tier": 2
+        }
+      },
+      {
+        "key": "crdo-2026-07-01-hosein-nonplan-sale",
+        "date": "2026-07-01",
+        "timing": "unknown",
+        "type": "insider sale outside 10b5-1 plan",
+        "materiality": "low",
+        "direction": "bad",
+        "what": "Found 2026-10-07: director Clyde Hosein sold 3,451 shares at $262.33 on 07-01 without a 10b5-1 plan.",
+        "source": {
+          "name": "SEC Form 4",
+          "date": "2026-07-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026046833/xslF345X06/wk-form4_1783020490.xml",
+          "tier": 1
+        }
+      }
+    ],
+    "FORM": [
+      {
+        "key": "form-2026-10-06-equipment-selloff",
+        "date": "2026-10-06",
+        "timing": "during",
+        "type": "sector selloff",
+        "materiality": "medium",
+        "direction": "bad",
+        "what": "Fell 4.52% with no company news as chip-equipment and test stocks fell together (median of eight peers -3.52%) and memory stocks slid before results.",
+        "source": {
+          "name": "Korea JoongAng Daily",
+          "date": "2026-10-07",
+          "url": "https://www.koreajoongangdaily.com/business/kospi-drops-nearly-2-percent-as-bond-yield-worries-hit-tech-stocks/12909800",
+          "tier": 2
+        }
+      }
+    ],
+    "AMD": [
+      {
+        "key": "amd-2026-10-06-su-taipei-supply",
+        "date": "2026-10-06",
+        "timing": "before open",
+        "type": "management comments",
+        "materiality": "medium",
+        "direction": "good",
+        "what": "CEO Lisa Su said demand exceeds supply, AMD will 'substantially increase our supply in 2027' and now plans capacity three to five years ahead; the stock closed at a record $649.42 (+2.80%).",
+        "source": {
+          "name": "Taipei Times",
+          "date": "2026-10-07",
+          "url": "https://www.taipeitimes.com/News/biz/archives/2026/10/07/2003865507",
+          "tier": 3
+        }
+      },
+      {
+        "key": "amd-2026-10-06-citi-target-800",
+        "date": "2026-10-06",
+        "timing": "before open",
+        "type": "analyst target raise",
+        "materiality": "low",
+        "direction": "good",
+        "what": "Citi raised its target to $800 from $575 (Buy), expecting AI agents to drive CPU demand.",
+        "source": {
+          "name": "TipRanks",
+          "date": "2026-10-06",
+          "url": "https://www.tipranks.com/news/why-citi-just-raised-its-price-target-for-amd-stock-to-800",
+          "tier": 3
+        }
+      },
+      {
+        "key": "amd-2026-10-06-q3-date",
+        "date": "2026-10-06",
+        "timing": "after close",
+        "type": "results date",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "Confirmed Q3 results on 2026-11-03 after the close.",
+        "source": {
+          "name": "AMD",
+          "date": "2026-10-06",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+          "tier": 1
+        }
+      }
+    ],
+    "TSM": [
+      {
+        "key": "tsm-2026-10-07-citi-beat-call",
+        "date": "2026-10-07",
+        "timing": "unknown",
+        "type": "analyst view",
+        "materiality": "low",
+        "direction": "good",
+        "what": "Citi said it expects TSMC to beat its own Q3 forecast and AI revenue to nearly double next year; the US shares fell 2.09% with chip stocks.",
+        "source": {
+          "name": "Yahoo Finance",
+          "date": "2026-10-07",
+          "url": "https://finance.yahoo.com/markets/stocks/article/tsmc-stock-just-hit-a-record--and-the-gains-may-be-only-starting-113728917.html",
+          "tier": 3
+        }
+      }
+    ],
+    "ASML": [
+      {
+        "key": "asml-2026-10-06-besi-hybrid-bonding",
+        "date": "2026-10-06",
+        "timing": "during",
+        "type": "competitive move (reported)",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "BofA downgraded Besi partly because ASML might enter hybrid bonding; ASML has announced no such product.",
+        "source": {
+          "name": "Bloomberg",
+          "date": "2026-10-06",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-06/asml-s-chip-technology-move-threatens-besi-shares-bofa-says",
+          "tier": 2
+        }
+      }
+    ],
+    "LITE": [
+      {
+        "key": "lite-2026-10-06-proxy-ocs",
+        "date": "2026-10-06",
+        "timing": "after close",
+        "type": "proxy statement",
+        "materiality": "medium",
+        "direction": "good",
+        "what": "Proxy filed: annual meeting 11-18 with three routine items and no share request; the shareholder letter says the optical circuit switch business is 'rapidly scaling past a $100 million quarterly revenue run rate' and 1.6T modules are in production.",
+        "source": {
+          "name": "Lumentum DEF 14A",
+          "date": "2026-10-06",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm",
+          "tier": 1
+        }
+      },
+      {
+        "key": "lite-2026-10-06-record-close",
+        "date": "2026-10-06",
+        "timing": "during",
+        "type": "price move without company news",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "Rose 3.82% to a record close of $1,133.40 with the optical rally on the day Marvell raised its outlook; no company news during trading.",
+        "source": {
+          "name": "CNBC",
+          "date": "2026-10-06",
+          "url": "https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html",
+          "tier": 2
+        }
+      }
+    ],
+    "VIAV": [
+      {
+        "key": "viav-2026-10-07-calnex-partnership",
+        "date": "2026-10-07",
+        "timing": "during",
+        "type": "partnership",
+        "materiality": "low",
+        "direction": "good",
+        "what": "Calnex expanded its partnership with VIAVI to combine test products for AI, data-center and defence networks; no money terms.",
+        "source": {
+          "name": "Calnex via PR Newswire",
+          "date": "2026-10-07",
+          "url": "https://www.prnewswire.co.uk/news-releases/calnex-and-viavi-expand-partnership-to-deliver-end-to-end-network-and-application-performance-validation-for-next-generation-networks-302901337.html",
+          "tier": 1
+        }
+      }
+    ],
+    "BE": [
+      {
+        "key": "be-2026-10-07-bernstein-utilities",
+        "date": "2026-10-07",
+        "timing": "before open",
+        "type": "analyst reiteration",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "Bernstein kept Market Perform ($282 target), seeing a 10-20 GW behind-the-meter market by 2030 and utilities as a second group of buyers.",
+        "source": {
+          "name": "Investing.com",
+          "date": "2026-10-07",
+          "url": "https://www.investing.com/news/analyst-ratings/bernstein-reiterates-bloom-energy-stock-rating-on-utility-demand-93CH-4936717",
+          "tier": 3
+        }
+      },
+      {
+        "key": "be-2026-10-07-fuelcell-cfo-peer-drop",
+        "date": "2026-10-07",
+        "timing": "during",
+        "type": "peer news",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "Fuel-cell stocks fell after FuelCell Energy's CFO stepped down (FuelCell -12%); Bloom fell far less (-1.52%).",
+        "source": {
+          "name": "24/7 Wall St",
+          "date": "2026-10-07",
+          "url": "https://247wallst.com/investing/2026/10/07/fuelcell-tumbles-12-as-its-finance-chief-of-15-years-steps-down-bloom-energy-dips-plug-power-slides-3/",
+          "tier": 3
+        }
+      }
+    ],
+    "A": [
+      {
+        "key": "a-2026-10-06-ex-dividend",
+        "date": "2026-10-06",
+        "timing": "before open",
+        "type": "ex-dividend",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "Went ex-dividend (25.5 cents, paid 10-28), about 0.15 points of Tuesday's 1.14% price fall.",
+        "source": {
+          "name": "Agilent via Business Wire",
+          "date": "2026-09-16",
+          "url": "https://www.businesswire.com/news/home/20260916777704/en/CORRECTING-and-REPLACING-Agilent-Announces-Cash-Dividend-of-25.5-Cents-per-Share",
+          "tier": 1
+        }
+      },
+      {
+        "key": "a-2026-10-07-barclays-target-195",
+        "date": "2026-10-07",
+        "timing": "before open",
+        "type": "analyst target raise",
+        "materiality": "low",
+        "direction": "good",
+        "what": "Barclays raised its target to $195 from $175 (Overweight); the stock barely reacted.",
+        "source": {
+          "name": "GuruFocus",
+          "date": "2026-10-07",
+          "url": "https://www.gurufocus.com/news/9113460/a-maintained-by-barclays-price-target-raised-to-195",
+          "tier": 3
+        }
+      },
+      {
+        "key": "a-2026-10-05-boulder-oligo-lab",
+        "date": "2026-10-05",
+        "timing": "unknown",
+        "type": "capacity expansion",
+        "materiality": "low",
+        "direction": "good",
+        "what": "Opened new Boulder lab space for oligonucleotide (DNA/RNA drug) manufacturing; first customer programs expected in November; size not disclosed.",
+        "source": {
+          "name": "Agilent",
+          "date": "2026-10-05",
+          "url": "https://www.agilent.com/about/newsroom/presrel/2026/05oct-ca26034.html",
+          "tier": 1
+        }
+      }
+    ],
+    "QQQM": [
+      {
+        "key": "qqqm-2026-10-06-bought",
+        "date": "2026-10-06",
+        "timing": "after close",
+        "type": "position opened",
+        "materiality": "low",
+        "direction": "neutral",
+        "what": "Santi bought 0.100 shares at Tuesday's close ($312.76); the Nasdaq-100 index it copies adds Moderna on 10-09.",
+        "source": {
+          "name": "Nasdaq",
+          "date": "2026-10-01",
+          "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
+          "tier": 1
+        }
+      }
+    ]
+  },
+  "upcoming": {
+    "STRL": [
+      {
+        "date": "2026-10-27",
+        "event": "Fed rate decision (10-27/28)",
+        "confirmed": true,
+        "source": {
+          "name": "Federal Reserve",
+          "date": "2026-10-07",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-11-02",
+        "event": "Q3 2026 results (estimated, after close)",
+        "confirmed": false,
+        "source": {}
+      }
+    ],
+    "AAOI": [
+      {
+        "date": "2026-11-05",
+        "event": "Q3 2026 results (estimated)",
+        "confirmed": false,
+        "source": {
+          "name": "Investing.com",
+          "date": "2026-10-07",
+          "url": "https://www.investing.com/equities/applied-opt-earnings",
+          "tier": 3
+        }
+      }
+    ],
+    "MRNA": [
+      {
+        "date": "2026-10-08",
+        "event": "Index funds expected to buy at the close, before the Nasdaq-100 entry",
+        "confirmed": false,
+        "source": {}
+      },
+      {
+        "date": "2026-10-09",
+        "event": "Joins the Nasdaq-100 index before the open",
+        "confirmed": true,
+        "source": {
+          "name": "Nasdaq",
+          "date": "2026-10-01",
+          "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Full Phase 3 melanoma data at ESMO, 10:30 a.m. New York time",
+        "confirmed": true,
+        "source": {
+          "name": "Moderna via ACCESS Newswire",
+          "date": "2026-09-21",
+          "url": "https://finance.yahoo.com/healthcare/articles/moderna-announces-breaking-data-presented-141200784.html",
+          "tier": 3
+        }
+      },
+      {
+        "date": "2026-11-05",
+        "event": "Q3 2026 results (estimated early November; not announced)",
+        "confirmed": false,
+        "source": {}
+      }
+    ],
+    "AXTI": [
+      {
+        "date": "2026-10-29",
+        "event": "Q3 2026 results after the close",
+        "confirmed": true,
+        "source": {
+          "name": "Business Wire",
+          "date": "2026-10-01",
+          "url": "https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-11-27",
+        "event": "China's pause of its gallium/germanium export ban to the US due to end (extension not verified)",
+        "confirmed": false,
+        "source": {}
+      }
+    ],
+    "CRWD": [
+      {
+        "date": "2026-11-02",
+        "event": "Fal.Con Europe, Barcelona (11-02 to 11-04)",
+        "confirmed": true,
+        "source": {
+          "name": "CrowdStrike",
+          "date": "2026-10-06",
+          "url": "https://www.crowdstrike.com/en-us/press-releases/falcon-europe-2026-sells-out/",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-12-02",
+        "event": "Q3 FY2027 results (estimated early December)",
+        "confirmed": false,
+        "source": {}
+      }
+    ],
+    "PANW": [
+      {
+        "date": "2026-11-12",
+        "event": "Q1 FY2027 results (third parties: 11-12 or 11-18; not announced)",
+        "confirmed": false,
+        "source": {}
+      }
+    ],
+    "SNOW": [
+      {
+        "date": "2026-10-13",
+        "event": "Court deadline in securities class action; end of convertible-note option window (approx.)",
+        "confirmed": true,
+        "source": {}
+      },
+      {
+        "date": "2026-11-03",
+        "event": "EXPEDITION 2026 online event (11-03 to 11-05)",
+        "confirmed": true,
+        "source": {
+          "name": "Snowflake",
+          "date": "2026-10-05",
+          "url": "https://www.snowflake.com/en/news/press-releases/snowflake-agentic-transformation-expedition-2026-speaker-satya-nadella/",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-12-02",
+        "event": "Q3 FY2027 results (estimated)",
+        "confirmed": false,
+        "source": {}
+      }
+    ],
+    "CRDO": [
+      {
+        "date": "2026-10-12",
+        "event": "Annual general meeting",
+        "confirmed": true,
+        "source": {}
+      },
+      {
+        "date": "2026-12-02",
+        "event": "Q2 FY2027 results (estimated)",
+        "confirmed": false,
+        "source": {}
+      }
+    ],
+    "FORM": [
+      {
+        "date": "2026-10-08",
+        "event": "Samsung preliminary Q3 results (memory read-across)",
+        "confirmed": true,
+        "source": {}
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Management at CEO Investor Summit",
+        "confirmed": true,
+        "source": {}
+      },
+      {
+        "date": "2026-10-27",
+        "event": "SK hynix Q3 results (largest customer)",
+        "confirmed": false,
+        "source": {}
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Q3 2026 results (estimated)",
+        "confirmed": false,
+        "source": {}
+      }
+    ],
+    "AMD": [
+      {
+        "date": "2026-10-12",
+        "event": "Lisa Su keynote, OCP Global Summit",
+        "confirmed": true,
+        "source": {
+          "name": "AMD",
+          "date": "2026-10-07",
+          "url": "https://newsroom.amd.com/news/media-alert-ceo-lisa-su-keynote-2026-ocp/",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-11-03",
+        "event": "Q3 2026 results after the close",
+        "confirmed": true,
+        "source": {
+          "name": "AMD",
+          "date": "2026-10-06",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+          "tier": 1
+        }
+      }
+    ],
+    "TSM": [
+      {
+        "date": "2026-10-08",
+        "event": "September 2026 sales, 13:30 Taipei",
+        "confirmed": true,
+        "source": {
+          "name": "TSMC",
+          "date": "2026-10-07",
+          "url": "https://investor.tsmc.com/english/financial-calendar",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-10-15",
+        "event": "Q3 2026 results, 14:00 Taipei (2:00 a.m. New York)",
+        "confirmed": true,
+        "source": {
+          "name": "TSMC",
+          "date": "2026-10-07",
+          "url": "https://investor.tsmc.com/english/financial-calendar",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-11-10",
+        "event": "October 2026 sales",
+        "confirmed": true,
+        "source": {
+          "name": "TSMC",
+          "date": "2026-10-07",
+          "url": "https://investor.tsmc.com/english/financial-calendar",
+          "tier": 1
+        }
+      }
+    ],
+    "ASML": [
+      {
+        "date": "2026-10-14",
+        "event": "Q3 2026 results, before the US open",
+        "confirmed": true,
+        "source": {
+          "name": "ASML",
+          "date": "2026-10-07",
+          "url": "https://investor.asml.com/quarterly-results",
+          "tier": 1
+        }
+      }
+    ],
+    "LITE": [
+      {
+        "date": "2026-10-14",
+        "event": "Talks at the OCP Global Summit",
+        "confirmed": true,
+        "source": {}
+      },
+      {
+        "date": "2026-11-05",
+        "event": "Q1 FY2027 results after the close",
+        "confirmed": true,
+        "source": {
+          "name": "Lumentum via Business Wire (Yahoo Finance)",
+          "date": "2026-10-05",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-announces-reporting-date-fiscal-120000373.html",
+          "tier": 3
+        }
+      },
+      {
+        "date": "2026-11-18",
+        "event": "Annual shareholder meeting (online)",
+        "confirmed": true,
+        "source": {
+          "name": "Lumentum DEF 14A",
+          "date": "2026-10-06",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm",
+          "tier": 1
+        }
+      }
+    ],
+    "VIAV": [
+      {
+        "date": "2026-10-28",
+        "event": "Q1 FY2027 results (estimated; possibly about 11-04)",
+        "confirmed": false,
+        "source": {}
+      },
+      {
+        "date": "2026-11-11",
+        "event": "Annual shareholder meeting",
+        "confirmed": true,
+        "source": {
+          "name": "SEC DEF 14A",
+          "date": "2026-10-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm",
+          "tier": 1
+        }
+      }
+    ],
+    "BE": [
+      {
+        "date": "2026-10-27",
+        "event": "Q3 2026 results (estimated 10-26 to 10-29)",
+        "confirmed": false,
+        "source": {}
+      }
+    ],
+    "A": [
+      {
+        "date": "2026-10-21",
+        "event": "Thermo Fisher Q3 results (peer)",
+        "confirmed": false,
+        "source": {}
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Dividend paid (25.5 cents)",
+        "confirmed": true,
+        "source": {
+          "name": "Agilent via Business Wire",
+          "date": "2026-09-16",
+          "url": "https://www.businesswire.com/news/home/20260916777704/en/CORRECTING-and-REPLACING-Agilent-Announces-Cash-Dividend-of-25.5-Cents-per-Share",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-11-30",
+        "event": "Q4 FY2026 results (estimated)",
+        "confirmed": false,
+        "source": {}
+      }
+    ],
+    "QQQM": [
+      {
+        "date": "2026-10-09",
+        "event": "Moderna joins the Nasdaq-100 (QQQM's index)",
+        "confirmed": true,
+        "source": {
+          "name": "Nasdaq",
+          "date": "2026-10-01",
+          "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
+          "tier": 1
+        }
+      }
+    ]
+  }
+}

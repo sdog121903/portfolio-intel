@@ -232,6 +232,64 @@
         "z": -0.21,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "panw-2026-10-06-software-highs",
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "sector rally",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "Rose 3.23% to a record close of $419.91 with the software rally.",
+      "source": {
+        "name": "Reuters via Investing.com",
+        "date": "2026-10-06",
+        "url": "https://www.investing.com/news/stock-market-news/us-software-stocks-scale-fresh-2026-highs-as-ai-disruption-worries-fade-4934831",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": 3.23,
+        "market_pct": 0.55,
+        "beyond_market_pct": 2.68,
+        "typical_day_pct": 2.09,
+        "z": 1.28,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "panw-2026-10-07-rates-drop",
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "low",
+      "direction": "bad",
+      "what": "Fell 3.42% with the cybersecurity group; no company news.",
+      "source": {
+        "name": "Yahoo Finance",
+        "date": "2026-10-07",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -3.42,
+        "market_pct": -0.24,
+        "beyond_market_pct": -3.17,
+        "typical_day_pct": 2.18,
+        "z": -1.46,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -256,14 +314,25 @@
       "company_part_pct": -0.66,
       "z": -0.41,
       "main_news": null
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 405.57,
+      "day_pct": -3.42,
+      "market_part_pct": -0.24,
+      "industry_part_pct": -1.78,
+      "company_part_pct": -1.4,
+      "z": -0.87,
+      "main_news": "Fell 3.42% with the cybersecurity group; no company news."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-05",
+    "as_of": "2026-10-07",
     "events": [
       {
-        "date": "mid-to-late Nov 2026",
-        "event": "Q1 FY2027 results (guidance revenue $3.300-3.310bn)",
+        "date": "2026-11-12",
+        "event": "Q1 FY2027 results (third parties: 11-12 or 11-18; not announced)",
         "confirmed": false,
         "source": {}
       }

@@ -14,7 +14,7 @@ Inside an AI data center, servers and switches sit a few metres apart but must e
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Inside an AI data center, servers and switches sit a few metres apart but must e
 - Operating margin (share left after all running costs): falling (29.4% to 25.2%, -4.2 points).
 - Profit: positive net income in 4 of the last 4 quarters.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +24.6% | -20.0% | +107.4% | +47.7% | +19.6% | -53.6% | 6.7% |
+| +29.0% | -14.9% | +99.6% | +60.4% | +23.2% | -53.6% | 6.6% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -139,15 +139,19 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* Quarterly results.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-04 (every figure sourced)
+## Facts as of 2026-10-07 (every figure sourced)
 - Q1 FY2027 revenue $479.0m (+114.7%), above forecasts; GAAP gross margin 64.5% (from 68.2%); Q2 guidance $525-535m; full-year growth above 85% [Credo Q1 FY2027 results, 2026-09-01](https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm)
 - Stock fell about 20% on 2026-09-02, the day after results; margin drop the likely cause (inference, medium confidence)
 - Four customers 84% of revenue (33/28/13/10%) (research file, from the 10-Q)
 - DustPhotonics purchase completed 2026-05-27 [Credo via Business Wire](https://www.businesswire.com/news/home/20260527239270/en/Credo-Completes-Acquisition-of-DustPhotonics)
 - Insiders sold about $41.5m from 2026-09-23 to 10-02, all pre-planned; COO 50,000 shares (about $10.3m) on 2026-10-02 [SEC Form 4](https://www.sec.gov/Archives/edgar/data/1807794/000162828026064627/xslF345X06/wk-form4_1790974671.xml)
 - Close $218.64 on 2026-10-02, 29% below its June high; typical day 6.5%; moves over three times the market (data/metrics)
+- Correction (2026-10-07): insider selling was not all pre-planned. Three insiders sold outside 10b5-1 plans since June: director Clyde Hosein 3,451 shares at $262.33 on 2026-07-01 [SEC Form 4, 2026-07-02](https://www.sec.gov/Archives/edgar/data/1807794/000162828026046833/xslF345X06/wk-form4_1783020490.xml); the Chief Legal Officer also on 2026-06-11 (research file). Two of them within four weeks in September: CTO Chi Fung Cheng 3,790 shares at $170.00 on 2026-09-04 (about $0.64m) [SEC Form 4, 2026-09-09](https://www.sec.gov/Archives/edgar/data/1807794/000162828026061180/xslF345X06/wk-form4_1788990548.xml) and Chief Legal Officer James Laufman 5,000 shares at $185.00 on 2026-09-21 and 5,000 at $205.00 on 2026-10-01 (about $1.95m) [SEC Form 4, 2026-09-23](https://www.sec.gov/Archives/edgar/data/1807794/000162828026063214/xslF345X06/wk-form4_1790194619.xml); about $2.6m in total against about $53m of pre-planned sales in the same weeks
+- Stifel cut its price target to $310 from $350 on 2026-10-05, kept Buy [TipRanks/The Fly, 2026-10-05](https://www.tipranks.com/news/the-fly/credo-technology-price-target-lowered-to-310-from-350-at-stifel-thefly-news)
+- Close $220.01 on 2026-10-07 (+3.54% over two days); 28.7% below its 52-week high (data/metrics)
 
 ## Change log
 - Created with the repository.
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
+- 2026-10-07 (daily report): Facts updated. Correction: three insiders (director Hosein in July; CLO in June, September and October; CTO in September) sold outside 10b5-1 plans, two within four weeks, so 'What I accept' ("all pre-planned") is out of date as a fact. The daily report flags a possible THESIS ALERT that depends on Santi's definition. Proposed (awaiting Santi): define how many non-plan sellers, within what time window, count as "several" in the general breaker (VIAV's trigger uses two or more within a month). No change to the reasons, pillars or triggers.

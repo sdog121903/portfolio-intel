@@ -19,7 +19,16 @@
       "logged": "2026-10-04",
       "reports": [
         "2026-10-04"
-      ]
+      ],
+      "reaction": {
+        "day": "2026-10-05",
+        "stock_pct": -0.6,
+        "market_pct": 0.67,
+        "beyond_market_pct": -1.28,
+        "typical_day_pct": 2.29,
+        "z": -0.56,
+        "next_5_days_pct": null
+      }
     },
     {
       "key": "snow-2026-09-02-q2-results",
@@ -78,6 +87,93 @@
         "z": 0.85,
         "next_5_days_pct": 2.94
       }
+    },
+    {
+      "key": "snow-2026-10-06-asos-breach-claim",
+      "date": "2026-10-06",
+      "timing": "before open",
+      "type": "security incident claim (customer)",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Hackers claimed to have 'fully compromised the Snowflake instance' of UK retailer ASOS; Snowflake said it found no compromise of its platform and ASOS blamed third-party messaging platforms; the stock lagged software by 2.52 points that day.",
+      "source": {
+        "name": "Reuters via The Globe and Mail",
+        "date": "2026-10-06",
+        "url": "https://www.theglobeandmail.com/business/international-business/article-british-retailer-asos-hack-customer-data-breached/",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": -0.9,
+        "market_pct": 0.55,
+        "beyond_market_pct": -1.45,
+        "typical_day_pct": 2.27,
+        "z": -0.64,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "snow-2026-10-07-dageville-form144",
+      "date": "2026-10-07",
+      "timing": "unknown",
+      "type": "insider planned sale (10b5-1)",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Co-founder Benoit Dageville filed to sell 50,000 shares (about $16.7m) under a 10b5-1 plan, continuing fortnightly sales since July.",
+      "source": {
+        "name": "SEC Form 144",
+        "date": "2026-10-07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007302/xsl144X01/primary_doc.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -0.92,
+        "market_pct": -0.24,
+        "beyond_market_pct": -0.68,
+        "typical_day_pct": 2.27,
+        "z": -0.3,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "snow-2026-10-05-expedition-event",
+      "date": "2026-10-05",
+      "timing": "unknown",
+      "type": "event announced",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Announced EXPEDITION 2026, an online event on 11-03 to 11-05 with Microsoft CEO Satya Nadella.",
+      "source": {
+        "name": "Snowflake",
+        "date": "2026-10-05",
+        "url": "https://www.snowflake.com/en/news/press-releases/snowflake-agentic-transformation-expedition-2026-speaker-satya-nadella/",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-05",
+        "stock_pct": -0.6,
+        "market_pct": 0.67,
+        "beyond_market_pct": -1.28,
+        "typical_day_pct": 2.29,
+        "z": -0.56,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -91,25 +187,42 @@
       "company_part_pct": -0.26,
       "z": -0.08,
       "main_news": "Closed the sale of $3.75bn of 0% convertible notes (loans paying no interest that lenders can swap for shares, at about $500.38 and $483.98); a hedge limits dilution up to $820.30. If converted, about 2.2% more shares (up to about 4%). First announced 2026-09-28."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 332.85,
+      "day_pct": -0.92,
+      "market_part_pct": -0.24,
+      "industry_part_pct": -1.32,
+      "company_part_pct": 0.64,
+      "z": 0.2,
+      "main_news": "Co-founder Benoit Dageville filed to sell 50,000 shares (about $16.7m) under a 10b5-1 plan, continuing fortnightly sales since July."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-04",
+    "as_of": "2026-10-07",
     "events": [
       {
         "date": "2026-10-13",
-        "event": "Court deadline: Snowflake's motion to dismiss the 2026 class action",
+        "event": "Court deadline in securities class action; end of convertible-note option window (approx.)",
+        "confirmed": true,
+        "source": {}
+      },
+      {
+        "date": "2026-11-03",
+        "event": "EXPEDITION 2026 online event (11-03 to 11-05)",
         "confirmed": true,
         "source": {
-          "name": "Snowflake 10-Q",
-          "date": "2026-09-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000037/snow-20260731.htm",
+          "name": "Snowflake",
+          "date": "2026-10-05",
+          "url": "https://www.snowflake.com/en/news/press-releases/snowflake-agentic-transformation-expedition-2026-speaker-satya-nadella/",
           "tier": 1
         }
       },
       {
         "date": "2026-12-02",
-        "event": "Q3 FY2027 results (guidance product revenue $1,588-1,593m)",
+        "event": "Q3 FY2027 results (estimated)",
         "confirmed": false,
         "source": {}
       }

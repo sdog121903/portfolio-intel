@@ -164,7 +164,123 @@
       "logged": "2026-10-05",
       "reports": [
         "2026-10-05"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": 7.07,
+        "market_pct": 0.55,
+        "beyond_market_pct": 6.52,
+        "typical_day_pct": 8.13,
+        "z": 0.8,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "aaoi-2026-10-06-jump-no-news",
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "medium",
+      "direction": "neutral",
+      "what": "Rose 7.07% with no new company news: the morning gain was AOI's own (the share-sale completion it was credited to came out a day earlier), the afternoon matched an optics rally on the day Marvell raised its outlook (inference, medium).",
+      "source": {
+        "name": "24/7 Wall St",
+        "date": "2026-10-06",
+        "url": "https://247wallst.com/investing/2026/10/06/applied-optoelectronics-surges-6-as-600m-share-sale-program-closes-lumentum-sits-out-the-rally-corning-edges-higher/",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": 7.07,
+        "market_pct": 0.55,
+        "beyond_market_pct": 6.52,
+        "typical_day_pct": 8.13,
+        "z": 0.8,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "aaoi-2026-10-07-rates-drop",
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Fell 5.85% with no company news as chip and optical stocks fell together on a day of a morning rate spike; it had risen 29% in five sessions.",
+      "source": {
+        "name": "Yahoo Finance",
+        "date": "2026-10-07",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -5.85,
+        "market_pct": -0.24,
+        "beyond_market_pct": -5.61,
+        "typical_day_pct": 8.23,
+        "z": -0.68,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "aaoi-2026-10-05-yeh-form4",
+      "date": "2026-10-07",
+      "timing": "after close",
+      "type": "insider sale (10b5-1, executed)",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "SVP Shu-Hua Yeh's planned sale executed: 6,000 shares on 10-05 at $120.03 (about $0.72m) under a 10b5-1 plan; he keeps 371,498 shares.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-10-07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007698/xslF345X06/ownership.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
       ]
+    },
+    {
+      "key": "aaoi-2026-09-08-chang-nonplan-sale",
+      "date": "2026-09-08",
+      "timing": "unknown",
+      "type": "insider sale outside 10b5-1 plan",
+      "materiality": "low",
+      "direction": "bad",
+      "what": "Found 2026-10-07 (missed earlier): SVP Hung-Lun (Fred) Chang sold 32,172 shares at $110.21 (about $3.55m, about 11% of his stake) without a 10b5-1 plan.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-09-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007059/xslF345X06/ownership.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-09-08",
+        "stock_pct": 5.7,
+        "market_pct": -0.55,
+        "beyond_market_pct": 6.25,
+        "typical_day_pct": 8.14,
+        "z": 0.77,
+        "next_5_days_pct": -14.58
+      }
     }
   ],
   "days": [
@@ -189,16 +305,32 @@
       "company_part_pct": 4.41,
       "z": 0.56,
       "main_news": "Confirmed its $600m at-the-market share sale (announced 2026-08-21) is complete: 5,694,845 new shares at an average $105.36, $588.0m after fees, about 6.7% more shares; shares are up about 12.5% in five months, meeting AAOI trigger 6 read literally (THESIS ALERT). The stock still rose 5.17%: the end of the selling may have helped, or the optical rally simply continued (inference, low-to-medium confidence)."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 122.54,
+      "day_pct": -5.85,
+      "market_part_pct": -0.39,
+      "industry_part_pct": -1.8,
+      "company_part_pct": -3.67,
+      "z": -0.47,
+      "main_news": "Fell 5.85% with no company news as chip and optical stocks fell together on a day of a morning rate spike; it had risen 29% in five sessions."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-05",
+    "as_of": "2026-10-07",
     "events": [
       {
-        "date": "about 2026-11-05",
-        "event": "Q3 2026 results (guidance $255-290m; not announced)",
+        "date": "2026-11-05",
+        "event": "Q3 2026 results (estimated)",
         "confirmed": false,
-        "source": {}
+        "source": {
+          "name": "Investing.com",
+          "date": "2026-10-07",
+          "url": "https://www.investing.com/equities/applied-opt-earnings",
+          "tier": 3
+        }
       }
     ]
   }

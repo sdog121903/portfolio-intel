@@ -14,7 +14,7 @@ Snowflake stores companies' data in the cloud and runs their analysis on it, bil
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Snowflake stores companies' data in the cloud and runs their analysis on it, bil
 - Operating margin (share left after all running costs): rising (-27.2% to -17.0%, +10.2 points).
 - Profit: positive net income in 0 of the last 4 quarters.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +0.5% | +29.3% | +126.9% | +44.2% | +48.3% | -56.3% | 4.1% |
+| -1.3% | +27.4% | +121.9% | +41.8% | +44.9% | -56.3% | 4.1% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -140,16 +140,19 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* SEC filings in every daily report.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-04 (every figure sourced)
+## Facts as of 2026-10-07 (every figure sourced)
 - Q2 FY2027 product revenue $1,491.9m (+37%); net revenue retention 126%; stock rose 22% after results [Snowflake Q2 FY2027 results, 2026-09-02](https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm)
 - Contracted future revenue (RPO) $9.00bn, down from $9.21bn; GAAP loss $191.7m (research file, from company releases)
 - $3.75bn of 0% convertible notes closed: $2.0bn due 2029 (converts at about $500.38) and $1.75bn due 2031 (about $483.98); capped call to $820.30; about 2.2% more shares if converted, up to about 4% [SEC 8-K, 2026-10-02](https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm)
 - Securities class action filed 2026-02-24; motion to dismiss due 2026-10-13 [Snowflake 10-Q](https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000037/snow-20260731.htm)
 - Close $341.04 on 2026-10-02, 11% below its 52-week high; about 188% above its April low of $118.30 (data/metrics)
 - Q3 FY2027 guidance: product revenue $1,588-1,593m
+- 2026-10-06: hackers claimed to have 'fully compromised the Snowflake instance' of UK retailer ASOS; Snowflake said it found no compromise of its platform; ASOS blamed third-party messaging platforms [Reuters via The Globe and Mail, 2026-10-06](https://www.theglobeandmail.com/business/international-business/article-british-retailer-asos-hack-customer-data-breached/)
+- Co-founder Benoit Dageville filed to sell 50,000 shares (about $16.7m) under a 10b5-1 plan, continuing fortnightly sales since July [SEC Form 144, 2026-10-07](https://www.sec.gov/Archives/edgar/data/1640147/000195917326007302/xsl144X01/primary_doc.xml)
 
 ## Change log
 - 2026-10-04: Created when the holding appeared in the FIDELITY sheet.
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-05 (daily report): corrected trigger 4's status line: one fall in RPO weakens pillar 4, but the trigger's early warning is a second fall, which has not happened. No change to the reasons, pillars or triggers.
+- 2026-10-07 (daily report): Facts updated (ASOS breach claim and Snowflake's denial; Dageville planned sale). No trigger hit. No change to the reasons, pillars or triggers.

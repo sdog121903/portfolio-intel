@@ -116,6 +116,64 @@
         "z": -0.74,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "strl-2026-10-06-dc-builders-rally",
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "medium",
+      "direction": "neutral",
+      "what": "Jumped 7.71% with no company news: AI data-center builders rallied (MYR Group +7.5%, Comfort Systems +4.7%) on a record day for the S&P 500 and cooler bond yields; most of Sterling's 'own' 5 points was probably that group (inference, medium).",
+      "source": {
+        "name": "StockStory via Yahoo Finance",
+        "date": "2026-10-06",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-myr-group-ameresco-205634892.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": 7.71,
+        "market_pct": 0.55,
+        "beyond_market_pct": 7.16,
+        "typical_day_pct": 3.47,
+        "z": 2.07,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "strl-2026-10-07-rates-construction-drop",
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Fell 5.24% with no company news: infrastructure stocks fell 2.49% on a day the 10-year US bond rate touched its highest since 2002 in the morning (it closed almost unchanged); Sterling moves about 3.3 times the market.",
+      "source": {
+        "name": "CNBC",
+        "date": "2026-10-07",
+        "url": "https://www.cnbc.com/amp/2026/10/07/treasury-yields-auction-fomc-minutes.html",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -5.24,
+        "market_pct": -0.24,
+        "beyond_market_pct": -5.0,
+        "typical_day_pct": 3.51,
+        "z": -1.42,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -140,14 +198,36 @@
       "company_part_pct": -3.36,
       "z": -0.75,
       "main_news": "Appointed Katherine Hargis as Senior Vice President, General Counsel, Chief Compliance Officer and Corporate Secretary."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 534.13,
+      "day_pct": -5.24,
+      "market_part_pct": -0.73,
+      "industry_part_pct": -5.24,
+      "company_part_pct": 0.72,
+      "z": 0.16,
+      "main_news": "Fell 5.24% with no company news: infrastructure stocks fell 2.49% on a day the 10-year US bond rate touched its highest since 2002 in the morning (it closed almost unchanged); Sterling moves about 3.3 times the market."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-05",
+    "as_of": "2026-10-07",
     "events": [
       {
-        "date": "2026-11-02 to 11-09",
-        "event": "Q3 2026 results (estimated window)",
+        "date": "2026-10-27",
+        "event": "Fed rate decision (10-27/28)",
+        "confirmed": true,
+        "source": {
+          "name": "Federal Reserve",
+          "date": "2026-10-07",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-11-02",
+        "event": "Q3 2026 results (estimated, after close)",
         "confirmed": false,
         "source": {}
       }

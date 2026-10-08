@@ -1,0 +1,164 @@
+{
+  "ticker": "FORM",
+  "company": "FormFactor, Inc.",
+  "window": {"from": "2026-10-05 20:00 UTC (after the Monday 5 Oct US close)", "to": "2026-10-07 US close (Wednesday session closed; research finished early 2026-10-08 Madrid)"},
+  "newest_item_checked": "Yahoo chart daily closes for Wed 2026-10-07 (FORM $139.80, peers), fetched after the US close; Korea JoongAng Daily Kospi close report dated 2026-10-07; ad-hoc-news item dated 2026-10-07 04:56; SEC EDGAR submissions list for CIK 1039399 (newest FormFactor filing: Form 4 accepted 2026-09-17); formfactor.com press-release page (newest listed: 2026-07-29 Q2 results; the page lags, since the 2026-09-30 investor-summit release is not on it)",
+  "events": [
+    {
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "sector move (chip-equipment, test and memory stocks sold off)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "FORM fell 4.52% on Tuesday to $141.30 (from $147.99) with no company news. The broad chip fund SMH barely moved (-0.22%) and the S&P 500 fund rose (+0.55%), but the narrower group FORM trades with fell hard the same day (Yahoo daily closes): KLA -4.54%, Camtek -4.63%, Onto Innovation -3.60%, Lam Research -3.44%, Teradyne -3.20%, Applied Materials -2.21%, Aehr Test -11.74%, Cohu -0.85% (median of these eight -3.52%, my arithmetic). Memory: SK hynix's US-listed shares -6.39%, Micron -1.73%. NVIDIA, SMH's biggest holding, rose 0.14%, which is why SMH hid the sell-off. Volume was 2,107,900 shares, about 1.6 times the pre-index-change 20-day average of 1,282,230 (my arithmetic). Tier-3 reports said memory stocks fell because investors turned cautious before Samsung's preliminary Q3 results (Thu 10-08) and SK hynix's results (10-27), on a stronger Korean won and bigger worker-bonus provisions, and on unnamed reports of US data-center delays; a tier-3 premarket report also described chips 'taking a breather' after SOXX rose five sessions in a row and NVIDIA hit a record on Monday. No tier-1/2 source explaining the US chip-equipment sell-off was found (search budget ran out).",
+      "why_it_matters": "It shows most of what the pipeline labelled 'company-specific' (-2.92%) was really a chip-equipment/test/memory sell-off that the SMH comparison does not capture: FORM fell about 1 point more than the median peer. Nothing about FormFactor's own business changed.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Yahoo Finance chart data (daily closes FORM, SMH, SPY, KLAC, LRCX, AMAT, TER, ONTO, CAMT, AEHR, COHU, MU, SKHY, NVDA)", "date": "2026-10-07", "url": "https://query1.finance.yahoo.com/v8/finance/chart/KLAC?range=10d&interval=1d", "tier": 3},
+        {"name": "TipRanks, Why are memory stocks Micron, SanDisk and SK Hynix trending lower today, October 6", "date": "2026-10-06", "url": "https://www.tipranks.com/news/why-are-memory-stocks-micron-sandisk-and-sk-hynix-trending-lower-today-october-6", "tier": 3},
+        {"name": "24/7 Wall St., SK Hynix falls 4% on earnings caution before a rebalancing Goldman says favors it", "date": "2026-10-06", "url": "https://247wallst.com/investing/2026/10/06/sk-hynix-falls-4-on-earnings-caution-before-a-rebalancing-goldman-says-favors-it-sandisk-slips-2-micron-holds-firm/", "tier": 3},
+        {"name": "Yahoo Finance, INTC, AMD, MU, SNDK, SOXX: chips, memory stocks slip premarket after sharp October rally", "date": "2026-10-06", "url": "https://finance.yahoo.com/markets/stocks/articles/intc-amd-mu-sndk-soxx-091251918.html", "tier": 3},
+        {"name": "GuruFocus, FormFactor shares fall 4.5% (confirms the move; gives no reason)", "date": "2026-10-06", "url": "https://www.gurufocus.com/news/9112251/formfactor-inc-form-shares-fall-45-what-gf-score-of-77-tells-investors", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "timing": "before open",
+      "type": "index change (took effect)",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "FormFactor's move from the S&P SmallCap 600 into the S&P MidCap 400 took effect before Tuesday's open, as announced on 2026-10-01. The index funds traded at Monday's close (13.9 million shares, already covered in the 10-05 report).",
+      "why_it_matters": "No business change. The forced index buying is over, so it no longer supports the price; whether that played a part in Tuesday's extra 1-point weakness against peers is unproven (inference, low).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "S&P Dow Jones Indices", "date": "2026-10-01", "url": "https://press.spglobal.com/2026-10-01-Vylor-Added-to-the-S-P-500-Twilio-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "largest-customer share price fell (peer/customer news)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "SK hynix, FormFactor's largest customer (24.3% of Q2 revenue, per the 10-Q), fell in Seoul on Tuesday (-3.69%, 1,841,000 to 1,773,000 won, Yahoo data) and again on Wednesday (-2.82% to 1.72 million won). Samsung fell 1.29% on Wednesday to 268,500 won. The Kospi fell 1.98% on Wednesday to 6,803.90 on rising oil prices and US Treasury yields, with investors cautious before Samsung's preliminary results on Thursday 2026-10-08. Its US-listed shares fell 6.39% Tuesday and 2.36% Wednesday. Reasons given (tier 3): caution before results, a stronger won reducing overseas earnings once converted, and larger worker-bonus provisions. Goldman Sachs analyst Heather Oh expected chip-fund rebalancing to bring money into SK hynix (24/7 Wall St.).",
+      "why_it_matters": "This is a share-price move, not a spending cut. SK hynix's investment plans are what matter for FormFactor. Their results (Samsung preliminary 10-08, SK hynix 10-27) are the next test of thesis pillar 2.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Korea JoongAng Daily (Kospi close report)", "date": "2026-10-07", "url": "https://www.koreajoongangdaily.com/business/kospi-drops-nearly-2-percent-as-bond-yield-worries-hit-tech-stocks/12909800", "tier": 2},
+        {"name": "24/7 Wall St.", "date": "2026-10-06", "url": "https://247wallst.com/investing/2026/10/06/sk-hynix-falls-4-on-earnings-caution-before-a-rebalancing-goldman-says-favors-it-sandisk-slips-2-micron-holds-firm/", "tier": 3},
+        {"name": "Yahoo Finance chart data (000660.KS, SKHY)", "date": "2026-10-07", "url": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=10d&interval=1d", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "sector move (continued)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "FORM closed Wednesday at $139.80 (-1.06%), in line with SMH (-1.18%) while the S&P 500 fund slipped 0.24%. Pipeline attribution: market +0.01, industry -1.93, company +0.86 (z 0.24), so FORM did slightly better than its usual link to chip stocks implies. Peers were mixed: Teradyne -4.31%, Onto -2.97%, Cohu -3.17%, Applied Materials -1.81%, Lam -1.31%, KLA -0.32%; Micron +4.06%, SK hynix US shares -2.36%. In Milan, probe-card rival Technoprobe closed about -5.97% (34.64 euros from 36.84, Yahoo data), after +2.79% on Tuesday. Intraday, FORM touched $135.69 before recovering (Yahoo intraday bar at 12:18 ET). Over two days FORM is -5.53% (from $147.99), SMH -1.40%, SPY +0.31% (my arithmetic from Yahoo closes).",
+      "why_it_matters": "Wednesday was industry-driven, not company-driven. Probe-card and test peers here and in Europe fell too, which supports the reading that the two-day fall is a group move.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Yahoo Finance chart data (FORM, SMH, SPY, peers, TPRO.MI)", "date": "2026-10-07", "url": "https://query1.finance.yahoo.com/v8/finance/chart/FORM?range=10d&interval=1d", "tier": 3},
+        {"name": "Pipeline attribution (coordinator, Wed close)", "date": "2026-10-07", "url": "data/metrics/attribution-2026-10-07.json", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "FORM fell 4.52% on Tue 2026-10-06 (from $147.99 to $141.30) and another 1.06% on Wed (to $139.80), -5.53% over two days.", "evidence": "data/prices/FORM.csv; https://query1.finance.yahoo.com/v8/finance/chart/FORM?range=10d&interval=1d"},
+    {"rung": 2, "text": "Tuesday was not a market move (S&P 500 fund +0.55%) and the broad chip fund SMH barely moved (-0.22%), so the pipeline assigned -2.92 points to FormFactor itself (z -0.8, within normal noise).", "evidence": "data/metrics/attribution-2026-10-07.json"},
+    {"rung": 3, "text": "But the stocks FormFactor actually trades with, US chip-equipment and test makers, fell sharply the same day (median of eight peers -3.52%; KLA -4.54%, Camtek -4.63%, Onto -3.60%, Lam -3.44%, Teradyne -3.20%), as did memory (SK hynix US shares -6.39%, Micron -1.73%). SMH hid this because NVIDIA, its biggest holding, rose 0.14%. So most of the 'company-specific' -2.92 was a subgroup sell-off; FormFactor fell only about 1 point more than the median peer.", "evidence": "https://query1.finance.yahoo.com/v8/finance/chart/KLAC?range=10d&interval=1d (price data, fact); the reading that it explains most of the move is inference (high)"},
+    {"rung": 4, "text": "No FormFactor-specific trigger was found: no SEC filing (newest is a 2026-09-17 Form 4), no company press release, and no new analyst rating on the stockanalysis.com list (newest is Deutsche Bank on 2026-09-30).", "evidence": "https://data.sec.gov/submissions/CIK0001039399.json ; https://stockanalysis.com/stocks/form/forecast/"},
+    {"rung": 5, "text": "Memory stocks fell because investors turned cautious before Samsung's preliminary Q3 results (Thu 10-08) and SK hynix's results (10-27): a stronger won and larger bonus provisions could trim profits, and there were unnamed reports of US data-center delays. Chip stocks were also 'taking a breather' after SOXX rose five sessions in a row and NVIDIA hit a record on Monday.", "evidence": "https://www.tipranks.com/news/why-are-memory-stocks-micron-sandisk-and-sk-hynix-trending-lower-today-october-6 ; https://247wallst.com/investing/2026/10/06/sk-hynix-falls-4-on-earnings-caution-before-a-rebalancing-goldman-says-favors-it-sandisk-slips-2-micron-holds-firm/ ; https://finance.yahoo.com/markets/stocks/articles/intc-amd-mu-sndk-soxx-091251918.html (tier 3 only; not confirmed by tier 1-2)"},
+    {"rung": 6, "text": "Basic driver: after a fast run (FORM +36% in a month to 10-06; RSI was 72.8 on 10-02), investors took money off chip-equipment and memory-linked stocks ahead of the memory makers' results, which will show whether AI-memory spending keeps rising. FormFactor's extra weakness fits its bigger run-up, its dependence on SK hynix (24.3% of revenue) and the end of index-inclusion buying, but no source says so.", "evidence": "inference (medium) for the group driver; inference (low) for FormFactor's extra 1 point"},
+    {"rung": 7, "text": "Wednesday's -1.06% was industry-driven (industry -1.93, company +0.86); peers including Teradyne (-4.31%) and the Italian probe-card rival Technoprobe (about -5.97%) also fell, and the Kospi fell 1.98% on oil and US Treasury yields.", "evidence": "data/metrics/attribution-2026-10-07.json (coordinator figures); https://www.koreajoongangdaily.com/business/kospi-drops-nearly-2-percent-as-bond-yield-worries-hit-tech-stocks/12909800"}
+  ],
+  "products": [
+    {
+      "name": "Probe cards (DRAM/HBM memory, plus foundry and logic chips incl. GPU)",
+      "what_it_is": "A custom-made test head with thousands of microscopic needles that touches every chip while it is still on the silicon wafer, to find the bad ones before they are cut out and packaged. (No new product news in this window; card carried over from the 2026-10-04 research for context, because the move links to its memory customers.)",
+      "analogy": "A bed of nails built to fit one chip design, pressed on the wafer like a stethoscope that listens to every chip at once; a new design needs a new card and cards wear out.",
+      "buyers": "Memory makers (SK hynix 24.3% of Q2 2026 revenue), foundries (TSMC 11.0%), chip designers; per Deutsche Bank (tier 3), NVIDIA GPUs made at TSMC now included.",
+      "how_it_works": "A tester sends signals through the card's needles into each chip's contact pads and reads the answers; bad chips are marked and thrown out before costly packaging. This matters most for HBM, where one bad layer ruins a whole stack.",
+      "price": "not disclosed",
+      "sales": "Not disclosed by product in our sources. Proxy: Q2 2026 total revenue $258.2M, of which Systems was $48.5M (call), implying about $209.7M from probe cards (derived arithmetic, 2026-10-04 research). HBM was about two-thirds of DRAM probe-card revenue (call). GPU probe cards: first production units shipping for revenue from Q3 2026 (call); amount not disclosed.",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000030/ex9901-earningsreleasexq226.htm ; https://www.investing.com/news/transcripts/earnings-call-transcript-formfactor-beats-q2-2026-estimates-shares-jump-after-hours-93CH-4821881 (per 2026-10-04 research file)",
+      "stage": "HBM/DRAM: shipping in volume. GPU probe cards: shipping first production units (Q3 2026).",
+      "size_for_company": "About 80% of revenue (derived proxy, Q2 2026).",
+      "competition": "Technoprobe (Italy; H1 2026 revenue 464.1M euros, +42.4%, per Italian press via search) and Micronics Japan. Both rose on Tuesday in their own markets (Technoprobe +2.79%, Micronics Japan +2.32%, Yahoo data), then Technoprobe fell about 5.97% on Wednesday.",
+      "why_investors_care": "Every new AI chip or HBM generation needs new, harder and pricier cards; memory makers' spending is FormFactor's revenue.",
+      "watch_next": "Samsung preliminary Q3 (10-08), SK hynix results (10-27), FormFactor Q3 (about 10-28): HBM demand, the HBM-to-DDR mix shift management flagged, GPU revenue disclosure."
+    }
+  ],
+  "earnings": {
+    "status": "upcoming",
+    "date": "2026-10-28 (estimated; not yet announced by the company)",
+    "confirmed": false,
+    "consensus": {"q3_eps_non_gaap": "$0.85 (Public.com, tier 3)", "q3_revenue": "not available", "fy2026_revenue": "$1.03B (stockanalysis.com)", "fy2026_eps": "$3.06 (stockanalysis.com)", "fy2027_revenue": "$1.21B (stockanalysis.com)", "fy2027_eps": "$3.79 (stockanalysis.com)"},
+    "actual": {},
+    "guidance": {"q3_2026_revenue": "$270M +/- $10M", "q3_non_gaap_gross_margin": "54.0% +/- 1.5 pts", "q3_gaap_gross_margin": "52.0% +/- 1.5 pts", "q3_non_gaap_eps": "$0.86 +/- $0.09", "q3_gaap_eps": "$0.75 +/- $0.09", "given": "2026-07-29"},
+    "key_metrics": {"q2_2026_revenue": "$258.2M (+31.9% y/y)", "q2_non_gaap_gross_margin": "53.3%", "sk_hynix_share_of_q2_revenue": "24.3% (10-Q)"},
+    "quality_flags": ["About a third of Q2's gross-margin gain was one-off (tariff refunds, reclaimed precious metal), per the Q2 call (2026-10-04 research file).", "Q3 guidance includes tariff refunds; the amount in the transcript is internally inconsistent and still unverified (carried over)."],
+    "management_explanation": "No new management commentary in the window.",
+    "sources": ["https://www.sec.gov/Archives/edgar/data/1039399/000103939926000030/ex9901-earningsreleasexq226.htm", "https://public.com/stocks/form/earnings", "https://stockanalysis.com/stocks/form/forecast/"]
+  },
+  "next_earnings": {
+    "date": "2026-10-28 (estimated)",
+    "confirmed": false,
+    "consensus_eps": "$0.85 non-GAAP for Q3 2026 (Public.com, tier 3, single source)",
+    "consensus_revenue": "Q3 2026 not available; FY2026 $1.03B and FY2027 $1.21B (stockanalysis.com, tier 3)",
+    "company_guidance": "Q3 2026 revenue $270M +/- $10M; non-GAAP gross margin 54.0% +/- 1.5 pts; non-GAAP EPS $0.86 +/- $0.09; GAAP EPS $0.75 +/- $0.09 (release 2026-07-29). For Q2 the company announced its date 21 days ahead (2026-07-08 for 2026-07-29), so a date notice for a 10-28 report would be due about now; none seen on the company page as of this check (the page lags, so this is not conclusive).",
+    "sources": ["https://public.com/stocks/form/earnings", "https://stockanalysis.com/stocks/form/forecast/", "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000030/ex9901-earningsreleasexq226.htm", "https://www.formfactor.com/company/news-events/press-releases/"]
+  },
+  "analyst_actions": [
+    {"date": "unknown (reported 2026-10-07 04:56)", "firm": "Freedom Capital", "action": "Keeps Hold, price target $140.00 (reported by one auto-generated site only; when Freedom Capital acted is not stated; not on the stockanalysis.com list; unconfirmed)", "reason": "'uneven near-term revenue potential, research and development spending, trade restrictions and customer-specific order volatility' (as quoted by ad-hoc-news)", "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/freedom-capital-keeps-hold-on-formfactor-stock/70249178"},
+    {"date": "2026-09-30", "firm": "Deutsche Bank (George Brown)", "action": "Initiated at Buy, $200 target (rehash; newest action on the stockanalysis.com list)", "reason": "Second approved probe-card supplier for NVIDIA GPUs at TSMC; HBM test market growth", "url": "https://stockanalysis.com/stocks/form/forecast/"}
+  ],
+  "insiders": {
+    "summary": "No insider filings in the window. The pipeline found no Form 4 or Form 144 for FormFactor (window 2026-09-27 to 2026-10-07), and EDGAR's list shows the newest FormFactor filing is a Form 4 accepted 2026-09-17 (the CEO's 10b5-1 plan sale of 17,510 shares on 2026-09-16, already covered).",
+    "notable": []
+  },
+  "filings": [],
+  "catalysts": [
+    {"date": "2026-10-08", "event": "Samsung Electronics preliminary Q3 2026 results (memory demand read-through; consensus operating profit above 100 trillion won per Korean press via search, not verified)", "confirmed": true, "url": "https://www.koreajoongangdaily.com/business/kospi-drops-nearly-2-percent-as-bond-yield-worries-hit-tech-stocks/12909800"},
+    {"date": "2026-10-13", "event": "FormFactor management at the 18th Annual CEO Investor Summit, San Francisco (company release 2026-09-30, seen as a GlobeNewswire headline on Yahoo)", "confirmed": true, "url": "https://stockhouse.com/news/press-releases/2026/09/30/formfactor-announces-participation-in-18th-annual-ceo-investor-summit-2026"},
+    {"date": "2026-10-27", "event": "SK hynix Q3 results (FormFactor's largest customer)", "confirmed": false, "url": "https://www.tipranks.com/news/why-are-memory-stocks-micron-sandisk-and-sk-hynix-trending-lower-today-october-6"},
+    {"date": "2026-10-28", "event": "FormFactor Q3 2026 results (estimated; company has not announced the date)", "confirmed": false, "url": "https://public.com/stocks/form/earnings"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "No 8-K or press release since the 2026-07-29 Q2 release (EDGAR list, newest filing 2026-09-17 Form 4; formfactor.com press page)."},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "No results in the window; Q3 due about 2026-10-28 (estimated)."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "No report found. SK hynix's (24.3% of revenue) shares fell on earnings caution, a stronger won and bonus costs (JoongAng Daily 2026-10-07; 24/7 Wall St. 2026-10-06), with no spending cut reported."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "No 8-K in the window (https://data.sec.gov/submissions/CIK0001039399.json)."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "No 8-K in the window."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "No 8-K in the window; management is still scheduled for the 2026-10-13 investor summit."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "No S-3, 424B or 8-K in the window. The newest registration was an S-8 on 2026-08-04 (employee share plan, routine)."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "Search 'FormFactor lawsuit OR investigation OR short seller 2026' returned only a 2006-07 class action and a 2016 merger review; nothing current."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "No downgrade found. Newest action on stockanalysis.com is the Deutsche Bank Buy initiation on 2026-09-30; Freedom Capital 'keeps Hold' (a maintained rating, single auto-generated source)."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "No Form 4 in the window (pipeline insider_summary: 0 sales; EDGAR newest 2026-09-17)."},
+    {"event": "Thesis trigger 1: guidance is cut", "found": false, "evidence": "Not testable until Q3 results; no company update."},
+    {"event": "Thesis trigger 2: memory makers (especially SK hynix) cut spending", "found": false, "evidence": "Not hit. Early-warning watch: SK hynix (-3.69% Tue, -2.82% Wed in Seoul) and Samsung (-1.29% Wed) shares fell before results; tier-3 mentions of unnamed US data-center delay reports. No spending cut or HBM oversupply report found."},
+    {"event": "Thesis trigger 3: revenue falls more than 20% year on year in a downturn", "found": false, "evidence": "No results in window."},
+    {"event": "Thesis trigger 4: no NVIDIA confirmation in next results or 10-Q", "found": false, "evidence": "Not testable until Q3 results."},
+    {"event": "Thesis trigger 5: reports that NVIDIA chose other suppliers", "found": false, "evidence": "No such report found."},
+    {"event": "Thesis trigger 6: adjusted gross margin below 50%", "found": false, "evidence": "Not testable until Q3 results (Q3 non-GAAP guide 54.0% +/- 1.5 pts)."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Freedom Capital keeps a Hold with a $140 target, citing uneven near-term revenue, R&D spending, trade restrictions and customer-specific order volatility.", "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/freedom-capital-keeps-hold-on-formfactor-stock/70249178", "assessment": "Opinion, single auto-generated source, action date unknown (Freedom Capital raised FORM to Hold in January 2026 per tier-3 search snippets). The stock ($139.80) now sits at that target. Do not cite as a cause of Tuesday's fall: published after it."},
+    {"claim": "Memory stocks fell on caution before Samsung's 10-08 and SK hynix's 10-27 results, a stronger won, bonus costs, and reports of US data-center delays.", "url": "https://www.tipranks.com/news/why-are-memory-stocks-micron-sandisk-and-sk-hynix-trending-lower-today-october-6", "assessment": "Relevant to pillar 2 (memory spending). Today it is share-price caution, not a spending cut. The data-center delay reports are unnamed in the article."},
+    {"claim": "Close to half of US data centers planned for 2026 are delayed or cancelled, mainly because of power-equipment shortages (transformers, switchgear), not chips.", "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/half-of-planned-us-data-center-builds-have-been-delayed-or-canceled-growth-limited-by-shortages-of-power-infrastructure-and-parts-from-china-the-ai-build-out-flips-the-breakers", "assessment": "Publication date not verified (page body did not load), so probably not new in this window. A slower AI build-out would in time slow AI-chip and HBM demand. Background risk, not a trigger."},
+    {"claim": "GuruFocus (2026-10-06) says insiders sold $22.1M over 12 months with no buying, and its model calls the stock '137.3% overvalued'.", "url": "https://www.gurufocus.com/news/9112251/formfactor-inc-form-shares-fall-45-what-gf-score-of-77-tells-investors", "assessment": "Tier-3 model opinion, and the figures come from a search snippet, not re-verified on the page. Most insider selling was the CEO's pre-planned 10b5-1 sales (already logged). Weak evidence."},
+    {"claim": "Lawsuit / investigation / short-seller search.", "url": "https://www.tipranks.com/news/the-fly/formfactor-downgraded-to-neutral-from-buy-at-citi-thefly", "assessment": "Nothing current found. The downgrade search surfaced only old downgrades (Citi, B. Riley, Needham, with $31-$64 targets from earlier years); not in the window."},
+    {"claim": "The average analyst target differs by source: $153.89 (stockanalysis.com, 11 analysts), $145.44 (another aggregator via search snippet), $138.63 (used in the 10-04 report).", "url": "https://stockanalysis.com/stocks/form/forecast/", "assessment": "At $139.80 the stock is below two of the three averages; the earlier 'trades above the average target' point in the thesis's 'what I accept' depends on which aggregator is used."}
+  ],
+  "open_questions": [
+    "No tier 1-2 source explains why US chip-equipment and test stocks (KLA, Lam, Applied, Teradyne, Onto, Camtek) fell on Tuesday 10-06; the search budget ran out. Explanations are tier 3 (memory earnings caution, profit-taking after a rally).",
+    "Why FormFactor fell about 1 point more than the median peer on Tuesday is unknown (possible: bigger run-up, SK hynix dependence, end of index-inclusion buying; all inference).",
+    "Freedom Capital Hold $140: date of the action and whether it is new are unverified (single auto-generated source).",
+    "Q3 2026 results date not yet announced by the company (estimated 2026-10-28); Q3 consensus revenue not found.",
+    "Source and date of the 'US data-center delays' reports cited by TipRanks were not identified.",
+    "Wednesday volume (1,056,924 per Yahoo after the close) may be revised in the final data.",
+    "Carried over: the size of the tariff refund in Q3 guidance (transcript figure internally inconsistent)."
+  ],
+  "searches_run": 16
+}

@@ -1,0 +1,63 @@
+{
+  "ticker": "QQQM",
+  "items": [
+    {
+      "key": "qqqm-2026-10-06-bought",
+      "date": "2026-10-06",
+      "timing": "after close",
+      "type": "position opened",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Santi bought 0.100 shares at Tuesday's close ($312.76); the Nasdaq-100 index it copies adds Moderna on 10-09.",
+      "source": {
+        "name": "Nasdaq",
+        "date": "2026-10-01",
+        "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -0.26,
+        "market_pct": -0.24,
+        "beyond_market_pct": -0.02,
+        "typical_day_pct": 0.48,
+        "z": -0.05,
+        "next_5_days_pct": null
+      }
+    }
+  ],
+  "days": [
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 311.94,
+      "day_pct": -0.26,
+      "market_part_pct": -0.24,
+      "industry_part_pct": -0.01,
+      "company_part_pct": -0.01,
+      "z": -0.36,
+      "main_news": "Santi bought 0.100 shares at Tuesday's close ($312.76); the Nasdaq-100 index it copies adds Moderna on 10-09."
+    }
+  ],
+  "upcoming": {
+    "as_of": "2026-10-07",
+    "events": [
+      {
+        "date": "2026-10-09",
+        "event": "Moderna joins the Nasdaq-100 (QQQM's index)",
+        "confirmed": true,
+        "source": {
+          "name": "Nasdaq",
+          "date": "2026-10-01",
+          "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
+          "tier": 1
+        }
+      }
+    ]
+  }
+}

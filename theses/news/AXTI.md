@@ -8,27 +8,29 @@ This page is rebuilt on every run from `data/news-log/AXTI.json` by `.claude/ski
 
 ## What the log shows so far
 
-- **6** news items and **2** report days logged (first report 2026-10-04, latest 2026-10-05).
+- **7** news items and **3** report days logged (first report 2026-10-04, latest 2026-10-07).
 - **Too early to draw conclusions:** fewer than 20 items. Read this page as a diary for now, not as a rule about how the stock behaves.
 - Average move beyond the market on the reaction day to **good** news: +25.29% (1 item).
-- Average move beyond the market on the reaction day to **bad** news: +3.30% (3 items).
+- Average move beyond the market on the reaction day to **bad** news: +1.27% (4 items).
 - Biggest reactions so far: 2026-07-30 +25.29% beyond the market (very big) after: Lumentum signed a six-year deal reserving AXT's production, backed by two $43.5m deposits.; 2026-04-22 +14.95% beyond the market (very big) after: Sold 8.56 million new shares at $64.25, raising the share count about 15%.; 2026-10-01 +5.51% beyond the market (normal) after: Scheduled its Q3 results for 2026-10-29 after the US close..
 - Of those biggest moves, 1 partly reversed over the next five trading days.
 - Report days with a very big company-specific move and no news found: 0.
 - Several items can share one reaction day, so their reactions are not independent.
 
-## Coming up (calendar as of 2026-10-05)
+## Coming up (calendar as of 2026-10-07)
 
 Dated events that could move the stock. When one happens, it moves into the news table below.
 
 | Date | Event | Confirmed? | Source |
 |---|---|---|---|
-| 2026-10-29 | Q3 2026 results, after the US close (guidance about $66m, tier 3) | yes | [AXT via Business Wire, 2026-10-01](https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026), tier 1 |
+| 2026-10-29 | Q3 2026 results after the close | yes | [Business Wire, 2026-10-01](https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026), tier 1 |
+| 2026-11-27 | China's pause of its gallium/germanium export ban to the US due to end (extension not verified) | not confirmed | not recorded |
 
 ## News, newest first
 
 | Date | What happened | Good or bad for the stock | Importance | Reaction day | Stock | Market | Beyond market | Size | Next 5 days | Source |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-07 | Fell 5.08% with no company news; the whole fall came at the open, when the 10-year rate touched 5.36% and chip and optical stocks opened lower. Tuesday's 3.00% slide had no published cause. | bad | medium | 2026-10-07 | -5.08% | -0.24% | -4.84% | normal | n/a | [Yahoo Finance, 2026-10-07](https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html), tier 3 |
 | 2026-10-05 | BlackRock reported owning 9,359,639 shares, 14.3% of AXT, as of 2026-09-30; its iShares Core S&P Small-Cap ETF alone holds more than 5%. | neutral | low | 2026-10-05 | +0.92% | +0.67% | +0.25% | normal | n/a | [SEC Schedule 13G/A, 2026-10-05](https://www.sec.gov/Archives/edgar/data/1051627/000201238326003311/xslSCHEDULE_13G_X02/primary_doc.xml), tier 1 |
 | 2026-10-01 | Scheduled its Q3 results for 2026-10-29 after the US close. | neutral | low | 2026-10-01 | +5.68% | +0.18% | +5.51% | normal | n/a | [AXT via Business Wire, 2026-10-01](https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026), tier 1 |
 | 2026-08-13 | The 10-Q said China's export permits for indium phosphide wafers to US customers are still not issued, which AXT calls "the most significant challenge we currently face". | bad | high | 2026-08-13 | -1.30% | +0.70% | -2.00% | normal | -5.59% | [AXT 10-Q, 2026-08-13](https://www.sec.gov/Archives/edgar/data/0001051627/000143774926027677/axti20260630_10q.htm), tier 1 |
@@ -42,6 +44,7 @@ The day's move split into the part from the whole market, the part from its indu
 
 | Report | Trading day | Close | Day move | Market part | Industry part | Company part | Size of company part | Main news that day |
 |---|---|---|---|---|---|---|---|---|
+| 2026-10-07 | 2026-10-07 | $79.79 | -5.08% | -0.40% | -1.80% | -2.88% | normal | Fell 5.08% with no company news; the whole fall came at the open, when the 10-year rate touched 5.36% and chip and optical stocks opened lower. Tuesday's 3.00% slide had no published cause. |
 | 2026-10-05 | 2026-10-05 | $86.66 | +0.92% | +1.15% | -0.29% | +0.06% | normal | BlackRock reported owning 9,359,639 shares, 14.3% of AXT, as of 2026-09-30; its iShares Core S&P Small-Cap ETF alone holds more than 5%. |
 | 2026-10-04 | 2026-10-02 | $85.87 | +4.96% | +1.27% | +2.50% | +1.19% | normal | no news found |
 

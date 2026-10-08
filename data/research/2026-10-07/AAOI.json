@@ -1,0 +1,559 @@
+{
+ "ticker": "AAOI",
+ "company": "Applied Optoelectronics Inc",
+ "window": {
+  "from": "2026-10-05T20:00Z (after Mon 5 Oct US close)",
+  "to": "2026-10-07T21:15Z (after Wed 7 Oct US close; EDGAR rechecked at this time)"
+ },
+ "newest_item_checked": "SEC Form 4 (Shu-Hua Yeh), accepted 2026-10-07 20:05:03 UTC (16:05 ET, after the close); EDGAR submissions list rechecked 2026-10-07 21:15 UTC, nothing newer",
+ "price_facts_from_data": {
+  "tue_2026_10_06": {
+   "open": 126.0,
+   "high": 131.15,
+   "low": 124.3,
+   "close": 130.16,
+   "day_pct": 7.07,
+   "volume": 12525200,
+   "gap_at_open_pct": 3.64,
+   "attribution": {
+    "market": 0.89,
+    "industry": -1.49,
+    "company": 7.66,
+    "z": 0.97
+   },
+   "note": "open/high/low/volume from data/prices/AAOI.csv; gap = 125.995/121.57-1 (our calculation)"
+  },
+  "wed_2026_10_07": {
+   "open": 126.12,
+   "high": 127.76,
+   "low": 119.73,
+   "close": 122.54,
+   "day_pct": -5.85,
+   "volume": 10543102,
+   "attribution": {
+    "market": -0.39,
+    "industry": -1.8,
+    "company": -3.67,
+    "z": -0.47
+   },
+   "note": "close and attribution from the coordinator; bar from data/prices/AAOI.csv. It opened -3.1% vs Tuesday's close (our calculation)"
+  },
+  "two_days_vs_mon_close_121_57_pct": 0.8,
+  "peers_tue": "LITE +3.8%, VIAV +2.6%, CRDO +3.9%, SMH -0.2%",
+  "peers_wed": "LITE -1.97%, VIAV -3.88%, CRDO -0.37%, SMH -1.18%"
+ },
+ "events": [
+  {
+   "date": "2026-10-06",
+   "timing": "during",
+   "type": "price move without company news (stale explanation in press)",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "AAOI rose 7.07% to $130.16 on Tuesday with no new press release, 8-K or analyst action. It gapped up 3.6% at the open ($126.00) and was already +6% ($128.95) at 9:52 ET, when 24/7 Wall St noted it 'stands out because the rest of the optics group is barely moving' (Lumentum +0.4% then). Tier-3 articles credited the completion of the $600m share-sale program, but that release came out Monday 5 Oct at 07:00 ET, a full session earlier (rehash). GuruFocus found no cause; MarketBeat cited the August Q2 beat (stale).",
+   "why_it_matters": "Santi's 5% rule fired. The published 'reason' is day-old news; no source shows new information about AOI on Tuesday. The company-specific part (+7.66 points, z 0.97) is inside this stock's normal noise.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "24/7 Wall St.",
+     "date": "2026-10-06",
+     "url": "https://247wallst.com/investing/2026/10/06/applied-optoelectronics-surges-6-as-600m-share-sale-program-closes-lumentum-sits-out-the-rally-corning-edges-higher/",
+     "tier": 3
+    },
+    {
+     "name": "GuruFocus",
+     "date": "2026-10-06",
+     "url": "https://www.gurufocus.com/news/9112250/applied-optoelectronics-inc-aaoi-shares-surge-71-what-gf-score-of-62-tells-investors",
+     "tier": 3
+    },
+    {
+     "name": "MarketBeat",
+     "date": "2026-10-06",
+     "url": "https://www.marketbeat.com/instant-alerts/price-applied-optoelectronics-nasdaq-aaoi-stock-jumps-62-should-you-buy-2026-10-06/",
+     "tier": 3
+    },
+    {
+     "name": "PR Newswire (AOI release, 2026-10-05 07:00 ET)",
+     "date": "2026-10-05",
+     "url": "https://www.prnewswire.com/news-releases/applied-optoelectronics-announces-completion-of-previously-announced-at-the-market-offering-302897857.html",
+     "tier": 1
+    },
+    {
+     "name": "SEC EDGAR submissions (no AAOI 8-K in window)",
+     "date": "2026-10-07",
+     "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "during",
+   "type": "peer/industry event: Marvell Investor Day",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "At its Investor Day on 6 Oct, Marvell (maker of the signal-processing chips used inside optical transceivers) raised its fiscal 2028 revenue target to about $20bn from about $18bn (consensus about $18.2bn), with data-center revenue near $18bn, and set a $70-90bn fiscal 2031 framework. Reports say the extra ~$2bn comes from scale-out optics, scale-up optics and switching; Marvell said it ships 1.6T optical technologies in volume and is developing 3.2T. Marvell's stock dipped about 3% early, then rallied to close up about 6%. Optical peers (LITE +3.8%, CRDO +3.9%) finished higher while SMH fell 0.2%.",
+   "why_it_matters": "A big supplier to the same AI data-center customers says optical connections are growing faster than it expected, which supports demand for AOI's 800G/1.6T transceivers. It is a sector signal, not AOI news. Marvell's targets come only from tier-3 reports: Marvell's IR page showed no investor-day release when checked (it confirms only the event date).",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "Investing.com",
+     "date": "2026-10-06",
+     "url": "https://www.investing.com/news/stock-market-news/marvell-technology-stock-rallies-following-ambitious-investor-day-targets-4934767",
+     "tier": 3
+    },
+    {
+     "name": "MarketBeat via Yahoo Finance",
+     "date": "2026-10-06",
+     "url": "https://finance.yahoo.com/technology/ai/articles/marvell-technology-targets-90b-revenue-200205162.html",
+     "tier": 3
+    },
+    {
+     "name": "Marvell press releases page (Investor Day set for 2026-10-06, announced 2026-08-03)",
+     "date": "2026-08-03",
+     "url": "https://investor.marvell.com/news-events/press-releases",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "timing": "during",
+   "type": "market/sector pullback",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "AAOI fell 5.85% to $122.54 on Wednesday (opened -3.1% at $126.12, low $119.73), giving back Tuesday's gain: +0.80% over two days vs Monday's $121.57. The broad market slipped from record highs as the 10-year Treasury yield reached 5.31% (30-year near 5.68%) and oil rose, before the Fed's September minutes at 2 p.m. ET. Chip stocks (SMH -1.18%) and optical peers (VIAV -3.88%, LITE -1.97%) fell too. No AAOI-specific news, filing or analyst action was found before the close.",
+   "why_it_matters": "Santi's 5% rule fired again. The company-specific part (-3.67 points, z -0.47) is normal noise. Higher yields tend to hit expensive, high-beta stocks hardest (AAOI's 1-year beta to the market is 4.26), and the stock had risen 29.29% in five sessions.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Yahoo Finance, Stock Market Today (Oct. 7, 2026)",
+     "date": "2026-10-07",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-7-133458375.html",
+     "tier": 3
+    },
+    {
+     "name": "SEC EDGAR submissions",
+     "date": "2026-10-07",
+     "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "timing": "after close",
+   "type": "insider sale (pre-planned), Form 4",
+   "materiality": "low",
+   "new_or_rehash": "rehash",
+   "summary": "Form 4 filed 16:05 ET on 7 Oct: Shu-Hua (Joshua) Yeh, Senior Vice President and Asia General Manager, sold 6,000 shares on 5 Oct at a weighted average of $120.03 (range $120.00-$120.10), about $720,180, under a Rule 10b5-1 plan adopted 19 March 2026. He holds 371,498 shares after, so he sold about 1.6% of his stake (our calculation). This executes the Form 144 notice already covered on 5 Oct (rehash). New detail: the actual price and his remaining holding.",
+   "why_it_matters": "It is a small, pre-scheduled sale. Under Santi's rules it carries little information and does not count toward the 'several unplanned insider sales' breaker. It was filed after Wednesday's close, so it cannot explain Wednesday's drop.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "SEC Form 4",
+     "date": "2026-10-07",
+     "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007698/xslF345X06/ownership.xml",
+     "tier": 1
+    },
+    {
+     "name": "SEC Form 144",
+     "date": "2026-10-05",
+     "url": "https://www.sec.gov/Archives/edgar/data/1158114/000197407826000376/xsl144X01/primary_doc.xml",
+     "tier": 1
+    },
+    {
+     "name": "Investing.com",
+     "date": "2026-10-07",
+     "url": "https://www.investing.com/news/insider-trading-news/applied-optoelectronics-svp-yeh-sells-720180-of-stock-93CH-4937505",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "timing": "unknown",
+   "type": "insider sale NOT under a 10b5-1 plan (background, outside window, not yet in news log)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "Outside this window but missing from the news log: Hung-Lun (Fred) Chang, Senior Vice President and North America General Manager, sold 32,172 shares on 8 Sep 2026 at a weighted average of $110.21 (about $3.55m). The Form 4 does NOT tick the 10b5-1 box. He kept 249,276 shares, so he sold about 11.4% of his stake (our calculation). The CFO, Stefan Murry, sold 4,000 shares on 10 Sep at $105.33 under a 10b5-1 plan adopted 12 Aug 2025.",
+   "why_it_matters": "It is one unplanned sale by one officer, so the 'several insiders sold outside plans' breaker is not met. It is still the most informative insider trade on file. MarketBeat tallies 52,172 insider shares sold (about $6.1m) in 90 days.",
+   "direction": "weakens",
+   "sources": [
+    {
+     "name": "SEC Form 4 (Chang)",
+     "date": "2026-09-10",
+     "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007059/xslF345X06/ownership.xml",
+     "tier": 1
+    },
+    {
+     "name": "SEC Form 4 (Murry)",
+     "date": "2026-09-10",
+     "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007058/xslF345X06/ownership.xml",
+     "tier": 1
+    },
+    {
+     "name": "MarketBeat",
+     "date": "2026-10-06",
+     "url": "https://www.marketbeat.com/instant-alerts/price-applied-optoelectronics-nasdaq-aaoi-stock-jumps-62-should-you-buy-2026-10-06/",
+     "tier": 3
+    }
+   ]
+  }
+ ],
+ "why_chain": [
+  {
+   "rung": 1,
+   "text": "Tuesday +7.07% ($121.57 to $130.16): market +0.89, industry -1.49, company +7.66 points (z 0.97, normal noise for AAOI).",
+   "evidence": "data/metrics/attribution-2026-10-07.json"
+  },
+  {
+   "rung": 2,
+   "text": "AOI published nothing new: no press release or SEC filing between Monday's 07:00 ET release and Wednesday's after-close Form 4.",
+   "evidence": "https://data.sec.gov/submissions/CIK0001158114.json | AOI IR page could not be loaded (timeout), so the newsroom itself was not checked"
+  },
+  {
+   "rung": 3,
+   "text": "The gain started at the open (gap +3.6%) and was +6% by 9:52 ET while optical peers were flat, so the morning move was AAOI's own.",
+   "evidence": "https://247wallst.com/investing/2026/10/06/applied-optoelectronics-surges-6-as-600m-share-sale-program-closes-lumentum-sits-out-the-rally-corning-edges-higher/ ; data/prices/AAOI.csv"
+  },
+  {
+   "rung": 4,
+   "text": "The only explanation in print (tier 3) is the completed $600m share sale ('clearing known share supply'), but that came out a session earlier. A delayed reaction to the end of the selling is possible but unproven.",
+   "evidence": "inference (low)"
+  },
+  {
+   "rung": 5,
+   "text": "Later in the session the optical group rose (LITE +3.8%, CRDO +3.9%, VIAV +2.6%) while SMH fell, on the day Marvell raised its FY2028 target to about $20bn, citing optics. That probably supported AAOI's afternoon and close; the exact timing was not verified.",
+   "evidence": "https://www.investing.com/news/stock-market-news/marvell-technology-stock-rallies-following-ambitious-investor-day-targets-4934767 | inference (medium)"
+  },
+  {
+   "rung": 6,
+   "text": "Basic driver: investors are betting on AI data-center spending on optical links (800G/1.6T modules), amplified by momentum: AAOI is up 29.29% in five sessions with a 1-year beta to the market of 4.26.",
+   "evidence": "data/metrics/2026-10-07.json | inference (medium)"
+  },
+  {
+   "rung": 7,
+   "text": "Wednesday -5.85%: market -0.39, industry -1.80, company -3.67 (z -0.47, normal noise).",
+   "evidence": "coordinator attribution 2026-10-07"
+  },
+  {
+   "rung": 8,
+   "text": "Stocks slipped from records as the 10-year yield hit 5.31% and oil rose, ahead of the Fed minutes; chips and optical peers fell.",
+   "evidence": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-7-133458375.html"
+  },
+  {
+   "rung": 9,
+   "text": "Higher yields hurt richly valued, high-beta stocks most, and after a 29% five-day run some profit-taking is typical. No AAOI-specific cause was found; the Form 4 came after the close.",
+   "evidence": "inference (medium)"
+  }
+ ],
+ "products": [
+  {
+   "name": "800G and 1.6T data-center optical transceivers",
+   "what_it_is": "Plug-in modules that turn a server's or switch's electrical signals into laser light and back, at 800 or 1,600 gigabits per second.",
+   "analogy": "A translator at each end of a phone line: one turns speech (electricity) into a coded signal (light) for the long wire (fibre), the other turns it back.",
+   "buyers": "Large cloud and AI data-center operators, directly or through a distributor. Top 10 customers are 99% of revenue; one distributor owed $211.0m at 30 June (AOI 10-Q, 2026-08-06).",
+   "how_it_works": "A laser chip encodes data as light pulses into fibre; a photodetector at the far end turns them back into electricity; a signal-processing chip (the kind Marvell sells) cleans up the signal.",
+   "price": "not disclosed",
+   "sales": "Units not disclosed. Proxy: Q2 2026 data-center revenue $107.662m (+140.4% from $44.791m a year earlier), 56.1% of total revenue of $191.922m; the CEO said 800G volume 'more than doubled sequentially'.",
+   "sales_source": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006055/aaoi_ex9901.htm",
+   "stage": "800G ramping in volume. 1.6T: capacity being built; volume shipments not stated in the Q2 release.",
+   "size_for_company": "56.1% of Q2 2026 revenue (CATV $80.578m was the other big piece, 42.0%).",
+   "competition": "Chinese makers led by Zhongji Innolight (about 27% of the global data-center transceiver market per a tier-3 report), plus Coherent and Lumentum.",
+   "why_investors_care": "The CEO said demand will outpace AOI's production capacity through mid-2027. Capacity was approaching 200,000 units a month in Q2, with a target of about 650,000 800G/1.6T units a month by end-2026, so revenue growth depends on adding capacity.",
+   "watch_next": "Q3 results (about 5 Nov): data-center revenue, the capacity update against 650,000 a month, and gross margin against the 29-30.5% non-GAAP guide.",
+   "proxy_sources": [
+    {
+     "name": "AOI Q2 2026 results",
+     "date": "2026-08-06",
+     "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006055/aaoi_ex9901.htm",
+     "tier": 1
+    },
+    {
+     "name": "TIKR (citing Reuters 2026-08-04)",
+     "date": "2026-08-05",
+     "url": "https://www.tikr.com/blog/lumentum-stock-rose-9-on-a-reported-china-optics-ban-heres-where-the-stock-could-go",
+     "tier": 3
+    }
+   ]
+  }
+ ],
+ "earnings": {
+  "status": "none",
+  "date": "",
+  "confirmed": false,
+  "consensus": {},
+  "actual": {},
+  "guidance": {},
+  "key_metrics": {},
+  "quality_flags": [],
+  "management_explanation": "No results in the window.",
+  "sources": []
+ },
+ "next_earnings": {
+  "date": "2026-11-05 (estimated; listed by Investing.com, not confirmed by AOI)",
+  "confirmed": false,
+  "consensus_eps": "$0.138 non-GAAP for the quarter ending Sep 2026 (Investing.com, read 2026-10-07). When the guidance came out on 2026-08-06, consensus was $0.27 (MarketBeat), so analysts have cut their profit estimate since.",
+  "consensus_revenue": "$266.03m (Investing.com, read 2026-10-07); $265.7m at the time of guidance (MarketBeat, 2026-08-06).",
+  "company_guidance": "Q3 2026: revenue $255-290m; non-GAAP gross margin 29-30.5%; non-GAAP net income $10.1-24.0m; non-GAAP EPS $0.11-0.26, assuming about 92.8m shares (AOI Q2 2026 results, 2026-08-06).",
+  "sources": [
+   {
+    "name": "AOI Q2 2026 results (Exhibit 99.1)",
+    "date": "2026-08-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006055/aaoi_ex9901.htm",
+    "tier": 1
+   },
+   {
+    "name": "Investing.com earnings page",
+    "date": "2026-10-07",
+    "url": "https://www.investing.com/equities/applied-opt-earnings",
+    "tier": 3
+   },
+   {
+    "name": "MarketBeat",
+    "date": "2026-08-06",
+    "url": "https://www.marketbeat.com/instant-alerts/applied-optoelectronics-nasdaqaaoi-updates-q3-2026-earnings-guidance-2026-08-06/",
+    "tier": 3
+   }
+  ]
+ },
+ "analyst_actions": [
+  {
+   "date": "none in window",
+   "firm": "",
+   "action": "No analyst rating or price-target change found from 2026-10-05 to 2026-10-07",
+   "reason": "MarketBeat's list shows nothing after 2026-08-17. Consensus 'Hold', average target $139.40, 6 analysts (3 Buy, 2 Hold, 1 Sell).",
+   "url": "https://www.marketbeat.com/stocks/NASDAQ/AAOI/forecast/"
+  },
+  {
+   "date": "2026-08-17",
+   "firm": "Weiss Ratings",
+   "action": "Downgrade to Sell (E+) (context, outside window)",
+   "reason": "not stated",
+   "url": "https://www.marketbeat.com/stocks/NASDAQ/AAOI/forecast/"
+  },
+  {
+   "date": "2026-08-11",
+   "firm": "Raymond James",
+   "action": "Reiterated Outperform, $178 target (context)",
+   "reason": "not stated",
+   "url": "https://www.marketbeat.com/stocks/NASDAQ/AAOI/forecast/"
+  },
+  {
+   "date": "2026-08-07",
+   "firm": "Needham",
+   "action": "Buy kept; target cut $220 to $190 (context)",
+   "reason": "not stated",
+   "url": "https://www.marketbeat.com/stocks/NASDAQ/AAOI/forecast/"
+  },
+  {
+   "date": "2026-08-07",
+   "firm": "Rosenblatt",
+   "action": "Reiterated Buy, $220 target (context)",
+   "reason": "not stated",
+   "url": "https://www.marketbeat.com/stocks/NASDAQ/AAOI/forecast/"
+  },
+  {
+   "date": "2026-08-07",
+   "firm": "B. Riley",
+   "action": "Reiterated Neutral (context)",
+   "reason": "not stated",
+   "url": "https://www.marketbeat.com/stocks/NASDAQ/AAOI/forecast/"
+  }
+ ],
+ "insiders": {
+  "summary": "In the window: one pre-planned sale. SVP Shu-Hua Yeh sold 6,000 shares on 5 Oct at $120.03 (about $720,180, about 1.6% of his stake) under a 10b5-1 plan adopted 2026-03-19. Form 144 filed 5 Oct; Form 4 filed 7 Oct after the close. No open-market purchases. Outside the window: one unplanned sale by SVP Hung-Lun (Fred) Chang (32,172 shares, $110.21, 8 Sep) and a planned CFO sale (4,000 shares, 10 Sep).",
+  "notable": [
+   {
+    "name": "Shu-Hua (Joshua) Yeh",
+    "role": "SVP and Asia General Manager",
+    "date": "2026-10-05",
+    "code": "S",
+    "shares": 6000,
+    "price": 120.03,
+    "value_usd": 720180,
+    "owned_after": 371498,
+    "10b5_1": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007698/xslF345X06/ownership.xml"
+   },
+   {
+    "name": "Hung-Lun (Fred) Chang",
+    "role": "SVP and North America General Manager",
+    "date": "2026-09-08",
+    "code": "S",
+    "shares": 32172,
+    "price": 110.21,
+    "value_usd": 3545676,
+    "owned_after": 249276,
+    "10b5_1": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007059/xslF345X06/ownership.xml",
+    "note": "outside window"
+   },
+   {
+    "name": "Stefan J. Murry",
+    "role": "CFO",
+    "date": "2026-09-10",
+    "code": "S",
+    "shares": 4000,
+    "price": 105.33,
+    "value_usd": 421320,
+    "owned_after": 367168,
+    "10b5_1": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007058/xslF345X06/ownership.xml",
+    "note": "outside window"
+   }
+  ]
+ },
+ "filings": [
+  {
+   "form": "4",
+   "items": "",
+   "plain_english": "Yeh's sale is done: 6,000 shares on 2026-10-05 at an average $120.03, under a 10b5-1 plan adopted 2026-03-19; 371,498 shares left. Filed 2026-10-07 at 16:05 ET.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007698/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "144",
+   "items": "",
+   "plain_english": "Notice (filed 5 Oct, accepted 21:29 ET) that officer Shu-Hua Yeh planned to sell 6,000 shares (about $720,154.80) through Raymond James. The shares came from RSUs granted 2023-07-25; his earlier sales were 1,285 (Jul 21), 4,715 (Aug 4) and 6,000 (Aug 18). It lists 84,569,237 shares outstanding (the 10-Q figure; it does not include the 5,694,845 ATM shares). Already covered on 5 Oct (rehash).",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1158114/000197407826000376/xsl144X01/primary_doc.xml"
+  },
+  {
+   "form": "8-K (context, outside window)",
+   "items": "1.01, 2.03",
+   "plain_english": "15 Sep: a 10-year lease of a 38,311.8 m2 factory building in Ningbo, China, from 16 Sep 2026; rent RMB 6,896,124 a year. More production capacity, located in China.",
+   "materiality": "medium",
+   "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007160/aaoi_8k.htm"
+  },
+  {
+   "form": "8-K (context, outside window)",
+   "items": "1.01",
+   "plain_english": "10 Sep: bought its leased Houston building (153,928 sq ft) for $26,783,472 in cash on 4 Sep.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007057/aaoi_8k.htm"
+  },
+  {
+   "form": "8-K (context, outside window)",
+   "items": "1.01, 2.03",
+   "plain_english": "1 Sep: leases for two more Houston industrial buildings (4 and 5), to be built; substantial completion expected about 16 months after 31 Aug 2026 (around end-2027, our calculation).",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006862/aaoi_8k.htm"
+  }
+ ],
+ "catalysts": [
+  {
+   "date": "2026-11-05 (estimated)",
+   "event": "Q3 2026 results (guide $255-290m revenue, non-GAAP EPS $0.11-0.26)",
+   "confirmed": false,
+   "url": "https://www.investing.com/equities/applied-opt-earnings"
+  },
+  {
+   "date": "not set",
+   "event": "Possible FCC rule barring new Chinese optical transceiver models (reported draft; no proceeding or date confirmed)",
+   "confirmed": false,
+   "url": "https://www.tikr.com/blog/lumentum-stock-rose-9-on-a-reported-china-optics-ban-heres-where-the-stock-could-go"
+  },
+  {
+   "date": "not set",
+   "event": "Any new share-sale program: the Q3 guide assumes about 92.8m shares; after the $600m ATM the count is at least 90.26m (our calculation)",
+   "confirmed": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006055/aaoi_ex9901.htm"
+  }
+ ],
+ "thesis_breaker_checks": [
+  {
+   "event": "the company cut its revenue or profit forecast (guidance)",
+   "found": false,
+   "evidence": "No AOI release or 8-K in the window (EDGAR checked 2026-10-07 21:15 UTC). Last guidance is the Q3 guide of 2026-08-06."
+  },
+  {
+   "event": "results missed analysts' revenue or EPS estimates",
+   "found": false,
+   "evidence": "No results in the window; next results estimated 2026-11-05."
+  },
+  {
+   "event": "a major customer was lost, or a major customer cut orders",
+   "found": false,
+   "evidence": "Nothing found in tier 1-3 sources searched (window searches, EDGAR). Search coverage was limited by the shared search budget."
+  },
+  {
+   "event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+   "found": false,
+   "evidence": "No 8-K filed since 2026-09-15 (EDGAR)."
+  },
+  {
+   "event": "the auditor resigned or was dismissed (8-K Item 4.01)",
+   "found": false,
+   "evidence": "No 8-K in the window (EDGAR)."
+  },
+  {
+   "event": "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+   "found": false,
+   "evidence": "No 8-K in the window. The last 5.02 (2026-08-24) only covered new indemnification agreements."
+  },
+  {
+   "event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+   "found": false,
+   "evidence": "Nothing new in the window. The ATM completion (5,694,845 shares) came out 2026-10-05 07:00 ET, before the window, and is already in the log (rehash); no new program announced. Thesis trigger 6 stays as rated on 5 Oct (met, read literally)."
+  },
+  {
+   "event": "a regulator opened an investigation, or major litigation was filed",
+   "found": false,
+   "evidence": "The disconfirming search found only older items: AOI's own patent suits as plaintiff (e.g., vs Accelight, filed 2024-12-13) and Citron short calls in March/April 2026. Nothing in the window."
+  },
+  {
+   "event": "two or more analyst downgrades within five trading days",
+   "found": false,
+   "evidence": "No rating actions found after 2026-08-17 (MarketBeat forecast page, read 2026-10-07)."
+  },
+  {
+   "event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+   "found": false,
+   "evidence": "The only sale in the window (Yeh, 6,000 shares) was under a 10b5-1 plan (Form 4, 2026-10-07). The last unplanned sale was one officer (Chang) on 2026-09-08: one, not several, and outside the window."
+  }
+ ],
+ "aaoi_specific_triggers": "Triggers 1-5 and 7 in theses/AAOI.md: no new evidence in the window (no results, 10-Q or capacity update). Trigger 6 (dilution): no new share-count data; status unchanged from the 2026-10-05 report.",
+ "disconfirming_evidence": [
+  {
+   "claim": "GuruFocus's model value is $25.32 vs the $130.16 price ('414.1% overvalued'); it counts $124.5m of insider selling over the past year.",
+   "url": "https://www.gurufocus.com/news/9112250/applied-optoelectronics-inc-aaoi-shares-surge-71-what-gf-score-of-62-tells-investors",
+   "assessment": "A tier-3 model opinion, not a fact about value; shows how far the price runs ahead of current earnings."
+  },
+  {
+   "claim": "Analyst consensus is 'Hold' with an average target of $139.40; Weiss downgraded to Sell on 2026-08-17; Needham cut its target from $220 to $190 on 2026-08-07.",
+   "url": "https://www.marketbeat.com/stocks/NASDAQ/AAOI/forecast/",
+   "assessment": "Opinions, all outside the window; no new downgrade found."
+  },
+  {
+   "claim": "Consensus Q3 EPS fell from $0.27 (2026-08-06) to $0.138 now, and the Q3 guide midpoint ($0.185) was below the August consensus.",
+   "url": "https://www.investing.com/equities/applied-opt-earnings",
+   "assessment": "Tier-3 consensus data; suggests analysts have cut profit expectations since August while keeping revenue (about $266m). Relevant to thesis 2 (profitability)."
+  },
+  {
+   "claim": "SVP Hung-Lun Chang sold 32,172 shares (about $3.55m, about 11.4% of his stake) on 2026-09-08 outside a 10b5-1 plan.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007059/xslF345X06/ownership.xml",
+   "assessment": "Tier 1. One officer only, outside the window; does not meet the breaker."
+  },
+  {
+   "claim": "Citron Research publicly shorted AAOI in March and April 2026, calling the rally speculative.",
+   "url": "https://www.newsquawk.com/headlines/citron-research-is-short-applied-optoelectronics-aaoi",
+   "assessment": "Tier-3 search snippets only; dates not verified against a primary source; not in the window. Background on how sharply the stock swings."
+  },
+  {
+   "claim": "The 'Washington bans Chinese transceivers' tailwind is still only a reported draft; no FCC proceeding or date has been confirmed. AOI is also adding factory space in Ningbo, China (8-K 2026-09-15).",
+   "url": "https://www.tikr.com/blog/lumentum-stock-rose-9-on-a-reported-china-optics-ban-heres-where-the-stock-could-go",
+   "assessment": "If the rule never comes, part of the sector's premium may fade. Whether AOI's China-made modules could be affected is unknown (reports say the rule targets Chinese companies' products)."
+  }
+ ],
+ "open_questions": [
+  "Marvell's investor-day numbers (FY28 about $20bn, optics-led) come only from tier-3 reports; no Marvell release was on its IR page when checked. Needs a tier-1/2 confirmation.",
+  "Timing on Tuesday: did optical peers rise only after Marvell's presentation? Not verified intraday.",
+  "No tier-2 article on AAOI's Tuesday or Wednesday moves was found (Benzinga pages returned 403; CNBC live blog 403).",
+  "The Q3 results date is not confirmed by AOI (its IR page timed out); 2026-11-05 comes from Investing.com.",
+  "Whether AOI will start another share-sale program (the Q3 guide assumes about 92.8m shares).",
+  "Exposure of AOI's Ningbo production to any US restriction on China-made transceivers: unknown."
+ ],
+ "searches_run": 16,
+ "notes": "16 web searches ran; 2 more were blocked by the shared search budget. About 20 direct fetches (SEC EDGAR API and documents, company and news pages). Benzinga, CNBC, Stocktwits and AOI IR pages could not be read (403 or timeout)."
+}

@@ -1,0 +1,502 @@
+{
+ "ticker": "AMD",
+ "company": "Advanced Micro Devices, Inc.",
+ "window": {
+  "from": "2026-10-05 20:00 UTC (after the Monday 5 Oct US close)",
+  "to": "2026-10-07 US close (about 20:00 UTC); Wednesday close $645.86 supplied by the coordinator and matching data/prices/AMD.csv"
+ },
+ "newest_item_checked": "Yahoo Finance (Aditya Raghunath), 'Citi Raises AMD Price Target to $800', 2026-10-07; TipRanks Wednesday chip-stock piece, 2026-10-07 11:32 ET; stockanalysis.com forecast page read 2026-10-07 mid-session; SEC EDGAR submissions list checked 2026-10-07 (newest AMD filing is still the 2026-09-28 8-K); AMD IR press-release list checked 2026-10-07 (newest release: Q3 results date, 2026-10-06).",
+ "events": [
+  {
+   "date": "2026-10-06",
+   "timing": "before open",
+   "type": "management commentary (supply and demand), CEO trip to Taiwan",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "CEO Lisa Su spoke to reporters in Taipei on 2026-10-06 (Taiwan time, before the US open). Quotes as reported: 'We're going to substantially increase our supply in 2027'; 'There's very, very high demand for the next several years'; 'We have increased our own supply and capacity this year, but demand exceeds supply'; 'We used to plan capacity looking one to two years ahead. Now we are looking three to five years out.' She met TSMC, Hon Hai (Foxconn), Quanta, Acer and Asustek, and coverage says she plans to visit South Korea for memory talks. The Taipei Times names only the US$10 billion commitment AMD made in May 2026; no new investment figure was disclosed. Several outlets credit Reuters with first reporting the comments. AMD was up about 1.5% before the open as the news spread (Stocktwits).",
+   "why_it_matters": "It is AMD's own CEO saying that supply, not demand, is what limits sales of its AI chips and server CPUs, and that supply will rise 'substantially' in 2027. That supports Pillar 1 (data-center growth) and Pillar 3 (deals delivered). It is also partly a rehash: in May 2026 Reuters reported AMD planned 'significantly more supply' for 2027 and beyond and a $10bn+ Taiwan investment. The new parts are the 3-to-5-year planning horizon and the fresh confirmation that demand still exceeds supply. The flip side: AMD cannot sell more than its partners (TSMC, memory makers) can build.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "Taipei Times (staff reporter Lisa Wang)",
+     "date": "2026-10-07",
+     "url": "https://www.taipeitimes.com/News/biz/archives/2026/10/07/2003865507",
+     "tier": 3
+    },
+    {
+     "name": "Seoul Economic Daily",
+     "date": "2026-10-07",
+     "url": "https://en.sedaily.com/international/2026/10/07/amds-lisa-su-locks-in-supply-through-2031-as-ai-chip-demand",
+     "tier": 3
+    },
+    {
+     "name": "Seeking Alpha news via TradingView (Taipei quotes)",
+     "date": "2026-10-06",
+     "url": "https://www.tradingview.com/news/seekingalpha:45875f569094b:0-amd-ceo-lisa-su-sees-very-high-chip-demand-continuing-for-years-praises-tsmc-expansion/",
+     "tier": 3
+    },
+    {
+     "name": "Stocktwits via TradingView (cites Reuters; premarket +1.5%)",
+     "date": "2026-10-06",
+     "url": "https://www.tradingview.com/news/stocktwits:3dae0b8e6094b:0-amd-reportedly-sees-ai-chip-demand-outrunning-supply-lisa-su-plans-substantial-2027-ramp/",
+     "tier": 3
+    },
+    {
+     "name": "Digitimes (paywalled; headline and date only)",
+     "date": "2026-10-06",
+     "url": "https://digitimes.com/news/a20261006VL219/amd-capacity-investment-demand-taiwan-supply-chain.html",
+     "tier": 3
+    },
+    {
+     "name": "Reuters, May 2026 Taiwan capacity report, via Yahoo Finance (the earlier version of the message)",
+     "date": "2026-05-22",
+     "url": "https://finance.yahoo.com/sectors/technology/articles/amd-asking-partners-ramp-production-021329204.html",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "before open (inferred: premarket coverage already mentions it)",
+   "type": "analyst action (price target raised)",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "Citi analyst Atif Malik kept a Buy rating and raised his AMD price target to $800 from $575. His reason: after Meta's 'Muse' AI agent launched, Citi raised its forecast for the CPU market from $29 billion in 2025 to $300 billion in 2030 (about 60% a year), and he expects AMD to be 'the primary beneficiary of the CPU renaissance', with Intel second. On the same day Mizuho (Vijay Rakesh) reportedly raised its target to $705 from $580 (Buy). This adds to Stifel's raise to $700 on 2026-10-05, which is already in the news log.",
+   "why_it_matters": "This is an opinion, but it contains a model change (a much bigger CPU market forecast). It widens the AI case for AMD from GPUs to its EPYC server CPUs. Coverage of Tuesday's move names it as a driver. Price targets are opinions, not facts about value.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "TipRanks",
+     "date": "2026-10-06",
+     "url": "https://www.tipranks.com/news/why-citi-just-raised-its-price-target-for-amd-stock-to-800",
+     "tier": 3
+    },
+    {
+     "name": "GuruFocus",
+     "date": "2026-10-06",
+     "url": "https://www.gurufocus.com/news/9111899/amd-maintained-by-citigroup-price-target-raised-to-800",
+     "tier": 3
+    },
+    {
+     "name": "24/7 Wall St. via Yahoo Finance",
+     "date": "2026-10-06",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/amd-spikes-4-citi-lifts-155626717.html",
+     "tier": 3
+    },
+    {
+     "name": "StockAnalysis.com analyst list (Citi, Mizuho, Stifel actions with dates)",
+     "date": "2026-10-07",
+     "url": "https://stockanalysis.com/stocks/amd/forecast/",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "during",
+   "type": "price move (record close, company-specific)",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "AMD rose 2.80% to $649.42 (from $631.75), above its previous record close of $633.91 (2026-10-02, news log). The intraday high was $658.52, now its 52-week high, and volume was 24.2 million shares versus 13.7 million on Monday (data/prices/AMD.csv). The chip fund SMH fell 0.22% (632.50 vs 633.90) and SPY rose 0.55%. The pipeline's attribution: market +0.67, industry -1.12, company +3.24 points (z 1.09, 'mostly company-specific, within normal noise'). 24/7 Wall St. reported AMD up 4% to $657.50 in late-morning trading.",
+   "why_it_matters": "AMD beat its own industry by about 3 points on a day with two AMD-specific items (Su's supply comments and Citi's $800 target). The size was within the stock's normal daily range (typical company-specific day about 2.96%).",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Pipeline prices data/prices/AMD.csv, SMH.csv, SPY.csv (Yahoo daily bars)",
+     "date": "2026-10-07",
+     "url": "local:data/prices/AMD.csv",
+     "tier": 1
+    },
+    {
+     "name": "Pipeline attribution data/metrics/attribution-2026-10-07.json",
+     "date": "2026-10-07",
+     "url": "local:data/metrics/attribution-2026-10-07.json",
+     "tier": 1
+    },
+    {
+     "name": "24/7 Wall St. via Yahoo Finance",
+     "date": "2026-10-06",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/amd-spikes-4-citi-lifts-155626717.html",
+     "tier": 3
+    },
+    {
+     "name": "StockStory via Yahoo Finance (move attributed to Su's capacity comments)",
+     "date": "2026-10-07",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/amd-amd-stock-know-235234909.html",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "after close",
+   "type": "earnings date announced",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "AMD said it will report Q3 2026 results on Tuesday, 2026-11-03, after the market close, with a conference call at 5 p.m. ET (2 p.m. PT), webcast on ir.amd.com. The release went out on GlobeNewswire at about 4:15 p.m. ET on 2026-10-06.",
+   "why_it_matters": "It confirms the date the thesis file had as an estimate (about 2026-11-03). The Q3 results are the next check of Pillars 1 and 2 and Trigger 5.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "AMD press release 'AMD to Report Fiscal Third Quarter 2026 Financial Results'",
+     "date": "2026-10-06",
+     "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+     "tier": 1
+    },
+    {
+     "name": "GlobeNewswire via Yahoo Finance",
+     "date": "2026-10-06",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/amd-report-fiscal-third-quarter-201500341.html",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "timing": "during",
+   "type": "sector move (no company news)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "AMD closed down 0.55% at $645.86, while SMH fell 1.18% (625.03 vs 632.50) and SPY fell 0.24% (data/prices). Attribution supplied by the coordinator: market -0.30, industry -1.33, company +1.08 points (z 0.41, normal). Chip stocks fell as Treasury yields (10-year above 5.3%) and oil rose ahead of the Fed's September-meeting minutes (TipRanks, single tier-3 source). No AMD press release, SEC filing or new analyst action was found for Wednesday. Over two days AMD is up 2.23% from Monday's $631.75.",
+   "why_it_matters": "Wednesday's dip was the sector falling on interest rates, not AMD news, and AMD held up better than its industry. It is a reminder that a high-valuation stock with a beta of about 3.2 to the market (metrics) is sensitive to rising yields.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Pipeline prices data/prices/AMD.csv, SMH.csv, SPY.csv",
+     "date": "2026-10-07",
+     "url": "local:data/prices/AMD.csv",
+     "tier": 1
+    },
+    {
+     "name": "TipRanks, 'Why Chip Stocks Micron, Sandisk and AMD Are Down Today (October 7)'",
+     "date": "2026-10-07",
+     "url": "https://www.tipranks.com/news/why-chip-stocks-micron-sandisk-and-amd-are-down-today-october-7-and-what-wall-street-sees-next",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "timing": "unknown",
+   "type": "acquisition paid in shares (8-K Item 3.02)",
+   "materiality": "medium",
+   "new_or_rehash": "rehash",
+   "summary": "World Labs purchase for about $8.2bn in AMD shares (8-K Item 3.02). Already in the news log. No new filing or update in the window.",
+   "why_it_matters": "Listed only because the filings file still shows it; nothing new.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "SEC Form 8-K",
+     "date": "2026-09-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm",
+     "tier": 1
+    }
+   ]
+  }
+ ],
+ "why_chain": [
+  {
+   "rung": 1,
+   "text": "Tuesday 2026-10-06: AMD +2.80% to $649.42, a record close (previous record $633.91 on 2026-10-02); intraday high $658.52; volume 24.2m vs 13.7m Monday.",
+   "evidence": "local:data/prices/AMD.csv"
+  },
+  {
+   "rung": 2,
+   "text": "Not the sector: SMH -0.22% and SPY +0.55% that day. Attribution puts +3.24 points on AMD itself (z 1.09, within normal noise) and -1.12 on its industry.",
+   "evidence": "local:data/metrics/attribution-2026-10-07.json; local:data/prices/SMH.csv"
+  },
+  {
+   "rung": 3,
+   "text": "Two AMD-specific items came out before the US open: (a) Lisa Su told reporters in Taipei that demand exceeds supply and AMD will 'substantially increase' supply in 2027; (b) Citi raised its target to $800 from $575 (Buy) on a CPU-market forecast of $29bn (2025) to $300bn (2030). Mizuho also raised to $705 (tier 3 only).",
+   "evidence": "https://www.taipeitimes.com/News/biz/archives/2026/10/07/2003865507 ; https://en.sedaily.com/international/2026/10/07/amds-lisa-su-locks-in-supply-through-2031-as-ai-chip-demand ; https://www.tipranks.com/news/why-citi-just-raised-its-price-target-for-amd-stock-to-800 ; https://www.gurufocus.com/news/9111899/amd-maintained-by-citigroup-price-target-raised-to-800"
+  },
+  {
+   "rung": 4,
+   "text": "Coverage of the move names these items as the cause: StockStory credits Su's capacity comments, and 24/7 Wall St. and TradingKey credit Citi (and Stifel). The stock was +1.5% premarket and +4% by late morning. All of these are tier-3 sources; no tier-2 article attributing the move could be accessed (reuters.com is not reachable from the research tools).",
+   "evidence": "https://finance.yahoo.com/markets/stocks/articles/amd-amd-stock-know-235234909.html ; https://finance.yahoo.com/markets/stocks/articles/amd-spikes-4-citi-lifts-155626717.html ; https://www.tradingkey.com/news/market-movers/262202097-market-movers-amd-20261006 | inference (medium) that these two items were the main causes"
+  },
+  {
+   "rung": 5,
+   "text": "Why they move the price: both say demand for AMD's chips is larger than it can currently supply and will stay high for years. More supply in 2027 means more revenue AMD can actually book, and Citi's model adds a second AI engine (server CPUs for AI agents) on top of GPUs.",
+   "evidence": "inference (medium)"
+  },
+  {
+   "rung": 6,
+   "text": "Basic driver: investors' expectations of future AI computing spending, now including CPUs for 'agentic AI' since Meta's Muse launch (2026-09-21, already logged). Analysts' average EPS forecast roughly doubles from $7.59 (2026) to $15.72 (2027). Caveat: the 2027 supply message repeats what AMD said in May 2026, so part of the reaction is to a familiar story told again by the CEO in person.",
+   "evidence": "https://finance.yahoo.com/quote/AMD/analysis/ ; https://finance.yahoo.com/sectors/technology/articles/amd-asking-partners-ramp-production-021329204.html | inference (medium)"
+  },
+  {
+   "rung": 7,
+   "text": "Wednesday 2026-10-07: AMD -0.55% vs SMH -1.18%. The dip came from the sector and the market (rising Treasury yields and oil ahead of the Fed minutes, single tier-3 source); AMD's own part was +1.08 points (normal). No AMD news was found.",
+   "evidence": "https://www.tipranks.com/news/why-chip-stocks-micron-sandisk-and-amd-are-down-today-october-7-and-what-wall-street-sees-next | inference (medium) for the yield explanation"
+  }
+ ],
+ "products": [
+  {
+   "name": "AMD EPYC server CPUs (current generation; next generation 'Venice', Zen 6)",
+   "what_it_is": "The main general-purpose processor in a data-center server: it runs the operating system and ordinary software, and in AI servers it feeds the GPUs.",
+   "analogy": "If a GPU is a stadium full of calculators all doing one huge sum, the CPU is the manager who reads the instructions, hands out the work and does all the varied small jobs in between. AI agents create many more of those small jobs.",
+   "buyers": "Cloud companies (Microsoft expanded its EPYC and Instinct partnership on 2026-07-20, per the AMD press-release list), enterprises and AI labs. Coverage says Meta's Muse agent runs on EPYC (Yahoo Finance, 2026-10-07, tier 3, not verified with AMD or Meta).",
+   "how_it_works": "AI 'agents' (software that takes actions for a user: browsing, calling tools, running code) do many ordinary computing steps, not only GPU maths. Each step needs CPU time, so agents raise demand for server CPUs.",
+   "price": "not available in this research (per-chip prices not gathered; AMD does not disclose average selling prices)",
+   "sales": "Not disclosed separately. Labelled proxy: Data Center segment revenue $6.7bn in Q2 2026 (+107% y/y), which combines EPYC CPUs and Instinct GPUs. Market-share claims of about 46% appear in tier-3 articles without a named primary source (not verified).",
+   "sales_source": "AMD Q2 2026 results (SEC Exhibit 99.1, 2026-08-04): https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm",
+   "stage": "Current EPYC shipping in volume. 'Venice' (Zen 6) is the CPU in Helios racks (Seoul Economic Daily, 2026-10-07: 18 Venice CPUs per rack). Exact Venice shipment status not verified with AMD.",
+   "size_for_company": "Part of Data Center, which was 58% of Q2 2026 revenue ($6.7bn of $11.5bn). CPU-only share: not disclosed.",
+   "competition": "Intel Xeon; Arm-based chips designed by cloud companies; NVIDIA's own CPUs (coverage says NVIDIA is developing agent-focused CPUs; Yahoo Finance 2026-10-07, tier 3).",
+   "why_investors_care": "Citi's forecast of the CPU market growing from $29bn (2025) to $300bn (2030) is an analyst estimate, not a fact. If even part of it happens, server CPUs become a second AI growth engine for AMD alongside GPUs. That is why Tuesday's target raise mattered.",
+   "watch_next": "Server-CPU growth comments on the Q3 call (2026-11-03); Lisa Su's OCP keynote (2026-10-12); any CPU supply limits she flags."
+  },
+  {
+   "name": "AMD Helios rack with Instinct MI450-series (MI455X) GPUs",
+   "what_it_is": "A complete AI server rack sold as one AI computer: 72 Instinct MI455X GPUs plus 18 EPYC 'Venice' CPUs, with networking and software (component counts per Seoul Economic Daily, 2026-10-07).",
+   "analogy": "Instead of selling engines, AMD sells the whole car, ready to drive.",
+   "buyers": "Helios customers named in coverage of Su's Taipei trip: OpenAI, Anthropic, Microsoft, Meta, Oracle (Seoul Economic Daily, 2026-10-07; matches AMD's Q2 release list in the 2026-10-04 research). Anthropic makes Claude, which wrote this research.",
+   "how_it_works": "Many GPUs are linked so they work as one large accelerator for training and running AI models. Customers commit to capacity measured in gigawatts of power.",
+   "price": "not disclosed per rack",
+   "sales": "Not disclosed separately. Commitments: OpenAI 6 GW (2025 agreement); Anthropic up to 2 GW, first gigawatt from H1 2027. Labelled proxy: Data Center revenue $6.7bn in Q2 2026.",
+   "sales_source": "AMD Q2 2026 release https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm ; CNBC 2026-07-22 https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html",
+   "stage": "Ramping from 2H 2026 per AMD (Q2 release). No new timing statement found in the window. Su's comment that supply is the constraint means it depends on TSMC wafers, packaging and HBM memory supply.",
+   "size_for_company": "Data Center was 58% of Q2 2026 revenue; Helios share not disclosed.",
+   "competition": "NVIDIA rack-scale systems (Vera Rubin); cloud companies' custom chips.",
+   "why_investors_care": "Helios volume in late 2026 and 2027 is what 'substantially increase supply in 2027' would mostly feed.",
+   "watch_next": "OCP keynote 2026-10-12; Q3 call 2026-11-03 for first Helios revenue and shipment timing; outcome of Su's memory talks in South Korea."
+  }
+ ],
+ "earnings": {
+  "status": "none",
+  "date": "",
+  "confirmed": true,
+  "consensus": {},
+  "actual": {},
+  "guidance": {},
+  "key_metrics": {},
+  "quality_flags": [],
+  "management_explanation": "No results in the window. The Q3 date (2026-11-03, after close) was confirmed on 2026-10-06; see next_earnings.",
+  "sources": [
+   "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results"
+  ]
+ },
+ "next_earnings": {
+  "date": "2026-11-03, after the US close; call at 5 p.m. ET (11 p.m. Madrid time)",
+  "confirmed": true,
+  "consensus_eps": "$1.93 adjusted (non-GAAP) EPS, average of 40 analysts (range $1.72 to $2.03); year-ago $1.20 (Yahoo Finance analysis page, read 2026-10-07, tier 3). Yahoo shows the average unchanged for 60 days, yet it lists 22 upward revisions in the last 7 days, an internal inconsistency in the aggregator's data.",
+  "consensus_revenue": "$13.06bn, average of 38 analysts (range $12.75bn to $14.02bn); year-ago $9.25bn (Yahoo Finance analysis page, read 2026-10-07, tier 3). That is only slightly above the company's guidance midpoint of $13.0bn.",
+  "company_guidance": "Q3 2026 revenue about $13.0bn plus or minus $300m (+41% y/y at the midpoint); non-GAAP gross margin about 56% (AMD Q2 2026 release, 2026-08-04).",
+  "sources": [
+   "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+   "https://finance.yahoo.com/quote/AMD/analysis/",
+   "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm"
+  ]
+ },
+ "analyst_actions": [
+  {
+   "date": "2026-10-06",
+   "firm": "Citi (Atif Malik)",
+   "action": "Buy maintained; price target raised to $800 from $575",
+   "reason": "CPU market forecast raised to $300bn by 2030 from $29bn in 2025 after Meta's Muse launch; AMD seen as 'the primary beneficiary of the CPU renaissance', with Intel second. Opinion; tier-3 sources only (TipRanks, GuruFocus, 24/7 Wall St.).",
+   "url": "https://www.tipranks.com/news/why-citi-just-raised-its-price-target-for-amd-stock-to-800"
+  },
+  {
+   "date": "2026-10-06",
+   "firm": "Mizuho (Vijay Rakesh)",
+   "action": "Buy reiterated; price target raised to $705 from $580",
+   "reason": "not available (tier-3 listings only; no note summary found)",
+   "url": "https://stockanalysis.com/stocks/amd/forecast/"
+  },
+  {
+   "date": "2026-10-05",
+   "firm": "Stifel (Ruben Roy)",
+   "action": "Buy; price target raised to $700 from $635 (rehash: already in the news log)",
+   "reason": "Expects results above forecasts and a higher outlook driven by server CPUs.",
+   "url": "https://stockanalysis.com/stocks/amd/forecast/"
+  },
+  {
+   "date": "2026-09-30 (before window, context)",
+   "firm": "StoneX (Cody Acree)",
+   "action": "Buy reiterated, $685 target",
+   "reason": "not available",
+   "url": "https://stockanalysis.com/stocks/amd/forecast/"
+  },
+  {
+   "date": "2026-10-07 (context)",
+   "firm": "Consensus (aggregators disagree)",
+   "action": "Strong Buy consensus; average target $636.21 from 55 analysts (StockAnalysis), $662.38 (TipRanks), $619.51 (S&P Global per TradingKey)",
+   "reason": "Every average is close to or below the share price (about $646), so on average analysts see little upside from here. Opinions.",
+   "url": "https://stockanalysis.com/stocks/amd/forecast/"
+  }
+ ],
+ "insiders": {
+  "summary": "No insider trades in the window. The pipeline's filings file shows 0 open-market buys and 0 sells, and the SEC EDGAR submissions list (checked 2026-10-07) shows no Form 4 or Form 144 after 2026-09-17. The September sales by Lisa Su (2026-09-10, about $48.1m) and Forrest Norrod (2026-09-15) were under pre-planned 10b5-1 plans and are already logged.",
+  "notable": []
+ },
+ "filings": [
+  {
+   "form": "none in window",
+   "items": "",
+   "plain_english": "No SEC filing between 2026-09-29 and 2026-10-07 (EDGAR submissions list). The Q3 date notice was a press release on GlobeNewswire, not an SEC filing.",
+   "materiality": "n/a",
+   "url": "https://data.sec.gov/submissions/CIK0000002488.json"
+  },
+  {
+   "form": "8-K (2026-09-28, before window)",
+   "items": "3.02",
+   "plain_english": "Shares to be issued privately to pay for World Labs (about $8.2bn). Already in the news log; rehash.",
+   "materiality": "medium",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm"
+  }
+ ],
+ "catalysts": [
+  {
+   "date": "2026-10-12",
+   "event": "Lisa Su opening keynote at the OCP Global Summit, San Jose (open, full-stack AI infrastructure; Helios updates possible)",
+   "confirmed": true,
+   "url": "https://newsroom.amd.com/news/media-alert-ceo-lisa-su-keynote-2026-ocp/"
+  },
+  {
+   "date": "this week, exact date not available",
+   "event": "Lisa Su visit to South Korea for memory supply talks (Samsung, HBM); reported in coverage, not announced by AMD",
+   "confirmed": false,
+   "url": "https://www.tradingview.com/news/seekingalpha:45875f569094b:0-amd-ceo-lisa-su-sees-very-high-chip-demand-continuing-for-years-praises-tsmc-expansion/"
+  },
+  {
+   "date": "2026-11-03 (after close; call 5 p.m. ET)",
+   "event": "Q3 2026 results; guidance about $13.0bn plus or minus $300m",
+   "confirmed": true,
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results"
+  },
+  {
+   "date": "by 2026-12-31 (expected)",
+   "event": "World Labs acquisition closing and share issuance",
+   "confirmed": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm"
+  },
+  {
+   "date": "2H 2026 to 1H 2027",
+   "event": "Helios/MI450 ramp; Anthropic's first gigawatt from 1H 2027",
+   "confirmed": false,
+   "url": "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html"
+  }
+ ],
+ "thesis_breaker_checks": [
+  {
+   "event": "the company cut its revenue or profit forecast (guidance)",
+   "found": false,
+   "evidence": "No results or guidance update in the window. AMD's only release was the Q3 date notice (AMD IR list, checked 2026-10-07). Su's 2026-10-06 comments point to more supply, not less demand."
+  },
+  {
+   "event": "results missed analysts' revenue or EPS estimates",
+   "found": false,
+   "evidence": "No results in the window; next results 2026-11-03."
+  },
+  {
+   "event": "a major customer was lost, or a major customer cut orders",
+   "found": false,
+   "evidence": "Search for OpenAI/Anthropic cuts, delays or shifts found none. Coverage of Su's trip (Seoul Economic Daily, 2026-10-07) still lists OpenAI, Anthropic, Microsoft, Meta and Oracle as Helios customers."
+  },
+  {
+   "event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+   "found": false,
+   "evidence": "No 8-K after 2026-09-28 (EDGAR submissions list, checked 2026-10-07)."
+  },
+  {
+   "event": "the auditor resigned or was dismissed (8-K Item 4.01)",
+   "found": false,
+   "evidence": "No 8-K after 2026-09-28 (EDGAR)."
+  },
+  {
+   "event": "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+   "found": false,
+   "evidence": "No 8-K; CEO Lisa Su was meeting suppliers in Taipei on 2026-10-06 (Taipei Times, 2026-10-07)."
+  },
+  {
+   "event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+   "found": false,
+   "evidence": "No new filing in the window. The only Item 3.02 is the 2026-09-28 World Labs 8-K (about 0.8% dilution), which is already logged and approved as an accepted risk in the thesis; rehash, not new."
+  },
+  {
+   "event": "a regulator opened an investigation, or major litigation was filed",
+   "found": false,
+   "evidence": "A search for AMD lawsuits or investigations in October 2026 found none; no 8-K. Coverage was limited because the shared search budget ran out (see open_questions)."
+  },
+  {
+   "event": "two or more analyst downgrades within five trading days",
+   "found": false,
+   "evidence": "Actions found in the window were all target raises (Citi $800, Mizuho $705; Stifel $700 on 2026-10-05). The only 'downgrades' found are Seeking Alpha contributor articles from September, which are not brokerage ratings."
+  },
+  {
+   "event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+   "found": false,
+   "evidence": "No Form 4 after 2026-09-17 (EDGAR); pipeline insider_summary shows 0 sells."
+  },
+  {
+   "event": "AMD trigger 1: data-center revenue shrinks for two quarters in a row",
+   "found": false,
+   "evidence": "Not testable until Q3 results on 2026-11-03; last reading $6.7bn, +107% (Q2)."
+  },
+  {
+   "event": "AMD trigger 2: a big AI customer cuts or cancels its deal",
+   "found": false,
+   "evidence": "None found (see the customer check above)."
+  },
+  {
+   "event": "AMD trigger 3: Helios is delayed",
+   "found": false,
+   "evidence": "No new delay report in the window. The February 2026 MI455X delay rumours were denied by AMD, which said 2H 2026 shipments remain on track (NextPlatform 2026-02-23; Windows Report). The only slip found is Zen 6 desktop CPUs moving to 2027 (tech-insider, 2026-09-17, based on leaks): those are PC chips, not Helios."
+  },
+  {
+   "event": "AMD trigger 4: customers order AMD chips but not complete racks",
+   "found": false,
+   "evidence": "Not testable yet (deadline end-2027); five Helios customers still named in 2026-10-07 coverage."
+  },
+  {
+   "event": "AMD trigger 5: revenue misses company guidance",
+   "found": false,
+   "evidence": "Not testable until 2026-11-03; consensus revenue $13.06bn vs guidance $13.0bn plus or minus $300m (Yahoo, tier 3)."
+  }
+ ],
+ "disconfirming_evidence": [
+  {
+   "claim": "Supply, not demand, limits AMD: Su says demand exceeds supply even after 2026 increases, and memory (HBM) is tight across the industry; AMD depends on TSMC, Samsung and SK Hynix for capacity.",
+   "url": "https://finance.yahoo.com/technology/ai/articles/amd-ceo-lisa-su-sounds-162111393.html",
+   "assessment": "Real near-term constraint (CEO's own words). It caps how much of the demand AMD can book in 2026 and makes 2027 growth depend on partners delivering. Medium concern; watch the Q3 call for supply comments."
+  },
+  {
+   "claim": "Valuation is stretched: analysts' average targets ($619.51 to $662.38 across aggregators) are at or below the price; the stock trades at about 57x forward earnings vs a 5-year average of about 34x (Yahoo Finance, 2026-10-07, tier 3); RSI 72.2 and 71% above its 200-day average (metrics). Seeking Alpha contributors downgraded in September ('Too Hot To Touch', 'Likely Dead Money').",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/citi-raises-amd-price-target-132727839.html",
+   "assessment": "Consistent with pipeline data; expectations are high going into 2026-11-03, the setup in which AMD fell 7% after a beat in August. Opinion pieces are low weight; the price data is solid."
+  },
+  {
+   "claim": "Tuesday's 'news' is partly a rehash: in May 2026 Reuters reported AMD would have 'significantly more supply' for 2027 and beyond and announced a $10bn+ Taiwan investment.",
+   "url": "https://finance.yahoo.com/sectors/technology/articles/amd-asking-partners-ramp-production-021329204.html",
+   "assessment": "Correct per the May coverage (the May details come from a search summary; the article was not opened). The new elements are the 3-to-5-year planning horizon and the in-person confirmation. That lowers the information value of the Taipei comments."
+  },
+  {
+   "claim": "Rising rates hurt high-valuation chip stocks: on 2026-10-07 the 10-year Treasury yield rose above 5.3% and chip stocks fell (SMH -1.18%).",
+   "url": "https://www.tipranks.com/news/why-chip-stocks-micron-sandisk-and-amd-are-down-today-october-7-and-what-wall-street-sees-next",
+   "assessment": "Single tier-3 source for the cause; the price data is solid. AMD's beta of about 3.2 makes it sensitive to rate moves. Macro risk, not company-specific."
+  },
+  {
+   "claim": "Competition in CPUs for AI agents: NVIDIA is developing agent-focused CPUs, cloud companies build their own chips, and Intel is also named as a beneficiary.",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/citi-raises-amd-price-target-132727839.html",
+   "assessment": "Plausible and ongoing; Intel fell 2% on Tuesday while AMD rose (24/7 Wall St.), suggesting investors currently favour AMD. Low-medium concern."
+  },
+  {
+   "claim": "Product delays: Zen 6 desktop CPUs reportedly slipped to 2027; MI455X/Helios delay rumours in February 2026.",
+   "url": "https://tech-insider.org/amd-zen-6-desktop-delay-2027-powderhorn-leak/",
+   "assessment": "The desktop slip is leak-based and affects PCs, not the AI thesis. The Helios rumours were denied by AMD (Windows Report, NextPlatform). Not a trigger; check Helios timing at OCP on 2026-10-12 and on the Q3 call."
+  }
+ ],
+ "open_questions": [
+  "The Reuters original on Su's Taipei remarks could not be opened (reuters.com is blocked for the research tools). Quotes come from the Taipei Times, Seoul Economic Daily and Seeking Alpha/Stocktwits syndication, all tier 3 under config/sources.toml, so no tier-1/2 copy was read directly.",
+  "Whether Su announced any new investment figure in Taipei: one tier-3 headline (Phemex) says 'over $10B', but the Taipei Times attributes $10bn to May 2026. Treat it as the May figure unless confirmed.",
+  "Mizuho's $705 target and its reason are confirmed only by tier-3 listings (StockAnalysis, TipRanks).",
+  "A Yahoo Finance article (2026-10-07) says 'Morgan Stanley estimates Muse could represent 20% of AMD's 2026 chip sales'. Not verified and probably garbled; do not use.",
+  "Yahoo's Q3 EPS data is inconsistent: the average has stayed at $1.93 for 60 days, yet it shows 22 upward revisions in 7 days.",
+  "Analyst target averages differ by aggregator ($619.51 / $636.21 / $662.38).",
+  "Date and agenda of Su's South Korea visit (memory/HBM, Samsung) not confirmed by AMD.",
+  "The cause of Wednesday's chip-sector drop (yields above 5.3%, oil, Fed minutes) has only one tier-3 source; the Nasdaq/Barchart market wrap timed out twice.",
+  "The session's shared web-search budget ran out mid-research, so tier-2 outlets (Bloomberg, CNBC) were not separately checked for Tuesday or Wednesday AMD coverage."
+ ],
+ "searches_run": 13
+}

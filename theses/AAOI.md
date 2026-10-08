@@ -14,7 +14,7 @@ Every server link in an AI data center needs a transceiver, a plug-in module tha
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Every server link in an AI data center needs a transceiver, a plug-in module tha
 - Operating margin (share left after all running costs): rising (-15.3% to -12.9%, +2.4 points).
 - Profit: positive net income in 0 of the last 4 quarters.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +15.2% | -1.4% | +13.1% | +335.3% | +11.3% | -65.7% | 7.0% |
+| +16.1% | +7.1% | -7.7% | +291.1% | +11.2% | -65.7% | 7.1% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -155,7 +155,7 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* 10-Q.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-05 (every figure sourced)
+## Facts as of 2026-10-07 (every figure sourced)
 - Q2 2026 revenue $191.9m (+86.4%), a record; data centers 56.1%; first adjusted profit; Q3 guidance $255-290m [AOI Q2 2026 results, 2026-08-06](https://www.sec.gov/Archives/edgar/data/1158114/000168316826006055/aaoi_ex9901.htm)
 - Capacity target: about 650,000 high-speed units a month by end-2026 (same release)
 - Shares outstanding 84.4m, up from 75.0m in six months; top 10 customers 99% of revenue; receivables $314.0m, of which one distributor $211.0m; GAAP net loss $22.8m [AOI 10-Q, 2026-08-06](https://www.sec.gov/Archives/edgar/data/1158114/000143774926026278/aaoi20260630_10q.htm)
@@ -163,9 +163,13 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - $600m at-the-market program completed: 5,694,845 shares sold at an average $105.36; net proceeds $588.0m for equipment, R&D and general purposes, which may include debt repayment; no new program announced [PR Newswire, 2026-10-05](https://www.prnewswire.com/news-releases/applied-optoelectronics-announces-completion-of-previously-announced-at-the-market-offering-302897857.html)
 - An officer (Shu-Hua Yeh) filed to sell 6,000 shares (about $0.72m) under a 10b5-1 plan dated 2026-03-19 [SEC Form 144, 2026-10-05](https://www.sec.gov/Archives/edgar/data/1158114/000197407826000376/xsl144X01/primary_doc.xml)
 - Close $121.57 on 2026-10-05 (+5.17% that day), 48.0% below its May high of $233.67; typical day 7.0%; moves about four times the market (data/metrics)
+- Officer Shu-Hua Yeh's planned sale executed: 6,000 shares on 2026-10-05 at $120.03 under a 10b5-1 plan; 371,498 shares kept [SEC Form 4, 2026-10-07](https://www.sec.gov/Archives/edgar/data/1158114/000168316826007698/xslF345X06/ownership.xml)
+- Missed earlier: SVP Hung-Lun (Fred) Chang sold 32,172 shares at $110.21 (about $3.55m) on 2026-09-08 without a 10b5-1 plan [SEC Form 4, 2026-09-10](https://www.sec.gov/Archives/edgar/data/1158114/000168316826007059/xslF345X06/ownership.xml)
+- Close $122.54 on 2026-10-07 after +7.07% and -5.85% days with no company news (data/metrics)
 
 ## Change log
 - 2026-10-04: File created by the daily routine because AAOI appeared in the trade log (order dated 2026-10-05).
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-05 (daily report): the $600m at-the-market program was completed (5,694,845 shares, about 6.7% more). Updated: key trends, pillar 5 "Now", trigger 6 "Status now" (met, read literally: about 12.5% in five months from the 10-Q share counts) and Facts. The daily report rated the thesis Challenged and raised a THESIS ALERT. Proposed (awaiting Santi): say whether trigger 6's "again" excludes windows that overlap the first-half sales already accepted at approval. No change to the reasons, pillars or triggers.
+- 2026-10-07 (daily report): Facts updated (Yeh sale executed; one unplanned September sale by SVP Chang, previously missed). Trigger 6 unchanged (no new share count). No change to the reasons, pillars or triggers.

@@ -1,0 +1,496 @@
+{
+  "ticker": "CRDO",
+  "company": "Credo Technology Group Holding Ltd",
+  "window": {
+    "from": "2026-10-05 20:00 UTC (after Monday 5 Oct US close)",
+    "to": "2026-10-07 US close (Wednesday 7 Oct; close $220.01 per Yahoo daily bar)"
+  },
+  "newest_item_checked": "EDGAR submissions list for CIK 1807794 (newest: two Form 4s accepted 2026-10-07 01:25-01:26 UTC = 21:25-21:26 ET Tue 6 Oct, after the close; no 8-K since 2026-09-01); Credo IR press-release feed (newest release 2026-09-18, ECOC 2026 showcase, so no company release in the window); StockAnalysis CRDO news feed fetched 2026-10-07 ~12:22 ET (newest item: Stifel target cut, 2026-10-05 10:40 UTC; nothing dated 6-7 Oct); Yahoo daily bar for Wed 2026-10-07 close $220.01.",
+  "events": [
+    {
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "price move (no company news; moved with optical/connectivity peers)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "CRDO rose 3.93% on Tuesday to $220.83 from $212.48 (intraday range $209.61-$226.60; volume 7.22m shares, 0.83x its 20-day average). Attribution: market +0.59 pts, semiconductor industry (SMH) -1.27 pts, company-specific +4.61 pts, z-score 0.97, i.e. within its normal day-to-day noise. SMH fell 0.22% while optical/connectivity holdings rose together: AAOI +7.07%, LITE +3.82%, VIAV +2.62%. No Credo press release, 8-K or dated news item was found for the day; the only filings were tax-withholding Form 4s filed after the close.",
+      "why_it_matters": "It recovered Monday's -2.82% fall and more. Because the 'company' part was shared with other optical/connectivity names and is normal-sized for this stock, it reads as a sub-industry (AI networking) move, not news about Credo (inference, medium confidence).",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "Yahoo Finance daily bars (pipeline data/prices)",
+          "date": "2026-10-06",
+          "url": "data/prices/CRDO.csv (Yahoo Finance daily bars, pipeline)",
+          "tier": 3
+        },
+        {
+          "name": "Move attribution (pipeline)",
+          "date": "2026-10-07",
+          "url": "data/metrics/attribution-2026-10-07.json",
+          "tier": 3
+        },
+        {
+          "name": "Credo IR press-release list (no release after 2026-09-18)",
+          "date": "2026-10-07",
+          "url": "https://investors.credosemi.com/news-events/news",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "price move (held up better than chip and optical peers; no news)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "CRDO closed Wednesday at $220.01, -0.37%, after trading as low as $208.10 (about -5.8% from Tuesday's close) and recovering. SMH fell 1.18%, SPY 0.24%; optical peers fell more (AAOI -5.85%, VIAV -3.88%, LITE -1.97%). Coordinator-supplied attribution: market -0.26, industry -1.55, company +1.44 pts (z 0.30, normal). Two-day move vs Monday close: +3.54% (SMH -1.40%, SPY +0.31%). No company news found.",
+      "why_it_matters": "A quiet day by this stock's standards (typical company-specific daily move about 4.75%); nothing to explain beyond normal noise.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "Yahoo Finance daily bars (pipeline data/prices)",
+          "date": "2026-10-07",
+          "url": "data/prices/CRDO.csv (Yahoo Finance daily bars, pipeline)",
+          "tier": 3
+        },
+        {
+          "name": "StockAnalysis CRDO quote/news page (12:22 ET snapshot $214.32, -2.95%; no news dated 6-7 Oct)",
+          "date": "2026-10-07",
+          "url": "https://stockanalysis.com/stocks/crdo/",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "timing": "after close",
+      "type": "insider filings (Form 4, tax withholding, routine)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "CEO William Brennan and CFO Daniel Fleming each filed a Form 4 (accepted about 21:25 ET). Both show only code F transactions: shares the company withheld to pay income tax when restricted stock units (RSUs) vested, with the footnote 'Represents shares withheld by the Issuer to satisfy tax withholding obligations in connection with the vesting and settlement of RSUs.' CEO: 6,149 shares at $210.17 on 2026-10-02 and 6,149 at $218.64 on 2026-10-05 (about $2.64m in total; 354,182 shares held directly afterwards plus 1,600,830 in a family trust and 150,000 in two GRATs; the withheld shares are about 0.6% of his total). CFO: 2,460 shares on each of the same dates and prices (about $1.05m; 499,788 held afterwards; about 1.0%). The withholding prices equal the previous trading day's closes ($210.17 = 1 Oct close; $218.64 = 2 Oct close). The same pattern (6,149 and 2,460 shares withheld on 1 and 5 July) appeared last quarter, so this is a quarterly vesting schedule. No open-market sale or purchase.",
+      "why_it_matters": "Not a sale decision by the executives: the company keeps some vested shares to cover tax. It does not count towards the 'insiders selling outside 10b5-1 plans' breaker. Pipeline's under_10b5_1_plan=false flag is simply because tax withholding is not a plan trade.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "SEC Form 4, William Brennan (CEO)",
+          "date": "2026-10-06",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065266/xslF345X06/wk-form4_1791321987.xml",
+          "tier": 1
+        },
+        {
+          "name": "SEC Form 4, Daniel Fleming (CFO)",
+          "date": "2026-10-06",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065265/xslF345X06/wk-form4_1791321925.xml",
+          "tier": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "timing": "before open",
+      "type": "analyst action (price target cut, rating kept)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Stifel (analyst Tore Svanberg, per MarketBeat) lowered its price target on Credo to $310 from $350 and kept a Buy rating. Published 2026-10-05 10:40 UTC (06:40 ET), i.e. before Monday's open and just BEFORE this window; the 2026-10-05 report said 'no new company news' and did not include it. No reason was given in either source. Stifel had been the street-high target at $350. It is the fifth post-results target cut found (BofA, JPMorgan, Evercore ISI on 2026-09-02; Mizuho 2026-09-21; Stifel 2026-10-05); none lowered its rating.",
+      "why_it_matters": "An opinion, not a fact about value, but it is a candidate (not proven) contributor to Monday's -2.82% fall, which the last report said had no published reason (inference, low-medium confidence: target cuts with a Buy kept usually move a stock little, and Monday's company-specific part was normal-sized, z -0.69). Not a downgrade, so it does not count toward the 'two downgrades in five trading days' breaker.",
+      "direction": "weakens",
+      "sources": [
+        {
+          "name": "TipRanks / The Fly",
+          "date": "2026-10-05",
+          "url": "https://www.tipranks.com/news/the-fly/credo-technology-price-target-lowered-to-310-from-350-at-stifel-thefly-news",
+          "tier": 3
+        },
+        {
+          "name": "MarketBeat analyst forecasts page",
+          "date": "2026-10-07",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/forecast/",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04 to 2026-10-01",
+      "timing": "unknown",
+      "type": "insider sales outside 10b5-1 plans (older filings newly identified; context for the thesis breaker)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Reading every Credo Form 4 back to June (raw SEC XML) shows that the pipeline's 10-day filings window understated the non-plan selling. Open-market sales with the 10b5-1 box NOT checked, and with no plan adoption date on the matching Form 144: (1) CTO and director Chi Fung (Lawrence) Cheng sold 3,790 shares at $170.00 on 2026-09-04 (about $0.64m; shares from an RSU vest on 2025-09-01; about 2.7% of his directly held shares; he also holds about 5.7m shares through a family trust that sells under a separate plan); (2) Chief Legal Officer James Laufman sold 5,000 shares at $185.00 on 2026-09-21 (about $0.93m) and (3) 5,000 shares at $205.00 on 2026-10-01 (about $1.03m; already in the log). Earlier in the year: Laufman 5,000 shares at $264.485 on 2026-06-11 and director Clyde Hosein 3,451 shares at $262.325 on 2026-07-01, both without the plan box. So over about four weeks (4 Sept to 1 Oct) TWO insiders sold outside plans, about $2.59m in total, against about $53.1m of pre-planned sales by the CEO (plan adopted 2026-06-10), CTO (plan adopted 2025-09-05) and COO in the same period. Round-number prices ($170, $185, $205) and fixed 5,000-share lots look like limit orders on newly vested stock (inference, medium). No new non-plan sale was filed in this window.",
+      "why_it_matters": "Santi's breaker is 'several insiders sold on the open market outside pre-planned 10b5-1 plans'. Two people over four weeks, small amounts and small fractions of their holdings: borderline under the word 'several' (see thesis_breaker_checks). The previous report's statement that Laufman was the only non-plan seller was true only for the pipeline's 10-day window.",
+      "direction": "weakens",
+      "sources": [
+        {
+          "name": "SEC Form 4, Chi Fung Cheng (CTO)",
+          "date": "2026-09-09",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026061180/xslF345X06/wk-form4_1788990548.xml",
+          "tier": 1
+        },
+        {
+          "name": "SEC Form 144, Lawrence Chi Fung Cheng",
+          "date": "2026-09-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195004726009126/xsl144X01/primary_doc.xml",
+          "tier": 1
+        },
+        {
+          "name": "SEC Form 4, James Laufman (CLO)",
+          "date": "2026-09-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026063214/xslF345X06/wk-form4_1790194619.xml",
+          "tier": 1
+        },
+        {
+          "name": "SEC Form 144, James L. Laufman",
+          "date": "2026-09-21",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195004726009694/xsl144X01/primary_doc.xml",
+          "tier": 1
+        },
+        {
+          "name": "SEC Form 4, James Laufman (CLO)",
+          "date": "2026-10-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064939/xslF345X06/wk-form4_1791231688.xml",
+          "tier": 1
+        },
+        {
+          "name": "SEC Form 144, James L. Laufman",
+          "date": "2026-10-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195004726009924/xsl144X01/primary_doc.xml",
+          "tier": 1
+        }
+      ]
+    }
+  ],
+  "why_chain": [
+    {
+      "rung": 1,
+      "text": "Tuesday 6 Oct: CRDO rose 3.93% to $220.83; Wednesday 7 Oct it closed -0.37% at $220.01 (+3.54% over the two days, while SMH fell 1.40%).",
+      "evidence": "data/prices/CRDO.csv (Yahoo Finance daily bars, pipeline)"
+    },
+    {
+      "rung": 2,
+      "text": "Tuesday's split: market +0.59, industry (SMH) -1.27, company +4.61 points (z 0.97, normal for this stock). Wednesday: market -0.26, industry -1.55, company +1.44 (z 0.30).",
+      "evidence": "data/metrics/attribution-2026-10-07.json"
+    },
+    {
+      "rung": 3,
+      "text": "Tuesday's 'company' part was shared with the optical/connectivity group (AAOI +7.07%, LITE +3.82%, VIAV +2.62%) while chips overall (SMH) slipped 0.22%, so it was a move in AI-networking stocks rather than Credo-specific news.",
+      "evidence": "data/prices (peer closes) | inference (medium)"
+    },
+    {
+      "rung": 4,
+      "text": "No Credo press release (newest is 2026-09-18), no 8-K, and no news item dated 6-7 Oct was found; the only filings were routine tax-withholding Form 4s filed after Tuesday's close.",
+      "evidence": "https://investors.credosemi.com/news-events/news ; https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1807794&type=&dateb=&owner=include&count=40 | inference (high) that there was no company news"
+    },
+    {
+      "rung": 5,
+      "text": "Why the optical/connectivity group rose on Tuesday was not established: one search hit attributing an 'optics rally' to hyperscaler capex turned out to be dated 2026-06-02, not this week. The evidence runs out here; part of Tuesday's gain may simply be a rebound from Monday's -2.82% (guess, low confidence).",
+      "evidence": "https://finance.yahoo.com/markets/stocks/articles/coherent-advances-16-lumentum-climbs-164337686.html | inference (low)"
+    }
+  ],
+  "products": [
+    {
+      "name": "Active electrical cables (AECs, branded ZeroFlap AECs) - background only, no product news in the window",
+      "what_it_is": "Copper cables with a small signal-cleaning chip in each end that link servers and switches a few metres apart inside AI data centers.",
+      "analogy": "A garden hose with a booster pump at each end: plain copper loses 'pressure' (signal) over distance; the chips restore it.",
+      "buyers": "Hyperscale cloud companies and AI cloud providers; Credo does not name them. Four customers were 84% of Q1 FY2027 revenue (33/28/13/10%).",
+      "how_it_works": "Credo designs the chips and sells the finished cable; over a few metres it is cheaper and uses less power than an optical link.",
+      "price": "not disclosed",
+      "sales": "Not disclosed separately. Proxy (labelled): total company revenue $479.0m in Q1 FY2027 (+114.7%), with AECs described by management as the largest business; optical products guided above $600m for fiscal 2027 (call transcript, tier 3).",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm ; https://www.fool.com/earnings/call-transcripts/2026/09/08/credo-crdo-q1-2027-earnings-call-transcript/",
+      "stage": "Shipping in volume; 1.6T optical transceivers (224G per lane) added to the ZeroFlap family on 2026-09-15 (announced, shipping status not stated in this research).",
+      "size_for_company": "Largest product line (exact share not disclosed).",
+      "competition": "Marvell (Alaska AECs, 'Golden Cable' partner programme with cable makers such as Amphenol) and Astera Labs (Taurus AEC chips), per tier-3 coverage; longer term, optics replacing copper.",
+      "why_investors_care": "It is the engine of the 100%+ growth; the thesis depends on top customers keeping it in new designs.",
+      "watch_next": "Q2 FY2027 results (estimated about 2026-12-02): revenue vs $525-535m guide, customer shares, any optical revenue figure."
+    }
+  ],
+  "earnings": {
+    "status": "none",
+    "date": "2026-09-01 (last reported, Q1 FY2027)",
+    "confirmed": true,
+    "consensus": {},
+    "actual": {},
+    "guidance": {},
+    "key_metrics": {},
+    "quality_flags": [],
+    "management_explanation": "No results in the window. Last results: Q1 FY2027 revenue $479.0m (+114.7%), GAAP gross margin 64.5% (from 68.2%), Q2 guide $525-535m.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm"
+    ]
+  },
+  "next_earnings": {
+    "date": "about 2026-12-02 (estimated by MarketBeat as Wednesday 2 December 2026; Credo has not announced it. Last year's equivalent Q2 call was 2025-12-01 per Credo's IR events page. Credo usually announces the date about three weeks before: 2026-08-11 for the 2026-09-01 call, 2026-05-14 for the 2026-06-01 call.)",
+    "confirmed": false,
+    "consensus_eps": "not reliably available: MarketBeat shows $0.43 for Q2 FY2027, which is inconsistent with Q1's $1.20 non-GAAP actual vs $1.17 consensus (looks stale or on a different basis).",
+    "consensus_revenue": "not reliably available: MarketBeat shows $513.8m, below the company's own $525-535m guide (likely stale).",
+    "company_guidance": "Q2 FY2027 revenue $525-535m; non-GAAP gross margin 67-69% (GAAP 62.9-64.9%); non-GAAP operating expenses $100-105m; fiscal 2027 revenue growth above 85%; optical revenue above $600m in fiscal 2027 (call). No EPS guidance.",
+    "sources": [
+      "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings/",
+      "https://investors.credosemi.com/news-events/events",
+      "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm",
+      "https://www.fool.com/earnings/call-transcripts/2026/09/08/credo-crdo-q1-2027-earnings-call-transcript/"
+    ]
+  },
+  "analyst_actions": [
+    {
+      "date": "2026-10-05",
+      "firm": "Stifel (Tore Svanberg)",
+      "action": "Price target cut to $310 from $350; Buy kept",
+      "reason": "not available (not stated in The Fly item or MarketBeat)",
+      "url": "https://www.tipranks.com/news/the-fly/credo-technology-price-target-lowered-to-310-from-350-at-stifel-thefly-news"
+    },
+    {
+      "date": "2026-09-21",
+      "firm": "Mizuho (Vijay Rakesh)",
+      "action": "Price target cut to $245 from $290; Outperform kept (rehash, context)",
+      "reason": "not available in sources read",
+      "url": "https://www.tipranks.com/news/the-fly/credo-technology-price-target-lowered-to-245-from-290-at-mizuho-thefly-news"
+    },
+    {
+      "date": "2026-09-02",
+      "firm": "Evercore ISI (Mark Lipacis)",
+      "action": "Price target cut to $292 from $325 (rehash, context; not in the news log so far)",
+      "reason": "not available",
+      "url": "https://www.tipranks.com/news/the-fly/credo-technology-price-target-lowered-to-292-from-325-at-evercore-isi-thefly-news"
+    },
+    {
+      "date": "2026-10-07",
+      "firm": "Consensus (aggregators, opinions)",
+      "action": "MarketBeat: 'Moderate Buy', average target $262.67 from 18 analysts (1 Strong Buy, 14 Buy, 3 Hold, 0 Sell). StockAnalysis: 'Strong Buy', average target $279.09. Aggregators disagree; treat as rough.",
+      "reason": "n/a",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/forecast/"
+    }
+  ],
+  "insiders": {
+    "summary": "In the window: only routine tax withholding (code F) by the CEO (12,298 shares, about $2.64m, about 0.6% of his holdings) and CFO (4,920 shares, about $1.05m, about 1.0%) on RSU vesting dated 2 and 5 October, filed after Tuesday's close. No open-market buys or sells filed in the window. Wider view (raw SEC XML, June to October): heavy pre-planned 10b5-1 selling continues (about $53.1m from 4 Sept to 1 Oct by the CEO, CTO and COO), no insider purchases, and smaller non-plan sales by the CLO (2026-06-11, 09-21, 10-01; 5,000 shares each), a director (Clyde Hosein, 2026-07-01) and the CTO (2026-09-04). Two different insiders sold outside plans within the four weeks to 1 Oct (about $2.59m together).",
+    "notable": [
+      {
+        "date": "2026-10-02 and 2026-10-05",
+        "who": "William Brennan, CEO and director",
+        "what": "Code F tax withholding, 6,149 shares at $210.17 and 6,149 at $218.64 (about $2.64m); 354,182 held directly after, plus 1,750,830 indirectly",
+        "plan": "n/a (tax withholding)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065266/xslF345X06/wk-form4_1791321987.xml"
+      },
+      {
+        "date": "2026-10-02 and 2026-10-05",
+        "who": "Daniel Fleming, CFO",
+        "what": "Code F tax withholding, 2,460 shares at $210.17 and 2,460 at $218.64 (about $1.05m); 499,788 held after",
+        "plan": "n/a (tax withholding)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065265/xslF345X06/wk-form4_1791321925.xml"
+      },
+      {
+        "date": "2026-10-01",
+        "who": "James Laufman, Chief Legal Officer",
+        "what": "Sold 5,000 at $205.00 (about $1.03m); 164,223 held after (rehash)",
+        "plan": "No 10b5-1 box; Form 144 lists no plan adoption date",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064939/xslF345X06/wk-form4_1791231688.xml"
+      },
+      {
+        "date": "2026-10-01",
+        "who": "Yat Tung Lam, COO and director",
+        "what": "Sold 50,000 at an average $205.2175 (about $10.26m) (rehash)",
+        "plan": "10b5-1 box checked",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064627/xslF345X06/wk-form4_1790974671.xml"
+      },
+      {
+        "date": "2026-09-25",
+        "who": "Yat Tung Lam, COO and director",
+        "what": "Sold 100,000 at about $205-208 (about $20.63m) (rehash)",
+        "plan": "10b5-1 box checked",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026063815/xslF345X06/wk-form4_1790713681.xml"
+      },
+      {
+        "date": "2026-09-21",
+        "who": "James Laufman, Chief Legal Officer",
+        "what": "Sold 5,000 at $185.00 (about $0.93m); 169,223 held after (NOT in the news log)",
+        "plan": "No 10b5-1 box; Form 144 lists no plan adoption date",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026063214/xslF345X06/wk-form4_1790194619.xml"
+      },
+      {
+        "date": "2026-09-14",
+        "who": "William Brennan, CEO",
+        "what": "Sold 16,672 at about $150-153 (about $2.53m)",
+        "plan": "10b5-1 plan adopted 2026-06-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026062295/xslF345X06/wk-form4_1789591996.xml"
+      },
+      {
+        "date": "2026-09-04",
+        "who": "Chi Fung (Lawrence) Cheng, CTO and director",
+        "what": "Sold 3,790 at $170.00 (about $0.64m); 136,568 held directly after (NOT in the news log)",
+        "plan": "No 10b5-1 box; Form 144 lists no plan adoption date",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026061180/xslF345X06/wk-form4_1788990548.xml"
+      }
+    ]
+  },
+  "filings": [
+    {
+      "form": "4",
+      "items": "Code F x2 (CEO William Brennan), filed 2026-10-06, accession 0001628280-26-065266",
+      "plain_english": "The company held back 12,298 of the CEO's newly vested shares to pay his income tax. Not a sale decision.",
+      "materiality": "low",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065266/xslF345X06/wk-form4_1791321987.xml"
+    },
+    {
+      "form": "4",
+      "items": "Code F x2 (CFO Daniel Fleming), filed 2026-10-06, accession 0001628280-26-065265",
+      "plain_english": "Same for the CFO: 4,920 shares withheld for tax on vesting.",
+      "materiality": "low",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065265/xslF345X06/wk-form4_1791321925.xml"
+    },
+    {
+      "form": "4 / 144 (older, re-read)",
+      "items": "Non-plan open-market sales: CTO 2026-09-04, CLO 2026-09-21 and 2026-10-01",
+      "plain_english": "Two insiders sold small amounts without a pre-planned trading plan in four weeks; relevant to the 'several insiders' breaker.",
+      "materiality": "medium",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026061180/xslF345X06/wk-form4_1788990548.xml"
+    },
+    {
+      "form": "DEF 14A (filed 2026-08-25)",
+      "items": "Notice of 2026 Annual General Meeting",
+      "plain_english": "Annual meeting Monday 2026-10-12, 1:00 p.m. Pacific: elect three Class II directors, advisory vote on executive pay, ratify Ernst & Young as auditor for the year ending 2027-05-01. Routine.",
+      "materiality": "low",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026058936/crdo-20260825.htm"
+    },
+    {
+      "form": "10-Q (filed 2026-09-02)",
+      "items": "Part II Item 1, Legal Proceedings",
+      "plain_english": "Credo says it is 'not presently a party to any litigation' that it believes would have a material adverse effect, and the notes say it 'was not subject to any material litigation'.",
+      "materiality": "low",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm"
+    }
+  ],
+  "catalysts": [
+    {
+      "date": "2026-10-12",
+      "event": "Annual General Meeting, 1:00 p.m. PT (directors, say-on-pay, auditor ratification); vote results normally follow in an 8-K Item 5.07 within four business days",
+      "confirmed": true,
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026058936/crdo-20260825.htm"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "Fiscal Q2 2027 quarter ends (inferred: Q1 ended 2026-08-01 and quarters are 13 weeks; fiscal year ends 2027-05-01 per proxy)",
+      "confirmed": false,
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm"
+    },
+    {
+      "date": "about 2026-11-10 (estimated)",
+      "event": "Expected 'Credo Schedules Second Quarter Fiscal Year 2027 Financial Results Conference Call' release, about three weeks before results (pattern from 2026-08-11 and 2026-05-14 releases)",
+      "confirmed": false,
+      "url": "https://investors.credosemi.com/news-events/news"
+    },
+    {
+      "date": "about 2026-12-02 (estimated)",
+      "event": "Q2 FY2027 results; guide $525-535m revenue",
+      "confirmed": false,
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings/"
+    }
+  ],
+  "thesis_breaker_checks": [
+    {
+      "event": "the company cut its revenue or profit forecast (guidance)",
+      "found": false,
+      "evidence": "No 8-K since 2026-09-01 and no press release since 2026-09-18 (EDGAR list; Credo IR feed). Guidance stands at Q2 $525-535m and fiscal-2027 growth above 85% (Q1 release, 2026-09-01)."
+    },
+    {
+      "event": "results missed analysts' revenue or EPS estimates",
+      "found": false,
+      "evidence": "No results in the window; last quarter beat ($1.20 vs $1.17 EPS; $479.0m vs about $473-476m revenue). Next results about 2026-12-02 (estimated)."
+    },
+    {
+      "event": "a major customer was lost, or a major customer cut orders",
+      "found": false,
+      "evidence": "No company disclosure and no tier-1/2 report found. Caveat: searches were limited this run (shared search budget ran out); checked company IR feed, EDGAR and StockAnalysis/MarketBeat news lists."
+    },
+    {
+      "event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+      "found": false,
+      "evidence": "No 8-K filed since 2026-09-01 (items 2.02, 9.01) per EDGAR submissions list."
+    },
+    {
+      "event": "the auditor resigned or was dismissed (8-K Item 4.01)",
+      "found": false,
+      "evidence": "No 8-K; the proxy asks shareholders to ratify Ernst & Young for fiscal 2027 at the 2026-10-12 meeting (DEF 14A)."
+    },
+    {
+      "event": "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+      "found": false,
+      "evidence": "No 8-K; CEO Brennan and CFO Fleming both filed Form 4s as current officers on 2026-10-06."
+    },
+    {
+      "event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+      "found": false,
+      "evidence": "No S-3, 424B or 8-K 3.02 on EDGAR. Only an S-8 on 2026-09-02 (registers shares for employee stock plans; routine, outside the window)."
+    },
+    {
+      "event": "a regulator opened an investigation, or major litigation was filed",
+      "found": false,
+      "evidence": "10-Q (2026-09-02): not party to material litigation. A disconfirming search returned only 2023 law-firm 'investigation' notices from the February 2023 guidance cut (old) and the earlier ITC/AEC patent disputes (TE settled 2026-03-27 per IR feed)."
+    },
+    {
+      "event": "two or more analyst downgrades within five trading days",
+      "found": false,
+      "evidence": "Stifel cut its target to $310 from $350 on 2026-10-05 but kept Buy; MarketBeat's list shows no broker rating downgrade since Zacks Research (Strong-Buy to Hold) on 2026-08-03."
+    },
+    {
+      "event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+      "found": false,
+      "evidence": "BORDERLINE, main session to judge. No new non-plan sale in this window (the 2026-10-06 filings are tax withholding, code F). But re-reading the raw Form 4s shows TWO insiders sold outside plans in the four weeks to 1 Oct: CTO Cheng 3,790 shares at $170.00 on 2026-09-04 (about $0.64m) and CLO Laufman 5,000 at $185.00 on 2026-09-21 and 5,000 at $205.00 on 2026-10-01 (about $1.95m); about $2.59m in total, each a few percent of the seller's direct holding, versus about $53.1m of planned sales. Not met if 'several' means three or more; met if it means two or more. The pipeline's 10-day window only caught Laufman."
+    },
+    {
+      "event": "CRDO thesis trigger 1: revenue guidance cut",
+      "found": false,
+      "evidence": "No new guidance; Q2 guide $525-535m unchanged."
+    },
+    {
+      "event": "CRDO thesis trigger 2: a top customer switches to another technology or supplier",
+      "found": false,
+      "evidence": "Nothing reported by the company or tier-1/2 sources in the window (search coverage limited)."
+    },
+    {
+      "event": "CRDO thesis triggers 3-4: optical business shrinking; DustPhotonics write-down",
+      "found": false,
+      "evidence": "No results or filings with financial statements in the window."
+    },
+    {
+      "event": "CRDO thesis trigger 5: gross margin falls two quarters in a row",
+      "found": false,
+      "evidence": "Next data point is Q2 results (about 2026-12-02); Q2 GAAP gross-margin guide 62.9-64.9% vs Q1's 64.5%, so the midpoint (63.9%) would be a second decline if hit (inference from guidance; early-warning level in the thesis is below 63%)."
+    }
+  ],
+  "disconfirming_evidence": [
+    {
+      "claim": "Two insiders (CTO and CLO) sold shares outside pre-planned plans within four weeks, while insiders bought nothing and pre-planned sales were about $53.1m.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026061180/xslF345X06/wk-form4_1788990548.xml",
+      "assessment": "Fact (SEC filings). Small amounts and small fractions of holdings; could be routine liquidity from vested stock, but it is the closest the stock has come to Santi's insider breaker."
+    },
+    {
+      "claim": "Analysts keep trimming targets: Stifel to $310 from $350 (2026-10-05), after BofA, JPMorgan, Evercore ISI (2026-09-02) and Mizuho (2026-09-21).",
+      "url": "https://www.tipranks.com/news/the-fly/credo-technology-price-target-lowered-to-310-from-350-at-stifel-thefly-news",
+      "assessment": "Opinions, all with positive ratings kept; the direction of revisions since results is down."
+    },
+    {
+      "claim": "Competition in AECs from Marvell (Alaska AECs, Golden Cable with Amphenol) and Astera Labs (Taurus) is a recurring worry.",
+      "url": "https://www.nasdaq.com/articles/how-rising-aec-adoption-transforming-credos-growth-trajectory",
+      "assessment": "Tier-3 (Zacks via Nasdaq) and not dated in the window; a long-running risk, no new evidence of share loss. A claim in the same results that Credo has '88% AEC market share' is unverified and should not be cited."
+    },
+    {
+      "claim": "Lawsuits or regulatory problems.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm",
+      "assessment": "Not found: the 10-Q says no material litigation; search results only showed 2023 law-firm notices tied to the February 2023 customer-forecast cut (precedent for the customer-concentration risk)."
+    },
+    {
+      "claim": "The stock is very volatile: Wednesday it traded as low as $208.10 (-5.8% from Tuesday's close) before closing -0.37%.",
+      "url": "data/prices/CRDO.csv (Yahoo Finance daily bars, pipeline)",
+      "assessment": "Fact; consistent with beta about 3.3 and a typical daily company-specific move of about 4.75%."
+    }
+  ],
+  "open_questions": [
+    "Does 'several insiders' in Santi's breaker include two? CTO (2026-09-04) and CLO (2026-09-21, 2026-10-01) sold outside plans within four weeks; the main session should decide and say so plainly. The 2026-09-04 and 2026-09-21 sales are not yet in the news log.",
+    "Why optical/connectivity stocks rose together on Tuesday 6 Oct (AAOI +7.07%, LITE +3.82%, VIAV +2.62%, CRDO +3.93%) while SMH fell: no tier-1/2 explanation found; searches were cut short by the shared search budget.",
+    "Stifel's reason for cutting its target to $310 is not available in the sources read.",
+    "The Stifel cut (2026-10-05, before Monday's open) was missed by the 2026-10-05 report, which said there was no new company news; consider adding it to the news log as a 2026-10-05 item.",
+    "Data-quality note: the 2026-10-05 report's CRDO section says Monday 'opened at $220.83'; per the Yahoo daily bar Monday opened at $220.70 and $220.83 is Tuesday's close.",
+    "Q2 FY2027 consensus EPS and revenue: MarketBeat figures look stale; a better source is needed closer to results.",
+    "Q2 FY2027 results date not yet announced by Credo (estimated about 2026-12-02).",
+    "OCP Global Summit 2026 dates (Credo often shows products there) not confirmed in this research."
+  ],
+  "searches_run": 6
+}

@@ -145,6 +145,64 @@
         "z": -0.05,
         "next_5_days_pct": 43.1
       }
+    },
+    {
+      "key": "be-2026-10-07-bernstein-utilities",
+      "date": "2026-10-07",
+      "timing": "before open",
+      "type": "analyst reiteration",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Bernstein kept Market Perform ($282 target), seeing a 10-20 GW behind-the-meter market by 2030 and utilities as a second group of buyers.",
+      "source": {
+        "name": "Investing.com",
+        "date": "2026-10-07",
+        "url": "https://www.investing.com/news/analyst-ratings/bernstein-reiterates-bloom-energy-stock-rating-on-utility-demand-93CH-4936717",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -1.52,
+        "market_pct": -0.24,
+        "beyond_market_pct": -1.28,
+        "typical_day_pct": 5.61,
+        "z": -0.23,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "be-2026-10-07-fuelcell-cfo-peer-drop",
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "peer news",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Fuel-cell stocks fell after FuelCell Energy's CFO stepped down (FuelCell -12%); Bloom fell far less (-1.52%).",
+      "source": {
+        "name": "24/7 Wall St",
+        "date": "2026-10-07",
+        "url": "https://247wallst.com/investing/2026/10/07/fuelcell-tumbles-12-as-its-finance-chief-of-15-years-steps-down-bloom-energy-dips-plug-power-slides-3/",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -1.52,
+        "market_pct": -0.24,
+        "beyond_market_pct": -1.28,
+        "typical_day_pct": 5.61,
+        "z": -0.23,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -158,27 +216,27 @@
       "company_part_pct": -1.71,
       "z": -0.39,
       "main_news": "Barclays raised its target to $308 and kept a neutral rating, citing a second factory in Fremont, California, and utility demand (Ameren plans 500 megawatts of fuel cells)."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 291.29,
+      "day_pct": -1.52,
+      "market_part_pct": -0.53,
+      "industry_part_pct": -3.38,
+      "company_part_pct": 2.4,
+      "z": 0.55,
+      "main_news": "Bernstein kept Market Perform ($282 target), seeing a 10-20 GW behind-the-meter market by 2030 and utilities as a second group of buyers."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-04",
+    "as_of": "2026-10-07",
     "events": [
       {
-        "date": "about 2026-10-27",
-        "event": "Q3 2026 results",
+        "date": "2026-10-27",
+        "event": "Q3 2026 results (estimated 10-26 to 10-29)",
         "confirmed": false,
         "source": {}
-      },
-      {
-        "date": "February 2027",
-        "event": "Gas pipeline for Oracle's Project Jupiter expected",
-        "confirmed": false,
-        "source": {
-          "name": "CNBC",
-          "date": "2026-09-24",
-          "url": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html",
-          "tier": 2
-        }
       }
     ]
   }

@@ -14,7 +14,7 @@ As AI data centers grow, thousands of chips must exchange data, and over any dis
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ As AI data centers grow, thousands of chips must exchange data, and over any dis
 - Operating margin (share left after all running costs): rising (1.3% to 27.8%, +26.5 points).
 - Profit: positive net income in 3 of the last 4 quarters.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +23.9% | +49.3% | +41.4% | +566.4% | +45.7% | -42.8% | 6.0% |
+| +26.1% | +57.1% | +24.0% | +607.0% | +46.7% | -42.8% | 5.7% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -104,7 +104,7 @@ Each pillar says why it matters, how it is measured, where it stands now and whe
 5. **No further big share issuance.** *(whole position; added 2026-10-05)*
    - *Why it matters:* The bond swap already added about 13% more shares; more would keep shrinking my slice.
    - *Measured by:* Diluted share count in each 10-Q.
-   - *Now (as of 2026-10-04):* About 10.6 million new shares from the bond swap [Lumentum 10-K, 2026-08-14].
+   - *Now (as of 2026-10-07):* About 10.6 million new shares from the bond swap [Lumentum 10-K, 2026-08-14]. Also, not in the thesis before: on 2026-03-02 Lumentum sold NVIDIA $2.0bn of Series A convertible preferred (2,876,415 shares at $695.31, converting one-for-one, about 3.2% of common shares) [Lumentum 10-K, 2026-08-14](https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm). The proxy filed 2026-10-06 asks for no new shares.
    - *Next check:* Next 10-Q.
 
 ## Invalidation triggers (what would prove the thesis wrong)
@@ -147,7 +147,7 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* SEC filings in every daily report.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-05 (every figure sourced)
+## Facts as of 2026-10-07 (every figure sourced)
 - Q4 FY2026 revenue $1.01bn (+109%); Q1 FY2027 guidance $1.225-1.275bn [Lumentum Q4 FY2026 results, 2026-08-11](https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results/default.aspx)
 - Still shipping behind laser demand (Q4 call, per [Investing.com transcript, 2026-08-11](https://www.investing.com/news/transcripts/earnings-call-transcript-lumentum-tops-q4-2026-forecasts-as-ai-demand-lifts-outlook-93CH-4852933), tier 3)
 - Bond swap: about 10.6 million new shares, about 13% more shares in the quarter [Lumentum 10-K, 2026-08-14](https://www.sec.gov/Archives/edgar/data/0001633978/000162828026057358/lite-20260627.htm)
@@ -155,9 +155,13 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - Six-year AXT wafer-supply deal with two $43.5m deposits [AXT 8-K, 2026-07-29](https://www.sec.gov/Archives/edgar/data/0001051627/000143774926024883/axti20260715_8k.htm)
 - Close $1,091.67 on 2026-10-05 after an intraday record of $1,124.40; up 18.5% over five days; typical day about 6.0%; worst fall in a year 42.8% (data/metrics)
 - Q1 FY2027 results on 2026-11-05 after the close, call 5:00 p.m. New York time [Lumentum via Business Wire (Yahoo Finance), 2026-10-05](https://finance.yahoo.com/markets/stocks/articles/lumentum-announces-reporting-date-fiscal-120000373.html)
+- Optical circuit switch business 'rapidly scaling past a $100 million quarterly revenue run rate'; 1.6T modules in production; annual meeting 2026-11-18 with three routine items, no share request [Lumentum DEF 14A, 2026-10-06](https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm)
+- NVIDIA holds $2.0bn of convertible preferred bought 2026-03-02 (about 3.2% if converted) [Lumentum 10-K, 2026-08-14](https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm)
+- Record close $1,133.40 on 2026-10-06; $1,111.07 on 2026-10-07 (data/metrics)
 
 ## Change log
 - Created with the repository.
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-05 (daily report): results date confirmed (2026-11-05); pillar 1's next check and Facts updated. No change to the reasons, pillars or triggers.
+- 2026-10-07 (daily report): Facts and pillar 5 'Now' updated (NVIDIA convertible preferred from March, found in the 10-K; proxy filed with no share request; OCS run rate above $100m a quarter). No trigger status changed. No change to the reasons, pillars or triggers.

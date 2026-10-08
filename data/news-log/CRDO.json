@@ -145,6 +145,122 @@
         "z": 1.28,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "crdo-2026-10-05-stifel-target-cut",
+      "date": "2026-10-05",
+      "timing": "before open",
+      "type": "analyst target cut",
+      "materiality": "low",
+      "direction": "bad",
+      "what": "Stifel cut its target to $310 from $350 and kept Buy (missed by the 10-05 report).",
+      "source": {
+        "name": "TipRanks/The Fly",
+        "date": "2026-10-05",
+        "url": "https://www.tipranks.com/news/the-fly/credo-technology-price-target-lowered-to-310-from-350-at-stifel-thefly-news",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-05",
+        "stock_pct": -2.82,
+        "market_pct": 0.67,
+        "beyond_market_pct": -3.49,
+        "typical_day_pct": 5.92,
+        "z": -0.59,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "crdo-2026-09-04-cto-nonplan-sale",
+      "date": "2026-09-04",
+      "timing": "unknown",
+      "type": "insider sale outside 10b5-1 plan",
+      "materiality": "low",
+      "direction": "bad",
+      "what": "Found 2026-10-07: CTO Chi Fung Cheng sold 3,790 shares at $170.00 (about $0.64m) without a 10b5-1 plan; with the CLO and director Hosein, three non-plan sellers since June, two within four weeks (about $2.6m from 09-04 to 10-01); whether this meets the 'several insiders' breaker depends on Santi's definition.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-09-09",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026061180/xslF345X06/wk-form4_1788990548.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-09-04",
+        "stock_pct": 3.9,
+        "market_pct": -0.39,
+        "beyond_market_pct": 4.28,
+        "typical_day_pct": 5.91,
+        "z": 0.73,
+        "next_5_days_pct": -12.01
+      }
+    },
+    {
+      "key": "crdo-2026-10-06-optics-rally",
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Rose 3.93% with the optical group (AAOI +7.07%, Lumentum +3.82%) with no company news.",
+      "source": {
+        "name": "CNBC",
+        "date": "2026-10-06",
+        "url": "https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": 3.93,
+        "market_pct": 0.55,
+        "beyond_market_pct": 3.38,
+        "typical_day_pct": 5.91,
+        "z": 0.57,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "crdo-2026-07-01-hosein-nonplan-sale",
+      "date": "2026-07-01",
+      "timing": "unknown",
+      "type": "insider sale outside 10b5-1 plan",
+      "materiality": "low",
+      "direction": "bad",
+      "what": "Found 2026-10-07: director Clyde Hosein sold 3,451 shares at $262.33 on 07-01 without a 10b5-1 plan.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-07-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026046833/xslF345X06/wk-form4_1783020490.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-07-01",
+        "stock_pct": -4.73,
+        "market_pct": -0.14,
+        "beyond_market_pct": -4.59,
+        "typical_day_pct": 5.55,
+        "z": -0.83,
+        "next_5_days_pct": 2.53
+      }
     }
   ],
   "days": [
@@ -169,14 +285,31 @@
       "company_part_pct": -3.27,
       "z": -0.69,
       "main_news": "The chief operating officer sold 50,000 shares (about $10.3m) under a pre-planned 10b5-1 plan; insiders sold about $41.5m from 2026-09-23 to 10-02, all flagged as pre-planned, and bought nothing."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 220.01,
+      "day_pct": -0.37,
+      "market_part_pct": -0.26,
+      "industry_part_pct": -1.55,
+      "company_part_pct": 1.44,
+      "z": 0.3,
+      "main_news": null
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-05",
+    "as_of": "2026-10-07",
     "events": [
       {
-        "date": "about 2026-12-02",
-        "event": "Q2 FY2027 results (guidance $525-535m; not confirmed)",
+        "date": "2026-10-12",
+        "event": "Annual general meeting",
+        "confirmed": true,
+        "source": {}
+      },
+      {
+        "date": "2026-12-02",
+        "event": "Q2 FY2027 results (estimated)",
         "confirmed": false,
         "source": {}
       }

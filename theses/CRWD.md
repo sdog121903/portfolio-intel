@@ -14,7 +14,7 @@ CrowdStrike's Falcon software guards a company's laptops, servers, cloud systems
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ CrowdStrike's Falcon software guards a company's laptops, servers, cloud systems
 - Operating margin (share left after all running costs): rising (-5.6% to -2.3%, +3.4 points).
 - Profit: positive net income in 3 of the last 4 quarters.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +27.9% | +36.8% | +173.6% | +122.6% | +76.7% | -37.2% | 4.0% |
+| +24.6% | +38.9% | +148.9% | +119.1% | +70.3% | -37.2% | 4.3% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 

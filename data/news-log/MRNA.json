@@ -56,7 +56,7 @@
         "beyond_market_pct": -5.15,
         "typical_day_pct": 3.38,
         "z": -1.52,
-        "next_5_days_pct": null
+        "next_5_days_pct": 2.03
       }
     },
     {
@@ -85,7 +85,7 @@
         "beyond_market_pct": -5.15,
         "typical_day_pct": 3.38,
         "z": -1.52,
-        "next_5_days_pct": null
+        "next_5_days_pct": 2.03
       }
     },
     {
@@ -232,6 +232,122 @@
         "z": 1.87,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "mrna-2026-10-05-plague-scare",
+      "date": "2026-10-05",
+      "timing": "during",
+      "type": "sector theme (disease scare)",
+      "materiality": "medium",
+      "direction": "neutral",
+      "what": "Possible correction to the 10-05 report: Monday's jump coincided with a plague scare (a lab worker in Irkutsk died of a possible plague pneumonia) that lifted vaccine stocks (Novavax +20%); the link to Moderna is tier-3 only and the timing fits poorly (inference, low).",
+      "source": {
+        "name": "Al Jazeera",
+        "date": "2026-10-05",
+        "url": "https://www.aljazeera.com/news/2026/10/5/russian-lab-worker-dies-of-suspected-plague-in-siberia-us-monitoring-case",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-05",
+        "stock_pct": 6.95,
+        "market_pct": 0.67,
+        "beyond_market_pct": 6.27,
+        "typical_day_pct": 3.35,
+        "z": 1.87,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "mrna-2026-10-06-who-low-risk",
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "sector theme reversal",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Fell 7.75%, mostly with biotech stocks (XBI -3.39%); the plague scare also faded after the WHO called the risk low; it gave back all of Monday's gain.",
+      "source": {
+        "name": "UN News",
+        "date": "2026-10-06",
+        "url": "https://news.un.org/en/story/2026/10/1168533",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": -7.75,
+        "market_pct": 0.55,
+        "beyond_market_pct": -8.3,
+        "typical_day_pct": 3.35,
+        "z": -2.48,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "mrna-2026-10-07-rise-no-news",
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Rose 4.81% with no published cause; index funds must buy before the 10-09 Nasdaq-100 entry and traders may buy ahead (inference, low).",
+      "source": {
+        "name": "Nasdaq",
+        "date": "2026-10-01",
+        "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": 4.81,
+        "market_pct": -0.24,
+        "beyond_market_pct": 5.05,
+        "typical_day_pct": 3.4,
+        "z": 1.49,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "mrna-2026-10-05-andres-form3",
+      "date": "2026-10-05",
+      "timing": "after close",
+      "type": "insider initial holdings (Form 3)",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "New COO Juan Andres reported 125,000 shares held directly (about $25m).",
+      "source": {
+        "name": "SEC Form 3",
+        "date": "2026-10-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000183/xslF345X06/form3.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": -7.75,
+        "market_pct": 0.55,
+        "beyond_market_pct": -8.3,
+        "typical_day_pct": 3.35,
+        "z": -2.48,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -256,10 +372,21 @@
       "company_part_pct": 4.28,
       "z": 0.39,
       "main_news": "Rose 6.95% with no company news; biotech stocks rose, and one market-news site (citing no evidence) pointed to buying ahead of the Nasdaq-100 entry and the 10-24 data; against its last 20 trading days the move was about one and a half typical days."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 196.48,
+      "day_pct": 4.81,
+      "market_part_pct": -0.45,
+      "industry_part_pct": -0.62,
+      "company_part_pct": 5.88,
+      "z": 0.53,
+      "main_news": "Rose 4.81% with no published cause; index funds must buy before the 10-09 Nasdaq-100 entry and traders may buy ahead (inference, low)."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-05",
+    "as_of": "2026-10-07",
     "events": [
       {
         "date": "2026-10-08",
@@ -280,7 +407,7 @@
       },
       {
         "date": "2026-10-24",
-        "event": "Full Phase 3 melanoma data, ESMO Presidential Symposium, 10:30 a.m. New York time; webcast 1:00 p.m.",
+        "event": "Full Phase 3 melanoma data at ESMO, 10:30 a.m. New York time",
         "confirmed": true,
         "source": {
           "name": "Moderna via ACCESS Newswire",
@@ -290,8 +417,8 @@
         }
       },
       {
-        "date": "about 2026-10-29",
-        "event": "Q3 2026 results",
+        "date": "2026-11-05",
+        "event": "Q3 2026 results (estimated early November; not announced)",
         "confirmed": false,
         "source": {}
       }

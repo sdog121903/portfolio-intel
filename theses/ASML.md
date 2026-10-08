@@ -14,15 +14,15 @@ ASML is the only company that makes EUV (extreme ultraviolet) lithography machin
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 *No quarterly SEC figures for this company (it files as a foreign company); see the key trends below, taken from its own results releases.*
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +8.4% | +2.0% | +43.1% | +81.4% | +20.2% | -21.9% | 2.6% |
+| +5.2% | +2.2% | +27.5% | +81.3% | +16.1% | -21.9% | 2.7% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 

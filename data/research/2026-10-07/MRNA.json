@@ -1,0 +1,490 @@
+{
+ "ticker": "MRNA",
+ "company": "Moderna, Inc.",
+ "window": {
+  "from": "2026-10-05T20:00Z",
+  "to": "2026-10-07T20:00Z (extended to the Wednesday 10-07 US close at the coordinator's request; original end 2026-10-07T16:20Z)"
+ },
+ "newest_item_checked": "SEC EDGAR submissions for CIK 1682852 checked 2026-10-07 21:18 UTC: newest filing is the Form 3 accepted 2026-10-06 02:27 UTC (no 8-K, S-3, 424B or Form 4 since). Newest article read: ad-hoc-news, 2026-10-07 17:10 CEST. A last search for a cause of Wednesday's rise (2026-10-08) returned only old articles.",
+ "events": [
+  {
+   "date": "2026-10-06",
+   "timing": "during",
+   "type": "price move: sector selloff plus reversal of a vaccine-stock headline trade",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "Moderna fell 7.75% to $187.46 (from $203.21). It opened at $202.09, touched $212.22 (a new 52-week high, briefly above the roughly $210.58 conversion price of its September bonds), then closed 11.67% below that high (data/prices/MRNA.csv; our calculation). Same day the biotech fund XBI fell 3.39% to $150.90 on 17.2 million shares, 1.93 times its 20-day average volume, while the S&P 500 closed at a record (+0.58%). CNBC called it 'a rough day for many high-flying biotech and healthcare stocks': Grail -10.9%, Novavax -9.9%, Moderna -7.75%. Vaccine stocks also gave back Monday's gains from a plague scare after the WHO said the public risk was low (see next event).",
+   "why_it_matters": "It fired Santi's 5% 'explain big moves' rule. No Moderna news, filing or analyst action caused it; the fall undid Monday's headline-driven jump (from Friday's $190.01 close, Monday plus Tuesday net -1.34%, our calculation). It shows how much of the price is sentiment ahead of the 10-24 data rather than new facts.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "CNBC (Cramer on Grail; text from search snippet, page returned 403)",
+     "date": "2026-10-06",
+     "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html",
+     "tier": 2
+    },
+    {
+     "name": "CNBC stocks making the biggest moves midday (search snippet: 'Moderna pulled back, trading 6% lower, reversing some of its recent gains')",
+     "date": "2026-10-06",
+     "url": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-midday-mrvl-mrna-lw-ceg.html",
+     "tier": 2
+    },
+    {
+     "name": "Yahoo Finance (Grace O'Donnell): Novavax, Moderna stocks fall after WHO calls plague risk 'low'",
+     "date": "2026-10-06",
+     "url": "https://finance.yahoo.com/healthcare/article/novavax-moderna-stocks-fall-after-who-calls-plague-risk-low-155903476.html",
+     "tier": 3
+    },
+    {
+     "name": "Kelin Research biotech morning brief (XBI -3.39% to $150.90; IBB -2.34%; Nasdaq Biotech index -2.31%)",
+     "date": "2026-10-07",
+     "url": "https://kelinresearch.substack.com/p/07102026-biotech-morning-brief-caribou",
+     "tier": 3
+    },
+    {
+     "name": "TheStreet market recap (S&P 500 record close 7,818.93, +0.58%; search snippet, page returned 403)",
+     "date": "2026-10-06",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "during",
+   "type": "public-health headline (WHO risk assessment)",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "At a Geneva briefing, WHO spokesperson Christian Lindmeier said a woman who worked at a laboratory in Irkutsk (Siberia) had died and the authorities were checking whether pneumonic plague caused it. WHO estimated the risk 'moderate to low for Irkutsk, a low risk for the Russian Federation as a whole and very low for the WHO European region'; 'no pathogens of dangerous infectious diseases were detected among any of the contacts', and none had symptoms. Cause of death not confirmed; tests under way. Yahoo Finance reported that Novavax fell nearly 10%, giving back a 20% Monday jump 'fueled by concerns about a potential outbreak', and that Moderna 'fell 7%, giving back all its gains from Monday'. Citi said the moves showed 'headline sensitivity' in vaccine companies, which 'remain exposed to volatile policy narratives'.",
+   "why_it_matters": "It is the most specific published reason for the Monday-up, Tuesday-down whipsaw in vaccine stocks. No source says Moderna sells a plague vaccine; plague is a bacterium, and a 24/7 Wall St piece noted Novavax has no plague vaccine either. So this was headline trading, not a change in Moderna's business. Timing caveat: at 9:56 a.m. ET Tuesday Moderna was still +2% at $207.95 with an earlier WHO 'risk appears low' comment already public; the slide came later, alongside the sector-wide drop. The plague reversal and the biotech selloff cannot be cleanly separated.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "UN News (WHO statement, Geneva)",
+     "date": "2026-10-06",
+     "url": "https://news.un.org/en/story/2026/10/1168533",
+     "tier": 1
+    },
+    {
+     "name": "Yahoo Finance (Grace O'Donnell)",
+     "date": "2026-10-06",
+     "url": "https://finance.yahoo.com/healthcare/article/novavax-moderna-stocks-fall-after-who-calls-plague-risk-low-155903476.html",
+     "tier": 3
+    },
+    {
+     "name": "Investing.com, citing a Citi note",
+     "date": "2026-10-07",
+     "url": "https://www.investing.com/news/stock-market-news/novavax-and-moderna-shares-fall-after-plague-concerns-ease-citi-comments-93CH-4935914",
+     "tier": 3
+    },
+    {
+     "name": "24/7 Wall St (9:56 a.m. ET: Moderna $207.95, +2%)",
+     "date": "2026-10-06",
+     "url": "https://247wallst.com/investing/2026/10/06/novavax-pulls-back-from-plague-scare-spike-as-officials-call-risk-low-moderna-nudges-higher-pfizer-inches-higher/",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "timing": "during",
+   "type": "new information about an already-logged move (Monday +6.95%)",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "The 10-05 report said Monday's +6.95% had no confirmed reason. New finding: Monday was also the day vaccine stocks rallied on a plague scare. A Russian lab worker at the Irkutsk Anti-Plague Institute died, possibly of plague; about 200 people were put under medical observation; Russia's consumer watchdog said 'pneumonia of unknown aetiology' (Al Jazeera, 2026-10-05). Novavax rose 20% (Yahoo Finance). Benzinga reported Moderna rose 7.1% to $203.43 'in response to the plague fears'. Other tier-3 sites gave other reasons: buying ahead of the 10-24 melanoma data (24/7 Wall St) and Nasdaq-100 buying (TradingKey).",
+   "why_it_matters": "Corrects the news log's 'no news' entry for 10-05. No source ties the plague story to a Moderna product, so it is still sentiment, not business news. Suggest adding it to the log as a separate item, not rewriting the 10-05 entry.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Al Jazeera (the plague-case facts)",
+     "date": "2026-10-05",
+     "url": "https://www.aljazeera.com/news/2026/10/5/russian-lab-worker-dies-of-suspected-plague-in-siberia-us-monitoring-case",
+     "tier": 3
+    },
+    {
+     "name": "Yahoo Finance (Novavax +20% Monday on outbreak concerns; Moderna gave back 'all its gains from Monday')",
+     "date": "2026-10-06",
+     "url": "https://finance.yahoo.com/healthcare/article/novavax-moderna-stocks-fall-after-who-calls-plague-risk-low-155903476.html",
+     "tier": 3
+    },
+    {
+     "name": "Benzinga (search snippet; page returned 403)",
+     "date": "2026-10",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62177650/novavax-shorts-on-edge-as-russia-plague-fears-spread",
+     "tier": 3
+    },
+    {
+     "name": "24/7 Wall St via Yahoo (Monday: 'trading as though the... cancer vaccine has already cleared its final test')",
+     "date": "2026-10-05",
+     "url": "https://finance.yahoo.com/healthcare/articles/moderna-surges-8-full-melanoma-184702779.html",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "timing": "during",
+   "type": "price move without company news",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "Moderna rose 4.81% to $196.48. It opened lower at $183.01, hit a low of $182.51, then climbed to a high of $197.69 (data/prices/MRNA.csv). XBI fell 0.44% to $150.23. Coordinator's attribution: market -0.45, industry -0.62, company +5.88 points (z 0.53, normal for this stock). Two days versus Monday's $203.21 close: -3.31%. No Moderna release, filing or analyst action was found. One tier-3 site pointed to 'mechanical demand' from the Nasdaq-100 entry but cited no evidence (ad-hoc-news, 2026-10-07).",
+   "why_it_matters": "Most of the rise was Moderna's own (company part +5.88), but no source explains it. Plausible but unconfirmed: traders buying ahead of index-fund purchases expected at Thursday 10-08's close, and a rebound after Tuesday's fall (inference, low-medium).",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "ad-hoc-news (cites no evidence)",
+     "date": "2026-10-07",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/moderna-stock-gains-1-08-percent-as-targets-lag-price/70257154",
+     "tier": 3
+    },
+    {
+     "name": "Nasdaq: Moderna joins the Nasdaq-100 before the open on 2026-10-09",
+     "date": "2026-10-01",
+     "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "timing": "after close",
+   "type": "insider filing (Form 3)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "Form 3, filed 2026-10-05 and accepted 2026-10-06 02:27 UTC: Juan Andres, Chief Operating Officer (event date 10/05/2026, his first day), reports 125,000 shares of common stock held directly. The derivative table is blank, so no options or units are reported. At Monday's $203.21 close that is about $25.4 million (our calculation).",
+   "why_it_matters": "Routine: a Form 3 is a new insider's first statement of what he owns, not a trade. It identifies the new insider from the 09-30 8-K (already in the log). Owning a sizeable stake lines his interests up with shareholders'.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "SEC Form 3",
+     "date": "2026-10-05",
+     "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000183/xslF345X06/form3.xml",
+     "tier": 1
+    }
+   ]
+  }
+ ],
+ "why_chain": [
+  {
+   "rung": 1,
+   "text": "Tuesday 10-06: Moderna fell 7.75% to $187.46 after opening at $202.09 and touching $212.22 (a new 52-week high), so it closed 11.67% below its intraday high. Volume was 1.27 times its 20-day average.",
+   "evidence": "data/prices/MRNA.csv; data/metrics/2026-10-07.json (fact)"
+  },
+  {
+   "rung": 2,
+   "text": "It was not the whole market: the S&P 500 closed at a record (+0.58%). It was biotech: XBI fell 3.39% on 1.93 times its 20-day average volume. The attribution model puts -11.95 points on the industry and +3.18 on Moderna itself.",
+   "evidence": "data/prices/XBI.csv; data/metrics/attribution-2026-10-07.json; https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026 (fact)"
+  },
+  {
+   "rung": 3,
+   "text": "Inside biotech, the high-flyers fell hardest: Grail -10.9%, Novavax -9.9%, Moderna -7.75%, described by CNBC as a rough day for 'high-flying biotech and healthcare stocks'. Cramer put Grail's drop down to profit-taking.",
+   "evidence": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html (fact, tier 2, via search snippet)"
+  },
+  {
+   "rung": 4,
+   "text": "Vaccine names had an extra reason: Monday's jump on a Russian plague scare reversed after the WHO said the risk was low and contacts had tested negative. Yahoo Finance and Citi (via Investing.com) tie the Moderna and Novavax moves to this.",
+   "evidence": "https://news.un.org/en/story/2026/10/1168533 ; https://finance.yahoo.com/healthcare/article/novavax-moderna-stocks-fall-after-who-calls-plague-risk-low-155903476.html ; https://www.investing.com/news/stock-market-news/novavax-and-moderna-shares-fall-after-plague-concerns-ease-citi-comments-93CH-4935914 (WHO statement: fact, tier 1; link to the stock moves: tier 3, two independent sources; no tier-2 confirmation of the Moderna link found)"
+  },
+  {
+   "rung": 5,
+   "text": "Other sector news that day weighed on sentiment: Vaxcyte, up about 31% on Monday's vaccine data, launched a $1 billion stock-and-convertible offering ($500m of shares at $64; $500m of 1.50% notes due 2032). One tier-3 summary also reported an ArriVent Phase 3 lung-cancer failure (URL not captured; unverified).",
+   "evidence": "https://www.biospace.com/press-releases/vaxcyte-announces-commencement-of-proposed-public-offerings-of-common-stock-pre-funded-warrants-and-convertible-senior-notes ; https://kelinresearch.substack.com/p/07102026-biotech-morning-brief-caribou (Vaxcyte: fact, company release and tier 3; ArriVent: unverified)"
+  },
+  {
+   "rung": 6,
+   "text": "No policy, FDA, drug-pricing or interest-rate trigger was found: the 10-year Treasury yield eased to 5.27% from 5.31% and Brent oil fell to about $98, so rates and oil did not push stocks down. The best-supported reading is profit-taking in biotech after a strong 2026 run, plus the unwinding of the plague trade.",
+   "evidence": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html (yields and oil: fact, tier 3); conclusion: inference (medium)"
+  },
+  {
+   "rung": 7,
+   "text": "Basic driver: Moderna's price rests on expectations (the 10-24 melanoma data, the Nasdaq-100 entry) rather than current sales (Q2 revenue $145m). With no new facts, it swings with sentiment and headlines. Tuesday simply gave back Monday's headline-driven gain (Friday close $190.01 to Tuesday close $187.46: -1.34%).",
+   "evidence": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm (Q2 revenue: fact); rest: inference (medium)"
+  },
+  {
+   "rung": 8,
+   "text": "Caveat on the model: an industry beta of 3.04 (from 252 days that include the +177% day on 2026-08-19) may overstate how much of the move was 'industry'. The vaccine-specific plague reversal sits partly inside the 'industry' number because Moderna and Novavax are XBI members.",
+   "evidence": "data/metrics/attribution-2026-10-07.json; inference (low-medium)"
+  },
+  {
+   "rung": 9,
+   "text": "Wednesday 10-07 (+4.81%, company part +5.88): no published cause found. Candidates: buying ahead of index-fund purchases at Thursday's close, and a rebound after Tuesday's fall.",
+   "evidence": "inference (low)"
+  }
+ ],
+ "products": [
+  {
+   "name": "intismeran autogene (mRNA-4157/V940), with Merck",
+   "what_it_is": "A personalised mRNA cancer vaccine, made for each patient from the genetic code of their own tumour and given with Merck's immunotherapy Keytruda.",
+   "analogy": "Like a 'wanted poster' printed for one patient's own cancer, so their immune system knows exactly which cells to attack.",
+   "buyers": "Hospitals and cancer centres treating patients after melanoma surgery (the Phase 3 is in the adjuvant setting: after surgery, to stop the cancer coming back); paid for by insurers and health systems (inference).",
+   "how_it_works": "The tumour is sequenced and its mutations are identified. Moderna writes an mRNA that codes for up to dozens of those mutation fragments. Injected, it trains T-cells to recognise them, while Keytruda takes the brakes off the immune system.",
+   "price": "not disclosed (not approved)",
+   "sales": "none: not approved. Proxy (analyst opinion): Citi argues the share price already assumes about $13bn a year of cancer-vaccine sales [CNBC, 2026-09-30].",
+   "sales_source": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html",
+   "stage": "Phase 3 (INTerpath-001) met its main goals (relapse-free and distant-metastasis-free survival) per the 2026-08-19 topline; full data at ESMO on 2026-10-24; filing timing not announced. Moderna said nine Phase 2 and Phase 3 trials are under way.",
+   "size_for_company": "Citi's implied $13bn a year would be about 6.7 times Moderna's 2025 revenue of $1.944bn (SEC filings; our calculation). Costs and profits are shared 50/50 with Merck.",
+   "competition": "not researched in this run",
+   "why_investors_care": "It is the main reason for the stock's 535.67% gain this year (data/metrics); the price swings on any sentiment about it.",
+   "watch_next": "ESMO 2026-10-24: size of the benefit, side effects, independent experts' reaction; then filing plans (Q3 call)."
+  }
+ ],
+ "earnings": {
+  "status": "upcoming",
+  "date": "not announced (estimated early November 2026)",
+  "confirmed": false,
+  "consensus": {
+   "q3_2026_revenue_avg": "$894.83m (13 analysts; low $827m, high $1.12bn; year-ago $1.02bn)",
+   "q3_2026_eps_avg": "-$1.27 (15 analysts; low -$3.32, high -$0.53; year-ago -$0.51)",
+   "fy2026_revenue_avg": "$2.1bn (20 analysts; low $1.96bn, high $2.15bn)",
+   "fy2026_eps_avg": "-$8.39 (21 analysts)",
+   "source": "https://finance.yahoo.com/quote/MRNA/analysis/",
+   "as_of": "fetched 2026-10-07"
+  },
+  "actual": {},
+  "guidance": {
+   "fy2026_revenue": "up to 10% growth from 2025 revenue (2025 = $1.944bn per SEC filings, so up to about $2.14bn, our calculation); about 50% US / 50% international",
+   "q3_timing": "about 55% of second-half 2026 revenue to be recognised in Q3",
+   "cost_of_sales": "about $1.7bn",
+   "r_and_d": "about $2.9bn",
+   "sga": "about $1.0bn",
+   "year_end_cash_and_investments": "$4.7bn to $5.2bn",
+   "capex": "$0.2bn to $0.3bn",
+   "q2_end_cash_and_investments": "$6.9bn",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm"
+  },
+  "key_metrics": {
+   "implied_q3_revenue_ceiling_from_guidance": "about $0.88bn (our calculation: ($2.14bn top of guidance - $0.534bn first-half revenue) x 55%). The $894.83m consensus is slightly ABOVE this ceiling; 'about 55%' is approximate, so low-medium confidence",
+   "watch": "first mFLUSIVA (flu) sales; COVID vaccine sales in the US fall season; cash burn; any intismeran filing timeline"
+  },
+  "quality_flags": [],
+  "management_explanation": "not available (results not yet released)",
+  "sources": [
+   "https://finance.yahoo.com/quote/MRNA/analysis/",
+   "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm",
+   "https://www.sec.gov/Archives/edgar/data/1682852/000168285225000073/mrna-20251106.htm"
+  ]
+ },
+ "next_earnings": {
+  "date": "estimated early November 2026 (not confirmed). Past Q3 releases: 2025-11-06 and 2024-11-07 (SEC 8-K Item 2.02). Third-party estimates range from 2026-10-28 to 2026-11-05. The news log's 'about 2026-10-29' looks early.",
+  "confirmed": false,
+  "consensus_eps": "-$1.27 (15 analysts, Yahoo Finance, fetched 2026-10-07); other aggregators: -$1.25 to -$1.35 (tier 3, unverified)",
+  "consensus_revenue": "$894.83m (13 analysts, Yahoo Finance, fetched 2026-10-07); another aggregator shows $876.64m (unverified)",
+  "company_guidance": "No quarterly guidance. FY2026: revenue up to 10% growth on 2025 (about $2.14bn at most, our calculation); about 55% of second-half revenue in Q3; year-end cash $4.7-5.2bn [Moderna Q2 2026 results, 2026-07-31]",
+  "sources": [
+   "https://finance.yahoo.com/quote/MRNA/analysis/",
+   "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm",
+   "https://www.sec.gov/Archives/edgar/data/1682852/000168285225000073/mrna-20251106.htm",
+   "https://data.sec.gov/submissions/CIK0001682852.json"
+  ]
+ },
+ "analyst_actions": [
+  {
+   "date": "2026-09-30",
+   "firm": "Citi (Geoff Meacham)",
+   "action": "Downgrade to Sell from Neutral; target $80 (from $60). REHASH: already in the news log",
+   "reason": "Valuation stretched; the price assumes about $13bn a year of cancer-vaccine sales",
+   "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html"
+  },
+  {
+   "date": "2026-10-06/07",
+   "firm": "Citi (sector comment, no rating change found)",
+   "action": "Comment, not a rating change",
+   "reason": "Vaccine stocks show 'headline sensitivity' and 'remain exposed to volatile policy narratives'; Citi prefers immunology, inflammation, oncology, cardiometabolic and rare-disease names",
+   "url": "https://www.investing.com/news/stock-market-news/novavax-and-moderna-shares-fall-after-plague-concerns-ease-citi-comments-93CH-4935914"
+  }
+ ],
+ "insiders": {
+  "summary": "No open-market buys or sells in the window (pipeline: 0 and 0). The only insider filing is the Form 3 of new COO Juan Andres: 125,000 shares held directly, no derivatives reported.",
+  "notable": [
+   {
+    "name": "Juan Andres",
+    "role": "Chief Operating Officer (from 2026-10-05)",
+    "form": "3",
+    "shares": 125000,
+    "value_usd_at_2026_10_05_close": "about $25.4m (our calculation at $203.21)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000183/xslF345X06/form3.xml"
+   }
+  ]
+ },
+ "filings": [
+  {
+   "form": "3",
+   "items": "",
+   "plain_english": "A new insider's first statement of holdings: COO Juan Andres owns 125,000 Moderna shares directly; no options listed. No trade took place.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000183/xslF345X06/form3.xml"
+  },
+  {
+   "form": "8-K (2026-09-30)",
+   "items": "5.02, 7.01, 9.01",
+   "plain_english": "REHASH: names Juan Andres to a new COO role from 2026-10-05; the chief technical operations and quality officer retires; CEO and CFO unchanged. Already in the news log.",
+   "materiality": "low (rated high by item code, but no CEO/CFO change)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/d18337d8k.htm"
+  }
+ ],
+ "catalysts": [
+  {
+   "date": "2026-10-08",
+   "event": "Index funds expected to buy at the close, before the Nasdaq-100 entry (inference from standard index practice)",
+   "confirmed": false,
+   "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026"
+  },
+  {
+   "date": "2026-10-09",
+   "event": "Joins the Nasdaq-100 before the open, replacing Warner Bros. Discovery",
+   "confirmed": true,
+   "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026"
+  },
+  {
+   "date": "ongoing",
+   "event": "Irkutsk case: lab tests on the cause of death pending (WHO); new outbreak headlines can move vaccine stocks either way",
+   "confirmed": false,
+   "url": "https://news.un.org/en/story/2026/10/1168533"
+  },
+  {
+   "date": "2026-10-24",
+   "event": "Full Phase 3 melanoma data, ESMO Presidential Symposium, 10:30 a.m. New York time (abstract LBA1); company webcast 1:00 p.m. A tier-3 source says ESMO is in Madrid (not verified)",
+   "confirmed": true,
+   "url": "https://finance.yahoo.com/healthcare/articles/moderna-announces-breaking-data-presented-141200784.html"
+  },
+  {
+   "date": "early November 2026 (estimated)",
+   "event": "Q3 2026 results",
+   "confirmed": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285225000073/mrna-20251106.htm"
+  },
+  {
+   "date": "2026-11-11",
+   "event": "Analyst/Investor Day (single tier-3 calendar listing; not confirmed by Moderna)",
+   "confirmed": false,
+   "url": "https://www.marketscreener.com/quote/stock/MODERNA-INC-47437573/calendar/"
+  }
+ ],
+ "thesis_breaker_checks": [
+  {
+   "event": "the company cut its revenue or profit forecast (guidance)",
+   "found": false,
+   "evidence": "No Moderna release or 8-K in the window (EDGAR checked 2026-10-07 21:18 UTC). Latest guidance is the 2026-07-31 Q2 release."
+  },
+  {
+   "event": "results missed analysts' revenue or EPS estimates",
+   "found": false,
+   "evidence": "No results in the window; Q3 not yet reported."
+  },
+  {
+   "event": "a major customer was lost, or a major customer cut orders",
+   "found": false,
+   "evidence": "No report found in the window."
+  },
+  {
+   "event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+   "found": false,
+   "evidence": "No 8-K in the window (EDGAR)."
+  },
+  {
+   "event": "the auditor resigned or was dismissed (8-K Item 4.01)",
+   "found": false,
+   "evidence": "No 8-K in the window (EDGAR)."
+  },
+  {
+   "event": "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+   "found": false,
+   "evidence": "The only 5.02 is the 2026-09-30 8-K (new COO; technical-operations officer retiring), already logged; CEO and CFO unchanged."
+  },
+  {
+   "event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+   "found": false,
+   "evidence": "No S-3, 424B or 8-K 3.02 in the window (EDGAR). The September $3.0bn convertible is already logged; on 10-06 the stock briefly traded at $212.22, above the roughly $210.58 conversion price, and closed below it. Conversion terms not re-checked."
+  },
+  {
+   "event": "a regulator opened an investigation, or major litigation was filed",
+   "found": false,
+   "evidence": "Nothing new in the window. Older, unverified: one tier-3 site says a Delaware federal court denied Moderna's motion to dismiss a Monsanto (Bayer) mRNA patent suit on 2026-09-28 (cites no source). See disconfirming_evidence."
+  },
+  {
+   "event": "two or more analyst downgrades within five trading days",
+   "found": false,
+   "evidence": "Only Citi (2026-09-30), already logged. Citi's 10-06/07 vaccine-sector comment is not a rating change."
+  },
+  {
+   "event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+   "found": false,
+   "evidence": "Pipeline: 0 open-market sales in the window; the only insider filing is the Form 3."
+  },
+  {
+   "event": "Thesis trigger 1: full data show a smaller benefit or safety problems",
+   "found": false,
+   "evidence": "Data not yet released (ESMO 2026-10-24)."
+  },
+  {
+   "event": "Thesis trigger 2: regulators reject or delay approval",
+   "found": false,
+   "evidence": "No filing or FDA action reported."
+  },
+  {
+   "event": "Thesis trigger 3: Merck pulls out",
+   "found": false,
+   "evidence": "No report found."
+  },
+  {
+   "event": "Thesis trigger 4: flu shot sells poorly",
+   "found": false,
+   "evidence": "First sales not yet reported (Q3 results, early November estimated)."
+  },
+  {
+   "event": "Thesis trigger 5: further late-stage trial failures",
+   "found": false,
+   "evidence": "No Moderna trial news in the window."
+  },
+  {
+   "event": "Thesis trigger 6: another large share or bond sale",
+   "found": false,
+   "evidence": "No S-3/424B/8-K 3.02 in the window."
+  },
+  {
+   "event": "Thesis trigger 7: losses grow faster than plan",
+   "found": false,
+   "evidence": "No results in the window."
+  }
+ ],
+ "disconfirming_evidence": [
+  {
+   "claim": "Citi: vaccine companies 'remain exposed to volatile policy narratives' and headlines; it prefers other therapy areas.",
+   "url": "https://www.investing.com/news/stock-market-news/novavax-and-moderna-shares-fall-after-plague-concerns-ease-citi-comments-93CH-4935914",
+   "assessment": "Opinion (tier 3 report of a Citi note). Consistent with the Monday/Tuesday whipsaw: part of Moderna's daily moves are headline trading, not business news."
+  },
+  {
+   "claim": "The stock touched $212.22 and closed at $187.46 the same day, 11.67% lower, with no company news.",
+   "url": "data/prices/MRNA.csv",
+   "assessment": "Fact. Shows how quickly pre-data enthusiasm can unwind; relevant to the 'what I accept' risk in the thesis."
+  },
+  {
+   "claim": "Analysts' average target is far below the price: about $118.77-$119.56 across sources, versus a $196.48 close.",
+   "url": "https://www.tradingkey.com/news/market-movers/262202099-market-movers-mrna-20261006",
+   "assessment": "Tier 3, opinions, figures vary by aggregator; Citi's $80 is already logged."
+  },
+  {
+   "claim": "A Delaware federal court denied Moderna's motion to dismiss a Monsanto (Bayer) mRNA patent-infringement suit on 2026-09-28.",
+   "url": "https://www.tradingpedia.com/2026/09/30/moderna-shares-sink-after-citi-downgrade-and-legal-setback/",
+   "assessment": "UNVERIFIED: single tier-3 source citing no docket; dated before the window and not in the news log. Check the court docket or the next 10-Q before reporting it as fact."
+  },
+  {
+   "claim": "Searches for short-seller reports, delays and new lawsuits in the window found nothing new.",
+   "url": "",
+   "assessment": "Absence of evidence; Reuters, AP, WSJ and Barron's could not be searched (blocked to the tools)."
+  }
+ ],
+ "open_questions": [
+  "Why did Moderna rise 4.81% on Wednesday 10-07 (company part +5.88)? No published cause found; index-fund buying ahead of the 10-08 close is only an inference.",
+  "No tier-2 source (Reuters/AP/Bloomberg could not be searched) confirms the plague-scare link for Moderna specifically. Evidence: two independent tier-3 reports (Yahoo Finance editorial; Investing.com citing Citi) plus Benzinga.",
+  "XBI volume: the coordinator's '2.5x usual' differs from our 1.93x against its 20-day average in data/prices/XBI.csv.",
+  "One early search summary claimed oil above $100 and rising yields on 10-06; the Yahoo live blog says the 10-year yield eased to 5.27% and Brent fell to about $98. We used the live blog.",
+  "Q3 results date not announced. Past Q3 dates (2025-11-06, 2024-11-07) suggest early November, later than the news log's 'about 10-29'.",
+  "Q3 revenue consensus ($894.83m) is slightly above the about $0.88bn ceiling implied by the company's guidance (our calculation): worth a sentence in the Q3 preview.",
+  "Monsanto patent ruling (2026-09-28): verify on the court docket or in the 10-Q.",
+  "ArriVent Phase 3 failure on 10-06: seen only in a search summary; URL not captured.",
+  "Was the Irkutsk death plague? Tests pending per WHO (2026-10-06).",
+  "Analyst/Investor Day 2026-11-11: single tier-3 calendar listing; not confirmed by Moderna."
+ ],
+ "searches_run": 28
+}

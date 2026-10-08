@@ -28,7 +28,7 @@ Tick a topic (`[x]`) when it has been taught. Order is a guide, not a rule.
 - [ ] Price-to-sales and EV/Sales for fast-growing companies
 - [ ] Why fast growers trade at high multiples
 - [ ] Multiple compression: falling even when profits rise
-- [ ] Interest rates and valuations
+- [x] Interest rates and valuations
 - [ ] Reverse thinking: what growth does today's price assume?
 
 ## Level 4: Understanding your industries

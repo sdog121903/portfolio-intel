@@ -1,0 +1,167 @@
+{
+  "ticker": "SNOW",
+  "company": "Snowflake Inc.",
+  "window": {"from": "2026-10-05T20:00Z (after the Monday 5 Oct US close)", "to": "2026-10-07T20:00Z (Wednesday 7 Oct US close; research done up to about 16:30 UTC, closing prices supplied by the main session)"},
+  "newest_item_checked": "SEC EDGAR submissions list for CIK 1640147 checked about 16:21 UTC 2026-10-07: newest filing is a Form 144 (Benoit Dageville) accepted 2026-10-07 14:27 UTC; nothing filed after it. Newest news item: Help Net Security, 2026-10-07 (ASOS confirms data breach). Snowflake newsroom: newest release 2026-10-05 (EXPEDITION 2026); no release dated 2026-10-06 or 2026-10-07.",
+  "events": [
+    {
+      "date": "2026-10-06",
+      "timing": "before open",
+      "type": "security incident at a customer (cyber claim naming Snowflake)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "At about 10:00 UK time (about 05:00 New York time) on Tuesday 6 October, hackers sent a push notification to users of the ASOS app (a large UK online fashion retailer that uses Snowflake): 'Dear ASOS DPO and IT, we have fully compromised the Snowflake instance. Engage with us, or we will leak it', with a link to a Telegram channel of a previously unknown group calling itself 'Xuanye Group'. ASOS said: 'Basic personal information including name and contact details may have been accessed. We do not believe that payment-card information or account passwords, were impacted', and said it was investigating 'unauthorized activity involving third-party platforms' used for customer communications. Snowflake told Reuters and Bloomberg: 'At this time, we can report that we have found no compromise of the Snowflake platform', adding that the investigation is ongoing. ASOS has NOT confirmed that its Snowflake account was the source, has not named the third-party platform, and has not said how many customers are affected. The hackers gave no evidence; Bloomberg could not verify their claim. ASOS shares fell about 10% (Reuters); Snowflake fell about 2-3% before the open, then recovered (Bloomberg: 'little changed, after an earlier drop in premarket trading').",
+      "why_it_matters": "Snowflake's business depends on companies trusting it with their most sensitive data. In 2024 a hacker used stolen customer passwords (not a flaw in Snowflake's own systems) to steal data from about 165 Snowflake customers, including Ticketmaster, AT&T and Santander; Snowflake then made multi-factor login mandatory (The Register). So any 'Snowflake breach' headline moves the stock even before facts are known. Today the evidence points away from Snowflake's platform: Snowflake found no compromise, and ASOS blamed third-party communication platforms. It would become a real problem only if an investigation showed a weakness in Snowflake itself.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Reuters (via The Globe and Mail): British online retailer ASOS warns customer data may have been breached, shares fall", "date": "2026-10-06", "url": "https://www.theglobeandmail.com/business/international-business/article-british-retailer-asos-hack-customer-data-breached/", "tier": 2},
+        {"name": "Bloomberg (via Insurance Journal): ASOS Says Cyberattack May Have Compromised Customer Data", "date": "2026-10-06", "url": "https://www.insurancejournal.com/news/international/2026/10/06/888095.htm", "tier": 2},
+        {"name": "The Register: Asos app delivers a data leak threat instead of fast fashion", "date": "2026-10-06", "url": "https://www.theregister.com/security/2026/10/06/asos-app-delivers-a-data-leak-threat-instead-of-fast-fashion/5301332", "tier": 3},
+        {"name": "BleepingComputer: ASOS confirms data breach after 'HACKED' in-app notifications", "date": "2026-10-06", "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/", "tier": 3},
+        {"name": "Investing.com (via Yahoo Finance): Snowflake stock falls after Asos hack notification", "date": "2026-10-06", "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-stock-falls-asos-hack-115226406.html", "tier": 3},
+        {"name": "TipRanks: Snowflake Stock (SNOW) Drifts Higher Despite Asos Data Hacking Claim", "date": "2026-10-06", "url": "https://www.tipranks.com/news/snowflake-stock-snow-drifts-higher-despite-asos-data-hacking-claim", "tier": 3},
+        {"name": "Help Net Security: ASOS confirms data breach after 'hacked' app alert reaches shoppers", "date": "2026-10-07", "url": "https://www.helpnetsecurity.com/2026/10/07/asos-data-breach-app-notification/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "planned insider sale notice (Form 144)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Co-founder Benoit Dageville (listed on the form as officer and director) filed notice of a planned sale of 50,000 shares on or about 2026-10-07, market value $16,671,000 (about $333.42 a share), through Fidelity, from The Snow Trust (of which he is a trustee). The sale is under a 10b5-1 trading plan adopted 2026-04-03. The same trust sold 50,000 shares every two weeks since July: 2026-07-15, 07-29, 08-12, 08-26, 09-09 and 09-23 (300,000 shares, $93,823,500 gross, per the form). 50,000 shares is about 0.014% of the 352.8 million shares outstanding shown on the form.",
+      "why_it_matters": "A Form 144 is a notice of a planned sale, not the sale itself. This one is part of a regular, pre-scheduled plan (one every two weeks), so it says little about the founder's current view of the business. No open-market purchases by insiders were filed.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 144 (Benoit Dageville)", "date": "2026-10-07", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007302/xsl144X01/primary_doc.xml", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "timing": "unknown",
+      "type": "company event announcement",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Snowflake announced EXPEDITION 2026, a free online event on 2026-11-03 to 11-05 (Americas) and 11-04 to 11-06 (other regions). Day 1 is a conversation between Microsoft CEO Satya Nadella and Snowflake CEO Sridhar Ramaswamy; other speakers come from OpenAI (marketing chief), Stripe (finance chief), Disney/ESPN, Canva, DoorDash and Workday. Snowflake says it will 'unveil new innovations' for connecting data and moving AI agents into production. No financial details. Published Monday (time not available), so possibly just before this window; the main session noted it on 10-05 but it is not in the news log.",
+      "why_it_matters": "A product showcase is where new AI features are launched; Pillar 2 (AI tools keep adding to growth) depends on customers adopting them. Having Microsoft's CEO on stage signals a close partnership. Low importance until the actual announcements.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Snowflake press release: Snowflake to Showcase Enterprise-Wide Agentic Transformation at EXPEDITION 2026", "date": "2026-10-05", "url": "https://www.snowflake.com/en/news/press-releases/snowflake-agentic-transformation-expedition-2026-speaker-satya-nadella/", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "timing": "after close",
+      "type": "insider sales (Form 4), clarification",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "Clarification of an open question from the 2026-10-04 research file: the four identical 840-share rows in director Michael Speiser's Form 4 are four separate family trusts (AMS-21, WWS-21, LES-21, ESS-21), not a parsing duplicate. His total sale on 2026-10-02 is therefore 50,741 shares at $344.00 (about $17.45 million), all under a 10b5-1 plan adopted 2024-12-27 (footnote F1).",
+      "why_it_matters": "Confirms the earlier figure; pre-planned sale, little information about his view.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4 (Michael L. Speiser)", "date": "2026-10-02", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000143364426000017/xslF345X06/wk-form4_1790985606.xml", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Tuesday 2026-10-06: SNOW closed $335.95, -0.90%, on a day the market (+0.56 points) and software stocks (+1.06 points; IGV +1.3%) pushed the other way, leaving -2.52 points as Snowflake's own part. That is about 0.8 of a typical company-specific day (z -0.81): noticeable but within normal noise.", "evidence": "data/metrics/attribution-2026-10-07.json"},
+    {"rung": 2, "text": "The day had three phases (Yahoo 15-minute bars, approximate): (a) before the open, the price fell from about $341 to a low of $330.04 in the 05:30 New York bar (-2.6% vs Monday's $338.99 close), then climbed back to about $339 by 09:00; (b) it opened at $339.70 and spiked to $349.00 (+3.0%) in the first 15 minutes; (c) it then faded all day, with the steepest part after 14:30 (from about $340.3 to $335.95). From the 09:45 bar close ($346.17) to the close, SNOW fell 2.95% while IGV fell only 0.59% (111.815 to 111.16).", "evidence": "Yahoo Finance chart API, 15-minute bars for SNOW and IGV, fetched 2026-10-07 | data (approximate, unofficial intraday bars)"},
+    {"rung": 3, "text": "The pre-market drop lines up exactly with the ASOS push notification (about 10:00 UK = 05:00 New York) claiming hackers had 'fully compromised the Snowflake instance'. Reporters tied Snowflake's pre-market drop of about 2-3% to it.", "evidence": "https://www.theglobeandmail.com/business/international-business/article-british-retailer-asos-hack-customer-data-breached/ ; https://finance.yahoo.com/markets/stocks/articles/snowflake-stock-falls-asos-hack-115226406.html"},
+    {"rung": 4, "text": "The recovery before and at the open followed Snowflake's statement that it had 'found no compromise of the Snowflake platform'; Bloomberg described the stock as 'little changed, after an earlier drop in premarket trading'.", "evidence": "https://www.insurancejournal.com/news/international/2026/10/06/888095.htm ; https://www.tipranks.com/news/snowflake-stock-snow-drifts-higher-despite-asos-data-hacking-claim"},
+    {"rung": 5, "text": "No published reason was found for the spike to $349 at the open or for the fade into the close: no Snowflake press release, no SEC filing, no analyst rating change in the window. Possible contributors: breach headlines kept coming all day (for example BleepingComputer at 12:33 New York: 'ASOS confirms data breach'), and software buyers were rotating into beaten-down names while SNOW is up about 125% in six months. These are guesses, not sourced causes.", "evidence": "inference (low)"},
+    {"rung": 6, "text": "Basic driver: investors are sensitive to any 'Snowflake breach' headline because of the 2024 campaign in which stolen customer logins were used to take data from about 165 Snowflake customers (Ticketmaster, AT&T, Santander). Snowflake's platform was not hacked then either, but the episode made trust a known risk for the stock.", "evidence": "https://www.theregister.com/security/2026/10/06/asos-app-delivers-a-data-leak-threat-instead-of-fast-fashion/5301332"},
+    {"rung": 7, "text": "Wednesday 2026-10-07 (close supplied by main session): $332.85, -0.92%. Market -0.24 points, software -1.32 points (IGV -1.19%), Snowflake's own part +0.64 (z 0.20). So Wednesday's fall was the whole software group falling, not Snowflake news; SNOW did slightly better than software. Why software fell on Wednesday was not researched (not available). Two days together: -1.81% from Monday's $338.99.", "evidence": "main-session attribution for 2026-10-07 | data"}
+  ],
+  "products": [
+    {
+      "name": "Snowflake AI Data Cloud account (a customer's 'instance')",
+      "what_it_is": "Each customer gets its own private space on Snowflake (an 'instance' or account) where it stores its data (for a retailer: orders, customers, contact details) and runs analysis and AI on it.",
+      "analogy": "Like a safe-deposit box in a bank vault: the bank (Snowflake) builds and guards the vault, but each customer holds its own keys. If a customer's key is stolen, its box can be opened without the vault itself being broken.",
+      "buyers": "Large and mid-size companies; 829 of the Forbes Global 2000 and 828 customers each paying over $1 million a year (Q2 FY2027).",
+      "how_it_works": "Customers load data into their account and pay for the computing they use to query it, like a taxi meter. Security is shared: Snowflake protects the platform; the customer controls who logs in. After the 2024 thefts (done with stolen customer passwords), Snowflake made multi-factor login mandatory.",
+      "price": "Usage-based (pay for compute and storage used); list prices not researched today.",
+      "sales": "Product revenue $1,491.9 million in Q2 FY2027 (quarter to 2026-07-31), +37% year over year; net revenue retention 126%; RPO $9.00 billion.",
+      "sales_source": "Snowflake Q2 FY2027 results, 2026-09-02, https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm",
+      "stage": "Mature, core product.",
+      "size_for_company": "Essentially all of the company: product revenue was about 96% of total revenue ($1,491.9m of $1,546.8m) in Q2 FY2027 (calculation from the release).",
+      "competition": "Databricks, and the cloud giants' own data warehouses (Amazon Redshift, Google BigQuery, Microsoft Fabric). Not researched further today.",
+      "why_investors_care": "Trust is the product: customers put their most sensitive data in it. A proven weakness in Snowflake's own platform would hurt new sales and usage; a customer-side or third-party failure (what ASOS describes) mostly does not.",
+      "watch_next": "Whether ASOS or investigators say the attackers got in through ASOS's Snowflake account, and if so how (stolen logins vs a Snowflake flaw); whether the Xuanye group leaks data or names other Snowflake customers; any Snowflake update."
+    }
+  ],
+  "earnings": {
+    "status": "none",
+    "date": "",
+    "confirmed": false,
+    "consensus": {},
+    "actual": {},
+    "guidance": {},
+    "key_metrics": {},
+    "quality_flags": [],
+    "management_explanation": "No results in the window. Last results: Q2 FY2027 on 2026-09-02 (see next_earnings for guidance).",
+    "sources": []
+  },
+  "next_earnings": {
+    "date": "2026-12-02 (Wednesday, after the US close), estimated",
+    "confirmed": false,
+    "consensus_eps": "Not verified. MarketBeat shows analysts' average for Q3 FY2027 EPS of -$0.53 (range -$0.54 to -$0.52), which appears to be the standard GAAP loss per share, data as of about 2026-09-02. The adjusted (non-GAAP) EPS consensus, the figure usually compared with results, was not found from a reliable source; one search summary quoted '$0.53' with no sign or source. Treat as not available.",
+    "consensus_revenue": "not available (not found from a reliable source; Zacks and Yahoo pages blocked or empty)",
+    "company_guidance": "For Q3 FY2027 (quarter to 2026-10-31): product revenue $1,588-1,593 million (+37-38%), non-GAAP operating margin 15.5%, 382 million diluted shares. For full-year FY2027: product revenue $6,070 million (+36%, raised from $5,840 million), non-GAAP product gross margin 74.0%, non-GAAP operating margin 14.5% (raised from 13.5%), adjusted free cash flow margin 23.0%, 380 million diluted shares.",
+    "sources": [
+      {"name": "Snowflake Q2 FY2027 results (guidance)", "date": "2026-09-02", "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm", "tier": 1},
+      {"name": "MarketBeat SNOW earnings page (estimated date Dec. 2, after market close; EPS estimates)", "date": "2026-10-07", "url": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/", "tier": 3},
+      {"name": "Snowflake press release, last year's pattern: Q3 FY2026 date announced 2025-11-03 for results on 2025-12-03", "date": "2025-11-03", "url": "https://www.snowflake.com/en/news/press-releases/snowflake-to-announce-financial-results-for-the-third-quarter-of-fiscal-2026-on-december-3-2025/", "tier": 1}
+    ]
+  },
+  "analyst_actions": [],
+  "insiders": {
+    "summary": "In the window: one Form 144 (planned sale) from co-founder Benoit Dageville for 50,000 shares (about $16.67 million) under a 10b5-1 plan adopted 2026-04-03, continuing a sale every two weeks since July. No Form 4s filed in the window; no open-market purchases. Earlier sales (Speiser 50,741 shares at $344 on 10-02; Kleinerman 15,000 at $341.57 on 10-01) were already reported and were also under 10b5-1 plans. No sale outside a pre-planned 10b5-1 plan was found.",
+    "notable": [
+      {"who": "Benoit Dageville (co-founder; officer and director on the form)", "form": "144", "filed": "2026-10-07", "shares": 50000, "value_usd": 16671000, "plan": "10b5-1, adopted 2026-04-03", "pattern": "50,000 shares every two weeks since 2026-07-15 (6 prior sales, $93,823,500 gross)", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007302/xsl144X01/primary_doc.xml"},
+      {"who": "Michael L. Speiser (director)", "form": "4", "filed": "2026-10-02", "shares": 50741, "value_usd": 17454904, "plan": "10b5-1, adopted 2024-12-27", "note": "rehash; the four 840-share rows are four separate trusts", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000143364426000017/xslF345X06/wk-form4_1790985606.xml"}
+    ]
+  },
+  "filings": [
+    {"form": "144", "items": "", "plain_english": "Notice that co-founder Benoit Dageville's trust plans to sell 50,000 shares (about $16.67 million) on or about 2026-10-07 under a pre-set 10b5-1 plan; part of a regular two-weekly sale.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007302/xsl144X01/primary_doc.xml"},
+    {"form": "8-K", "items": "1.01, 2.03, 3.02, 8.01, 9.01 (filed 2026-10-02, before the window; rehash)", "plain_english": "Closing of the $3.75 billion 0% convertible notes, already in the news log. Detail relevant this week: buyers may purchase up to $300 million more 2029 notes and $250 million more 2031 notes, for settlement within 13 days from and including 2026-10-01 (so by about 2026-10-13). The 8-K's maximum share count (13,104,680 shares at 3.0476 per $1,000) already includes these extra notes: about 3.7% of 352.8 million shares, below trigger 5's 5%.", "materiality": "low (rehash)", "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-13", "event": "Court deadline: Snowflake's motion to dismiss the 2026 securities class action (Northern District of California; amended complaint filed 2026-08-14)", "confirmed": true, "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000037/snow-20260731.htm"},
+    {"date": "2026-10-13 (approx.)", "event": "End of the 13-day window for buyers to take up to $550 million more convertible notes; if used, an 8-K or the next 10-Q would show it (dilution stays under 4%)", "confirmed": false, "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm"},
+    {"date": "2026-11-03 to 2026-11-05", "event": "EXPEDITION 2026 online event (Americas); Day 1 fireside chat with Microsoft CEO Satya Nadella and Snowflake CEO Sridhar Ramaswamy; new products promised", "confirmed": true, "url": "https://www.snowflake.com/en/news/press-releases/snowflake-agentic-transformation-expedition-2026-speaker-satya-nadella/"},
+    {"date": "early November 2026 (estimate)", "event": "Snowflake usually announces its results date about a month ahead (2025-11-03 for 2025-12-03)", "confirmed": false, "url": "https://www.snowflake.com/en/news/press-releases/snowflake-to-announce-financial-results-for-the-third-quarter-of-fiscal-2026-on-december-3-2025/"},
+    {"date": "2026-12-02 (estimated)", "event": "Q3 FY2027 results, after the close; guidance product revenue $1,588-1,593 million", "confirmed": false, "url": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/"},
+    {"date": "undated", "event": "Updates from the ASOS investigation (how the attackers got in; any data leak by the 'Xuanye Group')", "confirmed": false, "url": "https://www.insurancejournal.com/news/international/2026/10/06/888095.htm"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "No results, guidance update or 8-K Item 2.02 in the window (EDGAR list to 2026-10-07 14:27 UTC; newsroom). Last guidance was raised on 2026-09-02."},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "No results in the window; next results estimated 2026-12-02."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "No report of a customer leaving. ASOS (a customer) suffered a breach claim naming its Snowflake account, but there is no report of ASOS cutting its use of Snowflake; ASOS has not confirmed its Snowflake account was the entry point."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "No 8-K with Item 4.02 in EDGAR submissions to 2026-10-07 14:27 UTC."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "No 8-K with Item 4.01."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "No 8-K with Item 5.02; CEO Ramaswamy is a named speaker at EXPEDITION 2026 (press release 2026-10-05)."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "No S-3, 424B or new 8-K Item 3.02 in the window. The 2026-10-02 8-K Item 3.02 is the convertible notes (rehash): at most 13,104,680 shares including the extra-notes option, about 3.7% of 352.8 million shares, below trigger 5's 5%."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "Nothing new against Snowflake. ASOS says it is working with 'all relevant authorities' (Reuters, 2026-10-06), which concerns ASOS, not Snowflake. Existing class action unchanged: motion to dismiss due 2026-10-13 (10-Q)."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "No analyst rating change found for 2026-10-05 to 2026-10-07. MarketBeat's latest listed action is a Phillip Securities upgrade on 2026-09-27; TipRanks on 2026-10-06 shows 33 Buy and 3 Hold ratings."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "Dageville Form 144 (2026-10-07) under a 10b5-1 plan adopted 2026-04-03; Speiser and Kleinerman Form 4s (2026-10-01/02) under 10b5-1 plans. No unplanned sales."},
+    {"event": "thesis file triggers 1-5 (guidance cut; growth below 30% two quarters; NRR at or below 115%; RPO falls two more quarters; new shares or convertibles over 5%)", "found": false, "evidence": "No results or financing in the window; dilution from the existing notes is at most about 3.7%."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Hackers claim they 'fully compromised the Snowflake instance' of ASOS and threaten to leak customer data.", "url": "https://www.theglobeandmail.com/business/international-business/article-british-retailer-asos-hack-customer-data-breached/", "assessment": "Unproven claim by an unknown group; Snowflake found no compromise of its platform and ASOS points to third-party communication platforms. Still a live risk for the stock's reputation until the investigation ends; a second Snowflake-linked incident after 2024 would raise questions about customer security even if Snowflake itself was not hacked."},
+    {"claim": "2024 precedent: about 165 Snowflake customers had data stolen using stolen logins; the hacker pleaded guilty.", "url": "https://www.theregister.com/security/2026/10/06/asos-app-delivers-a-data-leak-threat-instead-of-fast-fashion/5301332", "assessment": "Background that explains why the market reacts to these headlines. Snowflake has since required multi-factor login."},
+    {"claim": "Securities class action against former CEO Slootman and former CFO Scarpelli (filed 2026-02-24; amended complaint 2026-08-14) alleges undisclosed effects of efficiency gains, Iceberg Tables and tiered storage pricing on consumption.", "url": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000037/snow-20260731.htm", "assessment": "Pending; nothing new in the window. Motion to dismiss due 2026-10-13."},
+    {"claim": "Weiss Ratings reiterated a Sell (E+) rating on 2026-09-08.", "url": "https://www.marketbeat.com/stocks/NYSE/SNOW/forecast/", "assessment": "Old (before the window) and a quantitative rating, not a fundamental analyst view; low weight."},
+    {"claim": "SNOW is lagging software over the past month: -6.67% vs the sector fund and -1.77% vs the market (1 month).", "url": "data/metrics/2026-10-07.json", "assessment": "Fact from pipeline data. After a 125% six-month rise, money rotating into other software names may be part of it (inference, low)."},
+    {"claim": "Searches for downgrades, new lawsuits and short-seller reports in the window found nothing new.", "url": "not applicable", "assessment": "Searches run: 'Snowflake upgrade OR downgrade OR price target October 6 2026', 'Snowflake securities class action motion to dismiss 2026', 'Snowflake price target analyst October 2026'. A dedicated short-seller search was not run (search budget)."}
+  ],
+  "open_questions": [
+    "Did the ASOS attackers get in through ASOS's Snowflake account (for example with stolen logins) or only through the third-party messaging platform? ASOS has not said, and has not named the platform or the number of customers affected.",
+    "Will the 'Xuanye Group' leak data or name other Snowflake customers? Not known as of 2026-10-07.",
+    "No published cause for Tuesday's spike to $349 at the open and the fade to $335.95 at the close (no filing, release or analyst action found).",
+    "Analysts' adjusted EPS and revenue consensus for Q3 FY2027 not verified (MarketBeat shows a GAAP-basis -$0.53; adjusted figure not found).",
+    "Why software (IGV -1.19%) fell on Wednesday was not researched.",
+    "Whether the buyers of the convertible notes took the extra $550 million (window ends about 2026-10-13).",
+    "Did Dageville's 2026-10-07 sale happen? A Form 4 should follow within two business days."
+  ],
+  "searches_run": 17
+}

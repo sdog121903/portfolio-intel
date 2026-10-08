@@ -1,0 +1,440 @@
+{
+ "ticker": "A",
+ "company": "Agilent Technologies, Inc.",
+ "window": {
+  "from": "2026-10-05 20:00 UTC (after the Monday 5 Oct US close)",
+  "to": "2026-10-07 US close (session closed; prices verified 2026-10-07 21:15 UTC)"
+ },
+ "newest_item_checked": "Ortex note on Barclays' target raise, published 2026-10-07 18:01; Yahoo closing prices for 2026-10-07 fetched 21:15 UTC; SEC EDGAR submissions for CIK 1090872 checked 2026-10-07 (newest Agilent filing is the 2026-09-24 EFFECT notice; nothing filed 2026-09-25 to 2026-10-07).",
+ "events": [
+  {
+   "date": "2026-10-06",
+   "timing": "before open",
+   "type": "dividend ex-date (mechanical price effect)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "Agilent's shares went ex-dividend on Tuesday 2026-10-06, the same day as the record date (under T+1 settlement the ex-date and record date coincide). From that morning, buyers no longer get the 25.5-cent dividend, so the price drops by about that amount. Yahoo's data show a $0.255 dividend event dated 2026-10-06, and its adjusted Monday close ($171.035) equals the raw close ($171.29) minus exactly $0.255. Of Tuesday's -1.14% raw price change ($171.29 to $169.33), about 0.15 points (0.255/171.29) was the dividend coming off the price. Counting the dividend, Tuesday's total return was -1.00%, the figure the pipeline uses.",
+   "why_it_matters": "It explains why the pipeline shows -1.00% while the raw price fell 1.14%, and why the position's P&L (-1.14%) looks worse than the stock's day change. Santi bought on Monday 2026-10-05, the day before the ex-date, so he should receive the dividend: 0.03 shares x $0.255 = about 0.77 cents, paid 2026-10-28 (inference, high confidence: assumes Fidelity filled the order on 10-05).",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Agilent via Business Wire (dividend declaration, record date 2026-10-06, paid 2026-10-28)",
+     "date": "2026-09-16",
+     "url": "https://www.businesswire.com/news/home/20260916777704/en/CORRECTING-and-REPLACING-Agilent-Announces-Cash-Dividend-of-25.5-Cents-per-Share",
+     "tier": 1
+    },
+    {
+     "name": "Yahoo Finance chart data (dividend event 2026-10-06, $0.255; adjusted close)",
+     "date": "2026-10-07",
+     "url": "https://query1.finance.yahoo.com/v8/finance/chart/A?range=5d&interval=1d&events=div",
+     "tier": 3
+    },
+    {
+     "name": "Futu News headline: 'Agilent Technologies To Go Ex-Dividend On October 6th, 2026 With 0.255 USD Dividend Per Share' (page body did not load)",
+     "date": "2026-10",
+     "url": "https://news.futunn.com/en/post/1000559650/agilent-technologies-to-go-ex-dividend-on-october-6th-2026",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "during",
+   "type": "price move: sector (life-science tools) intraday reversal",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "Tuesday: Agilent opened at $172.77, reached $176.38 (+2.97% vs Monday's $171.29, close to its 52-week high of $177.05), then faded to close at $169.33 (-1.14% price, -1.00% with dividend). The whole life-science tools group did the same thing after rebounding 3-4% on Monday: Thermo Fisher was up as much as 2.60% then closed -2.98%; Danaher high +2.89%, close -2.53%; Revvity high +5.65%, close -2.58%; Bruker high +4.01%, close -5.26%; Illumina high +5.33%, close -6.86%; Waters high +3.28%, close -0.84%; Mettler-Toledo high +2.86%, close -0.56%. The health-care fund XLV (dominated by big drugmakers) only fell 0.17% and the S&P 500 fund rose 0.55%. Pipeline attribution: market +0.80, industry -0.60, company -1.20 (z -0.69, normal size).",
+   "why_it_matters": "Agilent's 'company-specific' -1.20 points is mostly a tools-group move that XLV does not capture, because XLV is mostly big pharma (inference, high confidence, from the peer prices). Agilent fell less than Thermo Fisher, Danaher, Revvity, Bruker and Illumina. No Agilent-specific news explains it. No published reason for the group reversal was found: coverage of Thermo Fisher's drop gives no catalyst, and coverage of Illumina's 6-7% fall calls it profit-taking after a big run plus valuation worries (tier 3).",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Yahoo Finance chart data for A, TMO, DHR, WAT, MTD, RVTY, BRKR, ILMN, XLV, SPY (daily OHLC)",
+     "date": "2026-10-07",
+     "url": "https://query1.finance.yahoo.com/v8/finance/chart/A?range=5d&interval=1d",
+     "tier": 3
+    },
+    {
+     "name": "Pipeline attribution data/metrics/attribution-2026-10-07.json",
+     "date": "2026-10-07",
+     "url": "file:data/metrics/attribution-2026-10-07.json",
+     "tier": 1
+    },
+    {
+     "name": "24/7 Wall St (Thermo Fisher fell 4.2% intraday 2026-10-06; no catalyst given)",
+     "date": "2026-10-06",
+     "url": "https://247wallst.com/cards/thermo-fisher-scientific-tmo-price-swing-01m48vv2z8x1mjd3qaxm8hkzzp",
+     "tier": 3
+    },
+    {
+     "name": "Investing.com, 'Why is Illumina stock sliding today?' (profit-taking after rally, valuation, insider selling)",
+     "date": "2026-10-06",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-illumina-stock-sliding-today-93CH-4935078",
+     "tier": 3
+    },
+    {
+     "name": "CNT Trading daily market note (tools rebounded 2026-10-05: Revvity +3.8%, Mettler +3.7%, Thermo +3.4%, Danaher +3.3%; 10-year yield 5.31%, highest since May 2002)",
+     "date": "2026-10-05",
+     "url": "https://cnttrading.substack.com/p/daily-market-2026-10-05",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "timing": "before open",
+   "type": "analyst price-target raise",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "Barclays (analyst Luke Sergott) raised its Agilent price target from $175 to $195 and kept its Overweight rating (Ortex: 'this morning'). No reason was available in the reports found. MarketBeat says the new target implied about 15% upside from the previous close. The stock barely reacted: it opened at $169.54 (MarketBeat) against $169.33 on Tuesday and closed at $169.09 (-0.14%).",
+   "why_it_matters": "This is an opinion, not a fact about value. It is a second bullish voice after the late-August round of target raises, against UBS's Neutral/$165 from 2026-09-09. It is not a downgrade, so it does not count toward the 'two downgrades in five days' rule. The market ignored it.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "MarketBeat",
+     "date": "2026-10-07",
+     "url": "https://www.marketbeat.com/instant-alerts/analyst-agilent-technologies-nyse-a-stock-price-target-raised-at-barclays-2026-10-07/",
+     "tier": 3
+    },
+    {
+     "name": "GuruFocus",
+     "date": "2026-10-07",
+     "url": "https://www.gurufocus.com/news/9113460/a-maintained-by-barclays-price-target-raised-to-195",
+     "tier": 3
+    },
+    {
+     "name": "Ortex",
+     "date": "2026-10-07",
+     "url": "https://ortex.news/articles/182168/barclays-lifts-agilent-target-to-195-as-street-stays-bullish",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "timing": "during",
+   "type": "price move: health care fund up on big pharma, tools flat",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "Wednesday close: Agilent $169.09, -0.14%. XLV closed +1.03% (it was +1.9% around midday and faded), while the S&P 500 fund fell 0.24%. XLV's gain came mainly from big drugmakers: Eli Lilly +2.70%, Johnson & Johnson +1.44%, AbbVie +1.75% at the close. Lab-tools peers were mixed to flat: Thermo Fisher +0.83%, Danaher +1.34%, Waters -0.10%, Mettler-Toledo +0.03%, Revvity +0.20%, Illumina -2.11%. Pipeline attribution: market -0.35, industry +1.05, company -0.84 (z -0.48, normal). Market backdrop: the 10-year Treasury yield rose to 5.36%, its highest since April 2002, ahead of the Fed minutes, and the Dow fell (Yahoo live blog). Cited drug-company news: AbbVie reported Phase 3 lymphoma data, and Morgan Stanley raised its Lilly target to $1,430 (both tier 3).",
+   "why_it_matters": "Agilent's negative 'company' part on Wednesday is again a comparison artefact. XLV rose on big pharma, which Agilent does not track day to day, while Agilent moved in line with Waters, Mettler and Revvity (inference, high confidence). No Agilent news is behind it. Approximate arithmetic using tier-3 XLV weights (Lilly about 15.3%, J&J about 10.1%, AbbVie about 7.8%) puts those three names at roughly 0.7 of XLV's 1.03 points (inference, medium).",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Yahoo Finance chart data (closes for A, XLV, SPY, LLY, JNJ, ABBV, TMO, DHR, WAT, MTD, RVTY, ILMN)",
+     "date": "2026-10-07",
+     "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLV?range=5d&interval=1d",
+     "tier": 3
+    },
+    {
+     "name": "Yahoo Finance live blog, stock market today 2026-10-07 (10-year yield 5.36%, highest since April 2002)",
+     "date": "2026-10-07",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html",
+     "tier": 3
+    },
+    {
+     "name": "ad-hoc-news (AbbVie Phase 3 lymphoma result; stock +2.25% intraday)",
+     "date": "2026-10-07",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/abbvie-reports-lymphoma-trial-success-abbvie-stock-gains-2-25-percent/70256379",
+     "tier": 3
+    },
+    {
+     "name": "GuruFocus (Morgan Stanley raises Lilly target to $1,430)",
+     "date": "2026-10-07",
+     "url": "https://www.gurufocus.com/news/9113600/lly-maintained-by-morgan-stanley-price-target-raised-to-1430",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "timing": "unknown",
+   "type": "capacity expansion (contract manufacturing)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "Agilent announced new laboratory space in Boulder, Colorado, to expand its oligonucleotide (short DNA/RNA drug molecules) manufacturing, starting with enzymatic ligation, a method that uses enzymes to join short fragments into longer drug molecules. The first customer programs are expected in November 2026, subject to operational and regulatory requirements. No investment amount, size, jobs or capacity figures were given. The lab complements existing oligo plants in Colorado and manufacturing in Canada, run by the Advanced Therapeutics Division. Dateline Santa Clara, 2026-10-05; the release time is unknown, so it may predate the window start (20:00 UTC).",
+   "why_it_matters": "A small, undisclosed-size addition to Agilent's contract manufacturing for siRNA and antisense drugs. It fits the 'drug makers are spending more' thesis, but it is too small to move the numbers on its own. It is not in the news log yet.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "Agilent press release (agilent.com newsroom; page returned 403, content read via syndicated copy)",
+     "date": "2026-10-05",
+     "url": "https://www.agilent.com/about/newsroom/presrel/2026/05oct-ca26034.html",
+     "tier": 1
+    },
+    {
+     "name": "Pharmaceutical Online (full text of the release)",
+     "date": "2026-10-05",
+     "url": "https://www.pharmaceuticalonline.com/doc/agilent-expands-oligonucleotide-manufacturing-capabilities-with-new-boulder-lab-0001",
+     "tier": 3
+    },
+    {
+     "name": "Pharma Manufacturing",
+     "date": "2026-10-06",
+     "url": "https://www.pharmamanufacturing.com/industry-news/news/55409891/agilent-opens-colorado-lab-for-oligonucleotide-manufacturing-development",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "timing": "unknown",
+   "type": "product launch",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "BEFORE THIS WINDOW, and missed by the 2026-10-04 research: Agilent launched the NovoStation Sample Preparation System, which automates sample prep for its NovoCyte flow cytometers, at the ICCS 2026 conference in Miami (Oct 2-6). Agilent says validation studies cut hands-on time by more than 90%. These details come from the search summary of the release; the page itself was not opened.",
+   "why_it_matters": "A small add-on in cell analysis, an automation upsell to existing flow-cytometer customers. Sales are not disclosed and it is immaterial to the thesis.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Agilent press release (not opened; from search result)",
+     "date": "2026-10-01",
+     "url": "https://www.agilent.com/about/newsroom/presrel/2026/01oct-ca26033.html",
+     "tier": 1
+    },
+    {
+     "name": "Finviz (syndicated release; not opened)",
+     "date": "2026-10-01",
+     "url": "https://finviz.com/news/397670/agilent-introduces-the-novostation-sample-preparation-system-for-automated-flow-cytometry-workflows",
+     "tier": 3
+    }
+   ]
+  }
+ ],
+ "why_chain": [
+  {
+   "rung": 1,
+   "text": "Over the two days Agilent fell 1.28% in price ($171.29 to $169.09), or 1.14% counting the 25.5-cent dividend that came off the price on 10-06. Both days the pipeline calls the move normal in size and 'mostly explained by market/industry' (company part -1.20 then -0.84, z -0.69 and -0.48).",
+   "evidence": "file:data/metrics/attribution-2026-10-07.json; Yahoo closes https://query1.finance.yahoo.com/v8/finance/chart/A?range=5d&interval=1d"
+  },
+  {
+   "rung": 2,
+   "text": "About 0.15 points of Tuesday's fall was the ex-dividend price adjustment, not a loss: holders on the record date receive the cash instead.",
+   "evidence": "https://www.businesswire.com/news/home/20260916777704/en/CORRECTING-and-REPLACING-Agilent-Announces-Cash-Dividend-of-25.5-Cents-per-Share ; Yahoo adjusted close 171.035 = 171.29 - 0.255"
+  },
+  {
+   "rung": 3,
+   "text": "The rest of Tuesday matched a group-wide reversal in life-science tools stocks: all opened higher after Monday's 3-4% rebound, then sold off (Thermo -2.98%, Danaher -2.53%, Revvity -2.58%, Illumina -6.86%, Waters -0.84%, Mettler -0.56%). Agilent's two-day -1.28% sits inside the peer range (Thermo -2.17%, Danaher -1.23%, Waters -0.94%, Mettler -0.53%, Revvity -2.39%).",
+   "evidence": "https://query1.finance.yahoo.com/v8/finance/chart/TMO?range=5d&interval=1d (and DHR, WAT, MTD, RVTY, ILMN)"
+  },
+  {
+   "rung": 4,
+   "text": "The pipeline labels part of this 'company-specific' because its industry benchmark, XLV, is dominated by big drugmakers (Lilly, J&J, AbbVie) that rose while tools fell. Against tools peers, Agilent did not underperform.",
+   "evidence": "inference (high): peer price data above; XLV composition from a tier-3 search summary"
+  },
+  {
+   "rung": 5,
+   "text": "Why tools reversed on Tuesday: no published cause was found. Candidate drivers are profit-taking after a sharp run (Illumina coverage says so explicitly) and pressure on richly valued stocks from 10-year Treasury yields at their highest since 2002 (5.31% on 10-05, 5.36% on 10-07). Both are candidates, not confirmed causes.",
+   "evidence": "https://www.investing.com/news/stock-market-news/why-is-illumina-stock-sliding-today-93CH-4935078 ; https://cnttrading.substack.com/p/daily-market-2026-10-05 ; inference (low) that yields drove the tools reversal"
+  }
+ ],
+ "products": [
+  {
+   "name": "Oligonucleotide contract manufacturing (Advanced Therapeutics Division), new Boulder enzymatic-ligation lab",
+   "what_it_is": "Agilent makes the active ingredient of other companies' oligonucleotide drugs (short, man-made strands of DNA or RNA such as siRNA and antisense drugs) under contract.",
+   "analogy": "Like a specialist bakery that bakes to order for restaurants: the drug company owns the recipe and the brand, Agilent runs the kitchen. The new lab tests a different baking method (joining short pieces with enzymes instead of building the chain one link at a time).",
+   "buyers": "Biotech and pharma companies developing or selling oligonucleotide drugs that outsource manufacturing (development through commercial cGMP supply).",
+   "how_it_works": "Standard oligo production builds the strand one chemical unit at a time on a solid support (solid-phase phosphoramidite synthesis). Enzymatic ligation instead makes shorter fragments and uses enzymes to stitch them into the full-length molecule, which may give more process flexibility depending on program scale (company release).",
+   "price": "not disclosed (contract pricing)",
+   "sales": "not disclosed. No revenue, investment or capacity figure was given for the Boulder lab or for the oligo business.",
+   "sales_source": "Labelled proxy: a third-party estimate cited by Pharma Manufacturing puts the global oligonucleotide CDMO market at $2.51bn in 2024, growing to $6.73bn by 2029 (industry estimate, tier 3, not Agilent's figure) https://www.pharmamanufacturing.com/industry-news/news/55409891/agilent-opens-colorado-lab-for-oligonucleotide-manufacturing-development . Which Agilent segment reports this business was not verified in this research.",
+   "stage": "Lab announced 2026-10-05; first customer programs expected November 2026 (subject to operational and regulatory requirements).",
+   "size_for_company": "not disclosed; likely small next to quarterly revenue of $1.88bn (Q3 FY2026) (inference, medium).",
+   "competition": "Other oligo CDMOs (not researched today; names not verified in this run).",
+   "why_investors_care": "It is a way to profit from the growing number of RNA-type drugs. It also fits the thesis that drug makers are spending more.",
+   "watch_next": "Whether management mentions oligo/Advanced Therapeutics demand, utilisation or orders on the Q4 FY2026 call (estimated 2026-11-30)."
+  }
+ ],
+ "earnings": {
+  "status": "none",
+  "date": "",
+  "confirmed": false,
+  "consensus": {},
+  "actual": {},
+  "guidance": {},
+  "key_metrics": {},
+  "quality_flags": [],
+  "management_explanation": "No results in the window. Last results were Q3 FY2026 on 2026-08-26 (see the 2026-10-04 research file).",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/1090872/000109087226000062/exhibit991-q326pressrelease.htm"
+  ]
+ },
+ "next_earnings": {
+  "date": "2026-11-30, after the close (estimated). TipRanks lists it as 'confirmed', but no Agilent announcement of the date was found and the IR events page showed no events (JavaScript page). Last year's Q4 FY2025 was reported on 2025-11-24.",
+  "confirmed": false,
+  "consensus_eps": "$1.73 non-GAAP for Q4 FY2026 (TipRanks, tier 3; the same page wrongly shows Q3 as a miss with reported and expected swapped, so treat it with care). The 2026-10-04 research found $1.71-$1.73 across aggregators.",
+  "consensus_revenue": "not available",
+  "company_guidance": "Q4 FY2026: revenue $1.98bn-$2.00bn (+6.4% to +7.4% reported, +5.2% to +6.2% core), non-GAAP EPS $1.71-$1.74. FY2026: revenue $7.49bn-$7.51bn, non-GAAP EPS $6.18-$6.21 (given 2026-08-26). FY2027 guidance is expected with the Q4 report (inference, high).",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/1090872/000109087226000062/exhibit991-q326pressrelease.htm",
+   "https://www.tipranks.com/stocks/a/earnings",
+   "https://www.agilent.com/about/newsroom/presrel/2025/24nov-gp25021.html"
+  ]
+ },
+ "analyst_actions": [
+  {
+   "date": "2026-10-07",
+   "firm": "Barclays (Luke Sergott)",
+   "action": "Price target raised from $175 to $195; Overweight kept",
+   "reason": "not available (GuruFocus gives only generic 'confidence in growth potential')",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-agilent-technologies-nyse-a-stock-price-target-raised-at-barclays-2026-10-07/"
+  },
+  {
+   "date": "2026-10-07",
+   "firm": "Context (Ortex)",
+   "action": "Ortex puts consensus target at $177.25 and notes Citigroup at $190; MarketBeat puts its consensus at $171.44 ('Moderate Buy'). The aggregators disagree.",
+   "reason": "n/a",
+   "url": "https://ortex.news/articles/182168/barclays-lifts-agilent-target-to-195-as-street-stays-bullish"
+  }
+ ],
+ "insiders": {
+  "summary": "No insider trades in the window. The pipeline's Form 4 data shows 0 open-market buys and 0 sells, and SEC EDGAR shows no Agilent Form 4 after 2026-09-10. Before the window, MarketBeat reports director Mikael Dolsten sold 634 shares on 2026-09-04 at an average of $151.38 (about $96k, 11.41% of his holding), which is small.",
+  "notable": []
+ },
+ "filings": [
+  {
+   "form": "none in window",
+   "items": "",
+   "plain_english": "No Agilent SEC filings 2026-09-25 to 2026-10-07 (EDGAR submissions API, checked 2026-10-07; matches data/filings/2026-10-07.json).",
+   "materiality": "n/a",
+   "url": "https://data.sec.gov/submissions/CIK0001090872.json"
+  },
+  {
+   "form": "424B3 (2026-09-23) and S-4 (2026-09-01), before the window",
+   "items": "",
+   "plain_english": "Context for the dilution check: this is a routine registered exchange offer, swapping up to $600 million of unregistered 4.900% Senior Notes due 2032 for identical registered notes (debt, not shares). It expired 2026-09-30. It is not a share sale, so it does not dilute owners.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1090872/000119312526399558/d110037d424b3.htm"
+  }
+ ],
+ "catalysts": [
+  {
+   "date": "2026-10-21",
+   "event": "Thermo Fisher Q3 results (the largest tools peer; read-across for lab and pharma demand)",
+   "confirmed": false,
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/thermo-fisher-scientific-stock-heads-into-october-21-results-after-a-2-27-percent-drop/70243953"
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Dividend payment, 25.5 cents a share (record and ex-date 2026-10-06)",
+   "confirmed": true,
+   "url": "https://www.businesswire.com/news/home/20260916777704/en/CORRECTING-and-REPLACING-Agilent-Announces-Cash-Dividend-of-25.5-Cents-per-Share"
+  },
+  {
+   "date": "2026-10-31",
+   "event": "Fiscal year 2026 ends (Q4 closes)",
+   "confirmed": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1090872/000109087226000062/exhibit991-q326pressrelease.htm"
+  },
+  {
+   "date": "2026-11 (expected)",
+   "event": "First customer programs at the new Boulder oligonucleotide lab",
+   "confirmed": false,
+   "url": "https://www.pharmaceuticalonline.com/doc/agilent-expands-oligonucleotide-manufacturing-capabilities-with-new-boulder-lab-0001"
+  },
+  {
+   "date": "2026-11-30 (estimated)",
+   "event": "Q4 FY2026 results and first FY2027 guidance",
+   "confirmed": false,
+   "url": "https://www.tipranks.com/stocks/a/earnings"
+  }
+ ],
+ "thesis_breaker_checks": [
+  {
+   "event": "the company cut its revenue or profit forecast (guidance)",
+   "found": false,
+   "evidence": "No release or 8-K in the window (EDGAR newest filing 2026-09-24). The last guidance (2026-08-26) was a raise."
+  },
+  {
+   "event": "results missed analysts' revenue or EPS estimates",
+   "found": false,
+   "evidence": "No results in the window. Note: TipRanks' page shows Q3 as a miss ($1.488 vs $1.62), but that has the numbers swapped; the company release shows $1.62 adjusted EPS vs about $1.49 consensus (beat)."
+  },
+  {
+   "event": "a major customer was lost, or a major customer cut orders",
+   "found": false,
+   "evidence": "Nothing found in news or filings for the window."
+  },
+  {
+   "event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+   "found": false,
+   "evidence": "No 8-K in the window (EDGAR)."
+  },
+  {
+   "event": "the auditor resigned or was dismissed (8-K Item 4.01)",
+   "found": false,
+   "evidence": "No 8-K in the window (EDGAR)."
+  },
+  {
+   "event": "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+   "found": false,
+   "evidence": "No 8-K in the window. The latest 5.02 8-K (2026-09-08) was the board-chair change covered on 2026-10-04."
+  },
+  {
+   "event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+   "found": false,
+   "evidence": "None in the window. The 424B3 of 2026-09-23 is a debt exchange offer ($600m 4.900% notes due 2032), not shares; the 2026-09-01 S-3ASR is a shelf registration with no sale attached."
+  },
+  {
+   "event": "a regulator opened an investigation, or major litigation was filed",
+   "found": false,
+   "evidence": "A disconfirming search ('Agilent lawsuit OR investigation OR recall OR delay 2026') found only the Agilent-Axion patent settlement (Agilent was the plaintiff; date not verified) and older Dako recall notices. No new investigation or suit was found."
+  },
+  {
+   "event": "two or more analyst downgrades within five trading days",
+   "found": false,
+   "evidence": "The only brokerage action in the window is a target raise (Barclays, 2026-10-07). The Wall Street Zen cut (2026-10-03) is an algorithmic site, not a broker, and UBS (2026-09-09) is outside five days."
+  },
+  {
+   "event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+   "found": false,
+   "evidence": "Pipeline: 0 sells and no non-plan sellers; EDGAR shows no Form 4 after 2026-09-10."
+  },
+  {
+   "event": "Thesis trigger 3 (theses/A.md): 60-day correlation with chip holdings above 0.5 (early warning above 0.3)",
+   "found": false,
+   "evidence": "data/metrics/portfolio-2026-10-07.json: CRDO 0.08, LITE -0.07, TSM 0.21, AMD 0.03, AAOI 0.06, AXTI 0.07, VIAV -0.12, FORM -0.04, ASML 0.13 (max 0.21)."
+  },
+  {
+   "event": "Thesis trigger 4 (theses/A.md): beta above 1.2 or typical daily move above 4% (early warning beta above 1.0)",
+   "found": false,
+   "evidence": "data/metrics/2026-10-07.json: beta 0.85; ATR 3.04% of price. Note: the attribution model's market beta is 1.45 on a different fit, but the thesis uses the metrics beta."
+  },
+  {
+   "event": "Thesis triggers 1, 2, 5 (forecast cut; orders below shipments; core growth negative)",
+   "found": false,
+   "evidence": "No new company data until Q4 results (estimated 2026-11-30)."
+  }
+ ],
+ "disconfirming_evidence": [
+  {
+   "claim": "The tools group is fragile after its run: on 2026-10-06 every major tools stock reversed from early gains, some sharply (Illumina -6.86%, Bruker -5.26%, Thermo -2.98%), and coverage cites profit-taking and stretched valuations.",
+   "url": "https://www.investing.com/news/stock-market-news/why-is-illumina-stock-sliding-today-93CH-4935078",
+   "assessment": "Fact (prices) plus tier-3 opinion. Agilent fell less than most peers, but it trades with the group, which is a risk after a 49% six-month rise."
+  },
+  {
+   "claim": "Valuation looks stretched: GuruFocus's GF Value is $149.88 (the stock about 12% above it), and P/E (TTM) is 33.07x vs a 5-year median of 30.41x.",
+   "url": "https://www.gurufocus.com/news/9113460/a-maintained-by-barclays-price-target-raised-to-195",
+   "assessment": "Model and opinion (tier 3), not fact. It is consistent with UBS Neutral/$165, and Agilent's price is near consensus targets ($171-$177)."
+  },
+  {
+   "claim": "Rising long-term interest rates: the 10-year Treasury yield hit 5.36% on 2026-10-07, the highest since April 2002.",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html",
+   "assessment": "Macro headwind for highly valued stocks in general (inference, medium). It also raises borrowing costs for biotech customers who fund lab spending (inference, low)."
+  },
+  {
+   "claim": "Litigation/recall search: nothing new.",
+   "url": "https://news.bloomberglaw.com/ip-law/agilent-axion-formalize-settlement-ending-two-patent-lawsuits",
+   "assessment": "Only a settled patent suit in which Agilent was the plaintiff turned up. No adverse item was found."
+  }
+ ],
+ "open_questions": [
+  "Why did the whole life-science tools group reverse on 2026-10-06 after opening higher? No published cause was found (Thermo Fisher coverage gives none); profit-taking and yields are unconfirmed candidates.",
+  "Barclays' reason for the $195 target is not available.",
+  "Q4 FY2026 report date: TipRanks says 2026-11-30 'confirmed', but no Agilent release announcing it was found. Agilent usually announces the date about a month ahead.",
+  "Q4 FY2026 consensus revenue is not available; the consensus EPS ($1.73) is tier 3 only.",
+  "Exact release time of the Boulder lab announcement (2026-10-05) is unknown, so it may predate the window.",
+  "XLV holding weights used in the Wednesday arithmetic come from a tier-3 search summary and were not verified on the State Street site.",
+  "Search budget: the shared web-search limit was hit mid-run (2 searches blocked); later checks relied on direct fetches of EDGAR, Yahoo chart data and known article URLs."
+ ],
+ "searches_run": 22
+}

@@ -174,6 +174,93 @@
         "z": -0.31,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "amd-2026-10-06-su-taipei-supply",
+      "date": "2026-10-06",
+      "timing": "before open",
+      "type": "management comments",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "CEO Lisa Su said demand exceeds supply, AMD will 'substantially increase our supply in 2027' and now plans capacity three to five years ahead; the stock closed at a record $649.42 (+2.80%).",
+      "source": {
+        "name": "Taipei Times",
+        "date": "2026-10-07",
+        "url": "https://www.taipeitimes.com/News/biz/archives/2026/10/07/2003865507",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": 2.8,
+        "market_pct": 0.55,
+        "beyond_market_pct": 2.25,
+        "typical_day_pct": 3.25,
+        "z": 0.69,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "amd-2026-10-06-citi-target-800",
+      "date": "2026-10-06",
+      "timing": "before open",
+      "type": "analyst target raise",
+      "materiality": "low",
+      "direction": "good",
+      "what": "Citi raised its target to $800 from $575 (Buy), expecting AI agents to drive CPU demand.",
+      "source": {
+        "name": "TipRanks",
+        "date": "2026-10-06",
+        "url": "https://www.tipranks.com/news/why-citi-just-raised-its-price-target-for-amd-stock-to-800",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": 2.8,
+        "market_pct": 0.55,
+        "beyond_market_pct": 2.25,
+        "typical_day_pct": 3.25,
+        "z": 0.69,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "amd-2026-10-06-q3-date",
+      "date": "2026-10-06",
+      "timing": "after close",
+      "type": "results date",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Confirmed Q3 results on 2026-11-03 after the close.",
+      "source": {
+        "name": "AMD",
+        "date": "2026-10-06",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -0.55,
+        "market_pct": -0.24,
+        "beyond_market_pct": -0.31,
+        "typical_day_pct": 3.17,
+        "z": -0.1,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -198,22 +285,43 @@
       "company_part_pct": -0.93,
       "z": -0.31,
       "main_news": "Stifel raised its price target to $700 from $635 (Buy), expecting results above forecasts and a higher outlook."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 645.86,
+      "day_pct": -0.55,
+      "market_part_pct": -0.3,
+      "industry_part_pct": -1.33,
+      "company_part_pct": 1.08,
+      "z": 0.41,
+      "main_news": "Confirmed Q3 results on 2026-11-03 after the close."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-05",
+    "as_of": "2026-10-07",
     "events": [
       {
         "date": "2026-10-12",
-        "event": "Lisa Su keynote at the OCP Global Summit",
+        "event": "Lisa Su keynote, OCP Global Summit",
         "confirmed": true,
-        "source": {}
+        "source": {
+          "name": "AMD",
+          "date": "2026-10-07",
+          "url": "https://newsroom.amd.com/news/media-alert-ceo-lisa-su-keynote-2026-ocp/",
+          "tier": 1
+        }
       },
       {
-        "date": "about 2026-11-03",
-        "event": "Q3 2026 results (guidance about $13.0bn)",
-        "confirmed": false,
-        "source": {}
+        "date": "2026-11-03",
+        "event": "Q3 2026 results after the close",
+        "confirmed": true,
+        "source": {
+          "name": "AMD",
+          "date": "2026-10-06",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+          "tier": 1
+        }
       }
     ]
   }

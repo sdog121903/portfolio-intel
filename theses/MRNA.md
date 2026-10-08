@@ -14,7 +14,7 @@ Moderna and Merck's personalised melanoma vaccine (intismeran, given with Merck'
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Moderna and Merck's personalised melanoma vaccine (intismeran, given with Merck'
 - Operating margin (share left after all running costs): falling (-25.6% to -562.1%, -536.5 points).
 - Profit: positive net income in 0 of the last 4 quarters.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +39.6% | +148.4% | +316.7% | +613.3% | +193.4% | -34.2% | 6.8% |
+| +35.0% | +166.2% | +277.1% | +618.6% | +177.3% | -34.2% | 7.5% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -162,16 +162,19 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* Quarterly results.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-05 (every figure sourced)
+## Facts as of 2026-10-07 (every figure sourced)
 - Phase 3 melanoma trial (intismeran plus Keytruda) met its main goals; the stock rose 177% that day [Moderna/Merck, 2026-08-19](https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma)
 - mFLUSIVA mRNA flu vaccine approved by the FDA for adults 50+ [NBC News, 2026-08-05](https://www.nbcnews.com/health/health-news/fda-approves-1st-mrna-flu-shot-moderna-rcna590599)
 - Q2 2026 revenue $145m; net loss $0.8bn [Moderna Q2 2026 results, 2026-07-31](https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm)
 - $3.0bn convertible bonds: up to about 14 million new shares (about 3.6%) above about $210.58; capped call offsets that up to about $392.62 [SEC 8-K, 2026-09-01](https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm)
 - New Chief Operating Officer (Juan Andres) from 2026-10-05; CEO and CFO unchanged [SEC 8-K, 2026-09-30](https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/d18337d8k.htm)
 - Close $203.21 on 2026-10-05 (+6.95%, no company news), 2.7% below its 52-week high of $208.90 and about 3.6% below the ~$210.58 bond conversion price; up 589% this year; typical day about 6.8% (data/metrics). Citi: Sell, sees $80 [CNBC, 2026-09-30](https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html)
+- New COO Juan Andres holds 125,000 shares directly [SEC Form 3, 2026-10-05](https://www.sec.gov/Archives/edgar/data/1682852/000168285226000183/xslF345X06/form3.xml)
+- Fell 7.75% on 2026-10-06 after the WHO called the risk from a suspected plague death in Irkutsk low [UN News, 2026-10-06](https://news.un.org/en/story/2026/10/1168533); rose 4.81% on 2026-10-07 to $196.48 (data/metrics). Touched $212.22 on 2026-10-06, briefly above the ~$210.58 bond conversion price
 
 ## Change log
 - 2026-10-04: Created when the holding appeared in the FIDELITY sheet.
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-05 (daily report): the stock rose 6.95% with no company news; pillar 1's next check now has the confirmed ESMO session and time. No pillar or trigger status changed. No change to the reasons, pillars or triggers.
+- 2026-10-07 (daily report): Facts updated (COO's Form 3; plague-scare swing). No pillar or trigger status changed. No change to the reasons, pillars or triggers.

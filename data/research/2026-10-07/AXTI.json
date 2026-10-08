@@ -1,0 +1,220 @@
+{
+  "ticker": "AXTI",
+  "company": "AXT Inc",
+  "window": {
+    "from": "2026-10-05T20:00Z (after the Monday 5 Oct US close covered by the last report)",
+    "to": "2026-10-07T21:18Z (after the Wednesday 7 Oct US close; extended past the original 16:20Z at the coordinator's request)"
+  },
+  "newest_item_checked": "SEC EDGAR filing list for AXT (CIK 1051627) re-checked 2026-10-07 21:18 UTC: the newest filing is still BlackRock's Schedule 13G/A of 2026-10-05, and there has been no Form 4 since 2026-08-19. Newest news item: Zacks, 'AXTI Stock Rises 21% in a Month: Should You Buy, Sell or Hold?' (2026-10-07, 10:27 ET). Yahoo Finance live-blog closing summary for 2026-10-07. MarketBeat analyst table (latest action 2026-09-29). Nasdaq/Zacks consensus (checked 2026-10-07).",
+  "events": [
+    {
+      "date": "2026-10-07",
+      "timing": "before open",
+      "type": "price move (macro and sector gap down, plus an unexplained company-specific part)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "AXTI closed at $79.79, down 5.08% from $84.06. The whole fall came at the open: it opened at $79.78 (-5.09%), traded between $78.70 and $83.22, and closed flat against its open. Chip and optics stocks also opened lower: SMH -1.80% at the open and -1.18% at the close; AAOI -5.85%, VIAV -3.88%, LITE -1.97%; SPY -0.24%. That morning the 10-year US Treasury yield reached 5.36% (highest since April 2002) and the 30-year 5.73% (highest since May 2002). Minutes of the Fed's September meeting, released at 2 p.m. ET, said 'Most participants assessed that another increase in the target range for the federal funds rate would likely be appropriate by year end.' Pipeline attribution: market -0.40, industry -1.80, company-specific -2.88 points (z -0.34, normal noise; a typical company-specific day for AXTI is 8.48%). Volume was 6.30 million shares against a 20-day average of 8.66 million. No AXT press release, SEC filing, analyst action or China export-permit news was found.",
+      "why_it_matters": "It fired Santi's 5% 'explain big moves' rule. The evidence points to a rates shock that hit high-valuation chip and optics stocks at the open, not to any new fact about AXT's business. About 2.9 points of the drop is AXT's own and has no published reason.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Yahoo Finance markets live blog (closing summary)", "date": "2026-10-07", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html", "tier": 3},
+        {"name": "CNBC markets live updates (page blocked to fetch; yields 5.365% / 5.732% and Fed-minutes content taken from the search-result text)", "date": "2026-10-07", "url": "https://www.cnbc.com/2026/10/06/stock-market-today-live-updates.html", "tier": 2},
+        {"name": "Pipeline prices and attribution (Yahoo daily bars; coordinator's Wednesday attribution)", "date": "2026-10-07", "url": "data/prices/AXTI.csv", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "price move (company-specific, no news found)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "AXTI closed at $84.06, down 3.00% from $86.66. It opened higher at $87.78 (+1.3%), reached $88.36, then slid all day to close near its low of $83.91 (-4.24% from open to close). Other optics stocks rose the same day: LITE +3.82%, AAOI +7.07%, VIAV +2.62%; SMH -0.22%, SPY +0.55%. Pipeline attribution: market +0.92, industry -1.47, company-specific -2.45 points (z -0.29, normal noise). Volume was 6.15 million shares against a 20-day average of 8.66 million (below average). The day's market news was positive for AI hardware: Marvell raised its fiscal 2028 revenue outlook to about $20 billion, and Nvidia and AMD reached all-time highs. No AXT press release, SEC filing, analyst note or China export-permit news was found.",
+      "why_it_matters": "This was the AXT-specific part of the two-day fall, and nobody published a reason. Low volume and the absence of any filing or news point to ordinary selling after a strong run, not to new information (inference, low confidence).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Pipeline prices and attribution (data/metrics/attribution-2026-10-07.json)", "date": "2026-10-07", "url": "data/metrics/attribution-2026-10-07.json", "tier": 1},
+        {"name": "Yahoo Finance markets live blog, 6 Oct", "date": "2026-10-06", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "timing": "during",
+      "type": "large passive holder filing (Schedule 13G/A)",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "Rehash with one new detail. BlackRock, Inc. reported beneficial ownership of 9,359,639 shares (14.3%) as of 2026-09-30, with sole voting power over 9,254,836 shares; the iShares Core S&P Small-Cap ETF alone holds more than 5%. NEW DETAIL: the stake roughly DOUBLED. BlackRock's previous 13G reported 4,653,059 shares (7.1%) as of 2026-06-30 (filed 2026-07-27), so it added 4,706,580 shares. The likely reason is that AXT joined the S&P SmallCap 600, effective before the open on 2026-09-21 and replacing Matthews International, which forced index funds such as that iShares ETF to buy. The filing was accepted during Monday's session (the EDGAR index page shows 11:58:08; the EDGAR JSON shows 19:58:08Z, i.e. 15:58 ET), so it falls before this window and the last report already covered it.",
+      "why_it_matters": "This is passive index-fund ownership: BlackRock certifies it holds the shares 'in the ordinary course of business' and not to influence control. It does not explain the fall; the index buying was finished by 2026-09-21 (inference, high confidence).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Schedule 13G/A (BlackRock, Amendment No. 1)", "date": "2026-10-05", "url": "https://www.sec.gov/Archives/edgar/data/1051627/000201238326003311/xslSCHEDULE_13G_X02/primary_doc.xml", "tier": 1},
+        {"name": "SEC Schedule 13G (BlackRock, original, event 2026-06-30)", "date": "2026-07-27", "url": "https://www.sec.gov/Archives/edgar/data/1051627/000201238326002157/xslSCHEDULE_13G_X02/primary_doc.xml", "tier": 1},
+        {"name": "Quiver Quant (S&P SmallCap 600 addition; stock closed up 14.14% on 2026-09-21)", "date": "2026-09-23", "url": "https://www.quiverquant.com/news/AXT+slips+as+traders+appear+to+take+profits+after+an+index-driven-surge", "tier": 3},
+        {"name": "Insider Monkey, 'AXT Inc. (AXTI) Climbs 16% on S&P 600 Addition'", "date": "2026-09-22", "url": "https://www.insidermonkey.com/news/axt-inc-axti-climbs-16-on-sp-600-inclusion-1841621/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "analyst commentary (quant rating reiterated; opinion)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Zacks published a 'buy, sell or hold' piece keeping AXT at Zacks Rank #3 (Hold), with a Value Score of F and a trailing price-to-sales ratio of 42.51x against an industry average of 16.6x. Zacks puts consensus 2026 EPS at 86 cents and 2026 revenue growth at 146.4%, with estimates 'stable over the past 30-day and 60-day periods'. It restates known facts: record Q2 InP revenue of $30.7m, InP backlog 'surpassing $100 million', InP capacity to double in 2026 and again in 2027, and China permits as the 'most significant challenge'. This is not a rating change; Zacks moved AXT to Hold on 2026-09-29.",
+      "why_it_matters": "It adds no new facts. It is useful mainly as a measure of how expensive the stock is, which matters on a day when rising interest rates hit expensive stocks.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Zacks via Yahoo Finance", "date": "2026-10-07", "url": "https://finance.yahoo.com/markets/stocks/articles/axti-stock-rises-21-month-142700749.html", "tier": 3}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "AXTI fell 3.00% on Tuesday to $84.06 and 5.08% on Wednesday to $79.79: -7.93% over two days from Monday's $86.66, while SPY rose 0.31% and SMH fell 1.40% over the same two days.", "evidence": "data/prices/AXTI.csv, SPY.csv, SMH.csv (Yahoo daily bars) | sourced fact"},
+    {"rung": 2, "text": "Adding up the model's daily parts over the two days: market about +0.5 points, chip industry about -3.3 points, AXT-specific about -5.3 points. Each day on its own was within AXT's normal noise (z -0.29 and -0.34; a typical company-specific day is 8.48%).", "evidence": "data/metrics/attribution-2026-10-07.json plus the coordinator's Wednesday attribution | sourced fact (pipeline)"},
+    {"rung": 3, "text": "Wednesday: the whole -5.1% came at the open, and the stock then closed flat against its open. Chip and optics stocks also opened lower: SMH -1.80%, LITE -2.72%, AAOI -3.10%, VIAV -3.34% at the open.", "evidence": "data/prices/*.csv open vs previous close | sourced fact"},
+    {"rung": 4, "text": "That morning US long-term interest rates hit 24-year highs: the 10-year Treasury yield reached 5.36% (highest since April 2002) and the 30-year 5.73% (highest since May 2002). Fed minutes later said most officials see another rate increase as likely appropriate by year end.", "evidence": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html ; https://www.cnbc.com/2026/10/06/stock-market-today-live-updates.html | sourced fact"},
+    {"rung": 5, "text": "Higher interest rates make money promised far in the future worth less today. AXT's price depends heavily on future growth: it trades at about 42.5 times its past year's sales (Zacks), and the model gives it a market beta of 1.67 plus an extra industry beta of 1.91. So a rates shock hits AXT much harder than the index.", "evidence": "inference (medium); valuation from https://finance.yahoo.com/markets/stocks/articles/axti-stock-rises-21-month-142700749.html (tier 3); betas from data/metrics/attribution-2026-10-07.json"},
+    {"rung": 6, "text": "Tuesday was different: AXT opened up 1.3%, then slid 4.2% from open to close while other optics stocks rose (LITE +3.8%, AAOI +7.1%). No press release, SEC filing, analyst action or China permit news was found, and volume was below average on both days (6.15m and 6.30m shares vs a 20-day average of 8.66m).", "evidence": "data/prices/AXTI.csv; EDGAR filing list re-checked 2026-10-07 21:18 UTC; MarketBeat analyst table https://www.marketbeat.com/stocks/NASDAQ/AXTI/forecast/ | sourced fact"},
+    {"rung": 7, "text": "Basic driver: (a) Wednesday, a bond-market rates shock that hit expensive AI hardware stocks; (b) Tuesday, AXT-specific selling with no published cause, most plausibly profit-taking after a +36.4% month (to 6 Oct) on thin volume. Nothing changed AXT's reported business, permits or customers in the window.", "evidence": "inference: (a) medium, (b) low; 1-month return from data/metrics/2026-10-07.json"}
+  ],
+  "products": [
+    {
+      "name": "Indium phosphide (InP) substrates (wafers)",
+      "what_it_is": "Thin, polished discs of indium phosphide crystal on which other companies build the lasers and light detectors used in fibre-optic links.",
+      "analogy": "AXT sells the blank canvas; laser makers such as Lumentum and Coherent paint the laser onto it.",
+      "buyers": "Makers of optical components and transceivers for AI and cloud data centers. Named long-term customers: Lumentum (8-K 2026-07-29), Coherent (8-K filed 2026-07-02) and Casela (Zacks 2026-10-05, tier 3: about $25.4m of committed 2027 purchases).",
+      "how_it_works": "AXT grows a single InP crystal in a furnace, slices it into wafers and polishes them. Customers grow thin layers on top to make lasers that send data as light. InP emits light at the wavelengths used in optical fibre, which silicon cannot do well.",
+      "price": "not disclosed",
+      "sales": "Q2 2026 InP revenue $30.7m (a record), about 64.5% of total revenue of $47.6m; InP backlog 'exceeding $100 million'. Unit volumes not disclosed. Nothing new in the window.",
+      "sales_source": "AXT Q2 2026 earnings call, 2026-07-30 (Motley Fool transcript https://www.fool.com/earnings/call-transcripts/2026/08/03/axt-axti-q2-2026-earnings-call-transcript/, tier 3); restated by Zacks 2026-10-07 (https://finance.yahoo.com/markets/stocks/articles/axti-stock-rises-21-month-142700749.html, tier 3). The press release does not break out InP revenue.",
+      "stage": "Shipping and ramping. InP capacity is to double in 2026 and double again in 2027 (company plan, as restated by Zacks 2026-10-07).",
+      "size_for_company": "The majority of revenue: about 64.5% in Q2 2026.",
+      "competition": "Sumitomo Electric and AXT together make nearly 80% of the world's InP substrates, and JX Advanced Metals about 10% (TrendForce 2026-06-16, https://www.trendforce.com/news/2026/06/16/news-jx-advanced-metals-to-invest-jpy-120b-through-fy2030-expand-inp-capacity-up-to-10x-as-cpo-demand-accelerates/). JX plans to invest JPY 120 billion (about $749m) in two Ibaraki plants through fiscal 2030, reaching 7-10 times its fiscal 2025 capacity (same source). Sumitomo Electric is committing about JPY 18 billion (about $120m) to reach 3.1 times its fiscal 2024 InP capacity by fiscal 2028 (TrendForce 2026-07-13, https://www.trendforce.com/news/2026/07/13/news-sumitomo-electric-to-raise-inp-substrate-expansion-scale-with-jpy-18-billion/). These Japanese rivals do not need Chinese export permits.",
+      "why_investors_care": "InP wafers are a bottleneck material for AI optical links. AXT is one of the two largest makers, and customers are prepaying to reserve its output.",
+      "watch_next": "Q3 InP revenue on 2026-10-29; any Chinese export permits for US customers; capacity progress against the plan to double in 2026."
+    },
+    {
+      "name": "Coherent master development and supply agreement (contract)",
+      "what_it_is": "A three-year contract under which Coherent prepays AXT to secure 6-inch InP wafer substrates.",
+      "analogy": "A large deposit paid to a supplier to hold your place in the queue; it is later used up as you buy.",
+      "buyers": "Coherent Corp (a US maker of lasers and optical transceivers).",
+      "how_it_works": "Coherent paid a prepayment of US$22,288,500, which is applied to its product purchases. If Coherent does not meet the minimum order quantity requirement, the unused prepayment becomes nonrefundable. Signed 2026-06-26, effective 2026-06-25, initial term three years.",
+      "price": "not disclosed",
+      "sales": "Total contract value not disclosed; prepayment US$22,288,500.",
+      "sales_source": "AXT 8-K (Item 1.01) filed 2026-07-02, https://www.sec.gov/Archives/edgar/data/0001051627/000143774926022557/axti20260630_8k.htm (tier 1)",
+      "stage": "Signed (before the window; not new).",
+      "size_for_company": "The prepayment equals about 47% of AXT's Q2 2026 revenue ($22.3m vs $47.6m).",
+      "competition": "Coherent could also buy from Sumitomo Electric or JX Advanced Metals.",
+      "why_investors_care": "It is a second prepaid deal besides Lumentum's. Thesis 2 / pillar 4 ('other customers sign similar prepaid deals') already has this support, but the thesis file does not mention it.",
+      "watch_next": "Whether the Q3 10-Q shows the Coherent and Lumentum deposits received and shipments made, given that US-customer permits are still not issued."
+    }
+  ],
+  "earnings": {
+    "status": "upcoming",
+    "date": "2026-10-29",
+    "confirmed": true,
+    "consensus": {
+      "q3_2026_eps": "$0.30 (3 estimates, range $0.29-$0.31; Zacks consensus shown on Nasdaq, checked 2026-10-07; unchanged over the past week and month, no revisions up or down)",
+      "q3_2026_revenue": "not available from a reliable source",
+      "fy2026_eps": "$0.80 (3 estimates, range $0.75-$0.85; Nasdaq/Zacks table) vs '86 cents' in the Zacks article of 2026-10-07: the sources disagree",
+      "fy2027_eps": "$2.15 (3 estimates, range $1.87-$2.56; Nasdaq/Zacks table)"
+    },
+    "actual": {},
+    "guidance": {
+      "q3_2026_revenue": "about $66 million",
+      "q3_2026_eps_non_gaap": "$0.30 to $0.32",
+      "q3_2026_eps_gaap": "$0.29 to $0.31",
+      "share_count": "approximately 66.5 million",
+      "source_note": "Given on the Q2 call 2026-07-30 (tier 3 transcript and MarketBeat); not changed since."
+    },
+    "key_metrics": {
+      "last_quarter_q2_2026": "Revenue $47.6m (+164.8% y/y); InP revenue $30.7m; GAAP gross margin 44.9%; GAAP net income $11.1m; InP backlog above $100m"
+    },
+    "quality_flags": [
+      "Q3 guidance excludes shipments still waiting for Chinese export permits (Q2 call)",
+      "Revenue is lumpy and depends on when China grants permits",
+      "Consensus Q3 EPS of $0.30 sits at the bottom of the company's non-GAAP guidance range ($0.30-$0.32)"
+    ],
+    "management_explanation": "No new management statement in the window.",
+    "sources": [
+      "https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026",
+      "https://api.nasdaq.com/api/analyst/AXTI/earnings-forecast",
+      "https://api.nasdaq.com/api/analyst/AXTI/earnings-date",
+      "https://www.fool.com/earnings/call-transcripts/2026/08/03/axt-axti-q2-2026-earnings-call-transcript/",
+      "https://finance.yahoo.com/markets/stocks/articles/axti-stock-rises-21-month-142700749.html"
+    ]
+  },
+  "next_earnings": {
+    "date": "2026-10-29 (after the US market close; conference call 1:30 p.m. PT)",
+    "confirmed": true,
+    "consensus_eps": "$0.30 for Q3 2026 (3 analysts, range $0.29-$0.31; Zacks via Nasdaq, checked 2026-10-07; unchanged for a month). Year-ago quarter: -$0.04.",
+    "consensus_revenue": "not available from a reliable source for Q3. For context: Zacks expects 2026 revenue +146.4% y/y; StockAnalysis shows a 2026 revenue estimate of $217.98m (tier 3).",
+    "company_guidance": "Q3 2026 revenue about $66m; non-GAAP EPS $0.30-$0.32; GAAP EPS $0.29-$0.31; about 66.5m shares (Q2 call, 2026-07-30; tier 3 transcript).",
+    "sources": [
+      "https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026",
+      "https://api.nasdaq.com/api/analyst/AXTI/earnings-date",
+      "https://api.nasdaq.com/api/analyst/AXTI/earnings-forecast",
+      "https://stockanalysis.com/stocks/axti/forecast/",
+      "https://www.fool.com/earnings/call-transcripts/2026/08/03/axt-axti-q2-2026-earnings-call-transcript/"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-10-07", "firm": "Zacks", "action": "Commentary only: Zacks Rank #3 (Hold) kept, Value Score F (not a rating change)", "reason": "Premium valuation (trailing P/S 42.51x vs industry 16.6x); dependence on China; estimates stable", "url": "https://finance.yahoo.com/markets/stocks/articles/axti-stock-rises-21-month-142700749.html"},
+    {"date": "2026-09-29", "firm": "Zacks Research", "action": "Downgrade, Strong-Buy to Hold (quant rank; before the window)", "reason": "not stated; Zacks ranks follow estimate revisions", "url": "https://www.marketbeat.com/stocks/NASDAQ/AXTI/forecast/"},
+    {"date": "2026-10-07", "firm": "Consensus snapshot (MarketBeat)", "action": "Consensus 'Hold', average target $77.00; 3 Buy, 2 Hold, 1 Sell. No broker action found between 2026-10-05 and 2026-10-07.", "reason": "Aggregator view (tier 3). StockAnalysis cites an S&P Global consensus of 'Buy' with a $91.6 average target, so the aggregators disagree.", "url": "https://www.marketbeat.com/stocks/NASDAQ/AXTI/forecast/"}
+  ],
+  "insiders": {
+    "summary": "No insider trades in the window. The newest Form 4 is still from 2026-08-19 (EDGAR re-checked 2026-10-07 21:18 UTC); the pipeline found 0 open-market buys or sells. The June 2026 cluster of unplanned sales by the CEO and three directors is background, not new.",
+    "notable": [
+      "Quiver Quant (2026-08-24, tier 3) claimed CEO Morris Young sold 559,964 shares for about $37.5m over six months. That is more than the about $22.3m (197,498 shares, June 2026) in our files. UNVERIFIED: check the Form 4s before using it. https://www.quiverquant.com/news/Why+AXT+(AXTI)+Stock+Is+Falling+Today"
+    ]
+  },
+  "filings": [
+    {"form": "SCHEDULE 13G/A", "items": "Amendment No. 1; event date 2026-09-30; filed 2026-10-05 during the Monday session (before the window)", "plain_english": "A 13G is the short form a passive investor files once it owns more than 5% of a company. BlackRock now owns 9,359,639 shares (14.3%), up from 4,653,059 (7.1%) at 2026-06-30: the stake roughly doubled, most likely because index funds bought AXT when it joined the S&P SmallCap 600 on 2026-09-21. One fund, the iShares Core S&P Small-Cap ETF, holds more than 5% by itself. The stake went up, not down.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1051627/000201238326003311/xslSCHEDULE_13G_X02/primary_doc.xml"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-29", "event": "Q3 2026 results after the US close (guidance: about $66m revenue, non-GAAP EPS $0.30-$0.32); Q4 outlook; permit update", "confirmed": true, "url": "https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026"},
+    {"date": "about mid-November 2026 (estimated)", "event": "Q3 10-Q: permit status for US customers, receipt of the Lumentum and Coherent deposits, cash and share count", "confirmed": false, "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926027677/axti20260630_10q.htm"},
+    {"date": "2026-11-27", "event": "China's suspension of its ban on gallium, germanium and antimony exports to the US is due to end unless extended. China's gallium and germanium controls cover AXT's gallium arsenide and germanium substrates (not InP). Not verified: whether the September 2026 truce extension also extended this suspension.", "confirmed": false, "url": "https://www.cnbc.com/2025/11/09/china-suspends-ban-on-exports-of-gallium-germanium-antimony-to-us.html"},
+    {"date": "2027-01-10", "event": "Deadline of the US-China trade truce, extended on 2026-09-24 from 2026-11-10 during Xi Jinping's Washington visit; critical minerals still on the negotiating table", "confirmed": true, "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"},
+    {"date": "not scheduled", "event": "Chinese export permits for InP shipments to US customers (timing unpredictable, per the company)", "confirmed": false, "url": "https://www.sec.gov/Archives/edgar/data/0001051627/000143774926027677/axti20260630_10q.htm"},
+    {"date": "not scheduled", "event": "Tongmei (AXT's Chinese subsidiary) Hong Kong IPO application and the private-equity redemptions of about RMB 324.4m; no update found since July 2026", "confirmed": false, "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022984/axti20260629_8k.htm"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "No new guidance and no press release since 2026-10-01 (date notice only). The Q3 guide of about $66m given 2026-07-30 is unchanged."},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "No results in the window; next results 2026-10-29."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "No report found. A search for Lumentum or Coherent naming another InP substrate supplier found only the existing AXT deals (Lumentum 8-K 2026-07-29; Coherent 8-K filed 2026-07-02)."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "No 8-K at all since 2026-07-30 (EDGAR list re-checked 2026-10-07 21:18 UTC)."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "No 8-K in the window."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "No 8-K in the window."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "No S-3, 424B or 8-K Item 3.02 in the window; the only filing is BlackRock's 13G/A. The April 2026 automatic shelf still permits future sales."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "Nothing new. The 2024 securities class action is still pending, and AXT has asked for dismissal a third time (TipRanks, about late September 2026, https://www.tipranks.com/news/class-action/axt-inc-urges-dismissal-of-investor-lawsuit-citing-forty-fold-rise-in-company-valuation)."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "No downgrade in the window. Latest is Zacks Research to Hold on 2026-09-29 (MarketBeat); Zacks' 2026-10-07 piece keeps Rank #3."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "No Form 4 since 2026-08-19; pipeline insider summary shows 0 sales. The June 2026 cluster remains historical background."},
+    {"event": "Thesis trigger 1: China stops or further restricts permits", "found": false, "evidence": "No new Chinese measure on InP found in the window. US-customer permits are still not issued (10-Q 2026-08-13). Early-warning context from before the window: Reuters (2026-10-01, via AJOT https://www.ajot.com/news/exclusive-us-slows-aircraft-part-exports-to-china-as-trump-seeks-leverage-in-trade-negotiations-sources-say) reported the US is slowing aircraft-part export licences to China for leverage, but the truce was extended to 2027-01-10 (CNBC 2026-09-24). Status: not hit."},
+    {"event": "Thesis trigger 2: a rival ramps up large-scale InP wafer production", "found": false, "evidence": "Nothing new in the window. Before the window, JX Advanced Metals (JPY 120bn, 7-10x capacity by FY2030; TrendForce 2026-06-16) and Sumitomo Electric (JPY 18bn, 3.1x by FY2028; TrendForce 2026-07-13) announced big InP expansions. These match the trigger's early warning ('a rival announces a big new InP factory'), though they are not yet a large-volume ramp. Flag for the main session."},
+    {"event": "Thesis trigger 3: revenue falls from one quarter to the next", "found": false, "evidence": "No results until 2026-10-29; the Q3 guide ($66m) is above Q2 ($47.6m)."},
+    {"event": "Thesis trigger 4: the Lumentum deal is cancelled or cut back", "found": false, "evidence": "No 8-K or news; LITE rose 3.82% on Tuesday and nothing about its AXT deal was reported."},
+    {"event": "Thesis trigger 5: customers announce other wafer suppliers instead", "found": false, "evidence": "No such announcement found in the window."},
+    {"event": "Thesis trigger 6: another share sale adds 5% or more", "found": false, "evidence": "No prospectus or convertible filing in the window."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Japanese rivals are expanding InP substrate capacity sharply: JX Advanced Metals to 7-10x its FY2025 level by FY2030 (JPY 120bn); Sumitomo Electric to 3.1x its FY2024 level by FY2028 (JPY 18bn). Neither needs Chinese export permits.", "url": "https://www.trendforce.com/news/2026/06/16/news-jx-advanced-metals-to-invest-jpy-120b-through-fy2030-expand-inp-capacity-up-to-10x-as-cpo-demand-accelerates/", "assessment": "Tier 3 trade press citing company plans, before the window. It weakens pillar 3 (scarcity) over 2027-2030 and is the early warning for trigger 2. TrendForce also says Sumitomo and AXT make nearly 80% of world output, which supports 'few at scale' today."},
+    {"claim": "Valuation is stretched: trailing price-to-sales 42.51x vs an industry average of 16.6x; Zacks Value Score F, Rank #3 Hold.", "url": "https://finance.yahoo.com/markets/stocks/articles/axti-stock-rises-21-month-142700749.html", "assessment": "Tier 3, opinion plus arithmetic. It explains why rising rates hurt this stock more than most."},
+    {"claim": "Interest rates are moving against growth stocks: the 10-year Treasury yield hit 5.36% (highest since April 2002) and Fed minutes said most officials see another rate increase as likely appropriate by year end.", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html", "assessment": "Tier 3, matched by CNBC (tier 2). A macro headwind rather than a company problem, but a likely cause of Wednesday's gap down."},
+    {"claim": "The MarketBeat consensus is 'Hold' with an average target of $77.00, below Wednesday's $79.79 close.", "url": "https://www.marketbeat.com/stocks/NASDAQ/AXTI/forecast/", "assessment": "Tier 3 aggregator; opinions, not facts about value. StockAnalysis shows a different consensus ($91.6, 'Buy'), so the aggregators disagree."},
+    {"claim": "All recent insider trades were sales; Quiver Quant says the CEO sold about $37.5m over six months.", "url": "https://www.quiverquant.com/news/Why+AXT+(AXTI)+Stock+Is+Falling+Today", "assessment": "Single tier-3 source, dated 2026-08-24, and inconsistent with the $22.3m in our files. Unverified; nothing new in the window."},
+    {"claim": "A securities class action (2024, based on a short-seller post about the Tongmei listing and IP) is still pending.", "url": "https://www.tipranks.com/news/class-action/axt-inc-urges-dismissal-of-investor-lawsuit-citing-forty-fold-rise-in-company-valuation", "assessment": "Pre-existing; AXT has filed a third motion to dismiss. Low near-term materiality; nothing new in the window."}
+  ],
+  "open_questions": [
+    "Tuesday's AXT-specific slide (-4.2% from open to close while LITE and AAOI rose): no published cause found. Unknown.",
+    "Tier-1 confirmation of the S&P SmallCap 600 addition (an S&P Dow Jones Indices release) was not obtained because the search budget ran out; three tier-3 sources agree (Quiver Quant, Insider Monkey, TIKR).",
+    "Was China's suspension of the gallium/germanium/antimony export ban to the US (due to end 2026-11-27) extended along with the 2026-09-24 truce extension? Not verified.",
+    "Q3 2026 revenue consensus: not available from a reliable source.",
+    "FY2026 EPS consensus: $0.80 (Nasdaq/Zacks table) vs $0.86 (Zacks article of 2026-10-07); which is current is unclear.",
+    "CEO's total 2026 sales: $22.3m (June Form 4, our files) vs $37.5m over six months (Quiver Quant, unverified). Check all Form 4s and the Forms 144 of 2026-08-07 and 2026-08-17.",
+    "The thesis file cites only the Lumentum prepayment; the Coherent prepayment (US$22,288,500, 8-K filed 2026-07-02) also supports pillar 4. Any change to the thesis must be proposed to Santi, not made.",
+    "The rival-capacity announcements (JX, Sumitomo; June-July 2026) arguably match trigger 2's early warning; the main session should decide whether to report them as 'Watch'.",
+    "Has Lumentum paid its first $43.5m deposit? Still not confirmed in a filing (expected in the Q3 10-Q).",
+    "The 13G/A acceptance time differs between the EDGAR index page (11:58:08) and the EDGAR JSON (19:58:08Z = 15:58 ET). Either way it was filed during Monday's session, before this window."
+  ],
+  "searches_run": 22
+}

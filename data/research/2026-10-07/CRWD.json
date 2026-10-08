@@ -1,0 +1,611 @@
+{
+ "ticker": "CRWD",
+ "company": "CrowdStrike Holdings, Inc.",
+ "window": {
+  "from": "2026-10-05T20:00Z",
+  "to": "2026-10-07 US close (extended from 16:20Z at coordinator's request)"
+ },
+ "newest_item_checked": "Yahoo Finance (Brian Sozzi) valuation piece, 2026-10-07 16:27 ET; Motley Fool 'Why CrowdStrike Stock Slumped on Wednesday', 2026-10-07 15:20 ET; CNBC closing market summary for 2026-10-07 (read via search-result excerpt; page itself returned 403)",
+ "price_facts": {
+  "note": "From data/prices/CRWD.csv (Yahoo daily bars) and the coordinator's attribution figures",
+  "2026-10-06": "close $278.86 (+2.27% from $272.67); intraday high $286.99 (+5.25%, a new all-time high), so it closed 2.8% below the day's high; volume 7.93m = 0.76x its 20-day average. 7th straight higher close (+10.6% from $252.13 on 2026-09-25). Attribution: market +0.71, industry +2.59 (CIBR +2.0%), company -1.03",
+  "2026-10-07": "close $265.44 (-4.81%); open $276.80, high $276.90, low $264.50, closed near the low; volume 8.77m = 0.84x its 20-day average. Attribution: market -0.31, industry -2.15 (CIBR -1.44%), company -2.35 (z -1.53). PANW -3.42%, SPY -0.24%. Close is 7.5% below Tuesday's intraday high",
+  "two_days": "-2.65% vs Monday 2026-10-05 close $272.67"
+ },
+ "events": [
+  {
+   "date": "2026-10-07",
+   "timing": "during",
+   "type": "market/macro move (bond yields) plus sector selloff; no company news",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "US stocks fell as the 10-year Treasury yield hit 5.365%, its highest since April 2002 (30-year 5.732%, highest since May 2002); tech came under pressure on worries that higher borrowing costs would limit the AI buildout. CNBC named CrowdStrike (down almost 5%) and Palo Alto (down more than 3%) among the decliners. S&P 500 -0.22% to 7,801.77, Nasdaq -0.22%, Dow -0.66%. CRWD closed -4.81% at $265.44. The Motley Fool states there was 'no specific news' and blames valuation and profit-taking after the 7-day run.",
+   "why_it_matters": "Explains the sector part (-2.15) and some of the company part (-2.35, z -1.53) of Wednesday's move. Nothing in it changes the business facts behind the thesis; it is about price, rates and valuation.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "CNBC markets live blog (closing summary, read via search excerpt; page blocked 403)",
+     "date": "2026-10-07",
+     "url": "https://www.cnbc.com/2026/10/06/stock-market-today-live-updates.html",
+     "tier": 2
+    },
+    {
+     "name": "Motley Fool (Danny Vena)",
+     "date": "2026-10-07",
+     "url": "https://www.fool.com/investing/2026/10/07/why-crowdstrike-stock-slumped-on-wednesday/",
+     "tier": 3
+    },
+    {
+     "name": "Yahoo Finance (Brian Sozzi)",
+     "date": "2026-10-07",
+     "url": "https://finance.yahoo.com/markets/stocks/article/crowdstrike-stock-is-flying--but-the-valuation-math-is-sending-warning-signs-202714759.html",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "during",
+   "type": "sector move (software and cybersecurity rally)",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "US software stocks hit fresh 2026 highs as AI-disruption worries faded: the S&P 500 software and services index rose 1.3% on Tuesday to its highest since November 2025; the sector's expected 2026 earnings growth climbed to 20.6% from 13.8% at the end of March (LSEG). Reuters noted CrowdStrike, Fortinet and Palo Alto have triple-digit gains this year 'as companies spend heavily on cybersecurity in the age of AI'. PANW closed at a record $419.91 (+3.23%), FTNT $191.27 (+3.88%), CRWD $278.86 (+2.27%), each its highest close ever (FinanceFeeds). Before the open, Yahoo Finance noted CIBR had hit an all-time high on Monday and cited Morgan Stanley's forecast that corporate cybersecurity software spending grows 23% a year through 2028 (33% if major attacks trigger new government mandates).",
+   "why_it_matters": "This is the 'industry' part (+2.59 points) of Tuesday's +2.27%: CrowdStrike rose with its group, not on its own news.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "Reuters (Joel Jose) via Investing.com",
+     "date": "2026-10-06",
+     "url": "https://www.investing.com/news/stock-market-news/us-software-stocks-scale-fresh-2026-highs-as-ai-disruption-worries-fade-4934831",
+     "tier": 2
+    },
+    {
+     "name": "Yahoo Finance Chart of the Day (Ines Ferre)",
+     "date": "2026-10-06",
+     "url": "https://finance.yahoo.com/markets/stocks/article/cybersecurity-stocks-hit-new-highs-as-ai-agents-spark-biggest-risk-today-chart-of-the-day-115446641.html",
+     "tier": 3
+    },
+    {
+     "name": "FinanceFeeds",
+     "date": "2026-10-07",
+     "url": "https://financefeeds.com/palo-alto-networks-panw-stock-419-91-up-3-23/",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "before open",
+   "type": "peer news (competitor investor day, guidance reaffirmed)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "Zscaler held its 2026 Investor Day in New York (release 6:00 a.m. ET) and reaffirmed guidance: Q1 FY2027 revenue $935-939m (+19%), FY2027 ARR $4.396-4.426bn and revenue $3.908-3.938bn; it set a $10bn ARR goal. CEO Jay Chaudhry: 'The agentic AI era is quickly becoming the most significant opportunity in our company's history.' Zscaler rose about 3-4% and 24/7 Wall St. reported CrowdStrike and Palo Alto ticking up with it.",
+   "why_it_matters": "Peer reassurance about AI-driven security demand on the same morning; investors trade the group together. Link to CRWD's move is a tier-3 attribution (inference, medium).",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "Zscaler press release (GlobeNewswire)",
+     "date": "2026-10-06",
+     "url": "https://www.globenewswire.com/news-release/2026/10/06/3375261/0/en/zscaler-hosts-2026-investor-day-reaffirms-first-quarter-and-fiscal-2027-guidance.html",
+     "tier": 1
+    },
+    {
+     "name": "Zscaler Form 8-K",
+     "date": "2026-10-06",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000200/zs-20261006.htm",
+     "tier": 1
+    },
+    {
+     "name": "24/7 Wall St.",
+     "date": "2026-10-06",
+     "url": "https://247wallst.com/investing/2026/10/06/zscaler-climbs-3-as-investor-day-reaffirms-guidance-in-agentic-ai-pitch-crowdstrike-and-palo-alto-tick-up/",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "unknown",
+   "type": "company announcement (event demand)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "CrowdStrike said Fal.Con Europe 2026 (Barcelona, 2-4 November) sold out faster than any previous edition, with registrations up 60% from last year: more than 3,000 security leaders from over 1,200 organisations in 83 countries. CEO George Kurtz gives the opening keynote.",
+   "why_it_matters": "A soft signal of customer interest, not revenue. The Motley Fool and Stocktwits cited it, with the StoneX target raise, as reasons for Tuesday's gain.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "CrowdStrike press release",
+     "date": "2026-10-06",
+     "url": "https://www.crowdstrike.com/en-us/press-releases/falcon-europe-2026-sells-out/",
+     "tier": 1
+    },
+    {
+     "name": "Motley Fool (Eric Volkman) via Yahoo Finance",
+     "date": "2026-10-06",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-crowdstrike-stock-ticked-higher-234646362.html",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "unknown",
+   "type": "company announcement (ecosystem program)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "CrowdStrike, AWS and NVIDIA opened the fourth annual Cybersecurity Startup Accelerator for 'the agentic era': applications to 2 November 2026, eight-week program 11 January - 8 March 2027, demo day at RSAC 2027 (5-8 April). Startups get Falcon Foundry and Falcon API access and CrowdStrike Marketplace publishing; the program has backed more than 90 startups that raised nearly $1bn. No financial terms; the Falcon Fund may invest.",
+   "why_it_matters": "Builds the developer ecosystem around Falcon; carries no revenue (24/7 Wall St.: 'an ecosystem announcement doesn't carry revenue with it').",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "CrowdStrike press release",
+     "date": "2026-10-06",
+     "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-aws-nvidia-expand-global-cybersecurity-startup-accelerator/",
+     "tier": 1
+    },
+    {
+     "name": "24/7 Wall St.",
+     "date": "2026-10-06",
+     "url": "https://247wallst.com/investing/2026/10/06/crowdstrike-advances-3-on-agentic-security-accelerator-with-amazon-and-nvidia-palo-alto-networks-and-zscaler-gain-4/",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "unknown",
+   "type": "analyst price target raised",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "StoneX analyst Yi Fu Lee raised his CrowdStrike price target to $325 from $250 and kept a Buy rating. StockAnalysis lists it on 2026-10-07; the Motley Fool and Stocktwits reported it on Tuesday.",
+   "why_it_matters": "An opinion, not a fact about value. $325 is the highest target on StockAnalysis; the average ($237.77) is still below the price.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "Motley Fool via Yahoo Finance",
+     "date": "2026-10-06",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-crowdstrike-stock-ticked-higher-234646362.html",
+     "tier": 3
+    },
+    {
+     "name": "Stocktwits via Yahoo Finance",
+     "date": "2026-10-07",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/why-nvda-amd-crwd-stocks-041923946.html",
+     "tier": 3
+    },
+    {
+     "name": "StockAnalysis forecast page",
+     "date": "2026-10-07",
+     "url": "https://stockanalysis.com/stocks/crwd/forecast/",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "timing": "unknown",
+   "type": "company announcement (industry recognition; first AI product growth figure)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "CrowdStrike was named a Leader in the IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises 2026. The release states: 'CrowdStrike's AIDR business has grown more than 79-fold in three quarters since launch, with Falcon Guardian securing AI agents at the point of execution.' No dollar, ARR or customer figure given.",
+   "why_it_matters": "The 79-fold figure is a company-given number for an AI security product (relevant to pillar 4 / Thesis 2), but it is a multiple from an undisclosed and probably small base, so it is not yet the AI-channel ARR the pillar asks for. Whether it was already said on the Q2 call is not verified.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "CrowdStrike press release",
+     "date": "2026-10-07",
+     "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-named-leader-2026-idc-marketscape-modern-endpoint-security-enterprises/",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "timing": "unknown",
+   "type": "partnership (small channel)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "CrowdStrike and CyberCert partnered to help small and medium-sized businesses in Australia and New Zealand get SMB1001 certification using Falcon; qualifying customers and managed security partners get complimentary certification credits for a limited time. No financial terms.",
+   "why_it_matters": "Small regional channel for SMB customers; no revenue disclosed. Did not cause Wednesday's drop (it is a minor positive release).",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "CrowdStrike press release",
+     "date": "2026-10-07",
+     "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-cybercert-partner-to-advance-cybersecurity-for-smbs-across-australia-and-new-zealand/",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05/06",
+   "timing": "after close",
+   "type": "insider sales (Form 4, all under 10b5-1 plans)",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "Three more insider Form 4s, all with the 10b5-1 box checked: director Sameer Gandhi sold 54,000 shares (~$14.32m, about $260-269) on 2026-10-01 through Potomac Investments L.P. - Fund 1 (about 1.9% of that entity's holding; plan adopted 2026-06-25); Chief Accounting Officer Anurag Saha sold 24,776 shares (~$6.51m) on 2026-10-01 (about 12.0% of his direct holding; plan adopted 2026-07-02); CEO George Kurtz sold 20,000 shares (~$5.42m) on 2026-10-02 and 2026-10-05 (about 0.26% of his 7.55m direct shares; plan adopted 2026-01-06). Together about $26.2m. No insider purchases.",
+   "why_it_matters": "Continues the pre-planned selling already logged (CFO ~$125.5m, President Sentonas ~$64.2m). Pre-planned sales say little about today's view; the rules.toml breaker needs sales OUTSIDE plans, which did not occur.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "SEC Form 4 (Gandhi)",
+     "date": "2026-10-05",
+     "url": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000027/xslF345X06/form4-10052026_081004.xml",
+     "tier": 1
+    },
+    {
+     "name": "SEC Form 4 (Saha)",
+     "date": "2026-10-05",
+     "url": "https://www.sec.gov/Archives/edgar/data/1535527/000192160226000012/xslF345X06/form4-10052026_081001.xml",
+     "tier": 1
+    },
+    {
+     "name": "SEC Form 4 (Kurtz)",
+     "date": "2026-10-06",
+     "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000177/xslF345X06/form4-10062026_081001.xml",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "timing": "unknown",
+   "type": "regulatory (investigation closed) - before window, not in the news log",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "Bloomberg reported that the US Attorney's Office for the Southern District of New York closed, without action, its probe of CrowdStrike's distributor deals, including a $32m deal with Carahsoft to supply software to the IRS. Bloomberg said it is unclear whether the SEC's parallel investigation has concluded; CrowdStrike's August filing said it was cooperating with DOJ and SEC requests about its accounting for transactions with certain customers. CRWD fell about 1.9% that Friday (tier-3 report).",
+   "why_it_matters": "Removes one legal overhang; the SEC inquiry is an existing (not new) open item to keep watching. It happened before this window and is missing from the news log.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "Bloomberg",
+     "date": "2026-09-25",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-25/us-justice-department-closes-investigation-of-crowdstrike-deals",
+     "tier": 2
+    },
+    {
+     "name": "Bloomberg via Yahoo Finance",
+     "date": "2026-09-25",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/us-justice-department-closes-investigation-171512426.html",
+     "tier": 2
+    }
+   ]
+  }
+ ],
+ "why_chain": [
+  {
+   "rung": 1,
+   "text": "Wednesday 2026-10-07: CRWD fell 4.81% to $265.44. The model splits it into market -0.31, cybersecurity industry -2.15 (CIBR -1.44%) and company -2.35 points (z -1.53: bigger than a normal day, not extreme). PANW fell 3.42%.",
+   "evidence": "data/prices/CRWD.csv; data/metrics attribution (coordinator figures)"
+  },
+  {
+   "rung": 2,
+   "text": "The broad market fell as the 10-year Treasury yield reached 5.365%, its highest since April 2002; tech came under pressure on worries that higher borrowing costs would limit the AI buildout, and CNBC named CrowdStrike and Palo Alto among the decliners.",
+   "evidence": "https://www.cnbc.com/2026/10/06/stock-market-today-live-updates.html (tier 2, read via search excerpt; page returned 403)"
+  },
+  {
+   "rung": 3,
+   "text": "No CrowdStrike-specific negative news was found: its two releases that day (IDC Leader recognition, CyberCert partnership) were minor positives, there was no 8-K, and the Motley Fool states 'there was no specific news'.",
+   "evidence": "https://www.fool.com/investing/2026/10/07/why-crowdstrike-stock-slumped-on-wednesday/ ; https://www.crowdstrike.com/en-us/press-releases/crowdstrike-named-leader-2026-idc-marketscape-modern-endpoint-security-enterprises/ ; data/filings/2026-10-07.json"
+  },
+  {
+   "rung": 4,
+   "text": "Why it fell more than its group: it was the most stretched name. Seven straight higher closes (+10.6%), a new intraday all-time high of $286.99 on Tuesday, 80% above its 200-day average, RSI 72, and 43.5x forward sales (above its own 2021 peak) and about 209x forward earnings. Stocks priced on profits far in the future lose the most when long-term interest rates jump, and holders with big gains take profits first.",
+   "evidence": "https://finance.yahoo.com/markets/stocks/article/crowdstrike-stock-is-flying--but-the-valuation-math-is-sending-warning-signs-202714759.html (valuation figures, tier 3); data/metrics/2026-10-07.json; link between valuation and the bigger fall = inference (medium)"
+  },
+  {
+   "rung": 5,
+   "text": "Selling into strength had started on Tuesday: CRWD hit $286.99 (+5.3%) but closed at $278.86 (+2.27%), and its company part was already -1.03 that day despite positive news. Wednesday's volume was below average (0.84x the 20-day), which fits profit-taking more than news-driven selling.",
+   "evidence": "data/prices/CRWD.csv; interpretation = inference (medium-low)"
+  },
+  {
+   "rung": 6,
+   "text": "Basic driver: higher long-term interest rates make distant profits worth less today, and CrowdStrike's price depends more than most on profits years away; this met a stock that had more than doubled this year. No published source gives a CrowdStrike-specific reason.",
+   "evidence": "inference (medium)"
+  },
+  {
+   "rung": 7,
+   "text": "Tuesday 2026-10-06 (+2.27%) for contrast: software stocks hit 2026 highs as AI-disruption fears faded and earnings expectations rose (Reuters); Zscaler reaffirmed guidance at its investor day and called agentic AI its biggest opportunity ever; CIBR rose 2.0% and PANW/FTNT made record closes. CrowdStrike's own news (Fal.Con Europe sold out, StoneX target $325, startup accelerator) did not add a company-specific gain: the company part was -1.03.",
+   "evidence": "https://www.investing.com/news/stock-market-news/us-software-stocks-scale-fresh-2026-highs-as-ai-disruption-worries-fade-4934831 ; https://www.globenewswire.com/news-release/2026/10/06/3375261/0/en/zscaler-hosts-2026-investor-day-reaffirms-first-quarter-and-fiscal-2027-guidance.html ; https://finance.yahoo.com/markets/stocks/articles/why-crowdstrike-stock-ticked-higher-234646362.html"
+  }
+ ],
+ "products": [
+  {
+   "name": "Falcon AIDR (AI Detection and Response) and Falcon Guardian",
+   "what_it_is": "CrowdStrike's product line for securing companies' use of AI; the release says Falcon Guardian 'secures AI agents at the point of execution' (general description beyond that sentence: tools that watch what AI assistants and AI agents are asked to do and what they do, and block attacks or data leaks, is background knowledge, not from the release).",
+   "analogy": "A security guard who stands next to each AI assistant and checks every instruction it receives and every action it takes before letting it through.",
+   "buyers": "Enterprises deploying AI assistants and AI agents (specific customers not disclosed).",
+   "how_it_works": "Not described in the release beyond securing AI agents at the point of execution; sold as Falcon platform modules (subscription).",
+   "price": "not disclosed",
+   "sales": "not disclosed in dollars, ARR or customers. Company figure: 'AIDR business has grown more than 79-fold in three quarters since launch' (base not disclosed).",
+   "sales_source": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-named-leader-2026-idc-marketscape-modern-endpoint-security-enterprises/ (CrowdStrike press release, 2026-10-07)",
+   "stage": "Shipping (launched about three quarters ago per the release; exact launch date not verified)",
+   "size_for_company": "Not computable: no revenue figure. Proxy: total ARR $5.84bn (Q2 FY2027); a 79-fold rise from an undisclosed base says nothing about its share of that.",
+   "competition": "Palo Alto Networks, Zscaler and others market AI-security products (Zscaler's 2026-10-06 investor day pitched agentic AI as its biggest opportunity); AI labs' own security tools (e.g. Anthropic's Claude Code Security caused a CRWD selloff earlier in 2026 per a tier-3 report, date not verified).",
+   "why_investors_care": "Thesis 2 says AI makes security more necessary; pillar 4 needs reported results from AI channels. This is a company-given growth figure, but not yet a dollar figure.",
+   "watch_next": "Any AIDR ARR or customer count on the Q3 FY2027 call (early December, unconfirmed); Fal.Con Europe announcements 2-4 November."
+  },
+  {
+   "name": "Cybersecurity Startup Accelerator (with AWS and NVIDIA), fourth year",
+   "what_it_is": "An eight-week program that helps young security companies build on CrowdStrike's Falcon platform.",
+   "analogy": "Like an app-store maker running a school for app developers so more apps get built for its store.",
+   "buyers": "Not a product; participants are early-stage security startups.",
+   "how_it_works": "Startups get Falcon Foundry and Falcon API access, verified integrations and CrowdStrike Marketplace publishing; AWS adds marketplace onboarding, NVIDIA technical training; the Falcon Fund may invest.",
+   "price": "not disclosed (no fee or investment amounts stated)",
+   "sales": "none (ecosystem program); past cohorts: more than 90 startups that raised nearly $1bn",
+   "sales_source": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-aws-nvidia-expand-global-cybersecurity-startup-accelerator/",
+   "stage": "Applications open to 2026-11-02; program 2027-01-11 to 2027-03-08; demo day RSAC 2027",
+   "size_for_company": "No direct revenue.",
+   "competition": "not assessed",
+   "why_investors_care": "More third-party apps on Falcon can make the platform stickier; no near-term financial effect.",
+   "watch_next": "Demo day at RSAC 2027 (5-8 April 2027)."
+  }
+ ],
+ "earnings": {
+  "status": "none",
+  "date": "",
+  "confirmed": false,
+  "consensus": {},
+  "actual": {},
+  "guidance": {},
+  "key_metrics": {},
+  "quality_flags": [],
+  "management_explanation": "No results in the window.",
+  "sources": []
+ },
+ "next_earnings": {
+  "date": "Q3 FY2027 (quarter ending 2026-10-31): estimated early December 2026, not announced. Last year's Q3 was reported on 2025-12-02.",
+  "confirmed": false,
+  "consensus_eps": "Q3: not available from a verified current source. Full-year FY2027 consensus EPS $1.26 (StockAnalysis, 53 analysts, 2026-10-07).",
+  "consensus_revenue": "Q3: not available from a verified current source. Full-year FY2027 consensus revenue $6.01bn (StockAnalysis, 2026-10-07).",
+  "company_guidance": "From the 2026-08-26 release: Q3 FY2027 revenue $1,523.2-1,529.2m, non-GAAP EPS $0.31, ending ARR $6,184.4-6,188.4m, non-GAAP operating income $372.7-375.9m. Full year FY2027: revenue $5,991.1-6,011.1m, non-GAAP EPS $1.25-1.26, ARR $6,603.0-6,611.9m; full-year net new ARR growth outlook raised by 630 basis points to 34% at the midpoint.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000029/crwd-20260826xex991.htm",
+   "https://www.businesswire.com/news/home/20251202587009/en/CrowdStrike-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results",
+   "https://stockanalysis.com/stocks/crwd/forecast/"
+  ]
+ },
+ "analyst_actions": [
+  {
+   "date": "2026-10-06",
+   "firm": "StoneX (Yi Fu Lee)",
+   "action": "Price target raised to $325 from $250; Buy kept",
+   "reason": "not available (articles report the raise without the analyst's stated reasoning)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-crowdstrike-stock-ticked-higher-234646362.html"
+  },
+  {
+   "date": "2026-10-07",
+   "firm": "Yorkville Ives & Co (Daniel Ives)",
+   "action": "Initiated at Buy, $335 target (UNCONFIRMED: single tier-3 source; StockAnalysis' high target still shows $325)",
+   "reason": "not available",
+   "url": "https://stockanalysis.com/stocks/crwd/forecast/"
+  },
+  {
+   "date": "2026-10-07",
+   "firm": "Consensus (StockAnalysis, 53 analysts)",
+   "action": "Buy consensus; average target $237.77, low $132, high $325; no downgrades listed 2026-09-25 to 2026-10-07",
+   "reason": "",
+   "url": "https://stockanalysis.com/stocks/crwd/forecast/"
+  }
+ ],
+ "insiders": {
+  "summary": "In the window, three Form 4s reported about $26.2m of sales, all with the 10b5-1 box checked and plan adoption dates in footnotes: Gandhi (director, via Potomac Investments) $14.32m, Saha (Chief Accounting Officer) $6.51m, Kurtz (CEO) $5.42m. No purchases. Earlier in the filings window (already logged): President Sentonas $64.2m (plan adopted 2026-07-01), and Kurtz sells 20,000 shares per filing (four filings 2026-09-24 to 2026-10-05, about $21.05m in total).",
+  "notable": [
+   {
+    "who": "Sameer K. Gandhi, director (Accel)",
+    "date": "2026-10-01",
+    "code": "S",
+    "shares": 54000,
+    "value_usd": 14321994,
+    "avg_price_range": "$260.34-269.07 (weighted averages)",
+    "plan": "10b5-1 adopted 2026-06-25",
+    "held_after": "2,841,970 in Potomac Investments L.P. - Fund 1 (sold ~1.9% of that entity's stake); other indirect holdings not traded",
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000027/xslF345X06/form4-10052026_081004.xml"
+   },
+   {
+    "who": "Potomac Investments LP (Gandhi) Form 144",
+    "date": "2026-10-01",
+    "code": "144 notice",
+    "shares": 82000,
+    "value_usd": 21819380,
+    "plan": "10b5-1 plan dated 2026-06-25",
+    "note": "Notice covered 82,000 shares; the Form 4 so far reports 54,000. Earlier sales: 20,000 (2026-09-01, $4.34m), 20,000 (2026-08-04, $4.20m), 5,000 pre-split (2026-07-01, $3.87m)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000195824426000634/xsl144X01/primary_doc.xml"
+   },
+   {
+    "who": "Anurag Saha, Chief Accounting Officer",
+    "date": "2026-10-01",
+    "code": "S",
+    "shares": 24776,
+    "value_usd": 6509118,
+    "plan": "10b5-1 adopted 2026-07-02",
+    "held_after": "181,100 direct (sold ~12.0%)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000192160226000012/xslF345X06/form4-10052026_081001.xml"
+   },
+   {
+    "who": "George Kurtz, President and CEO",
+    "date": "2026-10-02 and 2026-10-05",
+    "code": "S",
+    "shares": 20000,
+    "value_usd": 5415567,
+    "plan": "10b5-1 adopted 2026-01-06",
+    "held_after": "7,531,504 direct plus 400,000 via Kurtz Family Dynasty Trust (sold ~0.26%)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000177/xslF345X06/form4-10062026_081001.xml"
+   },
+   {
+    "who": "Michael Sentonas, President (rehash, already in news log)",
+    "date": "2026-09-30",
+    "code": "M + S",
+    "shares": 241944,
+    "value_usd": 64224997,
+    "plan": "10b5-1 adopted 2026-07-01 (Form 144)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015176/xslF345X06/ownership.xml"
+   }
+  ]
+ },
+ "filings": [
+  {
+   "form": "4",
+   "items": "Kurtz sales 2026-10-02 and 10-05 (filed 2026-10-06)",
+   "plain_english": "The CEO sold 20,000 shares (~$5.4m) under a selling plan set in January; he still owns about 7.5m shares directly.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000177/xslF345X06/form4-10062026_081001.xml"
+  },
+  {
+   "form": "4",
+   "items": "Gandhi sales 2026-10-01 (filed 2026-10-05 after hours)",
+   "plain_english": "A director's investment entity sold 54,000 shares (~$14.3m) under a June plan; small slice of its stake.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000027/xslF345X06/form4-10052026_081004.xml"
+  },
+  {
+   "form": "4",
+   "items": "Saha sales 2026-10-01 (filed 2026-10-05 after hours)",
+   "plain_english": "The chief accounting officer sold 24,776 shares (~$6.5m, about 12% of his holding) under a July plan.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000192160226000012/xslF345X06/form4-10052026_081001.xml"
+  },
+  {
+   "form": "144",
+   "items": "Potomac Investments LP notice, 82,000 shares (filed 2026-10-01)",
+   "plain_english": "Advance notice of the Gandhi-entity sale; 54,000 of the 82,000 reported sold so far.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000195824426000634/xsl144X01/primary_doc.xml"
+  },
+  {
+   "form": "none",
+   "items": "No 8-K, 10-Q, S-3/424B or 13D in the window",
+   "plain_english": "The company made no formal event disclosure in the window.",
+   "materiality": "n/a",
+   "url": ""
+  }
+ ],
+ "catalysts": [
+  {
+   "date": "2026-11-02",
+   "event": "Startup accelerator application deadline (low importance)",
+   "confirmed": true,
+   "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-aws-nvidia-expand-global-cybersecurity-startup-accelerator/"
+  },
+  {
+   "date": "2026-11-02 to 2026-11-04",
+   "event": "Fal.Con Europe, Barcelona; CEO keynote, live-streamed 3-4 November; possible product news",
+   "confirmed": true,
+   "url": "https://www.crowdstrike.com/en-us/press-releases/falcon-europe-2026-sells-out/"
+  },
+  {
+   "date": "early December 2026 (estimated)",
+   "event": "Q3 FY2027 results: guidance revenue $1,523.2-1,529.2m, EPS $0.31, ARR $6,184.4-6,188.4m",
+   "confirmed": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000029/crwd-20260826xex991.htm"
+  },
+  {
+   "date": "not scheduled",
+   "event": "Possible conclusion of the SEC inquiry into accounting for certain customer transactions (status unclear per Bloomberg)",
+   "confirmed": false,
+   "url": "https://www.bloomberg.com/news/articles/2026-09-25/us-justice-department-closes-investigation-of-crowdstrike-deals"
+  }
+ ],
+ "thesis_breaker_checks": [
+  {
+   "event": "the company cut its revenue or profit forecast (guidance)",
+   "found": false,
+   "evidence": "No 8-K or guidance update in the window (data/filings/2026-10-07.json); latest guidance is the raised range from 2026-08-26."
+  },
+  {
+   "event": "results missed analysts' revenue or EPS estimates",
+   "found": false,
+   "evidence": "No results in the window; next results early December (estimated)."
+  },
+  {
+   "event": "a major customer was lost, or a major customer cut orders",
+   "found": false,
+   "evidence": "No tier 1-2 report found in the window; company releases were positive (IDC Leader, CyberCert, accelerator)."
+  },
+  {
+   "event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+   "found": false,
+   "evidence": "No 8-K in the window. Note: the existing SEC inquiry into accounting for certain customer transactions (disclosed August 2026) is unresolved per Bloomberg 2026-09-25; not a restatement."
+  },
+  {
+   "event": "the auditor resigned or was dismissed (8-K Item 4.01)",
+   "found": false,
+   "evidence": "No 8-K in the window."
+  },
+  {
+   "event": "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+   "found": false,
+   "evidence": "No 8-K; Kurtz's 2026-10-06 Form 4 still lists him as President and CEO."
+  },
+  {
+   "event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+   "found": false,
+   "evidence": "No S-3, 424B or 8-K in the window."
+  },
+  {
+   "event": "a regulator opened an investigation, or major litigation was filed",
+   "found": false,
+   "evidence": "Nothing new. DOJ (SDNY) closed its distributor-deal probe without action (Bloomberg 2026-09-25); SEC inquiry status unclear (pre-existing). Shareholder suit over the 2024 outage was dismissed earlier in 2026 (Reuters via TradingView); the Delta dispute continues (tier-3 mention)."
+  },
+  {
+   "event": "two or more analyst downgrades within five trading days",
+   "found": false,
+   "evidence": "StockAnalysis lists no downgrades 2026-09-25 to 2026-10-07; actions were target raises (StoneX, TD Cowen) and one unconfirmed initiation at Buy. A targeted downgrade search found none."
+  },
+  {
+   "event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+   "found": false,
+   "evidence": "All Form 4 sellers in the filings window (Kurtz, Gandhi, Saha, Sentonas) checked the 10b5-1 box, with plan adoption dates 2026-01-06, 2026-06-25, 2026-07-02 and 2026-07-01."
+  },
+  {
+   "event": "Thesis triggers 1-7 in theses/CRWD.md (net new ARR, guidance cut, AI-channel results, large customer loss, FCF, GAAP losses with slowing growth, ARR growth below 20%)",
+   "found": false,
+   "evidence": "None can change before Q3 FY2027 results (early December); no customer-loss report found. Trigger 3 (AI channels): the 2026-10-07 release gives a growth multiple for AIDR (>79-fold in three quarters) but still no ARR or customer figure."
+  }
+ ],
+ "disconfirming_evidence": [
+  {
+   "claim": "Valuation is above even its 2021 peak: 43.54x forward sales and about 209x forward earnings, while analysts expect about 53% earnings growth next year; peers are cheaper (PANW ~94x, Zscaler ~44x P/E).",
+   "url": "https://finance.yahoo.com/markets/stocks/article/crowdstrike-stock-is-flying--but-the-valuation-math-is-sending-warning-signs-202714759.html",
+   "assessment": "Tier 3 but consistent with the thesis file's 39-50x sales range; the main reason the stock is sensitive to rising rates. Material for risk, not for the business."
+  },
+  {
+   "claim": "Analysts have barely raised revenue estimates: consensus for FY2027-2031 rose less than 4% while the stock rose 147% since end-January; the mean target (~$236) sits about 13% below the price.",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-more-doubled-2026-wall-141555932.html",
+   "assessment": "Tier 3 (TIKR data). Means the rise is mostly a higher multiple, not higher forecasts; StockAnalysis confirms average target $237.77 below the price."
+  },
+  {
+   "claim": "The SEC inquiry into the company's accounting for certain customer transactions may still be open.",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-justice-department-closes-investigation-171512426.html",
+   "assessment": "Tier 2 (Bloomberg). Pre-existing, not new; watch the next 10-Q (early December) for an update."
+  },
+  {
+   "claim": "Long-term Treasury yields at 2002 highs (10-year 5.365% on 2026-10-07) pressure high-multiple tech.",
+   "url": "https://www.cnbc.com/2026/10/06/stock-market-today-live-updates.html",
+   "assessment": "Tier 2 via search excerpt. A macro headwind that hits CRWD more than the market because of its valuation (inference, medium)."
+  },
+  {
+   "claim": "Insiders keep selling: about $26.2m more in this window, after ~$210m in the prior weeks; no purchases.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000177/xslF345X06/form4-10062026_081001.xml",
+   "assessment": "All pre-planned (10b5-1), so a weak signal; not a breaker."
+  },
+  {
+   "claim": "AI labs' own security tools can be seen as substitutes: CRWD fell 7.9% in one session earlier in 2026 after Anthropic announced Claude Code Security.",
+   "url": "https://www.tradingview.com/news/stockstory:1470f7826094b:0-why-crowdstrike-crwd-stock-is-falling-today/",
+   "assessment": "Tier 3, historic (date not verified, not in window). Relevant to trigger 4 (customer loss to AI-security rivals); no such loss reported."
+  }
+ ],
+ "open_questions": [
+  "No tier 1-2 source gives a CrowdStrike-specific reason for Wednesday's extra -2.35 points; the CNBC line (yields, AI-buildout worries) and the Motley Fool 'no specific news' are the best available. Benzinga's 'Why Is CrowdStrike Stock Falling Wednesday?' could not be read (403).",
+  "CNBC's live blog returned 403; the yield and index figures (10-year 5.365%, 30-year 5.732%, S&P 500 -0.22% to 7,801.77) come from the search engine's excerpt of that page. SPY's -0.24% close is consistent.",
+  "Yorkville Ives & Co (Daniel Ives) initiation at Buy, $335, on 2026-10-07: only on StockAnalysis; unconfirmed.",
+  "StoneX date: 2026-10-06 per Motley Fool and Stocktwits; StockAnalysis lists 2026-10-07.",
+  "Gandhi's Form 144 covered 82,000 shares but only 54,000 are reported sold; the remaining 28,000 may appear in a later Form 4.",
+  "AIDR '79-fold in three quarters': what is measured (ARR, revenue, customers) and the launch date are not stated; whether this figure was already given on the Q2 call is not verified.",
+  "A tier-3 article (Yahoo, 2026-10-06) says CrowdStrike also listed on an Anthropic Claude marketplace in September 2026; not verified with a primary source and not in the news log.",
+  "Q3 FY2027 report date and current Q3 consensus EPS/revenue not available from a verified source.",
+  "The 2026-09-25 DOJ probe closure (Bloomberg) is not in the news log; the main session may want to add it as background."
+ ],
+ "searches_run": 15,
+ "notes": "15 web searches attempted (14 completed; 1 blocked by the session search budget) plus about 30 direct fetches of primary and secondary pages. ad-hoc-news.de items (CyberCert '3.39%' story) were used only as pointers to the CrowdStrike press release, not as evidence."
+}

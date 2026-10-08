@@ -203,6 +203,35 @@
         "z": -0.14,
         "next_5_days_pct": 6.78
       }
+    },
+    {
+      "key": "viav-2026-10-07-calnex-partnership",
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "partnership",
+      "materiality": "low",
+      "direction": "good",
+      "what": "Calnex expanded its partnership with VIAVI to combine test products for AI, data-center and defence networks; no money terms.",
+      "source": {
+        "name": "Calnex via PR Newswire",
+        "date": "2026-10-07",
+        "url": "https://www.prnewswire.co.uk/news-releases/calnex-and-viavi-expand-partnership-to-deliver-end-to-end-network-and-application-performance-validation-for-next-generation-networks-302901337.html",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -3.88,
+        "market_pct": -0.24,
+        "beyond_market_pct": -3.64,
+        "typical_day_pct": 3.02,
+        "z": -1.21,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -227,14 +256,25 @@
       "company_part_pct": -0.35,
       "z": -0.09,
       "main_news": "BlackRock reported owning 24,923,503 shares, 10.1% of VIAVI, as of 2026-09-30 (Schedule 13G/A, passive holder)."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 46.27,
+      "day_pct": -3.88,
+      "market_part_pct": -0.06,
+      "industry_part_pct": -1.28,
+      "company_part_pct": -2.55,
+      "z": -0.64,
+      "main_news": "Calnex expanded its partnership with VIAVI to combine test products for AI, data-center and defence networks; no money terms."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-05",
+    "as_of": "2026-10-07",
     "events": [
       {
-        "date": "about 2026-10-28",
-        "event": "Q1 FY2027 results (guidance $450-460m)",
+        "date": "2026-10-28",
+        "event": "Q1 FY2027 results (estimated; possibly about 11-04)",
         "confirmed": false,
         "source": {}
       },

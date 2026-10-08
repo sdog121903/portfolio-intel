@@ -1,0 +1,583 @@
+{
+ "ticker": "LITE",
+ "company": "Lumentum Holdings Inc.",
+ "window": {
+  "from": "2026-10-05T20:00Z (after the Monday 5 Oct US close)",
+  "to": "2026-10-07T16:20Z, extended to the Wednesday 2026-10-07 US close using closing figures supplied by the main session"
+ },
+ "newest_item_checked": "EDGAR submissions list for CIK 1633978, fetched during the 7 Oct US session (newest filing: ARS accepted 2026-10-07 00:08 UTC; no 8-K, Form 4, 144, S-3 or 424B after it at that time; NOT re-checked after the 7 Oct close). StockAnalysis ratings list newest entry: Bernstein 2026-10-07. MarketBeat headline list newest: 2026-10-07 07:03 ET (an institutional-holding item, noise). Wednesday close $1,111.07 (-1.97%) and its attribution were supplied by the main session from data/.",
+ "events": [
+  {
+   "date": "2026-10-06",
+   "timing": "during",
+   "type": "price move (record close), no company news found",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "LITE rose 3.82% to a record close of $1,133.40 (from $1,091.67). The pipeline's 52-week high is now $1,137.20, set during Tuesday's session (Monday's intraday record was $1,124.40). The gain built through the day: +0.4% at $1,095.67 at 9:52 a.m. ET, when 24/7 Wall St. wrote that Lumentum 'sits out the rally'; +1.98% at $1,113.24 at 11:59 a.m. ET; +3.82% at the close. Attribution: market +0.29 points, chip industry (SMH) -1.32, company-specific +4.86 (z-score 0.97, so within this stock's normal day-to-day noise). AI-networking peers also rose while the chip fund slipped 0.2%: AAOI +7.1% (its own news, see below), CRDO +3.9%, VIAV +2.6%, Coherent +1.41% to $338.36. No Lumentum press release, 8-K or tier-1/2 news story was published during Tuesday's session. The proxy was filed at 8:05 p.m. ET, after the close, so it cannot explain the move. A MarketBeat auto-headline at 4:59 p.m. ET reads 'Lumentum Shares Up 3.8% Following Analyst Upgrade', but no new upgrade dated 6 Oct was found. The only analyst actions nearby were Stifel's target raise and Rosenblatt's unchanged Buy, both on Monday 5 Oct before the open.",
+   "why_it_matters": "This is a record close with no published company cause. It looks like the AI-optics group's momentum continuing, not new facts about Lumentum's sales or profits. The company part is large in points but normal for this very volatile stock.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Pipeline attribution data/metrics/attribution-2026-10-07.json",
+     "date": "2026-10-07",
+     "url": "file://data/metrics/attribution-2026-10-07.json",
+     "tier": 1
+    },
+    {
+     "name": "24/7 Wall St. (9:52 a.m. ET snapshot)",
+     "date": "2026-10-06",
+     "url": "https://247wallst.com/investing/2026/10/06/applied-optoelectronics-surges-6-as-600m-share-sale-program-closes-lumentum-sits-out-the-rally-corning-edges-higher/",
+     "tier": 3
+    },
+    {
+     "name": "ad-hoc-news (11:59 a.m. ET snapshot; auto-generated)",
+     "date": "2026-10-06",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/lumentum-stock-gains-1-98-percent-before-its-next-results/70244244",
+     "tier": 3
+    },
+    {
+     "name": "ad-hoc-news, Coherent close 6 Oct (auto-generated)",
+     "date": "2026-10-06",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/coherent-stock-reflects-34-percent-revenue-growth/70243880",
+     "tier": 3
+    },
+    {
+     "name": "MarketBeat LITE headline list (auto-generated headlines)",
+     "date": "2026-10-06",
+     "url": "https://www.marketbeat.com/stocks/NASDAQ/LITE/news/",
+     "tier": 3
+    },
+    {
+     "name": "SEC EDGAR filing index (proxy acceptance time 2026-10-07 00:05:46 UTC)",
+     "date": "2026-10-06",
+     "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/0001308179-26-000420-index.htm",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "during",
+   "type": "peer news (context): Applied Optoelectronics completed a share-sale program",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "AAOI (another of Santi's holdings, an optics peer) rose about 6% in the morning ($128.95 at 9:52 a.m. ET) after completing its $600 million at-the-market share-sale program, which its CEO called 'the third such program this year'. At that time the Roundhill Photonics & Optics ETF was up 0.42%, roughly in line with the S&P 500's 0.43%, so the morning move in optics was AAOI-specific.",
+   "why_it_matters": "This rules out one possible cause of Lumentum's rise: there was no group-wide optics news in the morning. Lumentum's gain came later in the day.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "24/7 Wall St.",
+     "date": "2026-10-06",
+     "url": "https://247wallst.com/investing/2026/10/06/applied-optoelectronics-surges-6-as-600m-share-sale-program-closes-lumentum-sits-out-the-rally-corning-edges-higher/",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "after close",
+   "type": "proxy statement (DEF 14A), additional proxy material (DEFA14A) and annual report to shareholders (ARS)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "The annual meeting is set for Wednesday 2026-11-18 at 8:00 a.m. Pacific Time, online only. The record date was 2026-09-24 and voting closes at 11:59 p.m. ET on 2026-11-17. There are only three items on the agenda: (1) elect eight directors; (2) a non-binding 'say-on-pay' vote on executive pay; (3) approve Deloitte & Touche again as auditor for the year ending 2027-07-03. There is NO request to approve new shares, a new equity plan, a share increase or a reverse split. Director Julia S. Johnson (on the board since 2017) is not standing again, so the board shrinks from nine to eight. CEO Michael Hurlston's reported fiscal-2026 pay was $15,392,731 ($900,000 salary, $12,291,577 in stock awards valued at grant date, $2,179,710 cash bonus). His fiscal-2025 figure was $27,670,076, which included his hiring awards. His pay was 1,478 times the median employee's $10,412. Shareholders backed executive pay with 94.8% of votes in 2024 and 88.3% in 2025. The proxy also discloses 2026 changes to earlier performance-share awards, which added 'incremental fair value' to fiscal-2026 stock-award figures. Share count on the record date: 90,582,856 common shares plus 2,876,415 Series A convertible preferred shares, 93,459,271 on an as-converted basis. The common count was 90,385,389 on 2026-08-28.",
+   "why_it_matters": "This is routine annual-meeting paperwork. It matters mainly for what it does not contain: no request for new shares (relevant to pillar 5 and trigger 6). It also confirms the share count, and the CEO letter adds fresh product statements (next event).",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Lumentum DEF 14A (SEC)",
+     "date": "2026-10-06",
+     "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm",
+     "tier": 1
+    },
+    {
+     "name": "Lumentum DEFA14A notice of internet availability (SEC)",
+     "date": "2026-10-06",
+     "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000421/lite2026-defa14a.htm",
+     "tier": 1
+    },
+    {
+     "name": "Lumentum ARS (SEC)",
+     "date": "2026-10-06",
+     "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000422/lite-ars.pdf",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "after close",
+   "type": "company statement (shareholder letter in proxy): product progress",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "The CEO and Chair's letter in the proxy says Lumentum's optical circuit switch (OCS) business is 'rapidly scaling past a $100 million quarterly revenue run rate'. It adds 'we expect this product line to generate revenue in the billions in upcoming years'. The letter also says the company 'started production of our next-generation 1.6T modules', that its ultra-high-power lasers support co-packaged and near-packaged optics, and that its first-quarter fiscal-2027 revenue guidance points 'to continued triple-digit year-over-year growth'. It describes fiscal-2026 revenue as its 'eighth consecutive quarter of top-line growth'. The letter gives no new numbers beyond these. On the August call, management had expected Q1 FY2027 to be the first quarter with OCS revenue above $100 million.",
+   "why_it_matters": "OCS is the newest product line. The company now says in a legal filing that it has passed the $100 million-a-quarter mark, about 8% of guided quarterly revenue (inference from cited figures). The 'billions' line is a management expectation, not a forecast with numbers.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "Lumentum DEF 14A, shareholder letter",
+     "date": "2026-10-06",
+     "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm",
+     "tier": 1
+    },
+    {
+     "name": "Investing.com Q4 FY2026 call transcript (earlier OCS comment)",
+     "date": "2026-08-11",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-lumentum-tops-q4-2026-forecasts-as-ai-demand-lifts-outlook-93CH-4852933",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "timing": "before open",
+   "type": "analyst action (price target raise); just before the window, not in the news log or the 5 Oct report",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "Stifel (analyst Ruben Roy) kept Buy and raised its target to $1,232 from $1,100, according to Investing.com (8:46 a.m., 5 Oct). After meetings at the ECOC optics conference, Stifel cited 'strong demand for the company's lasers ahead of available supply'. It said management indicated 'NVIDIA's ultra-high-power laser requirements had accelerated into year-end and calendar year 2027', with 'incremental December demand exceeding shipment capacity'. Stifel named fiscal-Q2 guidance and a possible capacity step-up in the March quarter as the next drivers of its estimates. The same day MarketBeat-family sites reported Rosenblatt reaffirming Buy with an unchanged $1,300 target. LITE closed +0.58% that Monday.",
+   "why_it_matters": "This is an opinion, but it contains a relayed management comment that bears on pillar 2 (demand bigger than supply): NVIDIA's laser demand is reportedly growing faster than Lumentum can ship. That comment comes only through the analyst; the company has not said it publicly.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "Investing.com",
+     "date": "2026-10-05",
+     "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-lumentum-stock-price-target-on-laser-demand-outlook-93CH-4932162",
+     "tier": 3
+    },
+    {
+     "name": "ad-hoc-news (target change only; auto-generated)",
+     "date": "2026-10-05",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/lumentum-stock-draws-higher-targets-after-revenue-doubles/70235325",
+     "tier": 3
+    },
+    {
+     "name": "StockAnalysis ratings list (target change only)",
+     "date": "2026-10-05",
+     "url": "https://stockanalysis.com/stocks/lite/ratings/",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "timing": "unknown",
+   "type": "analyst action (reiteration, unconfirmed)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "StockAnalysis lists Bernstein (Daniel Zhu) as 'Buy (Maintains)' with a $1,220 target on 2026-10-07, the same target as its 30 Sep initiation at Outperform. No article or second source describing a 7 Oct Bernstein note was found. Searches returned only the 30 Sep initiation.",
+   "why_it_matters": "There is no change in rating or target, so it adds no new information. Treat it as unconfirmed.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "StockAnalysis ratings list",
+     "date": "2026-10-07",
+     "url": "https://stockanalysis.com/stocks/lite/ratings/",
+     "tier": 3
+    },
+    {
+     "name": "MarketBeat, Bernstein initiation (background)",
+     "date": "2026-09-30",
+     "url": "https://www.marketbeat.com/instant-alerts/analyst-lumentum-nasdaq-lite-now-covered-by-analysts-at-sanford-c-bernstein-2026-09-30/",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "timing": "during",
+   "type": "price move (sector-driven decline)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "LITE closed at $1,111.07, -1.97%. Attribution (main session, from data/): market -0.13 points, chip industry -1.62, company -0.22 (z-score -0.04), so almost all of the fall came from chip stocks falling. SMH was down about 1.5% and AAOI about 7.0% at 12:18 p.m. ET (intraday file). No Lumentum-specific news was found for Wednesday. Over the two days LITE is up 1.78% from Monday's $1,091.67 close.",
+   "why_it_matters": "Wednesday's dip was the sector, not Lumentum.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Main-session attribution for 2026-10-07 (from data/)",
+     "date": "2026-10-07",
+     "url": "file://data/metrics/attribution-2026-10-07.json",
+     "tier": 1
+    },
+    {
+     "name": "Intraday snapshot data/research/2026-10-07/intraday-2026-10-07.json",
+     "date": "2026-10-07",
+     "url": "file://data/research/2026-10-07/intraday-2026-10-07.json",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "date": "2026-03-02",
+   "timing": "unknown",
+   "type": "background, new to the record: NVIDIA bought $2.0bn of convertible preferred stock",
+   "materiality": "medium",
+   "new_or_rehash": "rehash",
+   "summary": "Note 14 of the fiscal-2026 10-K says that on 2026-03-02 Lumentum sold about 2.9 million Series A convertible preferred shares to NVIDIA Corporation in a private placement at $695.31 each, $2.0 billion in cash. Each preferred share converts one-for-one into common stock: at NVIDIA's option once the US antitrust (Hart-Scott-Rodino) waiting period ends, or automatically on a sale to a non-affiliate. It gets the same dividends as common stock. It votes with common stock except in director elections. It has no liquidation preference, no redemption right and no preemptive right. The proxy shows 2,876,415 preferred shares outstanding on 2026-09-24, equal to about 3.2% of the 90,582,856 common shares (arithmetic). Separately, the 10-K says every series of Lumentum's convertible notes (2026, 2028, 2029, 2032) 'remain convertible at the option of the holders during the first quarter of fiscal year 2027', with principal to be settled in cash. The 2032 notes carry a $187.77 conversion price, a $1,256.1M carrying value and a $5,411.1M estimated fair value.",
+   "why_it_matters": "This is not news in the window (it is in the 10-K of 2026-08-14), but it is missing from the thesis and the news log. Santi's thesis counts only the bond-swap dilution. Lumentum's biggest AI customer-partner owns a $2bn stake. That supports the demand story, but it is also roughly 3.2% more potential shares. The remaining convertible notes can still add shares as they convert. Neither is a new issue, so trigger 6 is not hit, but both are relevant to pillar 5.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Lumentum 10-K FY2026, Note 14 (Equity) and convertible-notes note",
+     "date": "2026-08-14",
+     "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
+     "tier": 1
+    },
+    {
+     "name": "Lumentum DEF 14A (preferred shares outstanding at record date)",
+     "date": "2026-10-06",
+     "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm",
+     "tier": 1
+    }
+   ]
+  }
+ ],
+ "why_chain": [
+  {
+   "rung": 1,
+   "text": "Tuesday 2026-10-06: LITE rose 3.82% to a record close of $1,133.40.",
+   "evidence": "file://data/metrics/2026-10-07.json"
+  },
+  {
+   "rung": 2,
+   "text": "Almost all of it was Lumentum's own move: market +0.29, chip industry -1.32, company +4.86 points. A z-score of 0.97 means that is still within this stock's normal daily noise (its typical company-only move is about 5%).",
+   "evidence": "file://data/metrics/attribution-2026-10-07.json"
+  },
+  {
+   "rung": 3,
+   "text": "Lumentum published nothing during the session: no press release, 8-K or tier-1/2 news. The proxy came at 8:05 p.m. ET, after the close.",
+   "evidence": "https://www.stocktitan.net/news/LITE/ | https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/0001308179-26-000420-index.htm"
+  },
+  {
+   "rung": 4,
+   "text": "The gain built steadily through the day: +0.4% at 9:52 a.m., +1.98% at 11:59 a.m., +3.82% at the close. That pattern looks like steady buying, not a reaction to one headline.",
+   "evidence": "https://247wallst.com/investing/2026/10/06/applied-optoelectronics-surges-6-as-600m-share-sale-program-closes-lumentum-sits-out-the-rally-corning-edges-higher/ ; https://www.ad-hoc-news.de/boerse/news/corporate-news/lumentum-stock-gains-1-98-percent-before-its-next-results/70244244 (tier 3); 'steady buying' is inference (medium)"
+  },
+  {
+   "rung": 5,
+   "text": "Other AI-networking stocks also rose while the broad chip fund slipped (AAOI +7.1% on its own share-sale news, CRDO +3.9%, VIAV +2.6%, Coherent +1.4%; SMH -0.2%). Investors appear to have favoured AI-optics names over chips in general that day.",
+   "evidence": "inference (medium), from pipeline price data and https://www.ad-hoc-news.de/boerse/news/corporate-news/coherent-stock-reflects-34-percent-revenue-growth/70243880"
+  },
+  {
+   "rung": 6,
+   "text": "The recent fuel for that preference: analyst notes repeating that laser demand is ahead of supply (Stifel on 5 Oct, relaying that NVIDIA's high-power laser demand accelerated and December demand exceeds shipment capacity), which keeps the stock at record highs. MarketBeat's automatic headline credits an 'analyst upgrade', but no 6 Oct upgrade exists.",
+   "evidence": "https://www.investing.com/news/analyst-ratings/stifel-raises-lumentum-stock-price-target-on-laser-demand-outlook-93CH-4932162 (tier 3); link to Tuesday's move is inference (low)"
+  },
+  {
+   "rung": 7,
+   "text": "Basic driver: investors believe AI data centers need more laser links than suppliers can make. That belief is backed by the company's last results (revenue +109%, Q1 FY2027 guided to $1.225-1.275bn). Nobody published a specific reason for Tuesday's extra 4.9 points, so the honest answer is 'no single reported cause; normal-sized move in a hot group'.",
+   "evidence": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results/default.aspx ; rung as applied to 6 Oct is inference (medium)"
+  },
+  {
+   "rung": 8,
+   "text": "Wednesday 2026-10-07: -1.97% to $1,111.07, almost all from chip stocks falling (industry -1.62 of the -1.97 points; company -0.22, z -0.04). No Lumentum news.",
+   "evidence": "file://data/metrics/attribution-2026-10-07.json (main-session figures)"
+  }
+ ],
+ "products": [
+  {
+   "name": "Optical circuit switch (OCS)",
+   "what_it_is": "A box that redirects beams of light between fibres using tiny moving mirrors. It lets a data center rewire which servers talk to which without turning the light into electricity.",
+   "analogy": "A railway switching yard that moves the tracks instead of unloading and reloading every train.",
+   "buyers": "Hyperscale cloud companies building AI clusters. Third-party analysis names Google as the main customer at scale; the company has not confirmed this.",
+   "how_it_works": "Micro-mirrors steer incoming light to the chosen output fibre. Because the signal stays as light, the switch saves power and works at any data speed.",
+   "price": "not disclosed",
+   "sales": "Not separately reported. The company now says OCS is 'rapidly scaling past a $100 million quarterly revenue run rate' and expects 'revenue in the billions in upcoming years' (shareholder letter, 2026-10-06). Proxy: Systems segment revenue was $1.01bn in FY2026 (+90.7%), which includes OCS and transceiver modules.",
+   "sales_source": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm (2026-10-06); segment figure from 10-K https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
+   "stage": "Shipping and ramping in volume",
+   "size_for_company": "At $100 million a quarter, OCS is about 8% of the guided $1.225-1.275bn quarterly revenue (inference from cited figures).",
+   "competition": "Coherent and others are developing OCS; Google has built its own in the past (not verified in this run).",
+   "why_investors_care": "It is a new, fast-growing product line that management now says could reach billions of dollars. Citi forecast an $11bn OCS market by 2030 (2026-09-28, tier 3).",
+   "watch_next": "OCP Global Summit talk on 2026-10-14 (zero-touch OCS fabrics); whether Q1 FY2027 results on 2026-11-05 put a number on OCS revenue or name customers."
+  },
+  {
+   "name": "Ultra-high-power lasers / external light source (ELS) for co-packaged optics (CPO)",
+   "what_it_is": "Very powerful continuous lasers that sit outside the switch chip and feed light to optical engines packaged right next to it.",
+   "analogy": "One central power station feeding many houses, instead of every house running its own generator.",
+   "buyers": "Switch and GPU system makers. Stifel says NVIDIA is a key buyer (tier 3; the company has not named NVIDIA as a buyer of this product).",
+   "how_it_works": "Moving the optics next to the chip removes the separate digital signal processor (DSP) in each pluggable module, which cuts power and cost. The laser stays outside, so it can be replaced and kept cool.",
+   "price": "not disclosed",
+   "sales": "Not disclosed. Proxy: Components segment revenue $2.01bn in FY2026 (+79.7%). Stifel (2026-10-05, tier 3) reports management saying NVIDIA's ultra-high-power laser requirements 'accelerated into year-end and calendar year 2027' and December demand exceeds shipment capacity.",
+   "sales_source": "https://www.investing.com/news/analyst-ratings/stifel-raises-lumentum-stock-price-target-on-laser-demand-outlook-93CH-4932162 ; 10-K https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
+   "stage": "Shipping, early ramp. An eight-wavelength DWDM ELSFP module was demonstrated at ECOC 2026, with availability expected in the first half of 2027 (company release, 2026-09-21).",
+   "size_for_company": "not disclosed",
+   "competition": "Coherent and other indium phosphide laser makers; the CPO timetable itself is debated (some reports of delay worries, not verified this run).",
+   "why_investors_care": "If CPO takes off, every switch needs these lasers. The shareholder letter calls it 'a major architectural shift'.",
+   "watch_next": "OCP Summit talk on external laser source architectures (2026-10-14); any figure on the call on 2026-11-05."
+  },
+  {
+   "name": "1.6T optical transceiver modules",
+   "what_it_is": "Plug-in modules that convert electrical data into light and back, moving 1.6 terabits per second, twice the 800G generation.",
+   "analogy": "A faster translator at each end of a phone line between two servers.",
+   "buyers": "Cloud companies and AI cluster builders.",
+   "how_it_works": "Eight lanes of 200 gigabits each, driven by Lumentum's own 200G-per-lane lasers.",
+   "price": "not disclosed",
+   "sales": "Not disclosed. The company says it 'started production of our next-generation 1.6T modules' (shareholder letter, 2026-10-06). Proxy: Systems segment revenue $1.01bn in FY2026.",
+   "sales_source": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm",
+   "stage": "Early production",
+   "size_for_company": "not disclosed",
+   "competition": "Chinese makers InnoLight and Eoptolink (the targets of the US Senate bill), Coherent, and others.",
+   "why_investors_care": "Faster modules sell for more, and the shareholder letter claims 'an early market advantage' in signal integrity.",
+   "watch_next": "Any 1.6T revenue or customer comment on the 2026-11-05 call."
+  }
+ ],
+ "earnings": {
+  "status": "upcoming",
+  "date": "2026-11-05",
+  "confirmed": true,
+  "consensus": {
+   "eps": "Nasdaq (Zacks data, fetched 2026-10-07): $3.82 for the Sep-2026 quarter (6 estimates, range $3.78-3.87, 0 revisions in 4 weeks). This is below the company's own $4.05-4.35 non-GAAP guide, so it is probably on a different EPS basis or out of date. The 2026-10-04 research cited $4.27 non-GAAP from another aggregator (unverified). Treat as not verified.",
+   "revenue": "not available from a verified source this run (2026-10-04 research: $1.27bn, aggregator, unverified)"
+  },
+  "actual": {},
+  "guidance": {
+   "q1_fy27_revenue": "$1.225-1.275 billion",
+   "q1_fy27_non_gaap_operating_margin": "39.5%-40.5%",
+   "q1_fy27_non_gaap_eps": "$4.05-4.35",
+   "reaffirmation": "No new numbers. The 2026-10-06 shareholder letter says the guidance points 'to continued triple-digit year-over-year growth'."
+  },
+  "key_metrics": {},
+  "quality_flags": [
+   "Aggregator EPS consensus ($3.82) sits below the low end of company guidance; check definitions before comparing on results day."
+  ],
+  "management_explanation": "not applicable (not yet reported)",
+  "sources": [
+   "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results/default.aspx",
+   "https://finance.yahoo.com/markets/stocks/articles/lumentum-announces-reporting-date-fiscal-120000373.html",
+   "https://api.nasdaq.com/api/analyst/LITE/earnings-forecast",
+   "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm"
+  ]
+ },
+ "next_earnings": {
+  "date": "2026-11-05 (Thursday), after the US close; webcast 2:00 p.m. PT / 5:00 p.m. ET",
+  "confirmed": true,
+  "consensus_eps": "$3.82 per Nasdaq/Zacks data (6 estimates), which is below company guidance and probably on a different basis; earlier aggregator figure $4.27 non-GAAP. Neither verified by tier 1/2.",
+  "consensus_revenue": "not available (verified); earlier aggregator figure $1.27bn, unverified",
+  "company_guidance": "Q1 FY2027: revenue $1.225-1.275bn, non-GAAP operating margin 39.5-40.5%, non-GAAP EPS $4.05-4.35 (given 2026-08-11); described on 2026-10-06 as pointing to continued triple-digit year-over-year growth",
+  "sources": [
+   "https://finance.yahoo.com/markets/stocks/articles/lumentum-announces-reporting-date-fiscal-120000373.html",
+   "https://www.stocktitan.net/news/LITE/",
+   "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results/default.aspx",
+   "https://api.nasdaq.com/api/analyst/LITE/earnings-forecast",
+   "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm"
+  ]
+ },
+ "analyst_actions": [
+  {
+   "date": "2026-10-05",
+   "firm": "Stifel (Ruben Roy)",
+   "action": "Buy kept; target raised to $1,232 from $1,100",
+   "reason": "Laser demand ahead of supply after ECOC meetings; management said NVIDIA's ultra-high-power laser needs accelerated into year-end and 2027, with December demand above shipment capacity; fiscal-Q2 guide and a March-quarter capacity step-up as catalysts (opinion, tier 3)",
+   "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-lumentum-stock-price-target-on-laser-demand-outlook-93CH-4932162"
+  },
+  {
+   "date": "2026-10-05",
+   "firm": "Rosenblatt (Mike Genovese)",
+   "action": "Buy reaffirmed, $1,300 target unchanged",
+   "reason": "not stated in the source (auto-generated article)",
+   "url": "https://www.dailypolitical.com/2026/10/06/lumentum-nasdaqlite-given-buy-rating-at-rosenblatt-securities.html"
+  },
+  {
+   "date": "2026-10-07",
+   "firm": "Bernstein (Daniel Zhu)",
+   "action": "Listed as 'Buy (Maintains)', $1,220 target unchanged (unconfirmed, single tier-3 source)",
+   "reason": "not available",
+   "url": "https://stockanalysis.com/stocks/lite/ratings/"
+  }
+ ],
+ "insiders": {
+  "summary": "No new insider filings in the window (EDGAR list checked during the 7 Oct session; last Form 4 was filed 2026-10-02). The most recent sales are already in the news log: CFO Wajid Ali sold 24,542 shares on 2026-10-01 at $1,048.50 (about $25.7m) under a 10b5-1 plan, and President of Global Business Units Wupen Yuen sold 500 and 307 shares on 2026-09-28/29 under a 10b5-1 plan. The pipeline lists no sellers outside a 10b5-1 plan. MarketBeat says insiders sold $85,978,498 and bought $0 over the past 90 days (tier 3, consistent with the Form 4s). The proxy puts insider ownership at 0.43% (MarketBeat figure, tier 3; the proxy table itself was not summarised).",
+  "notable": [
+   {
+    "date": "2026-10-01",
+    "who": "Wajid Ali, EVP & CFO",
+    "what": "Sold 24,542 shares at $1,048.50 (~$25.7m) under 10b5-1; 75,074 shares left (rehash)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000156110026000008/xslF345X06/form4-10022026_081041.xml"
+   },
+   {
+    "date": "2026-10-06",
+    "who": "Michael Hurlston, CEO",
+    "what": "Proxy discloses FY2026 total pay of $15,392,731 (FY2025: $27,670,076 incl. hiring awards); CEO pay ratio 1,478:1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm"
+   }
+  ]
+ },
+ "filings": [
+  {
+   "form": "DEF 14A",
+   "items": "Annual meeting 2026-11-18 (virtual); 1) elect 8 directors, 2) advisory say-on-pay, 3) ratify Deloitte for FY ending 2027-07-03; no share authorisation or equity-plan proposal; director Julia S. Johnson not standing; 90,582,856 common + 2,876,415 convertible preferred shares on 2026-09-24",
+   "plain_english": "The annual invitation to shareholders: who is on the board, how executives are paid, and the auditor. Nothing on it would create new shares. The CEO letter says OCS has passed a $100m-a-quarter run rate and 1.6T modules are in production.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm"
+  },
+  {
+   "form": "DEFA14A",
+   "items": "Notice of internet availability / voting card",
+   "plain_english": "A one-page notice telling shareholders how to vote. It repeats the three agenda items and the board's 'For' recommendations. Voting closes 2026-11-17 11:59 p.m. ET.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000421/lite2026-defa14a.htm"
+  },
+  {
+   "form": "ARS",
+   "items": "Annual report to security holders (PDF)",
+   "plain_english": "The glossy annual report sent with the proxy. It repackages the 10-K already filed on 2026-08-14; not opened in detail.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000422/lite-ars.pdf"
+  }
+ ],
+ "catalysts": [
+  {
+   "date": "2026-10-12 to 2026-10-15",
+   "event": "OCP Global Summit (San Jose); Lumentum talks on 2026-10-14 (external laser source architectures for CPO; zero-touch OCS fabrics)",
+   "confirmed": true,
+   "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Speaker-Lineup-at-2026-OCP-Global-Summit/default.aspx"
+  },
+  {
+   "date": "2026-11-05",
+   "event": "Q1 FY2027 results after the close; webcast 2:00 p.m. PT / 5:00 p.m. ET (guide $1.225-1.275bn revenue, $4.05-4.35 non-GAAP EPS)",
+   "confirmed": true,
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-announces-reporting-date-fiscal-120000373.html"
+  },
+  {
+   "date": "2026-11-17",
+   "event": "Proxy voting deadline, 11:59 p.m. ET",
+   "confirmed": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000421/lite2026-defa14a.htm"
+  },
+  {
+   "date": "2026-11-18",
+   "event": "Annual shareholder meeting, 8:00 a.m. PT, online (directors, say-on-pay, auditor)",
+   "confirmed": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm"
+  },
+  {
+   "date": "not available",
+   "event": "FCC rule on Chinese optical transceivers (drafted, not published) and progress of the Senate bill (not re-checked this run)",
+   "confirmed": false,
+   "url": "https://www.mccormick.senate.gov/news/press-releases/senators-mccormick-gallego-cornyn-fetterman-introduce-bill-to-keep-chinese-transceivers-out-of-u-s-national-security-systems/"
+  }
+ ],
+ "thesis_breaker_checks": [
+  {
+   "event": "the company cut its revenue or profit forecast (guidance)",
+   "found": false,
+   "evidence": "No guidance update. The shareholder letter in the 2026-10-06 proxy restates that Q1 FY2027 guidance points to continued triple-digit growth (DEF 14A)."
+  },
+  {
+   "event": "results missed analysts' revenue or EPS estimates",
+   "found": false,
+   "evidence": "No results in the window; next results 2026-11-05."
+  },
+  {
+   "event": "a major customer was lost, or a major customer cut orders",
+   "found": false,
+   "evidence": "No report found. Stifel (2026-10-05, tier 3) reports the opposite for NVIDIA: laser demand accelerating."
+  },
+  {
+   "event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+   "found": false,
+   "evidence": "No 8-K in the window (EDGAR submissions list)."
+  },
+  {
+   "event": "the auditor resigned or was dismissed (8-K Item 4.01)",
+   "found": false,
+   "evidence": "The proxy asks shareholders to ratify Deloitte & Touche again for fiscal 2027; no 8-K."
+  },
+  {
+   "event": "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+   "found": false,
+   "evidence": "No 8-K. CEO Hurlston and CFO Ali are named as proxy holders in the 2026-10-06 proxy. The only board change is that director Julia S. Johnson will not stand for re-election (not CEO/CFO)."
+  },
+  {
+   "event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+   "found": false,
+   "evidence": "No S-3, 424B or 8-K 3.02 in the window, and the proxy asks for no new share authorisation. Background, not new: NVIDIA's $2.0bn convertible preferred (2026-03-02; 2,876,415 shares, about 3.2% of common) and existing convertible notes that remain convertible in Q1 FY2027 (10-K)."
+  },
+  {
+   "event": "a regulator opened an investigation, or major litigation was filed",
+   "found": false,
+   "evidence": "Disconfirming search found only a 2023-era law-firm 'investigation' advert (avoid tier, unrelated to the window); nothing new in 2026."
+  },
+  {
+   "event": "two or more analyst downgrades within five trading days",
+   "found": false,
+   "evidence": "Window actions were a target raise (Stifel), an unchanged Buy (Rosenblatt) and an unconfirmed unchanged Buy (Bernstein). A 'downgrade' search found no October 2026 downgrade."
+  },
+  {
+   "event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+   "found": false,
+   "evidence": "No new Form 4 in the window; the latest sales (CFO 10-01, Yuen 09-28/29) were under 10b5-1 plans (pipeline filings data)."
+  },
+  {
+   "event": "Thesis trigger 1: revenue guidance is cut",
+   "found": false,
+   "evidence": "As above; not hit."
+  },
+  {
+   "event": "Thesis trigger 2: management says supply has caught up with demand and prices are falling",
+   "found": false,
+   "evidence": "Not found. Stifel (tier 3) relays the opposite: 'incremental December demand exceeding shipment capacity'."
+  },
+  {
+   "event": "Thesis trigger 3: one of its two biggest customers cuts orders",
+   "found": false,
+   "evidence": "Not found in any window source."
+  },
+  {
+   "event": "Thesis trigger 4: the Chinese-transceiver bill dies or is watered down",
+   "found": false,
+   "evidence": "Nothing surfaced in this run's searches; the bill's status was not specifically re-checked (search budget)."
+  },
+  {
+   "event": "Thesis trigger 5: no change in orders from US customers after rules take effect",
+   "found": false,
+   "evidence": "Not applicable yet (no rule in effect)."
+  },
+  {
+   "event": "Thesis trigger 6: a new share sale or convertible issue adding more than 5% to the share count",
+   "found": false,
+   "evidence": "No prospectus or new convertible in the window. Share count 90,582,856 on 2026-09-24 vs 90,385,389 on 2026-08-28 (+0.2%, DEF 14A)."
+  }
+ ],
+ "disconfirming_evidence": [
+  {
+   "claim": "Valuation is stretched: about 65 times annualised current-quarter EPS; a bear case of about $920 (~15% below $1,085.42) if the optics rally unwinds before November results.",
+   "url": "https://financefeeds.com/lumentum-lite-stock-1085-bernstein-1220-target-ai-optics-bull-1400-bear-920",
+   "assessment": "Opinion (tier 3, 2026-10-03). This is valuation risk, not a thesis breaker. At $1,111.07 the stock is above MarketBeat's average target of $1,078.75 (23 analysts) but below StockAnalysis's $1,162 (26 analysts); the sources disagree."
+  },
+  {
+   "claim": "Lumentum is 'a heavy-asset components manufacturer in the path of a massive but lumpy AI infrastructure cycle'; risks include AI data-center order pauses and rare-earth constraints; Simply Wall St's DCF calls the stock overvalued.",
+   "url": "https://finance.yahoo.com/technology/ai/articles/lumentum-holdings-lite-ai-optics-150949846.html",
+   "assessment": "Opinion (tier 3, 2026-10-04). It matches Santi's accepted risks (jumpiness, customer concentration)."
+  },
+  {
+   "claim": "Not everyone is bullish: TD Cowen Hold ($820, raised 2026-08-12), Morgan Stanley Hold ($1,000, 2026-08-24); MarketBeat counts 5 Hold and 1 Sell among 23 analysts.",
+   "url": "https://stockanalysis.com/stocks/lite/ratings/",
+   "assessment": "These are old ratings, not new downgrades. The lowest target ($820) is about 26% below Wednesday's close."
+  },
+  {
+   "claim": "Insiders sold about $86.0m of stock over 90 days and bought none.",
+   "url": "https://www.marketbeat.com/stocks/NASDAQ/LITE/news/",
+   "assessment": "Tier 3 total, consistent with Form 4s, which were all 10b5-1 planned sales. The rule did not fire."
+  },
+  {
+   "claim": "All series of convertible notes remain convertible at holders' option in Q1 FY2027, and the 10-K warns that 'anticipated future conversions ... could depress the price of our common stock'; NVIDIA's preferred adds about 2.88m potential shares.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
+   "assessment": "Tier 1, background. This is a real source of further share-count growth to check in the next 10-Q (pillar 5). It is not a new issue, so trigger 6 is not hit."
+  },
+  {
+   "claim": "Lawsuit / short-seller / delay search: nothing new in 2026; a German article title indicates a market debate over co-packaged-optics delays, which Lumentum and NVIDIA reportedly disputed.",
+   "url": "https://stock3.com/news/cpo-debatte-lumentum-und-nvidia-widersprechen-verzoegerungssorgen-17112674",
+   "assessment": "Not opened; date unknown; unverified. Worth watching because the CPO laser story is part of the bull case."
+  }
+ ],
+ "open_questions": [
+  "Why LITE rose an extra ~4.9 points on Tuesday 6 Oct: no tier 1/2 source gives a cause. MarketBeat's 'Following Analyst Upgrade' headline is automatic and names no firm; no 6 Oct upgrade was found.",
+  "Bernstein 2026-10-07 'Buy (Maintains) $1,220' appears only on StockAnalysis; no article or note content found.",
+  "Stifel's account of management comments (NVIDIA laser demand accelerating; December demand above capacity) is only in an Investing.com summary; the company has not said it publicly.",
+  "Q1 FY2027 consensus: EPS figures conflict ($3.82 Nasdaq/Zacks vs $4.27 earlier aggregator, both vs a $4.05-4.35 company guide); revenue consensus not verified.",
+  "NVIDIA's $2.0bn preferred stake (10-K Note 14) and the still-convertible notes are not in theses/LITE.md. The main session may want to PROPOSE adding them to Facts and to pillar 5 context (thesis reasons and triggers are Santi's to change).",
+  "EDGAR was checked during the 7 Oct session, not after the close; any late filing on 7 Oct is not covered.",
+  "Status of the Senate Chinese-transceiver bill and the FCC draft rule was not re-checked this run.",
+  "This run's searches were cut short by the shared web-search budget (10 searches, then 5 more after the reset); two disconfirming searches were run, but some planned searches (e.g. tier-2 Reuters/Bloomberg coverage for 6-7 Oct) were not."
+ ],
+ "searches_run": 15
+}

@@ -1,0 +1,178 @@
+{
+  "ticker": "STRL",
+  "company": "Sterling Infrastructure, Inc.",
+  "window": {
+    "from": "2026-10-05 20:00 UTC (after the Monday 5 Oct US close)",
+    "to": "2026-10-07 20:00 UTC (Wednesday 7 Oct US close; coordinator confirmed the session closed)"
+  },
+  "newest_item_checked": "2026-10-07: CNBC search results on the 10-year Treasury yield hitting its highest level since 2002 and the S&P 500 retreating from its record (titles and snippets; CNBC pages returned 403 to direct fetch); Yahoo Finance live blog for 7 Oct; Fed calendar (September minutes released 2026-10-07). Company IR page (strlco.com latest news) checked 2026-10-07: newest release is 2026-10-05 (Hargis appointment); no Q3 scheduling release. SEC EDGAR submissions for CIK 874238 checked: newest filing is the 2026-10-05 8-K (items 7.01, 9.01).",
+  "events": [
+    {
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "sector move / AI-infrastructure rally (no company news)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "STRL rose 7.71% to $563.69 (open $525.25, high $574.90; volume 633,400, 1.19x its 20-day average). No Sterling press release, SEC filing (other than the 5 Oct general-counsel 8-K), contract, or broker rating change was found for the day. The whole AI-infrastructure group rallied on a record day for the S&P 500: tech gains and cooler Treasury yields lifted the index to a record close (CNBC); the 10-year yield fell 5 basis points to 5.27% as falling oil eased inflation worries (Motley Fool); Marvell raised its fiscal 2028 revenue target to about $20bn on data-center demand (CNBC); Google signed a nuclear power deal with Constellation Energy for AI power (Motley Fool, Yahoo live blog). Data-center construction and electrical peers jumped: MYR Group +7.5%, Comfort Systems +4.7%, Powell +3% in the morning session (StockStory via Yahoo), with Comfort Systems reported +6.12% for the day (TradingKey, low-quality source). The broad infrastructure fund PAVE rose only 1.00% and SPY 0.55% (data/prices).",
+      "why_it_matters": "Santi's 5% rule fired. The pipeline labels +5.0 points as company-specific (z 1.11, within normal noise), but the most likely explanation is that the AI data-center builder sub-group (FIX, MYRG, POWL, STRL) rallied much more than PAVE, which holds a broader mix of infrastructure names (inference, medium). Nothing changed in Sterling's business facts that day. Intraday path: STRL opened only +0.37% and was +5.9% by midday on below-average volume (MarketBeat midday note), consistent with a sector/sentiment move rather than a news shock (inference, medium).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "CNBC search result: 'S&P 500 posts first close above 7,800, boosted by tech gains and cooler yields' (live blog)", "date": "2026-10-06", "url": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html", "tier": 2},
+        {"name": "CNBC Investing Club: What Marvell's rosy long-term guidance means for our AI chip stocks", "date": "2026-10-06", "url": "https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html", "tier": 2},
+        {"name": "Motley Fool, Stock Market Midday Oct. 6: S&P 500 sets new high, nuclear stocks surge", "date": "2026-10-06", "url": "https://www.fool.com/coverage/stock-market-today/2026/10/06/stock-market-midday-oct-6-s-and-p-500-sets-new-high-nuclear-stocks-surge/", "tier": 3},
+        {"name": "StockStory via Yahoo Finance: Rocket Lab, MYR Group, Ameresco, Comfort Systems, and Powell shares skyrocket", "date": "2026-10-06", "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-myr-group-ameresco-205634892.html", "tier": 3},
+        {"name": "Yahoo Finance live blog, Tuesday 6 Oct", "date": "2026-10-06", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html", "tier": 3},
+        {"name": "TradingKey: STRL closed up 7.71% on Oct 6 (auto-generated style; peer move FIX +6.12% only)", "date": "2026-10-06", "url": "https://www.tradingkey.com/news/market-movers/262202543-market-movers-strl-20261006", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "macro: bond yields at 24-year high, oil above $100; construction stocks fall",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "STRL fell 5.24% to $534.13 (opened $545.52, -3.22%; low $513.01, -8.99%; high $549.59; volume 740,204). PAVE fell 2.49% and SPY 0.24% (data/prices). Pipeline attribution: market -0.73, industry -5.24, company +0.72 (z 0.16): mostly the construction group falling. Same-day macro: the 10-year Treasury yield hit about 5.35-5.36%, its highest level since 2002, and the 30-year about 5.72%, ahead of a $39bn 10-year auction and the 2 p.m. ET release of the Fed's September minutes (CNBC; Yahoo live blog); Brent crude traded above $101 after attacks on ships in the Strait of Hormuz (Yahoo live blog; sources differ on who attacked: one says Houthi, one says Iranian); traders priced about 20% odds of an October rate hike (TheStreet via Yahoo). No Sterling-specific news, filing or analyst action was found.",
+      "why_it_matters": "Santi's 5% rule fired again (down). The cause is the group, not Sterling: higher long-term interest rates hit highly valued, high-beta stocks hardest (TheStreet: valuation pressure 'particularly outside the mega-cap technology names'), and STRL moves about 3x the market and 2.3x PAVE's excess move (data/metrics). Two-day net: STRL +2.06% vs Monday's close, PAVE -1.52%, SPY +0.31%.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "CNBC search result: '10-year Treasury note yield hits highest level since 2002 as traders brace for key bond sale'", "date": "2026-10-07", "url": "https://www.cnbc.com/amp/2026/10/07/treasury-yields-auction-fomc-minutes.html", "tier": 2},
+        {"name": "CNBC: Here comes third-quarter earnings season (10-year above 5.36%, up from 4.75% in August)", "date": "2026-10-07", "url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html", "tier": 2},
+        {"name": "Yahoo Finance live blog, Wednesday 7 Oct", "date": "2026-10-07", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html", "tier": 3},
+        {"name": "TheStreet via Yahoo Finance: Stock Market Today (Oct. 7, 2026)", "date": "2026-10-07", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-7-133458375.html", "tier": 3},
+        {"name": "Federal Reserve FOMC calendar (September minutes released 2026-10-07)", "date": "2026-10-07", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "timing": "after close",
+      "type": "management change (general counsel), 8-K Item 7.01",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "The 8-K filed 2026-10-05 (items 7.01 Regulation FD and 9.01 exhibits) furnishes the press release appointing Katherine Hargis as Senior Vice President, General Counsel, Chief Compliance Officer and Corporate Secretary, effective 2026-10-05. Already in the news log. New detail found this run: she replaces Mark D. Wolf, general counsel since August 2020; she joins from Key Energy Services (SVP, Chief Administrative Officer, General Counsel) and earlier was general counsel at U.S. Concrete. EDGAR acceptance time 17:35 on 2026-10-05 (EDGAR times are US Eastern), i.e. after the close; the press release time of day was not shown.",
+      "why_it_matters": "Routine; not CEO or CFO, so not a thesis breaker. Not a plausible cause of the +7.7% or -5.2% moves (inference, high). The news log currently assigns its reaction day to 2026-10-05; if the release came out after the close, the reaction day would be 2026-10-06 (open question).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 8-K", "date": "2026-10-05", "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000110/strl-20261005.htm", "tier": 1},
+        {"name": "Sterling press release: Sterling Appoints Katherine Hargis", "date": "2026-10-05", "url": "https://www.strlco.com/news/sterling-appoints-katherine-hargis-as-senior-vice-president-general-counsel-chief-compliance-officer-and-corporate-secretary/", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "quant rating change (Zacks Rank)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Zacks upgraded STRL to Zacks Rank #2 (Buy) from #3 (Hold) on rising earnings estimates; it says the Zacks consensus estimate rose 4.2% over the past three months and puts 2026 EPS at $20.02.",
+      "why_it_matters": "A model-driven rank, not a broker analyst's research call; it reflects estimate revisions that already happened. Low weight as a cause of the move (inference, medium).",
+      "direction": "supports",
+      "sources": [
+        {"name": "Zacks via Yahoo Finance: All You Need to Know About Sterling Infrastructure (STRL) Rating Upgrade to Buy", "date": "2026-10-06", "url": "https://finance.yahoo.com/markets/stocks/articles/know-sterling-infrastructure-strl-rating-150005905.html", "tier": 3}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Tuesday 6 Oct: STRL +7.71% ($523.33 to $563.69). Attribution: market +1.67, industry (PAVE) +1.05, company-specific +5.0 points (z 1.11, within normal noise for this stock).", "evidence": "data/prices/STRL.csv; data/metrics/attribution-2026-10-07.json (as first run for 6 Oct)"},
+    {"rung": 2, "text": "Sterling itself published nothing that day: the newest press release is 5 Oct (general counsel hire), the only filing in the window is that 8-K, and the only rating change found is a quant Zacks Rank upgrade.", "evidence": "https://www.strlco.com/investor-relations/latest-news/ ; https://data.sec.gov/submissions/CIK0000874238.json ; https://finance.yahoo.com/markets/stocks/articles/know-sterling-infrastructure-strl-rating-150005905.html"},
+    {"rung": 3, "text": "It was a strong day for AI-infrastructure stocks: S&P 500 record close on tech gains and cooler yields; Marvell raised its fiscal 2028 revenue target to about $20bn on data-center demand; Google signed a nuclear power deal with Constellation for AI power; the 10-year yield fell 5bp to 5.27%.", "evidence": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html ; https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html ; https://www.fool.com/coverage/stock-market-today/2026/10/06/stock-market-midday-oct-6-s-and-p-500-sets-new-high-nuclear-stocks-surge/"},
+    {"rung": 4, "text": "Data-center builders moved far more than PAVE: MYR Group +7.5%, Comfort Systems +4.7% (reported +6.12% at the close), Powell +3% in the morning, 'after surging capital spending for artificial intelligence infrastructure ... bolstered demand across power systems, data center construction, and electrical grid buildouts' (StockStory). PAVE rose only 1.00%.", "evidence": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-myr-group-ameresco-205634892.html ; https://www.tradingkey.com/news/market-movers/262202543-market-movers-strl-20261006 ; data/prices/PAVE.csv"},
+    {"rung": 5, "text": "So most of the 5-point 'company-specific' part is probably the AI data-center builder sub-group rallying, which PAVE (a broad infrastructure fund) does not capture, amplified by STRL's high beta. No Sterling-specific cause was published.", "evidence": "inference (medium)"},
+    {"rung": 6, "text": "Basic driver: investors' expectations for AI data-center building (more data centers means more site-preparation orders for Sterling) plus lower bond yields that day, which make future profits of fast-growing companies worth more today.", "evidence": "inference (medium)"},
+    {"rung": 7, "text": "Wednesday 7 Oct: STRL -5.24% ($563.69 to $534.13). Attribution: market -0.73, industry -5.24, company +0.72 (z 0.16): mostly construction stocks falling (PAVE -2.49%).", "evidence": "data/prices/STRL.csv; data/metrics/attribution-2026-10-07.json"},
+    {"rung": 8, "text": "Why the group fell: the 10-year Treasury yield hit about 5.35-5.36%, the highest since 2002, before a $39bn bond auction and the Fed's September minutes; Brent oil traded above $101 after attacks on shipping in the Strait of Hormuz, raising inflation and rate-hike worries.", "evidence": "https://www.cnbc.com/amp/2026/10/07/treasury-yields-auction-fomc-minutes.html ; https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html ; https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html"},
+    {"rung": 9, "text": "Higher long-term rates pressure valuations most 'outside the mega-cap technology names'; STRL trades at a high multiple and moves about 3x the market, so it falls more than the group when rates jump.", "evidence": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-7-133458375.html ; data/metrics/2026-10-07.json (beta 3.29) ; inference (high) for the amplification"},
+    {"rung": 10, "text": "Net over the two days: +2.06% vs Monday's close (PAVE -1.52%, SPY +0.31%). The swing up and down was sentiment and rates acting on a high-beta stock; no business fact about Sterling changed.", "evidence": "data/prices; inference (high)"}
+  ],
+  "products": [
+    {
+      "name": "E-Infrastructure Solutions (site development and electrical work for data centers and other mission-critical sites)",
+      "what_it_is": "Getting a very large plot of land ready for a data center, chip plant, factory or warehouse: clearing, grading, excavation, foundations, underground utilities, and since the CEC acquisition, electrical contracting.",
+      "analogy": "Before a house can be built someone levels the lot, digs the foundation and lays the pipes and wires; Sterling does that for buildings the size of several football fields.",
+      "buyers": "Data-center developers and big tech companies' contractors, plus manufacturing, semiconductor and distribution builders. Customer names and concentration not disclosed.",
+      "how_it_works": "Project contracts; revenue is recognized as work progresses. Signed contracts sit in backlog; awarded but unsigned work sits in 'combined backlog'.",
+      "price": "not disclosed per project",
+      "sales": "Q2 2026 segment revenue $905.0M (+192% year on year), about 78% of company revenue; mission-critical projects were 92% of E-Infrastructure backlog at 2026-06-30; company signed backlog $4.33B (+116%). Figures carried from the Q2 release; no new sales data in this window.",
+      "sales_source": "https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/ (2026-08-03)",
+      "stage": "Mature and scaling fast; management has said skilled labor is the constraint (Q2 call coverage).",
+      "size_for_company": "About 78% of Q2 2026 revenue and most of operating income (segment operating income $210.8M vs $28.2M Transportation and $8.5M Building, Q2 2026).",
+      "competition": "Investors group it with Comfort Systems, MYR Group, EMCOR, Quanta, MasTec; on 6 Oct several of these rose together with STRL, showing the market trades them as one theme.",
+      "why_investors_care": "It is why STRL trades as an 'AI data-center builder'; it explains why STRL jumped with the AI-infrastructure rally on 6 Oct.",
+      "watch_next": "Q3 2026 backlog and book-to-burn (Q2: 1.4x signed, ex Stone Ridge), E-Infrastructure margin as lower-margin Stone Ridge work mixes in, any customer delays; big tech capex plans in late-October results."
+    }
+  ],
+  "earnings": {
+    "status": "upcoming",
+    "date": "2026-11-02 (estimated, after close)",
+    "confirmed": false,
+    "consensus": {},
+    "actual": {},
+    "guidance": {},
+    "key_metrics": {},
+    "quality_flags": [],
+    "management_explanation": "No results in the window. Last results: Q2 2026 on 2026-08-03 (revenue $1,168.2M, +90%; adjusted EPS $5.80; FY2026 guidance raised to revenue $4.00-4.15B, adjusted EPS $19.70-20.30, adjusted EBITDA $891-916M).",
+    "sources": ["https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/"]
+  },
+  "next_earnings": {
+    "date": "Q3 2026: estimated Monday 2026-11-02 after the close, with the call estimated Tuesday 2026-11-03 at 9:00 ET (MarketBeat, 'estimated ... based on past reporting schedules'). Not confirmed: as of 2026-10-07 the company's news page has no scheduling release (for Q2 it announced the date on 2026-07-22 for a 2026-08-03 report). An earlier aggregator snippet (TipRanks, 2026-10-04 research) showed 2026-11-09.",
+    "confirmed": false,
+    "consensus_eps": "Q3 2026 adjusted EPS: $6.07, up 74.43% from a year earlier (Zacks, 2026-10-05); $5.93 (MarketBeat). Full-year 2026: $20.02 (Zacks), inside the company's $19.70-20.30 range.",
+    "consensus_revenue": "Q3 2026: $1.16B, up 67.7% from a year earlier (Zacks, 2026-10-05), roughly flat with Q2's $1.168B. Full-year 2026: $4.11B (Zacks), inside the company's $4.00-4.15B range.",
+    "company_guidance": "No quarterly guidance. FY2026 (given 2026-08-03): revenue $4.00-4.15B, adjusted EPS $19.70-20.30, adjusted EBITDA $891-916M, GAAP EPS $17.25-17.85. H1 revenue was $1,993.9M, so the range implies H2 revenue of about $2.01-2.16B (calculation).",
+    "sources": [
+      "https://www.marketbeat.com/stocks/NASDAQ/STRL/earnings/",
+      "https://finance.yahoo.com/markets/stocks/articles/sterling-infrastructure-strl-stock-declines-204505398.html",
+      "https://www.strlco.com/investor-relations/latest-news/",
+      "https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-10-06", "firm": "Zacks Investment Research (quant rank)", "action": "Upgraded to Zacks Rank #2 (Buy) from #3 (Hold)", "reason": "Rising earnings estimates: Zacks consensus up 4.2% over three months; 2026 EPS estimate $20.02", "url": "https://finance.yahoo.com/markets/stocks/articles/know-sterling-infrastructure-strl-rating-150005905.html"},
+    {"date": "2026-09-30 (per MarketBeat; outside window)", "firm": "Cantor Fitzgerald", "action": "Overweight, $742 target (reiteration)", "reason": "not available", "url": "https://www.marketbeat.com/instant-alerts/price-sterling-infrastructure-nasdaq-strl-stock-jumps-59-time-to-buy-2026-10-06/"},
+    {"date": "2026-09-29 (outside window)", "firm": "Simply Wall St community narrative (aggregated analyst target)", "action": "Fair value estimate cut to about $845 from about $876", "reason": "Margin mix shift toward data-center work; 'margin outcomes missed expectations because of mix shift'", "url": "https://simplywall.st/community/narratives/us/capital-goods/nasdaq-strl/sterling-infrastructure/5edoizqp-e-infrastructure-reliance-will-erode-future-margins-r51q/updates/31-the-analyst-price-target-for-sterling-infrastructure-has-mov"},
+    {"date": "2026-10-06 (snapshot)", "firm": "Consensus (aggregators disagree)", "action": "MarketBeat: Moderate Buy, 6 buy / 2 hold, average target $690.33. TradingKey: Strong Buy, average target $852.14", "reason": "Aggregate; treat as approximate. Opinions, not facts about value.", "url": "https://www.marketbeat.com/instant-alerts/price-sterling-infrastructure-nasdaq-strl-stock-jumps-59-time-to-buy-2026-10-06/"}
+  ],
+  "insiders": {
+    "summary": "No insider trades in the window: the pipeline found 0 open-market buys and 0 open-market sells (data/filings/2026-10-07.json). The only Form 4 since September is a gift by the CEO, not a sale.",
+    "notable": [
+      {"date": "2026-09-21 (filed 2026-09-23; outside window)", "detail": "CEO Joseph A. Cutillo gave 40,000 shares (code G, gift) to trusts for his children; he still holds 290,593 shares directly. A gift, not a market sale; routine.", "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000107/wk-form4_1790194328.xml"}
+    ]
+  },
+  "filings": [
+    {"form": "8-K", "items": "7.01 (Regulation FD disclosure), 9.01 (exhibits: press release 99.1, cover page 104)", "plain_english": "A short notice furnishing the press release that Katherine Hargis became Senior Vice President, General Counsel (chief lawyer), Chief Compliance Officer and Corporate Secretary on 2026-10-05, replacing Mark D. Wolf (general counsel since August 2020). Filed under 7.01, not 5.02, because she is not one of the officers that item covers. Accepted 17:35 ET on 2026-10-05.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000110/strl-20261005.htm"}
+  ],
+  "catalysts": [
+    {"date": "late October 2026 (estimated)", "event": "Sterling press release scheduling its Q3 2026 results and call", "confirmed": false, "url": "https://www.strlco.com/investor-relations/latest-news/"},
+    {"date": "2026-10-27 to 2026-10-28", "event": "FOMC meeting (Fed rate decision); rates were the cause of Wednesday's fall. Traders priced about 20% odds of an October hike (TheStreet, 2026-10-07)", "confirmed": true, "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"},
+    {"date": "late October 2026 (estimated)", "event": "Big tech Q3 results with data-center capital-spending plans (thesis trigger 3)", "confirmed": false, "url": "inference (medium)"},
+    {"date": "2026-11-02 (estimated, after close; call 2026-11-03 9:00 ET estimated)", "event": "Q3 2026 results: backlog, book-to-burn, margins, FY2026 guidance", "confirmed": false, "url": "https://www.marketbeat.com/stocks/NASDAQ/STRL/earnings/"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "No results or guidance release in the window; newest company release is 2026-10-05 (general counsel hire). FY2026 guidance stands at revenue $4.00-4.15B, adjusted EPS $19.70-20.30 (2026-08-03). https://www.strlco.com/investor-relations/latest-news/"},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "Not applicable: no results in the window; Q3 results expected about 2026-11-02 (estimated)."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "No such report found in company releases, SEC filings or the searches run (search budget limited; see open questions)."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "EDGAR submissions since 2026-09-01: 8-K (7.01, 9.01) on 2026-10-05, Form 4 on 2026-09-23, Schedule 13G/A on 2026-09-04. No Item 4.02. https://data.sec.gov/submissions/CIK0000874238.json"},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "No Item 4.01 8-K in EDGAR submissions (same check)."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "No Item 5.02. The general counsel changed (Mark D. Wolf replaced by Katherine Hargis, 2026-10-05); not CEO or CFO. CEO Cutillo filed a Form 4 as CEO on 2026-09-23."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "No 424B prospectus, new S-3 or Item 3.02 in EDGAR submissions since 2026-09-01. Thesis trigger 6 (sale >5% under the May 2026 shelf) not hit."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "Search 'Sterling Infrastructure lawsuit OR investigation OR short seller OR downgrade 2026' found no lawsuit, investigation or short report; no 8-K on it in EDGAR."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "The only rating change found in the window was an upgrade (Zacks Rank #2, 2026-10-06)."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "Pipeline: 0 open-market sells in the window (data/filings/2026-10-07.json). Only recent Form 4 is a CEO gift (code G) on 2026-09-21."},
+    {"event": "Thesis trigger 3: big tech companies announce cuts to data-center building plans", "found": false, "evidence": "Opposite signals in the window: Marvell raised its FY2028 revenue target to about $20B on data-center demand (CNBC, 2026-10-06); Google signed a nuclear power deal with Constellation for AI power (Motley Fool, 2026-10-06); SpaceX announced $40B of debt financing for Nvidia chips (Yahoo live blog, 2026-10-07). Big tech results come in late October."},
+    {"event": "Thesis triggers 1, 2, 4, 5 (backlog shrinks; 2026 outlook cut; project cancellations or delays; book-to-bill below 1)", "found": false, "evidence": "No new company data until Q3 results (about 2026-11-02, estimated). No cancellation or delay news found."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Interest rates are rising fast: the 10-year Treasury yield reached about 5.35-5.36% on 2026-10-07, its highest since 2002, up about 60 basis points since late July; oil is up about 20% in that time.", "url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html", "assessment": "Real, tier 2. This caused Wednesday's fall. A high-beta, highly valued builder is exposed: higher rates lower what investors pay for future profits and can raise financing costs for customers' projects (inference, medium). Not a change in Sterling's business."},
+    {"claim": "Margin mix shift: analysts worry that more data-center work at lower margins (including Stone Ridge at mid-teens EBITDA margins) compresses profitability; an aggregated fair value estimate was cut to about $845 from $876 on 2026-09-29.", "url": "https://simplywall.st/community/narratives/us/capital-goods/nasdaq-strl/sterling-infrastructure/5edoizqp-e-infrastructure-reliance-will-erode-future-margins-r51q/updates/31-the-analyst-price-target-for-sterling-infrastructure-has-mov", "assessment": "Tier 3, opinion, but consistent with the company's own guidance math (2026-10-04 research: about 14% incremental EBITDA margin on the August raise). Directly relevant to pillar 4 (margins keep up); test at Q3."},
+    {"claim": "Valuation is stretched: GuruFocus says the price ($563.69 on 6 Oct) is 89.6% above its 'GF Value' of $297.24 and the P/E is 40.78.", "url": "https://www.gurufocus.com/news/9112193/is-sterling-infrastructure-inc-strl-overvalued-after-77-rally-gf-value-says-overvalued", "assessment": "From search snippet only (page returned 403); a model output, not a fact. Shows that the price depends on data-center growth continuing. Zacks gives forward P/E 26.64 and ranks its industry 167 (bottom third) as of 2026-10-05."},
+    {"claim": "Search for lawsuits, investigations, short-seller reports or downgrades in 2026.", "url": "https://seekingalpha.com/article/4920251-sterling-infrastructure-great-business-less-attractive-stock-today", "assessment": "Nothing found in the window. Older items only: a Seeking Alpha author downgrade to Hold on valuation (forward P/E about 37x; date not verified, appears to be mid-2026) and a 15% one-day drop earlier in the year. No lawsuit or short report found."},
+    {"claim": "The rally is narrow: on 6 Oct only about 25% of S&P 500 stocks were above their 50-day averages despite record highs.", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html", "assessment": "Tier 3 context. A theme-driven, narrow market can reverse quickly, as Wednesday showed for construction names."}
+  ],
+  "open_questions": [
+    "Exact Q3 2026 results date: not announced by Sterling as of 2026-10-07; MarketBeat estimates 2026-11-02, an older snippet showed 2026-11-09.",
+    "Time of day of the 2026-10-05 Hargis press release: 8-K accepted 17:35 ET (after close), so the news log's reaction day (2026-10-05) may need to be 2026-10-06. Low materiality either way.",
+    "Tier-2 confirmation that data-center builders specifically (rather than tech generally) led on 6 Oct: CNBC confirms the record close, cooler yields and Marvell; the peer moves (MYRG, FIX, POWL) are only from StockStory/TradingKey (tier 3). CNBC pages returned 403 to direct fetch, so CNBC claims rest on search-result titles and snippets.",
+    "Who attacked shipping in the Strait of Hormuz on 7 Oct: one source says Houthi, another says Iranian. Not needed for the STRL conclusion.",
+    "Small price discrepancy: Zacks gives Monday 5 Oct close $522.16 vs Yahoo bar $523.33.",
+    "Disconfirming coverage was limited: the session web-search budget ran out mid-run, so only one lawsuit/short-seller/downgrade search ran for this window (plus SEC EDGAR filing checks)."
+  ],
+  "searches_run": 14
+}

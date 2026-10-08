@@ -27,10 +27,10 @@
     "gross margin": {
       "term": "gross margin",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-06",
-      "days_seen": 2,
+      "last_seen": "2026-10-08",
+      "days_seen": 3,
       "level": "learning",
-      "one_liner": "What is left of each dollar of sales after paying to make the product."
+      "one_liner": "The share of each sale left after paying to make the product."
     },
     "operating margin": {
       "term": "operating margin",
@@ -75,10 +75,10 @@
     "backlog": {
       "term": "backlog",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-06",
-      "days_seen": 2,
+      "last_seen": "2026-10-08",
+      "days_seen": 3,
       "level": "learning",
-      "one_liner": "Signed orders not yet delivered."
+      "one_liner": "Orders signed but not yet delivered."
     },
     "capex": {
       "term": "capex",
@@ -91,34 +91,34 @@
     "etf": {
       "term": "ETF",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-06",
-      "days_seen": 2,
+      "last_seen": "2026-10-08",
+      "days_seen": 3,
       "level": "learning",
-      "one_liner": "A fund holding a basket of stocks that trades like one share."
+      "one_liner": "A fund that trades on the exchange like a share and holds a basket of stocks."
     },
     "beta": {
       "term": "beta",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-06",
-      "days_seen": 2,
+      "last_seen": "2026-10-08",
+      "days_seen": 3,
       "level": "learning",
-      "one_liner": "How much a stock tends to move when the market moves."
+      "one_liner": "How much a stock tends to move when the market moves 1%."
     },
     "volatility": {
       "term": "volatility",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-06",
-      "days_seen": 2,
+      "last_seen": "2026-10-08",
+      "days_seen": 3,
       "level": "learning",
-      "one_liner": "How bumpy a stock's ride is."
+      "one_liner": "How bumpy the ride is: how much the price swings."
     },
     "correlation": {
       "term": "correlation",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-06",
-      "days_seen": 2,
+      "last_seen": "2026-10-08",
+      "days_seen": 3,
       "level": "learning",
-      "one_liner": "How closely two stocks move together, from -1 to 1."
+      "one_liner": "How closely two stocks move together; 1.0 means in lockstep."
     },
     "drawdown": {
       "term": "drawdown",
@@ -195,10 +195,10 @@
     "10b5-1": {
       "term": "10b5-1",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-06",
-      "days_seen": 2,
+      "last_seen": "2026-10-08",
+      "days_seen": 3,
       "level": "learning",
-      "one_liner": "A pre-planned insider trading schedule set months ahead."
+      "one_liner": "A selling schedule an insider sets months ahead, so they do not pick the moment of each sale."
     },
     "dilution": {
       "term": "dilution",
@@ -227,10 +227,10 @@
     "arr": {
       "term": "ARR",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-06",
-      "days_seen": 2,
+      "last_seen": "2026-10-08",
+      "days_seen": 3,
       "level": "learning",
-      "one_liner": "Yearly value of the subscriptions customers have signed."
+      "one_liner": "Annual recurring revenue: the yearly value of all active subscriptions."
     },
     "net new arr": {
       "term": "net new ARR",
@@ -315,10 +315,10 @@
     "z-score": {
       "term": "z-score",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-06",
-      "days_seen": 2,
+      "last_seen": "2026-10-08",
+      "days_seen": 3,
       "level": "learning",
-      "one_liner": "How unusual a move is versus the stock's normal day; beyond about 1.5 is unusual."
+      "one_liner": "A move measured in the stock's usual-sized swings."
     },
     "capped call": {
       "term": "capped call",
@@ -507,10 +507,10 @@
     "var": {
       "term": "VaR",
       "first_explained": "2026-10-06",
-      "last_seen": "2026-10-06",
-      "days_seen": 1,
+      "last_seen": "2026-10-08",
+      "days_seen": 2,
       "level": "learning",
-      "one_liner": "A loss exceeded only on the worst 1 day in 20, based on the past."
+      "one_liner": "A loss exceeded only on the worst 1 day in 20, based on past behaviour."
     },
     "fiscal year": {
       "term": "fiscal year",
@@ -591,6 +591,174 @@
       "days_seen": 1,
       "level": "learning",
       "one_liner": "Intact, Watch, Challenged or Broken: how today's evidence compares with your pillars and triggers."
+    },
+    "present value": {
+      "term": "present value",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "What a future dollar is worth today; higher interest rates make far-off dollars worth less now."
+    },
+    "profit-taking": {
+      "term": "profit-taking",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Selling a stock that has risen fast to lock in the gain; it can push a price down with no news."
+    },
+    "ex-dividend date": {
+      "term": "ex-dividend date",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The first day a buyer no longer gets the next dividend; the price usually drops by about the dividend."
+    },
+    "proxy statement": {
+      "term": "proxy statement",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The papers sent before the yearly shareholder meeting, listing what owners vote on."
+    },
+    "form 3": {
+      "term": "Form 3",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The first report a new insider files, listing the shares they already own."
+    },
+    "tax withholding (code f)": {
+      "term": "tax withholding (code F)",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Shares a company keeps back to pay an employee's tax when stock awards vest; not a market sale."
+    },
+    "10b5-1 plan": {
+      "term": "10b5-1 plan",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A selling schedule an insider sets months ahead, so they do not pick the moment of each sale."
+    },
+    "expense ratio": {
+      "term": "expense ratio",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A fund's yearly fee as a share of your money; QQQM's 0.15% is 15 cents per $100."
+    },
+    "look-through": {
+      "term": "look-through",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Counting what is inside a fund, so you see overlap with stocks you already own."
+    },
+    "optical circuit switch": {
+      "term": "optical circuit switch",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A switch that redirects light between fibres with tiny mirrors, like a railway switch for light."
+    },
+    "hybrid bonding": {
+      "term": "hybrid bonding",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Joining stacked chips directly, copper to copper, used for AI memory."
+    },
+    "behind-the-meter": {
+      "term": "behind-the-meter",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A power plant on the customer's own site, on their side of the electricity meter."
+    },
+    "convertible preferred shares": {
+      "term": "convertible preferred shares",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Special shares that can turn into ordinary shares later, raising the share count."
+    },
+    "convertible bond": {
+      "term": "convertible bond",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A loan the lender can swap for shares above a set price."
+    },
+    "headline sensitivity": {
+      "term": "headline sensitivity",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A stock jumping on theme news before anyone checks whether its sales would change."
+    },
+    "cpu": {
+      "term": "CPU",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The general-purpose chip that runs a computer's software and hands out work."
+    },
+    "endpoint": {
+      "term": "endpoint",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Any laptop, server or phone on a company network that must be protected."
+    },
+    "firewall": {
+      "term": "firewall",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A device or program that decides which network traffic may enter or leave."
+    },
+    "overweight rating": {
+      "term": "Overweight rating",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "An analyst's view that a stock will beat the market; an opinion, not a fact."
+    },
+    "phase 3 trial": {
+      "term": "Phase 3 trial",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The last and largest round of testing in patients before a drug can be approved."
+    },
+    "priced in": {
+      "term": "priced in",
+      "first_explained": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Already reflected in the share price because investors expected it."
     }
   }
 }

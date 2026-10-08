@@ -8,27 +8,28 @@ This page is rebuilt on every run from `data/news-log/TSM.json` by `.claude/skil
 
 ## What the log shows so far
 
-- **4** news items and **2** report days logged (first report 2026-10-04, latest 2026-10-05).
+- **5** news items and **3** report days logged (first report 2026-10-04, latest 2026-10-07).
 - **Too early to draw conclusions:** fewer than 20 items. Read this page as a diary for now, not as a rule about how the stock behaves.
-- Average move beyond the market on the reaction day to **good** news: -0.26% (3 items).
-- Biggest reactions so far: 2026-10-02 +2.22% beyond the market (big) after: Bloomberg reported TSMC is weighing a multi-factory campus near Dallas, each factory...; 2026-10-05 +2.08% beyond the market (big) after: Elon Musk confirmed early talks about TSMC helping his Texas Terafab chip-factory project...; 2026-07-16 -1.78% beyond the market (normal) after: Q2 revenue US$40.20bn (+36%) with a 67.7% gross margin; Q3 guided to US$44.6-45.8bn, with....
-- Of those biggest moves, 1 partly reversed over the next five trading days.
+- Average move beyond the market on the reaction day to **good** news: -0.66% (4 items).
+- Biggest reactions so far: 2026-10-02 +2.22% beyond the market (big) after: Bloomberg reported TSMC is weighing a multi-factory campus near Dallas, each factory...; 2026-10-05 +2.08% beyond the market (big) after: Elon Musk confirmed early talks about TSMC helping his Texas Terafab chip-factory project...; 2026-10-07 -1.85% beyond the market (normal) after: Citi said it expects TSMC to beat its own Q3 forecast and AI revenue to nearly double....
 - Report days with a very big company-specific move and no news found: 0.
 - Several items can share one reaction day, so their reactions are not independent.
 
-## Coming up (calendar as of 2026-10-05)
+## Coming up (calendar as of 2026-10-07)
 
 Dated events that could move the stock. When one happens, it moves into the news table below.
 
 | Date | Event | Confirmed? | Source |
 |---|---|---|---|
-| 2026-10-08 | September 2026 monthly sales | yes | not recorded |
-| 2026-10-15 | Q3 2026 results, 2:00 a.m. US Eastern (guidance US$44.6-45.8bn) | yes | not recorded |
+| 2026-10-08 | September 2026 sales, 13:30 Taipei | yes | [TSMC, 2026-10-07](https://investor.tsmc.com/english/financial-calendar), tier 1 |
+| 2026-10-15 | Q3 2026 results, 14:00 Taipei (2:00 a.m. New York) | yes | [TSMC, 2026-10-07](https://investor.tsmc.com/english/financial-calendar), tier 1 |
+| 2026-11-10 | October 2026 sales | yes | [TSMC, 2026-10-07](https://investor.tsmc.com/english/financial-calendar), tier 1 |
 
 ## News, newest first
 
 | Date | What happened | Good or bad for the stock | Importance | Reaction day | Stock | Market | Beyond market | Size | Next 5 days | Source |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-07 | Citi said it expects TSMC to beat its own Q3 forecast and AI revenue to nearly double next year; the US shares fell 2.09% with chip stocks. | good | low | 2026-10-07 | -2.09% | -0.24% | -1.85% | normal | n/a | [Yahoo Finance, 2026-10-07](https://finance.yahoo.com/markets/stocks/article/tsmc-stock-just-hit-a-record--and-the-gains-may-be-only-starting-113728917.html), tier 3 |
 | 2026-10-03 | Elon Musk confirmed early talks about TSMC helping his Texas Terafab chip-factory project ("Just discussions, but something may come of it"); no TSMC comment. TSM rose 2.75% on Monday (+2.08 points company-specific), possibly partly on this, while AI-chip leaders also rallied; no single cause confirmed (tier-3 reports). | good | medium | 2026-10-05 | +2.75% | +0.67% | +2.08% | big | n/a | [Motley Fool, 2026-10-05](https://www.fool.com/investing/2026/10/05/elon-musk-confirmed-terafab-talks-with-tsmc-intel-has-been-its-only-named-chip-partner/), tier 3 |
 | 2026-10-01 | Bloomberg reported TSMC is weighing a multi-factory campus near Dallas, each factory costing at least $20bn; early stage, and TSMC said "no comment on market rumors". | mixed | medium | 2026-10-02 | +2.96% | +0.74% | +2.22% | big | n/a | [Bloomberg, 2026-10-01](https://www.bloomberg.com/news/articles/2026-10-01/tsmc-mulls-multibillion-dollar-texas-campus-for-more-ai-chips), tier 2 |
 | 2026-09-10 | August sales were a record NT$514.81bn (New Taiwan dollars), up 53.3% from a year earlier, driven by AI chips. | good | medium | 2026-09-10 | -1.68% | -0.60% | -1.08% | normal | +0.79% | [TSMC, 2026-09-10](https://pr.tsmc.com/english/news/3340), tier 1 |
@@ -40,6 +41,7 @@ The day's move split into the part from the whole market, the part from its indu
 
 | Report | Trading day | Close | Day move | Market part | Industry part | Company part | Size of company part | Main news that day |
 |---|---|---|---|---|---|---|---|---|
+| 2026-10-07 | 2026-10-07 | $472.20 | -2.09% | -0.28% | -0.70% | -1.12% | normal | Citi said it expects TSMC to beat its own Q3 forecast and AI revenue to nearly double next year; the US shares fell 2.09% with chip stocks. |
 | 2026-10-05 | 2026-10-05 | $485.80 | +2.75% | +0.79% | -0.11% | +2.08% | big | Elon Musk confirmed early talks about TSMC helping his Texas Terafab chip-factory project ("Just discussions, but something may come of it"); no TSMC comment. TSM rose 2.75% on Monday (+2.08 points company-specific), possibly partly on this, while AI-chip leaders also rallied; no single cause confirmed (tier-3 reports). |
 | 2026-10-04 | 2026-10-02 | $472.78 | +2.96% | +0.85% | +0.98% | +1.12% | normal | Bloomberg reported TSMC is weighing a multi-factory campus near Dallas, each factory costing at least $20bn; early stage, and TSMC said "no comment on market rumors". |
 

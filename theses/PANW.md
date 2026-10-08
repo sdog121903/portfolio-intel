@@ -14,7 +14,7 @@ Big companies use dozens of separate security products, which is expensive and l
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Big companies use dozens of separate security products, which is expensive and l
 - Operating margin (share left after all running costs): falling (12.5% to 5.0%, -7.5 points).
 - Profit: positive net income in 2 of the last 4 quarters.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +22.1% | +13.8% | +151.2% | +96.3% | +61.8% | -36.0% | 4.1% |
+| +21.7% | +26.5% | +133.4% | +92.2% | +59.9% | -36.0% | 4.2% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 

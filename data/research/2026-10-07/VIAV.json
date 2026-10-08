@@ -1,0 +1,203 @@
+{
+  "ticker": "VIAV",
+  "company": "Viavi Solutions Inc. (VIAVI)",
+  "window": {
+    "from": "2026-10-05 20:00 UTC (after the Monday 5 Oct US close)",
+    "to": "2026-10-07 16:20 UTC as briefed, extended to cover the Wednesday 2026-10-07 close and a final recency check at 2026-10-07 22:09 UTC"
+  },
+  "newest_item_checked": "Final recency check at 2026-10-07 22:09 UTC (after the US close): SEC EDGAR submissions list for CIK 912093 (newest filing is still the Schedule 13G/A accepted 2026-10-05, accession 0002012383-26-003337; nothing filed on 10-06 or 10-07) and the VIAVI investor-relations press-release feed (newest release 2026-09-29, the CyberFlood CF50 launch; nothing in October). Newest news item found: the Calnex Solutions release of 2026-10-07 (about 10:00 ET) on an expanded partnership with VIAVI. The Yahoo Finance VIAV news page was checked at about 16:30 UTC on 2026-10-07; news published after that and before the close was not reviewed.",
+  "events": [
+    {
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "partnership (technical/channel, no financial terms)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Calnex Solutions Plc (LSE: CLX, Edinburgh) said it is expanding its existing partnership with VIAVI. Calnex's network emulators (SNE, SNE-X, SNE-Ignite) will be combined with VIAVI's lab test products (ONE LabPro, TestCenter, CyberFlood) so customers can test networks and applications under realistic traffic and network faults. The release names AI infrastructure, data center, defense, satcom, enterprise and Open RAN as use cases. The two companies already worked together on Open RAN testing (VIAVI TM500, TeraVM, XEdge with Calnex Paragon-neo, SNE-Ignite, SNE-X). The release gives no financial terms, no customer names and no exclusivity. It is quoted by Mark Bateman, VIAVI Vice President, Sales and Channel, Lab and Production, and Graeme Urquhart, VP Sales at Calnex. The release was issued by Calnex; it did not appear on VIAVI's own investor-relations press-release feed (checked 2026-10-07 22:09 UTC). Timestamp: Yahoo shows 4:00 PM GMT+2 (14:00 UTC, 10:00 ET); the PR Newswire UK page shows 15:36 GMT. Either way it came out during the US session.",
+      "why_it_matters": "It is a sales-channel and technical tie-up for VIAVI's lab test products, including the AI data-center use case, but there are no money terms, so it is unlikely to change revenue expectations. The stock fell on the day it came out, so it did not drive the move.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Calnex Solutions via PR Newswire UK", "date": "2026-10-07", "url": "https://www.prnewswire.co.uk/news-releases/calnex-and-viavi-expand-partnership-to-deliver-end-to-end-network-and-application-performance-validation-for-next-generation-networks-302901337.html", "tier": 1},
+        {"name": "Yahoo Finance (syndicated PR Newswire release)", "date": "2026-10-07", "url": "https://finance.yahoo.com/technology/articles/calnex-viavi-expand-partnership-deliver-140000611.html", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "price move with sector (no company news)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "VIAV closed at $48.14 on Tuesday, up 2.62% from $46.91. Attribution: market +0.14 points, industry (SMH) -1.04, company-specific +3.53 (z-score 0.89, within normal noise). There was no VIAVI press release, SEC filing or analyst action. Optical and AI-networking peers rose the same day: AAOI +7.07%, LITE +3.82%, CRDO +3.93%, while SMH fell 0.22% and SPY rose 0.55% (pipeline price files). 24/7 Wall St tied AAOI's rise to the completion of its $600M at-the-market share-sale program ('Clearing known share supply can lift a stock quickly'). That article does not mention VIAVI, and it showed LITE only +0.4% in the morning.",
+      "why_it_matters": "The rise looks like VIAV moving with the optical/AI-networking group, not a change in its business. Because the attribution model uses the chip-heavy SMH as the 'industry', moves shared by the optical sub-group show up as 'company-specific' (inference, medium).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Pipeline attribution and price files (data/metrics/attribution, data/prices)", "date": "2026-10-07", "url": "data/metrics/attribution-2026-10-07.json", "tier": 1},
+        {"name": "24/7 Wall St. via Yahoo Finance", "date": "2026-10-06", "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-surges-6-600m-135257602.html", "tier": 3},
+        {"name": "VIAVI investor-relations press-release feed (no release in window)", "date": "2026-10-07", "url": "https://investor.viavisolutions.com/news-events/news-releases/default.aspx", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "price move with sector (no company news)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "VIAV closed at $46.27 on Wednesday, down 3.88%. Attribution: market -0.06 points, industry -1.28, company-specific -2.55 (z-score -0.64, within normal noise). Volume was 3,347,210 shares, 0.56 times its 20-day average (low). Peers fell the same day: AAOI -5.85%, LITE -1.97%, SMH -1.18%, SPY -0.24%, CRDO -0.37% (pipeline price files). Over the two days VIAV fell 1.36% from Monday's $46.91 close. The only VIAVI-related item was the Calnex partnership release (above), which came out during the session and was not negative. No published cause for the optical group's Wednesday decline was found. RSI(14) cooled from 73.8 on Tuesday to 66.3 (data/metrics).",
+      "why_it_matters": "It is a normal-sized pullback for a stock whose typical daily company-specific move is 3.95%. It came after a 13-day winning streak and an RSI above 70, on low volume, with no news. Profit-taking is a plausible explanation (inference, low), but nobody published a cause.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Pipeline attribution and price files", "date": "2026-10-07", "url": "data/metrics/attribution-2026-10-07.json", "tier": 1},
+        {"name": "SEC EDGAR filing list, VIAVI (no filing in window)", "date": "2026-10-07", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000912093&type=&dateb=&owner=include&count=40", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "timing": "during",
+      "type": "large passive holder filing (Schedule 13G/A)",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "BlackRock reported owning 24,923,503 shares, 10.1% of VIAVI, as of 2026-09-30 (Schedule 13G/A, passive holder). EDGAR shows it accepted at 2026-10-05 19:58:08, just before this window's start. It was already in the 2026-10-05 report and the news log (key viav-2026-09-30-blackrock-13g). Nothing new.",
+      "why_it_matters": "This is passive (index-fund) ownership. It says nothing new about the business. It is listed only so the main session does not re-report it.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Schedule 13G/A", "date": "2026-10-05", "url": "https://www.sec.gov/Archives/edgar/data/912093/000201238326003337/xslSCHEDULE_13G_X02/primary_doc.xml", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-06 and 2026-10-07",
+      "timing": "unknown",
+      "type": "quantitative rating / list articles (noise)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Zacks published '3 Communication Stocks Likely to Gain From Industry Tailwinds' (2026-10-06) and 'Zacks Industry Outlook Ciena, Viavi and Ooma' (2026-10-07). They give VIAV a Zacks Rank #1 (Strong Buy), and say the Zacks consensus for current and next fiscal-year earnings has been revised up 165.6% and 61.7% over the past year. They also list industry headwinds: elevated customer inventory, cautious ordering, margin erosion.",
+      "why_it_matters": "These are list-style articles from a quantitative model with no new facts; by the news rules they are noise. They are recorded only for completeness.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Zacks via Yahoo Finance", "date": "2026-10-07", "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-ciena-viavi-070800290.html", "tier": 3}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "VIAV rose 2.62% on Tuesday to $48.14, then fell 3.88% on Wednesday to $46.27: a net -1.36% over the window versus Monday's $46.91 close.", "evidence": "data/metrics/2026-10-07.json; data/prices/VIAV.csv (pipeline, Yahoo daily bars)"},
+    {"rung": 2, "text": "Neither day's company-specific part was unusual for this stock: +3.53 points (z 0.89) on Tuesday and -2.55 points (z -0.64) on Wednesday, against a typical daily company move of 3.95%.", "evidence": "data/metrics/attribution-2026-10-07.json (Wednesday); Tuesday figures from the 2026-10-07 intraday attribution supplied by the main session"},
+    {"rung": 3, "text": "VIAVI itself published nothing: no press release, no SEC filing and no analyst rating change in the window. The only company-related item was a Calnex partnership release on Wednesday at about 10:00 ET, which is not negative and has no financial terms.", "evidence": "https://investor.viavisolutions.com/news-events/news-releases/default.aspx ; https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000912093 ; https://www.prnewswire.co.uk/news-releases/calnex-and-viavi-expand-partnership-to-deliver-end-to-end-network-and-application-performance-validation-for-next-generation-networks-302901337.html"},
+    {"rung": 4, "text": "VIAV moved in step with the optical/AI-networking group, not with chip stocks in general. On Tuesday AAOI rose 7.07% and LITE 3.82% while SMH fell 0.22%; on Wednesday AAOI fell 5.85% and LITE 1.97%. Because the model's 'industry' is the chip-heavy SMH, this group swing shows up as 'company-specific'.", "evidence": "data/prices (fact for the numbers) | inference (medium) for the interpretation"},
+    {"rung": 5, "text": "Tuesday's group lift was led by AAOI finishing its $600M share-sale program (removing expected selling). That explains AAOI, and VIAV probably rode the same mood. No published cause was found for Wednesday's group decline. After 13 straight gains and an RSI above 70, profit-taking on low volume (0.56x average) is plausible. The basic driver is expectations and sentiment toward AI-networking hardware, not a change in VIAVI's business.", "evidence": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-surges-6-600m-135257602.html (AAOI cause, tier 3) | inference (low) for VIAV and for Wednesday"}
+  ],
+  "products": [
+    {
+      "name": "VIAVI lab test products in the Calnex tie-up (ONE LabPro, TestCenter, CyberFlood), paired with Calnex SNE network emulators",
+      "what_it_is": "VIAVI's products generate realistic network traffic and simulate users. Calnex's emulators recreate the faults of real networks (delays, lost data, distance). Together they let engineers test a network or application in the lab under real-world conditions before it goes live.",
+      "analogy": "VIAVI supplies the test cars and crash-test dummies; Calnex builds the bumpy, foggy test track. Together they show how the network copes before real customers drive on it.",
+      "buyers": "Per the release: AI infrastructure, data center, defense, satcom, enterprise and Open RAN users. No customer names were disclosed.",
+      "how_it_works": "A traffic generator (for example TestCenter, or CyberFlood for application and security traffic) sends line-rate or application-level traffic through the system under test. A network emulator (Calnex SNE) sits in the path and adds controlled impairments (latency, packet loss, jitter), and the tester measures how performance holds up. TestCenter and CyberFlood were Spirent product lines before VIAVI acquired Spirent (general knowledge, not re-verified this run).",
+      "price": "not disclosed",
+      "sales": "not disclosed for these products or for the partnership. Proxy (labelled): VIAVI's NSE network-test segment had Q4 FY2026 revenue of $353.9M (+69.2%), and management said the data-center ecosystem is about 50% of NSE.",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/0000912093/000162828026053381/viavq4fy268-kex991.htm (2026-08-05, segment revenue); https://finance.yahoo.com/markets/stocks/articles/viavi-solutions-inc-viav-q4-051054244.html (2026-08-06, ~50% data-center share, call highlights, tier 3)",
+      "stage": "Both companies' products are shipping. The partnership extends an existing Open RAN collaboration to AI/data-center, defense, satcom and enterprise use cases. No contract value was given. VIAVI added a smaller CyberFlood CF50 platform on 2026-09-29 (VIAVI IR feed).",
+      "size_for_company": "not disclosed. Probably small next to $443.1M of quarterly revenue, because it is a technical/channel tie-up with no stated financial terms (inference, medium).",
+      "competition": "Keysight Technologies is VIAVI's main test-and-measurement rival (general knowledge, not sourced this run). Competing emulator vendors were not checked.",
+      "why_investors_care": "It shows VIAVI's Spirent-derived lab products being bundled into AI-infrastructure test setups through partners. That is mildly supportive of the data-center testing thesis, but there are no numbers.",
+      "watch_next": "Whether VIAVI mentions joint customer wins or partner-driven sales on the Q1 FY2027 call, and the data-center share of NSE revenue."
+    }
+  ],
+  "earnings": {
+    "status": "upcoming",
+    "date": "Not confirmed. MarketBeat estimates Wednesday 2026-10-28. See next_earnings for why it could be later (about 2026-11-04, inference).",
+    "confirmed": false,
+    "consensus": {
+      "eps_non_gaap_q1_fy27": "$0.36 (MarketBeat; likely stale: below the company's $0.40-0.42 guidance)",
+      "revenue_q1_fy27": "$433.2M (MarketBeat; likely stale: below the company's $450-460M guidance and equal to the pre-guidance figure)",
+      "fy2027_revenue": "$1.89B (StockAnalysis, 2026-10-07)",
+      "fy2027_eps": "$1.64 (StockAnalysis, 2026-10-07)"
+    },
+    "actual": {},
+    "guidance": {
+      "q1_fy27_quarter_end": "2026-10-03",
+      "q1_fy27_revenue": "$450-460M",
+      "q1_fy27_eps_non_gaap": "$0.40-0.42",
+      "q1_fy27_op_margin_non_gaap": "27.1% +/- 40 bps (call highlights, per 2026-10-04 research; not in the release outlook section)",
+      "longer_term": "About $500M quarterly revenue achievable during calendar 2027 (management on the Q4 call, per call highlights; not in a filing)"
+    },
+    "key_metrics": {
+      "last_reported_revenue_q4_fy26": "$443.1M (+52.5%)",
+      "NSE_q4_fy26": "$353.9M (+69.2%)",
+      "OSP_q4_fy26": "$89.2M (+9.6%)",
+      "diluted_shares_q4_fy26": "261.0M (+15.0% YoY, per 2026-10-04 research)"
+    },
+    "quality_flags": [
+      "The aggregator consensus for Q1 FY27 sits below the company's own guidance, so a 'beat' against MarketBeat's $433.2M / $0.36 could mean little. Compare results with the $450-460M guidance instead."
+    ],
+    "management_explanation": "not applicable (no results in window)",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/0000912093/000162828026053381/viavq4fy268-kex991.htm",
+      "https://www.marketbeat.com/stocks/NASDAQ/VIAV/earnings/",
+      "https://stockanalysis.com/stocks/viav/forecast/"
+    ]
+  },
+  "next_earnings": {
+    "date": "Not confirmed. Estimated Wednesday 2026-10-28, after the close (MarketBeat 'Estimated'; one search summary said Oct 29). Caution (inference, medium): Q1 FY27 ends 2026-10-03, a week later than last year's 2025-09-27. VIAVI's usual gap from quarter end to results is about 32 days (Q1 FY26: Sep 27 to Oct 29, 2025; Q2: Dec 27 to Jan 28; Q3: Mar 28 to Apr 29). That points to about Wednesday 2026-11-04. For Q4, VIAVI announced the date on 2026-07-15, three weeks before the 2026-08-05 results; no Q1 FY27 date release had appeared as of 2026-10-07 22:09 UTC. Calls are usually at 4:30 pm ET.",
+    "confirmed": false,
+    "consensus_eps": "$0.36 non-GAAP (MarketBeat, fetched 2026-10-07). Treat as stale: it is below the company's $0.40-0.42 guidance. A current consensus from a second source was not available.",
+    "consensus_revenue": "$433.2M (MarketBeat, fetched 2026-10-07). Treat as stale: it is below the $450-460M guidance. FY2027 consensus is $1.89B revenue and $1.64 EPS (StockAnalysis).",
+    "company_guidance": "Q1 FY27 (quarter ended 2026-10-03): revenue $450-460M; non-GAAP EPS $0.40-0.42 (VIAVI Q4 FY26 release, 2026-08-05). Non-GAAP operating margin 27.1% +/-40 bps (call highlights). About $500M a quarter during calendar 2027 (management on the call).",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/0000912093/000162828026053381/viavq4fy268-kex991.htm",
+      "https://www.marketbeat.com/stocks/NASDAQ/VIAV/earnings/",
+      "https://stockanalysis.com/stocks/viav/forecast/",
+      "https://investor.viavisolutions.com/news-events/events-and-presentations/default.aspx (past events only; no Q1 FY27 call listed as of 2026-10-07)",
+      "https://investor.viavisolutions.com/news-events/news-releases/news-details/2026/VIAVI-Announces-Date-for-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "none in window", "firm": "n/a", "action": "No rating or price-target changes found from 2026-10-05 to 2026-10-07. StockAnalysis's newest listed action is Stifel (Ruben Roy) maintaining Buy, $65 target, on 2026-09-23.", "reason": "n/a", "url": "https://stockanalysis.com/stocks/viav/forecast/"},
+    {"date": "2026-10-07 (snapshot)", "firm": "Consensus (StockAnalysis)", "action": "8 analysts, average rating 'Strong Buy'; average target $61.43 (low $44, high $70). The low $44 (UBS, Neutral, August 2026) is below the $46.27 close.", "reason": "aggregator", "url": "https://stockanalysis.com/stocks/viav/forecast/"},
+    {"date": "2026-10-07", "firm": "Zacks (quantitative model)", "action": "Zacks Rank #1 (Strong Buy) in an industry-outlook article; not a human analyst action", "reason": "upward earnings-estimate revisions (current FY +165.6%, next FY +61.7% over the past year)", "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-ciena-viavi-070800290.html"}
+  ],
+  "insiders": {
+    "summary": "No insider trades in the window. The pipeline found 0 open-market buys and 0 sells, and EDGAR shows no Form 4 or Form 144 after 2026-09-23 (checked 2026-10-07 22:09 UTC). Background already in the news log: four insiders, including the CFO, sold about $6.2M outside 10b5-1 plans between 2026-08-10 and 2026-09-11.",
+    "notable": []
+  },
+  "filings": [
+    {"form": "none in window", "items": "", "plain_english": "VIAVI filed nothing with the SEC on 2026-10-06 or 2026-10-07: no 8-K, no Form 4, no share-sale documents. The newest filing is the BlackRock Schedule 13G/A of 2026-10-05, already reported.", "materiality": "n/a", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000912093&type=&dateb=&owner=include&count=40"},
+    {"form": "SCHEDULE 13G/A (rehash)", "items": "", "plain_english": "BlackRock: 24,923,503 shares, 10.1%, as of 2026-09-30; passive holder. Already covered on 2026-10-05.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/912093/000201238326003337/xslSCHEDULE_13G_X02/primary_doc.xml"},
+    {"form": "DEF 14A / DEFA14A / ARS (rehash, filed 2026-10-02)", "items": "", "plain_english": "Annual-meeting paperwork, already in the news log calendar. Virtual meeting on 2026-11-11; votes on nine directors, ratifying PwC as auditor and say-on-pay. No request for new share authorisation was found (per 2026-10-04 research).", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm"}
+  ],
+  "catalysts": [
+    {"date": "estimated 2026-10-28 (possibly about 2026-11-04; see next_earnings)", "event": "Q1 FY2027 results and Q2 outlook (guidance $450-460M revenue, $0.40-0.42 non-GAAP EPS)", "confirmed": false, "url": "https://www.marketbeat.com/stocks/NASDAQ/VIAV/earnings/"},
+    {"date": "expected about three weeks before results (not yet out as of 2026-10-07)", "event": "VIAVI press release announcing the Q1 FY2027 results date", "confirmed": false, "url": "https://investor.viavisolutions.com/news-events/news-releases/default.aspx"},
+    {"date": "2026-11-11", "event": "Annual shareholder meeting (virtual)", "confirmed": true, "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm"},
+    {"date": "calendar 2027", "event": "Management's aim of about $500M quarterly revenue", "confirmed": false, "url": "https://finance.yahoo.com/markets/stocks/articles/viavi-solutions-inc-viav-q4-051054244.html"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "No VIAVI press release since 2026-09-29 and no 8-K since the 2026-08-05 results (IR feed and EDGAR, checked 2026-10-07 22:09 UTC). Q1 FY27 guidance of $450-460M stands."},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "No results in window; Q1 FY27 results not yet reported (estimated 2026-10-28, unconfirmed)."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "No such report in the company feed, EDGAR or the news pages checked (Yahoo VIAV news, Zacks)."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "No 8-K filed in window (EDGAR submissions list)."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "No 8-K in window. The 2026-10-02 proxy asks shareholders to ratify PwC for FY2027."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "No 8-K in window. Oleg Khaykin is CEO per the 2026-10-02 proxy."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "No S-3, 424B or 8-K in window (EDGAR). VIAV trigger 5 (another sale of 5% or more) is not hit. Background: the May 2026 offering added about 15%."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "Search 'Viavi Solutions lawsuit OR investigation OR short seller 2026' (2026-10-07) returned no lawsuit, investigation or short report; no 8-K Item 8.01 or legal filing in window."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "No downgrade in window. StockAnalysis lists no October 2026 rating changes (newest 2026-09-23). The only downgrade the search surfaced was Morgan Stanley to Underweight on 2024-12-17 ($9.50 target): old and irrelevant (https://www.tipranks.com/news/the-fly/viavi-downgraded-to-underweight-from-equal-weight-at-morgan-stanley)."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "None in window: pipeline insider summary shows 0 sells, and EDGAR has no Form 4 after 2026-09-23. VIAV trigger 6 not hit now. It was met in Aug-Sep 2026, outside the window, and is already in the news log."},
+    {"event": "VIAV trigger 2: management says data-center testing demand has slowed", "found": false, "evidence": "No management statement in window. The Calnex release (2026-10-07) lists AI infrastructure and data center as use cases."},
+    {"event": "VIAV trigger 3: the $500M-a-quarter 2027 aim is withdrawn or pushed out", "found": false, "evidence": "No management communication in window."},
+    {"event": "VIAV trigger 4: revenue falls quarter on quarter without a one-off reason", "found": false, "evidence": "Not testable until Q1 FY27 results."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Search for lawsuits, investigations or short-seller reports (2026-10-07).", "url": "https://equibles.com/stocks/viav/shortinterest", "assessment": "Nothing found. The only related data was short interest (13,780,289 shares as of 2026-05-15, per the search summary; not re-verified, and stale)."},
+    {"claim": "Search for downgrades and target cuts (2026-10-07).", "url": "https://www.tipranks.com/news/the-fly/viavi-downgraded-to-underweight-from-equal-weight-at-morgan-stanley", "assessment": "Only an old Morgan Stanley downgrade (2024-12-17) and the already-known August 2026 cuts (UBS to $44 Neutral; B. Riley to $60; a Needham cut from $68 to $60 named in a search summary, not verified). Nothing new in the window. UBS's $44 target remains below the $46.27 close."},
+    {"claim": "Trefis (2026-10-05): VIAVI has no positive trailing GAAP earnings, so there is no meaningful P/E. Its trailing operating margin is 8.0% versus a 21.7% median for S&P 500 tech, and 'the same momentum that built this run can reverse without notice'. It also says the 13-day run added about $3.2B, taking market value to about $11.3B.", "url": "https://www.trefis.com/stock/viav/articles/617513/viavi-solutions-stock-13-straight-green-days-up-40/2026-10-05", "assessment": "Tier 3. The trailing GAAP figures include acquisition costs and a debt-extinguishment loss, so non-GAAP margins (24.0% in Q4) tell a better story; both views are valid. It supports the 'momentum, not new facts' risk Santi already accepted."},
+    {"claim": "Zacks industry outlook (2026-10-07) lists industry headwinds: elevated customer inventory, cautious ordering for high-value items, margin erosion, and oil-price and geopolitical volatility.", "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-ciena-viavi-070800290.html", "assessment": "Generic industry commentary, not VIAVI-specific, but it is the kind of risk VIAVI itself named for service providers and wireless ('anemic' wireless demand on the Q4 call)."},
+    {"claim": "The stock is hot and volatile. RSI(14) was 73.8 on Tuesday and 66.3 on Wednesday; one-year maximum drawdown is -41.75%; the typical daily company-specific move is 3.95%. Wednesday's -3.88% came on 0.56x average volume.", "url": "data/metrics/2026-10-07.json; data/metrics/attribution-2026-10-07.json", "assessment": "Fact from pipeline data. A +/-4% day is ordinary for VIAV, so the two days' moves carry little information."},
+    {"claim": "The consensus numbers may mislead: MarketBeat's Q1 FY27 consensus ($0.36 EPS, $433.2M revenue) is below the company's own guidance.", "url": "https://www.marketbeat.com/stocks/NASDAQ/VIAV/earnings/", "assessment": "If reports compare results with this stale consensus, a 'beat' could be overstated. The meaningful bar is the $450-460M guidance and investors' likely higher expectations after a 13-day run (inference, medium)."}
+  ],
+  "open_questions": [
+    "Q1 FY2027 results date not confirmed by VIAVI. Aggregators say 2026-10-28 (or 10-29), but the later quarter end (2026-10-03) and VIAVI's usual ~32-day lag suggest about 2026-11-04 (inference, medium). Watch for the date-announcement press release.",
+    "No current, verified Q1 FY27 consensus. MarketBeat's $0.36 / $433.2M looks stale (below guidance); a second source was not available.",
+    "No published cause for the optical/AI-networking group's Wednesday 2026-10-07 decline. Profit-taking is a guess (low confidence).",
+    "Calnex release timestamp differs between sources (Yahoo: 14:00 UTC; PR Newswire UK page: 15:36 GMT). Both fall within the US session. VIAVI had not posted it on its own IR feed.",
+    "Coverage limits: the web-search budget ran out mid-run, so later checks used direct page fetches (EDGAR, VIAVI IR feed, Yahoo news pages, StockAnalysis, MarketBeat). News published between about 16:30 UTC and the 2026-10-07 close was checked only through EDGAR and the VIAVI IR feed (22:09 UTC), not through news sites."
+  ],
+  "searches_run": 10
+}

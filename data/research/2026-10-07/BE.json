@@ -1,0 +1,190 @@
+{
+  "ticker": "BE",
+  "company": "Bloom Energy Corp",
+  "window": {
+    "from": "2026-10-05T20:00:00Z (after the Monday 5 Oct US close)",
+    "to": "2026-10-07T21:15:00Z (window extended past the Wednesday 7 Oct close, per coordinator update)"
+  },
+  "newest_item_checked": "2026-10-07 21:15 UTC: Bloom investor-relations press-release feed (newest release 2026-09-25, nothing in the window) and SEC EDGAR submissions (newest filing 2026-10-02, nothing in the window). Newest news items: Investing.com Bernstein note, 2026-10-07 08:52 (time zone not stated), and Investing.com UBS headline, 2026-10-07.",
+  "price_context": {
+    "tue_2026_10_06": "Close $295.78, +3.19% from $286.65. Attribution: market +1.22, industry +2.83 (ICLN +1.4%), company -0.86 (z -0.2): mostly explained by the market and its industry (data/metrics/attribution-2026-10-07.json).",
+    "wed_2026_10_07": "Close $291.29, -1.52% (coordinator figures). Attribution: market -0.53, industry -3.38 (ICLN -1.31%), company +2.40 (z 0.55, normal size).",
+    "two_days_vs_monday_close": "+1.62% from $286.65 (coordinator figure)."
+  },
+  "events": [
+    {
+      "date": "2026-10-07",
+      "timing": "unknown (Investing.com stamps it 08:52, time zone not stated; probably before the US open)",
+      "type": "analyst action (reiteration)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Bernstein SocGen Group (analyst Sunaina Ocalan, per TipRanks and MarketBeat) kept its Market Perform rating (neutral) and $282 price target. It wrote that 'a 10-20 GW behind-the-meter market by 2030 supports current valuation levels', cited Virginia's Energy Plan (released 2026-10-01), Ameren's Integrated Resource Plan (released 2026-09-28) and the Fremont factory expansion, and called the utility channel, 800V DC power architectures and carbon capture 'credible long-term growth opportunities' mostly for 2029-2035. Its $282 target is below the $295.78 price at the time of the note.",
+      "why_it_matters": "An opinion, not a fact. It adds one useful framing: a big bank estimating that the on-site ('behind-the-meter') power market for data centers is 10-20 GW by 2030, and saying today's price already reflects it. It also says utilities are a second group of buyers, which supports thesis pillar 2 (new orders from data centers and utilities).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Investing.com", "date": "2026-10-07", "url": "https://www.investing.com/news/analyst-ratings/bernstein-reiterates-bloom-energy-stock-rating-on-utility-demand-93CH-4936717", "tier": 3},
+        {"name": "TipRanks (BE forecast page)", "date": "2026-10-07", "url": "https://www.tipranks.com/stocks/be/forecast", "tier": 3},
+        {"name": "MarketBeat (BE forecast page)", "date": "2026-10-07", "url": "https://www.marketbeat.com/stocks/NYSE/BE/forecast/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "unknown",
+      "type": "analyst action (price target raised)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "UBS (analyst Manav Gupta) kept a Buy rating and set a $350 price target. TipRanks lists it as raised from $325; MarketBeat shows UBS at Buy, $325 on 2026-09-07. Investing.com's headline confirms Buy with $350; the article itself is paywalled, so UBS's reasons are not available.",
+      "why_it_matters": "An opinion. The most bullish large bank moved its target up; with Bernstein neutral on the same day, the analyst picture stays split (MarketBeat: 10 buy, 13 hold, 1 sell, 2 strong buy; average target $257.18, below the price).",
+      "direction": "supports",
+      "sources": [
+        {"name": "TipRanks (BE forecast page)", "date": "2026-10-07", "url": "https://www.tipranks.com/stocks/be/forecast", "tier": 3},
+        {"name": "Investing.com (Pro headline, paywalled)", "date": "2026-10-07", "url": "https://www.investing.com/news/pro/ubs-maintains-bloom-energy-at-buy-with-a-price-target-of-35000-4936896", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-05 or 2026-10-06 (sources conflict)",
+      "timing": "unknown",
+      "type": "analyst action (reported rating change, probably a database artifact)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "MarketBeat and sites that copy it reported that TD Cowen 'upgraded' Bloom to Hold, with no price target and no reason given; its syndicated articles credited Tuesday's 3.4% intraday rise to this 'upgrade'. But TD Cowen's analyst Jeff Osborne already rated Bloom Hold with a $235 target on 2026-07-20 (Investing.com), and MarketBeat's database shows this as its only TD Cowen entry. So the 'upgrade' is most likely MarketBeat recording an existing Hold for the first time, not a real change (inference, medium). No tier 1-2 source found.",
+      "why_it_matters": "It is the only 'reason' published for Tuesday's rise, and it is probably not real. The attribution data shows Bloom's own part of Tuesday's move was -0.86%, so the stock did not rise more than its peers would explain.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "MarketBeat (auto-generated alert)", "date": "2026-10-06", "url": "https://marketbeat.com/instant-alerts/analyst-bloom-energy-nyse-be-upgraded-at-td-cowen-2026-10-06", "tier": 3},
+        {"name": "ad-hoc-news (based on MarketBeat)", "date": "2026-10-07", "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/td-cowen-moves-bloom-energy-stock-to-hold-rating/70256634", "tier": 3},
+        {"name": "Investing.com (TD Cowen Hold, $235, 2026-07-20)", "date": "2026-07-20", "url": "https://www.investing.com/news/analyst-ratings/bloom-energy-stock-rating-held-at-hold-by-td-cowen-on-valuation-93CH-4800348", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "before open (FuelCell news) / during (price moves, article at 09:57 ET)",
+      "type": "peer / industry",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Fuel-cell stocks fell on Wednesday. FuelCell Energy dropped 12% to $18.13 after its finance chief of 15 years, Michael Bishop, stepped down (successor Matthew Latino; Bishop stays as senior adviser), and Plug Power fell about 3%. Bloom was down 2% to $289.25 at 09:57 ET, 'a far softer decline for the sector's largest name'. No Bloom-specific news was cited.",
+      "why_it_matters": "Explains part of Wednesday's drop as a sector move, not Bloom news. The FuelCell CFO change concerns a competitor, not Bloom.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "24/7 Wall St.", "date": "2026-10-07", "url": "https://247wallst.com/investing/2026/10/07/fuelcell-tumbles-12-as-its-finance-chief-of-15-years-steps-down-bloom-energy-dips-plug-power-slides-3/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-01 to 2026-10-02",
+      "timing": "after close (Form 4s accepted 2026-10-02 21:00 UTC)",
+      "type": "insider trade (planned sale) and director stock awards",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "Chief Commercial Officer Aman Joshi sold 8,437 shares at $277.17 (about $2.34 million) on 2026-10-01 under a 10b5-1 plan, keeping 147,092 shares; directors Jeffrey Immelt (81 shares) and Cynthia Warner (83 shares) received routine stock awards on 2026-09-30. Already covered in the 2026-10-04 research. No new insider filings in this window.",
+      "why_it_matters": "A pre-planned sale says little about the insider's current view; not a thesis breaker.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4 (Joshi)", "date": "2026-10-02", "url": "https://www.sec.gov/Archives/edgar/data/1664703/000119312526412560/xslF345X06/ownership.xml", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Over the two days BE rose 1.62% (Tue +3.19% to $295.78, Wed -1.52% to $291.29). Neither day had company news: no press release (newest 2026-09-25) and no SEC filing (newest 2026-10-02).", "evidence": "data/metrics/attribution-2026-10-07.json; coordinator close figures; https://investor.bloomenergy.com/press-releases/default.aspx ; https://data.sec.gov/submissions/CIK0001664703.json"},
+    {"rung": 2, "text": "Tuesday: the market explains +1.22 points and clean-energy stocks +2.83 points; Bloom's own part was -0.86 (normal noise). Bloom tends to move about 3.2 times the clean-energy fund's extra move (industry beta 3.16), so a 1.4% ICLN rise becomes a large BE rise.", "evidence": "data/metrics/attribution-2026-10-07.json (sourced data)"},
+    {"rung": 3, "text": "Why clean-energy stocks rose on Tuesday: no published cause found (search budget was limited; the searches run only gave general background: AI power demand and the year's clean-energy rally).", "evidence": "inference (low): cause not found"},
+    {"rung": 4, "text": "The 'TD Cowen upgrade' that auto-generated sites credited for Tuesday's rise is probably not a real rating change: TD Cowen already rated Bloom Hold in July. Bloom's own part of the move was negative, so no Bloom-specific buying needs explaining.", "evidence": "https://www.investing.com/news/analyst-ratings/bloom-energy-stock-rating-held-at-hold-by-td-cowen-on-valuation-93CH-4800348 | inference (medium)"},
+    {"rung": 5, "text": "Wednesday: the market explains -0.53 and the industry -3.38; Bloom's own part was +2.40 (z 0.55, normal size). Fuel-cell peers fell hard (FuelCell -12% on its CFO change, Plug about -3%), and Bloom fell less.", "evidence": "data (coordinator attribution) ; https://247wallst.com/investing/2026/10/07/fuelcell-tumbles-12-as-its-finance-chief-of-15-years-steps-down-bloom-energy-dips-plug-power-slides-3/"},
+    {"rung": 6, "text": "A possible reason Bloom held up better on Wednesday: UBS's higher $350 target and Bernstein's note that a 10-20 GW on-site power market supports the valuation, both published that morning. The company part is normal noise, so this cannot be proven.", "evidence": "https://www.tipranks.com/stocks/be/forecast ; https://www.investing.com/news/analyst-ratings/bernstein-reiterates-bloom-energy-stock-rating-on-utility-demand-93CH-4936717 | inference (low)"},
+    {"rung": 7, "text": "Underlying driver: BE trades as a high-beta bet on AI data-center power demand (beta 4.22 to the market, ATR 6.68% of price). On days without news, the market and clean-energy moves dominate.", "evidence": "data/metrics/2026-10-07.json | inference (high)"}
+  ],
+  "products": [
+    {
+      "name": "Bloom Energy Server sold to utilities (the 'utility channel' Bernstein highlighted)",
+      "what_it_is": "The same solid-oxide fuel-cell boxes Bloom sells to data centers, bought by an electric utility to add power to its grid instead of a single customer using them on site.",
+      "analogy": "Like a bakery that has sold to one big restaurant chain and now starts supplying supermarkets too: same bread, a second kind of buyer.",
+      "buyers": "Utilities planning capacity. Ameren's resource plan (released 2026-09-28) includes 500 MW of natural-gas fuel cells by 2030 (per Barclays and Bernstein notes, tier 3; Ameren document not opened). Virginia's 2026 Energy Plan names fuel cells as a near-term option (Bloom not named). AEP is a known earlier Bloom utility customer.",
+      "how_it_works": "Natural gas reacts chemically (no burning) inside stacks of ceramic cells to make electricity. Units are modular and can be installed in months, versus years for a big new power plant or grid connection.",
+      "price": "not disclosed",
+      "sales": "Utility sales not disclosed separately. Proxy (labelled): Q2 2026 product revenue $935.4m of $1,065.4m total revenue; FY2026 revenue guidance $3.9-4.2bn.",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm",
+      "stage": "Shipping; utility orders are early-stage. Ameren's 500 MW is a plan to 2030, not a signed Bloom order (no Bloom-Ameren contract found).",
+      "size_for_company": "not disclosed. Bernstein places the utility channel's revenue mostly in 2029-2035 (opinion).",
+      "competition": "Gas turbines and engines (GE Vernova, Siemens Energy, Caterpillar), batteries, solar/wind plus storage, and other fuel-cell makers (FuelCell Energy).",
+      "why_investors_care": "If utilities become regular buyers, Bloom depends less on a handful of data-center projects such as Oracle's Jupiter.",
+      "watch_next": "Q3 2026 results (late October): any utility orders, backlog, and whether the 2026 outlook holds."
+    }
+  ],
+  "earnings": {
+    "status": "none",
+    "date": "",
+    "confirmed": false,
+    "consensus": {},
+    "actual": {},
+    "guidance": {},
+    "key_metrics": {},
+    "quality_flags": [],
+    "management_explanation": "No results in the window. Last report: Q2 2026 on 2026-07-28 (revenue $1,065.4m, +165.5%; operating cash flow $226.4m; 2026 outlook raised to $3.9-4.2bn).",
+    "sources": ["https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm"]
+  },
+  "next_earnings": {
+    "date": "Late October 2026, estimated: aggregators give 2026-10-26 to 2026-10-29. Not announced by the company as of 2026-10-07 21:15 UTC (no release, no event on the IR events feed). Last year's Q3 report was 2025-10-28 (IR events feed). The company usually announces the date 2-3 weeks ahead (Q2: announced 2026-07-06 for 2026-07-28; Q1: 2026-04-15 for 2026-04-28).",
+    "confirmed": false,
+    "consensus_eps": "Q3 2026 (Sep quarter) adjusted EPS $0.67 average of 17 analysts (range $0.56-0.80); FY2026 $2.71 (26 analysts, range $2.42-3.08). Yahoo Finance, fetched 2026-10-07, tier 3.",
+    "consensus_revenue": "Q3 2026 revenue $1.06bn average of 15 analysts (range $909.9m-$1.13bn, +105.01% from a year earlier); FY2026 $4.12bn (25 analysts, range $3.98-4.31bn), near the top of the company's $3.9-4.2bn range. Yahoo Finance, fetched 2026-10-07, tier 3.",
+    "company_guidance": "FY2026 (given 2026-07-28): revenue $3.9-4.2bn, non-GAAP gross margin about 34%, non-GAAP operating income $800-900m, non-GAAP EPS $2.55-2.85. No separate quarterly guidance found.",
+    "sources": [
+      "https://finance.yahoo.com/quote/BE/analysis/",
+      "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm",
+      "https://investor.bloomenergy.com/press-releases/default.aspx",
+      "https://investor.bloomenergy.com/events-and-presentations/default.aspx"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-10-07", "firm": "Bernstein SocGen Group (Sunaina Ocalan)", "action": "Reiterated Market Perform, $282 target", "reason": "10-20 GW on-site (behind-the-meter) market by 2030 'supports current valuation levels'; utility channel (Virginia plan, Ameren plan), 800V DC and carbon capture are long-term options mostly for 2029-2035", "url": "https://www.investing.com/news/analyst-ratings/bernstein-reiterates-bloom-energy-stock-rating-on-utility-demand-93CH-4936717"},
+    {"date": "2026-10-07", "firm": "UBS (Manav Gupta)", "action": "Kept Buy; target $350 (from $325 per TipRanks)", "reason": "not available (paywalled)", "url": "https://www.tipranks.com/stocks/be/forecast"},
+    {"date": "2026-10-05 or 2026-10-06", "firm": "TD Cowen (Jeff Osborne)", "action": "Listed by MarketBeat as an 'upgrade' to Hold, no target; probably a database entry for an existing Hold (Hold, $235 on 2026-07-20)", "reason": "not stated", "url": "https://marketbeat.com/instant-alerts/analyst-bloom-energy-nyse-be-upgraded-at-td-cowen-2026-10-06"},
+    {"date": "2026-10-02 (outside window)", "firm": "Zacks Research (quantitative ranking, not a broker)", "action": "Strong-Buy to Hold", "reason": "not stated", "url": "https://www.marketbeat.com/stocks/NYSE/BE/forecast/"}
+  ],
+  "insiders": {
+    "summary": "No new insider filings in the window: EDGAR's newest Bloom filings are the three Form 4s of 2026-10-02 (checked 2026-10-07 21:15 UTC). The only recent open-market sale (Joshi, 2026-10-01) was under a 10b5-1 plan and was already covered. No open-market purchases. MarketBeat says insiders sold $21.8m of shares over the past three months (tier 3, not verified).",
+    "notable": [
+      "Aman Joshi (Chief Commercial Officer): sold 8,437 shares at $277.17 on 2026-10-01 (about $2.34m), 10b5-1 plan, 147,092 shares still held. Rehash. https://www.sec.gov/Archives/edgar/data/1664703/000119312526412560/xslF345X06/ownership.xml"
+    ]
+  },
+  "filings": [
+    {"form": "none in window", "items": "", "plain_english": "No SEC filings between 2026-10-05 20:00 UTC and 2026-10-07 21:15 UTC. The 2026-10-01 Form 144 and 2026-10-02 Form 4s (Joshi planned sale; Immelt and Warner stock awards) were covered in the 2026-10-04 research.", "materiality": "low", "url": "https://data.sec.gov/submissions/CIK0001664703.json"}
+  ],
+  "catalysts": [
+    {"date": "late October 2026 (estimated 2026-10-26 to 2026-10-29)", "event": "Q3 2026 results and call; date not yet announced by Bloom", "confirmed": false, "url": "https://finance.yahoo.com/quote/BE/analysis/"},
+    {"date": "February 2027", "event": "Expected in-service date of the gas pipeline for Oracle's Project Jupiter", "confirmed": false, "url": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html"},
+    {"date": "not available", "event": "Securities class action (filed 2026-07-30): lead-plaintiff appointment after the 2026-09-28 deadline; then a likely motion to dismiss", "confirmed": false, "url": "https://www.dandodiary.com/2026/08/articles/geopolitical-risk/geopolitical-issues-lead-to-securities-suit-against-fuel-cell-company/"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "No release or 8-K since the 2026-07-28 raise to $3.9-4.2bn; IR feed newest release 2026-09-25; EDGAR newest filing 2026-10-02."},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "No results in the window; Q3 results expected late October."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "No new Jupiter news in the window. Background: Oracle's force-majeure notice (2026-09-24), with all sides saying the contract stands (CNBC); the New Mexico Land Commissioner rejected the pipeline right-of-way in March 2026 and again in July 2026 (Source NM, 2026-03-31; Santa Fe New Mexican). Oracle's 2026-09-08 request for up to 2 GW of renewables is to offset emissions, not to replace Bloom (Crypto Briefing, 2026-09-11, low-quality source)."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "No 8-K in the window (EDGAR checked 2026-10-07 21:15 UTC)."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "No 8-K in the window."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "No 8-K in the window. The CFO departure in the news (2026-10-07) is at competitor FuelCell Energy, not Bloom."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "No S-3, 424B or 8-K Item 3.02 in the window."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "Nothing new in the window. The securities class action filed 2026-07-30 already exists (lead-plaintiff deadline 2026-09-28; appointment status not available). Newest Hunterbrook article is about Lennar (2026-10-02); its last Bloom pieces are dated 2026-07-08, 2026-07-30 and 2026-08-13 (hntrbrk.com, fetched 2026-10-07)."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "No broker downgrade found. Bernstein reiterated (neutral), UBS raised its target, TD Cowen was listed as an 'upgrade'. The only 'downgrade' was Zacks's quantitative ranking (Strong-Buy to Hold, 2026-10-02), which is not a broker rating."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "No insider filings in the window; the last sale (Joshi, 2026-10-01) was under a 10b5-1 plan."},
+    {"event": "theses/BE.md triggers 1-7 (outlook cut; customers pick other power; operating cash flow negative two quarters; share sale >5%; Jupiter cancelled or cut; pipeline beyond 2027; regulator or court finds supply-chain statements false)", "found": false, "evidence": "None found in the window. No tier 1-2 report of a large customer choosing turbines or batteries over Bloom; no new pipeline date; no court ruling found."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "The price is above most targets: Bernstein's $282 target is below the $295.78 price at the time of its note, and MarketBeat's average target is $257.18 (about 10.7% below $287.86). Ratings are split: 10 buy, 13 hold, 1 sell, 2 strong buy.", "url": "https://www.marketbeat.com/stocks/NYSE/BE/forecast/", "assessment": "Tier 3, opinions. The point is fair: many analysts think good news is already in the price, so results must keep beating. (TipRanks' average of $288.78 uses a different set of analysts; its listed price of $217.45 looks stale.)"},
+    {"claim": "TD Cowen (Osborne, 2026-07-20): Bloom looks 'fully valued'; major delays at the Oracle and AEP data-center projects 'could present a risk to 2027 and 2028 estimates'.", "url": "https://www.investing.com/news/analyst-ratings/bloom-energy-stock-rating-held-at-hold-by-td-cowen-on-valuation-93CH-4800348", "assessment": "Outside the window but still relevant. The Jupiter delay since got worse (force majeure, 2026-09-24). The AEP delay was not re-checked."},
+    {"claim": "Project Jupiter's gas supply is blocked at the state level: the New Mexico Land Commissioner rejected the pipeline right-of-way across state trust land in March 2026 and rejected reconsideration in July 2026.", "url": "https://sourcenm.com/2026/03/31/nm-state-land-commissioner-rejects-application-for-gas-pipeline-to-power-project-jupiter-data-center/", "assessment": "Real (local tier-3 news, two outlets) and the root cause of the February 2027 slip. Nothing new in the window. How the pipeline will route around state land is not verified."},
+    {"claim": "Hunterbrook short-seller reports: 'Bloom's Big Lie' (2026-07-08), 'Do Bloom's Fuel Cells Work as Claimed? Data Says No' (2026-07-30), and a 2026-08-13 Nebius article saying Bloom fuel cells were installed at a site without prior permits.", "url": "https://hntrbrk.com/", "assessment": "Not new; no new Hunterbrook Bloom article in the window. Bloom calls the claims false; the class action is pending."},
+    {"claim": "Valuation is extreme on past profits: trailing P/E about 357 (24/7 Wall St, 2026-09-24) or 380 (Motley Fool, 2026-10-06).", "url": "https://finance.yahoo.com/energy/articles/bloom-energy-single-largest-fuel-152932412.html", "assessment": "Tier 3, and the two figures differ. Directionally right: the price depends on future growth, not today's profit."}
+  ],
+  "open_questions": [
+    "Cause of Tuesday's clean-energy rise (ICLN +1.4%): not found; the session's web-search budget ran out early.",
+    "Whether TD Cowen really changed its rating: only MarketBeat and copies of it report an 'upgrade'; no tier 1-2 source. The prior rating on record is Hold at $235 (2026-07-20).",
+    "UBS's reasons for the $350 target and the 'from $325' figure come from one tier-3 source (TipRanks); the Investing.com article is paywalled.",
+    "Q3 2026 results date: not announced by Bloom; aggregators range from 2026-10-26 to 2026-10-29.",
+    "Q3 consensus figures are from Yahoo Finance (tier 3); not cross-checked with a tier 1-2 source.",
+    "Bernstein cites a 'Fremont facility expansion announcement', but Bloom's press-release feed has no such release; the factory purchase is known from a City of Fremont post and analyst notes. CoStar's article on it could not be opened (403).",
+    "Ameren's 500 MW of fuel cells by 2030 comes from analyst notes; the Ameren plan document was not opened, and no Bloom-Ameren contract was found.",
+    "Status of the class action (lead plaintiff appointed? amended complaint date?) not found.",
+    "The New Mexico Environment Department air-permit timeline for Jupiter: a search mentioned a hearing from Oct. 19 and a decision by Nov. 23, but the year could not be confirmed (possibly 2025); not added to the calendar.",
+    "Benzinga's 'What's Going On With Bloom Energy Stock Tuesday?' (2026-10-06) could not be opened (403)."
+  ],
+  "searches_run": 17
+}

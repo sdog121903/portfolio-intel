@@ -1,0 +1,155 @@
+{
+  "ticker": "PANW",
+  "company": "Palo Alto Networks Inc",
+  "window": {"from": "2026-10-05T20:00Z (after Monday 5 Oct US close)", "to": "2026-10-07 US close (about 20:00Z); Wednesday close $405.57 supplied by the coordinator"},
+  "newest_item_checked": "Yahoo Finance live blog for Wed 2026-10-07, latest entry 8:01 PM UTC (final index closes, Fed minutes); SEC EDGAR submissions for CIK 1327567 checked 2026-10-07: newest PANW filing is the Form 4 filed 2026-10-05 (accepted 2026-10-06 00:30 UTC); no 8-K on 6 or 7 Oct.",
+  "events": [
+    {
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "sector move (software and cybersecurity rally)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "PANW closed $419.91, +3.23% (Monday $406.76), its highest close in our price data (which starts 2024-10-07). It opened at $412.80 (+1.5%), reached an intraday high of $432.33 (+6.3%) and gave back about 2.9% from that high by the close (data/prices, Yahoo daily bars). Attribution: market +0.56, industry +2.14, company +0.54 points (z 0.33, normal size). The same day Reuters reported US software stocks at fresh 2026 highs: the S&P 500 software and services index rose 1.3% on Tuesday to its highest level since November 2025 as worries that AI would disrupt software faded, and the sector's expected 2026 earnings growth rose to 20.6% from 13.8% at the end of March. Reuters named CrowdStrike, Fortinet and Palo Alto as having 'triple digit percentage gains this year as companies spend heavily on cybersecurity in the age of AI'. Before Tuesday's open, Yahoo Finance's Chart of the Day said the cybersecurity fund CIBR had hit an all-time high on Monday as agentic AI adoption spurs security spending, citing Morgan Stanley's forecast that corporate cybersecurity software spending grows 23% a year through 2028 (33% if major attacks bring government mandates) and Zscaler CEO Jay Chaudhry: 'Agents going rogue is the biggest risk today'. No Palo Alto press release or filing on the day.",
+      "why_it_matters": "Explains Tuesday's rise: it was the whole software and security group, not Palo Alto news. Investors raised profit expectations for software and kept betting that AI agents will lift security spending (the Thesis 2 story), but no new company facts arrived.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Reuters via Investing.com (Joel Jose)", "date": "2026-10-06", "url": "https://www.investing.com/news/stock-market-news/us-software-stocks-scale-fresh-2026-highs-as-ai-disruption-worries-fade-4934831", "tier": 2},
+        {"name": "Yahoo Finance, Chart of the Day (Ines Ferre)", "date": "2026-10-06", "url": "https://finance.yahoo.com/markets/stocks/article/cybersecurity-stocks-hit-new-highs-as-ai-agents-spark-biggest-risk-today-chart-of-the-day-115446641.html", "tier": 3},
+        {"name": "GuruFocus (PANW +3.5% to $420.93 at 11am ET on AI-agent security enthusiasm)", "date": "2026-10-06", "url": "https://www.gurufocus.com/news/9111677/palo-alto-networks-stock-jumps-35-as-aiagent-fear-becomes-budget-fuel", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "during",
+      "type": "sector move (pullback), no company news",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "PANW closed $405.57, -3.42%, giving back all of Tuesday's gain (two days: -0.29% vs Monday's $406.76). Attribution (coordinator): market -0.24, industry -1.78 (CIBR -1.44%), company -1.40 points (z -0.87, normal size). CrowdStrike fell 4.81%. No Palo Alto press release, 8-K or analyst action found for the day. Market backdrop: Yahoo Finance reported Treasury yields at new 24-year highs during the session (30-year 5.73%), and the Fed minutes released in the afternoon said 'another increase in the target range for the federal funds rate would likely be appropriate by year end'. S&P 500 closed -0.22%, Nasdaq -0.22%. No published article tying the cybersecurity drop to a specific cause was found.",
+      "why_it_matters": "A reversal with no company news. The most expensive leaders (CrowdStrike, Palo Alto) fell more than the cybersecurity fund, in line with the pattern that high-valuation stocks are most sensitive to higher interest rates and to profit-taking after a record. That is an inference: no source states it for this day.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Yahoo Finance live blog, Wed 7 Oct", "date": "2026-10-07", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html", "tier": 3},
+        {"name": "SEC EDGAR submissions, Palo Alto Networks (no new filing on 6-7 Oct)", "date": "2026-10-07", "url": "https://data.sec.gov/submissions/CIK0001327567.json", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "timing": "unknown",
+      "type": "insider sale (pre-planned) and tax withholding",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "Form 4 filed 2026-10-05 (accepted 2026-10-06 00:30 UTC, so inside this window): chief accounting officer Josh D. Paul sold 400 shares at $395.70 under a 10b5-1 plan, and 1,308 shares were withheld at $397.31 for tax (code F); 77,987 shares held after. Already in the news log (key panw-2026-10-01-paul-sale) and the 2026-10-05 report.",
+      "why_it_matters": "Routine; no new information.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4", "date": "2026-10-05", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000188228526000027/xslF345X06/ownership.xml", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Tuesday 6 Oct: PANW +3.23% to $419.91. Of that, +0.56 points came from the market, +2.14 from cybersecurity stocks and +0.54 from Palo Alto itself (normal size, z 0.33).", "evidence": "data/metrics/attribution-2026-10-07.json (Yahoo daily bars)"},
+    {"rung": 2, "text": "Why did the industry rise? Software stocks as a whole rallied: the S&P 500 software and services index rose 1.3% to its highest since November 2025; cybersecurity names were singled out for triple-digit 2026 gains.", "evidence": "https://www.investing.com/news/stock-market-news/us-software-stocks-scale-fresh-2026-highs-as-ai-disruption-worries-fade-4934831"},
+    {"rung": 3, "text": "Why did software rally? Analysts said fears that AI would replace software ('SaaSpocalypse') were overstated, and forecasts for the sector's 2026 earnings growth rose to 20.6% from 13.8% at the end of March. LPL's Adam Turnquist: 'AI has been more of an enabler for a lot of these software companies, more than a disruptor.'", "evidence": "https://www.investing.com/news/stock-market-news/us-software-stocks-scale-fresh-2026-highs-as-ai-disruption-worries-fade-4934831"},
+    {"rung": 4, "text": "Why security in particular? Investors expect AI agents (software that acts on its own) to create new things to protect; Morgan Stanley forecasts corporate cybersecurity software spending to grow 23% a year through 2028; Zscaler's CEO called rogue agents 'the biggest risk today'.", "evidence": "https://finance.yahoo.com/markets/stocks/article/cybersecurity-stocks-hit-new-highs-as-ai-agents-spark-biggest-risk-today-chart-of-the-day-115446641.html (tier 3; the Morgan Stanley note's date is not given)"},
+    {"rung": 5, "text": "Basic driver: higher expected profits for software, plus a belief that AI raises security budgets, made investors willing to pay more for the group. Palo Alto moved with the group, not on its own news.", "evidence": "inference (medium)"},
+    {"rung": 6, "text": "The intraday spike to $432.33 (+6.3%) and the fade to +3.23% at the close: no published reason found.", "evidence": "inference (low): unexplained; data/prices/PANW.csv"},
+    {"rung": 7, "text": "Wednesday 7 Oct: PANW -3.42%, almost all of it the industry (-1.78) and Palo Alto's own part (-1.40, normal size). There was no company news. The likely backdrop was Treasury yields at 24-year highs and Fed minutes pointing to another rate increase by year end. Those hit the most expensive stocks hardest: at Tuesday's close PANW cost about 100-101 times the company's own FY2027 adjusted EPS guidance of $4.16-4.19 (report's calculation). Profit-taking after a record close is a second possible reason.", "evidence": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html for yields and minutes; the link to PANW is an inference (medium-low)"}
+  ],
+  "products": [
+    {
+      "name": "AI-agent security: Prisma AIRS (AI Runtime Security, AI Gateway) and Unit 42 Continuous Frontier AI Defense",
+      "what_it_is": "Software and services that watch and limit what AI agents and AI models inside a company can see and do, plus an ongoing service in which Palo Alto's Unit 42 team tests a customer's systems against attacks by advanced AI models.",
+      "analogy": "A building's security desk and key-card system, but for software robots: it checks which doors each robot may open, logs what it does, and stops it if it goes somewhere it should not.",
+      "buyers": "Large companies and governments deploying AI agents and models.",
+      "how_it_works": "The AI Gateway sits between agents and the models or tools they call, inspects the traffic, limits access to approved tools, removes sensitive data and tracks usage and costs. AI Runtime Security can run on NVIDIA BlueField chips, separate from the agent, so the agent cannot switch it off. Per GuruFocus, the Unit 42 service is an annual subscription that tests applications, APIs, cloud infrastructure and source-code repositories.",
+      "price": "not disclosed (GuruFocus, 2026-10-06: the release gives neither subscription pricing nor a revenue forecast)",
+      "sales": "not disclosed",
+      "sales_source": "Labelled proxy: next-generation security ARR (all of Palo Alto's newer subscription products, including AI security, cloud, SASE, Cortex and CyberArk identity) was $9.10bn at Q4 FY2026, +63% [PANW Q4 FY2026 results, 2026-09-01, https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm]. No figure for the AI-security products alone.",
+      "stage": "Prisma AIRS AI Runtime Security on NVIDIA BlueField: generally available; AI Gateway on NVIDIA Vera CPUs: future hardware [Help Net Security, 2026-09-29, https://www.helpnetsecurity.com/2026/09/29/palo-alto-networks-nvidia-ai-agent-security/]. Unit 42 Frontier AI Defense launched 2026-09-22 (news log).",
+      "size_for_company": "Unknown. Q1 FY2027 revenue guidance is $3.300-3.310bn; the AI-security products' share is not disclosed.",
+      "competition": "CrowdStrike (also named as an NVIDIA agent-security partner), Zscaler, Cisco, Microsoft and AI-security start-ups.",
+      "why_investors_care": "This is the product line behind the 'AI agents need security' story that moved the whole group on Tuesday (Thesis 2). Without disclosed numbers it is still a story, not revenue.",
+      "watch_next": "Any customer count, ARR or revenue figure for AI security on the Q1 FY2027 call (mid-November); pillar 3 and trigger 3 in theses/PANW.md."
+    }
+  ],
+  "earnings": {
+    "status": "none",
+    "date": "",
+    "confirmed": false,
+    "consensus": {},
+    "actual": {},
+    "guidance": {},
+    "key_metrics": {},
+    "quality_flags": [],
+    "management_explanation": "No results in the window. Last results: Q4 FY2026 on 2026-09-01 (already in the news log).",
+    "sources": []
+  },
+  "next_earnings": {
+    "date": "Q1 FY2027 (quarter ending October 2026), mid-to-late November 2026; not announced by the company as of 2026-10-07. Third parties list 2026-11-12 after the close (TipRanks marks it 'Confirmed'; Investing.com gives no status) or 2026-11-18 (StockAnalysis, 'Estimated'). No company press release confirming a date was found. Track record from SEC 8-Ks: Q1 FY2026 reported 2025-11-19, Q1 FY2025 2024-11-20, Q1 FY2024 2023-11-15, all after the close.",
+    "confirmed": false,
+    "consensus_eps": "$0.97 non-GAAP (TipRanks); $0.971 (Investing.com); tier 3",
+    "consensus_revenue": "$3.31bn (Investing.com, tier 3)",
+    "company_guidance": "Q1 FY2027: revenue $3.300-3.310bn (+33-34%), next-generation security ARR $9.54-9.56bn (+63%), RPO $20.8-20.9bn (+34-35%), non-GAAP EPS $0.96-0.98. FY2027: revenue $14.10-14.20bn (+23-24%), NGS ARR $11.075-11.175bn (+22-23%), RPO $25.2-25.4bn, non-GAAP operating margin 29.5%, non-GAAP EPS $4.16-4.19, adjusted free cash flow margin 38.0% [PANW Q4 FY2026 results, 2026-09-01].",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm",
+      "https://www.tipranks.com/stocks/panw/earnings",
+      "https://www.investing.com/equities/palo-alto-netwrk-earnings",
+      "https://stockanalysis.com/stocks/panw/",
+      "https://data.sec.gov/submissions/CIK0001327567.json"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "not available (cited by Yahoo Finance 2026-10-06)", "firm": "Morgan Stanley", "action": "Overweight on PANW (also CRWD, OKTA); no rating or target change reported", "reason": "More attention to AI safety supports cybersecurity demand; corporate cybersecurity software spending forecast +23% a year through 2028 (33% if major attacks bring government mandates)", "url": "https://finance.yahoo.com/markets/stocks/article/cybersecurity-stocks-hit-new-highs-as-ai-agents-spark-biggest-risk-today-chart-of-the-day-115446641.html"},
+    {"date": "2026-10-07 (page as read)", "firm": "Consensus (StockAnalysis, 55 analysts)", "action": "Average rating Buy; average price target $396.92, about 2% below the price when read", "reason": "Aggregate, not a new action. Shows the stock trading above analysts' average target", "url": "https://stockanalysis.com/stocks/panw/"}
+  ],
+  "insiders": {
+    "summary": "One Form 4 in the window, a rehash: CAO Josh Paul sold 400 shares at $395.70 under a 10b5-1 plan and had 1,308 shares withheld for tax on 2026-10-01 (filed 2026-10-05). No open-market purchases. In the pipeline's filings window the only seller without a plan flag is director Aparna Bawa (260 shares, about $102K, 2026-09-24, already covered on 2026-10-04). CFO Dipak Golechha's 27,500-share sale (about $10.77M) on 2026-09-24 was under a 10b5-1 plan and was already covered.",
+    "notable": [
+      {"who": "Josh D. Paul (Chief Accounting Officer)", "date": "2026-10-01", "what": "Sold 400 shares at $395.70 under a 10b5-1 plan (about $158K); 1,308 shares withheld for tax at $397.31; 77,987 shares left", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000188228526000027/xslF345X06/ownership.xml"}
+    ]
+  },
+  "filings": [
+    {"form": "4", "items": "", "plain_english": "Insider trade report: the CAO's small pre-planned sale and tax withholding on vested stock (routine).", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000188228526000027/xslF345X06/ownership.xml"}
+  ],
+  "catalysts": [
+    {"date": "mid-to-late November 2026 (third parties: 2026-11-12 or 2026-11-18)", "event": "Q1 FY2027 results: revenue guidance $3.300-3.310bn, NGS ARR $9.54-9.56bn, non-GAAP EPS $0.96-0.98", "confirmed": false, "url": "https://www.tipranks.com/stocks/panw/earnings"},
+    {"date": "around February 2027", "event": "One year since CyberArk closed (2026-02-11): growth comparisons stop including the acquisition boost; FY2027 NGS ARR growth guided to 22-23%", "confirmed": false, "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "the company cut its revenue or profit forecast (guidance)", "found": false, "evidence": "No results, 8-K or guidance update in the window (EDGAR checked 2026-10-07). FY2027 guidance still $14.10-14.20bn revenue, $4.16-4.19 non-GAAP EPS (2026-09-01 release)."},
+    {"event": "results missed analysts' revenue or EPS estimates", "found": false, "evidence": "No results in the window; next results mid-to-late November."},
+    {"event": "a major customer was lost, or a major customer cut orders", "found": false, "evidence": "No report found in searches of 6-7 Oct news."},
+    {"event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement", "found": false, "evidence": "No 8-K filed since 2026-09-01 (EDGAR submissions list)."},
+    {"event": "the auditor resigned or was dismissed (8-K Item 4.01)", "found": false, "evidence": "No 8-K filed since 2026-09-01."},
+    {"event": "the CEO or CFO left unexpectedly (8-K Item 5.02)", "found": false, "evidence": "No 8-K in the window. The last 5.02 filing was 2026-08-21 (outside the window). The CFO was still filing as CFO on 2026-09-28."},
+    {"event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)", "found": false, "evidence": "No S-3, 424B or 8-K 3.02 in EDGAR's recent list. The S-8 of 2026-09-10 (employee stock plans) is outside the window and routine."},
+    {"event": "a regulator opened an investigation, or major litigation was filed", "found": false, "evidence": "Disconfirming search for lawsuit / investigation / exploited vulnerability in October 2026 returned no new item; the PAN-OS zero-day CVE-2026-0300 was reported 2026-05-07 (old)."},
+    {"event": "two or more analyst downgrades within five trading days", "found": false, "evidence": "No downgrade found for 30 Sep-7 Oct; the last downgrade found was Bernstein on 2026-09-18."},
+    {"event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans", "found": false, "evidence": "The only Form 4 in the window is a 10b5-1 sale (Paul). In the filings window, director Bawa (260 shares, 2026-09-24) is the only non-plan seller."},
+    {"event": "Thesis trigger 1: FY2027 revenue forecast ($14.10-14.20bn) cut", "found": false, "evidence": "No guidance change in the window."},
+    {"event": "Thesis trigger 2: ARR growth well below plan two quarters in a row", "found": false, "evidence": "No new ARR data; next check Q1 FY2027 results."},
+    {"event": "Thesis trigger 3: no AI-security traction, or customers choose rivals for AI security", "found": false, "evidence": "No new figures (still not disclosed) and no tier-1/2 report of customers picking rivals. The deadline in the trigger is Q3 FY2027 results (about May 2027)."},
+    {"event": "Thesis trigger 4: write-down (impairment) of CyberArk", "found": false, "evidence": "No 10-Q, 10-K or 8-K in the window."},
+    {"event": "Thesis trigger 5: guidance cut blamed on integration", "found": false, "evidence": "No guidance change in the window."},
+    {"event": "Thesis trigger 6: GAAP losses widen two quarters in a row", "found": false, "evidence": "No results in the window; last GAAP EPS -$0.35 (Q4 FY2026)."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Valuation is stretched: at Tuesday's $419.91 close PANW cost about 100-101 times the company's FY2027 non-GAAP EPS guidance ($4.16-4.19); at Wednesday's $405.57, about 97-97.5 times (report's calculation). The analysts' average target ($396.92, 55 analysts) is below the price.", "url": "https://stockanalysis.com/stocks/panw/", "assessment": "Material context, not new. It explains why the stock swings hard on rate news and sector mood, as on Wednesday. Tier 3 for the target average."},
+    {"claim": "Tuesday's rise was sentiment, not new company facts, and it fully reversed on Wednesday (two-day -0.29%).", "url": "https://www.investing.com/news/stock-market-news/us-software-stocks-scale-fresh-2026-highs-as-ai-disruption-worries-fade-4934831", "assessment": "Accurate. The move tells us about investor mood, not about Palo Alto's business."},
+    {"claim": "Zacks Investment Management's Brian Mulberry (quoted by Reuters): the real test for software could come in the second half of 2027, when data-center capacity might make AI coding a bigger threat.", "url": "https://www.investing.com/news/stock-market-news/us-software-stocks-scale-fresh-2026-highs-as-ai-disruption-worries-fade-4934831", "assessment": "An opinion about software broadly; less direct for security, which AI arguably needs more of. Worth noting as the bear view."},
+    {"claim": "Palo Alto's own products have had serious security flaws exploited in 2026: critical PAN-OS firewall zero-day CVE-2026-0300 exploited by a suspected state-sponsored group, with 'a limited number of customers' compromised; a GlobalProtect VPN flaw (CVE-2026-0257) was reportedly exploited by Qilin ransomware.", "url": "https://www.cybersecuritydive.com/news/palo-alto-networks-state-linked-zero-day/819588/", "assessment": "Old (reported 2026-05-07; the Qilin item is reportedly June, page returned 403 and is unverified). Nothing new in the window, but repeated exploited flaws are a reputational risk for a security vendor."},
+    {"claim": "No pricing or revenue forecast has been given for the new AI-security subscription.", "url": "https://www.gurufocus.com/news/9111677/palo-alto-networks-stock-jumps-35-as-aiagent-fear-becomes-budget-fuel", "assessment": "Consistent with pillar 3 'no figures yet'. Tier 3."}
+  ],
+  "open_questions": [
+    "No published reason for Wednesday's -3.42% (CRWD -4.81%) beyond the market backdrop (24-year-high yields, hawkish Fed minutes); the link is an inference.",
+    "Why PANW spiked to $432.33 intraday on Tuesday and then faded to $419.91: no source found.",
+    "Q1 FY2027 earnings date: TipRanks says 2026-11-12 after the close and 'Confirmed', but no company announcement was found; StockAnalysis estimates 2026-11-18. Treat as unconfirmed.",
+    "Exact 10-year Treasury yield on Wednesday: the Yahoo live blog gave 5.36% (highest since April 2002) mid-session but showed 5.28 (+0.01) in its closing quote widget; not reconciled, so no 10-year figure should be printed.",
+    "Date of the Morgan Stanley note behind the 23%-a-year spending forecast: not given.",
+    "Reuters confirmation came via an Investing.com syndication (and a Star republish), not reuters.com directly.",
+    "FinanceFeeds (2026-10-07, not in the source list) says $419.91 is the highest close since the 2012 IPO; our data only starts 2024-10-07, so only 'highest close in two years of data' is verified.",
+    "GuruFocus figures on the Unit 42 service (a $17 million investment, over 100 customer engagements, six months of development) were not checked against the 2026-09-22 release (the Nasdaq page timed out)."
+  ],
+  "searches_run": 17
+}

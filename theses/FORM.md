@@ -14,7 +14,7 @@ Before chips are cut from a wafer, each one is tested with a probe card, a custo
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Before chips are cut from a wafer, each one is tested with a probe card, a custo
 - Operating margin (share left after all running costs): rising (8.9% to 22.4%, +13.5 points).
 - Profit: positive net income in 4 of the last 4 quarters.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +42.4% | +24.7% | +41.7% | +272.9% | +35.8% | -47.8% | 4.9% |
+| +34.5% | +25.3% | +18.7% | +260.0% | +27.2% | -47.8% | 5.2% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 

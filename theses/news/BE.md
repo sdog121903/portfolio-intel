@@ -8,7 +8,7 @@ This page is rebuilt on every run from `data/news-log/BE.json` by `.claude/skill
 
 ## What the log shows so far
 
-- **5** news items and **1** report days logged (first report 2026-10-04, latest 2026-10-04).
+- **7** news items and **2** report days logged (first report 2026-10-04, latest 2026-10-07).
 - **Too early to draw conclusions:** fewer than 20 items. Read this page as a diary for now, not as a rule about how the stock behaves.
 - Average move beyond the market on the reaction day to **good** news: +2.18% (3 items).
 - Average move beyond the market on the reaction day to **bad** news: +10.89% (2 items).
@@ -16,19 +16,20 @@ This page is rebuilt on every run from `data/news-log/BE.json` by `.claude/skill
 - Report days with a very big company-specific move and no news found: 0.
 - Several items can share one reaction day, so their reactions are not independent.
 
-## Coming up (calendar as of 2026-10-04)
+## Coming up (calendar as of 2026-10-07)
 
 Dated events that could move the stock. When one happens, it moves into the news table below.
 
 | Date | Event | Confirmed? | Source |
 |---|---|---|---|
-| about 2026-10-27 | Q3 2026 results | not confirmed | not recorded |
-| February 2027 | Gas pipeline for Oracle's Project Jupiter expected | not confirmed | [CNBC, 2026-09-24](https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html), tier 2 |
+| 2026-10-27 | Q3 2026 results (estimated 10-26 to 10-29) | not confirmed | not recorded |
 
 ## News, newest first
 
 | Date | What happened | Good or bad for the stock | Importance | Reaction day | Stock | Market | Beyond market | Size | Next 5 days | Source |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-07 | Bernstein kept Market Perform ($282 target), seeing a 10-20 GW behind-the-meter market by 2030 and utilities as a second group of buyers. | neutral | low | 2026-10-07 | -1.52% | -0.24% | -1.28% | normal | n/a | [Investing.com, 2026-10-07](https://www.investing.com/news/analyst-ratings/bernstein-reiterates-bloom-energy-stock-rating-on-utility-demand-93CH-4936717), tier 3 |
+| 2026-10-07 | Fuel-cell stocks fell after FuelCell Energy's CFO stepped down (FuelCell -12%); Bloom fell far less (-1.52%). | neutral | low | 2026-10-07 | -1.52% | -0.24% | -1.28% | normal | n/a | [24/7 Wall St, 2026-10-07](https://247wallst.com/investing/2026/10/07/fuelcell-tumbles-12-as-its-finance-chief-of-15-years-steps-down-bloom-energy-dips-plug-power-slides-3/), tier 3 |
 | 2026-10-02 | Barclays raised its target to $308 and kept a neutral rating, citing a second factory in Fremont, California, and utility demand (Ameren plans 500 megawatts of fuel cells). | good | low | 2026-10-02 | +4.17% | +0.74% | +3.43% | normal | n/a | [Investing.com, 2026-10-02](https://www.investing.com/news/stock-market-news/barclays-lifts-bloom-energy-target-to-308-on-factory-expansion-utility-shift-4927314), tier 3 |
 | 2026-10-01 | Virginia's 2026 Energy Plan named fuel cells as a near-term clean-power option (Bloom not named); fuel-cell stocks rallied the next day and BE rose 4.17%. | good | low | 2026-10-02 | +4.17% | +0.74% | +3.43% | normal | n/a | [Cardinal News, 2026-10-01](https://cardinalnews.org/2026/10/01/spanberger-unveils-energy-plan-with-focus-on-achieving-a-net-zero-power-sector-by-2050/), tier 3 |
 | 2026-09-24 | Oracle invoked force majeure (a claim that events outside its control excuse a delay) on Project Jupiter in New Mexico, which may use up to 2.45 gigawatts of Bloom fuel cells, because the gas pipeline slipped to February 2027. All sides say the contract stands. | bad | high | 2026-09-24 | -3.10% | -0.08% | -3.02% | normal | +4.10% | [CNBC, 2026-09-24](https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html), tier 2 |
@@ -41,6 +42,7 @@ The day's move split into the part from the whole market, the part from its indu
 
 | Report | Trading day | Close | Day move | Market part | Industry part | Company part | Size of company part | Main news that day |
 |---|---|---|---|---|---|---|---|---|
+| 2026-10-07 | 2026-10-07 | $291.29 | -1.52% | -0.53% | -3.38% | +2.40% | normal | Bernstein kept Market Perform ($282 target), seeing a 10-20 GW behind-the-meter market by 2030 and utilities as a second group of buyers. |
 | 2026-10-04 | 2026-10-02 | $289.15 | +4.17% | +1.65% | +4.23% | -1.71% | normal | Barclays raised its target to $308 and kept a neutral rating, citing a second factory in Fremont, California, and utility demand (Ameren plans 500 megawatts of fuel cells). |
 
 Informational research and education, not investment advice.

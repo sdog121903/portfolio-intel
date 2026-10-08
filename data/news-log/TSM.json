@@ -116,6 +116,35 @@
         "z": 1.12,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "tsm-2026-10-07-citi-beat-call",
+      "date": "2026-10-07",
+      "timing": "unknown",
+      "type": "analyst view",
+      "materiality": "low",
+      "direction": "good",
+      "what": "Citi said it expects TSMC to beat its own Q3 forecast and AI revenue to nearly double next year; the US shares fell 2.09% with chip stocks.",
+      "source": {
+        "name": "Yahoo Finance",
+        "date": "2026-10-07",
+        "url": "https://finance.yahoo.com/markets/stocks/article/tsmc-stock-just-hit-a-record--and-the-gains-may-be-only-starting-113728917.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -2.09,
+        "market_pct": -0.24,
+        "beyond_market_pct": -1.85,
+        "typical_day_pct": 1.88,
+        "z": -0.99,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -140,22 +169,54 @@
       "company_part_pct": 2.08,
       "z": 1.53,
       "main_news": "Elon Musk confirmed early talks about TSMC helping his Texas Terafab chip-factory project (\"Just discussions, but something may come of it\"); no TSMC comment. TSM rose 2.75% on Monday (+2.08 points company-specific), possibly partly on this, while AI-chip leaders also rallied; no single cause confirmed (tier-3 reports)."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 472.2,
+      "day_pct": -2.09,
+      "market_part_pct": -0.28,
+      "industry_part_pct": -0.7,
+      "company_part_pct": -1.12,
+      "z": -0.83,
+      "main_news": "Citi said it expects TSMC to beat its own Q3 forecast and AI revenue to nearly double next year; the US shares fell 2.09% with chip stocks."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-05",
+    "as_of": "2026-10-07",
     "events": [
       {
         "date": "2026-10-08",
-        "event": "September 2026 monthly sales",
+        "event": "September 2026 sales, 13:30 Taipei",
         "confirmed": true,
-        "source": {}
+        "source": {
+          "name": "TSMC",
+          "date": "2026-10-07",
+          "url": "https://investor.tsmc.com/english/financial-calendar",
+          "tier": 1
+        }
       },
       {
         "date": "2026-10-15",
-        "event": "Q3 2026 results, 2:00 a.m. US Eastern (guidance US$44.6-45.8bn)",
+        "event": "Q3 2026 results, 14:00 Taipei (2:00 a.m. New York)",
         "confirmed": true,
-        "source": {}
+        "source": {
+          "name": "TSMC",
+          "date": "2026-10-07",
+          "url": "https://investor.tsmc.com/english/financial-calendar",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-11-10",
+        "event": "October 2026 sales",
+        "confirmed": true,
+        "source": {
+          "name": "TSMC",
+          "date": "2026-10-07",
+          "url": "https://investor.tsmc.com/english/financial-calendar",
+          "tier": 1
+        }
       }
     ]
   }

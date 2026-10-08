@@ -116,6 +116,93 @@
         "z": 0.65,
         "next_5_days_pct": -4.89
       }
+    },
+    {
+      "key": "a-2026-10-06-ex-dividend",
+      "date": "2026-10-06",
+      "timing": "before open",
+      "type": "ex-dividend",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Went ex-dividend (25.5 cents, paid 10-28), about 0.15 points of Tuesday's 1.14% price fall.",
+      "source": {
+        "name": "Agilent via Business Wire",
+        "date": "2026-09-16",
+        "url": "https://www.businesswire.com/news/home/20260916777704/en/CORRECTING-and-REPLACING-Agilent-Announces-Cash-Dividend-of-25.5-Cents-per-Share",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": -1.0,
+        "market_pct": 0.55,
+        "beyond_market_pct": -1.55,
+        "typical_day_pct": 1.61,
+        "z": -0.96,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "a-2026-10-07-barclays-target-195",
+      "date": "2026-10-07",
+      "timing": "before open",
+      "type": "analyst target raise",
+      "materiality": "low",
+      "direction": "good",
+      "what": "Barclays raised its target to $195 from $175 (Overweight); the stock barely reacted.",
+      "source": {
+        "name": "GuruFocus",
+        "date": "2026-10-07",
+        "url": "https://www.gurufocus.com/news/9113460/a-maintained-by-barclays-price-target-raised-to-195",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -0.14,
+        "market_pct": -0.24,
+        "beyond_market_pct": 0.1,
+        "typical_day_pct": 1.59,
+        "z": 0.06,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "a-2026-10-05-boulder-oligo-lab",
+      "date": "2026-10-05",
+      "timing": "unknown",
+      "type": "capacity expansion",
+      "materiality": "low",
+      "direction": "good",
+      "what": "Opened new Boulder lab space for oligonucleotide (DNA/RNA drug) manufacturing; first customer programs expected in November; size not disclosed.",
+      "source": {
+        "name": "Agilent",
+        "date": "2026-10-05",
+        "url": "https://www.agilent.com/about/newsroom/presrel/2026/05oct-ca26034.html",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-05",
+        "stock_pct": 2.09,
+        "market_pct": 0.67,
+        "beyond_market_pct": 1.42,
+        "typical_day_pct": 1.58,
+        "z": 0.9,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -129,14 +216,31 @@
       "company_part_pct": 0.21,
       "z": 0.12,
       "main_news": "Rose 0.66% with no company news; the past week's fall was mostly health-care stocks falling."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 169.09,
+      "day_pct": -0.14,
+      "market_part_pct": -0.35,
+      "industry_part_pct": 1.05,
+      "company_part_pct": -0.84,
+      "z": -0.48,
+      "main_news": "Barclays raised its target to $195 from $175 (Overweight); the stock barely reacted."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-04",
+    "as_of": "2026-10-07",
     "events": [
       {
-        "date": "2026-10-06",
-        "event": "Dividend record date (25.5 cents a share; paid 2026-10-28)",
+        "date": "2026-10-21",
+        "event": "Thermo Fisher Q3 results (peer)",
+        "confirmed": false,
+        "source": {}
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Dividend paid (25.5 cents)",
         "confirmed": true,
         "source": {
           "name": "Agilent via Business Wire",
@@ -146,8 +250,8 @@
         }
       },
       {
-        "date": "late Nov 2026",
-        "event": "Q4 FY2026 results",
+        "date": "2026-11-30",
+        "event": "Q4 FY2026 results (estimated)",
         "confirmed": false,
         "source": {}
       }

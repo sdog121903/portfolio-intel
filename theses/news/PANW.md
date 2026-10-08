@@ -8,27 +8,29 @@ This page is rebuilt on every run from `data/news-log/PANW.json` by `.claude/ski
 
 ## What the log shows so far
 
-- **8** news items and **2** report days logged (first report 2026-10-04, latest 2026-10-05).
+- **10** news items and **3** report days logged (first report 2026-10-04, latest 2026-10-07).
 - **Too early to draw conclusions:** fewer than 20 items. Read this page as a diary for now, not as a rule about how the stock behaves.
-- Average move beyond the market on the reaction day to **good** news: +5.11% (3 items).
-- Average move beyond the market on the reaction day to **bad** news: -3.19% (1 item).
+- Average move beyond the market on the reaction day to **good** news: +4.50% (4 items).
+- Average move beyond the market on the reaction day to **bad** news: -3.18% (2 items).
 - Biggest reactions so far: 2026-09-14 +13.54% beyond the market (very big) after: Security stocks jumped (PANW about +13%) after AI-lab leaders warned about the risks of...; 2026-09-02 -9.73% beyond the market (very big) after: Q4 revenue $3.41bn (+34%), above forecasts; next-generation security ARR $9.10bn (+63%)....; 2026-09-18 -3.19% beyond the market (big) after: Bernstein lowered its rating, saying the stock had run past fair value..
 - Of those biggest moves, 3 partly reversed over the next five trading days.
 - Report days with a very big company-specific move and no news found: 0.
 - Several items can share one reaction day, so their reactions are not independent.
 
-## Coming up (calendar as of 2026-10-05)
+## Coming up (calendar as of 2026-10-07)
 
 Dated events that could move the stock. When one happens, it moves into the news table below.
 
 | Date | Event | Confirmed? | Source |
 |---|---|---|---|
-| mid-to-late Nov 2026 | Q1 FY2027 results (guidance revenue $3.300-3.310bn) | not confirmed | not recorded |
+| 2026-11-12 | Q1 FY2027 results (third parties: 11-12 or 11-18; not announced) | not confirmed | not recorded |
 
 ## News, newest first
 
 | Date | What happened | Good or bad for the stock | Importance | Reaction day | Stock | Market | Beyond market | Size | Next 5 days | Source |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-07 | Fell 3.42% with the cybersecurity group; no company news. | bad | low | 2026-10-07 | -3.42% | -0.24% | -3.17% | big | n/a | [Yahoo Finance, 2026-10-07](https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html), tier 3 |
+| 2026-10-06 | Rose 3.23% to a record close of $419.91 with the software rally. | good | medium | 2026-10-06 | +3.23% | +0.55% | +2.68% | big | n/a | [Reuters via Investing.com, 2026-10-06](https://www.investing.com/news/stock-market-news/us-software-stocks-scale-fresh-2026-highs-as-ai-disruption-worries-fade-4934831), tier 2 |
 | 2026-10-02 | TD Cowen raised its price target to $440 from $400 and kept a Buy rating (an opinion, not new facts). | good | low | 2026-10-02 | +1.76% | +0.74% | +1.02% | normal | n/a | [Investing.com, 2026-10-02](https://investing.com/news/analyst-ratings/td-cowen-raises-palo-alto-networks-stock-price-target-on-ai-tailwinds-93CH-4929302), tier 3 |
 | 2026-10-01 | Chief accounting officer Josh Paul sold 400 shares at $395.70 under a 10b5-1 plan; 1,308 shares were withheld for tax on vesting stock. | neutral | low | 2026-10-01 | -0.27% | +0.18% | -0.45% | normal | n/a | [SEC Form 4, 2026-10-05](https://www.sec.gov/Archives/edgar/data/1327567/000188228526000027/xslF345X06/ownership.xml), tier 1 |
 | 2026-10-01 | Lee Klarich gave away 25,000 shares as a gift, not a sale. | neutral | low | 2026-10-02 | +1.76% | +0.74% | +1.02% | normal | n/a | [SEC Form 4, 2026-10-01](https://www.sec.gov/Archives/edgar/data/1327567/000168226026000006/xslF345X06/ownership.xml), tier 1 |
@@ -44,6 +46,7 @@ The day's move split into the part from the whole market, the part from its indu
 
 | Report | Trading day | Close | Day move | Market part | Industry part | Company part | Size of company part | Main news that day |
 |---|---|---|---|---|---|---|---|---|
+| 2026-10-07 | 2026-10-07 | $405.57 | -3.42% | -0.24% | -1.78% | -1.40% | normal | Fell 3.42% with the cybersecurity group; no company news. |
 | 2026-10-05 | 2026-10-05 | $406.76 | +0.87% | +0.68% | +0.85% | -0.66% | normal | no news found |
 | 2026-10-04 | 2026-10-02 | $403.24 | +1.76% | +0.75% | +0.22% | +0.80% | normal | TD Cowen raised its price target to $440 from $400 and kept a Buy rating (an opinion, not new facts). |
 

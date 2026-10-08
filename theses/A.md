@@ -14,7 +14,7 @@ Most of my money rides on chips and software; Agilent is a lab-instrument compan
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Most of my money rides on chips and software; Agilent is a lab-instrument compan
 - Operating margin (share left after all running costs): about flat (23.8% to 23.6%, -0.2 points).
 - Profit: positive net income in 4 of the last 4 quarters.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +13.5% | +31.2% | +49.4% | +21.7% | +28.8% | -29.8% | 2.9% |
+| +12.2% | +31.2% | +45.1% | +22.9% | +26.8% | -29.8% | 3.0% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 

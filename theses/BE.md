@@ -14,7 +14,7 @@ Power is now one of the biggest bottlenecks for AI: new data centers can wait ye
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -33,11 +33,11 @@ Power is now one of the biggest bottlenecks for AI: new data centers can wait ye
 - Profit: positive net income in 2 of the last 4 quarters.
 - **Data warning:** Newest quarter in the SEC data ends 2026-03-31 (187 days ago): a later report may exist but is missing from the XBRL data. Do not call these the latest results; check the newest 10-Q or 10-K.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +13.4% | -2.9% | +112.3% | +217.5% | +37.5% | -52.6% | 7.0% |
+| +15.2% | +14.6% | +98.5% | +238.5% | +38.3% | -52.6% | 6.6% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 

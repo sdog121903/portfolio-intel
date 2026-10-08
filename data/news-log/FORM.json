@@ -85,7 +85,7 @@
         "beyond_market_pct": 9.79,
         "typical_day_pct": 3.55,
         "z": 2.76,
-        "next_5_days_pct": null
+        "next_5_days_pct": -6.37
       }
     },
     {
@@ -174,6 +174,35 @@
         "z": -0.41,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "form-2026-10-06-equipment-selloff",
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "sector selloff",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Fell 4.52% with no company news as chip-equipment and test stocks fell together (median of eight peers -3.52%) and memory stocks slid before results.",
+      "source": {
+        "name": "Korea JoongAng Daily",
+        "date": "2026-10-07",
+        "url": "https://www.koreajoongangdaily.com/business/kospi-drops-nearly-2-percent-as-bond-yield-worries-hit-tech-stocks/12909800",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": -4.52,
+        "market_pct": 0.55,
+        "beyond_market_pct": -5.07,
+        "typical_day_pct": 3.62,
+        "z": -1.4,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -198,20 +227,43 @@
       "company_part_pct": -0.46,
       "z": -0.13,
       "main_news": "About 13.9 million shares traded (about 11 times normal) as index funds rebalanced before its move into the S&P MidCap 400 on 10-06 (inference, high confidence); the price barely moved (-0.78%)."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 139.8,
+      "day_pct": -1.06,
+      "market_part_pct": 0.01,
+      "industry_part_pct": -1.93,
+      "company_part_pct": 0.86,
+      "z": 0.24,
+      "main_news": null
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-05",
+    "as_of": "2026-10-07",
     "events": [
       {
+        "date": "2026-10-08",
+        "event": "Samsung preliminary Q3 results (memory read-across)",
+        "confirmed": true,
+        "source": {}
+      },
+      {
         "date": "2026-10-13",
-        "event": "CEO at an investor summit",
+        "event": "Management at CEO Investor Summit",
+        "confirmed": true,
+        "source": {}
+      },
+      {
+        "date": "2026-10-27",
+        "event": "SK hynix Q3 results (largest customer)",
         "confirmed": false,
         "source": {}
       },
       {
-        "date": "about 2026-10-28",
-        "event": "Q3 2026 results (guidance $270m ± $10m)",
+        "date": "2026-10-28",
+        "event": "Q3 2026 results (estimated)",
         "confirmed": false,
         "source": {}
       }

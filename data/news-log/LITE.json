@@ -203,6 +203,64 @@
         "z": -0.02,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "lite-2026-10-06-proxy-ocs",
+      "date": "2026-10-06",
+      "timing": "after close",
+      "type": "proxy statement",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "Proxy filed: annual meeting 11-18 with three routine items and no share request; the shareholder letter says the optical circuit switch business is 'rapidly scaling past a $100 million quarterly revenue run rate' and 1.6T modules are in production.",
+      "source": {
+        "name": "Lumentum DEF 14A",
+        "date": "2026-10-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -1.97,
+        "market_pct": -0.24,
+        "beyond_market_pct": -1.73,
+        "typical_day_pct": 6.29,
+        "z": -0.28,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "lite-2026-10-06-record-close",
+      "date": "2026-10-06",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Rose 3.82% to a record close of $1,133.40 with the optical rally on the day Marvell raised its outlook; no company news during trading.",
+      "source": {
+        "name": "CNBC",
+        "date": "2026-10-06",
+        "url": "https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-06",
+        "stock_pct": 3.82,
+        "market_pct": 0.55,
+        "beyond_market_pct": 3.27,
+        "typical_day_pct": 6.27,
+        "z": 0.52,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -227,26 +285,48 @@
       "company_part_pct": 0.5,
       "z": 0.1,
       "main_news": "Record close of $1,085.42 (+3.79%), mostly because chip stocks rose. After the close a filing showed the CFO sold 24,542 shares (about $25.7m, roughly a quarter of his stake) under a pre-planned 10b5-1 plan."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 1111.07,
+      "day_pct": -1.97,
+      "market_part_pct": -0.13,
+      "industry_part_pct": -1.62,
+      "company_part_pct": -0.22,
+      "z": -0.04,
+      "main_news": "Proxy filed: annual meeting 11-18 with three routine items and no share request; the shareholder letter says the optical circuit switch business is 'rapidly scaling past a $100 million quarterly revenue run rate' and 1.6T modules are in production."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-05",
+    "as_of": "2026-10-07",
     "events": [
       {
-        "date": "2026-10-12 to 10-15",
-        "event": "OCP Global Summit (data-center hardware conference); Lumentum talks 2026-10-14",
+        "date": "2026-10-14",
+        "event": "Talks at the OCP Global Summit",
         "confirmed": true,
         "source": {}
       },
       {
         "date": "2026-11-05",
-        "event": "Q1 FY2027 results after the close; call 5:00 p.m. New York time (guidance $1.225-1.275bn)",
+        "event": "Q1 FY2027 results after the close",
         "confirmed": true,
         "source": {
           "name": "Lumentum via Business Wire (Yahoo Finance)",
           "date": "2026-10-05",
           "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-announces-reporting-date-fiscal-120000373.html",
           "tier": 3
+        }
+      },
+      {
+        "date": "2026-11-18",
+        "event": "Annual shareholder meeting (online)",
+        "confirmed": true,
+        "source": {
+          "name": "Lumentum DEF 14A",
+          "date": "2026-10-06",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm",
+          "tier": 1
         }
       }
     ]

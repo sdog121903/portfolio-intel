@@ -163,7 +163,8 @@
       "fact_checked": true,
       "logged": "2026-10-05",
       "reports": [
-        "2026-10-05"
+        "2026-10-05",
+        "2026-10-07"
       ],
       "reaction": {
         "day": "2026-10-05",
@@ -172,6 +173,35 @@
         "beyond_market_pct": 0.25,
         "typical_day_pct": 8.8,
         "z": 0.03,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "axti-2026-10-07-rates-gap-down",
+      "date": "2026-10-07",
+      "timing": "before open",
+      "type": "price move without company news",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Fell 5.08% with no company news; the whole fall came at the open, when the 10-year rate touched 5.36% and chip and optical stocks opened lower. Tuesday's 3.00% slide had no published cause.",
+      "source": {
+        "name": "Yahoo Finance",
+        "date": "2026-10-07",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-07",
+      "reports": [
+        "2026-10-07"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -5.08,
+        "market_pct": -0.24,
+        "beyond_market_pct": -4.84,
+        "typical_day_pct": 8.55,
+        "z": -0.57,
         "next_5_days_pct": null
       }
     }
@@ -198,21 +228,38 @@
       "company_part_pct": 0.06,
       "z": 0.01,
       "main_news": "BlackRock reported owning 9,359,639 shares, 14.3% of AXT, as of 2026-09-30; its iShares Core S&P Small-Cap ETF alone holds more than 5%."
+    },
+    {
+      "report": "2026-10-07",
+      "trading_day": "2026-10-07",
+      "close": 79.79,
+      "day_pct": -5.08,
+      "market_part_pct": -0.4,
+      "industry_part_pct": -1.8,
+      "company_part_pct": -2.88,
+      "z": -0.34,
+      "main_news": "Fell 5.08% with no company news; the whole fall came at the open, when the 10-year rate touched 5.36% and chip and optical stocks opened lower. Tuesday's 3.00% slide had no published cause."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-05",
+    "as_of": "2026-10-07",
     "events": [
       {
         "date": "2026-10-29",
-        "event": "Q3 2026 results, after the US close (guidance about $66m, tier 3)",
+        "event": "Q3 2026 results after the close",
         "confirmed": true,
         "source": {
-          "name": "AXT via Business Wire",
+          "name": "Business Wire",
           "date": "2026-10-01",
           "url": "https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026",
           "tier": 1
         }
+      },
+      {
+        "date": "2026-11-27",
+        "event": "China's pause of its gallium/germanium export ban to the US due to end (extension not verified)",
+        "confirmed": false,
+        "source": {}
       }
     ]
   }

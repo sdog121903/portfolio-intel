@@ -14,15 +14,15 @@ NVIDIA, AMD, Apple and many others design chips but do not make them; TSMC does,
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 *No quarterly SEC figures for this company (it files as a foreign company); see the key trends below, taken from its own results releases.*
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +13.6% | +7.8% | +42.9% | +68.0% | +25.1% | -21.6% | 2.2% |
+| +10.4% | +8.3% | +29.7% | +62.3% | +21.0% | -21.6% | 2.2% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 

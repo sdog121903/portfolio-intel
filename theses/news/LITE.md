@@ -8,27 +8,30 @@ This page is rebuilt on every run from `data/news-log/LITE.json` by `.claude/ski
 
 ## What the log shows so far
 
-- **7** news items and **2** report days logged (first report 2026-10-04, latest 2026-10-05).
+- **9** news items and **3** report days logged (first report 2026-10-04, latest 2026-10-07).
 - **Too early to draw conclusions:** fewer than 20 items. Read this page as a diary for now, not as a rule about how the stock behaves.
-- Average move beyond the market on the reaction day to **good** news: +3.93% (4 items).
+- Average move beyond the market on the reaction day to **good** news: +2.80% (5 items).
 - Biggest reactions so far: 2026-08-12 +13.38% beyond the market (very big) after: Q4 revenue doubled to $1.01bn (+109%); next quarter guided to $1.225-1.275bn; management...; 2026-10-01 +7.49% beyond the market (big) after: Bernstein started covering optical stocks at Outperform; Lumentum jumped 7.7% as the...; 2026-07-29 -6.07% beyond the market (big) after: Signed a six-year deal reserving production at AXT (wafer maker for lasers), backed by....
 - Of those biggest moves, 2 partly reversed over the next five trading days.
 - Report days with a very big company-specific move and no news found: 0.
 - Several items can share one reaction day, so their reactions are not independent.
 
-## Coming up (calendar as of 2026-10-05)
+## Coming up (calendar as of 2026-10-07)
 
 Dated events that could move the stock. When one happens, it moves into the news table below.
 
 | Date | Event | Confirmed? | Source |
 |---|---|---|---|
-| 2026-10-12 to 10-15 | OCP Global Summit (data-center hardware conference); Lumentum talks 2026-10-14 | yes | not recorded |
-| 2026-11-05 | Q1 FY2027 results after the close; call 5:00 p.m. New York time (guidance $1.225-1.275bn) | yes | [Lumentum via Business Wire (Yahoo Finance), 2026-10-05](https://finance.yahoo.com/markets/stocks/articles/lumentum-announces-reporting-date-fiscal-120000373.html), tier 3 |
+| 2026-10-14 | Talks at the OCP Global Summit | yes | not recorded |
+| 2026-11-05 | Q1 FY2027 results after the close | yes | [Lumentum via Business Wire (Yahoo Finance), 2026-10-05](https://finance.yahoo.com/markets/stocks/articles/lumentum-announces-reporting-date-fiscal-120000373.html), tier 3 |
+| 2026-11-18 | Annual shareholder meeting (online) | yes | [Lumentum DEF 14A, 2026-10-06](https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm), tier 1 |
 
 ## News, newest first
 
 | Date | What happened | Good or bad for the stock | Importance | Reaction day | Stock | Market | Beyond market | Size | Next 5 days | Source |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-06 | Proxy filed: annual meeting 11-18 with three routine items and no share request; the shareholder letter says the optical circuit switch business is 'rapidly scaling past a $100 million quarterly revenue run rate' and 1.6T modules are in production. | good | medium | 2026-10-07 | -1.97% | -0.24% | -1.73% | normal | n/a | [Lumentum DEF 14A, 2026-10-06](https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm), tier 1 |
+| 2026-10-06 | Rose 3.82% to a record close of $1,133.40 with the optical rally on the day Marvell raised its outlook; no company news during trading. | neutral | low | 2026-10-06 | +3.82% | +0.55% | +3.27% | normal | n/a | [CNBC, 2026-10-06](https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html), tier 2 |
 | 2026-10-05 | Set Q1 FY2027 results for Thursday 2026-11-05 after the close, with a call at 5:00 p.m. New York time. | neutral | low | 2026-10-05 | +0.58% | +0.67% | -0.10% | normal | n/a | [Lumentum via Business Wire (Yahoo Finance), 2026-10-05](https://finance.yahoo.com/markets/stocks/articles/lumentum-announces-reporting-date-fiscal-120000373.html), tier 3 |
 | 2026-10-02 | Record close of $1,085.42 (+3.79%), mostly because chip stocks rose. After the close a filing showed the CFO sold 24,542 shares (about $25.7m, roughly a quarter of his stake) under a pre-planned 10b5-1 plan. | neutral | medium | 2026-10-05 | +0.58% | +0.67% | -0.10% | normal | n/a | [SEC Form 4, 2026-10-02](https://www.sec.gov/Archives/edgar/data/1633978/000156110026000008/xslF345X06/form4-10022026_081041.xml), tier 1 |
 | 2026-10-01 | Bernstein started covering optical stocks at Outperform; Lumentum jumped 7.7% as the group rallied. | good | medium | 2026-10-01 | +7.67% | +0.18% | +7.49% | big | n/a | [Yahoo Finance, 2026-10-01](https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html), tier 2 |
@@ -43,6 +46,7 @@ The day's move split into the part from the whole market, the part from its indu
 
 | Report | Trading day | Close | Day move | Market part | Industry part | Company part | Size of company part | Main news that day |
 |---|---|---|---|---|---|---|---|---|
+| 2026-10-07 | 2026-10-07 | $1,111.07 | -1.97% | -0.13% | -1.62% | -0.22% | normal | Proxy filed: annual meeting 11-18 with three routine items and no share request; the shareholder letter says the optical circuit switch business is 'rapidly scaling past a $100 million quarterly revenue run rate' and 1.6T modules are in production. |
 | 2026-10-05 | 2026-10-05 | $1,091.67 | +0.58% | +0.33% | -0.26% | +0.50% | normal | Record close of $1,085.42 (+3.79%), mostly because chip stocks rose. After the close a filing showed the CFO sold 24,542 shares (about $25.7m, roughly a quarter of his stake) under a pre-planned 10b5-1 plan. |
 | 2026-10-04 | 2026-10-02 | $1,085.42 | +3.79% | +0.37% | +2.29% | +1.13% | normal | Record close of $1,085.42 (+3.79%), mostly because chip stocks rose. After the close a filing showed the CFO sold 24,542 shares (about $25.7m, roughly a quarter of his stake) under a pre-planned 10b5-1 plan. |
 

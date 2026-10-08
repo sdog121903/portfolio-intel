@@ -14,7 +14,7 @@ Building faster networks inside and between data centers means testing every fib
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Building faster networks inside and between data centers means testing every fib
 - Operating margin (share left after all running costs): rising (2.5% to 13.8%, +11.3 points).
 - Profit: positive net income in 2 of the last 4 quarters.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +34.6% | +10.6% | +30.8% | +268.8% | +27.0% | -41.8% | 5.4% |
+| +32.7% | +13.7% | +11.7% | +265.8% | +24.3% | -41.8% | 5.2% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 

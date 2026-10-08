@@ -8,7 +8,7 @@ This page is rebuilt on every run from `data/news-log/ASML.json` by `.claude/ski
 
 ## What the log shows so far
 
-- **6** news items and **1** report days logged (first report 2026-10-04, latest 2026-10-04).
+- **7** news items and **2** report days logged (first report 2026-10-04, latest 2026-10-07).
 - **Too early to draw conclusions:** fewer than 20 items. Read this page as a diary for now, not as a rule about how the stock behaves.
 - Average move beyond the market on the reaction day to **good** news: +2.65% (2 items).
 - Average move beyond the market on the reaction day to **bad** news: +0.70% (3 items).
@@ -17,20 +17,19 @@ This page is rebuilt on every run from `data/news-log/ASML.json` by `.claude/ski
 - Report days with a very big company-specific move and no news found: 0.
 - Several items can share one reaction day, so their reactions are not independent.
 
-## Coming up (calendar as of 2026-10-04)
+## Coming up (calendar as of 2026-10-07)
 
 Dated events that could move the stock. When one happens, it moves into the news table below.
 
 | Date | Event | Confirmed? | Source |
 |---|---|---|---|
-| 2026-10-14 | Q3 2026 results (company expects EUR 11.0-12.0bn sales, 55-57% gross margin) | yes | [ASML 6-K, 2026-07-15](https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm), tier 1 |
-| 2026-10-15 | TSMC Q3 results (ASML's biggest customer; factory-spending plans) | yes | not recorded |
-| late 2026 | US defence bill (NDAA) timetable: possible inclusion of the MATCH Act | not confirmed | not recorded |
+| 2026-10-14 | Q3 2026 results, before the US open | yes | [ASML, 2026-10-07](https://investor.asml.com/quarterly-results), tier 1 |
 
 ## News, newest first
 
 | Date | What happened | Good or bad for the stock | Importance | Reaction day | Stock | Market | Beyond market | Size | Next 5 days | Source |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-06 | BofA downgraded Besi partly because ASML might enter hybrid bonding; ASML has announced no such product. | neutral | low | 2026-10-06 | -1.39% | +0.55% | -1.93% | normal | n/a | [Bloomberg, 2026-10-06](https://www.bloomberg.com/news/articles/2026-10-06/asml-s-chip-technology-move-threatens-besi-shares-bofa-says), tier 2 |
 | 2026-10-02 | Rose 3.25% to $1,867.31, mostly because chip stocks rallied; no ASML news. | neutral | low | 2026-10-02 | +3.25% | +0.74% | +2.51% | big | n/a | [24/7 Wall St., 2026-10-02](https://247wallst.com/investing/2026/10/02/amd-climbs-3-as-chip-stocks-extend-their-run-arm-jumps-8-nvidia-rises-2/), tier 3 |
 | 2026-09-25 | Dutch prime minister lobbied the US against the MATCH Act, a proposed US law that would stop ASML selling older machines to Chinese chipmakers and servicing those already there. Not law; status unconfirmed. | bad | high | 2026-09-25 | +1.24% | +0.54% | +0.70% | normal | +7.07% | [DIGITIMES, 2026-09-25](https://www.digitimes.com/news/a20260925VL203/dutch-asml-sales-equipment-revenue.html), tier 3 |
 | 2026-09-08 | Morgan Stanley reportedly cut its price target to EUR 1,700 from EUR 1,930 (still positive), worried about China demand and margins. | bad | medium | 2026-09-08 | +2.91% | -0.55% | +3.46% | big | -9.82% | [ad-hoc-news, 2026-09-10](https://www.ad-hoc-news.de/boerse/news/corporate-news/asml-holding-stock-slips-after-morgan-stanley-trims-price-target-on-china/70081340), tier 3 |
@@ -44,6 +43,7 @@ The day's move split into the part from the whole market, the part from its indu
 
 | Report | Trading day | Close | Day move | Market part | Industry part | Company part | Size of company part | Main news that day |
 |---|---|---|---|---|---|---|---|---|
+| 2026-10-07 | 2026-10-07 | $1,804.96 | -1.59% | -0.18% | -0.98% | -0.42% | normal | no news found |
 | 2026-10-04 | 2026-10-02 | $1,867.31 | +3.25% | +0.58% | +1.38% | +1.30% | normal | Rose 3.25% to $1,867.31, mostly because chip stocks rallied; no ASML news. |
 
 Informational research and education, not investment advice.

@@ -1,0 +1,493 @@
+{
+ "ticker": "ASML",
+ "company": "ASML Holding NV (US-listed shares)",
+ "window": {
+  "from": "2026-10-05T20:00Z (after Monday 5 Oct US close)",
+  "to": "2026-10-07T20:00Z (Wednesday US close; searches run through 2026-10-08 Madrid)"
+ },
+ "newest_item_checked": "ad-hoc-news, BofA raises ASML target to EUR 2,557, published 2026-10-07 09:37 CEST; BusinessWorld Samsung Q3 preview 2026-10-07; EDGAR submissions list for CIK 937966 (latest filing still the 6-K of 2026-07-15).",
+ "price_facts": {
+  "tue_2026_10_06": {
+   "close": 1834.1,
+   "change_pct": -1.39,
+   "open": 1870.0,
+   "high": 1870.0,
+   "low": 1819.09,
+   "volume": 1625900,
+   "attribution": {
+    "market": 0.42,
+    "industry": -0.8,
+    "company": -1.01,
+    "company_z": -0.63,
+    "verdict": "mostly explained by the market and/or its industry moving"
+   },
+   "SMH_change_pct_computed": -0.22,
+   "SPY_change_pct_computed": 0.55,
+   "source": "data/prices/ASML.csv, SMH.csv, SPY.csv; data/metrics/attribution-2026-10-07.json"
+  },
+  "wed_2026_10_07": {
+   "close": 1804.96,
+   "change_pct": -1.59,
+   "intraday_low_by_12_18_ET": 1785.74,
+   "attribution": {
+    "market": -0.18,
+    "industry": -0.98,
+    "company": -0.42,
+    "company_z": -0.26
+   },
+   "SMH_change_pct": -1.18,
+   "source": "coordinator message (Yahoo daily bars) and data/research/2026-10-07/intraday-2026-10-07.json"
+  },
+  "two_days_vs_mon_close_1859_86_pct": -2.95,
+  "euro_line": "Lang & Schwarz EUR 1,620.40 at 09:33 CEST on 2026-10-07, -0.51% vs EUR 1,628.70 on 2026-10-06 (ad-hoc-news, tier 3)"
+ },
+ "events": [
+  {
+   "date": "2026-10-06",
+   "timing": "unknown",
+   "type": "analyst action (price target raised)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "BofA Securities raised its ASML price target to EUR 2,557 from EUR 2,452 and kept a Buy rating. Reported reasons: 2028 sales estimate raised to EUR 76.5bn from EUR 70.4bn, 2028 EPS to EUR 85.20 from EUR 75.40, EUV machine forecast to 120 from 110 units, dry (older DUV) lithography forecast to 210 from 190, and higher average selling prices.",
+   "why_it_matters": "An opinion, not a fact about value. It shows at least one large broker expects demand to keep growing into 2028, which is the core of thesis 2. It did not stop the stock falling on either day.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "ad-hoc-news (BofA raises target for ASML Holding stock to EUR 2,557.00)",
+     "date": "2026-10-07",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/bofa-raises-target-for-asml-holding-stock-to-eur-2-557-00/70253368",
+     "tier": 3
+    }
+   ],
+   "note": "Single tier-3 source; no second source found within the search budget. Treat as unconfirmed."
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "before open",
+   "type": "peer/competition (analyst note on a peer naming ASML)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "Bank of America cut Dutch peer BE Semiconductor (Besi) to neutral from buy and nearly halved its target, saying Besi's price does not reflect the threat of ASML entering hybrid bonding (a chip-packaging machine market Besi leads). Besi fell as much as 6.4% on Tuesday. ASML has not announced a hybrid-bonding product; CEO Christophe Fouquet said in April 2026 that ASML 'continues to look at supporting customers in hybrid bonding', and ASML shipped its first advanced-packaging product in 2025 (per The Next Web). Korea's The Elec reported in March 2026 that ASML is developing a hybrid bonder (via TrendForce).",
+   "why_it_matters": "For ASML this is a possible new, small market beyond lithography; for Besi it is a threat. It is analyst opinion plus an unconfirmed report, not an ASML announcement. Not a cause of ASML's fall (ASML is the potential winner in the story).",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Bloomberg (headline only; page blocked, 403)",
+     "date": "2026-10-06",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-06/asml-s-chip-technology-move-threatens-besi-shares-bofa-says",
+     "tier": 2
+    },
+    {
+     "name": "The Next Web",
+     "date": "2026-10-06",
+     "url": "https://thenextweb.com/news/besi-asml-hybrid-bonding-dutch",
+     "tier": 3
+    },
+    {
+     "name": "TrendForce (background, citing The Elec)",
+     "date": "2026-03-23",
+     "url": "https://www.trendforce.com/news/2026/03/23/news-asml-reportedly-eyes-hybrid-bonding-equipment-precision-edge-may-reshape-advanced-packaging-landscape/",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "during",
+   "type": "sector move (no company news)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "Tuesday: ASML opened at its day high of $1,870.00 and fell to close at $1,834.10 (-1.39%; low $1,819.09) while the S&P 500 set a record (+0.58% to 7,818.93). The chip fund SMH slipped -0.22% vs SPY +0.55% (computed from data/prices). Within chips, AI chip designers rose (Nvidia and AMD at record highs; Marvell up on raised guidance at its investor day) while memory/storage names fell (Seagate -9.1%, Western Digital -6.9%) as investors reassessed data-center demand and profits. No ASML-specific news found; MarketBeat's auto-article on the fall states no cause.",
+   "why_it_matters": "Attribution calls Tuesday's company part (-1.01%, z -0.63) normal noise. Money moved toward chip designers and away from some memory-linked and equipment names; no source ties it to ASML specifically.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Yahoo Finance live blog (Oct 6)",
+     "date": "2026-10-06",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html",
+     "tier": 3
+    },
+    {
+     "name": "CNBC market live updates (search snippet; index closes and Seagate/WDC moves)",
+     "date": "2026-10-06",
+     "url": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html",
+     "tier": 2
+    },
+    {
+     "name": "MarketBeat auto-article (no cause given)",
+     "date": "2026-10-06",
+     "url": "https://www.marketbeat.com/instant-alerts/price-asml-nasdaq-asml-stock-falls-14-should-you-sell-2026-10-06/",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "timing": "during",
+   "type": "sector move (no company news)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "Wednesday: ASML fell -1.59% to $1,804.96 as the chip fund SMH fell -1.18% and the market about -0.2%. Attribution: market -0.18, industry -0.98, company -0.42 (z -0.26). No ASML news, filing or export-control step found. No published explanation for the chip-sector drop on Wednesday was found in the searches run. Samsung Electronics (a top ASML customer) was due to publish preliminary Q3 results on Thursday 8 Oct (Korea time); previews expected a record, roughly nine-fold profit jump but flat chip margins.",
+   "why_it_matters": "Two-day fall of -2.95% from Monday's close is mostly the chip sector, per attribution. Pre-results positioning before Samsung (8 Oct), ASML (14 Oct) and TSMC (15 Oct) is a plausible but unsourced explanation (inference, low).",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "BusinessWorld (Samsung Q3 preview)",
+     "date": "2026-10-07",
+     "url": "https://bworldonline.com/technology/2026/10/07/785210/samsungs-q3-profit-seen-jumping-nine-fold-but-chip-margins-may-be-flat/",
+     "tier": 3
+    },
+    {
+     "name": "ad-hoc-news (Samsung earnings test on October 8)",
+     "date": "2026-10-06",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/samsung-electronics-stock-faces-an-earnings-test-on-october-8-2026/70243234",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "timing": "after close",
+   "type": "share buyback update (routine)",
+   "materiality": "low",
+   "new_or_rehash": "rehash",
+   "summary": "ASML's routine weekly buyback disclosure: 60,000 shares on 1 Oct at a weighted average EUR 1,602.84 and 60,000 on 2 Oct at EUR 1,639.73 (EUR 194.6m for the two days). Programme announced 2026-01-28. The 2026-10-05 main-session notes recorded the same weekly update as 277,000 shares for 28 Sep-2 Oct (secondary source); the two figures were not reconciled.",
+   "why_it_matters": "Routine; the company keeps reducing its share count, which slightly raises profit per share. Not news.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "ad-hoc-news (buyback transactions)",
+     "date": "2026-10-06",
+     "url": "https://ad-hoc-news.de/boerse/news/nachboerse/asml-holding-stock-after-hours-as-company-reports-buyback-transactions/70244608",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "timing": "unknown",
+   "type": "product/technology (re-circulated)",
+   "materiality": "low",
+   "new_or_rehash": "rehash",
+   "summary": "Articles re-circulated on Oct 6 (e.g. GuruFocus 'ASML stock slips as High-NA mask shift raises execution stakes') about the ASML-TSMC initiative announced 2026-09-08 to move High-NA EUV to 12-inch photomasks: pilot line targeted by 2031, production-ready systems 2033; TSMC aims for high-volume High-NA use from 2030 on today's 6-inch masks.",
+   "why_it_matters": "Old news (Sep 8). Note for the log: it updates the 2026-04-22 item, since TSMC now targets High-NA high-volume use from 2030 (previously 'no plans through 2029').",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "ASML press release",
+     "date": "2026-09-08",
+     "url": "https://www.asml.com/en/news/press-releases/2026/tsmc-and-asml-announce-industry-transition-to-large-format-photomasks-for-high-na-euv",
+     "tier": 1
+    },
+    {
+     "name": "TechNode Global",
+     "date": "2026-09-09",
+     "url": "https://technode.global/2026/09/09/asml-tsmc-12-inch-photomasks-high-na-euv/",
+     "tier": 3
+    }
+   ]
+  }
+ ],
+ "why_chain": [
+  {
+   "rung": 1,
+   "text": "ASML fell -1.39% on Tuesday to $1,834.10 and -1.59% on Wednesday to $1,804.96: -2.95% over two days from Monday's $1,859.86.",
+   "evidence": "data/prices/ASML.csv; coordinator close data 2026-10-07"
+  },
+  {
+   "rung": 2,
+   "text": "Most of it was the chip sector, not ASML: Tuesday company part -1.01% (z -0.63), Wednesday -0.42% (z -0.26), both normal-size; industry parts -0.80 and -0.98.",
+   "evidence": "data/metrics/attribution-2026-10-07.json; coordinator attribution for 2026-10-07"
+  },
+  {
+   "rung": 3,
+   "text": "Tuesday the chip fund lagged a record-high market (SMH -0.22% vs SPY +0.55%): buyers favoured AI chip designers (Nvidia, AMD records; Marvell guidance raise) while memory/storage stocks fell (Seagate -9.1%, Western Digital -6.9%) as investors reassessed data-center demand and profits.",
+   "evidence": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html | https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html (search snippet)"
+  },
+  {
+   "rung": 4,
+   "text": "ASML opened at its day high ($1,870.00) and sold off through Tuesday's session; no ASML-specific news, filing, downgrade or export-control step was found in the window.",
+   "evidence": "data/prices/ASML.csv; EDGAR submissions (no filing since 2026-07-15); searches listed in this file"
+  },
+  {
+   "rung": 5,
+   "text": "Wednesday the whole chip group fell (SMH -1.18%); no published reason was found.",
+   "evidence": "inference (medium): absence of coverage in searches; reason unknown"
+  },
+  {
+   "rung": 6,
+   "text": "Basic driver: not published. Possible explanation: investors trimming chip-equipment and memory-linked exposure before a dense results week (Samsung preliminary Q3 on 8 Oct, ASML 14 Oct, TSMC 15 Oct) after a strong run (ASML +72% year to date, +6.95% in a month to 6 Oct).",
+   "evidence": "inference (low); returns from data/metrics/2026-10-07.json"
+  }
+ ],
+ "products": [
+  {
+   "name": "Hybrid bonding equipment (possible ASML entry; not announced)",
+   "what_it_is": "A machine that joins two chips (or wafers) face to face, copper contact to copper contact, with no solder bumps in between.",
+   "analogy": "Like pressing two Lego plates together so every stud lines up exactly, instead of gluing them with blobs of solder: tighter, thinner and it lets heat escape better.",
+   "buyers": "Makers of stacked memory for AI (HBM) and advanced chip packaging; The Elec/TrendForce call it key equipment for next-generation HBM.",
+   "how_it_works": "Both surfaces are polished extremely flat, aligned to tiny tolerances and bonded directly, so contacts can sit much closer together and heat moves out of the chip more effectively (The Next Web, 2026-10-06).",
+   "price": "not disclosed",
+   "sales": "ASML: none (no hybrid-bonding product announced). Labelled proxy: market leader Besi's cumulative hybrid-bonding orders above 150 tools (Besi 2025 annual report, per The Next Web); UBS estimates hybrid-bonding revenue of about EUR 424m in 2030 (search summary, UBS note not read).",
+   "sales_source": "https://thenextweb.com/news/besi-asml-hybrid-bonding-dutch (tier 3); UBS figure from search summary only",
+   "stage": "Exploring / reportedly in development: CEO said in April 2026 ASML 'continues to look at supporting customers in hybrid bonding'; The Elec reported development in March 2026.",
+   "size_for_company": "Small even if ASML won share: UBS's ~EUR 0.42bn 2030 estimate for the whole market is about 1% of ASML's 2026 guided sales of EUR 43-45bn (computed, using a tier-3-reported estimate).",
+   "competition": "Besi is the leader (Bernstein expects Besi to make about three of every four hybrid bonders shipped in 2028, per The Next Web); others not verified here.",
+   "why_investors_care": "A new market beyond lithography where ASML's precision could help; mainly a threat to Besi rather than a big profit driver for ASML.",
+   "watch_next": "Any mention of hybrid bonding or advanced packaging on ASML's Q3 call, 2026-10-14."
+  }
+ ],
+ "earnings": {
+  "status": "upcoming",
+  "date": "2026-10-14",
+  "confirmed": true,
+  "consensus": {
+   "eps_usd_marketbeat": "12.07 (USD per US share)",
+   "revenue_usd_marketbeat": "13.16bn USD",
+   "eps_usd_other_aggregator": "11.89 (search summary, TipRanks/Investing-type aggregator; not opened)",
+   "revenue_usd_other_aggregator": "13.04bn USD (search summary; not opened)",
+   "eur_consensus_unverified": "net sales EUR 11.6bn (range EUR 10.3-12.1bn, 8 analysts), EPS EUR 10.58 (range EUR 8.65-11.50): tickerleague.com search snippet only; the page returned 404, so unverified",
+   "gross_margin": "not available",
+   "net_bookings": "not applicable: ASML stopped publishing quarterly bookings in 2026 (deep dive data note 2026-10-04; not re-verified today). Last reported: Q4 2025 net bookings EUR 13.2bn, of which EUR 7.4bn EUV; backlog EUR 38.8bn at end-2025 (Q4 2025 release).",
+   "company_compiled_consensus": "not found"
+  },
+  "actual": {},
+  "guidance": {
+   "q3_2026_net_sales": "EUR 11.0-12.0bn",
+   "q3_2026_gross_margin": "55-57%",
+   "q3_2026_rnd": "about EUR 1.2bn",
+   "q3_2026_sgna": "about EUR 0.4bn",
+   "q3_2026_installed_base_sales": "about EUR 2.9bn (Q2 investor presentation, per fetch summary and a second search summary)",
+   "fy2026_net_sales": "EUR 43-45bn (raised in July from EUR 36-40bn; initial January guide EUR 34-39bn)",
+   "fy2026_gross_margin": "54-56%"
+  },
+  "key_metrics": {
+   "year_ago_q3_2025": "net sales EUR 7,516m, gross margin 51.6%, net income EUR 2,125m, EPS EUR 5.49, installed base EUR 1,962m (Q4 2025 release table)",
+   "q2_2026": "net sales EUR 9.3bn, gross margin 54.0%, net income EUR 2.9bn, EPS EUR 7.59, installed base EUR 2,762m",
+   "implied_growth_at_guide_midpoint": "EUR 11.5bn vs EUR 7,516m = about +53% year on year (computed)",
+   "installed_base_guide_vs_year_ago": "about EUR 2.9bn vs EUR 1,962m = about +48% (computed)",
+   "what_decides_reaction": "Whether full-year EUR 43-45bn is kept or raised, Q3 gross margin vs 55-57%, comments on 2027 (capacity 'nearly fully booked', +30% low-NA EUV capacity), China share, any export-control update."
+  },
+  "quality_flags": [
+   "Aggregator consensus figures disagree and are in USD; the EUR consensus is unverified",
+   "No company-compiled consensus found"
+  ],
+  "management_explanation": "not applicable (results not yet published)",
+  "sources": [
+   "https://investor.asml.com/quarterly-results (asml.com search result: Q3 2026 results Wednesday 14 Oct 2026, press release 07:00 CET via GlobeNewswire; page fetch timed out)",
+   "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm (Q2 2026 6-K, 2026-07-15, guidance)",
+   "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/presentationinvestorrela.htm (Q2 2026 investor presentation)",
+   "https://www.sec.gov/Archives/edgar/data/937966/000162828026003701/pressreleasefinancialresul.htm (Q4 2025 6-K, 2026-01-28, year-ago Q3 figures, bookings, backlog)",
+   "https://www.marketbeat.com/earnings/reports/2026-10-14-asml-holding-stock/ (tier 3, USD consensus, before market open)"
+  ]
+ },
+ "next_earnings": {
+  "date": "2026-10-14 (press release about 07:00 Amsterdam time = about 01:00 New York time, before the US open)",
+  "confirmed": true,
+  "consensus_eps": "USD 12.07 per US share (MarketBeat, tier 3); USD 11.89 in another aggregator; EUR 10.58 per an unverified aggregator snippet",
+  "consensus_revenue": "USD 13.16bn (MarketBeat, tier 3); USD 13.04bn other aggregator; EUR 11.6bn per unverified snippet (company guide EUR 11.0-12.0bn)",
+  "company_guidance": "Q3: net sales EUR 11.0-12.0bn, gross margin 55-57%, installed base about EUR 2.9bn. Full-year 2026: EUR 43-45bn sales, 54-56% gross margin (6-K 2026-07-15).",
+  "sources": [
+   "https://investor.asml.com/quarterly-results",
+   "https://www.marketbeat.com/earnings/reports/2026-10-14-asml-holding-stock/",
+   "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/pressreleasefinancialresul.htm",
+   "https://www.ad-hoc-news.de/boerse/news/corporate-news/bofa-raises-target-for-asml-holding-stock-to-eur-2-557-00/70253368 (also lists Q3 results on 2026-10-14)"
+  ]
+ },
+ "analyst_actions": [
+  {
+   "date": "2026-10-06",
+   "firm": "BofA Securities",
+   "action": "Price target raised to EUR 2,557 from EUR 2,452; Buy kept",
+   "reason": "Higher 2028 sales (EUR 76.5bn from 70.4bn) and EPS (EUR 85.20 from 75.40) estimates; EUV units 120 from 110; dry lithography 210 from 190; higher selling prices. Single tier-3 source.",
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/bofa-raises-target-for-asml-holding-stock-to-eur-2-557-00/70253368"
+  }
+ ],
+ "insiders": {
+  "summary": "ASML is a foreign private issuer: its directors do not file US Form 4s, and the pipeline shows no SEC filings in the window. The only share activity found is the company's own routine buyback (120,000 shares on 1-2 Oct for EUR 194.6m).",
+  "notable": []
+ },
+ "filings": [
+  {
+   "form": "none",
+   "items": "No SEC filing in the window. EDGAR submissions for CIK 937966 checked 2026-10-07: latest is the 6-K of 2026-07-15 (Q2 results); no 6-K since.",
+   "plain_english": "The company made no formal announcement to US regulators in these two days.",
+   "materiality": "n/a",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000937966&type=6-K"
+  }
+ ],
+ "catalysts": [
+  {
+   "date": "2026-10-08",
+   "event": "Samsung Electronics preliminary Q3 results (Korea time; a top-four ASML customer). Previews: record operating profit around KRW 106-109 trillion, about nine-fold year on year, but chip margins possibly flat. Outcome not checked (after the window).",
+   "confirmed": false,
+   "url": "https://bworldonline.com/technology/2026/10/07/785210/samsungs-q3-profit-seen-jumping-nine-fold-but-chip-margins-may-be-flat/"
+  },
+  {
+   "date": "2026-10-14",
+   "event": "ASML Q3 2026 results, about 07:00 Amsterdam time (before the US open)",
+   "confirmed": true,
+   "url": "https://investor.asml.com/quarterly-results"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "TSMC Q3 results (largest customer; capex and High-NA plans)",
+   "confirmed": true,
+   "url": "not re-verified in this run (from the news log calendar)"
+  },
+  {
+   "date": "2026-10-27",
+   "event": "ASM International Q3 results (Dutch chip-equipment peer), about 18:00 CET",
+   "confirmed": true,
+   "url": "https://ad-hoc-news.de/boerse/news/nachboerse/asm-international-stock-last-at-eur-947-40-on-october-6-2026-at-5-36-p-m-cest/70244358"
+  },
+  {
+   "date": "late 2026",
+   "event": "US defence bill (NDAA) / MATCH Act: no dated step found",
+   "confirmed": false,
+   "url": "https://bits-chips.com/article/iran-war-deadlock-gave-asml-reprieve-from-us-china-crackdown/"
+  },
+  {
+   "date": "2027-06-10",
+   "event": "ASML Capital Markets Day (update of longer-term views)",
+   "confirmed": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/presentationinvestorrela.htm"
+  }
+ ],
+ "thesis_breaker_checks": [
+  {
+   "event": "Rules: the company cut its revenue or profit forecast (guidance)",
+   "found": false,
+   "evidence": "No 6-K or press release since 2026-07-15 (EDGAR submissions checked); guidance still EUR 43-45bn."
+  },
+  {
+   "event": "Rules: results missed analysts' revenue or EPS estimates",
+   "found": false,
+   "evidence": "No results in the window; Q3 results due 2026-10-14."
+  },
+  {
+   "event": "Rules: a major customer was lost, or a major customer cut orders",
+   "found": false,
+   "evidence": "No report found. Samsung preliminary Q3 (8 Oct, Korea) and TSMC Q3 (15 Oct) are the next checks."
+  },
+  {
+   "event": "Rules: restatement / non-reliance (8-K Item 4.02)",
+   "found": false,
+   "evidence": "No filing in the window (foreign filer; no 6-K)."
+  },
+  {
+   "event": "Rules: auditor resigned or dismissed (8-K Item 4.01)",
+   "found": false,
+   "evidence": "No filing or report found."
+  },
+  {
+   "event": "Rules: CEO or CFO left unexpectedly",
+   "found": false,
+   "evidence": "No filing or report found."
+  },
+  {
+   "event": "Rules: large dilutive share sale",
+   "found": false,
+   "evidence": "None; the company is buying back shares (120,000 on 1-2 Oct)."
+  },
+  {
+   "event": "Rules: regulator investigation or major litigation",
+   "found": false,
+   "evidence": "Search for ASML lawsuit/investigation/delay returned only old items (Nikon patent case, years old); nothing in the window."
+  },
+  {
+   "event": "Rules: two or more analyst downgrades within five trading days",
+   "found": false,
+   "evidence": "Only action found in the window is a BofA target raise. A New Street downgrade that surfaced in search is dated 2025-10-11, not new."
+  },
+  {
+   "event": "Rules: several insiders sold outside 10b5-1 plans",
+   "found": false,
+   "evidence": "Not applicable in the usual way: ASML insiders do not file Form 4; pipeline shows no filings."
+  },
+  {
+   "event": "Thesis trigger 1: a competitor shows a working EUV machine",
+   "found": false,
+   "evidence": "Nothing in the window. Background, not in the news log: The Information reported on 2026-07-27 that a Shanghai state-backed company had started producing immersion DUV (older, not EUV) machines, about 5 in 2026 and 20 in 2027 vs ASML's 131 immersion DUV systems last year; ASML fell about 6% that day (Yahoo Finance, 2026-07-27, tier 3). DUV, so it does not meet the trigger."
+  },
+  {
+   "event": "Thesis trigger 2: gross margin below 50% in a quarter",
+   "found": false,
+   "evidence": "Not testable until 2026-10-14; Q3 guided 55-57%, Q2 actual 54.0%."
+  },
+  {
+   "event": "Thesis trigger 3: serious problem at Carl Zeiss (single optics supplier)",
+   "found": false,
+   "evidence": "Search for Zeiss problems found none; only background on Zeiss capacity limits and a site expansion (Tom's Hardware, date not checked)."
+  },
+  {
+   "event": "Thesis trigger 4: 2026 forecast cut below EUR 43bn",
+   "found": false,
+   "evidence": "No new guidance since 2026-07-15."
+  },
+  {
+   "event": "Thesis trigger 5: TSMC or Samsung cut factory spending",
+   "found": false,
+   "evidence": "Nothing found in the window; Samsung prelim (8 Oct) gives profit, not capex; TSMC 15 Oct."
+  },
+  {
+   "event": "Thesis trigger 6: MATCH Act becomes law / Dutch rule cuts off China DUV",
+   "found": false,
+   "evidence": "No new legislative or Dutch step found in the window. Latest reports conflict: NL Times 2026-08-20 said the US was preparing to force a Dutch ban; Bits&Chips 2026-08-21 said the defence bill carrying the MATCH Act failed to advance in the Senate on 14 July. Both tier 3. Not law."
+  },
+  {
+   "event": "Thesis trigger 7: service revenue shrinks",
+   "found": false,
+   "evidence": "Not testable until 2026-10-14; Q3 installed-base guide about EUR 2.9bn vs EUR 1,962m a year earlier."
+  },
+  {
+   "event": "Thesis trigger 8: rule bans servicing machines installed in China",
+   "found": false,
+   "evidence": "No such rule; draft MATCH Act text includes servicing (tier 3), no new step in the window."
+  },
+  {
+   "event": "Thesis trigger 9: management says 2027 sales will not grow",
+   "found": false,
+   "evidence": "No management comment in the window; next check 2026-10-14."
+  }
+ ],
+ "disconfirming_evidence": [
+  {
+   "claim": "New Street downgraded ASML to Neutral (EUR 790 target), seeing peak AI spending and weak growth beyond 2026.",
+   "url": "https://finance.yahoo.com/news/asml-asml-downgraded-neutral-analyst-133459772.html",
+   "assessment": "Stale: published 2025-10-11, not in the window, although a search summary labelled it 'October 6'. Do not report as new."
+  },
+  {
+   "claim": "China is building its own immersion DUV machines (5 in 2026, 20 in 2027), challenging ASML's older-machine sales in China.",
+   "url": "https://finance.yahoo.com/technology/articles/asml-u-chip-stocks-sink-135434031.html",
+   "assessment": "Real but old (2026-07-27, citing The Information) and not in the news log. Analysts at the time called the sell-off disproportionate. Relevant to the China pillar; DUV, not EUV."
+  },
+  {
+   "claim": "The MATCH Act would ban DUV immersion sales and servicing of about 1,400 ASML machines in China.",
+   "url": "https://hwbusters.com/news/match-act-asml-could-lose-the-right-to-service-the-machines-it-already-sold-china/",
+   "assessment": "Pending bill; no new step in the window. Bits&Chips (2026-08-21) reported the defence-bill vehicle stalled on 14 July. Status unconfirmed by primary sources."
+  },
+  {
+   "claim": "China was 33% of ASML's 2025 sales and 36% in Q4 2025.",
+   "url": "https://thenextweb.com/news/china-us-chip-export-controls-match-act",
+   "assessment": "Conflicts with the 20-F figure of 29.1% of total 2025 sales; probably a system-sales-only share (inference, medium). Use the 20-F figure."
+  },
+  {
+   "claim": "Valuation leaves little room for disappointment (about 60x trailing earnings; deep dive).",
+   "url": "reports/deep-dives/ASML-2026-10-04.md",
+   "assessment": "Known risk; nothing new this window. The two-day -2.95% move came with no company news, consistent with a high-expectation stock moving with sentiment."
+  }
+ ],
+ "open_questions": [
+  "Why chip stocks fell on Wednesday 7 Oct: no published reason found within the search budget.",
+  "Q3 consensus in euros: only an unverified aggregator snippet (EUR 11.6bn sales, EUR 10.58 EPS; page 404). No company-compiled consensus or gross-margin consensus found.",
+  "Q3 date confirmed from an asml.com search result (14 Oct, 07:00 CET); the IR page itself timed out three times.",
+  "Whether ASML still publishes any bookings figure in 2026 (deep dive says no; not re-verified).",
+  "BofA EUR 2,557 target: single tier-3 source.",
+  "MATCH Act current status: last concrete reports (Aug 20-21) conflict; no October update found.",
+  "Buyback count mismatch: 120,000 shares on 1-2 Oct (ad-hoc-news) vs 277,000 for 28 Sep-2 Oct in the 2026-10-05 notes.",
+  "Samsung preliminary Q3 results (8 Oct Korea time) came out after the window; not checked.",
+  "The China immersion-DUV report (2026-07-27) and TSMC's 2030 High-NA target (2026-09-08) are not in the news log; the main session may want to add them as background."
+ ],
+ "searches_run": 27
+}

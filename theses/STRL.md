@@ -14,7 +14,7 @@ Before a data center can be built, the land has to be cleared, levelled, given f
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-05; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Before a data center can be built, the land has to be cleared, levelled, given f
 - Operating margin (share left after all running costs): rising (18.2% to 18.8%, +0.6 points).
 - Profit: positive net income in 4 of the last 4 quarters.
 
-**The stock** (to 2026-10-05, `data/metrics/`)
+**The stock** (to 2026-10-07, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +7.6% | -27.0% | +32.9% | +49.8% | -3.1% | -54.1% | 5.1% |
+| +9.8% | -19.2% | +26.2% | +53.2% | -1.6% | -54.1% | 5.6% |
 
 *Price trend:* short-term bounce inside a longer downtrend (above the 50-day, below the 200-day). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
