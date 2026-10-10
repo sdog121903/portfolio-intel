@@ -172,7 +172,7 @@
         "beyond_market_pct": 0.74,
         "typical_day_pct": 2.34,
         "z": 0.32,
-        "next_5_days_pct": null
+        "next_5_days_pct": 1.85
       }
     },
     {
@@ -290,6 +290,93 @@
         "z": 0.13,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "crwd-2026-10-09-cyber-rally",
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "low",
+      "direction": "good",
+      "what": "Rose 4.57% with the cybersecurity group (industry part +5.31; own part −1.50); five-day own part −6.59 points (z −1.91), no cause found.",
+      "source": {
+        "name": "24/7 Wall St",
+        "date": "2026-10-09",
+        "url": "https://247wallst.com/investing/2026/10/09/zscaler-jumps-6-on-reaffirmed-revenue-outlook-and-ibm-security-pact-palo-alto-and-crowdstrike-gain-4/",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": 4.57,
+        "market_pct": 0.6,
+        "beyond_market_pct": 3.97,
+        "typical_day_pct": 2.42,
+        "z": 1.64,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "crwd-2026-10-08-bmo-target",
+      "date": "2026-10-08",
+      "timing": "before open",
+      "type": "analyst rating",
+      "materiality": "low",
+      "direction": "good",
+      "what": "BMO raised its target to $295 from $235, Outperform kept, citing management's view that security budgets rise in 2027.",
+      "source": {
+        "name": "Investing.com",
+        "date": "2026-10-08",
+        "url": "https://www.investing.com/news/analyst-ratings/bmo-raises-crowdstrike-stock-price-target-to-295-on-growth-outlook-93CH-4938967",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -0.92,
+        "market_pct": -0.42,
+        "beyond_market_pct": -0.49,
+        "typical_day_pct": 2.42,
+        "z": -0.2,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "crwd-2026-10-08-kurtz-sales",
+      "date": "2026-10-08",
+      "timing": "unknown",
+      "type": "insider sale (planned)",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "CEO Kurtz sold 20,000 shares (about $5.49m) on 10-06 and 10-07 under a 10b5-1 plan.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-10-08",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000179/xslF345X06/form4-10082026_081001.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -0.92,
+        "market_pct": -0.42,
+        "beyond_market_pct": -0.49,
+        "typical_day_pct": 2.42,
+        "z": -0.2,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -325,25 +412,31 @@
       "company_part_pct": -2.35,
       "z": -1.53,
       "main_news": "Fell 4.81%, more than its industry (company part z -1.53), with no confirmed cause; one site blamed valuation and profit-taking after seven straight gains (inference, low-medium)."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 275.04,
+      "day_pct": 4.57,
+      "market_part_pct": 0.77,
+      "industry_part_pct": 5.31,
+      "company_part_pct": -1.5,
+      "z": -0.98,
+      "main_news": "Rose 4.57% with the cybersecurity group (industry part +5.31; own part −1.50); five-day own part −6.59 points (z −1.91), no cause found."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
         "date": "2026-11-02",
-        "event": "Fal.Con Europe, Barcelona (11-02 to 11-04)",
+        "event": "Fal.Con Europe, Barcelona (to 11-04)",
         "confirmed": true,
-        "source": {
-          "name": "CrowdStrike",
-          "date": "2026-10-06",
-          "url": "https://www.crowdstrike.com/en-us/press-releases/falcon-europe-2026-sells-out/",
-          "tier": 1
-        }
+        "source": {}
       },
       {
-        "date": "2026-12-02",
-        "event": "Q3 FY2027 results (estimated early December)",
+        "date": "2026-12-01",
+        "event": "Q3 FY2027 results (estimated)",
         "confirmed": false,
         "source": {}
       }

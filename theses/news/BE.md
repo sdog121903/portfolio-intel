@@ -8,30 +8,33 @@ This page is rebuilt on every run from `data/news-log/BE.json` by `.claude/skill
 
 ## What the log shows so far
 
-- **7** news items and **2** report days logged (first report 2026-10-04, latest 2026-10-07).
+- **9** news items and **3** report days logged (first report 2026-10-04, latest 2026-10-09).
 - **Too early to draw conclusions:** fewer than 20 items. Read this page as a diary for now, not as a rule about how the stock behaves.
 - Average move beyond the market on the reaction day to **good** news: +2.18% (3 items).
-- Average move beyond the market on the reaction day to **bad** news: +10.89% (2 items).
-- Biggest reactions so far: 2026-07-30 +24.81% beyond the market (very big) after: Shareholders filed a securities class action after a Hunterbrook report on Chinese...; 2026-10-02 +3.43% beyond the market (normal) after: Barclays raised its target to $308 and kept a neutral rating, citing a second factory in...; 2026-10-02 +3.43% beyond the market (normal) after: Virginia's 2026 Energy Plan named fuel cells as a near-term clean-power option (Bloom not....
+- Average move beyond the market on the reaction day to **bad** news: +2.49% (4 items).
+- Biggest reactions so far: 2026-07-30 +24.81% beyond the market (very big) after: Shareholders filed a securities class action after a Hunterbrook report on Chinese...; 2026-10-08 -5.92% beyond the market (big) after: Bloomberg: Oracle trucks compressed natural gas to some data centers while waiting for...; 2026-10-08 -5.92% beyond the market (big) after: Oracle's long-term debt has nearly doubled to more than $160bn and it is seeking chip....
 - Report days with a very big company-specific move and no news found: 0.
 - Several items can share one reaction day, so their reactions are not independent.
 
-## Coming up (calendar as of 2026-10-07)
+## Coming up (calendar as of 2026-10-09)
 
 Dated events that could move the stock. When one happens, it moves into the news table below.
 
 | Date | Event | Confirmed? | Source |
 |---|---|---|---|
-| 2026-10-27 | Q3 2026 results (estimated 10-26 to 10-29) | not confirmed | not recorded |
+| 2026-10-27 | Q3 2026 results (estimated) | not confirmed | not recorded |
+| 2027-02-01 | Jupiter gas pipeline target | not confirmed | not recorded |
 
 ## News, newest first
 
 | Date | What happened | Good or bad for the stock | Importance | Reaction day | Stock | Market | Beyond market | Size | Next 5 days | Source |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-08 | Bloomberg: Oracle trucks compressed natural gas to some data centers while waiting for pipelines, is weighing it for Project Jupiter, and praised rival VoltaGrid for other sites. Bloom −6.34%, mostly with power-for-AI stocks (Vistra −6.35%, Oklo −6.11%). | bad | medium | 2026-10-08 | -6.34% | -0.42% | -5.92% | big | n/a | [Investing.com, 2026-10-08](https://www.investing.com/news/stock-market-news/bloom-energy-shares-fall-on-report-of-oracle-using-natural-gas-for-data-centers-4939543), tier 3 |
+| 2026-10-08 | Oracle's long-term debt has nearly doubled to more than $160bn and it is seeking chip financing: a question about Bloom's biggest customer's capacity to keep paying. | bad | low | 2026-10-08 | -6.34% | -0.42% | -5.92% | big | n/a | [Yahoo Finance, 2026-10-08](https://finance.yahoo.com/technology/article/oracle-stock-falls-on-more-debt-to-fund-ai-chip-buying-openai-revenue-disclosure-181653494.html), tier 3 |
 | 2026-10-07 | Bernstein kept Market Perform ($282 target), seeing a 10-20 GW behind-the-meter market by 2030 and utilities as a second group of buyers. | neutral | low | 2026-10-07 | -1.52% | -0.24% | -1.28% | normal | n/a | [Investing.com, 2026-10-07](https://www.investing.com/news/analyst-ratings/bernstein-reiterates-bloom-energy-stock-rating-on-utility-demand-93CH-4936717), tier 3 |
 | 2026-10-07 | Fuel-cell stocks fell after FuelCell Energy's CFO stepped down (FuelCell -12%); Bloom fell far less (-1.52%). | neutral | low | 2026-10-07 | -1.52% | -0.24% | -1.28% | normal | n/a | [24/7 Wall St, 2026-10-07](https://247wallst.com/investing/2026/10/07/fuelcell-tumbles-12-as-its-finance-chief-of-15-years-steps-down-bloom-energy-dips-plug-power-slides-3/), tier 3 |
-| 2026-10-02 | Barclays raised its target to $308 and kept a neutral rating, citing a second factory in Fremont, California, and utility demand (Ameren plans 500 megawatts of fuel cells). | good | low | 2026-10-02 | +4.17% | +0.74% | +3.43% | normal | n/a | [Investing.com, 2026-10-02](https://www.investing.com/news/stock-market-news/barclays-lifts-bloom-energy-target-to-308-on-factory-expansion-utility-shift-4927314), tier 3 |
-| 2026-10-01 | Virginia's 2026 Energy Plan named fuel cells as a near-term clean-power option (Bloom not named); fuel-cell stocks rallied the next day and BE rose 4.17%. | good | low | 2026-10-02 | +4.17% | +0.74% | +3.43% | normal | n/a | [Cardinal News, 2026-10-01](https://cardinalnews.org/2026/10/01/spanberger-unveils-energy-plan-with-focus-on-achieving-a-net-zero-power-sector-by-2050/), tier 3 |
+| 2026-10-02 | Barclays raised its target to $308 and kept a neutral rating, citing a second factory in Fremont, California, and utility demand (Ameren plans 500 megawatts of fuel cells). | good | low | 2026-10-02 | +4.17% | +0.74% | +3.43% | normal | -2.99% | [Investing.com, 2026-10-02](https://www.investing.com/news/stock-market-news/barclays-lifts-bloom-energy-target-to-308-on-factory-expansion-utility-shift-4927314), tier 3 |
+| 2026-10-01 | Virginia's 2026 Energy Plan named fuel cells as a near-term clean-power option (Bloom not named); fuel-cell stocks rallied the next day and BE rose 4.17%. | good | low | 2026-10-02 | +4.17% | +0.74% | +3.43% | normal | -2.99% | [Cardinal News, 2026-10-01](https://cardinalnews.org/2026/10/01/spanberger-unveils-energy-plan-with-focus-on-achieving-a-net-zero-power-sector-by-2050/), tier 3 |
 | 2026-09-24 | Oracle invoked force majeure (a claim that events outside its control excuse a delay) on Project Jupiter in New Mexico, which may use up to 2.45 gigawatts of Bloom fuel cells, because the gas pipeline slipped to February 2027. All sides say the contract stands. | bad | high | 2026-09-24 | -3.10% | -0.08% | -3.02% | normal | +4.10% | [CNBC, 2026-09-24](https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html), tier 2 |
 | 2026-07-30 | Shareholders filed a securities class action after a Hunterbrook report on Chinese scandium (a rare metal) in Bloom's supply chain, which Bloom calls false. | bad | medium | 2026-07-30 | +26.49% | +1.68% | +24.81% | very big | +10.54% | [D&O Diary, 2026-08-02](https://www.dandodiary.com/2026/08/articles/geopolitical-risk/geopolitical-issues-lead-to-securities-suit-against-fuel-cell-company/), tier 3 |
 | 2026-07-28 | Q2 revenue $1,065.4m (+165.5%) with $226.4m of operating cash flow; 2026 outlook raised to $3.9-4.2bn. | good | high | 2026-07-29 | -1.85% | -1.54% | -0.31% | normal | +43.10% | [Bloom Q2 2026 results, 2026-07-28](https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm), tier 1 |
@@ -42,6 +45,7 @@ The day's move split into the part from the whole market, the part from its indu
 
 | Report | Trading day | Close | Day move | Market part | Industry part | Company part | Size of company part | Main news that day |
 |---|---|---|---|---|---|---|---|---|
+| 2026-10-09 | 2026-10-09 | $280.50 | +2.82% | +1.34% | +1.06% | +0.41% | normal | no news found |
 | 2026-10-07 | 2026-10-07 | $291.29 | -1.52% | -0.53% | -3.38% | +2.40% | normal | Bernstein kept Market Perform ($282 target), seeing a 10-20 GW behind-the-meter market by 2030 and utilities as a second group of buyers. |
 | 2026-10-04 | 2026-10-02 | $289.15 | +4.17% | +1.65% | +4.23% | -1.71% | normal | Barclays raised its target to $308 and kept a neutral rating, citing a second factory in Fremont, California, and utility demand (Ameren plans 500 megawatts of fuel cells). |
 

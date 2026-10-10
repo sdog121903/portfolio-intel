@@ -14,7 +14,7 @@ Snowflake stores companies' data in the cloud and runs their analysis on it, bil
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Snowflake stores companies' data in the cloud and runs their analysis on it, bil
 - Operating margin (share left after all running costs): rising (-27.2% to -17.0%, +10.2 points).
 - Profit: positive net income in 0 of the last 4 quarters.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| -1.3% | +27.4% | +121.9% | +41.8% | +44.9% | -56.3% | 4.1% |
+| +11.3% | +41.1% | +204.6% | +47.2% | +59.7% | -56.3% | 3.9% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -140,7 +140,10 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* SEC filings in every daily report.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-07 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- ASOS (2026-10-08): the breach began when someone posing as a trusted contact tricked an employee into giving up a login, then used on "third-party platforms" [Irish Examiner (PA), 2026-10-08](https://www.irishexaminer.com/news/arid-41921518.html); Snowflake (2026-10-09): no flaw in its service was involved and "No remediation is required for Snowflake customers" (media statement) [The Independent via Yahoo Finance UK, 2026-10-09](https://uk.finance.yahoo.com/news/asos-cyber-breach-not-caused-102151192.html). Whether the stolen login reached ASOS's Snowflake account: unknown.
+- Co-founder Benoit Dageville's trust sold 50,000 shares on 10-07 at $333.42 (about $16.67m) under a 10b5-1 plan adopted 2026-04-03 [SEC Form 4, 2026-10-08](https://www.sec.gov/Archives/edgar/data/1640147/000182173726000016/xslF345X06/wk-form4_1791497594.xml)
+- Stock +3.17% (10-08) and +7.42% (10-09, twice usual volume) to $368.89 (data/metrics)
 - Q2 FY2027 product revenue $1,491.9m (+37%); net revenue retention 126%; stock rose 22% after results [Snowflake Q2 FY2027 results, 2026-09-02](https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm)
 - Contracted future revenue (RPO) $9.00bn, down from $9.21bn; GAAP loss $191.7m (research file, from company releases)
 - $3.75bn of 0% convertible notes closed: $2.0bn due 2029 (converts at about $500.38) and $1.75bn due 2031 (about $483.98); capped call to $820.30; about 2.2% more shares if converted, up to about 4% [SEC 8-K, 2026-10-02](https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm)
@@ -156,3 +159,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-05 (daily report): corrected trigger 4's status line: one fall in RPO weakens pillar 4, but the trigger's early warning is a second fall, which has not happened. No change to the reasons, pillars or triggers.
 - 2026-10-07 (daily report): Facts updated (ASOS breach claim and Snowflake's denial; Dageville planned sale). No trigger hit. No change to the reasons, pillars or triggers.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (ASOS breach explanation and Snowflake statement, Dageville plan sale). No trigger status changed. No change to the reasons, pillars or triggers.

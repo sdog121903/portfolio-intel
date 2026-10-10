@@ -1,0 +1,234 @@
+{
+  "ticker": "LITE",
+  "company": "Lumentum Holdings Inc.",
+  "window": {"from": "2026-10-07 16:00 ET (after the Wednesday close)", "to": "2026-10-09 after the US close (Friday)"},
+  "newest_item_checked": "Investing.com note on Evercore ISI, 2026-10-09 13:00 ET; Investopedia (via AOL), 2026-10-09 15:55 UTC; SEC EDGAR submissions list (newest LITE filing is the ARS accepted 2026-10-07 00:08 UTC, i.e. filed 2026-10-06); Lumentum IR press-release feed (newest release 2026-10-05) and events feed, checked 2026-10-09/10.",
+  "price_context": {
+    "wed_close_2026-10-07": 1111.07,
+    "thu_close_2026-10-08": 1048.60,
+    "thu_change_pct": -5.62,
+    "fri_close_2026-10-09": 1103.35,
+    "fri_change_pct": 5.22,
+    "two_day_change_pct": -0.69,
+    "attribution_thursday": {"market": -0.22, "industry_SMH": -4.18, "company": -1.22, "z": -0.25, "SMH_day_pct": -2.84, "source": "data/research/2026-10-09/thursday-attribution.json"},
+    "attribution_friday": {"market": 0.34, "industry_SMH": -2.13, "company": 7.01, "z": 1.40, "SMH_day_pct": -0.65, "source": "data/metrics/attribution-2026-10-09.json"},
+    "intraday_thursday": "Down over 2% before the open (TradingKey, 2026-10-08 09:11 ET, low-tier); down 4% to $1,068.50 around noon ET (24/7 Wall St, 2026-10-08 12:00 ET); closed -5.62% at $1,048.60 (data/metrics). The fall deepened in the afternoon, when chip stocks fell on the FT OpenAI revenue report.",
+    "intraday_friday": "Up about 3.8% before the open (Investing.com, 2026-10-09 05:51); about +7% at $1,117.71 in early trading per 24/7 Wall St (article stamped 08:36 ET, so this was likely a pre-market price); about $1,119 at 13:00 ET (Investing.com); closed +5.22% at $1,103.35, giving back part of the gain as chip stocks (SMH -0.65%) slipped (data/metrics).",
+    "rule_fired": "explain-big-moves (5% WATCH) on both days (data/metrics/rules-2026-10-09.json shows Friday; Thursday -5.62% also exceeds 5%)"
+  },
+  "events": [
+    {
+      "date": "2026-10-08",
+      "timing": "after close",
+      "type": "management commentary (CEO TV interview): demand vs supply",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "CEO Michael Hurlston told Bloomberg Television ('The Asia Trade', in Tokyo, aired Thursday evening New York time / Friday morning Tokyo) that Lumentum's optoelectronic parts for AI data centers are 'completely sold out' through almost 2029. Per secondary reports of the interview: it cannot meet about 70% of demand for some products through 2027 and about 30% for others through 2028; laser chips are the tightest constraint; it added a fab in Greensboro, North Carolina and is adding capacity at a second fab in Japan; new laser capacity takes about three years (a year to equip the fab, a year to qualify the device, a year for customers to qualify it). Quote: 'We are really trying to catch up, add capacity as fast as we can, but we are very, very far behind what customers want' (Investopedia). In April 2026 he had told Bloomberg products were sold out through 2027, so the horizon has moved out by more than a year.",
+      "why_it_matters": "It directly supports thesis pillar 2 (demand bigger than supply): a shortage lasting into 2029 usually means pricing power and visible future sales. It also means revenue is capped by how fast Lumentum can add capacity, not by demand. It is a TV interview, not guidance or a filing.",
+      "direction": "supports",
+      "sources": [
+        {"name": "Bloomberg (article headline: 'Nvidia-Backed Lumentum Sees Opto-Parts Capacity Sold Out to 2029'; page blocked, seen via search)", "date": "2026-10-09", "url": "https://www.bloomberg.com/news/articles/2026-10-09/nvidia-backed-lumentum-sees-opto-parts-capacity-sold-out-to-2029", "tier": 2},
+        {"name": "Bloomberg video 'Lumentum CEO: Opto-Parts Capacity Sold Out to 2029' (page blocked, seen via search)", "date": "2026-10-09", "url": "https://www.bloomberg.com/news/videos/2026-10-09/lumentum-ceo-opto-parts-capacity-sold-out-to-2029-video", "tier": 2},
+        {"name": "Yahoo Finance (syndicated Bloomberg video; posted Fri 03:36 CEST = Thu 21:36 ET; show 'Bloomberg: The Asia Trade' with Shery Ahn)", "date": "2026-10-09", "url": "https://finance.yahoo.com/video/lumentum-ceo-opto-parts-capacity-013640075.html", "tier": 3},
+        {"name": "Investopedia via AOL (Aaron McDade), verbatim quote", "date": "2026-10-09", "url": "https://www.aol.com/articles/nvidia-backed-lumentum-says-t-155557000.html", "tier": 3},
+        {"name": "Investing.com, 'Why is Lumentum stock surging today?'", "date": "2026-10-09", "url": "https://www.investing.com/news/stock-market-news/why-is-lumentum-stock-surging-today-93CH-4940532", "tier": 3},
+        {"name": "Bloomberg video, earlier comparison: 'Lumentum CEO Says Products Sold Out Through 2027'", "date": "2026-04-10", "url": "https://www.bloomberg.com/news/videos/2026-04-10/lumentum-ceo-says-products-sold-out-through-2027-video", "tier": 2}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "industry selloff (optics and chips): profit-taking, macro, AI-spending doubts",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Optical stocks fell together from the open: by about noon ET Applied Optoelectronics was -9%, Coherent -5%, Lumentum -4% and the Roundhill photonics fund (LYTE) -6%, with 'no shared headline, no analyst upgrade, and no product news' per 24/7 Wall St, which called it profit-taking after huge gains (Lumentum about +190% this year). Before the open, index futures were down about 0.5% with oil and Treasury yields rising (low-tier report). In the afternoon, chip stocks fell further after the Financial Times reported OpenAI told investors its annualized revenue was approaching $50bn at the end of September, about $20bn below the roughly $70bn widely reported; Nvidia fell almost 3%, AMD about 4%, Broadcom about 4.35%, Oracle 5.5% and CoreWeave nearly 8% (per search summaries of CNBC/Yahoo coverage; CNBC page itself blocked). Day closes: LITE -5.62%, SMH -2.84%, AAOI -13.6%, AXT -10.2% (data/metrics). Nothing in it was about Lumentum itself.",
+      "why_it_matters": "Attribution says this was an industry day (industry -4.18 points, company -1.22, normal size). The OpenAI item matters for the thesis only indirectly: OpenAI is one of the biggest buyers of AI computing, so doubts about its revenue raise doubts about how long AI data-center spending lasts. No change to Lumentum's own numbers.",
+      "direction": "weakens",
+      "sources": [
+        {"name": "24/7 Wall St", "date": "2026-10-08", "url": "https://247wallst.com/investing/2026/10/08/optics-stocks-tumble-as-profit-taking-cuts-into-big-yearly-gains-applied-optoelectronics-drops-9-coherent-falls-5-lumentum-slides-4/", "tier": 3},
+        {"name": "CNBC, 'Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report' (headline via search; page blocked)", "date": "2026-10-08", "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html", "tier": 2},
+        {"name": "Yahoo Finance live blog, 'S&P 500, Nasdaq fall for second day in a row as AI trade takes a hit'", "date": "2026-10-08", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html", "tier": 3},
+        {"name": "Yahoo Finance, 'OpenAI's annualized revenue $20 billion lower than prior investor estimates'", "date": "2026-10-08", "url": "https://finance.yahoo.com/technology/article/openais-annualized-revenue-20-billion-lower-than-prior-investor-estimates-174058048.html", "tier": 3},
+        {"name": "TradingKey pre-market note (low quality; not in source tiers)", "date": "2026-10-08", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262205938-stock-coherent-lumentum-crdo-lite-glw-mrvl-tradingkey", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "after close",
+      "type": "management commentary: possible acquisition",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "In the same Bloomberg TV interview the CEO reportedly said Lumentum wants to complete an acquisition within the next year to add products as optics and chips converge. No target, size or payment method was given. Reported by Investopedia ('considering acquisitions to expand offerings within the next year') and FourWeekMBA, both relaying Bloomberg TV; not in any company release or filing.",
+      "why_it_matters": "An acquisition paid partly in shares would touch pillar 5 / trigger 6 (dilution). Nothing has been announced; this is an early-warning item only.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Investopedia via AOL", "date": "2026-10-09", "url": "https://www.aol.com/articles/nvidia-backed-lumentum-says-t-155557000.html", "tier": 3},
+        {"name": "FourWeekMBA (relays Bloomberg TV; not in source tiers)", "date": "2026-10-09", "url": "https://fourweekmba.com/ai-lumentum-ceo-says-its-almost-sold-out-for-2029-on-ai-optics/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "peer sympathy rally",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Optical peers rose with Lumentum after the CEO comments: in early trading Applied Optoelectronics +7% ($113.32), Coherent +5% ($316.68), LYTE fund +3% vs S&P 500 +0.36% (24/7 Wall St, 08:36 ET); Corning also rose (Investopedia).",
+      "why_it_matters": "Shows the market read the comments as an industry-wide shortage signal; it also explains why the 'company' part of Friday's move (+7.01) is partly an optics-group move that SMH (a chip fund) does not capture.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "24/7 Wall St", "date": "2026-10-09", "url": "https://247wallst.com/investing/2026/10/09/optics-stocks-rally-on-sold-out-optical-capacity-through-early-2029-applied-optoelectronics-and-lumentum-surge-7-coherent-climbs-5/", "tier": 3},
+        {"name": "Investopedia via AOL", "date": "2026-10-09", "url": "https://www.aol.com/articles/nvidia-backed-lumentum-says-t-155557000.html", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "analyst reiteration",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Evercore ISI (Amit Daryanani) reiterated Outperform with a $1,100 price target, saying the CEO's comments reinforce the AI optics thesis and that the debate is 'how quickly Lumentum can convert demand into shipments rather than availability of demand' (opinion).",
+      "why_it_matters": "No rating or target change; the target sits about at Friday's close ($1,103.35).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Investing.com", "date": "2026-10-09", "url": "https://www.investing.com/news/analyst-ratings/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4941510", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "timing": "after close",
+      "type": "filing: proxy package (DEF 14A, DEFA14A, ARS annual report to shareholders)",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "The proxy statement and annual report to shareholders were filed 2026-10-06 (accepted 2026-10-07 00:05-00:08 UTC). Already in the news log (2026-10-06 item). No newer filings exist on EDGAR as of this check.",
+      "why_it_matters": "Nothing new.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC ARS", "date": "2026-10-06", "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000422/lite-ars.pdf", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Thursday: Lumentum fell 5.62%. The model splits it into market -0.22, industry (SMH) -4.18 and company -1.22 points (z -0.25, normal size): an industry day.", "evidence": "data/research/2026-10-09/thursday-attribution.json"},
+    {"rung": 2, "text": "Thursday: the whole optical group fell from the open with no company news (AAOI -9%, Coherent -5%, LITE -4%, LYTE -6% by noon ET); 24/7 Wall St calls it profit-taking after big gains (LITE about +190% this year).", "evidence": "https://247wallst.com/investing/2026/10/08/optics-stocks-tumble-as-profit-taking-cuts-into-big-yearly-gains-applied-optoelectronics-drops-9-coherent-falls-5-lumentum-slides-4/"},
+    {"rung": 3, "text": "Thursday morning backdrop: index futures down about 0.5%, oil and Treasury yields rising (inflation worry); one low-tier report adds Fed-minutes rate worries and debate about 1.6T ramps and co-packaged optics replacing pluggable modules.", "evidence": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html ; https://www.tradingkey.com/analysis/stocks/us-stocks/262205938-stock-coherent-lumentum-crdo-lite-glw-mrvl-tradingkey (low tier)"},
+    {"rung": 4, "text": "Thursday afternoon: the FT reported OpenAI told investors its annualized revenue was near $50bn, about $20bn below the roughly $70bn widely reported; AI-exposed chip stocks fell further (Nvidia almost -3%, AMD about -4%, Broadcom about -4.35%). LITE went from -4% at noon to -5.62% at the close.", "evidence": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html (headline via search) ; https://finance.yahoo.com/technology/article/openais-annualized-revenue-20-billion-lower-than-prior-investor-estimates-174058048.html"},
+    {"rung": 5, "text": "Thursday basic driver: optics stocks are priced on years of AI data-center spending; a sign that the largest AI buyer earns less than thought raises doubt about how long that spending lasts, and the stocks that rose most (high beta: LITE beta 2.89 vs the market) fall most when risk appetite drops.", "evidence": "inference (medium)"},
+    {"rung": 6, "text": "Friday: Lumentum rose 5.22% while SMH fell 0.65%; the model puts +7.01 points on the company (z 1.40, within normal noise but clearly company/optics-driven).", "evidence": "data/metrics/attribution-2026-10-09.json"},
+    {"rung": 7, "text": "Friday: on Thursday evening New York time (after the close), CEO Hurlston told Bloomberg TV in Tokyo that its optoelectronic parts are 'completely sold out' through almost 2029; the stock was up about 3.8% before the open.", "evidence": "https://www.bloomberg.com/news/articles/2026-10-09/nvidia-backed-lumentum-sees-opto-parts-capacity-sold-out-to-2029 ; https://www.investing.com/news/stock-market-news/why-is-lumentum-stock-surging-today-93CH-4940532"},
+    {"rung": 8, "text": "Friday: the new information is the length and size of the shortage: about 70% of demand unmet for some products through 2027 and about 30% for others through 2028, versus 'sold out through 2027' in April; new laser capacity (second fab in Japan) takes about three years.", "evidence": "https://www.aol.com/articles/nvidia-backed-lumentum-says-t-155557000.html ; https://www.bloomberg.com/news/videos/2026-04-10/lumentum-ceo-says-products-sold-out-through-2027-video"},
+    {"rung": 9, "text": "Friday basic driver: when buyers must queue for years, the seller can hold or raise prices and can count on future sales, so investors expect bigger and more certain profits; peers rose too because a sold-out leader implies a tight industry. Part of the gain faded into the close as chip stocks slipped.", "evidence": "inference (medium-high): every report found ties the rise to the interview; no other Lumentum news in the window"}
+  ],
+  "products": [
+    {
+      "name": "Laser chips for AI optical links (indium phosphide lasers, including ultra-high-power lasers for co-packaged optics)",
+      "what_it_is": "Tiny semiconductor chips that create the laser light that carries data through glass fibre between AI chips and switches.",
+      "analogy": "The bulb in a signalling torch that flashes billions of times a second to send messages down a glass thread.",
+      "buyers": "Optical module makers and cloud/AI system builders; Lumentum does not name them. Two customers were 41.6% of last fiscal year's revenue (thesis file, from the 10-K). NVIDIA is an investor ($2.0bn convertible preferred, 10-K).",
+      "how_it_works": "Lasers are grown and etched on indium phosphide wafers (AXT supplies substrates) in Lumentum's fabs, then placed inside transceivers that turn electrical signals into light pulses; in co-packaged optics an external high-power laser feeds optical engines next to the switch chip.",
+      "price": "not disclosed",
+      "sales": "Not disclosed by product. Proxy (labelled): total company revenue $1.01bn in Q4 FY2026; Q1 FY2027 guided to $1.225-1.275bn. Demand gap per the CEO on Bloomberg TV (secondary reports): about 70% of demand unmet for some products through 2027 and about 30% for others through 2028.",
+      "sales_source": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results/default.aspx ; https://www.investing.com/news/stock-market-news/why-is-lumentum-stock-surging-today-93CH-4940532",
+      "stage": "Shipping in volume, capacity-constrained; added a fab in Greensboro, North Carolina; adding capacity at a second fab in Japan; new capacity about three years from decision to customer shipments (around 2029-2030).",
+      "size_for_company": "Core of the business (inference, medium); the exact share of revenue was not checked this run.",
+      "competition": "Peers named in this window's coverage: Coherent and Applied Optoelectronics. The CEO reportedly said Chinese transceiver makers supply about 70% of the US market (single tier-3 relay of Bloomberg TV; unverified).",
+      "why_investors_care": "A longer shortage means pricing power and visible revenue; but growth is limited by how fast new capacity comes online, and long shortages push customers to qualify second suppliers.",
+      "watch_next": "Q1 FY2027 call (2026-11-05): supply-vs-demand language, lead times, capital spending on the Japan fab, any long-term supply agreements or customer prepayments, gross margin."
+    },
+    {
+      "name": "Optical circuit switch (OCS)",
+      "what_it_is": "A switch that redirects beams of light between fibres with tiny moving mirrors, without converting them to electricity.",
+      "analogy": "A railway switch for light: trains change track without stopping at a station.",
+      "buyers": "Hyperscale cloud operators; Lumentum's OCP talk on 2026-10-15 is co-presented with an architect from Oracle Cloud Infrastructure.",
+      "how_it_works": "Mirrors steer incoming light to the chosen output fibre, letting operators re-wire large AI clusters in software with less power.",
+      "price": "not disclosed",
+      "sales": "'Rapidly scaling past a $100 million quarterly revenue run rate' (management letter; run rate, not reported revenue). Not new this window.",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm",
+      "stage": "Shipping and ramping.",
+      "size_for_company": "About 8% of the Q1 FY2027 revenue guide midpoint ($1.25bn) if the run rate is $100m a quarter (arithmetic on management's wording).",
+      "competition": "not checked this run",
+      "why_investors_care": "A second growth engine beyond lasers; management talks of 'revenue in the billions in upcoming years' (DEF 14A).",
+      "watch_next": "OCP Global Summit talk 'Zero-Touch OCS Fabrics for AI Scale-Out Infrastructure at Hyperscale', Thursday 2026-10-15, 8:45-9:05 a.m. (San Jose)."
+    }
+  ],
+  "earnings": {
+    "status": "upcoming",
+    "date": "2026-11-05",
+    "confirmed": true,
+    "consensus": {"eps_normalized": "$4.21 (22 analysts; range $4.17-4.37)", "revenue": "$1.25bn (19 analysts; range $1.24-1.26bn)", "source": "Yahoo Finance analysis page, checked 2026-10-09 (tier 3)"},
+    "actual": {},
+    "guidance": {"revenue": "$1.225-1.275bn", "non_gaap_operating_margin": "39.5-40.5%", "non_gaap_eps": "$4.05-4.35", "given": "2026-08-11"},
+    "key_metrics": {"to_watch": "Revenue vs the $1.225-1.275bn guide; next-quarter guide vs consensus (Dec-2026 quarter consensus $1.47bn revenue, $5.04 EPS per Yahoo, tier 3); gross and operating margin; supply-demand commentary; top-customer concentration and share count in the 10-Q"},
+    "quality_flags": [],
+    "management_explanation": "not applicable (not yet reported)",
+    "sources": [
+      "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results/default.aspx",
+      "https://finance.yahoo.com/quote/LITE/analysis/"
+    ]
+  },
+  "next_earnings": {
+    "date": "2026-11-05 (Thursday), after the US close; call 5:00 p.m. ET",
+    "confirmed": true,
+    "consensus_eps": "$4.21 non-GAAP/normalized (22 analysts, range $4.17-4.37), Yahoo Finance 2026-10-09, tier 3. Note: the 2026-10-07 research file had a Nasdaq/Zacks figure of $3.82 (6 estimates); the sources disagree and neither is tier 1/2.",
+    "consensus_revenue": "$1.25bn (19 analysts, range $1.24-1.26bn), Yahoo Finance 2026-10-09, tier 3. Full fiscal 2027: $6.33bn revenue, $21.78 EPS (Yahoo and StockAnalysis).",
+    "company_guidance": "Q1 FY2027: revenue $1.225-1.275bn, non-GAAP operating margin 39.5-40.5%, non-GAAP diluted EPS $4.05-4.35 (2026-08-11).",
+    "sources": [
+      "https://investor.lumentum.com/feed/Event.svc/GetEventList (IR events feed: 'Q1 2027 Lumentum Earnings Conference Call', 11/05/2026 17:00 ET)",
+      "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Reporting-Date-for-Fiscal-First-Quarter-2027-Financial-Results/default.aspx",
+      "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results/default.aspx",
+      "https://finance.yahoo.com/quote/LITE/analysis/",
+      "https://stockanalysis.com/stocks/lite/forecast/"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-10-09", "firm": "Evercore ISI (Amit Daryanani)", "action": "Reiterated Outperform, $1,100 target (unchanged)", "reason": "CEO comments reinforce the AI optics thesis; the debate is how fast Lumentum converts demand into shipments (opinion).", "url": "https://www.investing.com/news/analyst-ratings/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4941510"},
+    {"date": "as of about 2026-10-07/09", "firm": "Consensus (26 analysts)", "action": "Average rating Buy; average target $1,162 (low $820, high $1,400)", "reason": "Aggregator figure, tier 3; opinion, not a value.", "url": "https://stockanalysis.com/stocks/lite/forecast/"}
+  ],
+  "insiders": {
+    "summary": "No insider filings (Form 4 or Form 144) in the window: the newest LITE filings on EDGAR are the 2026-10-06 proxy package. The latest insider sale (CFO Wajid Ali, 24,542 shares at $1,048.50 on 2026-10-01, about $25.7m, 10b5-1 plan) is already in the news log. No sellers outside 10b5-1 plans in the pipeline's window.",
+    "notable": []
+  },
+  "filings": [
+    {"form": "none in window", "items": "", "plain_english": "EDGAR submissions list checked: the newest filings are DEF 14A, DEFA14A and ARS filed 2026-10-06 (accepted 2026-10-07 00:05-00:08 UTC, i.e. Tuesday evening New York time, before this window). No 8-K, Form 4, 144, S-3 or 424B filed 2026-10-07 to 2026-10-09.", "materiality": "low", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001633978&type=&dateb=&owner=include&count=40"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-12 to 2026-10-15", "event": "OCP Global Summit, San Jose. Lumentum talks: Wed 10-14 1:10-1:25 p.m. 'External Laser Source Architectures for Deployable CPO-Based AI Networks'; Wed 10-14 1:50-2:15 p.m. panel 'Slow and Wide 12.8T VCSEL Solutions'; Thu 10-15 8:45-9:05 a.m. 'Zero-Touch OCS Fabrics for AI Scale-Out Infrastructure at Hyperscale' with Oracle Cloud Infrastructure. (Correction to the news-log calendar, which lists only 10-14.)", "confirmed": true, "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Speaker-Lineup-at-2026-OCP-Global-Summit/default.aspx"},
+    {"date": "2026-11-05", "event": "Q1 FY2027 results after the close; call 5:00 p.m. ET", "confirmed": true, "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Reporting-Date-for-Fiscal-First-Quarter-2027-Financial-Results/default.aspx"},
+    {"date": "2026-11-17", "event": "Proxy voting deadline, 11:59 p.m. ET", "confirmed": true, "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000421/lite2026-defa14a.htm"},
+    {"date": "2026-11-18", "event": "Annual shareholder meeting (online)", "confirmed": true, "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm"},
+    {"date": "not available (CEO said 'within the next year')", "event": "Possible acquisition (reported from Bloomberg TV; no target or terms)", "confirmed": false, "url": "https://www.aol.com/articles/nvidia-backed-lumentum-says-t-155557000.html"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "Guidance cut", "found": false, "evidence": "No release or 8-K in the window (IR feed newest release 2026-10-05; EDGAR). CEO comments point the other way (sold out to about 2029)."},
+    {"event": "Results miss", "found": false, "evidence": "No results in the window; next results 2026-11-05."},
+    {"event": "Major customer lost or cut orders (LITE trigger 3)", "found": false, "evidence": "No report found. CEO reportedly said hyperscalers are making commitments years out (FourWeekMBA relay of Bloomberg TV, tier 3)."},
+    {"event": "8-K Item 4.02 (non-reliance/restatement)", "found": false, "evidence": "No 8-K filed in the window (EDGAR submissions list)."},
+    {"event": "8-K Item 4.01 (auditor change)", "found": false, "evidence": "No 8-K filed in the window (EDGAR)."},
+    {"event": "CEO/CFO departure (8-K 5.02)", "found": false, "evidence": "No 8-K in the window; CEO Hurlston gave a Bloomberg TV interview on 2026-10-08/09."},
+    {"event": "Large dilutive share sale (S-3, 424B, 8-K 3.02) / LITE trigger 6 (>5% new shares)", "found": false, "evidence": "None on EDGAR. Early warning only: the CEO reportedly wants to complete an acquisition within the next year (Investopedia, FourWeekMBA; tier 3); payment method unknown."},
+    {"event": "Regulator investigation or major litigation", "found": false, "evidence": "Disconfirming search found only a Pomerantz 'investigation' notice tied to the April 2023 pre-announcement (old; law-firm ads are in the avoid tier)."},
+    {"event": "Two or more analyst downgrades in five trading days", "found": false, "evidence": "None found; Evercore ISI reiterated Outperform on 2026-10-09. Downgrade search returned only old (pre-2024) actions."},
+    {"event": "Several insiders sold outside 10b5-1 plans", "found": false, "evidence": "No insider filings in the window; recent sales were under 10b5-1 plans (data/filings/2026-10-09.json)."},
+    {"event": "LITE trigger 1: revenue guidance cut", "found": false, "evidence": "As above."},
+    {"event": "LITE trigger 2: management says supply has caught up and prices are falling", "found": false, "evidence": "Opposite: CEO says about 70%/30% of demand unmet through 2027/2028 and sold out to about 2029 (Bloomberg TV via Investing.com/Investopedia)."},
+    {"event": "LITE trigger 4: Chinese-transceiver bill dies or is watered down", "found": false, "evidence": "No news found in the window; not searched specifically this run."},
+    {"event": "LITE trigger 5: no change in US-customer orders after rules", "found": false, "evidence": "Not applicable yet (no rule in force)."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Thursday's fall was profit-taking after a huge run (LITE about +190% this year) with no bad news; the group is crowded and jumpy.", "url": "https://247wallst.com/investing/2026/10/08/optics-stocks-tumble-as-profit-taking-cuts-into-big-yearly-gains-applied-optoelectronics-drops-9-coherent-falls-5-lumentum-slides-4/", "assessment": "Valid valuation/volatility risk, not a business problem; the stock is 3.5% below its 52-week high and its 1-year beta is 2.89 (data/metrics)."},
+    {"claim": "OpenAI's annualized revenue is about $50bn, about $20bn below what was widely reported, raising doubts about whether AI spending can be justified.", "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html", "assessment": "Relevant to end-demand for AI hardware; the gap reflects how revenue was counted, not lost sales (per search summary of coverage). No direct effect on Lumentum's orders reported."},
+    {"claim": "Sold out means growth is capped by capacity; new capacity takes about three years, and the debate is converting demand into shipments.", "url": "https://www.investing.com/news/analyst-ratings/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4941510", "assessment": "Real constraint: upside depends on fab ramp (Greensboro, Japan). Long shortages also push customers to qualify second suppliers (the early warning for trigger 3) (inference, medium)."},
+    {"claim": "Market is reassessing 1.6T ramps and co-packaged / linear-drive optics replacing pluggable modules.", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262205938-stock-coherent-lumentum-crdo-lite-glw-mrvl-tradingkey", "assessment": "Single low-quality source; unconfirmed. In June 2026 Lumentum said initial CPO scale-up products ship H2 2027 with ramp in 2028 (stock3, 2026-06-11, tier 3)."},
+    {"claim": "Average analyst target is $1,162 vs a $1,103.35 close; Evercore's target $1,100 is at the price.", "url": "https://stockanalysis.com/stocks/lite/forecast/", "assessment": "Opinions, tier 3; suggests much good news is already in the price (inference, low-medium)."},
+    {"claim": "A hedge fund (Situational Awareness) fully exited LITE in Q1 2026.", "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-holdings-inc-lite-leopold-194045577.html", "assessment": "Old (published 2026-05-30), not in window; low relevance."}
+  ],
+  "open_questions": [
+    "Exact wording of the Bloomberg TV interview: Bloomberg pages were blocked; the 70%/30% figures, the 2027/2028 years, the acquisition intent and the Chinese 70% US share come from secondary reports. Investing.com's text even says 'through 2025' in one place (evident error).",
+    "Is any acquisition likely to be paid in shares? No target, size or terms reported.",
+    "Which Japan facility gets the added capacity, and what it costs: not disclosed.",
+    "Does 'sold out to 2029' rest on signed long-term agreements or prepayments? Not disclosed in filings checked.",
+    "Exact time the FT OpenAI story hit (afternoon per Yahoo); CNBC page not readable.",
+    "Coherent's Thursday close not verified with a tier 1/2 source (low-tier report says it fell as much as 9.63%).",
+    "Status of the Senate bill on Chinese transceivers not re-checked this run."
+  ],
+  "searches_run": 13
+}

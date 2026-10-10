@@ -1,0 +1,507 @@
+{
+  "ticker": "AMD",
+  "company": "Advanced Micro Devices Inc",
+  "window": {
+    "from": "2026-10-07 16:00 ET (after Wednesday's close)",
+    "to": "2026-10-09 after the US close; recency check extended to Saturday 2026-10-10 morning (Madrid)"
+  },
+  "newest_item_checked": "SEC EDGAR submissions for AMD re-checked 2026-10-10 (newest filing still the 2026-09-28 8-K, Item 3.02); AMD IR press-release list (newest: 2026-10-06 Q3 results date); Yahoo Finance live blog for Friday 2026-10-09 (market close); Euronews via Yahoo UK, 2026-10-09 14:06 CEST; Yahoo Finance estimates page read 2026-10-10; search for AMD news dated 2026-10-10 found nothing new.",
+  "events": [
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "sector move (macro: bond yields and oil)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Chip stocks fell from the open on Thursday as long-term Treasury yields and oil rose. At 10:05 ET, AMD traded at $632.96 (down 2%) and the iShares Semiconductor ETF (SOXX) at $572.20 (down 2%); 24/7 Wall St. wrote: 'Rising Treasury yields and surging oil prices are hammering chip stocks.' At the close the 10-year Treasury yield was 5.233%, 'near levels not seen since 2007', and oil was up about 3% to near $91 a barrel amid Middle East tensions (Schwab Network). Yahoo's live blog put Brent near $104 and WTI near $91.",
+      "why_it_matters": "Higher interest rates make far-off profits worth less today, which hits fast-growing, highly valued stocks like AMD hardest; the selloff began before the OpenAI story, so it had at least two causes.",
+      "direction": "weakens",
+      "sources": [
+        {
+          "name": "24/7 Wall St.",
+          "date": "2026-10-08",
+          "url": "https://247wallst.com/investing/2026/10/08/intel-slides-3-as-chip-stocks-sell-off-with-yields-and-oil-higher-nvidia-and-amd-slip/",
+          "tier": 3
+        },
+        {
+          "name": "Schwab Network, Closing Bell",
+          "date": "2026-10-08",
+          "url": "https://schwabnetwork.com/articles/closing-bell-openai-revenue-concerns-hit-tech-stocks-as-oil-rises",
+          "tier": 3
+        },
+        {
+          "name": "Yahoo Finance live blog",
+          "date": "2026-10-08",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "customer/industry news (largest AI customer's revenue questioned)",
+      "materiality": "high",
+      "new_or_rehash": "new",
+      "summary": "The Financial Times reported, from financial documents, that OpenAI told investors its annualized revenue was 'approaching $50 billion at the end of September', about $20 billion below the roughly $70 billion widely reported late in September. The FT says the gap came from investors adjusting OpenAI's figure to match Anthropic's method (which counts full sales through cloud partners) and then adding OpenAI's reported 70%+ growth, so it reflects how the figure was calculated, not $20 billion of lost sales. AI stocks fell: Oracle -5.5%, CoreWeave nearly -8%, Nvidia almost -3%, Broadcom -4.35%, AMD 'around 4%' (Euronews). AMD closed at $620.68 (-3.90%, data/prices); the Nasdaq-100 fell 1.39% and the S&P 500 0.47% (Schwab Network). Yahoo's live blog said the semiconductor index 'declined as much as 4% before trimming gains'. OpenAI had not commented as of Friday (Euronews). Exact publication time of the FT story: not available (Yahoo's write-up posted 13:40 ET).",
+      "why_it_matters": "OpenAI is one of AMD's anchor customers: a 6-gigawatt, multi-year GPU agreement that AMD said would bring 'tens of billions of dollars in revenue' (AMD, 2025-10-06). Smaller OpenAI revenue raises the question of how it pays for its chip commitments. Nothing in the report says OpenAI changed its AMD order.",
+      "direction": "weakens",
+      "sources": [
+        {
+          "name": "Yahoo Finance (Daniel Howley), citing the FT",
+          "date": "2026-10-08",
+          "url": "https://finance.yahoo.com/technology/article/openais-annualized-revenue-20-billion-lower-than-prior-investor-estimates-174058048.html",
+          "tier": 3
+        },
+        {
+          "name": "Euronews via Yahoo Finance UK",
+          "date": "2026-10-09",
+          "url": "https://uk.finance.yahoo.com/news/happened-openai-20bn-revenue-scare-120626166.html",
+          "tier": 3
+        },
+        {
+          "name": "Schwab Network, Closing Bell",
+          "date": "2026-10-08",
+          "url": "https://schwabnetwork.com/articles/closing-bell-openai-revenue-concerns-hit-tech-stocks-as-oil-rises",
+          "tier": 3
+        },
+        {
+          "name": "CNBC (headline seen in search: 'Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report'; page blocked, 403)",
+          "date": "2026-10-08",
+          "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+          "tier": 2
+        },
+        {
+          "name": "CNN (headline seen in search: 'Tech stocks drop after report that OpenAI's revenue is lower than expected'; page blocked, 451)",
+          "date": "2026-10-08",
+          "url": "https://edition.cnn.com/2026/10/08/investing/openai-nasdaq-stocks",
+          "tier": 2
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "customer/industry news (follow-up)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "On Friday Bloomberg reported that 'OpenAI expects to reach or exceed $70 billion in annualized revenue by end of the year', which Yahoo's live blog said helped 'quell worries that the AI boom is running out of steam'. Stocks rose (Dow +0.83%, S&P 500 +0.59%, Nasdaq +0.64%) as oil fell. Seen only through Yahoo's live blog; the Bloomberg original was not opened and no second source was found.",
+      "why_it_matters": "It partly answers Thursday's worry about AMD's big customer, but chip stocks still ended lower on Friday.",
+      "direction": "supports",
+      "sources": [
+        {
+          "name": "Yahoo Finance live blog, citing Bloomberg (unconfirmed by a second source)",
+          "date": "2026-10-09",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "sector move (chips faded an early rally; no AMD news)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Chip stocks opened higher and faded while the market rose. SMH opened at $615.14 (vs Thursday's close of $607.27) and closed at $603.33 (-0.65%). AMD opened at $626.89 (+1.0%) and closed at $608.10 (-2.03%), on low volume (0.61 of its 20-day average, data/metrics). Attribution: market +0.73, industry -1.77, AMD's own part -0.99 points (z -0.38: normal noise). No AMD press release, filing, analyst action or news was found. No tier 1-2 source explains why chips faded.",
+      "why_it_matters": "Friday's drop was small and mostly sector-driven; there is no company-specific event to explain.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "data/prices (SMH, AMD, SPY daily rows)",
+          "date": "2026-10-09",
+          "url": "not applicable (local pipeline data)",
+          "tier": 1
+        },
+        {
+          "name": "Yahoo Finance live blog",
+          "date": "2026-10-09",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html",
+          "tier": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "timing": "unknown",
+      "type": "background: filing facts re-read (warrants and Helios business model)",
+      "materiality": "medium",
+      "new_or_rehash": "rehash",
+      "summary": "Not new news (10-Q filed August 2026), but new to the news log and relevant to the thesis. (1) The 10-Q says AMD issued warrants to OpenAI (October 2025) and Meta (February 2026), each for 'up to 160 million shares' at $0.01, vesting with GPU purchase milestones and AMD share-price targets; 'As of June 27, 2026, no warrant tranches had vested'. Up to 320 million shares against 1,632,475,042 outstanding on 2026-07-29 is about 19.6% more shares, or about 16.4% of the enlarged total (researcher's calculation; the Motley Fool piece of 2026-10-05 says about 16%). (2) Meta also has a multi-year agreement to deploy up to 6 gigawatts of AMD GPUs, first gigawatt on MI450. (3) On Helios the 10-Q says AMD 'develop[s] and license[s]' the rack design 'for implementation by customers and their manufacturing partners', expected to start shipping in the second half of fiscal 2026, and 'Although we supply certain products used in Helios-based system, we do not manufacture or sell the completed Helios rack systems.'",
+      "why_it_matters": "Pillar 5 counts World Labs dilution (about 0.8%) but not these warrants, which could add far more shares if the deals succeed. Thesis 2 talks about AMD 'selling complete AI server racks'; the 10-Q says AMD sells the chips and other parts inside them and licenses the design, not the finished rack. Whether the thesis wording should change is for the main session to propose, not decide.",
+      "direction": "neutral",
+      "sources": [
+        {
+          "name": "AMD Form 10-Q, quarter ended 2026-06-27",
+          "date": "2026-08",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+          "tier": 1
+        },
+        {
+          "name": "Motley Fool",
+          "date": "2026-10-05",
+          "url": "https://www.fool.com/investing/2026/10/05/amd-has-promised-openai-and-meta-up-to-320-million-shares-for-a-penny-each-here-s-what-that-does-to-the-share-count/",
+          "tier": 3
+        }
+      ]
+    }
+  ],
+  "why_chain": [
+    {
+      "rung": 1,
+      "text": "AMD fell 5.85% over Thursday and Friday ($645.86 to $608.10). The attribution model puts -5.16 points on chip stocks as a group, +0.21 on the market and only -0.90 on AMD itself (z -0.25, normal noise). Thursday: -3.90% = market -0.52, industry -3.45, company +0.07. Friday: -2.03% = market +0.73, industry -1.77, company -0.99.",
+      "evidence": "data/research/2026-10-09/thursday-attribution.json; data/metrics/attribution-2026-10-09.json (pipeline, fact)"
+    },
+    {
+      "rung": 2,
+      "text": "Chip stocks fell as a group: SMH -2.84% Thursday (625.03 to 607.27) and -0.65% Friday (to 603.33).",
+      "evidence": "data/prices/SMH.csv (fact)"
+    },
+    {
+      "rung": 3,
+      "text": "Thursday morning: rising long-term Treasury yields and oil hit chip stocks from the open (AMD -2% and SOXX -2% by 10:05 ET). The 10-year yield ended near 5.23%, near 2007 levels; oil rose about 3% to near $91 on Middle East tensions.",
+      "evidence": "https://247wallst.com/investing/2026/10/08/intel-slides-3-as-chip-stocks-sell-off-with-yields-and-oil-higher-nvidia-and-amd-slip/ ; https://schwabnetwork.com/articles/closing-bell-openai-revenue-concerns-hit-tech-stocks-as-oil-rises (tier 3, consistent with each other)"
+    },
+    {
+      "rung": 4,
+      "text": "Thursday midday: the FT reported OpenAI's annualized revenue near $50bn at the end of September, about $20bn below the widely reported $70bn. AI stocks deepened their losses: AMD about -4%, Broadcom -4.35%, Nvidia almost -3%, Oracle -5.5%, CoreWeave nearly -8%. The semiconductor index was down as much as 4% intraday.",
+      "evidence": "https://finance.yahoo.com/technology/article/openais-annualized-revenue-20-billion-lower-than-prior-investor-estimates-174058048.html ; https://uk.finance.yahoo.com/news/happened-openai-20bn-revenue-scare-120626166.html ; CNBC and CNN headlines (tier 2, pages blocked)"
+    },
+    {
+      "rung": 5,
+      "text": "Why OpenAI's revenue moves AMD: OpenAI committed to 6 GW of AMD GPUs, which AMD said would bring 'tens of billions of dollars in revenue', with the first gigawatt from 2H 2026. If OpenAI earns less than believed, investors doubt how fast it can pay for that compute, so they lower expected chip demand.",
+      "evidence": "https://www.sec.gov/Archives/edgar/data/2488/000119312525230895/d28189dex991.htm (fact for the deal) | inference (high) for the investor reasoning"
+    },
+    {
+      "rung": 6,
+      "text": "Friday: the market rebounded on lower oil and a Bloomberg report that OpenAI expects at least $70bn annualized revenue by year-end, but chip stocks opened higher and faded. No published reason found; possible lingering AI-spending doubts and profit-taking after the large run (AMD +148% in six months).",
+      "evidence": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html (market and Bloomberg item) | inference (low) for the chip fade"
+    },
+    {
+      "rung": 7,
+      "text": "Basic driver: AI chip prices rest on expected AI spending years out. News that questions the finances of the biggest buyer (OpenAI), together with higher interest rates that shrink the value of distant profits, lowers what investors will pay today. AMD's own contracts, guidance and filings did not change.",
+      "evidence": "inference (medium)"
+    }
+  ],
+  "products": [
+    {
+      "name": "OpenAI 6-gigawatt agreement (AMD Instinct MI450 series GPUs and later generations)",
+      "what_it_is": "A multi-year, multi-generation agreement under which OpenAI deploys 6 gigawatts of AMD data-center GPUs, starting with 1 gigawatt of Instinct MI450 in the second half of 2026.",
+      "analogy": "Like an airline ordering a large fleet from a planemaker over several years: delivered in batches, paid as planes arrive, and the airline also gets an option to own part of the planemaker.",
+      "buyers": "OpenAI (and, under a similar 6 GW agreement from February 2026, Meta).",
+      "how_it_works": "AMD sells GPUs (chips that do huge numbers of calculations at once, which AI needs), built into rack systems in OpenAI's data centers. 'Gigawatts' measures the power the installed chips use, a way to size very large orders. AMD gave OpenAI a warrant (the right to buy shares) for up to 160 million AMD shares at $0.01, vesting only as purchase milestones and AMD share-price targets are met.",
+      "price": "not disclosed",
+      "sales": "Not disclosed per customer. AMD said the partnership 'is expected to deliver tens of billions of dollars in revenue for AMD' and to be 'highly accretive' to non-GAAP EPS (2025-10-06). As of 2026-06-27 no warrant tranche had vested, so the first purchase milestone had not been reached by then (10-Q). Proxy: data-center segment revenue $6.7bn in Q2 2026, +107% (AMD Q2 2026 results).",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/2488/000119312525230895/d28189dex991.htm ; https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm ; https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm",
+      "stage": "Announced; first 1 GW deployment of MI450 scheduled to start in 2H 2026. Shipments to OpenAI not yet confirmed in any source read.",
+      "size_for_company": "'Tens of billions' of dollars over several years, against total revenue of $11.54bn in Q2 2026 (one quarter). Annual amount not disclosed.",
+      "competition": "NVIDIA's GPU systems (OpenAI's main supplier); custom chips OpenAI is developing with Broadcom (background, not re-verified this run).",
+      "why_investors_care": "It is the first proof that a top AI lab will buy AMD at scale. Thursday's FT report on OpenAI's revenue is why the market questioned it this week.",
+      "watch_next": "Lisa Su's OCP keynote on 2026-10-12 and the Q3 call on 2026-11-03: any confirmation that MI450 shipments to OpenAI have begun, any vesting of the first warrant tranche, and any change in OpenAI's commitment."
+    },
+    {
+      "name": "Helios rack-scale platform",
+      "what_it_is": "AMD's design for a complete AI server cabinet (rack) combining Instinct MI450-series GPUs, EPYC CPUs and networking, built by customers and their manufacturing partners.",
+      "analogy": "Like a reference kitchen design from an appliance maker: the maker sells the ovens and fridges and publishes the blueprint, while a contractor builds and installs the kitchen.",
+      "buyers": "Named customers for MI450/Helios include OpenAI, Meta and Anthropic (Anthropic: up to 2 GW in Helios racks, first gigawatt from H1 2027).",
+      "how_it_works": "Per the 10-Q, AMD 'develop[s] and license[s]' Helios 'for implementation by customers and their manufacturing partners'. It supplies 'certain products used in Helios-based system' but does 'not manufacture or sell the completed Helios rack systems.'",
+      "price": "not disclosed",
+      "sales": "Not disclosed. Proxy: data-center segment revenue $6.7bn in Q2 2026 (+107%), which will include AMD's chips sold into Helios systems.",
+      "sales_source": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm ; https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm",
+      "stage": "Expected to start shipping in the second half of fiscal 2026 (10-Q). A tier-3 conference write-up says shipments begin in Q3 2026 and ramp in Q4; not verified against a primary source.",
+      "size_for_company": "Not disclosed; the large GPU agreements (OpenAI 6 GW, Meta 6 GW, Anthropic up to 2 GW) are built around it.",
+      "competition": "NVIDIA's rack-scale systems (background).",
+      "why_investors_care": "Thesis 2 relies on Helios raising the value per customer. Because AMD sells the parts and licenses the design, the gain shows up in how much AMD silicon goes into each rack, not in sales of finished racks.",
+      "watch_next": "OCP Global Summit keynote 2026-10-12 (4:15 p.m. PT): first-shipment confirmation or any timing change. Q3 call 2026-11-03."
+    }
+  ],
+  "earnings": {
+    "status": "upcoming",
+    "date": "2026-11-03 (after the US close; call 5 p.m. ET)",
+    "confirmed": true,
+    "consensus": {
+      "eps_non_gaap": "$1.93 (40 analysts; range $1.72-$2.03)",
+      "revenue": "$13.06bn (38 analysts; range $12.75bn-$14.02bn)"
+    },
+    "actual": {},
+    "guidance": {
+      "revenue": "about $13.0bn plus or minus $300m (+41% y/y at the midpoint)",
+      "non_gaap_gross_margin": "about 56%"
+    },
+    "key_metrics": {
+      "data_center_revenue_last": "$6.7bn in Q2 2026 (+107%)",
+      "total_revenue_last": "$11.54bn in Q2 2026 (+50.1%)"
+    },
+    "quality_flags": [],
+    "management_explanation": "not available (results not yet reported)",
+    "sources": [
+      "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+      "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm",
+      "https://finance.yahoo.com/quote/AMD/analysis/"
+    ]
+  },
+  "next_earnings": {
+    "date": "2026-11-03, after the US close; conference call 5 p.m. ET (23:00 Madrid)",
+    "confirmed": true,
+    "consensus_eps": "$1.93 adjusted (non-GAAP) EPS, average of 40 analysts (range $1.72-$2.03); year-ago $1.20. Unchanged versus 7, 30 and 60 days ago; $1.81 90 days ago. 25 upward and 3 downward revisions in the last 30 days (Yahoo Finance, read 2026-10-10, tier 3).",
+    "consensus_revenue": "$13.06bn, average of 38 analysts (range $12.75bn-$14.02bn); year-ago $9.25bn (Yahoo Finance, read 2026-10-10, tier 3). Only slightly above the company's $13.0bn midpoint.",
+    "company_guidance": "Q3 2026 revenue about $13.0bn plus or minus $300m (+41% y/y at the midpoint); non-GAAP gross margin about 56% (AMD Q2 2026 results, 2026-08-04).",
+    "sources": [
+      "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+      "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm",
+      "https://finance.yahoo.com/quote/AMD/analysis/"
+    ]
+  },
+  "analyst_actions": [
+    {
+      "date": "2026-10-08 to 2026-10-09",
+      "firm": "none found",
+      "action": "No AMD rating or price-target changes found in the window (StockAnalysis list read 2026-10-09; newest entries 2026-10-06).",
+      "reason": "not applicable",
+      "url": "https://stockanalysis.com/stocks/amd/forecast/"
+    },
+    {
+      "date": "2026-10-06 (before window; already in the news log)",
+      "firm": "Citi (Atif Malik); Mizuho (Vijay Rakesh)",
+      "action": "Buy; targets raised to $800 (Citi) and $705 (Mizuho)",
+      "reason": "Citi: AI agents drive CPU demand (rehash)",
+      "url": "https://stockanalysis.com/stocks/amd/forecast/"
+    },
+    {
+      "date": "2026-04-27 (context only; outside window)",
+      "firm": "Northland Capital (Gus Richard)",
+      "action": "Downgraded to Market Perform, $260 target",
+      "reason": "'too far, too fast' rally; 53x forward earnings. Surfaced by the disconfirming search; it is five months old and does not count toward the 'two downgrades in five trading days' breaker.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-slides-analyst-downgrade-141417530.html"
+    },
+    {
+      "date": "2026-10-09 (context)",
+      "firm": "Consensus (StockAnalysis)",
+      "action": "Strong Buy; average target $636.21 from 55 analysts",
+      "reason": "Opinion. The average is only about 4.6% above Friday's $608.10 close.",
+      "url": "https://stockanalysis.com/stocks/amd/forecast/"
+    }
+  ],
+  "insiders": {
+    "summary": "No insider trades in the window. The pipeline found no Form 4 open-market buys or sells between 2026-09-29 and 2026-10-09, and EDGAR (re-checked 2026-10-10) shows the newest Form 4 dated 2026-09-17, before the window.",
+    "notable": []
+  },
+  "filings": [
+    {
+      "form": "none in window",
+      "items": "",
+      "plain_english": "AMD filed nothing with the SEC between 2026-09-29 and 2026-10-10. The newest filing is still the 2026-09-28 8-K (Item 3.02, World Labs shares), already in the news log.",
+      "materiality": "none",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488&type=&dateb=&owner=include&count=40"
+    }
+  ],
+  "catalysts": [
+    {
+      "date": "2026-10-12 (Monday, 4:15 p.m. PT = after the US close; 01:15 Tuesday Madrid)",
+      "event": "Lisa Su opening keynote, OCP Global Summit, San Jose: 'Building the Next Era of AI Infrastructure'. Possible Helios/MI450 shipment update. First trading-day reaction would be Tuesday 2026-10-13.",
+      "confirmed": true,
+      "url": "https://newsroom.amd.com/news/media-alert-ceo-lisa-su-keynote-2026-ocp/"
+    },
+    {
+      "date": "2026-11-03 (after close; call 5 p.m. ET)",
+      "event": "Q3 2026 results; guidance about $13.0bn plus or minus $300m",
+      "confirmed": true,
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results"
+    },
+    {
+      "date": "2H 2026 (no exact date)",
+      "event": "Helios expected to start shipping; first 1 GW of MI450 for OpenAI and for Meta",
+      "confirmed": false,
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm"
+    },
+    {
+      "date": "by 2026-12-31 (expected, from the 8-K)",
+      "event": "World Labs acquisition close and share issuance",
+      "confirmed": false,
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm"
+    },
+    {
+      "date": "H1 2027",
+      "event": "Anthropic's first gigawatt of AMD GPUs in Helios racks",
+      "confirmed": false,
+      "url": "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html"
+    }
+  ],
+  "thesis_breaker_checks": [
+    {
+      "event": "the company cut its revenue or profit forecast (guidance)",
+      "found": false,
+      "evidence": "No AMD press release since 2026-10-06 (IR list) and no 8-K since 2026-09-28 (EDGAR, checked 2026-10-10). Q3 guidance still about $13.0bn."
+    },
+    {
+      "event": "results missed analysts' revenue or EPS estimates",
+      "found": false,
+      "evidence": "No results in the window; Q3 results due 2026-11-03."
+    },
+    {
+      "event": "a major customer was lost, or a major customer cut orders",
+      "found": false,
+      "evidence": "The FT report (2026-10-08) concerns OpenAI's revenue figure, not its AMD order. No source reports OpenAI, Meta, Anthropic, Microsoft or Oracle changing an AMD commitment. Treat it as a watch item on the customer's finances, not a trigger."
+    },
+    {
+      "event": "earlier financial statements can no longer be relied on (8-K Item 4.02) or a restatement",
+      "found": false,
+      "evidence": "No 8-K in window (EDGAR)."
+    },
+    {
+      "event": "the auditor resigned or was dismissed (8-K Item 4.01)",
+      "found": false,
+      "evidence": "No 8-K in window (EDGAR)."
+    },
+    {
+      "event": "the CEO or CFO left unexpectedly (8-K Item 5.02)",
+      "found": false,
+      "evidence": "No 8-K in window; Lisa Su confirmed as OCP keynote speaker on 2026-10-12."
+    },
+    {
+      "event": "a large share sale that dilutes existing shareholders (S-3, 424B prospectus, 8-K Item 3.02)",
+      "found": false,
+      "evidence": "Nothing new in window. The World Labs share issuance (8-K Item 3.02, 2026-09-28) is already logged. Background: the OpenAI and Meta warrants (up to 320m shares, none vested as of 2026-06-27, 10-Q) are potential dilution, not a share sale."
+    },
+    {
+      "event": "a regulator opened an investigation, or major litigation was filed",
+      "found": false,
+      "evidence": "The disconfirming search ('AMD lawsuit/downgrade/delay/short seller October 2026') returned only decades-old items; no new AMD investigation or lawsuit found. No new China export-control item for AMD found in window."
+    },
+    {
+      "event": "two or more analyst downgrades within five trading days",
+      "found": false,
+      "evidence": "No downgrades 2026-10-05 to 2026-10-09 (StockAnalysis list; actions in the window were all target raises). The Northland downgrade surfaced by search is dated 2026-04-27."
+    },
+    {
+      "event": "several insiders sold on the open market outside pre-planned 10b5-1 trading plans",
+      "found": false,
+      "evidence": "No Form 4 in window (pipeline data/filings/2026-10-09.json; EDGAR newest Form 4 2026-09-17)."
+    },
+    {
+      "event": "AMD trigger 1: data-center revenue shrinks two quarters in a row",
+      "found": false,
+      "evidence": "No new results; last data-center revenue $6.7bn, +107% (Q2 2026)."
+    },
+    {
+      "event": "AMD trigger 2: a big AI customer cuts or cancels its deal",
+      "found": false,
+      "evidence": "No cut or cancellation reported. Closest item: the FT's 2026-10-08 report that OpenAI's annualized revenue is near $50bn, not $70bn, partly offset by Bloomberg (2026-10-09, via Yahoo) saying OpenAI expects at least $70bn by year-end. Neither is a report of OpenAI moving away from AMD, so the trigger's early warning (shifting back to NVIDIA or own chips) is not met either."
+    },
+    {
+      "event": "AMD trigger 3: Helios is delayed",
+      "found": false,
+      "evidence": "No delay reported; the 10-Q timing (shipping from 2H fiscal 2026) stands. Next check: OCP keynote 2026-10-12."
+    },
+    {
+      "event": "AMD trigger 4: customers order chips but not complete racks",
+      "found": false,
+      "evidence": "Not hit. Note: the 10-Q says AMD itself does not sell completed Helios racks (it licenses the design and supplies parts), so this trigger may need rewording. That is a proposal for Santi, not a change."
+    },
+    {
+      "event": "AMD trigger 5: revenue misses company guidance",
+      "found": false,
+      "evidence": "No results in window; next check 2026-11-03."
+    }
+  ],
+  "disconfirming_evidence": [
+    {
+      "claim": "AMD's anchor customer OpenAI makes about $20bn less annualized revenue than investors believed (about $50bn, not $70bn), which raises questions about its ability to pay for large compute commitments.",
+      "url": "https://finance.yahoo.com/technology/article/openais-annualized-revenue-20-billion-lower-than-prior-investor-estimates-174058048.html",
+      "assessment": "Real and relevant to Thesis 1 (deals delivered on schedule). Partly a measurement issue per the FT itself, and Bloomberg (via Yahoo, unconfirmed) says OpenAI expects at least $70bn by year-end. No change to the AMD agreement reported. Weakens sentiment, not yet fundamentals."
+    },
+    {
+      "claim": "Warrants to OpenAI and Meta could add up to 320 million AMD shares at $0.01, about 19.6% more than the 1.632bn outstanding (researcher's calculation), far more than the 0.8% World Labs dilution in pillar 5.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+      "assessment": "Fact from the 10-Q (tier 1); vesting requires large GPU purchases and share-price targets, so dilution arrives only if the deals succeed. None vested as of 2026-06-27. Relevant to pillar 5's wording."
+    },
+    {
+      "claim": "AMD does not manufacture or sell the completed Helios rack systems; it licenses the design and supplies parts.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+      "assessment": "Fact from the 10-Q (tier 1). It qualifies Thesis 2's 'selling complete AI server racks' framing; value per customer can still rise through more AMD chips per rack."
+    },
+    {
+      "claim": "Analysts' average target ($636.21, 55 analysts) is only about 4.6% above the price.",
+      "url": "https://stockanalysis.com/stocks/amd/forecast/",
+      "assessment": "Opinion (tier 3). Signals expectations are already high going into 2026-11-03."
+    },
+    {
+      "claim": "Northland downgraded AMD to Market Perform on valuation ('too far, too fast', 53x forward earnings), $260 target.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-slides-analyst-downgrade-141417530.html",
+      "assessment": "Dated 2026-04-27: old, outside the window; the stock has since more than doubled. Context for valuation risk only."
+    },
+    {
+      "claim": "A news aggregator said chipmakers lost over $1 trillion on a Friday, with AMD down 10.86% after Broadcom missed expectations.",
+      "url": "https://news.latent.space/story/clu_ougq5n",
+      "assessment": "Wrong date or wrong event: AMD fell 2.03% on 2026-10-09 (data/prices). Discarded."
+    }
+  ],
+  "open_questions": [
+    "The FT original, CNBC (403) and CNN (451) pages could not be opened; FT figures are taken from Yahoo Finance's 2026-10-08 write-up, Euronews (via Yahoo UK, 2026-10-09) and Schwab Network, all consistent. The exact time the FT story was published on Thursday is not available (Yahoo's write-up posted 13:40 ET).",
+    "Bloomberg's Friday report that OpenAI expects at least $70bn annualized revenue by year-end was seen only via Yahoo's live blog; no second source.",
+    "Why chip stocks faded on Friday after opening higher: no tier 1-2 explanation found.",
+    "Unverified items from search summaries only (do not use): a WSJ report that Broadcom is trying to borrow more than $50bn for OpenAI custom chips (date and source not confirmed; the Yahoo Thursday live blog did not contain it), and a Fed official's comment that multiple rate increases might be needed (name garbled as 'Christopher Wallace'; not confirmed).",
+    "Data quality: the AMD price row for 2026-10-09 shows a high ($626.50) below the open ($626.89) and volume of 13.6m that may be partial; the close ($608.10) matches the attribution input.",
+    "Whether MI450 shipments to OpenAI have started (first gigawatt due 2H 2026) and whether any warrant tranche has vested: not disclosed since the 10-Q; watch the OCP keynote (2026-10-12) and the Q3 10-Q.",
+    "The exact share-price thresholds for warrant vesting: the Motley Fool says the final OpenAI tranche needs $600 (tier 3); not verified in the primary text read.",
+    "Thesis wording: Thesis 2 says AMD is 'selling complete AI server racks', and pillar 5 counts only World Labs dilution. The 10-Q facts above may warrant a proposed rewording (approval rule: propose, never change)."
+  ],
+  "sector_context_for_other_chip_holdings": {
+    "note": "Reusable for other chip holdings (TSM, ASML, FORM, CRDO, LITE, AAOI, AXTI, VIAV).",
+    "thursday_2026_10_08": [
+      {
+        "what": "At the open, chips fell on rising long-term Treasury yields and oil: by 10:05 ET SOXX was $572.20 (-2%), AMD -2%, Intel -3%. Quote: 'Rising Treasury yields and surging oil prices are hammering chip stocks.'",
+        "url": "https://247wallst.com/investing/2026/10/08/intel-slides-3-as-chip-stocks-sell-off-with-yields-and-oil-higher-nvidia-and-amd-slip/",
+        "date": "2026-10-08",
+        "tier": 3
+      },
+      {
+        "what": "Close: S&P 500 -0.47%, Nasdaq-100 -1.39%, Dow and Russell 2000 slightly up; 10-year yield 5.233% 'near levels not seen since 2007'; oil up about 3% to near $91 on Middle East tensions. Microsoft, Oracle, Nvidia, CoreWeave and Cerebras fell after the OpenAI disclosure.",
+        "url": "https://schwabnetwork.com/articles/closing-bell-openai-revenue-concerns-hit-tech-stocks-as-oil-rises",
+        "date": "2026-10-08",
+        "tier": 3
+      },
+      {
+        "what": "Midday: the FT reported OpenAI's annualized revenue near $50bn at the end of September vs about $70bn widely reported, a calculation difference (Anthropic-style gross accounting plus 70% growth), not lost sales. Yahoo's live blog: the semiconductor index fell 'as much as 4% before trimming gains'; Micron down more than 5%; Intel, Arm and Marvell down more than 6%; Nasdaq Composite -1.3%.",
+        "url": "https://finance.yahoo.com/technology/article/openais-annualized-revenue-20-billion-lower-than-prior-investor-estimates-174058048.html ; https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html",
+        "date": "2026-10-08",
+        "tier": 3
+      },
+      {
+        "what": "Moves reported: Oracle -5.5%, CoreWeave nearly -8%, Nvidia almost -3%, AMD around -4%, Broadcom -4.35%. OpenAI had not commented.",
+        "url": "https://uk.finance.yahoo.com/news/happened-openai-20bn-revenue-scare-120626166.html",
+        "date": "2026-10-09",
+        "tier": 3
+      },
+      {
+        "what": "Tier-2 confirmation by headline only (pages blocked): CNBC 'Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report'; CNN 'Tech stocks drop after report that OpenAI's revenue is lower than expected'.",
+        "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html ; https://edition.cnn.com/2026/10/08/investing/openai-nasdaq-stocks",
+        "date": "2026-10-08",
+        "tier": 2
+      },
+      {
+        "what": "SMH -2.84% (625.03 to 607.27); intraday low 600.32.",
+        "url": "data/prices/SMH.csv",
+        "date": "2026-10-08",
+        "tier": 1
+      }
+    ],
+    "friday_2026_10_09": [
+      {
+        "what": "Dow +0.83%, S&P 500 +0.59%, Nasdaq +0.64%; oil fell; Bloomberg reported OpenAI 'expects to reach or exceed $70 billion in annualized revenue by end of the year' (via Yahoo; single source); 10-year yield 5.24%.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html",
+        "date": "2026-10-09",
+        "tier": 3
+      },
+      {
+        "what": "Chips opened higher and faded: SMH open 615.14, close 603.33 (-0.65%). No tier 1-2 explanation found.",
+        "url": "data/prices/SMH.csv",
+        "date": "2026-10-09",
+        "tier": 1
+      }
+    ],
+    "northland_downgrade": "The Northland downgrade found by search is AMD-specific and dated 2026-04-27 (Market Perform, $260 target). It is not part of this week's selloff.",
+    "since_friday_close": "Nothing material found for AMD as of Saturday 2026-10-10 morning (EDGAR, AMD IR list, news search)."
+  },
+  "searches_run": 15
+}

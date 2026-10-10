@@ -1,0 +1,190 @@
+{
+  "ticker": "PANW",
+  "company": "Palo Alto Networks Inc",
+  "window": {"from": "2026-10-07T16:00-04:00 (Wednesday close)", "to": "2026-10-09 after the US close (Friday)"},
+  "newest_item_checked": "SEC EDGAR PANW submissions re-checked 2026-10-10 08:31 UTC: newest filing is a Form 4 by director Aparna Bawa (accession 0001193125-26-419277, filed 2026-10-09, after the close). Newest web item: Yahoo Finance live blog for Friday 2026-10-09 (closing figures).",
+  "events": [
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "sector move (cybersecurity and software rally)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "PANW rose 5.09% to $418.78 (day high $419.50), with almost all of it explained by its group: market +0.61 points, cybersecurity industry +4.41, company-specific +0.07 (z-score 0.04). Cybersecurity fund CIBR rose 3.58% and software fund IGV 2.81%, while the S&P 500 fund SPY rose only 0.60% and the Nasdaq-100 fund QQQ 0.49% (data/prices). CNBC: software stocks led Friday's gains, with Palo Alto up 5%, CrowdStrike 4% and Palantir 5%. The broad market rebounded from Thursday's AI scare (a Financial Times report that OpenAI's annualized revenue topped out at $50bn, $20bn short of estimates) after Bloomberg reported OpenAI expects to reach or exceed $70bn by year-end, and as oil prices eased. Volume was light (0.62 times the 20-day average). No company news, analyst action or 8-K for PANW on Friday.",
+      "why_it_matters": "It fired Santi's 5% 'explain this' WATCH rule, but the move was the group, not new information about Palo Alto's business. No published source gives a cybersecurity-specific reason for Friday; one tier-3 article credits Zscaler's reaffirmed outlook and IBM/Red Hat pact, but those were announced 2026-10-05 and 2026-10-06 (stale).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "CNBC live updates (text seen in search excerpt; page returned 403 to the fetcher)", "date": "2026-10-09", "url": "https://www.cnbc.com/2026/10/08/stock-market-today-live-updates.html", "tier": 2},
+        {"name": "Yahoo Finance live blog, Friday October 9", "date": "2026-10-09", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html", "tier": 3},
+        {"name": "24/7 Wall St. (attributes rally to Zscaler; cause is stale, see disconfirming_evidence)", "date": "2026-10-09", "url": "https://247wallst.com/investing/2026/10/09/zscaler-jumps-6-on-reaffirmed-revenue-outlook-and-ibm-security-pact-palo-alto-and-crowdstrike-gain-4/", "tier": 3},
+        {"name": "Move attribution (data/metrics/attribution-2026-10-09.json) and data/prices CSVs", "date": "2026-10-09", "url": "local:data/metrics/attribution-2026-10-09.json", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "sector/market move (AI scare)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "PANW fell 1.74% to $398.50: market -0.43 points, industry +0.11, company-specific -1.42 (z-score -0.88, inside normal day-to-day noise). Tech and AI stocks sold off after the Financial Times reported OpenAI's annualized revenue topped out at $50bn, $20bn short of estimates (QQQ -1.34%); software and cybersecurity funds fell less (IGV -0.23%, CIBR -0.35%). No PANW-specific news explains the extra -1.42 points.",
+      "why_it_matters": "Normal-sized company part; nothing to explain under his rules. The only PANW items that day were the Anthropic program (positive in tone) and the Klarich foundation share sale (60,000 shares, about 1.4% of Thursday's 4.42 million traded), which is too small to be a credible cause (inference, low).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Yahoo Finance live blog, Friday October 9 (describes Thursday's cause)", "date": "2026-10-09", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html", "tier": 3},
+        {"name": "Thursday attribution (data/research/2026-10-09/thursday-attribution.json)", "date": "2026-10-08", "url": "local:data/research/2026-10-09/thursday-attribution.json", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "unknown",
+      "type": "partnership / AI security",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Anthropic launched the 'Anthropic Cyber Mission'. Palo Alto Networks is one of 11 founding partners of its Critical Infrastructure Defense Program, which gives frontier Claude models, on-site engineers and threat research to security providers defending power grids, water systems, transport networks and government systems. The other partners include CrowdStrike, Accenture, Booz Allen, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, PwC and Rockwell Automation. Palo Alto's quoted line: 'By combining Unit 42 threat intelligence and operational expertise with Anthropic's frontier models, we're helping operators defend against adversaries.' No financial terms were disclosed.",
+      "why_it_matters": "Thesis 2 (AI creates new things to protect): a top AI lab chose Palo Alto (and CrowdStrike) as a partner. But it carries no disclosed revenue, so it is a signal of relevance, not a sales number. The stock fell on Thursday, so there is no visible price reaction.",
+      "direction": "supports",
+      "sources": [
+        {"name": "Anthropic, Introducing the Anthropic Cyber Mission", "date": "2026-10-08", "url": "https://www.anthropic.com/news/anthropic-cyber-mission", "tier": 1},
+        {"name": "CyberScoop", "date": "2026-10-08", "url": "https://cyberscoop.com/anthropic-cybersecurity-program-critical-infrastructure-open-source/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "insider gift and charitable-foundation share sale",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Lee Klarich (EVP, Chief Product & Technology Officer, and director): his family trust (the Lee and Susan Klarich 2005 Trust) gave away 60,000 shares on 2026-10-08 (Form 4 code G, price $0, not under a 10b5-1 plan). After it, the trust holds 555,070 shares and he holds 235,983 directly (791,053 total), so the gift was about 7.05% of his reported holdings (our calculation). The Form 144 filed the same evening shows the receiver: the Boost Giving Foundation, a charitable 501(c)(3) organization founded by Klarich 'of which Mr. Klarich controls investment decisions', planned to sell 60,000 shares through Goldman Sachs around 2026-10-08, aggregate market value $23,910,000 (= $398.50 a share, Thursday's close). The 144 lists no 10b5-1 plan adoption date and no sales in the past three months. 60,000 shares is about 0.0073% of the 818 million shares outstanding stated in the 144. This repeats a pattern: he gave 25,000 shares on 2026-09-30 (already in the news log).",
+      "why_it_matters": "Economically this is a charitable donation followed by the charity selling the shares, not Klarich cashing out for himself; a Form 144 is a notice of a planned sale, and no Form 4 confirms the foundation's actual sale. Small against his holdings and the company. Relevant to the 'several insiders sold outside 10b5-1 plans' check (see thesis_breaker_checks).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4 (Lee Klarich)", "date": "2026-10-09", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000168226026000008/xslF345X06/ownership.xml", "tier": 1},
+        {"name": "SEC Form 144 (Lee Klarich / Boost Giving Foundation)", "date": "2026-10-08", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000195824426000652/xsl144X01/primary_doc.xml", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "insider sale (director)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Director Aparna Bawa, through the Bawa Family Trust, sold 250 shares on 2026-10-09 on the open market (Form 4 code S): 170 at $410.00 and 80 at $417.125, about $103,070 in total (our calculation), NOT under a 10b5-1 plan. She still holds 6,071 shares (4,427 in the trust, 1,644 directly), so the sale was about 4% of her holdings. The matching Form 144 (via J.P. Morgan) lists earlier trust sales of 1,000 shares on 2026-09-14 ($373,567.30), 500 on 2026-09-15 ($188,556.11) and 260 on 2026-09-24 ($102,080.39). Both filings were made after Friday's close (found on the 2026-10-10 recency check; not in the pipeline's filings file).",
+      "why_it_matters": "A small, recurring sale by a non-executive director; it carries little information on its own. It is the second insider-linked disposal outside a 10b5-1 plan in two days, which is what the 'several insiders' rule watches.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4 (Aparna Bawa)", "date": "2026-10-09", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526419277/ownership.xml", "tier": 1},
+        {"name": "SEC Form 144 (Aparna Bawa / Bawa Family Trust)", "date": "2026-10-09", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000196858226001051/primary_doc.xml", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "PANW rose 5.09% on Friday 2026-10-09; the attribution splits it into market +0.61, cybersecurity industry +4.41 and company-specific +0.07 (z 0.04): the group explains almost all of it.", "evidence": "local:data/metrics/attribution-2026-10-09.json"},
+    {"rung": 2, "text": "Software and cybersecurity specifically outperformed: CIBR +3.58% and IGV +2.81% versus SPY +0.60% and QQQ +0.49%; CrowdStrike +4.57%. So this was not simply 'tech up'.", "evidence": "local:data/prices (CIBR, IGV, SPY, QQQ, CRWD closes 2026-10-08 and 2026-10-09)"},
+    {"rung": 3, "text": "Reporters describe it the same way: 'Software stocks led gains on Friday, with Palo Alto Networks gaining 5%, and CrowdStrike and Palantir Technologies increasing 4% and 5%, respectively.'", "evidence": "https://www.cnbc.com/2026/10/08/stock-market-today-live-updates.html (tier 2; quote from search excerpt, page blocked to fetcher)"},
+    {"rung": 4, "text": "The market backdrop: stocks rebounded from Thursday's AI scare (FT: OpenAI annualized revenue topped out at $50bn, $20bn short of estimates) after Bloomberg reported OpenAI expects to reach or exceed $70bn by year-end; oil prices eased; bank earnings start Tuesday 2026-10-13.", "evidence": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html (tier 3, citing FT and Bloomberg)"},
+    {"rung": 5, "text": "Why software and cybersecurity more than the rest of tech: no source published a Friday-specific reason. The likeliest explanation is a rebound after two down days for the group (PANW fell from a record $419.91 on 10-06 to $398.50 on 10-08, -5.1%; CIBR from 108.13 to 106.20, -1.8%), on light volume, while money rotated toward software, which held up better than AI hardware on Thursday.", "evidence": "inference (medium) from local price data; not stated by any source"},
+    {"rung": 6, "text": "The background story investors are buying is that AI raises security spending: Zscaler's 2026-10-06 investor day (CEO: agentic AI 'the most significant opportunity in our company's history'), Morgan Stanley's forecast of 23% a year growth in corporate cybersecurity software spending through 2028 (reported 2026-10-06), and Anthropic's 2026-10-08 Cyber Mission naming Palo Alto and CrowdStrike as partners. None of these was new on Friday.", "evidence": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zsinvestordaypressrelease.htm ; https://finance.yahoo.com/markets/stocks/article/cybersecurity-stocks-hit-new-highs-as-ai-agents-spark-biggest-risk-today-chart-of-the-day-115446641.html ; https://www.anthropic.com/news/anthropic-cyber-mission | link to Friday's move is inference (low)"},
+    {"rung": 7, "text": "Basic driver: expectations of faster cybersecurity spending because of AI, which move the whole group together. PANW and CrowdStrike have moved almost as one (60-day correlation 0.91 in the 2026-10-07 report).", "evidence": "inference (medium); correlation from reports/daily/2026/10/2026-10-07.md"}
+  ],
+  "products": [
+    {
+      "name": "Anthropic Critical Infrastructure Defense Program (Palo Alto as founding partner, through Unit 42)",
+      "what_it_is": "A program in which Anthropic gives its most capable Claude AI models, on-site engineers and threat research to a small group of security companies that protect power grids, water systems, transport networks and government systems. Palo Alto contributes Unit 42, its threat-intelligence and incident-response team.",
+      "analogy": "Like a top research lab lending its best equipment and scientists to a few fire brigades that protect the city's power plants and water works.",
+      "buyers": "The end customers are operators of critical infrastructure (utilities, water, transport) and governments; they buy security from the partners. Whether money flows between Anthropic and Palo Alto is not disclosed.",
+      "how_it_works": "Partners combine Anthropic's frontier models with their own threat data and know-how to find and stop attacks on operational technology (the computers that run physical equipment) faster. Work is 'underway'; expansion is planned 'over the coming months'.",
+      "price": "not disclosed",
+      "sales": "not disclosed (Anthropic's announcement contains no financial terms)",
+      "sales_source": "Proxy: none specific. Company-wide, next-generation security ARR was $9.10bn at Q4 FY2026 (PANW Q4 FY2026 results, 2026-09-01); the program's share of it is unknown.",
+      "stage": "announced; work underway with partners",
+      "size_for_company": "unknown; no revenue attached to the announcement",
+      "competition": "CrowdStrike is a fellow founding partner; OT-security specialists Dragos and Nozomi Networks and consultancies (Accenture, Booz Allen, Deloitte, PwC) are also in the program.",
+      "why_investors_care": "Evidence for Thesis 2: a leading AI lab picked Palo Alto as a partner for AI-era defence. It is a relevance signal, not yet sales.",
+      "watch_next": "Whether Palo Alto gives any customer, ARR or revenue figure for AI-security work on the Q1 FY2027 call (pillar 3)."
+    }
+  ],
+  "earnings": {
+    "status": "upcoming",
+    "date": "2026-11-18 (estimated)",
+    "confirmed": false,
+    "consensus": {"q1_fy2027_eps_zacks": "$0.52 (14 estimates; basis appears different from the company's non-GAAP guidance of $0.96-0.98, so not comparable)", "q1_fy2027_revenue": "not available", "fy2027_revenue": "$14.17bn (StockAnalysis, as of 2026-10-07)", "fy2027_eps": "$4.19 (StockAnalysis, as of 2026-10-07)"},
+    "actual": {},
+    "guidance": {"q1_fy2027_revenue": "$3.300-3.310bn (+33-34%)", "q1_fy2027_non_gaap_eps": "$0.96-0.98 (837-844m shares)", "q1_fy2027_ngs_arr": "$9.54-9.56bn (+63%)", "q1_fy2027_rpo": "$20.8-20.9bn (+34-35%)", "fy2027_revenue": "$14.10-14.20bn (+23-24%)", "fy2027_ngs_arr": "$11.075-11.175bn (+22-23%)", "fy2027_non_gaap_operating_margin": "29.5%", "fy2027_non_gaap_eps": "$4.16-4.19", "fy2027_adjusted_fcf_margin": "38.0%"},
+    "key_metrics": {},
+    "quality_flags": ["Earnings date is an algorithm estimate by Zacks via Nasdaq, not announced by the company. Last year the Q1 date (2025-11-19) was announced by press release in advance."],
+    "management_explanation": "not applicable (no results in window)",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000019/ex991q426earningsrelease.htm",
+      "https://api.nasdaq.com/api/analyst/PANW/earnings-date",
+      "https://stockanalysis.com/stocks/panw/forecast/"
+    ]
+  },
+  "next_earnings": {
+    "date": "2026-11-18 (estimated by Zacks via Nasdaq; not announced by the company)",
+    "confirmed": false,
+    "consensus_eps": "Q1 FY2027: $0.52 per Zacks via Nasdaq (14 estimates, range $0.49-0.59). Caution: the company guides non-GAAP EPS of $0.96-0.98, so the Zacks figure is on a different basis and not comparable. FY2027 consensus EPS $4.19 (StockAnalysis, 2026-10-07), in line with guidance $4.16-4.19.",
+    "consensus_revenue": "Q1 FY2027: not available. FY2027: $14.17bn (StockAnalysis, 2026-10-07), inside guidance $14.10-14.20bn.",
+    "company_guidance": "Q1 FY2027: revenue $3.300-3.310bn (+33-34%), non-GAAP EPS $0.96-0.98, next-generation security ARR $9.54-9.56bn (+63%), RPO $20.8-20.9bn. FY2027: revenue $14.10-14.20bn (+23-24%), NGS ARR $11.075-11.175bn (+22-23%), non-GAAP EPS $4.16-4.19, non-GAAP operating margin 29.5%, adjusted FCF margin 38.0% (PANW Q4 FY2026 results, 2026-09-01).",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000019/ex991q426earningsrelease.htm",
+      "https://api.nasdaq.com/api/analyst/PANW/earnings-date",
+      "https://api.nasdaq.com/api/analyst/PANW/earnings-forecast",
+      "https://stockanalysis.com/stocks/panw/forecast/",
+      "https://www.paloaltonetworks.com/company/press/2025/palo-alto-networks-to-announce-fiscal-first-quarter-2026-financial-results-on-wednesday--november-19--2025"
+    ]
+  },
+  "analyst_actions": [],
+  "analyst_context": "No rating or target change found dated 2026-10-08 or 2026-10-09. Latest actions (all before the window, opinions): TD Cowen target $440 from $400, Buy (10-02); BTIG $425 from $404, Buy (9-28); Morgan Stanley $410 from $394, Overweight (9-21); Bernstein downgrade to Market Perform (9-17); Citigroup downgrade to Neutral and Phillip Securities downgrade to Hold (9-07). Consensus as of 2026-10-09: Moderate Buy, 50 analysts (38 Buy, 12 Hold), average target $391.32, below Friday's close of $418.78 (MarketBeat, tier 3, https://www.marketbeat.com/stocks/NASDAQ/PANW/forecast/). StockAnalysis: 55 analysts, average target $396.92 (as of 2026-10-07).",
+  "insiders": {
+    "summary": "Three insider filings in the window, no purchases. (1) Lee Klarich's family trust gave 60,000 shares to his charitable foundation on 10-08 (gift, not a sale by him); the foundation, whose investments he controls, filed notice to sell 60,000 shares (about $23.9m) the same day, with no 10b5-1 plan listed. (2) Director Aparna Bawa's family trust sold 250 shares on 10-09 for about $103,070, not under a 10b5-1 plan, about 4% of her holdings. Both are small against the company (60,000 shares is 0.0073% of 818 million outstanding). The Bawa filings arrived after Friday's close and are not in the pipeline file data/filings/2026-10-09.json.",
+    "notable": [
+      {"who": "Lee Klarich, EVP Chief Product & Technology Officer, director", "date": "2026-10-08", "code": "G (gift) on Form 4; Form 144 planned sale by Boost Giving Foundation", "shares": 60000, "value_usd": "Form 144 aggregate market value $23,910,000", "under_10b5_1": false, "holdings_after": "791,053 (555,070 trust + 235,983 direct)", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000195824426000652/xsl144X01/primary_doc.xml"},
+      {"who": "Aparna Bawa, director", "date": "2026-10-09", "code": "S (open-market sale) via Bawa Family Trust", "shares": 250, "value_usd": "about $103,070 (170 at $410.00 + 80 at $417.125; our calculation)", "under_10b5_1": false, "holdings_after": "6,071 (4,427 trust + 1,644 direct)", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526419277/ownership.xml"}
+    ]
+  },
+  "filings": [
+    {"form": "144", "items": "Notice of proposed sale: Lee Klarich / Boost Giving Foundation, 60,000 shares, $23,910,000, broker Goldman Sachs, approx. sale date 2026-10-08", "plain_english": "A Form 144 is a notice that an insider (or someone they control) plans to sell shares; it is not proof of the sale. Here Klarich's charity, which he controls, planned to sell the 60,000 shares his family trust had just given it. No 10b5-1 plan date is listed.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000195824426000652/xsl144X01/primary_doc.xml"},
+    {"form": "4", "items": "Lee Klarich, code G (gift), 60,000 shares at $0 on 2026-10-08, indirect (family trust)", "plain_english": "A Form 4 reports an insider's trade within two business days. Code G means a gift: no money received by him. His trust still holds 555,070 shares and he holds 235,983 directly.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000168226026000008/xslF345X06/ownership.xml"},
+    {"form": "144", "items": "Notice of proposed sale: Aparna Bawa / Bawa Family Trust, 250 shares, $99,625, broker J.P. Morgan, approx. sale date 2026-10-09; lists past-3-month sales of 1,000 + 500 + 260 shares in September", "plain_english": "Notice that a director's family trust planned to sell 250 shares; it also shows three small sales in September.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000196858226001051/primary_doc.xml"},
+    {"form": "4", "items": "Aparna Bawa (director), code S, 170 shares at $410.00 and 80 at $417.125 on 2026-10-09, not under 10b5-1", "plain_english": "A director sold 250 shares (about $103,000) on the open market; she keeps 6,071.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526419277/ownership.xml"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-13", "event": "Big US banks begin third-quarter earnings season (market-wide, not PANW-specific)", "confirmed": true, "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html"},
+    {"date": "2026-11-18", "event": "PANW Q1 FY2027 results (estimated by Zacks via Nasdaq; the 2026-10-07 report also noted 11-12 as a third-party estimate)", "confirmed": false, "url": "https://api.nasdaq.com/api/analyst/PANW/earnings-date"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "Guidance cut", "found": false, "evidence": "No 8-K or press release from PANW in the window (EDGAR submissions list checked 2026-10-10: only Forms 4 and 144)."},
+    {"event": "Results miss", "found": false, "evidence": "No results in the window; next results estimated 2026-11-18."},
+    {"event": "Major customer lost", "found": false, "evidence": "No report found in the searches run."},
+    {"event": "8-K Item 4.02 (past results can no longer be relied on)", "found": false, "evidence": "No 8-K in the window."},
+    {"event": "8-K Item 4.01 (auditor change)", "found": false, "evidence": "No 8-K in the window."},
+    {"event": "8-K Item 5.02: CEO or CFO left", "found": false, "evidence": "No 8-K in the window. (The most recent PANW 8-K with Item 5.02 was filed 2026-08-21, outside the window; not re-read here.)"},
+    {"event": "Large dilutive share sale (S-3, 424B, 8-K 3.02)", "found": false, "evidence": "No S-3, 424B or 8-K 3.02 in the window; latest share-registration filing was an S-8 (employee plan) on 2026-09-10, outside the window."},
+    {"event": "Regulator investigation or major litigation", "found": false, "evidence": "Disconfirming search returned only older product vulnerabilities (CVE-2026-0257, exploited from May 2026; CVE-2026-0300); nothing new in the window."},
+    {"event": "Two or more analyst downgrades within five trading days", "found": false, "evidence": "No downgrade found on 10-08 or 10-09; the last downgrades were Citigroup and Phillip Securities (09-07) and Bernstein (09-17), all outside the window (MarketBeat)."},
+    {"event": "Several insiders sold on the open market outside 10b5-1 plans", "found": false, "evidence": "BORDERLINE, main session to judge. Confirmed open-market sale outside a plan: one, director Aparna Bawa, 250 shares (about $103k, about 4% of her holdings) on 10-09. Second insider-linked item: Lee Klarich's charitable foundation filed notice (Form 144, no plan date) to sell 60,000 shares (about $23.9m) on 10-08 after his trust gifted them. His Form 4 shows only a gift, and no filing confirms the foundation's sale. Two people, both small against the company; not clearly 'several insiders selling'."},
+    {"event": "PANW trigger 1: FY2027 revenue guidance cut below $14.10bn", "found": false, "evidence": "No guidance update in the window."},
+    {"event": "PANW trigger 2: ARR outlook lowered or NGS ARR shrinking two quarters in a row", "found": false, "evidence": "No results in the window."},
+    {"event": "PANW trigger 3: no AI-security traction or customers choosing rivals", "found": false, "evidence": "Not hit; the Anthropic partnership (10-08) is a positive signal but has no figures."},
+    {"event": "PANW trigger 4: CyberArk write-down", "found": false, "evidence": "No 10-Q or 10-K in the window."},
+    {"event": "PANW trigger 5: guidance cut blamed on CyberArk integration", "found": false, "evidence": "No guidance update in the window."},
+    {"event": "PANW trigger 6: GAAP losses widen two quarters in a row", "found": false, "evidence": "No results in the window."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "24/7 Wall St. says Friday's rally was driven by Zscaler's reaffirmed outlook and its IBM/Red Hat security pact.", "url": "https://247wallst.com/investing/2026/10/09/zscaler-jumps-6-on-reaffirmed-revenue-outlook-and-ibm-security-pact-palo-alto-and-crowdstrike-gain-4/", "assessment": "Stale. Zscaler reaffirmed guidance at its investor day on 2026-10-06 (SEC 8-K exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zsinvestordaypressrelease.htm), and the IBM/Red Hat collaboration is dated 2026-10-05 (https://www.zscaler.com/press/zscaler-collaborates-ibm-and-red-hat-protect-private-applications-frontier-ai-powered-threats; date from search summary, page not fetched). Zscaler filed no 8-K on 10-08 or 10-09. The article's PANW prices are inconsistent ($415.78 and $418.78 in one fetch; $388.27 in a search snippet), a sign of automated content. Do not cite as the cause."},
+    {"claim": "Price is above the analysts' average target.", "url": "https://www.marketbeat.com/stocks/NASDAQ/PANW/forecast/", "assessment": "Opinion data: average target $391.32 (MarketBeat, 50 analysts, 2026-10-09) and $396.92 (StockAnalysis, 2026-10-07), both below Friday's $418.78. Valuation risk already in the thesis ('what I accept')."},
+    {"claim": "Palo Alto firewalls had actively exploited vulnerabilities in 2026 (CVE-2026-0257 auth bypass, exploitation seen from 2026-05-17; CVE-2026-0300 remote code execution).", "url": "https://cyberscoop.com/palo-alto-networks-cve-2026-0257-exploited-vulnerability/", "assessment": "Old (May 2026), outside the window; reputational risk for the firewall business, but no new issue found in the window."},
+    {"claim": "A Palo Alto status page reported a WildFire (malware-analysis cloud service) issue affecting several regions on about 2026-10-08.", "url": "not available (seen only in a search-result summary)", "assessment": "Unverified: no status-page URL fetched and no tier-1/2 coverage found. Treat as unconfirmed and likely routine."},
+    {"claim": "Two insider-linked disposals outside 10b5-1 plans in two days (Klarich foundation notice for 60,000 shares; Bawa sale of 250 shares).", "url": "https://www.sec.gov/Archives/edgar/data/1327567/000195824426000652/xsl144X01/primary_doc.xml", "assessment": "Small and explainable (charitable donation; recurring small director sales), but worth watching against the 'several insiders' rule."}
+  ],
+  "open_questions": [
+    "No source gives a cybersecurity-specific reason for Friday's group rally; the stated backdrop (OpenAI revenue reassurance, lower oil) explains the market, not why CIBR (+3.58%) and IGV (+2.81%) beat QQQ (+0.49%). The rebound and rotation explanation is our inference.",
+    "Did the Boost Giving Foundation actually sell the 60,000 shares, and at what price? No Form 4 or other filing confirms the sale.",
+    "Is the director Bawa sale plus the Klarich foundation sale enough to count as 'several insiders' under rules.toml? Main session to judge; facts in thesis_breaker_checks.",
+    "Q1 FY2027 results date not announced by the company (estimate 2026-11-18). Q1 consensus on the company's non-GAAP basis not available; the Zacks $0.52 appears to use a different basis.",
+    "CNBC quote ('Software stocks led gains on Friday...') was read from a search excerpt; the page returned 403 to the fetcher.",
+    "Anthropic program timing on 10-08 (before or after the open) not stated; financial terms not disclosed.",
+    "Web search budget ran out after 13 searches, so a planned final search for a Friday-specific sector catalyst (e.g. a sector analyst note or breach) could not be run."
+  ],
+  "searches_run": 13
+}

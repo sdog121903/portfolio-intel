@@ -27,7 +27,7 @@
         "beyond_market_pct": 4.44,
         "typical_day_pct": 3.0,
         "z": 1.48,
-        "next_5_days_pct": null
+        "next_5_days_pct": -3.48
       }
     },
     {
@@ -56,7 +56,7 @@
         "beyond_market_pct": 6.64,
         "typical_day_pct": 2.99,
         "z": 2.22,
-        "next_5_days_pct": null
+        "next_5_days_pct": -1.54
       }
     },
     {
@@ -232,6 +232,35 @@
         "z": -1.21,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "viav-2026-10-08-optics-selloff",
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "low",
+      "direction": "bad",
+      "what": "Fell 4.71% with the optical group, then +3.11% on 10-09 with the optical rebound; no company news.",
+      "source": {
+        "name": "Reuters via Yahoo Finance",
+        "date": "2026-10-08",
+        "url": "https://finance.yahoo.com/news/p-500-nasdaq-end-lower-203227225.html",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -4.71,
+        "market_pct": -0.42,
+        "beyond_market_pct": -4.29,
+        "typical_day_pct": 3.18,
+        "z": -1.35,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -267,27 +296,33 @@
       "company_part_pct": -2.55,
       "z": -0.64,
       "main_news": "Calnex expanded its partnership with VIAVI to combine test products for AI, data-center and defence networks; no money terms."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 45.46,
+      "day_pct": 3.11,
+      "market_part_pct": 0.17,
+      "industry_part_pct": -1.69,
+      "company_part_pct": 4.63,
+      "z": 1.17,
+      "main_news": null
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
-        "date": "2026-10-28",
-        "event": "Q1 FY2027 results (estimated; possibly about 11-04)",
+        "date": "2026-11-04",
+        "event": "Q1 FY2027 results (estimated; possibly 10-28)",
         "confirmed": false,
         "source": {}
       },
       {
         "date": "2026-11-11",
-        "event": "Annual shareholder meeting",
+        "event": "Annual meeting",
         "confirmed": true,
-        "source": {
-          "name": "SEC DEF 14A",
-          "date": "2026-10-02",
-          "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm",
-          "tier": 1
-        }
+        "source": {}
       }
     ]
   }

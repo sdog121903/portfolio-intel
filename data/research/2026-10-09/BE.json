@@ -1,0 +1,184 @@
+{
+  "ticker": "BE",
+  "company": "Bloom Energy Corp",
+  "window": {"from": "2026-10-07 16:00 ET (after Wednesday's close)", "to": "2026-10-09 after the US close"},
+  "newest_item_checked": "Bloom newsroom item 2026-10-09 ('Bloom Energy Honors Gainesville Firefighters...'); Yahoo Finance/Blockspace rewrite of the Bloomberg trucked-gas story, 2026-10-09 11:08 ET; Searchlight New Mexico, 2026-10-09; SEC EDGAR submissions for CIK 1664703 checked 2026-10-10: newest filing is a Form 4 dated 2026-10-02 (nothing on or after 2026-10-07).",
+  "events": [
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "media report about the largest customer / largest project (Oracle, Project Jupiter)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Bloomberg reported that Oracle has trucked compressed natural gas to at least two data-center sites while waiting for pipelines (a site outside Salt Lake City for more than a year, and initial work at the campus it is building for OpenAI in Shackelford County, Texas), and that it is weighing trucked gas for Project Jupiter in Dona Ana County, New Mexico. Jupiter is meant to run on Bloom fuel cells (Oracle said in April: up to 2.45 GW in an on-site microgrid) but still has no gas supply. Energy Transfer's Green Chile pipeline now targets 2027-02-01, slipped from 2026-08-15. Trucked gas 'could allow the initial phases to operate before the pipeline... begins service'. An East Daley Analytics analyst estimated delivered compressed gas costs roughly four times the price of gas at a major pipeline hub. Oracle's only quoted statement praised VoltaGrid (a rival on-site gas-power provider): 'Shoutout to the Voltagrid team for finding cost-effective power solutions to ensure our customers can access OCI capacity on schedule.' Investing.com (2026-10-08, 1:22 PM) wrote that Bloom shares 'dropped more than 7.5%' following the report. No comment from Bloom was found. The Bloomberg original was not accessed (paywall); details come from two independent rewrites plus local New Mexico reporting.",
+      "why_it_matters": "Jupiter is Bloom's biggest single project, and gas supply is its bottleneck. The report re-confirms the February 2027 pipeline date (no new slip) and adds a possible bridge (trucked gas) that could let early phases start sooner, but at roughly 4x the fuel cost. The market read it as bad news on the day; the content itself does not change the contract.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Investing.com", "date": "2026-10-08", "url": "https://www.investing.com/news/stock-market-news/bloom-energy-shares-fall-on-report-of-oracle-using-natural-gas-for-data-centers-4939543", "tier": 3},
+        {"name": "Yahoo Finance (Blockspace, summarising Bloomberg)", "date": "2026-10-09", "url": "https://finance.yahoo.com/energy/articles/oracle-trucks-natural-gas-data-150844664.html", "tier": 3},
+        {"name": "Searchlight New Mexico", "date": "2026-10-09", "url": "https://searchlightnm.org/oracle-to-consider-delivering-natural-gas-by-truck-to-project-jupiter/", "tier": 3},
+        {"name": "Seeking Alpha news (pointer, not fetched)", "date": "2026-10-08", "url": "https://seekingalpha.com/news/4651487-oracle-uses-trucked-natural-gas-to-keep-ai-data-centers-on-track-report", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "macro / AI-trade selloff hitting Bloom's largest customer",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "AI-linked stocks sold off Thursday. The Financial Times reported OpenAI told investors its annualized revenue is 'approaching $50 billion', about $20 billion below an earlier ~$70 billion estimate; TechCrunch notes the gap comes from different accounting (Anthropic counts sales made by its cloud partners; OpenAI does not). Oracle, which builds data centers for OpenAI and is Bloom's biggest named customer, fell 5.48% (close $135.69 vs $143.56); Yahoo Finance also cited reports that Oracle is in talks with Apollo and Goldman Sachs to finance AI chip purchases and that its long-term debt has nearly doubled to more than $160 billion in two years. Nasdaq Composite -1.25%, S&P 500 -0.46%, Dow +0.10%; chip fund SMH -2.84%. Long-term Treasury yields were near multi-year highs (Motley Fool: 10-year closed at 5.23% after trading higher; Benzinga, per search snippet only: 5.35% intraday) and crude oil was above $102.",
+      "why_it_matters": "Bloom's growth depends on AI data-center builders such as Oracle having the money and the will to keep building. A report questioning OpenAI's revenue hits that chain at its source; higher yields also hurt expensive growth stocks like Bloom (about 108x expected profit per the thesis file).",
+      "direction": "weakens",
+      "sources": [
+        {"name": "TechCrunch (citing the Financial Times)", "date": "2026-10-08", "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/", "tier": 3},
+        {"name": "Axios (pointer; page blocked, headline only)", "date": "2026-10-08", "url": "https://www.axios.com/2026/10/08/openai-50-billion-arr-anthropic-revenue-accounting", "tier": 2},
+        {"name": "Yahoo Finance (Oracle stock falls on more debt, OpenAI revenue disclosure)", "date": "2026-10-08", "url": "https://finance.yahoo.com/technology/article/oracle-stock-falls-on-more-debt-to-fund-ai-chip-buying-openai-revenue-disclosure-181653494.html", "tier": 3},
+        {"name": "Motley Fool market wrap", "date": "2026-10-08", "url": "https://www.fool.com/coverage/stock-market-today/2026/10/08/stock-market-today-oct-8-tech-stocks-slide-as-treasury-yields-and-oil-prices-surge/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "peer moves (power-for-AI stocks)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Power-for-AI names fell together Thursday and mostly bounced Friday (Yahoo Finance daily closes, fetched 2026-10-10). Thursday: Vistra -6.35%, Bloom -6.34%, FuelCell -6.10%, Oklo -6.11%, Oracle -5.48%, Constellation -4.85%, Plug -2.81%, Vertiv -1.12%, GE Vernova +0.23%, ICLN -1.10%, SPY -0.42%, SMH -2.84%. Friday: Constellation +4.56%, FuelCell +4.52%, Oracle +4.21%, Vistra +3.42%, Bloom +2.82%, Oklo +0.38%, GE Vernova +0.54%, Vertiv -0.39%, Plug -2.89%, ICLN +0.93%, SPY +0.60%, SMH -0.65%. 24/7 Wall St (1:49 pm ET Thursday) had Bloom down 8% and FuelCell down 8%.",
+      "why_it_matters": "Bloom's Thursday drop was the same size as other AI-power stocks (Vistra, Oklo), so most of the 'company-specific' part measured against ICLN looks like an AI-power theme move that the clean-energy fund does not capture.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Yahoo Finance chart data (query1.finance.yahoo.com, daily closes)", "date": "2026-10-09", "url": "https://query1.finance.yahoo.com/v8/finance/chart/BE?range=1mo&interval=1d", "tier": 3},
+        {"name": "24/7 Wall St", "date": "2026-10-08", "url": "https://247wallst.com/investing/2026/10/08/bloom-energy-tumbles-8-even-as-ubs-lifts-its-price-target-to-350-fuelcell-energy-slides-8-plug-power-drops-3/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "unknown",
+      "type": "analyst action",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "UBS kept Buy and raised its target to $350 (from $325 per a search-result summary; prior target not confirmed in the fetched article), citing demand extending 'beyond supplying data centers directly'. Already reported in the 2026-10-07 report (TipRanks).",
+      "why_it_matters": "Opinion, not a fact about value; it did not stop Thursday's fall.",
+      "direction": "supports",
+      "sources": [
+        {"name": "24/7 Wall St", "date": "2026-10-08", "url": "https://247wallst.com/investing/2026/10/08/bloom-energy-tumbles-8-even-as-ubs-lifts-its-price-target-to-350-fuelcell-energy-slides-8-plug-power-drops-3/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "unknown",
+      "type": "company marketing / community release",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Bloom newsroom: 'Bloom Energy Honors Gainesville Firefighters Who Prepare for the Moments That Matter' (part of its ESPN College Football tour sponsorship series). No financial content.",
+      "why_it_matters": "Not material; noted only to show the company's own newsroom had nothing on Oracle, Jupiter or results in the window.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Bloom Energy newsroom", "date": "2026-10-09", "url": "https://www.bloomenergy.com/newsroom/", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Bloom fell 6.34% on Thursday 2026-10-08 (close $272.82 vs $291.29). Split: market -0.95, clean-energy industry (ICLN) -2.13, company -3.26 points (z -0.75: within its normal day-to-day noise). This fired Santi's 5% 'explain this' watch rule.", "evidence": "data/metrics/2026-10-09.json; data/research/2026-10-09/thursday-attribution.json"},
+    {"rung": 2, "text": "Thursday was a broad AI-trade selloff: Nasdaq -1.25%, S&P 500 -0.46%, SMH -2.84%, with long-term Treasury yields near multi-year highs and oil above $102.", "evidence": "https://www.fool.com/coverage/stock-market-today/2026/10/08/stock-market-today-oct-8-tech-stocks-slide-as-treasury-yields-and-oil-prices-surge/ (tier 3) + Yahoo chart data"},
+    {"rung": 3, "text": "Why did AI stocks fall? The Financial Times reported OpenAI's annualized revenue is approaching $50 billion, about $20 billion below an earlier ~$70 billion estimate (an accounting difference, per TechCrunch). Oracle, which builds data centers for OpenAI, fell 5.48%; it is also seeking financing for AI chips after nearly doubling long-term debt to more than $160 billion.", "evidence": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/ ; https://finance.yahoo.com/technology/article/oracle-stock-falls-on-more-debt-to-fund-ai-chip-buying-openai-revenue-disclosure-181653494.html"},
+    {"rung": 4, "text": "Oracle is Bloom's biggest named customer: it 'intends to procure up to 2.8 GW' of Bloom fuel cells, with 1.2 GW contracted (Bloom press release, 2026-04-13). When investors doubt Oracle's AI buildout, Bloom is directly exposed.", "evidence": "https://www.bloomenergy.com/?p=21516 (tier 1, dated 2026-04-13)"},
+    {"rung": 5, "text": "Other power-for-AI stocks fell as much as Bloom (Vistra -6.35%, Oklo -6.11%, FuelCell -6.10%, Constellation -4.85%), so most of Bloom's 'company-specific' -3.26 points versus ICLN is probably an AI-power theme move that a clean-energy fund does not capture.", "evidence": "inference (medium-high), from Yahoo Finance daily closes"},
+    {"rung": 6, "text": "Bloom-specific layer: during Thursday's session Bloomberg reported Oracle trucks gas to data centers and is weighing trucked gas for Jupiter, which still has no pipeline gas for its Bloom fuel cells. Reporters tied Bloom's fall (more than 7.5% intraday; about 8% at 1:49 pm ET) to this report; it closed -6.34%.", "evidence": "https://www.investing.com/news/stock-market-news/bloom-energy-shares-fall-on-report-of-oracle-using-natural-gas-for-data-centers-4939543 (tier 3; the causal link is the reporter's) | inference that it explains part of the company-specific move (medium)"},
+    {"rung": 7, "text": "Why would trucked gas worry investors? It is a reminder that Bloom's biggest project still lacks fuel until about 2027-02-01, that bridging fuel costs about 4x pipeline gas, and Oracle's quote praised VoltaGrid, a rival on-site power supplier. The opposite reading (trucked gas lets early Jupiter phases start sooner) was available but not what the market chose that day.", "evidence": "https://finance.yahoo.com/energy/articles/oracle-trucks-natural-gas-data-150844664.html (facts) | inference on investor motive (medium)"},
+    {"rung": 8, "text": "Basic driver: Bloom's value rests on AI data-center spending (who pays: Oracle/OpenAI) and on gas reaching the sites (the fuel). Thursday raised doubts on both at once; nothing changed in Bloom's own contracts, guidance or filings.", "evidence": "inference (medium); no Bloom filing or release in window (EDGAR checked)"},
+    {"rung": 9, "text": "Friday +2.82% was mostly market (+1.34) and industry (+1.06), company +0.41 (z 0.09), on half-normal volume (0.50x); Oracle (+4.21%), Constellation (+4.56%) and Vistra (+3.42%) bounced too. No Bloom-specific news found for Friday.", "evidence": "data/metrics/attribution-2026-10-09.json; Yahoo chart data"}
+  ],
+  "products": [
+    {
+      "name": "Bloom Energy Server (solid-oxide fuel cell power system) for Oracle data centers / Project Jupiter",
+      "what_it_is": "Refrigerator-sized boxes that turn natural gas into electricity through a chemical reaction instead of burning it, installed on the customer's site.",
+      "analogy": "Like a home generator that never runs its engine: gas goes in, electricity comes out through a battery-like reaction, so it is quieter and cleaner, but it still needs a steady gas supply, the way a car needs a fuel station nearby.",
+      "buyers": "AI data-center builders (Oracle is the biggest named one), and increasingly utilities (Ameren plans 500 MW per a Barclays note, tier 3, already in news log).",
+      "how_it_works": "Natural gas (from a pipeline or, as a stop-gap, trucked as compressed gas) feeds the fuel-cell stacks; the systems sit next to the data center in a 'microgrid' (a small, self-contained power network), so the site does not wait years for a grid connection. Without gas supply the boxes cannot run, which is why the Jupiter pipeline matters.",
+      "price": "not disclosed",
+      "sales": "Q2 2026 product revenue $935.4m (+215.4% y/y) of $1,065.4m total; service $69.0m, installation $51.0m, electricity $9.9m. Oracle: intends to procure up to 2.8 GW, 1.2 GW contracted (2026-04-13). Jupiter: up to 2.45 GW (Oracle, April 2026). Megawatts shipped and backlog: not disclosed in the Q2 release. Revenue from Oracle specifically: not disclosed (proxy: the 1.2 GW contracted figure).",
+      "sales_source": "Bloom Q2 2026 results, 2026-07-28 (https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm); Bloom-Oracle press release, 2026-04-13 (https://www.bloomenergy.com/?p=21516); Yahoo Finance/Blockspace, 2026-10-09 for the 2.45 GW Jupiter figure",
+      "stage": "Shipping at scale; Jupiter installation waiting on gas supply (pipeline target 2027-02-01; trucked gas under consideration).",
+      "size_for_company": "Product sales were about 88% of Q2 revenue ($935.4m / $1,065.4m, arithmetic). Oracle's 2.8 GW intention is large relative to Bloom's business, but its revenue share is not disclosed.",
+      "competition": "Gas engines and turbines from on-site providers (e.g. VoltaGrid, which Oracle praised in its 2026-10-08 statement), grid power, batteries; nuclear and utilities (Vistra, Constellation, Oklo) for longer-term supply.",
+      "why_investors_care": "Speed to power is Bloom's selling point; if gas cannot reach the site, the speed advantage shrinks. Trucked gas could keep early phases on schedule but at higher fuel cost.",
+      "watch_next": "Whether Oracle actually trucks gas to Jupiter; any further pipeline slip beyond 2027-02-01; Bloom's Q3 call comments on Oracle, Jupiter timing and backlog."
+    }
+  ],
+  "earnings": {
+    "status": "none",
+    "date": "",
+    "confirmed": false,
+    "consensus": {},
+    "actual": {},
+    "guidance": {},
+    "key_metrics": {},
+    "quality_flags": [],
+    "management_explanation": "No results in the window; last results were Q2 2026 on 2026-07-28.",
+    "sources": []
+  },
+  "next_earnings": {
+    "date": "2026-10-27 (estimated, not confirmed; Nasdaq/Zacks algorithm; one search summary said 10-29). Last year Bloom announced its Q3 date on 2025-10-09 for results on 2025-10-28, so an announcement may come soon.",
+    "confirmed": false,
+    "consensus_eps": "$0.56 for Q3 (Sep 2026), 5 estimates, range $0.49-$0.69, no revisions up or down in the last 4 weeks (Nasdaq/Zacks, fetched 2026-10-10, tier 3). Zacks lists last year's comparable as -$0.01; basis (GAAP vs adjusted) unclear.",
+    "consensus_revenue": "about $1.06 billion for Q3 (Yahoo Finance, as cited in the 2026-10-07 report, tier 3); full-year 2026 about $4.12 billion (same source). Not re-verified today.",
+    "company_guidance": "Full-year 2026: revenue $3.9-4.2bn; non-GAAP gross margin ~34%; non-GAAP operating income $800-900m; non-GAAP EPS $2.55-2.85. No quarterly guidance found.",
+    "sources": [
+      "https://api.nasdaq.com/api/analyst/BE/earnings-date",
+      "https://api.nasdaq.com/api/analyst/BE/earnings-forecast",
+      "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm",
+      "https://www.businesswire.com/news/home/20251009070907/en/Bloom-Energy-to-Announce-Third-Quarter-2025-Financial-Results-on-October-28-2025"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-10-07 (reported 2026-10-08)", "firm": "UBS", "action": "Buy kept; target raised to $350 (prior $325 per search summary only)", "reason": "demand extending 'beyond supplying data centers directly' (rehash: already in the 2026-10-07 report)", "url": "https://247wallst.com/investing/2026/10/08/bloom-energy-tumbles-8-even-as-ubs-lifts-its-price-target-to-350-fuelcell-energy-slides-8-plug-power-drops-3/"},
+    {"date": "window 2026-10-08 to 2026-10-09", "firm": "none found", "action": "No downgrades or new rating changes found in the window", "reason": "not applicable", "url": ""}
+  ],
+  "insiders": {
+    "summary": "No insider filings in the window: EDGAR's newest Bloom filing is 2026-10-02. Before the window: Chief Commercial Officer Aman Joshi sold 8,437 shares at $277.17 (about $2.34m) on 2026-10-01 under a 10b5-1 plan (pre-scheduled), keeping 147,092 shares (so he sold about 5.4% of his holding); directors Jeffrey Immelt (81 shares) and Cynthia Warner (83 shares) received routine grants on 2026-09-30.",
+    "notable": []
+  },
+  "filings": [
+    {"form": "none", "items": "", "plain_english": "No SEC filings by Bloom on or after 2026-10-07 (EDGAR submissions API checked 2026-10-10; newest are three Form 4s dated 2026-10-02 and a Form 144 dated 2026-10-01). No 8-K, so no company statement on the Oracle report.", "materiality": "low", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001664703&type=&dateb=&owner=include&count=40"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-27 (estimated)", "event": "Q3 2026 results (date not yet announced; Nasdaq/Zacks estimate; another aggregator said 10-29)", "confirmed": false, "url": "https://api.nasdaq.com/api/analyst/BE/earnings-date"},
+    {"date": "2027-02-01", "event": "Target in-service date of Energy Transfer's Green Chile pipeline that would feed Project Jupiter's Bloom fuel cells (slipped from 2026-08-15)", "confirmed": false, "url": "https://finance.yahoo.com/energy/articles/oracle-trucks-natural-gas-data-150844664.html"},
+    {"date": "not dated", "event": "Oracle decision on trucking gas to Project Jupiter (reported as 'weighing')", "confirmed": false, "url": "https://searchlightnm.org/oracle-to-consider-delivering-natural-gas-by-truck-to-project-jupiter/"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "Guidance cut", "found": false, "evidence": "No release or 8-K in window; latest guidance $3.9-4.2bn revenue (Q2 release, 2026-07-28)."},
+    {"event": "Results miss", "found": false, "evidence": "No results in window; Q3 expected about 2026-10-27."},
+    {"event": "Major customer lost or cut orders", "found": false, "evidence": "Bloomberg-based reports (2026-10-08/09) say Jupiter is still 'intended to be powered by fuel cells from Bloom'; Oracle is weighing trucked gas, not replacing Bloom. No statement of cancellation or reduction found."},
+    {"event": "8-K Item 4.02 (non-reliance on past financials)", "found": false, "evidence": "No 8-K filed since 2026-10-07 (EDGAR)."},
+    {"event": "8-K Item 4.01 (auditor change)", "found": false, "evidence": "No 8-K filed since 2026-10-07 (EDGAR)."},
+    {"event": "CEO/CFO departure (8-K Item 5.02)", "found": false, "evidence": "No 8-K; no reports found. (FuelCell Energy's CFO left on 2026-10-07; that is a different company.)"},
+    {"event": "Large dilutive share sale or convertible issue (>5% of shares)", "found": false, "evidence": "No S-3, 424B or 8-K in window; no financing news found."},
+    {"event": "Regulator investigation or major litigation", "found": false, "evidence": "Only the existing securities class action (filed 2026-07-30 after the Hunterbrook scandium report; lead-plaintiff deadline was 2026-09-28). No new ruling, SEC action or new suit found in window."},
+    {"event": "Two or more analyst downgrades in five trading days", "found": false, "evidence": "None found; the only action seen was UBS raising its target to $350 (Buy)."},
+    {"event": "Several insiders sold outside 10b5-1 plans", "found": false, "evidence": "No Form 4 in window; the last sale (CCO Joshi, 2026-10-01) was under a 10b5-1 plan."},
+    {"event": "BE trigger 1: 2026 outlook cut below $3.9bn", "found": false, "evidence": "No guidance change in window."},
+    {"event": "BE trigger 2: large customers choose other on-site power", "found": false, "evidence": "Not hit. Early-warning nuance: Oracle's quoted statement on 2026-10-08 praised VoltaGrid (a rival gas-power provider) for keeping other Oracle sites on schedule; VoltaGrid's Oracle work was already known (2.3 GW, announced October 2025 per Argus via search summary, tier 3). No report that Oracle picked another technology over Bloom for a site where Bloom was chosen."},
+    {"event": "BE trigger 3: operating cash flow negative two quarters", "found": false, "evidence": "No results in window; Q2 OCF was +$226.4m."},
+    {"event": "BE trigger 4: large share sale (>5% of shares)", "found": false, "evidence": "No filing or announcement in window."},
+    {"event": "BE trigger 5: Jupiter contract cancelled or cut", "found": false, "evidence": "Reports say Jupiter is still intended to use Bloom fuel cells; no statement of cancellation or cut."},
+    {"event": "BE trigger 6: pipeline slips beyond end-2027", "found": false, "evidence": "Pipeline target still 2027-02-01 per the 2026-10-09 rewrite of Bloomberg. Unverified: a search summary claims SemiAnalysis pushed its base case for first power at Jupiter to 2029 (missing air permit, stalled pipeline); the article it pointed to (Data Center Knowledge, 2026-04-29) does not contain that claim. Treat as unverified."},
+    {"event": "BE trigger 7: regulator or court finds supply-chain statements false", "found": false, "evidence": "No ruling, SEC action or restatement found in window."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Trucked compressed gas costs roughly four times pipeline-hub gas (East Daley Analytics estimate), so running Jupiter's fuel cells on trucked gas would make the power expensive.", "url": "https://finance.yahoo.com/energy/articles/oracle-trucks-natural-gas-data-150844664.html", "assessment": "Credible as a cost estimate (one analyst, tier 3 rewrite of Bloomberg). It is a bridge, not the plan; it highlights that gas supply, not Bloom's boxes, is the bottleneck."},
+    {"claim": "Oracle publicly praised VoltaGrid, a rival on-site power supplier, for keeping capacity on schedule.", "url": "https://finance.yahoo.com/energy/articles/oracle-trucks-natural-gas-data-150844664.html", "assessment": "Shows Oracle uses competing on-site power at other sites. Not a trigger by itself (no site switched away from Bloom); worth watching under trigger 2."},
+    {"claim": "Doubts about OpenAI's revenue and Oracle's growing debt (more than $160bn long-term, seeking chip financing from Apollo and Goldman Sachs) raise the question of whether Bloom's biggest customer can keep funding the buildout.", "url": "https://finance.yahoo.com/technology/article/oracle-stock-falls-on-more-debt-to-fund-ai-chip-buying-openai-revenue-disclosure-181653494.html", "assessment": "Real, indirect risk to Bloom's demand; the OpenAI gap is described as accounting (net vs gross), not falling demand (TechCrunch). Medium relevance."},
+    {"claim": "SemiAnalysis reportedly moved its base case for first power at Jupiter from 2027 to 2029.", "url": "https://www.datacenterknowledge.com/build-design/oracle-s-project-jupiter-ditches-gas-turbines-for-bloom-fuel-cells", "assessment": "UNVERIFIED: appeared only in a search-tool summary; the linked article (2026-04-29) does not contain it. Do not use as fact."},
+    {"claim": "The securities class action over the Hunterbrook scandium report remains pending.", "url": "https://www.placera.se/pressmeddelanden/bloom-energy-bloom-energy-corporation-investors-should-learn-about-their-rights-against-the-company-contact-robbins-llp-before-the-september-28-2026-lead-plaintiff-deadline-20260919", "assessment": "Law-firm notice (avoid tier, pointer only). No new development in window; already in the thesis file."}
+  ],
+  "open_questions": [
+    "Exact time the Bloomberg trucked-gas story was published on 2026-10-08 (the original was not accessed; Investing.com's rewrite is stamped 1:22 PM, time zone not confirmed; 24/7 Wall St had BE down 8% at 1:49 pm ET).",
+    "Whether Bloom has commented on trucked gas for Jupiter (none found).",
+    "The exact Q3 2026 results date (not yet announced as of 2026-10-09).",
+    "The 10-year Treasury yield level on 2026-10-08 differs by source (5.23% close per Motley Fool; 5.35% intraday per a Benzinga search snippet); no tier-1/2 figure obtained.",
+    "Q3 revenue consensus (about $1.06bn) carried from the 2026-10-07 report; not re-checked today.",
+    "Bloom's revenue share from Oracle: not disclosed."
+  ],
+  "searches_run": 12
+}

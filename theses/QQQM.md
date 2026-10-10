@@ -14,15 +14,15 @@ QQQM is an exchange-traded fund (ETF) [a fund that trades on the stock exchange 
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 *No quarterly SEC figures for this company (it files as a foreign company); see the key trends below, taken from its own results releases.*
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +5.5% | +6.6% | +25.3% | +26.0% | +12.9% | -12.0% | 1.2% |
+| +5.0% | +3.7% | +23.2% | +23.7% | +11.8% | -12.0% | 1.2% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -84,3 +84,4 @@ QQQM pools investors' money and buys the shares of the companies in the Nasdaq-1
 
 ## Change log
 - 2026-10-07: Draft created after the 2026-10-06 purchase. Everything above "Facts as of" is a proposal for Santi to approve, rewrite or reject.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Draft still awaiting Santi's approval. Both draft pillars hold (one-year tracking QQQM +23.51% vs QQQ +23.45%; 60-day volatility 18.2%). Early warning on the draft correlation trigger: 60-day correlation with TSMC 0.79 (draft trigger 0.8). Moderna joined the Nasdaq-100 on 2026-10-09. No edits to the draft.

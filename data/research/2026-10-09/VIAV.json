@@ -1,0 +1,376 @@
+{
+ "ticker": "VIAV",
+ "company": "Viavi Solutions Inc.",
+ "window": {
+  "from": "2026-10-07 16:00 ET (after Wednesday's close)",
+  "to": "2026-10-09 after the US close (recency check extended to 2026-10-10 08:30 UTC)"
+ },
+ "newest_item_checked": "SEC EDGAR submissions API, checked 2026-10-10 08:30 UTC: newest VIAV filing is still the Schedule 13G/A of 2026-10-05 (nothing filed 10-06 to 10-10). viavisolutions.com newsroom, checked 2026-10-10: newest release 2026-09-29. Newest article used: 24/7 Wall St and TradingKey, 2026-10-09 (optical rebound). Nothing material about VIAVI found published after Friday's close.",
+ "events": [
+  {
+   "date": "2026-10-08",
+   "timing": "during",
+   "type": "industry/macro: AI and chip-stock selloff",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "Chip stocks fell on Thursday. Reuters: chipmakers fell 3.4% after a Financial Times report that OpenAI's annualized revenues were $20 billion less than the company had previously signaled. Rising oil prices (Middle East tensions and a cut in US output) added inflation and rate-hike fears, and reporting that Broadcom is lining up $50 billion of financing for OpenAI raised worries about competition for capital. S&P 500 -0.47% to 7,765.36; Nasdaq -1.25% to 27,193.34. Pipeline prices: SPY -0.42%, SMH -2.84%, VIAV -4.71% (open 45.30, low 43.40, close 44.09).",
+   "why_it_matters": "VIAV's case rests on AI data centers spending on faster networks. A report that the biggest AI buyer earns less than it signaled raises doubt about how long that spending lasts, and investors sell every AI-infrastructure supplier together (inference, medium). It is a sentiment hit, not a change to VIAVI's own orders or guidance.",
+   "direction": "weakens",
+   "sources": [
+    {
+     "name": "Reuters (Stephen Culp, Tharuniyaa Lakshmi) via Yahoo Finance",
+     "date": "2026-10-08",
+     "url": "https://finance.yahoo.com/news/p-500-nasdaq-end-lower-203227225.html",
+     "tier": 2
+    },
+    {
+     "name": "Yahoo Finance live markets blog",
+     "date": "2026-10-08",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "timing": "during",
+   "type": "industry: optical-stock profit taking (peer selloff)",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "Optical stocks fell harder than chips. Pipeline closes: AAOI -13.58% (to $105.90), AXTI -10.19%, LITE -5.62%; TradingKey reports Coherent -9.63%. 24/7 Wall St put it down to profit taking after huge gains this year (AAOI +221% and LITE +190% year to date before the drop). The Roundhill Photonics & Optics fund (LYTE) was -6% intraday. AAOI had its own reason: it had just completed a $600 million at-the-market share sale (about 5.69 million new shares, net proceeds about $588 million, completed 2026-10-05) to fund data-center optics capacity (TradingKey). Neither article mentions VIAVI.",
+   "why_it_matters": "VIAV trades with this optical group (60-day correlation with Lumentum 0.84 per the 2026-10-07 report), and the chip fund (SMH) used in the attribution does not hold most of these names, so part of the group's fall shows up in VIAV's 'company' slice (-1.31%) (inference, medium). AAOI's share sale is AAOI-specific and says nothing about VIAVI.",
+   "direction": "weakens",
+   "sources": [
+    {
+     "name": "24/7 Wall St",
+     "date": "2026-10-08",
+     "url": "https://247wallst.com/investing/2026/10/08/optics-stocks-tumble-as-profit-taking-cuts-into-big-yearly-gains-applied-optoelectronics-drops-9-coherent-falls-5-lumentum-slides-4/",
+     "tier": 3
+    },
+    {
+     "name": "TradingKey",
+     "date": "2026-10-08",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262207662-aaoi-stock-forecast-plunge-14-600m-financing-rebound-tradingkey",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "timing": "before open",
+   "type": "industry: optical-stock rebound on a peer's demand comment",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "Optical stocks rebounded on Friday while chips stayed weak. Pipeline closes: LITE +5.22%, AAOI +3.53%, VIAV +3.11%, but SMH -0.65% and AXTI -4.47% (AXT did not join the rebound). Three tier-3 outlets credit comments by Lumentum CEO Michael Hurlston that Lumentum's optical-component production capacity is booked by customers through early 2029, driven by AI data-center demand. TradingKey says it was 'an interview in Tokyo, Japan on Friday'; 24/7 Wall St says the statement 'reached the market overnight'. Neither names the outlet or gives a full quote. VIAV gapped up at the open (open $45.50 vs $44.09 Thursday close, about +3.2%), then closed at $45.46: the gain came at the open, which fits overnight news.",
+   "why_it_matters": "A big optical maker saying it has sold out its capacity for about two years means more optical links and more factory capacity being built. Both need testing, and that is VIAVI's core AI argument (thesis 1) (inference, medium). It is a statement about Lumentum, not about VIAVI's orders.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "24/7 Wall St",
+     "date": "2026-10-09",
+     "url": "https://247wallst.com/investing/2026/10/09/optics-stocks-rally-on-sold-out-optical-capacity-through-early-2029-applied-optoelectronics-and-lumentum-surge-7-coherent-climbs-5/",
+     "tier": 3
+    },
+    {
+     "name": "TradingKey",
+     "date": "2026-10-09",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262208257-optical-communication-stocks-rally-lumentum-component-capacity-sells-through-2029-tradingkey",
+     "tier": 3
+    },
+    {
+     "name": "GuruFocus (headline only, not opened)",
+     "date": "2026-10-09",
+     "url": "https://www.gurufocus.com/news/9117154/lumentum-coherent-stocks-jump-after-ceo-warns-ai-components-sold-out-through-2029",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "timing": "unknown",
+   "type": "partnership coverage (repeat)",
+   "materiality": "low",
+   "new_or_rehash": "rehash",
+   "summary": "Articles on 10-08 and 10-09 repeated the Calnex-VIAVI partnership expansion (MarketBeat headline: 'Viavi Solutions (VIAV) Expands Calnex Tie Up As Fair Value Debate Heats Up'). Already in the news log under 2026-10-07. A 10-09 MarketBeat-listed headline, 'Expands Network Testing Reach With New AI Security Platform', most likely refers to VIAVI's 2026-09-29 100G test-platform release (inference, medium; article not opened). No new VIAVI press release, SEC filing or analyst action in the window.",
+   "why_it_matters": "No new information. It shows Friday's company-specific +4.63% had no VIAVI-specific news behind it.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "Calnex via PR Newswire",
+     "date": "2026-10-07",
+     "url": "https://www.prnewswire.co.uk/news-releases/calnex-and-viavi-expand-partnership-to-deliver-end-to-end-network-and-application-performance-validation-for-next-generation-networks-302901337.html",
+     "tier": 1
+    },
+    {
+     "name": "MarketBeat VIAV page (headline list)",
+     "date": "2026-10-09",
+     "url": "https://www.marketbeat.com/stocks/NASDAQ/VIAV/",
+     "tier": 3
+    },
+    {
+     "name": "VIAVI newsroom (no release dated 10-07 to 10-10)",
+     "date": "2026-10-10",
+     "url": "https://www.viavisolutions.com/en-us/news-releases",
+     "tier": 1
+    }
+   ]
+  }
+ ],
+ "why_chain": [
+  {
+   "rung": 1,
+   "text": "Thursday 10-08: VIAV -4.71%. Attribution: market -0.10, industry (SMH) -3.30, company -1.31 (z -0.33). Mostly an industry move; the company part is within normal noise.",
+   "evidence": "data/research/2026-10-09/thursday-attribution.json (pipeline)"
+  },
+  {
+   "rung": 2,
+   "text": "The industry fell because chip stocks sold off: chipmakers -3.4% after a Financial Times report that OpenAI's annualized revenues were $20 billion below what it had signaled, plus an oil jump that raised inflation and rate-hike fears. SMH -2.84% (pipeline).",
+   "evidence": "https://finance.yahoo.com/news/p-500-nasdaq-end-lower-203227225.html"
+  },
+  {
+   "rung": 3,
+   "text": "Optical stocks fell more than chips (AAOI -13.58%, AXTI -10.19%, LITE -5.62%): profit taking after gains of about 190-220% this year, plus AAOI's own $600m share sale.",
+   "evidence": "https://247wallst.com/investing/2026/10/08/optics-stocks-tumble-as-profit-taking-cuts-into-big-yearly-gains-applied-optoelectronics-drops-9-coherent-falls-5-lumentum-slides-4/ ; https://www.tradingkey.com/analysis/stocks/us-stocks/262207662-aaoi-stock-forecast-plunge-14-600m-financing-rebound-tradingkey (tier 3 only)"
+  },
+  {
+   "rung": 4,
+   "text": "Basic driver (Thursday): AI-hardware share prices assume AI companies keep paying for data centers. News that a key AI buyer earns less than it signaled raises doubt about how long that spending lasts. Investors then sell the stocks that rose most on it, including test-equipment makers like VIAVI.",
+   "evidence": "inference (medium)"
+  },
+  {
+   "rung": 5,
+   "text": "Friday 10-09: VIAV +3.11%. Attribution: market +0.17, industry -1.69, company +4.63 (z 1.17, within normal noise). Chips still fell (SMH -0.65%), so the gain did not come from the chip sector.",
+   "evidence": "data/metrics/attribution-2026-10-09.json (pipeline); data/prices/SMH.csv"
+  },
+  {
+   "rung": 6,
+   "text": "Optical stocks rebounded (LITE +5.22%, AAOI +3.53% in pipeline prices). Coverage credits Lumentum's CEO saying its optical-component capacity is booked through early 2029. VIAV jumped about 3.2% at the open, which fits news that broke overnight.",
+   "evidence": "https://247wallst.com/investing/2026/10/09/optics-stocks-rally-on-sold-out-optical-capacity-through-early-2029-applied-optoelectronics-and-lumentum-surge-7-coherent-climbs-5/ ; https://www.tradingkey.com/analysis/stocks/us-stocks/262208257-optical-communication-stocks-rally-lumentum-component-capacity-sells-through-2029-tradingkey (tier 3 only; the original outlet of the CEO's comment is not identified)"
+  },
+  {
+   "rung": 7,
+   "text": "Basic driver (Friday): investors trade VIAV as part of the AI-optics group (correlation with LITE 0.84). A 'sold out for two years' signal means more optical links and more production lines, and both need testing. The attribution model uses only the chip fund, so this optical-group move shows up as VIAV's 'company-specific' +4.63%. No VIAVI-specific news was found.",
+   "evidence": "inference (medium)"
+  },
+  {
+   "rung": 8,
+   "text": "Net over Thursday-Friday: VIAV -1.75% (market +0.05, industry -4.93, company +3.13; mostly explained by the industry). Week to Friday: -3.48%.",
+   "evidence": "data/research/2026-10-09/thursday-attribution.json; data/metrics/2026-10-09.json"
+  }
+ ],
+ "products": [
+  {
+   "name": "Data-center network and optical test (part of the Network and Service Enablement segment, NSE)",
+   "what_it_is": "Instruments and software that check whether high-speed links (fibre, optical modules, Ethernet at 800G-1.6T) inside and between AI data centers work at full speed, in the lab and on the factory line.",
+   "analogy": "Like the diagnostic computer a garage plugs into a car: the car makers (Lumentum, Coherent) build the parts, and VIAVI sells the tool that proves each part and link works.",
+   "buyers": "Optical-component and module makers, network-equipment makers, cloud and AI data-center operators, and telecom operators (general description; no customer list disclosed for the window).",
+   "how_it_works": "Test gear sends traffic or light through a link or module at full rate and measures errors, loss and timing. Each new speed generation (for example 800G to 1.6T) needs new test gear, and more factory capacity needs more test stations (inference, medium).",
+   "price": "not disclosed",
+   "sales": "Not disclosed for data-center test alone. Labelled proxy: NSE segment revenue $353.9m in Q4 FY2026 (+69.2% a year earlier), with about half of the growth from data centers (VIAVI Q4 FY2026 results and call, per earlier research files).",
+   "sales_source": "https://www.sec.gov/Archives/edgar/data/0000912093/000162828026053381/viavq4fy268-kex991.htm",
+   "stage": "Shipping and ramping (NSE growing 69.2%).",
+   "size_for_company": "NSE was $353.9m of $443.1m total revenue in Q4 FY2026, about 80%. The data-center share of NSE is not disclosed.",
+   "competition": "Keysight Technologies, Spirent (now part of Keysight), EXFO, Anritsu and others (general industry knowledge; no source fetched this run).",
+   "why_investors_care": "Peers selling out their optical capacity (Lumentum, per Friday's coverage) points to more links being built and tested. That is the mechanism behind thesis 1.",
+   "watch_next": "Q1 FY2027 results (date not announced): NSE growth, the data-center share and whether revenue lands in the $450-460m guided range."
+  }
+ ],
+ "earnings": {
+  "status": "upcoming",
+  "date": "Not confirmed. Estimated 2026-10-28 (MarketBeat) or 2026-11-04 (Nasdaq, from Zacks' algorithm).",
+  "confirmed": false,
+  "consensus": {
+   "q1_fy27_eps_non_gaap": "$0.36 (MarketBeat); $0.35 from 4 analysts, range $0.31-0.36, no revisions in the last 4 weeks (Nasdaq/Zacks). Both are below the company's $0.40-0.42 guidance, so these aggregator figures look stale or on a different basis.",
+   "q1_fy27_revenue": "$433.2m (MarketBeat), below the $450-460m guidance. A second revenue consensus was not available.",
+   "fy2027_revenue": "$1.89bn (StockAnalysis, 2026-10-09)",
+   "fy2027_eps": "$1.64 (StockAnalysis, 2026-10-09)"
+  },
+  "actual": {},
+  "guidance": {
+   "q1_fy27_quarter_end": "2026-10-03",
+   "q1_fy27_revenue": "$450-460m",
+   "q1_fy27_eps_non_gaap": "$0.40-0.42",
+   "longer_term": "About $500m of quarterly revenue during calendar 2027 (management on the Q4 call, per earlier research; not in a filing)"
+  },
+  "key_metrics": {
+   "last_q_revenue_q4_fy26": "$443.1m (+52.5%)",
+   "NSE_q4_fy26": "$353.9m (+69.2%)",
+   "OSP_q4_fy26": "$89.2m (+9.6%)"
+  },
+  "quality_flags": [
+   "Even the highest aggregator EPS estimate ($0.36, Nasdaq/Zacks) is below the low end of VIAVI's own $0.40-0.42 guidance. Compare results with the guidance, not with these figures. A 'beat' against a stale consensus would mean little."
+  ],
+  "management_explanation": "not applicable (no results in the window)",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000912093/000162828026053381/viavq4fy268-kex991.htm",
+   "https://www.marketbeat.com/stocks/NASDAQ/VIAV/earnings/",
+   "https://www.nasdaq.com/market-activity/stocks/viav/earnings",
+   "https://stockanalysis.com/stocks/viav/forecast/"
+  ]
+ },
+ "next_earnings": {
+  "date": "Not confirmed as of 2026-10-10 08:30 UTC. Estimates: Wed 2026-10-28 after the close (MarketBeat, 'estimated') or Wed 2026-11-04 (Nasdaq, from Zacks' algorithm). Our inference (medium) favours about 11-04: Q1 FY27 ended 2026-10-03, a week later than last year's 2025-09-27, and last year's results came 32 days after quarter end (2025-10-29). Last year VIAVI announced the date on 2025-10-15, 14 days before results, so this year's date release would be expected around mid-October (inference, medium). Calls are usually at 4:30 pm ET.",
+  "confirmed": false,
+  "consensus_eps": "$0.35-0.36 non-GAAP (Nasdaq/Zacks $0.35 from 4 analysts; MarketBeat $0.36). Probably stale: below the company's $0.40-0.42 guidance.",
+  "consensus_revenue": "$433.2m (MarketBeat; probably stale, below the $450-460m guidance). Second source not available.",
+  "company_guidance": "Q1 FY27 (ended 2026-10-03): revenue $450-460m; non-GAAP EPS $0.40-0.42 (VIAVI Q4 FY2026 release, 2026-08-05). Management aims for about $500m a quarter during 2027 (call; not in a filing).",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0000912093/000162828026053381/viavq4fy268-kex991.htm",
+   "https://www.marketbeat.com/stocks/NASDAQ/VIAV/earnings/",
+   "https://www.nasdaq.com/market-activity/stocks/viav/earnings",
+   "https://finviz.com/news/194089/viavi-announces-date-for-fiscal-first-quarter-2026-financial-results",
+   "https://www.viavisolutions.com/en-us/news-releases"
+  ]
+ },
+ "analyst_actions": [
+  {
+   "date": "none in window",
+   "firm": "n/a",
+   "action": "No rating or price-target changes found for 2026-10-07 to 2026-10-09. The newest listed action is still Stifel (Ruben Roy) maintaining Buy, $65 target, on 2026-09-23.",
+   "reason": "n/a",
+   "url": "https://stockanalysis.com/stocks/viav/forecast/"
+  },
+  {
+   "date": "2026-10-09 (snapshot)",
+   "firm": "Consensus (StockAnalysis)",
+   "action": "8 analysts, 'Strong Buy'; average target $61.43 (low $44, high $70). MarketBeat's count differs: 1 Strong Buy, 6 Buy, 1 Hold, 1 Sell.",
+   "reason": "aggregator snapshot, opinion",
+   "url": "https://stockanalysis.com/stocks/viav/forecast/"
+  }
+ ],
+ "insiders": {
+  "summary": "No insider trades in the window. The pipeline found 0 open-market buys or sells, and EDGAR shows no Form 4 or Form 144 after 2026-09-23 (checked 2026-10-10 08:30 UTC). MarketBeat's 3-month total (insiders sold $7,976,233, bought $0) covers the August-September sales already in the news log.",
+  "notable": []
+ },
+ "filings": [
+  {
+   "form": "none in window",
+   "items": "",
+   "plain_english": "No VIAV SEC filing between 2026-10-06 and 2026-10-10 08:30 UTC. The newest is the BlackRock Schedule 13G/A of 2026-10-05 (already logged). No 8-K announcing the results date.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000912093&type=&dateb=&owner=include&count=40"
+  }
+ ],
+ "catalysts": [
+  {
+   "date": "around mid-October 2026 (estimated)",
+   "event": "Press release announcing the Q1 FY2027 results date (last year it came 2025-10-15)",
+   "confirmed": false,
+   "url": "https://finviz.com/news/194089/viavi-announces-date-for-fiscal-first-quarter-2026-financial-results"
+  },
+  {
+   "date": "2026-10-28 or 2026-11-04 (estimated)",
+   "event": "Q1 FY2027 results and Q2 outlook (guidance $450-460m revenue, $0.40-0.42 non-GAAP EPS)",
+   "confirmed": false,
+   "url": "https://www.nasdaq.com/market-activity/stocks/viav/earnings"
+  },
+  {
+   "date": "2026-11-11",
+   "event": "Annual shareholder meeting (virtual, 10:00 a.m. Mountain Time)",
+   "confirmed": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm"
+  }
+ ],
+ "thesis_breaker_checks": [
+  {
+   "event": "Guidance cut (rules.toml; VIAV trigger 1)",
+   "found": false,
+   "evidence": "No results, 8-K or company statement in the window; Q1 FY27 guidance of $450-460m stands (EDGAR, newsroom checked 2026-10-10)."
+  },
+  {
+   "event": "Results miss",
+   "found": false,
+   "evidence": "No results in the window; Q1 FY27 not yet reported."
+  },
+  {
+   "event": "Major customer lost",
+   "found": false,
+   "evidence": "No report found in news searches or company releases."
+  },
+  {
+   "event": "8-K Item 4.02 (non-reliance on past financials)",
+   "found": false,
+   "evidence": "No 8-K filed in the window (EDGAR submissions API)."
+  },
+  {
+   "event": "8-K Item 4.01 (auditor change)",
+   "found": false,
+   "evidence": "No 8-K filed in the window. The proxy (2026-10-02) proposes ratifying PwC for FY2027."
+  },
+  {
+   "event": "8-K Item 5.02 (CEO/CFO departure)",
+   "found": false,
+   "evidence": "No 8-K filed in the window."
+  },
+  {
+   "event": "Large dilutive share sale (rules.toml; VIAV trigger 5: 5% or more)",
+   "found": false,
+   "evidence": "No S-3, 424B or offering release in the window (EDGAR). Note: peer AAOI's $600m share sale is AAOI's, not VIAVI's."
+  },
+  {
+   "event": "Regulator investigation or major litigation",
+   "found": false,
+   "evidence": "Search for Viavi lawsuit/investigation/short seller in 2026 found nothing relevant."
+  },
+  {
+   "event": "Two or more analyst downgrades in five trading days",
+   "found": false,
+   "evidence": "No rating changes found since 2026-09-23 (StockAnalysis; downgrade search returned only 2024-2025 items)."
+  },
+  {
+   "event": "Several insiders sold outside 10b5-1 plans (rules.toml; VIAV trigger 6)",
+   "found": false,
+   "evidence": "No Form 4 after 2026-09-23. The August-September cluster (about $6.2m, including the CFO) is outside the window and already logged."
+  },
+  {
+   "event": "VIAV trigger 2: management says data-center testing demand has slowed",
+   "found": false,
+   "evidence": "No management comment in the window. Watch: the FT report on OpenAI revenue is a sector-level doubt about AI spending, not a VIAVI statement."
+  },
+  {
+   "event": "VIAV trigger 3: $500m quarterly aim withdrawn or pushed out",
+   "found": false,
+   "evidence": "No management communication in the window."
+  },
+  {
+   "event": "VIAV trigger 4: revenue falls quarter on quarter without a one-off reason",
+   "found": false,
+   "evidence": "No results in the window."
+  }
+ ],
+ "disconfirming_evidence": [
+  {
+   "claim": "The AI-spending story may be weaker than priced: the FT reported that OpenAI's annualized revenues were $20bn below what it had signaled, and chips fell 3.4%.",
+   "url": "https://finance.yahoo.com/news/p-500-nasdaq-end-lower-203227225.html",
+   "assessment": "Real, tier-2-sourced sector risk. If AI buyers slow data-center spending, VIAVI's data-center test growth would slow too. No sign of that in VIAVI's own disclosures yet (inference, medium)."
+  },
+  {
+   "claim": "Optical stocks are vulnerable to profit taking after very large runs (AAOI +221%, LITE +190% this year before Thursday).",
+   "url": "https://247wallst.com/investing/2026/10/08/optics-stocks-tumble-as-profit-taking-cuts-into-big-yearly-gains-applied-optoelectronics-drops-9-coherent-falls-5-lumentum-slides-4/",
+   "assessment": "Tier 3. VIAV itself is up 155% year to date and +16% in a month (data/metrics), so it carries the same momentum risk."
+  },
+  {
+   "claim": "GuruFocus's 'GF Value' model puts VIAV far above its estimate of fair value ($14.93 vs $46.27, about 210% overvalued).",
+   "url": "https://www.gurufocus.com/news/9114328/viavi-solutions-inc-viav-shares-fall-39-gf-value-says-still-overvalued",
+   "assessment": "Tier 3, model-based opinion that mostly uses past earnings; it does not reflect the recent growth. Still a reminder that the price assumes a lot of future growth."
+  },
+  {
+   "claim": "Analyst views are not unanimous: StockAnalysis's low target is $44 (UBS, Neutral), below Friday's $45.46 close, and MarketBeat counts one Sell rating.",
+   "url": "https://stockanalysis.com/stocks/viav/forecast/",
+   "assessment": "Opinions; no new action in the window."
+  },
+  {
+   "claim": "Searches for lawsuits, investigations, short-seller reports and downgrades found nothing new for 2026.",
+   "url": "https://www.tipranks.com/news/the-fly/viavi-downgraded-to-underweight-from-equal-weight-at-morgan-stanley",
+   "assessment": "The only downgrade surfaced is Morgan Stanley's from 2024 (old, irrelevant). Absence of evidence in a limited search, not proof of none."
+  }
+ ],
+ "open_questions": [
+  "Original source of the Lumentum CEO's 'capacity booked through early 2029' comment: only tier-3 outlets found (24/7 Wall St, TradingKey, GuruFocus), and none names the interviewer. Earlier reports of a Tokyo interview said 'through 2028' (date not verified). The LITE researcher may have a tier-1/2 source.",
+  "Q1 FY2027 results date not announced as of 2026-10-10 08:30 UTC. Aggregators disagree (10-28 vs 11-04).",
+  "Aggregator consensus for Q1 FY27 ($0.35-0.36 EPS, $433.2m revenue) sits below company guidance. A current, reliable consensus was not available (Zacks page blocked).",
+  "Friday volume in the price file (2.78m shares) may be preliminary (fetched 2026-10-09 20:44 UTC); relative volume 0.47 should not be over-read.",
+  "Whether the 2026-10-09 headline 'Expands Network Testing Reach With New AI Security Platform' contains anything new: not opened; most likely a repeat of the 2026-09-29 product release."
+ ],
+ "searches_run": 9
+}

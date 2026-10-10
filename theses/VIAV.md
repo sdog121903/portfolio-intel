@@ -14,7 +14,7 @@ Building faster networks inside and between data centers means testing every fib
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Building faster networks inside and between data centers means testing every fib
 - Operating margin (share left after all running costs): rising (2.5% to 13.8%, +11.3 points).
 - Profit: positive net income in 2 of the last 4 quarters.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +32.7% | +13.7% | +11.7% | +265.8% | +24.3% | -41.8% | 5.2% |
+| +16.0% | +5.5% | +8.8% | +259.1% | +21.2% | -41.8% | 5.4% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -162,3 +162,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-05 (daily report): correction: a fourth insider sale outside a plan (the CFO, about $2.04m on 2026-08-31) was found, missing from the 2026-10-04 research, so the total is about $6.2m. Updated: insider pillar "Now", trigger 6 "Status now" and Facts (BlackRock 10.1%). No change to the reasons, pillars or triggers.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): No material company news (two-day moves matched the sector). No change to facts, pillars, triggers or reasons.

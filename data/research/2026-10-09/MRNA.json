@@ -1,0 +1,187 @@
+{
+  "ticker": "MRNA",
+  "company": "Moderna, Inc.",
+  "window": {"from": "2026-10-07T16:00-04:00 (after Wednesday's US close)", "to": "2026-10-09T16:00-04:00 (Friday's US close); recency checks run 2026-10-10"},
+  "newest_item_checked": "SEC EDGAR submissions for CIK 1682852 re-checked 2026-10-10: newest filing is the Form 4 filed 2026-10-07 (accepted 2026-10-08 00:04 UTC); no 8-K, S-3, 424B or other filing on 10-08 or 10-09. Newest news item: Yahoo Finance article on the NIH cancer-vaccine plan, published 2026-10-09 about 4:13 p.m. New York time (10:13 p.m. GMT+2).",
+  "events": [
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "industry/policy news (government programme for personalised cancer vaccines), reported by the press, not announced by Moderna",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "The New York Times reported on Friday that the National Institutes of Health (NIH) plans to launch in December a public-private partnership to speed up personalised cancer vaccines. Partners would include the NIH, its nonprofit arm (the Foundation for the NIH), researchers, drug and biotech companies, advocacy groups and patients. It would start with pancreatic, liver and colorectal cancers and some childhood tumours. A first phase of small studies would take about three years, and larger trials at least four. The goal is for anyone to be able to get a cancer vaccine in 7 to 10 years, against the 8 to 15 years an FDA approval usually takes. Stacey Adam, a senior clinical officer at the foundation, said she expects the programme to launch in December. Yahoo Finance said Moderna rose 14% after the report, to its highest level since January 2022; Novavax rose 15%, and Pfizer, BioNTech and Merck also rose. No Moderna statement, no funding figure and no named company partners were found. The NYT's exact publication time is not available. Yahoo Finance's live blog first links it to Moderna at 12:44 p.m. New York time, with Moderna up 9% at that point. The plan itself is not brand new: the Cancer Letter reported on 2026-03-20 that NCI Director Anthony Letai and the Foundation for the NIH were developing a cancer-vaccine plan with a $200 million target. Friday's news was the new details (December launch, which cancers, timeline).",
+      "why_it_matters": "Moderna's value rests mostly on its personalised cancer vaccine (intismeran, with Merck). A government push for exactly this kind of medicine reads as a sign that development and approval paths could get faster and use could widen. That is good for sentiment. But it brings no money or contract to Moderna that anyone has disclosed, the first cancers are not melanoma, and the timeline is 7 to 10 years. So it changes what investors feel more than what Moderna will earn soon (inference, medium).",
+      "direction": "supports",
+      "sources": [
+        {"name": "Yahoo Finance (Grace O'Donnell), 'Moderna stock hits 4-year high on planned national cancer vaccine effort', citing The New York Times", "date": "2026-10-09", "url": "https://finance.yahoo.com/markets/stocks/article/moderna-stock-jumps-on-planned-national-cancer-vaccine-effort-161458165.html", "tier": 3},
+        {"name": "Yahoo Finance live blog, entry at 4:44 p.m. UTC (12:44 p.m. New York)", "date": "2026-10-09", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html", "tier": 3},
+        {"name": "Becker's Hospital Review, 'NIH plans national effort on personalized cancer vaccines: 6 notes' (page blocked; details from search summary)", "date": "2026-10-09", "url": "https://www.beckershospitalreview.com/quality/patient-safety-outcomes/nih-plans-national-effort-on-personalized-cancer-vaccines-6-notes/", "tier": 3},
+        {"name": "The New York Times (original report; could not be fetched, not read directly)", "date": "2026-10-09", "url": "https://www.nytimes.com/2026/10/09/science/cancer-vaccines-nih-big-bet.html", "tier": 2},
+        {"name": "The Cancer Letter, 'Hoping to hit a $200M target, NCI and FNIH develop a plan for advancing cancer vaccines' (earlier background; paywalled excerpt)", "date": "2026-03-20", "url": "https://cancerletter.com/nci/20260320_1/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "industry move (biotech and vaccine stocks rallied together)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Biotech rose broadly on Friday. The XBI fund gained 3.00% (149.29 to 153.77) against +0.60% for the S&P 500 fund SPY, though XBI is still below its 10-05 close of 156.19 and its 52-week closing high of 169.55 (data/prices). Vaccine names led: Novavax +16%, Moderna +11% and Merck +3% at 1:59 p.m. New York time. 24/7 Wall St found that 'no announcement, filing, analyst action, trial result or scheduled event' explained Novavax's jump and called it a 'sector-wide bid'. The wider market rose on easing oil prices and a tech rebound. The 10-year Treasury yield rose slightly, to about 5.24 to 5.25%, near a 24-year high, so falling interest rates were not the cause. No biotech takeover announced on Friday was found.",
+      "why_it_matters": "This is the 'industry' part of Friday's move. Read the attribution carefully: the model gives 7.33 points to biotech only because it estimates Moderna moves 3.05 times as much as XBI, a figure inflated by the 177% jump in August. At a ratio of about 1 to 1.5 the biotech part would be about 3 to 4.5 points, leaving roughly 9 to 10 points that belong to Moderna (our arithmetic; inference, medium).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "24/7 Wall St, 'Novavax Soars 16%, Moderna Surges 11%, Merck Climbs 3% as Biotech Rallies' (1:59 p.m. ET)", "date": "2026-10-09", "url": "https://247wallst.com/investing/2026/10/09/novavax-soars-16-moderna-surges-11-merck-climbs-3-as-biotech-rallies/", "tier": 3},
+        {"name": "Yahoo Finance live blog (market drivers, yields, closing index moves)", "date": "2026-10-09", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html", "tier": 3},
+        {"name": "data/prices/XBI.csv and SPY.csv (pipeline, Yahoo prices fetched 2026-10-09 20:44 UTC)", "date": "2026-10-09", "url": "not applicable (local data)", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "before open",
+      "type": "index inclusion (took effect; announced 2026-10-01)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Moderna joined the Nasdaq-100 index before Friday's open, replacing Warner Bros. Discovery, which left after its merger with Paramount Skydance. The announcement itself (2026-10-01) is already in the news log; what is new is that it took effect. Funds that track the index usually buy at the last close before the change, here Thursday 10-08. Thursday's volume was 37.4 million shares, 2.41 times its 20-day average of about 15.5 million, while the price moved only +0.26%. That fits large index buying at Thursday's close (inference, high; closing-auction figures not available). Nasdaq says more than 200 investment products with over $800 billion in assets track the index. Several market sites (24/7 Wall St at 11:48 a.m., MarketBeat, StocksToTrade) credited Friday's jump to the inclusion. That mixes up the timing: the mechanical buying should have happened at Thursday's close, not during Friday (inference, medium-high).",
+      "why_it_matters": "Index buying is a one-time flow of shares changing hands; it does not change the business. It may have kept the stock in the news and created momentum, but it is not a sound explanation of Friday's +14.21%.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Nasdaq via GlobeNewswire, 'Moderna, Inc. to Join the Nasdaq-100 Index Beginning October 9, 2026'", "date": "2026-10-01", "url": "https://www.globenewswire.com/news-release/2026/10/02/3373491/6948/en/index.html", "tier": 1},
+        {"name": "24/7 Wall St, 'Moderna Climbs 5% on NASDAQ 100 Entry' (11:48 a.m. ET)", "date": "2026-10-09", "url": "https://247wallst.com/investing/2026/10/09/moderna-climbs-5-on-nasdaq-100-entry-pfizer-inches-higher-biontech-ticks-up/", "tier": 3},
+        {"name": "data/prices/MRNA.csv (volume 2026-10-08: 37,400,000)", "date": "2026-10-08", "url": "not applicable (local data)", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "before open",
+      "type": "partnership / commercial readiness (counterparty press release)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "NOT IN THE NEWS LOG (missed by the 10-07 report; it came out before the window opened). At 8:30 a.m. on 2026-10-07 (Business Wire, Chicago), Tempus announced an expanded multi-year collaboration with Moderna and Merck to support the possible commercial launch of intismeran with Keytruda. Tempus will manage the collection and transfer of tumour tissue and blood samples for next-generation sequencing [NGS: reading a tumour's DNA to find its mutations]. Subject to regulatory approvals, it will also provide the NGS services used to design and make each patient's vaccine. Financial terms were not disclosed. The joint work began 'last year' (2025). Tier-3 market coverage on 10-09 (TradingKey, MarketBeat) mentioned it as background to the rally.",
+      "why_it_matters": "A personalised vaccine needs every patient's tumour sample collected, sequenced and turned into a recipe quickly. Signing the partner for that step is a practical sign that Moderna and Merck are preparing for a launch. It also shows Merck still working on the product together with Moderna (thesis pillar 3). No money figures were disclosed. It may be part of why Moderna rose 4.81% on Wednesday 10-07, which the 10-07 report called unexplained (inference, low).",
+      "direction": "supports",
+      "sources": [
+        {"name": "Tempus press release, 'Tempus Announces Multi-Year Collaboration with Moderna and Merck' (page returned HTTP 429; details from the BioSpace copy and a search summary)", "date": "2026-10-07", "url": "https://www.tempus.com/news/pr/tempus-announces-multi-year-collaboration-with-moderna-and-merck/", "tier": 1},
+        {"name": "BioSpace (press-release copy)", "date": "2026-10-07", "url": "https://www.biospace.com/press-releases/tempus-announces-multi-year-collaboration-with-moderna-and-merck", "tier": 3},
+        {"name": "Finviz listing of the Business Wire release (time 8:30 a.m.)", "date": "2026-10-07", "url": "https://finviz.com/news/399834/tempus-announces-multi-year-collaboration-with-moderna-and-merck", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "after close",
+      "type": "insider filing (Form 4, routine)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "CFO James Mock filed a Form 4 on 2026-10-07 (accepted 8:04 p.m. New York time). On 2026-10-05 he received 1,454 shares from a vested award (code M). Then 704 shares were withheld at $190.01 (about $133,767) to pay the tax (code F). He holds 60,125 shares afterwards. No open-market purchase or sale.",
+      "why_it_matters": "Routine pay-related paperwork. It says nothing about the CFO's view of the stock.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4 (James M. Mock)", "date": "2026-10-07", "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000185/xslF345X06/form4.xml", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Moderna closed at $225.00 on Friday, +14.21%, at the day's high and at a new 52-week closing high. It opened only +1.06% at $199.10 and climbed all day: about +5% ($207.80) at 11:48 a.m. New York time, about +9% at 12:44 p.m. and about +11% at 1:59 p.m. That gradual climb points to buying that built up through the day, not one overnight announcement.", "evidence": "data/prices/MRNA.csv; https://247wallst.com/investing/2026/10/09/moderna-climbs-5-on-nasdaq-100-entry-pfizer-inches-higher-biontech-ticks-up/ ; https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html ; https://247wallst.com/investing/2026/10/09/novavax-soars-16-moderna-surges-11-merck-climbs-3-as-biotech-rallies/"},
+    {"rung": 2, "text": "Part of it was the whole biotech group: XBI +3.00% against SPY +0.60%, with vaccine stocks leading (Novavax +16%, Merck +3% at 1:59 p.m.), and no single sector-wide catalyst identified. The model's 7.33-point 'industry' share is inflated by its 3.05 ratio; at a ratio of about 1 to 1.5 the biotech part would be about 3 to 4.5 points.", "evidence": "data/prices/XBI.csv, SPY.csv; https://247wallst.com/investing/2026/10/09/novavax-soars-16-moderna-surges-11-merck-climbs-3-as-biotech-rallies/ ; size estimate: inference (medium)"},
+    {"rung": 3, "text": "The Moderna-specific trigger most often cited: on Friday the New York Times reported that the NIH plans to launch in December a public-private partnership to speed up personalised cancer vaccines, the same type of medicine as Moderna's intismeran. Yahoo Finance and Benzinga tied Moderna's rise to the report; Yahoo said Moderna 'popped 14%'.", "evidence": "https://finance.yahoo.com/markets/stocks/article/moderna-stock-jumps-on-planned-national-cancer-vaccine-effort-161458165.html ; https://www.beckershospitalreview.com/quality/patient-safety-outcomes/nih-plans-national-effort-on-personalized-cancer-vaccines-6-notes/ ; NYT original not read directly"},
+    {"rung": 4, "text": "Why that moves the price: investors read government backing as a sign that personalised cancer vaccines could be tested, approved and used faster and more widely, which makes Moderna's main hope look bigger or nearer. Nothing concrete changed for Moderna: no money or contract was disclosed, melanoma is not among the first cancers, the timeline is 7 to 10 years, and a $200 million version of the plan was already reported in March 2026.", "evidence": "inference (medium); background: https://cancerletter.com/nci/20260320_1/"},
+    {"rung": 5, "text": "Flows and timing amplified it. Index buying for the Nasdaq-100 entry most likely happened at Thursday's close (volume 37.4m, 2.41 times normal, price +0.26%), so it does not explain Friday directly. Moderna was, however, widely in the news and in new index portfolios, already the year's biggest biotech mover, and 15 days from its ESMO data. Traders buying ahead of 10-24 and short sellers buying back into a rising close (it closed exactly at the high) are plausible but unproven.", "evidence": "data/prices/MRNA.csv; https://www.globenewswire.com/news-release/2026/10/02/3373491/6948/en/index.html ; pre-data buying / short covering: inference (low)"},
+    {"rung": 6, "text": "Basic driver: today's business is small (Q2 revenue $145m, net loss $0.8bn), so almost all of the share price is a bet on the cancer-vaccine future. Any headline that makes that future look larger or closer moves the stock by multiples of a normal stock's move, in both directions. That is why a news report about a government programme could add about $28 a share (our arithmetic: $225.00 minus $197.00) in one day.", "evidence": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm ; conclusion: inference (high)"}
+  ],
+  "products": [
+    {
+      "name": "intismeran autogene (mRNA-4157 / V940), with Merck's Keytruda",
+      "what_it_is": "A personalised mRNA cancer vaccine. After surgery, the patient's tumour is sequenced and a medicine is made for that one patient, training the immune system to recognise the tumour's own mutations. It is given together with Merck's immunotherapy Keytruda.",
+      "analogy": "Like printing a 'wanted poster' from one criminal's own fingerprints, so the police (the immune system) can catch him if he comes back.",
+      "buyers": "Hospitals and cancer centres treating patients after melanoma surgery (stage IIB-IV in the Phase 3), paid for by insurers and health systems (inference). Other cancers are in trials: posters at ESMO 2026 cover pancreatic cancer (with FOLFIRINOX chemotherapy) and early-stage lung cancer (INTerpath-014).",
+      "how_it_works": "1) Tumour tissue and blood are collected and sequenced. Since 10-07, Tempus is the named partner for this logistics and next-generation-sequencing step, subject to regulatory approvals. 2) Software picks the mutation fragments unique to the tumour. 3) Moderna writes an mRNA coding for them and manufactures one batch per patient. 4) Injected alongside Keytruda, it teaches T-cells to hunt cells carrying those mutations. Merck and Moderna share costs and profits 50/50.",
+      "price": "not disclosed (not approved)",
+      "sales": "none: not approved, and no filing date announced. Proxy (labelled analyst opinion): Citi argues the share price already assumes about $13bn a year of cancer-vaccine sales [CNBC, 2026-09-30].",
+      "sales_source": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html",
+      "stage": "Phase 3 INTerpath-001 (1,137 patients) met its main goals, relapse-free and distant-metastasis-free survival, at a pre-planned interim analysis (2026-08-19). Full data at ESMO as LBA1 in the Presidential Symposium on 2026-10-24 at 10:30 a.m. New York time. Commercial preparation is under way (Tempus collaboration, 2026-10-07).",
+      "size_for_company": "Zero revenue today. Citi's implied $13bn a year would be about 6.7 times Moderna's 2025 revenue of $1.944bn (SEC filings; our calculation), before the 50/50 split with Merck.",
+      "competition": "Other personalised or neoantigen cancer-vaccine programmes, e.g. BioNTech's mRNA cancer vaccines (not researched in detail in this run). The standard treatment it is compared against is Keytruda alone. The NIH plan reported on 10-09 could bring more academic and company programmes into the field over 7 to 10 years (inference).",
+      "why_investors_care": "It is the main reason for the stock's 662.97% gain this year (data/metrics). Headlines about personalised cancer vaccines, even ones not about Moderna directly (the NIH plan on 10-09), move the stock sharply.",
+      "watch_next": "ESMO 2026-10-24: the size of the benefit (hazard ratios), side effects, independent experts' comments, and the company webcast at 1:00 p.m. New York time. Then any filing timeline (likely at Q3 results) and manufacturing and sequencing capacity for one-batch-per-patient production."
+    }
+  ],
+  "earnings": {
+    "status": "upcoming",
+    "date": "early November 2026 (estimated; not announced)",
+    "confirmed": false,
+    "consensus": {"q3_2026_eps": "-$1.27 average (15 analysts; range -$3.28 to -$0.53), Yahoo Finance, fetched 2026-10-10", "q3_2026_revenue": "$892.38m average (14 analysts; range $836m to $1.12bn), Yahoo Finance, fetched 2026-10-10; was $894.83m on 2026-10-07", "fy2026_revenue": "$2.1bn average (21 analysts)", "fy2026_eps": "-$8.39 average (21 analysts)"},
+    "actual": {},
+    "guidance": {"fy2026_revenue": "up to 10% growth from 2025 revenue (2025 = $1.944bn, so at most about $2.14bn; our calculation)", "q3_timing": "about 55% of second-half 2026 revenue to be recognised in Q3", "year_end_2026_cash_and_investments": "$4.7bn to $5.2bn (set before the $3.0bn convertible)", "source": "Moderna Q2 2026 results, 2026-07-31"},
+    "key_metrics": {"to_watch": "Q3 product sales split (COVID vs the new mFLUSIVA flu shot), cash and investments, net loss versus a year earlier (Q3 2025: -$200m), any intismeran filing timeline"},
+    "quality_flags": ["Q3 revenue consensus (about $892m) sits at or slightly above the roughly $0.88bn that the company's own full-year guidance seems to allow for Q3 (our rough calculation from the 2026-10-07 research): a possible 'miss' set-up."],
+    "management_explanation": "not applicable (no results in the window)",
+    "sources": ["https://finance.yahoo.com/quote/MRNA/analysis/", "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm"]
+  },
+  "next_earnings": {
+    "date": "early November 2026, estimated (not announced on Moderna IR or in an 8-K as of 2026-10-10). Past Q3 releases: 2025-11-06 and 2024-11-07.",
+    "confirmed": false,
+    "consensus_eps": "-$1.27 for Q3 2026 (15 analysts; Yahoo Finance, fetched 2026-10-10)",
+    "consensus_revenue": "$892.38m for Q3 2026 (14 analysts; Yahoo Finance, fetched 2026-10-10)",
+    "company_guidance": "No quarterly guidance. FY2026 revenue up to 10% growth on 2025 (at most about $2.14bn, our calculation); about 55% of second-half revenue in Q3; year-end cash and investments $4.7bn to $5.2bn [Moderna Q2 2026 results, 2026-07-31]",
+    "sources": ["https://finance.yahoo.com/quote/MRNA/analysis/", "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm", "https://data.sec.gov/submissions/CIK0001682852.json"]
+  },
+  "analyst_actions": [
+    {"date": "2026-10-07", "firm": "Morgan Stanley", "action": "Kept Equal Weight; price target raised from $89 to $95 (about 58% below Friday's $225.00 close, our arithmetic)", "reason": "not available. UNCONFIRMED: found only on auto-generated sites (MarketBeat instant alert, Defense World, ad-hoc-news), which our source rules say not to cite as evidence; no tier-1/2 confirmation.", "url": "https://www.marketbeat.com/instant-alerts/analyst-moderna-nasdaq-mrna-stock-price-expected-to-rise-morgan-stanley-analyst-says-2026-10-07/"},
+    {"date": "not available", "firm": "Bank of America", "action": "Neutral kept; price target reportedly raised from $170 to $200", "reason": "TradingKey (2026-10-09) quotes analyst Alec Stranahan calling the results a 'watershed moment'. UNVERIFIED: date not given, a confirming search found nothing, and the quote may date from August. Do not use without a second source.", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262208886-moderna-nasdaq-100-inclusion-stock-surge-melanoma-vaccine-esmo-tradingkey"},
+    {"date": "2026-09-30", "firm": "Citi (context, already in news log)", "action": "Downgraded to Sell; target $80", "reason": "Price already assumes about $13bn a year of cancer-vaccine sales", "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html"},
+    {"date": "2026-09-03", "firm": "Rothschild & Co Redburn (context, not in news log)", "action": "Downgraded Neutral to Sell; target raised $40 to $81 (analyst Simon Baker)", "reason": "'the overexuberant reaction to the news is beyond our reconciliation under any plausible scenario, leaving the stock considerably overvalued' (tier 3 source)", "url": "https://www.edgen.tech/news/post/rothschild-redburn-cuts-moderna-to-sell-as-527-rally-outpaces-data"},
+    {"date": "2026-10 (as reported)", "firm": "Consensus (aggregators disagree)", "action": "Average target $118.42 from 19 analysts (TradingView) or $78.17 with a 'Hold' consensus of 7 Buy / 13 Hold / 5 Sell (MarketBeat, avoid-tier). Both are far below $225.00.", "reason": "opinion aggregates; methods differ", "url": "https://www.tradingview.com/news/tradingview:a5d783d865777:0-moderna-inc-stock-12-month-price-target-raised-to-118-42-implies-40-downside/"}
+  ],
+  "insiders": {
+    "summary": "No open-market buys or sells in the window. The only filing is CFO James Mock's Form 4 (filed 2026-10-07): 1,454 shares received from a vested award and 704 withheld at $190.01 for tax, routine. Earlier sales by the President (Hoge), the CFO (Mock) and the CEO (Bancel) in August and September were made under pre-planned 10b5-1 plans (2026-10-04 research), outside this window.",
+    "notable": [
+      {"name": "James M. Mock", "role": "Chief Financial Officer", "form": "4", "transactions": "2026-10-05: +1,454 shares (code M); -704 shares withheld for tax at $190.01, about $133,767 (code F)", "shares_owned_after": 60125, "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000185/xslF345X06/form4.xml"}
+    ]
+  },
+  "filings": [
+    {"form": "4", "items": "codes M and F", "plain_english": "The CFO received 1,454 shares from a vested award and handed 704 back to cover the tax. Paperwork, not a decision to buy or sell.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000185/xslF345X06/form4.xml"},
+    {"form": "none", "items": "", "plain_english": "No 8-K, share-sale registration (S-3/424B) or other company filing on 2026-10-08 or 2026-10-09 (EDGAR re-checked 2026-10-10). Moderna did not formally disclose anything during the jump.", "materiality": "low", "url": "https://data.sec.gov/submissions/CIK0001682852.json"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-24", "event": "Full Phase 3 INTerpath-001 melanoma data at ESMO, Presidential Symposium LBA1, 10:30 a.m. New York time (presenter Georgina V. Long); company webcast 1:00 p.m. New York time. Also two posters: intismeran with FOLFIRINOX chemotherapy in pancreatic cancer, and INTerpath-014 in stage I lung cancer (poster dates not available).", "confirmed": true, "url": "https://www.newswire.com/news/moderna-announces-late-breaking-data-to-be-presented-at-esmo-congress-2026"},
+    {"date": "early November 2026 (estimated)", "event": "Q3 2026 results (date not announced; past Q3 releases 2025-11-06 and 2024-11-07)", "confirmed": false, "url": "https://data.sec.gov/submissions/CIK0001682852.json"},
+    {"date": "December 2026 (as reported)", "event": "NIH / Foundation for the NIH personalised cancer-vaccine partnership expected to launch (per the NYT, via Yahoo Finance); no official NIH announcement found", "confirmed": false, "url": "https://finance.yahoo.com/markets/stocks/article/moderna-stock-jumps-on-planned-national-cancer-vaccine-effort-161458165.html"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "Guidance cut", "found": false, "evidence": "No results, 8-K or company release in the window (EDGAR checked 2026-10-10)."},
+    {"event": "Results miss", "found": false, "evidence": "No results in the window; Q3 expected early November (not announced)."},
+    {"event": "Major customer lost", "found": false, "evidence": "Nothing found in news or filings."},
+    {"event": "8-K Item 4.02 (past results no longer reliable)", "found": false, "evidence": "No 8-K filed since 2026-09-30 (EDGAR submissions, re-checked 2026-10-10)."},
+    {"event": "8-K Item 4.01 (auditor change)", "found": false, "evidence": "No 8-K filed since 2026-09-30."},
+    {"event": "CEO or CFO left (Item 5.02)", "found": false, "evidence": "No 8-K in the window. The CFO filed a routine Form 4 on 10-07. The last 5.02 (2026-09-30) was the new COO; CEO and CFO unchanged."},
+    {"event": "Large dilutive share sale (S-3, 424B, Item 3.02)", "found": false, "evidence": "No new filing. On the September convertible notes, Friday's $225.00 close is 6.8% above the about $210.58 conversion price, but that does not trigger conversion by itself. Before 2031-12-01, holders may convert only under set conditions, mainly the stock being at least 150% of the conversion price (about $315.87, our arithmetic) for 20 of 30 trading days ending on the last trading day of the previous quarter. Moderna may settle in cash, shares or a mix, and the capped call offsets dilution up to about $392.62. The $3.0bn total already includes the $400m option (8-K wording checked; one earlier research note's '$3.4bn' was wrong) [SEC 8-K, 2026-09-01]."},
+    {"event": "Regulator investigation or major litigation", "found": false, "evidence": "Nothing new in the window. Background, outside the window: on 2026-09-28 a Delaware federal court reportedly denied Moderna's motion to dismiss a Monsanto (Bayer) mRNA patent suit (Tradingpedia, 2026-09-30, tier 3; already an open question in earlier research, not yet confirmed on the docket)."},
+    {"event": "Two or more analyst downgrades within five trading days", "found": false, "evidence": "No downgrade found in the window. Morgan Stanley (10-07, unconfirmed) raised its target and kept Equal Weight. The recent downgrades, Citi on 2026-09-30 and Rothschild & Co Redburn on 2026-09-03, are weeks apart."},
+    {"event": "Several insiders sold outside 10b5-1 plans", "found": false, "evidence": "Pipeline: 0 open-market sells and 0 buys; the only insider filing is the CFO's routine M/F Form 4."},
+    {"event": "MRNA trigger 1: full data show a smaller benefit or safety problems", "found": false, "evidence": "Data not out until 2026-10-24."},
+    {"event": "MRNA trigger 2: regulators reject or delay approval", "found": false, "evidence": "No regulatory news found; filing timing not announced."},
+    {"event": "MRNA trigger 3: Merck pulls out of the partnership", "found": false, "evidence": "The opposite: the 2026-10-07 Tempus release names both Moderna and Merck in launch preparation. Merck shares rose about 3% on Friday."},
+    {"event": "MRNA trigger 4: flu shot sells poorly", "found": false, "evidence": "Not checkable until Q3 results."},
+    {"event": "MRNA trigger 5: further late-stage trial failures", "found": false, "evidence": "None found in the window (limited search)."},
+    {"event": "MRNA trigger 6: another large share or bond sale", "found": false, "evidence": "No S-3, 424B or 8-K Item 3.02 in the window."},
+    {"event": "MRNA trigger 7: losses grow faster than plan", "found": false, "evidence": "Not checkable until Q3 results."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "The NIH plan behind Friday's jump is not new and gives Moderna nothing concrete: a $200m-target cancer-vaccine plan led by NCI Director Anthony Letai and the Foundation for the NIH was reported in March 2026. The first cancers are pancreatic, liver, colorectal and childhood tumours (not melanoma), and the goal is 7 to 10 years away.", "url": "https://cancerletter.com/nci/20260320_1/", "assessment": "Strong point: Friday's move reads as sentiment about the field, not new earnings power for Moderna. $200m is also small next to Moderna's own $2.9bn R&D guidance for 2026."},
+    {"claim": "24/7 Wall St found no announcement, filing, analyst action, trial result or scheduled event behind the vaccine-stock surge and called it a 'sector-wide bid'.", "url": "https://247wallst.com/investing/2026/10/09/novavax-soars-16-moderna-surges-11-merck-climbs-3-as-biotech-rallies/", "assessment": "Published at 1:59 p.m. and may have missed the NYT story, but it confirms part of the move was speculative group buying that can reverse, as it did on 10-06."},
+    {"claim": "Professional analysts mostly see the stock far below $225: Citi Sell $80 (09-30), Redburn Sell $81 (09-03), Morgan Stanley Equal Weight $95 (10-07, unconfirmed), average targets of $78 to $118 depending on the aggregator.", "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html", "assessment": "Opinions, not facts, but the gap between price and targets is unusually wide. The stock is priced for a large cancer franchise before the full data are public."},
+    {"claim": "The price is stretched: RSI 72.1 ('hot'), 209.8% above its 200-day average and 22.9% above its 20-day average; up 662.97% this year.", "url": "data/metrics/2026-10-09.json", "assessment": "Describes speed, not direction. After the 177% jump of 08-19 it fell 14% over the next five days (news log)."},
+    {"claim": "Monsanto (Bayer) mRNA patent suit survived a motion to dismiss on 2026-09-28.", "url": "https://www.tradingpedia.com/2026/09/30/moderna-shares-sink-after-citi-downgrade-and-legal-setback/", "assessment": "Pre-window, tier 3 only, damages not stated; a slow-moving legal risk, not a cause of Friday's move."}
+  ],
+  "open_questions": [
+    "Exact publication time of the NYT report, and whether the NIH or the Foundation for the NIH has published an official statement (none found). Funding size for the December launch, and whether Moderna or Merck are named partners: not available.",
+    "No tier-2 article on Moderna's Friday move could be read (NYT fetch blocked, CNBC 403). The NYT/NIH link rests on several tier-3 outlets (Yahoo Finance editorial and live blog, Becker's, Benzinga, Stocktwits) that all cite the NYT.",
+    "Friday's volume (28.7m, 1.69x) may be incomplete: prices were fetched at 4:44 p.m. New York time, and SPY's Friday volume (21.4m vs 40.4m Thursday) also looks partial.",
+    "Thursday's closing-auction size (the index buying itself) is not available; only daily volume (37.4m, 2.41x its 20-day average) supports it.",
+    "Bank of America's reported $200 target: date and existence unverified. Morgan Stanley's $95 target appears only on auto-generated sites.",
+    "Whether the Tempus announcement (10-07, before the open) partly explains Wednesday's +4.81%, which the 10-07 report called unexplained; the news log should add it as a missed 10-07 item.",
+    "Q3 2026 results date not announced (estimate early November).",
+    "The Monsanto patent ruling (2026-09-28) is still not confirmed on the court docket or in a filing."
+  ],
+  "searches_run": 17
+}

@@ -14,7 +14,7 @@ Power is now one of the biggest bottlenecks for AI: new data centers can wait ye
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -33,11 +33,11 @@ Power is now one of the biggest bottlenecks for AI: new data centers can wait ye
 - Profit: positive net income in 2 of the last 4 quarters.
 - **Data warning:** Newest quarter in the SEC data ends 2026-03-31 (187 days ago): a later report may exist but is missing from the XBRL data. Do not call these the latest results; check the newest 10-Q or 10-K.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +15.2% | +14.6% | +98.5% | +238.5% | +38.3% | -52.6% | 6.6% |
+| +4.2% | +14.7% | +68.3% | +223.7% | +32.0% | -52.6% | 6.8% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -129,7 +129,7 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Counts if:* A tier-1/2 report that a large data-center customer picked another technology for a major site over Bloom.
    - *Early warning:* Several big new data-center power deals announced without Bloom.
    - *Where and when to check:* News in every daily report.
-   - *Status now (2026-10-04):* Not hit.
+   - *Status now (2026-10-09):* Not hit; written early warning (several big new deals without Bloom) not met. Noted: Oracle praised an existing rival supplier (VoltaGrid) for other sites on 2026-10-08.
 3. **Operating cash flow turns negative again for two quarters.** *(Thesis 2)*
    - *Why it matters:* It would push Bloom back to needing outside money.
    - *Counts if:* Negative operating cash flow in two quarters in a row.
@@ -153,7 +153,7 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Counts if:* The gas pipeline's completion moves beyond the end of 2027.
    - *Early warning:* Any further slip beyond February 2027.
    - *Where and when to check:* News in every daily report.
-   - *Status now (2026-10-04):* Not hit.
+   - *Status now (2026-10-09):* Not hit. Pipeline target unchanged at 2027-02-01; Oracle is weighing trucked gas for Jupiter in the meantime [Yahoo Finance, 2026-10-09](https://finance.yahoo.com/energy/articles/oracle-trucks-natural-gas-data-150844664.html).
 7. **A regulator or court finds Bloom's supply-chain statements were false.** *(whole position; added 2026-10-05)*
    - *Why it matters:* It would confirm the short-seller's claim and damage trust in the company.
    - *Counts if:* A court ruling against Bloom on the merits, an SEC action, or a restatement linked to the claims.
@@ -161,7 +161,12 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* Court news; 10-Q legal note.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-04 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- Bloomberg (2026-10-08, during trading): Oracle has trucked compressed natural gas to at least two data-center sites while waiting for pipelines and is weighing the same for Project Jupiter; Bloom was down more than 7.5% after the report [Investing.com, 2026-10-08](https://www.investing.com/news/stock-market-news/bloom-energy-shares-fall-on-report-of-oracle-using-natural-gas-for-data-centers-4939543) [Searchlight New Mexico, 2026-10-09](https://searchlightnm.org/oracle-to-consider-delivering-natural-gas-by-truck-to-project-jupiter/)
+- Oracle's quoted statement praised VoltaGrid (an existing Oracle on-site power supplier) for keeping other sites on schedule; trucked gas estimated at about four times pipeline-hub prices (East Daley Analytics); Jupiter still described as running on Bloom fuel cells; pipeline target 2027-02-01 [Yahoo Finance, 2026-10-09](https://finance.yahoo.com/energy/articles/oracle-trucks-natural-gas-data-150844664.html)
+- Oracle's long-term debt has nearly doubled to more than $160bn in two years and it is seeking financing for AI chip purchases [Yahoo Finance, 2026-10-08](https://finance.yahoo.com/technology/article/oracle-stock-falls-on-more-debt-to-fund-ai-chip-buying-openai-revenue-disclosure-181653494.html)
+- To check: research relays Bloom's 2026-04-13 release as Oracle intending up to 2.8 GW with 1.2 GW contracted; this file describes Jupiter (up to 2.45 GW) as "still under contract". How much of Jupiter is firmly contracted needs confirming in the original release.
+- Stock −6.34% on 10-08 (power-for-AI peers fell as much: Vistra −6.35%, Oklo −6.11%, FuelCell −6.10%), +2.82% on 10-09 (data/metrics; Yahoo price data)
 - Q2 2026 revenue $1,065.4m (+165.5%); operating cash flow $226.4m; 2026 outlook raised to $3.9-4.2bn [Bloom Q2 2026 results, 2026-07-28](https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm)
 - Oracle invoked force majeure on Project Jupiter (up to 2.45 GW of Bloom fuel cells); gas pipeline slipped to February 2027; contract stands per all sides [CNBC, 2026-09-24](https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html)
 - Securities class action filed 2026-07-30 after a Hunterbrook report on Chinese scandium; Bloom calls it false [D&O Diary, 2026-08-02](https://www.dandodiary.com/2026/08/articles/geopolitical-risk/geopolitical-issues-lead-to-securities-suit-against-fuel-cell-company/)
@@ -172,3 +177,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-04: Created when the holding appeared in the FIDELITY sheet.
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (Oracle trucked gas and VoltaGrid comment, Oracle debt, contracted-GW question). Triggers 2 and 6 status refreshed. No change to the reasons, pillars or triggers.

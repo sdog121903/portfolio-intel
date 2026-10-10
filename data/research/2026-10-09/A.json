@@ -1,0 +1,162 @@
+{
+  "ticker": "A",
+  "company": "Agilent Technologies Inc",
+  "window": {"from": "2026-10-07 16:00 ET (after the Wednesday close)", "to": "2026-10-09 after the US close (Friday)"},
+  "newest_item_checked": "SEC EDGAR submissions API re-checked 2026-10-10 (Madrid date): newest Agilent filing is still the EFFECT notice accepted 2026-09-24 (no filing in the window). Newest news item: MarketBeat headline list as of 2026-10-09 (a 13F holder alert dated 2026-10-09). Intraday prices to the 2026-10-09 16:00 ET close (Yahoo chart data).",
+  "events": [
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "sector move (no company news)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Agilent closed -0.54% ($169.09 to $168.17) but fell as much as -3.41% during the day (low $163.32). The 15-minute bars show it was already down about 2.8% shortly after the open ($164.30), stayed low until about 1 p.m. New York time, then recovered. The same pattern hit the whole health-care group: health-care fund XLV low -2.14% and close -0.39%; Thermo Fisher low -4.04%, close -1.52%; Danaher low -3.10%, close -0.47%; Waters low -3.30%, close -1.57%; Revvity low -4.49%, close -0.94%; Eli Lilly low -4.84%, close -1.61%. The S&P 500 fund (SPY) fell less (low -0.87%, close -0.42%) and kept falling into the afternoon while health care recovered. No Agilent news and no SEC filing that day.",
+      "why_it_matters": "Thursday's dip was a health-care-wide move, not Agilent-specific: the pipeline put the company-specific part at +0.04 points (z-score 0.02). No tier-1 or tier-2 source explaining the sector's weak open was found (cause unknown).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Pipeline price data (data/prices/A.csv, XLV.csv, SPY.csv)", "date": "2026-10-09", "url": "data/prices/A.csv", "tier": 1},
+        {"name": "Yahoo Finance chart data (daily and 15-minute, A, XLV, SPY, TMO, DHR, WAT, RVTY, LLY)", "date": "2026-10-09", "url": "https://query1.finance.yahoo.com/v8/finance/chart/A?range=5d&interval=1d", "tier": 3},
+        {"name": "Pipeline attribution (data/research/2026-10-09/thursday-attribution.json)", "date": "2026-10-09", "url": "data/research/2026-10-09/thursday-attribution.json", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "sector move (no company news)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Agilent rose +1.41% to $170.54 (high $172.19). Health care rose more than the market: XLV +1.58%, SPY +0.60%. Lab-tools peers rose by similar amounts: Thermo Fisher +0.93%, Danaher +1.08%, Waters +1.08%, Revvity +1.33%, Mettler-Toledo +1.34%, Bruker +1.59%. Trading was light (relative volume 0.6 of the 20-day average per data/metrics; the pipeline's Friday volume of 1,537,129 shares may be incomplete). No Agilent news or filing.",
+      "why_it_matters": "Pipeline attribution: +0.86 market, +0.81 health care, -0.26 Agilent (z-score -0.15). The rise was the sector rebounding, not news about Agilent.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Pipeline attribution (data/metrics/attribution-2026-10-09.json)", "date": "2026-10-09", "url": "data/metrics/attribution-2026-10-09.json", "tier": 1},
+        {"name": "Yahoo Finance chart data (peers)", "date": "2026-10-09", "url": "https://query1.finance.yahoo.com/v8/finance/chart/TMO?range=5d&interval=1d", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "timing": "unknown",
+      "type": "analyst target change",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "Barclays (Luke Sergott) raised its target to $195 from $175 and kept Overweight. MarketBeat re-posted it on 2026-10-09 ('Barclays Forecasts Strong Price Appreciation...'). It is already in the news log (2026-10-07). No new analyst action on Agilent was found for 10-08 or 10-09.",
+      "why_it_matters": "Not new. It remains the highest target in MarketBeat's list ($195).",
+      "direction": "supports",
+      "sources": [
+        {"name": "MarketBeat analyst forecast page", "date": "2026-10-09", "url": "https://www.marketbeat.com/stocks/NYSE/A/forecast/", "tier": 3},
+        {"name": "MarketBeat", "date": "2026-10-07", "url": "https://www.marketbeat.com/instant-alerts/analyst-agilent-technologies-nyse-a-stock-price-target-raised-at-barclays-2026-10-07/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "unknown",
+      "type": "institutional holder filing (noise)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "MarketBeat auto-alert: Bell Asset Management Ltd sold 16,204 Agilent shares, from a quarterly 13F holdings filing. This kind of item is routine and usually months old.",
+      "why_it_matters": "Noise. Recorded only so the main session knows it was checked. Not worth space in the report.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "MarketBeat", "date": "2026-10-09", "url": "https://www.marketbeat.com/instant-alerts/filing-16204-agilent-technologies-inc-a-shares-sold-by-bell-asset-management-ltd-2026-10-09/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "timing": "unknown",
+      "type": "calendar update (peer)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Calendar correction, not news in the window: Thermo Fisher confirmed on 2026-09-28 (via Business Wire) that it will release Q3 2026 results before the market opens on Wednesday 2026-10-21, with a call at 7:00 a.m. ET. The news log still lists this date as 'not confirmed'.",
+      "why_it_matters": "Thermo Fisher is the largest lab-tools company. Its comments on drug-maker and lab demand are the first read-across for Agilent's Q4 (Agilent's fiscal Q4 ends 2026-10-31).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Thermo Fisher via Business Wire (on Finviz)", "date": "2026-09-28", "url": "https://finviz.com/news/395919/thermo-fisher-scientific-to-hold-earnings-conference-call-on-wednesday-october-21-2026", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Over the two days Agilent went from $169.09 to $170.54 (+0.86%): -0.54% on Thursday, +1.41% on Friday. Both moves were smaller than its usual daily range of about 3.0%.", "evidence": "data/prices/A.csv; data/metrics/2026-10-09.json (ATR 2.98% of price)"},
+    {"rung": 2, "text": "Almost all of it came from the market and the health-care sector. Thursday: market -0.61, health care +0.03, Agilent +0.04. Friday: market +0.86, health care +0.81, Agilent -0.26. Over both days: market +0.25, health care +0.84, Agilent -0.23 (z-score -0.09).", "evidence": "data/research/2026-10-09/thursday-attribution.json; data/metrics/attribution-2026-10-09.json"},
+    {"rung": 3, "text": "Thursday's intraday drop (to -3.41%) was shared across health care: XLV, Thermo Fisher, Danaher, Waters, Revvity and Eli Lilly all opened lower, hit lows of -2% to -5% by midday, and recovered from about 1 p.m. while the S&P 500 kept slipping.", "evidence": "https://query1.finance.yahoo.com/v8/finance/chart/XLV?interval=15m (Yahoo 15-minute data, tier 3)"},
+    {"rung": 4, "text": "No tier-1 or tier-2 source explaining health care's weak Thursday open was found. Search results that blamed pharma tariffs were about April 2025 and were discarded. Pages that blamed Lilly profit-taking or GLP-1 price erosion were auto-generated (avoid tier). One recap claimed XLV rose 0.64% on Thursday, which contradicts the price data (-0.39%).", "evidence": "inference (high) that the cause is unpublished; the sector-wide pattern is fact"},
+    {"rung": 5, "text": "Friday was a broad rebound: SPY +0.60% and XLV +1.58%, with every lab-tools peer up 0.9% to 1.6%, on light volume. Agilent simply moved with its group.", "evidence": "data/prices/XLV.csv, SPY.csv; Yahoo chart data for peers (tier 3); inference (high) that no Agilent-specific driver existed"},
+    {"rung": 6, "text": "Basic driver: day-to-day sector sentiment (money moving into and out of health-care stocks), not new information about Agilent's sales or profits. Why that sentiment moved on these two days is not known.", "evidence": "inference (medium)"}
+  ],
+  "products": [],
+  "earnings": {
+    "status": "none",
+    "date": "",
+    "confirmed": false,
+    "consensus": {},
+    "actual": {},
+    "guidance": {},
+    "key_metrics": {},
+    "quality_flags": [],
+    "management_explanation": "No results in the window. Latest results: Q3 FY2026, reported 2026-08-26 (already in the news log).",
+    "sources": []
+  },
+  "next_earnings": {
+    "date": "About late November 2026, estimated (the news log uses 2026-11-30; TipRanks listed 2026-11-30 on 10-07, but Agilent has not announced it). Last year's Q4 FY2025 was reported 2025-11-24. Agilent usually announces the date about three weeks ahead (Q1 FY2026: announced 2026-02-02 for 2026-02-25).",
+    "confirmed": false,
+    "consensus_eps": "Q4: about $1.71-$1.73 non-GAAP (tier-3 aggregators, from the 10-04 and 10-07 research; not re-verified today). Full year FY2026: $6.20 non-GAAP EPS (StockAnalysis, updated 2026-10-09, tier 3), the midpoint of company guidance. FY2027: $6.76.",
+    "consensus_revenue": "No quarterly figure found. Full year FY2026: $7.50bn (StockAnalysis, 2026-10-09, tier 3). That implies about $1.99bn for Q4, after subtracting the $5.511bn of Q1-Q3 revenue in SEC filings (inference, high; the $7.50bn is rounded, so roughly +/- $5m). FY2027: $7.98bn (+6.4%).",
+    "company_guidance": "Q4 FY2026: revenue $1.98bn-$2.0bn (+6.4% to +7.4% reported, +5.2% to +6.2% core); non-GAAP EPS $1.71-$1.74. FY2026: revenue $7.49bn-$7.51bn (+7.8% to +8.1% reported, +5.8% to +6.0% core); non-GAAP EPS $6.18-$6.21, raised 15 cents at the midpoint. Verified in the release on 2026-10-09. FY2027 guidance is expected with the Q4 report (inference, high).",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1090872/000109087226000062/exhibit991-q326pressrelease.htm",
+      "https://stockanalysis.com/stocks/a/forecast/",
+      "https://www.businesswire.com/news/home/20260202585000/en/Agilent-to-Announce-First-Quarter-Fiscal-Year-2026-Financial-Results-on-Feb.-25",
+      "data/fundamentals/A.json"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-10-08 to 2026-10-09", "firm": "none found", "action": "No new rating or target change on Agilent in the window (MarketBeat's list as of 2026-10-09 shows the Barclays raise of 10-06/07 as the latest).", "reason": "n/a", "url": "https://www.marketbeat.com/stocks/NYSE/A/forecast/"},
+    {"date": "2026-10-09", "firm": "Consensus (context, opinion)", "action": "MarketBeat: 'Moderate Buy' (14 Buy, 5 Hold, 0 Sell; 19 analysts), consensus target $171.82 (range $135-$195). StockAnalysis: 22 analysts, 'Buy', average target $178.50. The aggregators disagree.", "reason": "n/a", "url": "https://stockanalysis.com/stocks/a/forecast/"},
+    {"date": "2026-10-03", "firm": "Wall Street Zen (algorithmic rating site, not a brokerage)", "action": "Cut to Hold (before the window; listed in MarketBeat headlines). It does not count as an analyst downgrade.", "reason": "not available", "url": "https://www.marketbeat.com/stocks/NYSE/A/news/"}
+  ],
+  "insiders": {
+    "summary": "No insider trades in the window. The pipeline's Form 4 parse (data/filings/2026-10-09.json) shows 0 open-market buys and 0 sells. On SEC EDGAR the latest Agilent Form 4 is dated 2026-09-10.",
+    "notable": []
+  },
+  "filings": [
+    {"form": "none in window", "items": "", "plain_english": "Agilent filed nothing with the SEC from 2026-09-24 to the end of the window. Checked on EDGAR on 2026-10-09 and again 2026-10-10; this matches the pipeline (no filings since 09-29).", "materiality": "n/a", "url": "https://data.sec.gov/submissions/CIK0001090872.json"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-21", "event": "Thermo Fisher Q3 2026 results, before the open, with a 7:00 a.m. ET call (the largest lab-tools peer; read-across for drug-maker and lab demand)", "confirmed": true, "url": "https://finviz.com/news/395919/thermo-fisher-scientific-to-hold-earnings-conference-call-on-wednesday-october-21-2026"},
+    {"date": "2026-10-28", "event": "Dividend paid, 25.5 cents a share (record date 2026-10-06)", "confirmed": true, "url": "https://www.businesswire.com/news/home/20260916777704/en/CORRECTING-and-REPLACING-Agilent-Announces-Cash-Dividend-of-25.5-Cents-per-Share"},
+    {"date": "2026-10-31", "event": "Fiscal year 2026 ends (Q4 closes)", "confirmed": true, "url": "https://www.sec.gov/Archives/edgar/data/1090872/000109087226000062/exhibit991-q326pressrelease.htm"},
+    {"date": "2026-11 (expected)", "event": "First customer programs at the new Boulder oligonucleotide lab (company said November)", "confirmed": false, "url": "https://www.agilent.com/about/newsroom/presrel/2026/05oct-ca26034.html"},
+    {"date": "about 2026-11-24 to 2026-11-30 (estimated)", "event": "Q4 FY2026 results and first FY2027 guidance; Agilent normally announces the date about three weeks ahead", "confirmed": false, "url": "https://www.businesswire.com/news/home/20251124941358/en/"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "Guidance cut", "found": false, "evidence": "No results, release or 8-K in the window. Guidance stands as raised on 2026-08-26 (Q4 revenue $1.98bn-$2.0bn; FY non-GAAP EPS $6.18-$6.21), checked in the release on 2026-10-09: https://www.sec.gov/Archives/edgar/data/1090872/000109087226000062/exhibit991-q326pressrelease.htm"},
+    {"event": "Results miss", "found": false, "evidence": "No results in the window; next results around late November (estimated)."},
+    {"event": "Major customer lost", "found": false, "evidence": "No news or filing about a customer loss found (searches; EDGAR shows no filings)."},
+    {"event": "8-K Item 4.02 (past results can no longer be relied on)", "found": false, "evidence": "No 8-K in the window (EDGAR, latest filing 2026-09-24)."},
+    {"event": "8-K Item 4.01 (auditor change)", "found": false, "evidence": "No 8-K in the window (EDGAR)."},
+    {"event": "CEO/CFO left (8-K Item 5.02)", "found": false, "evidence": "No 8-K in the window. The latest 5.02 (2026-09-08) was the board chair's retirement, already covered on 10-04."},
+    {"event": "Large dilutive share sale", "found": false, "evidence": "No S-3/424B/8-K 3.02 in the window. The September S-3ASR and 424B3 cover debt (a $600m notes exchange), not shares (covered on 10-04 and 10-07)."},
+    {"event": "Regulator investigation or major litigation", "found": false, "evidence": "Disconfirming search found only old matters (the closed FCPA investigation; an old whistleblower suit). Nothing new in 2026: https://globalinvestigationsreview.com/article/agilent-technologies-secures-double-declination"},
+    {"event": "Two or more analyst downgrades in five trading days", "found": false, "evidence": "No brokerage downgrade 2026-10-05 to 10-09. The only rating change in MarketBeat's list is the Barclays target raise. Wall Street Zen's 10-03 'cut to Hold' is an algorithm, not an analyst, and falls outside the window. The BofA downgrade that surfaced in search is dated 2023-12-12: https://www.tipranks.com/news/the-fly/agilent-just-downgraded-at-bofa-heres-why"},
+    {"event": "Several insiders sold outside 10b5-1 plans", "found": false, "evidence": "No Form 4 in the window (pipeline and EDGAR; latest Form 4 2026-09-10)."},
+    {"event": "A trigger 1: yearly forecast cut", "found": false, "evidence": "Not hit. No new guidance."},
+    {"event": "A trigger 2: orders below shipments (book-to-bill below 1)", "found": false, "evidence": "Not checkable until the Q4 call (late November). Nothing new."},
+    {"event": "A trigger 3: 60-day correlation with chip holdings above 0.5 (early warning 0.3)", "found": false, "evidence": "data/metrics/portfolio-2026-10-09.json: TSM 0.22 (highest), ASML 0.15, CRDO 0.10, AXTI 0.08, AAOI 0.07, AMD 0.04, FORM -0.03, LITE -0.06, VIAV -0.10. All below the 0.3 early warning."},
+    {"event": "A trigger 4: beta above 1.2 or typical daily move above 4% (early warning beta above 1.0)", "found": false, "evidence": "data/metrics/2026-10-09.json: beta 0.84, ATR 2.98% of price."},
+    {"event": "A trigger 5: core growth turns negative (early warning below 3%)", "found": false, "evidence": "Not hit. Last core growth +7.3% (Q3); Q4 guidance +5.2% to +6.2% core."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "Lab-tools stocks are exposed to US-China tariffs, NIH funding cuts (a proposed 40% cut in the 2026 budget) and weaker small-biotech funding (Citi, Bio-Techne commentary).", "url": "https://www.stockopedia.com/share-prices/illumina-NSQ:ILMN/news/citi-flags-uncertainty-on-life-science-sector-as-funding-shifts-and-tariffs-bite-019e69d2-116b-7755-82c1-3ea36758c7ec/", "assessment": "Background sector risk from 2025, not new in the window. Agilent's last two quarters beat forecasts despite it. Still relevant: Thursday's sector-wide intraday drop shows Agilent trades with health-care mood."},
+    {"claim": "The stock sits about level with the analysts' consensus target (MarketBeat $171.82 vs $170.54 close), so on that measure there is little upside left.", "url": "https://www.marketbeat.com/stocks/NYSE/A/forecast/", "assessment": "Opinion, and the aggregators disagree (StockAnalysis $178.50). UBS's Neutral/$165 from 09-09 is still on record. Valuation context, not a thesis breaker."},
+    {"claim": "Search hits for 'Agilent downgrade' (BofA to Neutral, $133; Wolfe Research).", "url": "https://www.tipranks.com/news/the-fly/agilent-just-downgraded-at-bofa-heres-why", "assessment": "The BofA note is dated 2023-12-12, so it is stale and not counted. No 2026-10 downgrade found."},
+    {"claim": "Health care fell on Thursday because of pharma tariffs (search summary).", "url": "https://www.tipranks.com/news/eli-lilly-stock-lly-slumps-as-trump-threatens-250-tariff-on-pharma-industry", "assessment": "Discarded: the articles behind that summary are from April 2025, not October 2026. Also discarded: tradingkey/ad-hoc-news auto-generated pages (avoid tier), and a tapeboard.com recap whose XLV figure (+0.64%) contradicts the price data (-0.39%)."}
+  ],
+  "open_questions": [
+    "What caused health care's weak open on Thursday 2026-10-08 (lab tools down 3-4.5% at the lows, Eli Lilly down 4.8%) and the recovery from about 1 p.m.? No tier-1 or tier-2 explanation was found.",
+    "What drove Friday's health-care outperformance (XLV +1.58% vs SPY +0.60%)? No published cause found.",
+    "Q4 FY2026 report date not announced by Agilent (estimated late November; last year 2025-11-24).",
+    "Q4 consensus revenue: no quarterly figure found. The ~$1.99bn is derived from the FY consensus (inference). Q4 consensus EPS ($1.71-$1.73) is tier 3 and was not re-verified today.",
+    "The pipeline's Friday volume (1,537,129 shares) may have been captured before the final consolidated count.",
+    "Searches beyond budget: 12 web searches run (budget 5-8). The extra ones went to looking for the Thursday sector cause, which was not found."
+  ],
+  "searches_run": 12
+}

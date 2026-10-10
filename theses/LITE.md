@@ -14,7 +14,7 @@ As AI data centers grow, thousands of chips must exchange data, and over any dis
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ As AI data centers grow, thousands of chips must exchange data, and over any dis
 - Operating margin (share left after all running costs): rising (1.3% to 27.8%, +26.5 points).
 - Profit: positive net income in 3 of the last 4 quarters.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +26.1% | +57.1% | +24.0% | +607.0% | +46.7% | -42.8% | 5.7% |
+| +11.6% | +37.6% | +23.0% | +590.6% | +44.4% | -42.8% | 6.1% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -89,7 +89,7 @@ Each pillar says why it matters, how it is measured, where it stands now and whe
 2. **Demand for its lasers stays bigger than its supply.** *(Thesis 1)*
    - *Why it matters:* When customers wait for supply, prices hold and margins rise; when supply catches up, prices fall.
    - *Measured by:* What management says on each earnings call about supply limits and lead times.
-   - *Now (as of 2026-10-04):* Still shipping behind demand (Q4 call, 2026-08-11; transcript tier 3).
+   - *Now (as of 2026-10-09):* Still shipping behind demand: the CEO says parts are sold out until almost 2029 (secondary reports of a Bloomberg TV interview, 2026-10-08).
    - *Next check:* Q1 FY2027 earnings call.
 3. **The two biggest customers keep buying.** *(Thesis 1)*
    - *Why it matters:* Two customers are 41.6% of revenue, so their plans largely are Lumentum's plans.
@@ -121,7 +121,7 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Counts if:* Management states supply now meets or exceeds demand, or that average selling prices are falling.
    - *Early warning:* Shorter lead times or customers building inventory, mentioned on calls.
    - *Where and when to check:* Earnings calls.
-   - *Status now (2026-10-04):* Not hit.
+   - *Status now (2026-10-09):* Not hit; points the other way (management says supply is short until almost 2029).
 3. **One of its two biggest customers cuts orders.** *(Thesis 1)*
    - *Why it matters:* With 41.6% of revenue in two customers, one cut can hit results hard.
    - *Counts if:* The company or a tier-1/2 source reports a top customer cutting or delaying orders.
@@ -145,9 +145,14 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Counts if:* A prospectus (424B) or convertible issue that could add more than 5% of shares.
    - *Early warning:* A new shelf registration (S-3) or a large convertible offering announced.
    - *Where and when to check:* SEC filings in every daily report.
-   - *Status now (2026-10-04):* Not hit.
+   - *Status now (2026-10-09):* Not hit; early warning (a new S-3 shelf or large convertible offering) not present. Noted: the CEO reportedly wants an acquisition within a year, payment unknown (secondary sources).
 
-## Facts as of 2026-10-07 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- CEO Michael Hurlston on Bloomberg TV (posted 21:36 New York time, 2026-10-08): optical parts "completely sold out" until almost 2029 (in April: through 2027); laser chips are the tightest limit; a second fab in Japan is being added; new capacity takes about three years [Bloomberg, 2026-10-09](https://www.bloomberg.com/news/articles/2026-10-09/nvidia-backed-lumentum-sees-opto-parts-capacity-sold-out-to-2029) (headline; wording from [Investopedia via AOL, 2026-10-09](https://www.aol.com/articles/nvidia-backed-lumentum-says-t-155557000.html))
+- The CEO reportedly wants to complete an acquisition within the next year; no target, price or payment method given; secondary sources only [Investopedia via AOL, 2026-10-09](https://www.aol.com/articles/nvidia-backed-lumentum-says-t-155557000.html)
+- Stock −5.62% on 10-08 (optical sell-off), +5.22% on 10-09 (company part +7.01 points, z-score 1.40) (data/metrics; attribution)
+- Evercore ISI kept Outperform, $1,100 target (2026-10-09) [Investing.com, 2026-10-09](https://www.investing.com/news/analyst-ratings/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4941510)
+- OCP Global Summit talks 10-14 and 10-15; Q1 FY2027 results 11-05 after the close (confirmed) [Lumentum speaker list (page as read), 2026-10-09](https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Speaker-Lineup-at-2026-OCP-Global-Summit/default.aspx)
 - Q4 FY2026 revenue $1.01bn (+109%); Q1 FY2027 guidance $1.225-1.275bn [Lumentum Q4 FY2026 results, 2026-08-11](https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results/default.aspx)
 - Still shipping behind laser demand (Q4 call, per [Investing.com transcript, 2026-08-11](https://www.investing.com/news/transcripts/earnings-call-transcript-lumentum-tops-q4-2026-forecasts-as-ai-demand-lifts-outlook-93CH-4852933), tier 3)
 - Bond swap: about 10.6 million new shares, about 13% more shares in the quarter [Lumentum 10-K, 2026-08-14](https://www.sec.gov/Archives/edgar/data/0001633978/000162828026057358/lite-20260627.htm)
@@ -165,3 +170,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-05 (daily report): results date confirmed (2026-11-05); pillar 1's next check and Facts updated. No change to the reasons, pillars or triggers.
 - 2026-10-07 (daily report): Facts and pillar 5 'Now' updated (NVIDIA convertible preferred from March, found in the 10-K; proxy filed with no share request; OCS run rate above $100m a quarter). No trigger status changed. No change to the reasons, pillars or triggers.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (CEO 'sold out' interview, reported acquisition plan, Evercore, OCP and results dates). Pillar 2 'Now' and triggers 2 and 6 status refreshed. No change to the reasons, pillars or triggers.

@@ -1,0 +1,594 @@
+{
+ "ticker": "AAOI",
+ "company": "Applied Optoelectronics, Inc. (AOI)",
+ "window": {
+  "from": "2026-10-07 16:00 New York (after Wednesday's close)",
+  "to": "2026-10-09 after the 16:00 New York close (covers trading days Thu 2026-10-08 and Fri 2026-10-09)"
+ },
+ "newest_item_checked": "TradingKey optics-rally article 2026-10-09 09:11 ET and 24/7 Wall St 2026-10-09 (newest dated news); SEC EDGAR submissions list checked during the run (newest AAOI filing still the Form 4 filed 2026-10-07, accepted 20:05 ET); Investing.com earnings page fetched 2026-10-10 (Madrid date).",
+ "price_facts_from_pipeline": {
+  "source": "data/prices/AAOI.csv; data/research/2026-10-09/thursday-attribution.json; data/metrics/attribution-2026-10-09.json",
+  "wed_2026_10_07_close": 122.54,
+  "thu_2026_10_08": {
+   "open": 117.44,
+   "open_gap_pct": -4.16,
+   "high": 119.91,
+   "low": 104.88,
+   "close": 105.9,
+   "change_pct": -13.58,
+   "volume": 19419300,
+   "volume_vs_prior_20d_avg": "about 2.5x (20-day average before Thursday about 7.91m shares; our calculation from data/prices/AAOI.csv)",
+   "closed_near_low": true
+  },
+  "fri_2026_10_09": {
+   "open": 112.64,
+   "open_gap_pct": 6.37,
+   "high": 117.16,
+   "low": 108.62,
+   "close": 109.64,
+   "change_pct": 3.53,
+   "volume": 14416227,
+   "relative_volume_vs_20d": 1.68,
+   "note": "opened +6.4%, reached +10.6% at the high, then gave back most of it (our calculation)"
+  },
+  "thursday_attribution": {
+   "actual": -13.58,
+   "market": -0.69,
+   "industry_SMH": -4.66,
+   "company": -8.23,
+   "z": -1.05,
+   "typical_daily_company_move_pct": 7.84
+  },
+  "friday_attribution": {
+   "actual": 3.53,
+   "market": 0.99,
+   "industry_SMH": -2.39,
+   "company": 4.93,
+   "z": 0.63
+  },
+  "two_day_thu_fri": {
+   "actual": -10.53,
+   "market": 0.29,
+   "industry": -6.99,
+   "company": -3.82,
+   "z": -0.34
+  },
+  "peers_thursday_pct_pipeline": {
+   "AXTI": -10.19,
+   "LITE": -5.62,
+   "VIAV": -4.71,
+   "CRDO": -3.7,
+   "TSM": -3.01,
+   "SMH": -2.84,
+   "SPY": -0.42
+  },
+  "peers_thursday_open_gap_pct_our_calc": {
+   "LITE": -3.96,
+   "AXTI": -3.41,
+   "SMH": -1.49,
+   "AAOI": -4.16
+  },
+  "peers_friday_pct_pipeline_note": "LITE opened +6.4% and closed +5.2% on Friday (1048.60 to 1103.35); SMH -0.65%; AXTI kept falling (-4.5%).",
+  "intraday_snapshots_third_party": [
+   {
+    "time": "about 10:48 ET Thu (Investing.com stamp 14:48, assumed GMT)",
+    "price": 118.13,
+    "change": "-3.6%",
+    "url": "https://ng.investing.com/news/stock-market-news/why-is-applied-optoelectronics-stock-sliding-today-93CH-2727767",
+    "tier": 3
+   },
+   {
+    "time": "12:00 ET Thu",
+    "price": 111.76,
+    "change": "-9%",
+    "url": "https://247wallst.com/investing/2026/10/08/optics-stocks-tumble-as-profit-taking-cuts-into-big-yearly-gains-applied-optoelectronics-drops-9-coherent-falls-5-lumentum-slides-4/",
+    "tier": 3
+   },
+   {
+    "time": "close Thu",
+    "price": 105.9,
+    "change": "-13.58%",
+    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262207662-aaoi-stock-forecast-plunge-14-600m-financing-rebound-tradingkey",
+    "tier": 3
+   },
+   {
+    "time": "08:36 ET Fri (pre-market)",
+    "price": 113.32,
+    "change": "+7%",
+    "url": "https://247wallst.com/investing/2026/10/09/optics-stocks-rally-on-sold-out-optical-capacity-through-early-2029-applied-optoelectronics-and-lumentum-surge-7-coherent-climbs-5/",
+    "tier": 3
+   }
+  ]
+ },
+ "events": [
+  {
+   "date": "2026-10-08",
+   "timing": "during",
+   "type": "price move / sector selloff (no company news)",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "AAOI fell 13.58% to $105.90 (low $104.88) on about 2.5x normal volume, closing near the day's low. It opened 4.2% lower, was about 9% down by noon New York time, and fell further in the afternoon. No company news: no SEC filing, no press release and no analyst action found in the window. The whole optical group fell: Coherent -9.63% (tier 3; one other tier-3 page says -5.64%), AXT -10.19%, Lumentum -5.62%, VIAVI -4.71%, Credo -3.70% (pipeline), with the Roundhill photonics ETF (LYTE) -6% by noon. Coverage called it profit-taking after big yearly gains (AAOI was +221% year to date before the drop).",
+   "why_it_matters": "This was the day that fired Santi's 5% 'explain this' rule. The cause was outside the company (rates, oil and an AI-revenue scare), amplified by AAOI being one of the most volatile, most-run-up names in the group. Nothing in it changes AOI's reported numbers, guidance or share count.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "24/7 Wall St",
+     "date": "2026-10-08",
+     "url": "https://247wallst.com/investing/2026/10/08/optics-stocks-tumble-as-profit-taking-cuts-into-big-yearly-gains-applied-optoelectronics-drops-9-coherent-falls-5-lumentum-slides-4/",
+     "tier": 3
+    },
+    {
+     "name": "TradingKey",
+     "date": "2026-10-09",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262207662-aaoi-stock-forecast-plunge-14-600m-financing-rebound-tradingkey",
+     "tier": 3
+    },
+    {
+     "name": "TIKR (Coherent -9.63%, close $302.35, yields/oil/Fed blamed)",
+     "date": "2026-10-09",
+     "url": "https://www.tikr.com/blog/coherent-stock-fell-nearly-10-in-a-day-as-rising-yields-hit-optics-stocks-heres-where-the-stock-could-go-by-2031",
+     "tier": 3
+    },
+    {
+     "name": "SEC EDGAR submissions (no AAOI filing after the 2026-10-07 Form 4)",
+     "date": "2026-10-09",
+     "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "timing": "during",
+   "type": "macro: rates and oil",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "Chip stocks sold off from the open as long-term interest rates stayed near multi-decade highs and oil jumped. The 10-year Treasury yield touched 5.37% on Wednesday (highest in 24 years per Investopedia), was near 5.36% Thursday morning, then eased to about 5.23% by the close. WTI crude rose 3.4% to $91.30 and Brent about 3.8% to about $104 on worries about renewed US action against Iran, tanker attacks and Hurricane Isaias. Investopedia also cites Samsung's fall in Korean trading for the morning chip weakness. The Nasdaq fell about 1.3% and the S&P 500 about 0.5%.",
+   "why_it_matters": "Higher yields shrink what investors will pay today for profits expected years from now. That hits fast-growing, still GAAP-loss-making stocks like AOI hardest. Higher oil also revives inflation worries.",
+   "direction": "weakens",
+   "sources": [
+    {
+     "name": "Investopedia via Yahoo Finance (Markets News, Oct. 8, 2026)",
+     "date": "2026-10-08",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-8-2026-105400965.html",
+     "tier": 3
+    },
+    {
+     "name": "Yahoo Finance (chip stocks sell off with yields and oil higher, about 10:05 ET)",
+     "date": "2026-10-08",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/intel-slides-3-chip-stocks-140543692.html",
+     "tier": 3
+    },
+    {
+     "name": "Yahoo Finance live blog",
+     "date": "2026-10-08",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html",
+     "tier": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "timing": "during",
+   "type": "industry: AI-demand news (Financial Times report on OpenAI)",
+   "materiality": "high",
+   "new_or_rehash": "new",
+   "summary": "During Thursday afternoon trading, the Financial Times reported that OpenAI's annualized revenue was about $20 billion less than previously signaled. The AI trade sold off after it: the Philadelphia chip index fell as much as 4%; Marvell and Arm fell more than 6%, Micron more than 5%, Nvidia nearly 3%. The Yahoo live-blog entry is stamped 18:39 UTC (14:39 ET). AAOI went from about -9% at noon to -13.6% at the close, near its low (timing match, our inference).",
+   "why_it_matters": "OpenAI is one of the biggest buyers of AI computing. If it earns less than thought, investors worry that the spending chain (AI labs to cloud data centers to optical modules) could slow. That would hit AOI's growth thesis, which depends on that spending. It is a sentiment shock, not a reported order cut.",
+   "direction": "weakens",
+   "sources": [
+    {
+     "name": "Yahoo Finance live blog (citing the Financial Times)",
+     "date": "2026-10-08",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html",
+     "tier": 3
+    },
+    {
+     "name": "Investopedia via Yahoo Finance (citing the Financial Times)",
+     "date": "2026-10-08",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-8-2026-105400965.html",
+     "tier": 3
+    }
+   ],
+   "verification_note": "The FT article itself (tier 2) could not be fetched (site blocked to our tools). Two independent tier-3 write-ups from different newsrooms quote it consistently. A web-search summary also listed Bloomberg and CNBC live-blog pages for 2026-10-08 describing an AI-trade selloff, but they were not read directly (CNBC returned 403)."
+  },
+  {
+   "date": "2026-10-09",
+   "timing": "before open",
+   "type": "peer news: demand signal (Lumentum CEO)",
+   "materiality": "medium",
+   "new_or_rehash": "new",
+   "summary": "Overnight, Lumentum's CEO Michael Hurlston said in an interview in Tokyo that its optical-component capacity is booked by customers through early 2029, driven by AI data-center construction. He added that 'there is still no clear sign of relief for the current supply-demand imbalance', and gave a 12-fold rise in its Greater Tokyo capacity over two years and planned investment of more than $350 million. AAOI traded +5% to +7% before the open ($113.32 at 08:36 ET), opened +6.4%, reached +10.6%, and closed +3.53% at $109.64 while SMH fell 0.65%.",
+   "why_it_matters": "Lumentum sells to the same cloud customers. A peer saying demand will outrun supply for years supports AOI's own claim (Q2 release) that demand will outpace its capacity through mid-2027. Friday's fade from +10.6% to +3.5% shows the rebound was partial.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "24/7 Wall St",
+     "date": "2026-10-09",
+     "url": "https://247wallst.com/investing/2026/10/09/optics-stocks-rally-on-sold-out-optical-capacity-through-early-2029-applied-optoelectronics-and-lumentum-surge-7-coherent-climbs-5/",
+     "tier": 3
+    },
+    {
+     "name": "TradingKey",
+     "date": "2026-10-09",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262208257-optical-communication-stocks-rally-lumentum-component-capacity-sells-through-2029-tradingkey",
+     "tier": 3
+    }
+   ],
+   "verification_note": "Original interview outlet not identified (both write-ups say only 'interview in Tokyo'). The quote is a translation via TradingKey. Lumentum itself said in spring 2026 that capacity would sell out through 2028 (tier 3), so the 2029 claim is an extension, not yet confirmed by a Lumentum filing."
+  },
+  {
+   "date": "2026-10-07",
+   "timing": "after close",
+   "type": "insider trade (Form 4)",
+   "materiality": "low",
+   "new_or_rehash": "rehash",
+   "summary": "Form 4 for SVP Shu-Hua (Joshua) Yeh's sale of 6,000 shares at $120.03 on 2026-10-05 under a 10b5-1 plan (keeps 371,498 shares). SEC accepted it at 20:05 ET on 10-07, after Wednesday's close, so it falls inside this window, but the last report already covered it.",
+   "why_it_matters": "A small, pre-planned sale; carries little information.",
+   "direction": "neutral",
+   "sources": [
+    {
+     "name": "SEC Form 4",
+     "date": "2026-10-07",
+     "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007698/xslF345X06/ownership.xml",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "timing": "after close",
+   "type": "filings missed earlier (capacity expansion 8-Ks, outside window)",
+   "materiality": "low",
+   "new_or_rehash": "new",
+   "summary": "Three 8-Ks not yet in the news log show the factory build-out. (1) 2026-08-31: leases for two new industrial buildings ('Building 4' and 'Building 5') in Houston, with completion expected about 16 months after signing; they add to three leases from 2026-05-08. (2) 2026-09-04: bought a Houston building (about 153,928 sq ft) for $26,783,472 in cash. (3) 2026-09-10: a 10-year lease of a 38,311.8 m2 factory in Ningbo, China, from 2026-09-16 at RMB 6,896,124 a year. Also, the 2026-08-24 8-K tagged Item 5.02 is only a new form of director/officer indemnification agreement, not a departure.",
+   "why_it_matters": "Evidence for pillar 2 (capacity coming online). It also shows where the share-sale money is going: factories in Houston and China.",
+   "direction": "supports",
+   "sources": [
+    {
+     "name": "AOI 8-K (Houston Buildings 4 and 5 leases)",
+     "date": "2026-09-01",
+     "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006862/aaoi_8k.htm",
+     "tier": 1
+    },
+    {
+     "name": "AOI 8-K (Houston building purchase)",
+     "date": "2026-09-10",
+     "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007057/aaoi_8k.htm",
+     "tier": 1
+    },
+    {
+     "name": "AOI 8-K (Ningbo factory lease)",
+     "date": "2026-09-15",
+     "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007160/aaoi_8k.htm",
+     "tier": 1
+    },
+    {
+     "name": "AOI 8-K (indemnification agreement, Item 5.02)",
+     "date": "2026-08-24",
+     "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006693/aaoi_8k.htm",
+     "tier": 1
+    }
+   ]
+  }
+ ],
+ "why_chain": [
+  {
+   "rung": 1,
+   "text": "AAOI fell 13.58% on Thursday 2026-10-08 (close $105.90). The model splits it into about -0.69 points from the market (SPY), -4.66 from chip stocks (SMH) and -8.23 that is 'company-specific'. That residual has a z-score of -1.05, about one typical day for this stock (its typical company-specific day is 7.84%).",
+   "evidence": "data/research/2026-10-09/thursday-attribution.json; data/metrics/attribution-2026-10-09.json (pipeline)"
+  },
+  {
+   "rung": 2,
+   "text": "There was no AOI-specific news: no SEC filing after the 2026-10-07 Form 4, no press release found, no analyst rating or target change found for 10-08 or 10-09.",
+   "evidence": "https://data.sec.gov/submissions/CIK0001158114.json ; searches (see searches_run); inference that no press release exists rests on searches because the AOI IR site returned 403 (high)"
+  },
+  {
+   "rung": 3,
+   "text": "Most of the 'company-specific' part is really an optical-group move that SMH does not capture. Optical names fell much more than SMH (-2.84%): AXT -10.19%, Coherent -9.63%, Lumentum -5.62%, VIAVI -4.71%, Credo -3.70%; the photonics ETF LYTE was -6% at noon.",
+   "evidence": "pipeline prices; https://www.tikr.com/blog/coherent-stock-fell-nearly-10-in-a-day-as-rising-yields-hit-optics-stocks-heres-where-the-stock-could-go-by-2031 ; https://247wallst.com/investing/2026/10/08/optics-stocks-tumble-as-profit-taking-cuts-into-big-yearly-gains-applied-optoelectronics-drops-9-coherent-falls-5-lumentum-slides-4/ | inference for the 'group factor' reading (high)"
+  },
+  {
+   "rung": 4,
+   "text": "Morning leg (open -4.2%, about -9% by noon): chips sold off with the 10-year Treasury yield near 24-year highs (5.37% touched Wednesday, about 5.36% Thursday morning) and oil up 3.4-3.8% on Iran and hurricane worries, plus Samsung weakness in Korea. Optical stocks had already fallen Wednesday (second day of selling).",
+   "evidence": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-8-2026-105400965.html ; https://finance.yahoo.com/markets/stocks/articles/intel-slides-3-chip-stocks-140543692.html"
+  },
+  {
+   "rung": 5,
+   "text": "Afternoon leg (about -9% to -13.6%, closing near the low): the Financial Times reported that OpenAI's annualized revenue was about $20 billion below what had been signaled, and the AI trade sold off (chip index down as much as 4%).",
+   "evidence": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html ; https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-8-2026-105400965.html | link between the FT report and AAOI's afternoon leg is inference (medium): the timing matches, but we lack AAOI's minute-by-minute prices"
+  },
+  {
+   "rung": 6,
+   "text": "AAOI fell the most because it is the group's highest-beta name: 1-year beta about 4.3 vs the market, recent volatility 93-121% a year. It had risen about 29% in five sessions to 10-06 and was +221% year to date (profit-taking). It also has a narrow product set: 24/7 Wall St calls it 'the most sensitive of the three to any shift in tone'.",
+   "evidence": "data/metrics/2026-10-09.json (beta_1y_vs_market 4.26); https://247wallst.com/investing/2026/10/08/optics-stocks-tumble-as-profit-taking-cuts-into-big-yearly-gains-applied-optoelectronics-drops-9-coherent-falls-5-lumentum-slides-4/ | inference (medium)"
+  },
+  {
+   "rung": 7,
+   "text": "Basic driver: investors are re-pricing how much they will pay for future AI-hardware profits. That price is a mix of (a) the discount rate (Treasury yields at multi-decade highs) and (b) confidence that AI spending will keep growing (the OpenAI revenue report). Both moved against the group on Thursday. AOI's own facts (Q3 guidance $255-290m, capacity plan) did not change.",
+   "evidence": "inference (medium)"
+  },
+  {
+   "rung": 8,
+   "text": "Friday's +3.53%: optical stocks rebounded before the open after Lumentum's CEO said capacity is booked through early 2029. AAOI opened +6.4% but faded to +3.5% as SMH slipped 0.65%. The two-day total is -10.53%, of which only -3.82 points is company-specific (z -0.34).",
+   "evidence": "https://247wallst.com/investing/2026/10/09/optics-stocks-rally-on-sold-out-optical-capacity-through-early-2029-applied-optoelectronics-and-lumentum-surge-7-coherent-climbs-5/ ; https://www.tradingkey.com/analysis/stocks/us-stocks/262208257-optical-communication-stocks-rally-lumentum-component-capacity-sells-through-2029-tradingkey ; pipeline"
+  }
+ ],
+ "products": [
+  {
+   "name": "800G and 1.6T data-center optical transceivers",
+   "what_it_is": "Plug-in modules that turn a server or switch's electrical signals into laser light and back, so data can travel over glass fibre at 800 or 1,600 gigabits per second.",
+   "analogy": "A translator at each end of a phone line: one side speaks 'electricity', the cable speaks 'light', and the module converts between them in real time.",
+   "buyers": "Large cloud/AI data-center operators ('hyperscalers'), directly or via distributors. AOI's top 10 customers are 99% of revenue, and one distributor owed it $211.0m at Q2 (AOI 10-Q, 2026-08-06, per thesis file). Customer names not disclosed in our sources.",
+   "how_it_works": "Each AI server rack links to switches through many fibre links; every link needs a transceiver at each end. Faster AI clusters move to 800G and then 1.6T modules. AOI makes its own lasers and assembles modules in the US (Houston), Taiwan and China.",
+   "price": "not disclosed",
+   "sales": "Units and per-product revenue not disclosed in the Q2 release. Labelled proxies: data-center revenue was 56.1% of Q2 2026 revenue of $191.9m, about $107.7m (our calculation; TradingKey also gives $107.7m). The Q2 release says 800G volume 'more than doubled sequentially'. Total manufacturing capacity was 'approaching 200,000 units per month', with a target of about 650,000 800G and 1.6T units per month by end-2026. Management forecast demand will outpace capacity through mid-2027. TradingKey also cites '800G product revenue $12.8 million', which we could not verify in the release.",
+   "sales_source": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006055/aaoi_ex9901.htm",
+   "stage": "800G in volume ramp; 1.6T early production/ramp (Q2 release: 'solid progress on our production capacity ramp, particularly for our 800G and 1.6Tb products').",
+   "size_for_company": "Data center is the majority of revenue (56.1% in Q2 2026); the rest is mainly CATV (cable-TV) products.",
+   "competition": "Coherent and Lumentum are named in the window's coverage as the closest listed peers. Large Chinese module makers (e.g., Innolight, Eoptolink) are major 800G suppliers: general industry background, not sourced in this run.",
+   "why_investors_care": "AOI's Q3 guidance ($255-290m vs $191.9m in Q2) depends on shipping far more of these modules. On Friday, Lumentum said optical capacity is sold out through early 2029; that supports demand but says nothing about AOI's own share of it.",
+   "watch_next": "Q3 results (estimated 2026-11-05): data-center revenue, 800G/1.6T volumes, monthly capacity versus the 650,000 target, and gross margin versus the guided 29-30.5% non-GAAP."
+  }
+ ],
+ "earnings": {
+  "status": "upcoming",
+  "date": "2026-11-05",
+  "confirmed": false,
+  "consensus": {
+   "eps_non_gaap": "$0.138",
+   "revenue": "$266.03m",
+   "source": "https://www.investing.com/equities/applied-opt-earnings",
+   "tier": 3
+  },
+  "actual": {},
+  "guidance": {
+   "q3_2026_revenue": "$255m-$290m",
+   "q3_non_gaap_gross_margin": "29%-30.5%",
+   "q3_non_gaap_net_income": "$10.1m-$24.0m",
+   "q3_non_gaap_eps": "$0.11-$0.26 on about 92.8m shares",
+   "source": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006055/aaoi_ex9901.htm",
+   "date": "2026-08-06"
+  },
+  "key_metrics": {
+   "q2_2026_revenue": "$191.9m (+86.4% vs $103.0m)",
+   "q2_gaap_net_loss": "-$22.8m (-$0.28/share)",
+   "q2_non_gaap_net_income": "$5.5m ($0.06/diluted share)",
+   "q2_gaap_gross_margin": "27.7%",
+   "q2_non_gaap_gross_margin": "29.8%",
+   "capacity": "approaching 200,000 units/month; about 650,000 800G+1.6T units/month targeted by end-2026"
+  },
+  "quality_flags": [
+   "Investing.com says AOI 'reaffirmed 2026 full-year revenue target of $1.1B'; that phrase is not in the Q2 release (checked); unverified, do not use.",
+   "Consensus EPS $0.138 sits in the lower part of AOI's own $0.11-$0.26 range."
+  ],
+  "management_explanation": "Not applicable (no results in the window).",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006055/aaoi_ex9901.htm",
+   "https://www.investing.com/equities/applied-opt-earnings"
+  ]
+ },
+ "next_earnings": {
+  "date": "2026-11-05 (estimated)",
+  "confirmed": false,
+  "consensus_eps": "$0.138 non-GAAP (Investing.com, fetched 2026-10-10, tier 3)",
+  "consensus_revenue": "$266.03m (Investing.com, fetched 2026-10-10, tier 3)",
+  "company_guidance": "Q3 2026: revenue $255-290m; non-GAAP gross margin 29-30.5%; non-GAAP net income $10.1-24.0m; non-GAAP EPS $0.11-0.26 on about 92.8m shares (AOI Q2 2026 results, 2026-08-06)",
+  "note": "Investing.com labels 2026-11-05 'confirmed', but no AOI announcement was found, and the AOI IR site returned 403. Precedent: AOI announced its Q2 date on 2026-07-16 for a 2026-08-06 release, so a Q3 date announcement around mid-October is likely (inference, medium). Treat as estimated.",
+  "sources": [
+   "https://www.investing.com/equities/applied-opt-earnings",
+   "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006055/aaoi_ex9901.htm"
+  ]
+ },
+ "analyst_actions": [],
+ "analyst_context": {
+  "summary": "No rating or price-target changes found dated 2026-10-08 or 2026-10-09. Latest known actions are from 2026-08-07: Needham cut its target from $220 to $190 and kept Buy; Rosenblatt reaffirmed Buy at $220; B. Riley reiterated Neutral. Aggregators disagree: MarketBeat (2026-10-03) shows 3 Buy, 2 Hold, 1 Sell, average target $139.40, 'Hold'; 24/7 Wall St (2026-10-09) shows 2 Strong Buy, 1 Buy, 3 Hold, average $163.40. These are opinions, not facts about value.",
+  "sources": [
+   "https://www.marketbeat.com/instant-alerts/consensus-applied-optoelectronics-inc-nasdaq-aaoi-stock-has-average-price-target-of-13940-2026-10-03/",
+   "https://247wallst.com/investing/2026/10/09/applied-optoelectronics-has-fallen-hard-for-6-months-this-wall-street-analyst-expects-its-going-to-double-soon/"
+  ]
+ },
+ "insiders": {
+  "summary": "No new insider filing in the window beyond the already-covered Yeh Form 4 (10b5-1 plan, 6,000 shares at $120.03 on 10-05, filed after Wednesday's close). In the last 90 days, the only open-market seller without a 10b5-1 plan is SVP Hung-Lun (Fred) Chang (09-08, 32,172 shares at $110.21, already logged). Director Richard B. Black gave 2,200 shares to a charity on 09-15 (code G, a gift; routine). No insider purchases.",
+  "notable": [
+   {
+    "date": "2026-10-05",
+    "who": "Shu-Hua (Joshua) Yeh, SVP",
+    "what": "Sold 6,000 at $120.03 (about $0.72m), 10b5-1 plan, 371,498 kept",
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007698/xslF345X06/ownership.xml",
+    "new_or_rehash": "rehash"
+   },
+   {
+    "date": "2026-09-15",
+    "who": "Richard B. Black, director",
+    "what": "Gift of 2,200 shares to a 501(c)(3); 159,092 held after (plus 4,237 indirect)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007214/ownership.xml",
+    "new_or_rehash": "new (outside window, low materiality)"
+   }
+  ]
+ },
+ "filings": [
+  {
+   "form": "4",
+   "items": "",
+   "plain_english": "Officer Yeh's pre-planned sale of 6,000 shares on 10-05 (accepted by SEC at 20:05 ET on 10-07). Already covered.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007698/xslF345X06/ownership.xml"
+  },
+  {
+   "form": "none new",
+   "items": "",
+   "plain_english": "No 8-K, S-3, 424B, 10-Q or other filing from AOI on 10-08 or 10-09 (EDGAR submissions list).",
+   "materiality": "n/a",
+   "url": "https://data.sec.gov/submissions/CIK0001158114.json"
+  },
+  {
+   "form": "8-K (outside window, missed earlier)",
+   "items": "1.01, 2.03, 9.01 (filed 2026-09-15)",
+   "plain_english": "10-year lease of a 38,311.8 m2 factory in Ningbo, China, starting 2026-09-16, rent RMB 6,896,124 a year; Item 2.03 just means the lease is a new financial obligation.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007160/aaoi_8k.htm"
+  },
+  {
+   "form": "8-K (outside window, missed earlier)",
+   "items": "1.01, 9.01 (filed 2026-09-10)",
+   "plain_english": "Bought the Houston building it was leasing (about 153,928 sq ft on 8.858 acres) for $26,783,472 in cash on 2026-09-04.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007057/aaoi_8k.htm"
+  },
+  {
+   "form": "8-K (outside window, missed earlier)",
+   "items": "1.01, 2.03, 9.01 (filed 2026-09-01)",
+   "plain_english": "Leases for two more Houston buildings to be built (Buildings 4 and 5), completion about 16 months after 2026-08-31, 10-year terms.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006862/aaoi_8k.htm"
+  },
+  {
+   "form": "8-K (outside window)",
+   "items": "1.01, 5.02, 9.01 (filed 2026-08-24)",
+   "plain_english": "New standard indemnification agreements for directors and officers. The 5.02 tag is about these agreements, not an executive leaving.",
+   "materiality": "low",
+   "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006693/aaoi_8k.htm"
+  }
+ ],
+ "catalysts": [
+  {
+   "date": "mid-October 2026 (estimated)",
+   "event": "AOI announces its Q3 results date (Q2 precedent: announced 2026-07-16 for 2026-08-06)",
+   "confirmed": false,
+   "url": "https://investors.ao-inc.com/node/17411"
+  },
+  {
+   "date": "2026-11-05 (estimated)",
+   "event": "Q3 2026 results and call; Q4 guidance; capacity update; 10-Q with new share count and receivables",
+   "confirmed": false,
+   "url": "https://www.investing.com/equities/applied-opt-earnings"
+  }
+ ],
+ "thesis_breaker_checks": [
+  {
+   "event": "Guidance cut",
+   "found": false,
+   "evidence": "No AOI release or 8-K in the window (EDGAR). Q3 guidance of $255-290m from 2026-08-06 stands."
+  },
+  {
+   "event": "Results missed estimates",
+   "found": false,
+   "evidence": "No results in the window; next results estimated 2026-11-05."
+  },
+  {
+   "event": "Major customer lost / cut orders",
+   "found": false,
+   "evidence": "No report found. The Investing.com 10-08 piece mentions vague 'concerns over near-term order digestion at major cloud providers' attributed to unnamed analysts; no tier-1/2 source, and no AOI customer named. Not a finding."
+  },
+  {
+   "event": "8-K Item 4.02 restatement",
+   "found": false,
+   "evidence": "None in EDGAR list."
+  },
+  {
+   "event": "8-K Item 4.01 auditor change",
+   "found": false,
+   "evidence": "None in EDGAR list."
+  },
+  {
+   "event": "CEO/CFO left unexpectedly (5.02)",
+   "found": false,
+   "evidence": "No 5.02 in the window. The latest 5.02 (2026-08-24) concerns indemnification agreements only."
+  },
+  {
+   "event": "Large dilutive share sale (S-3, 424B, 8-K 3.02)",
+   "found": false,
+   "evidence": "Nothing new in the window. The $600m ATM finished 2026-10-05 (already logged); no new program announced or filed."
+  },
+  {
+   "event": "Regulator investigation or major litigation",
+   "found": false,
+   "evidence": "Disconfirming search found only older items (a past Culper Research short report; a historical class-action settlement filed in 2021). Nothing new in October 2026."
+  },
+  {
+   "event": "Two or more analyst downgrades within five trading days",
+   "found": false,
+   "evidence": "No broker downgrade found for 10-05 to 10-09. StockInvest.us 'technical downgrade' is an automated site, not an analyst (avoid tier)."
+  },
+  {
+   "event": "Several insiders sold on the open market outside 10b5-1 plans",
+   "found": false,
+   "evidence": "Window: only Yeh (10b5-1). 90 days: one unplanned seller (Chang, 09-08)."
+  },
+  {
+   "event": "AAOI trigger 1: revenue misses or guidance cut",
+   "found": false,
+   "evidence": "No new data until Q3 results."
+  },
+  {
+   "event": "AAOI trigger 2: factory ramp delayed",
+   "found": false,
+   "evidence": "No delay reported. Recent 8-Ks show more capacity being added (Houston Buildings 4-5 leases, Houston building purchase, Ningbo factory lease)."
+  },
+  {
+   "event": "AAOI trigger 3: a top customer cuts orders",
+   "found": false,
+   "evidence": "No tier-1/2 report. The OpenAI revenue report is a sentiment risk for AI spending, not an AOI order cut."
+  },
+  {
+   "event": "AAOI triggers 4-5: adjusted loss / wider GAAP loss",
+   "found": false,
+   "evidence": "Only testable at Q3 results."
+  },
+  {
+   "event": "AAOI trigger 6: shares up >10% in six months",
+   "found": true,
+   "evidence": "Status unchanged since 2026-10-05: met read literally (80.24m on 2026-05-05 to at least 90.26m after the ATM, about 12.5%). No new share count in this window; no new share sale. Santi's decision on the 'again' wording is still pending."
+  },
+  {
+   "event": "AAOI trigger 7: bad-debt write-off",
+   "found": false,
+   "evidence": "Only testable in the next 10-Q."
+  }
+ ],
+ "disconfirming_evidence": [
+  {
+   "claim": "FT: OpenAI's annualized revenue is about $20 billion less than previously signaled.",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-8-2026-105400965.html",
+   "assessment": "Real (two tier-3 write-ups of a tier-2 report), and a genuine risk to the 'AI spending keeps rising' premise behind AOI's growth. Indirect so far: no AOI customer has cut orders."
+  },
+  {
+   "claim": "Investing.com: analysts cite 'cooling sentiment around the pace of AI-driven optical infrastructure deployments and concerns over near-term order digestion at major cloud providers'.",
+   "url": "https://ng.investing.com/news/stock-market-news/why-is-applied-optoelectronics-stock-sliding-today-93CH-2727767",
+   "assessment": "Unsourced, unnamed analysts, likely an automated article; no confirmation found. Treat as unverified."
+  },
+  {
+   "claim": "10-year Treasury yield touched 5.37% on 2026-10-07, highest in 24 years.",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-8-2026-105400965.html",
+   "assessment": "Macro headwind for high-valuation, loss-making growth stocks; one reason the whole group is falling. Not AOI-specific."
+  },
+  {
+   "claim": "24/7 Wall St: AAOI has 'shed more than half its peak value in six months, weighed down by repeated share sales and a memory shortage that blindsided the market'.",
+   "url": "https://247wallst.com/investing/2026/10/09/applied-optoelectronics-has-fallen-hard-for-6-months-this-wall-street-analyst-expects-its-going-to-double-soon/",
+   "assessment": "Share-sale part confirmed (logged). The 'memory shortage' claim is not explained or sourced; unverified."
+  },
+  {
+   "claim": "Analyst consensus is only 'Hold' (3 Buy, 2 Hold, 1 Sell; average target $139.40).",
+   "url": "https://www.marketbeat.com/instant-alerts/consensus-applied-optoelectronics-inc-nasdaq-aaoi-stock-has-average-price-target-of-13940-2026-10-03/",
+   "assessment": "Opinion (tier 3); conflicts with another aggregator ($163.40). No new action in the window."
+  },
+  {
+   "claim": "Past short-seller report (Culper Research) accused AOI of misrepresenting its 800G prospects.",
+   "url": "https://www.investing.com/news/stock-market-news/applied-optoelectronics-stock-drops-following-shortseller-report-93CH-3848174",
+   "assessment": "Historical (predates this window; exact date not verified in this run). No new short report found."
+  }
+ ],
+ "open_questions": [
+  "Original outlet and full text of the Lumentum CEO 'booked through early 2029' interview (both write-ups say only 'interview in Tokyo').",
+  "The FT OpenAI article itself was not accessible; figures come from Yahoo Finance and Investopedia write-ups.",
+  "AAOI's minute-by-minute path Thursday afternoon (to tie the leg from -9% to -13.6% precisely to the FT report's timing) is not available.",
+  "Coherent's Thursday move: -9.63% (TradingKey analysis, TIKR) vs -5.64% (TradingKey movers page at 16:15 ET). The -9.63% / close $302.35 figure is more consistent; not checked against exchange data.",
+  "Q3 results date not confirmed by AOI (IR site returned 403; Investing.com calls 11-05 'confirmed').",
+  "Investing.com's '$1.1B full-year 2026 revenue target' does not appear in the Q2 release; it may come from the Q2 call. Unverified.",
+  "TradingKey's '800G product revenue $12.8 million' figure is unverified.",
+  "Three September 8-Ks (factory leases and purchase) are not yet in the AAOI news log; the main session may want to log them as 'found later'."
+ ],
+ "searches_run": 12,
+ "searches_note": "12 web searches returned results (3 more were rejected by the domain filter). About 18 fetches, including SEC EDGAR (submissions list, four 8-Ks, one Form 4, the Q2 release)."
+}

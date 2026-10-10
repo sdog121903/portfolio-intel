@@ -14,7 +14,7 @@ Inside an AI data center, servers and switches sit a few metres apart but must e
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Inside an AI data center, servers and switches sit a few metres apart but must e
 - Operating margin (share left after all running costs): falling (29.4% to 25.2%, -4.2 points).
 - Profit: positive net income in 4 of the last 4 quarters.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +29.0% | -14.9% | +99.6% | +60.4% | +23.2% | -53.6% | 6.6% |
+| +29.0% | -16.0% | +81.1% | +43.3% | +20.8% | -53.6% | 6.8% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -139,7 +139,11 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* Quarterly results.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-07 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- CTO Chi Fung Cheng's family trust sold 27,500 shares on 10-06 (about $6.09m) under a 10b5-1 plan adopted 2025-09-05 [SEC Form 4, 2026-10-07](https://www.sec.gov/Archives/edgar/data/1807794/000162828026065346/xslF345X06/wk-form4_1791406499.xml)
+- COO Yat Tung Lam gave 200,000 shares to a family GRAT on 10-07 (gift, code G; total stake unchanged) [SEC Form 4, 2026-10-09](https://www.sec.gov/Archives/edgar/data/1807794/000162828026065523/xslF345X06/wk-form4_1791576067.xml)
+- CFO Daniel Fleming filed notice of a planned sale of 7,580 shares (about $1.61m) under a 10b5-1 plan dated 2026-01-12 [SEC Form 144, 2026-10-08](https://www.sec.gov/Archives/edgar/data/1807794/000195824426000651/xsl144X01/primary_doc.xml)
+- No new open-market sale outside a 10b5-1 plan in 10-07 to 10-09. Under the VIAVI definition (two or more such Form 4 sales within 30 days) the breaker was met in September (CTO 09-04, Chief Legal Officer 09-21) and is not met over the last 30 days unless sales rather than people are counted (Chief Legal Officer 09-21 and 10-01)
 - Q1 FY2027 revenue $479.0m (+114.7%), above forecasts; GAAP gross margin 64.5% (from 68.2%); Q2 guidance $525-535m; full-year growth above 85% [Credo Q1 FY2027 results, 2026-09-01](https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm)
 - Stock fell about 20% on 2026-09-02, the day after results; margin drop the likely cause (inference, medium confidence)
 - Four customers 84% of revenue (33/28/13/10%) (research file, from the 10-Q)
@@ -155,3 +159,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-07 (daily report): Facts updated. Correction: three insiders (director Hosein in July; CLO in June, September and October; CTO in September) sold outside 10b5-1 plans, two within four weeks, so 'What I accept' ("all pre-planned") is out of date as a fact. The daily report flags a possible THESIS ALERT that depends on Santi's definition. Proposed (awaiting Santi): define how many non-plan sellers, within what time window, count as "several" in the general breaker (VIAV's trigger uses two or more within a month). No change to the reasons, pillars or triggers.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (insider filings decoded; insider breaker assessed with the VIAVI definition). No trigger status changed. No change to the reasons, pillars or triggers.

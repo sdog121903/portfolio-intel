@@ -27,7 +27,7 @@
         "beyond_market_pct": -0.26,
         "typical_day_pct": 3.56,
         "z": -0.07,
-        "next_5_days_pct": null
+        "next_5_days_pct": -6.36
       }
     },
     {
@@ -56,7 +56,7 @@
         "beyond_market_pct": -0.26,
         "typical_day_pct": 3.56,
         "z": -0.07,
-        "next_5_days_pct": null
+        "next_5_days_pct": -6.36
       }
     },
     {
@@ -114,7 +114,7 @@
         "beyond_market_pct": -0.76,
         "typical_day_pct": 3.56,
         "z": -0.21,
-        "next_5_days_pct": null
+        "next_5_days_pct": -7.62
       }
     },
     {
@@ -203,6 +203,64 @@
         "z": -1.4,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "form-2026-10-08-samsung-record",
+      "date": "2026-10-08",
+      "timing": "before open",
+      "type": "customer results",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "Samsung's preliminary Q3 operating profit was a record of about KRW 107.4tn; HBM supply tight. FormFactor ended the two days flat while peers fell about 3%.",
+      "source": {
+        "name": "Samsung",
+        "date": "2026-10-08",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -1.91,
+        "market_pct": -0.42,
+        "beyond_market_pct": -1.49,
+        "typical_day_pct": 3.54,
+        "z": -0.42,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "form-2026-10-07-results-date",
+      "date": "2026-10-07",
+      "timing": "after close",
+      "type": "calendar",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Q3 results set for 2026-10-28 after the close.",
+      "source": {
+        "name": "MarketScreener",
+        "date": "2026-10-07",
+        "url": "https://www.marketscreener.com/news/formfactor-to-announce-third-quarter-2026-financial-results-on-october-28th-ce785ddedd8df023",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -1.91,
+        "market_pct": -0.42,
+        "beyond_market_pct": -1.49,
+        "typical_day_pct": 3.54,
+        "z": -0.42,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -238,34 +296,44 @@
       "company_part_pct": 0.86,
       "z": 0.24,
       "main_news": null
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 139.67,
+      "day_pct": 1.85,
+      "market_part_pct": 0.01,
+      "industry_part_pct": -2.54,
+      "company_part_pct": 4.38,
+      "z": 1.21,
+      "main_news": null
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
-        "date": "2026-10-08",
-        "event": "Samsung preliminary Q3 results (memory read-across)",
-        "confirmed": true,
-        "source": {}
-      },
-      {
         "date": "2026-10-13",
-        "event": "Management at CEO Investor Summit",
+        "event": "CEO Investor Summit",
         "confirmed": true,
         "source": {}
       },
       {
         "date": "2026-10-27",
-        "event": "SK hynix Q3 results (largest customer)",
+        "event": "SK hynix Q3 results (estimated)",
         "confirmed": false,
         "source": {}
       },
       {
         "date": "2026-10-28",
-        "event": "Q3 2026 results (estimated)",
-        "confirmed": false,
-        "source": {}
+        "event": "Q3 2026 results after the close",
+        "confirmed": true,
+        "source": {
+          "name": "MarketScreener",
+          "date": "2026-10-07",
+          "url": "https://www.marketscreener.com/news/formfactor-to-announce-third-quarter-2026-financial-results-on-october-28th-ce785ddedd8df023",
+          "tier": 3
+        }
       }
     ]
   }

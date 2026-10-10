@@ -27,7 +27,7 @@
         "beyond_market_pct": 2.22,
         "typical_day_pct": 1.86,
         "z": 1.19,
-        "next_5_days_pct": null
+        "next_5_days_pct": -4.12
       }
     },
     {
@@ -145,6 +145,64 @@
         "z": -0.99,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "tsm-2026-10-08-september-sales",
+      "date": "2026-10-08",
+      "timing": "before open",
+      "type": "monthly revenue",
+      "materiality": "high",
+      "direction": "good",
+      "what": "September sales NT$511.86bn (−0.6% m/m, +54.6% y/y); Q3 NT$1,494.24bn, about US$46.70bn at NT$32, about 2% above the top of guidance. US shares still fell 3.01% with chips.",
+      "source": {
+        "name": "TSMC 6-K",
+        "date": "2026-10-08",
+        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -3.01,
+        "market_pct": -0.42,
+        "beyond_market_pct": -2.59,
+        "typical_day_pct": 1.87,
+        "z": -1.39,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "tsm-2026-10-08-gf-interposers",
+      "date": "2026-10-08",
+      "timing": "unknown",
+      "type": "supplier deal",
+      "materiality": "low",
+      "direction": "good",
+      "what": "GlobalFoundries signed a five-year US$2bn deal to make silicon interposers for TSMC's CoWoS packaging in New York, volume from 2028.",
+      "source": {
+        "name": "GlobalFoundries",
+        "date": "2026-10-08",
+        "url": "https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -3.01,
+        "market_pct": -0.42,
+        "beyond_market_pct": -2.59,
+        "typical_day_pct": 1.87,
+        "z": -1.39,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -180,40 +238,46 @@
       "company_part_pct": -1.12,
       "z": -0.83,
       "main_news": "Citi said it expects TSMC to beat its own Q3 forecast and AI revenue to nearly double next year; the US shares fell 2.09% with chip stocks."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 453.31,
+      "day_pct": -1.02,
+      "market_part_pct": 0.69,
+      "industry_part_pct": -0.92,
+      "company_part_pct": -0.79,
+      "z": -0.58,
+      "main_news": null
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
-        "date": "2026-10-08",
-        "event": "September 2026 sales, 13:30 Taipei",
-        "confirmed": true,
-        "source": {
-          "name": "TSMC",
-          "date": "2026-10-07",
-          "url": "https://investor.tsmc.com/english/financial-calendar",
-          "tier": 1
-        }
+        "date": "2026-10-12",
+        "event": "Taiwan market reopens after National Day",
+        "confirmed": false,
+        "source": {}
       },
       {
         "date": "2026-10-15",
-        "event": "Q3 2026 results, 14:00 Taipei (2:00 a.m. New York)",
+        "event": "Q3 2026 results, 14:00 Taipei (08:00 Madrid)",
         "confirmed": true,
         "source": {
           "name": "TSMC",
-          "date": "2026-10-07",
+          "date": "2026-10-09",
           "url": "https://investor.tsmc.com/english/financial-calendar",
           "tier": 1
         }
       },
       {
         "date": "2026-11-10",
-        "event": "October 2026 sales",
+        "event": "October 2026 revenue",
         "confirmed": true,
         "source": {
           "name": "TSMC",
-          "date": "2026-10-07",
+          "date": "2026-10-09",
           "url": "https://investor.tsmc.com/english/financial-calendar",
           "tier": 1
         }

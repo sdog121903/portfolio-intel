@@ -1,0 +1,1305 @@
+{
+  "generated_for": "2026-10-09",
+  "market_benchmark": "SPY",
+  "positions": {
+    "STRL": {
+      "ticker": "STRL",
+      "as_of": "2026-10-09",
+      "close": 513.0,
+      "prev_close": 518.41,
+      "day_change_pct": -1.04,
+      "returns_pct": {
+        "1w": -3.83,
+        "1m": 3.6,
+        "3m": -24.81,
+        "6m": 14.93,
+        "ytd": 67.52,
+        "1y": 44.29
+      },
+      "high_52w": 1005.68,
+      "low_52w": 281.58,
+      "pct_below_52w_high": -48.99,
+      "position_in_52w_range_pct": 31.96,
+      "sma": {
+        "20": 509.62,
+        "50": 516.25,
+        "200": 544.75
+      },
+      "pct_vs_sma": {
+        "20": 0.66,
+        "50": -0.63,
+        "200": -5.83
+      },
+      "trend_state": "downtrend (price below its 50- and 200-day averages, and the 50 is below the 200)",
+      "rsi_14": 49.1,
+      "rsi_state": "neutral",
+      "atr_14": 30.12,
+      "atr_pct_of_price": 5.87,
+      "volatility_ann_pct": {
+        "20d": 60.7,
+        "60d": 79.6
+      },
+      "max_drawdown_1y_pct": -54.1,
+      "relative_volume_vs_20d": 0.68,
+      "beta_1y_vs_market": 3.28,
+      "corr_60d_vs_market": 0.3,
+      "excess_return_pct": {
+        "vs_market_1m": 1.23,
+        "vs_market_3m": -28.2,
+        "vs_sector_1m": 4.97,
+        "vs_sector_3m": -19.1
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.019,
+        "side": "Long",
+        "entry_price": 523.33,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 9.94,
+        "value": 9.75,
+        "pnl": -0.2,
+        "pnl_pct": -1.97,
+        "peak_close_since_entry": 563.69,
+        "trough_close_since_entry": 513.0,
+        "drawdown_from_peak_since_entry_pct": -8.99,
+        "days_held": 4
+      },
+      "sector_etf": "PAVE"
+    },
+    "CRWD": {
+      "ticker": "CRWD",
+      "as_of": "2026-10-09",
+      "close": 275.04,
+      "prev_close": 263.01,
+      "day_change_pct": 4.57,
+      "returns_pct": {
+        "1w": 1.85,
+        "1m": 32.36,
+        "3m": 46.94,
+        "6m": 190.26,
+        "ytd": 134.7,
+        "1y": 116.09
+      },
+      "high_52w": 286.99,
+      "low_52w": 85.68,
+      "pct_below_52w_high": -4.16,
+      "position_in_52w_range_pct": 94.06,
+      "sma": {
+        "20": 257.71,
+        "50": 228.7,
+        "200": 157.32
+      },
+      "pct_vs_sma": {
+        "20": 6.73,
+        "50": 20.26,
+        "200": 74.83
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 64.9,
+      "rsi_state": "neutral",
+      "atr_14": 11.54,
+      "atr_pct_of_price": 4.2,
+      "volatility_ann_pct": {
+        "20d": 62.3,
+        "60d": 69.9
+      },
+      "max_drawdown_1y_pct": -37.18,
+      "relative_volume_vs_20d": 0.66,
+      "beta_1y_vs_market": 1.5,
+      "corr_60d_vs_market": 0.31,
+      "excess_return_pct": {
+        "vs_market_1m": 29.98,
+        "vs_market_3m": 43.55,
+        "vs_sector_1m": 15.93,
+        "vs_sector_3m": 27.21
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.074,
+        "side": "Long",
+        "entry_price": 272.67,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 20.18,
+        "value": 20.35,
+        "pnl": 0.18,
+        "pnl_pct": 0.87,
+        "peak_close_since_entry": 278.86,
+        "trough_close_since_entry": 263.01,
+        "drawdown_from_peak_since_entry_pct": -1.37,
+        "days_held": 4
+      },
+      "sector_etf": "CIBR"
+    },
+    "MRNA": {
+      "ticker": "MRNA",
+      "as_of": "2026-10-09",
+      "close": 225.0,
+      "prev_close": 197.0,
+      "day_change_pct": 14.21,
+      "returns_pct": {
+        "1w": 18.41,
+        "1m": 65.92,
+        "3m": 229.57,
+        "6m": 341.52,
+        "ytd": 662.97,
+        "1y": 717.29
+      },
+      "high_52w": 225.0,
+      "low_52w": 22.28,
+      "pct_below_52w_high": 0.0,
+      "position_in_52w_range_pct": 100.0,
+      "sma": {
+        "20": 183.05,
+        "50": 138.26,
+        "200": 72.63
+      },
+      "pct_vs_sma": {
+        "20": 22.92,
+        "50": 62.74,
+        "200": 209.78
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 72.1,
+      "rsi_state": "hot (RSI 70+: rose fast recently; often cools off, not a sell signal by itself)",
+      "atr_14": 15.19,
+      "atr_pct_of_price": 6.75,
+      "volatility_ann_pct": {
+        "20d": 88.1,
+        "60d": 373.5
+      },
+      "max_drawdown_1y_pct": -34.16,
+      "relative_volume_vs_20d": 1.69,
+      "beta_1y_vs_market": 1.98,
+      "corr_60d_vs_market": 0.12,
+      "excess_return_pct": {
+        "vs_market_1m": 63.54,
+        "vs_market_3m": 226.19,
+        "vs_sector_1m": 69.44,
+        "vs_sector_3m": 232.88
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.1,
+        "side": "Long",
+        "entry_price": 203.21,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 20.32,
+        "value": 22.5,
+        "pnl": 2.18,
+        "pnl_pct": 10.72,
+        "peak_close_since_entry": 225.0,
+        "trough_close_since_entry": 187.46,
+        "drawdown_from_peak_since_entry_pct": 0.0,
+        "days_held": 4
+      },
+      "sector_etf": "XBI"
+    },
+    "CRDO": {
+      "ticker": "CRDO",
+      "as_of": "2026-10-09",
+      "close": 216.55,
+      "prev_close": 211.86,
+      "day_change_pct": 2.21,
+      "returns_pct": {
+        "1w": -0.96,
+        "1m": 28.96,
+        "3m": -16.0,
+        "6m": 81.08,
+        "ytd": 50.5,
+        "1y": 43.27
+      },
+      "high_52w": 308.67,
+      "low_52w": 86.49,
+      "pct_below_52w_high": -29.84,
+      "position_in_52w_range_pct": 58.54,
+      "sma": {
+        "20": 193.85,
+        "50": 209.86,
+        "200": 179.21
+      },
+      "pct_vs_sma": {
+        "20": 11.71,
+        "50": 3.19,
+        "200": 20.84
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 57.0,
+      "rsi_state": "neutral",
+      "atr_14": 14.82,
+      "atr_pct_of_price": 6.85,
+      "volatility_ann_pct": {
+        "20d": 74.2,
+        "60d": 95.1
+      },
+      "max_drawdown_1y_pct": -53.59,
+      "relative_volume_vs_20d": 0.73,
+      "beta_1y_vs_market": 3.3,
+      "corr_60d_vs_market": 0.44,
+      "excess_return_pct": {
+        "vs_market_1m": 26.59,
+        "vs_market_3m": -19.38,
+        "vs_sector_1m": 23.9,
+        "vs_sector_3m": -14.74
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.02,
+        "side": "Long",
+        "entry_price": 212.48,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 4.25,
+        "value": 4.33,
+        "pnl": 0.08,
+        "pnl_pct": 1.92,
+        "peak_close_since_entry": 220.83,
+        "trough_close_since_entry": 211.86,
+        "drawdown_from_peak_since_entry_pct": -1.94,
+        "days_held": 4
+      },
+      "sector_etf": "SMH"
+    },
+    "LITE": {
+      "ticker": "LITE",
+      "as_of": "2026-10-09",
+      "close": 1103.35,
+      "prev_close": 1048.6,
+      "day_change_pct": 5.22,
+      "returns_pct": {
+        "1w": 1.65,
+        "1m": 11.56,
+        "3m": 37.57,
+        "6m": 22.96,
+        "ytd": 199.34,
+        "1y": 590.63
+      },
+      "high_52w": 1143.0,
+      "low_52w": 147.81,
+      "pct_below_52w_high": -3.47,
+      "position_in_52w_range_pct": 96.02,
+      "sma": {
+        "20": 980.56,
+        "50": 920.34,
+        "200": 764.19
+      },
+      "pct_vs_sma": {
+        "20": 12.52,
+        "50": 19.89,
+        "200": 44.38
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 62.6,
+      "rsi_state": "neutral",
+      "atr_14": 67.0,
+      "atr_pct_of_price": 6.07,
+      "volatility_ann_pct": {
+        "20d": 72.4,
+        "60d": 93.3
+      },
+      "max_drawdown_1y_pct": -42.8,
+      "relative_volume_vs_20d": 1.1,
+      "beta_1y_vs_market": 2.89,
+      "corr_60d_vs_market": 0.34,
+      "excess_return_pct": {
+        "vs_market_1m": 9.19,
+        "vs_market_3m": 34.19,
+        "vs_sector_1m": 6.51,
+        "vs_sector_3m": 38.83
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.018,
+        "side": "Long",
+        "entry_price": 1091.67,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 19.65,
+        "value": 19.86,
+        "pnl": 0.21,
+        "pnl_pct": 1.07,
+        "peak_close_since_entry": 1133.4,
+        "trough_close_since_entry": 1048.6,
+        "drawdown_from_peak_since_entry_pct": -2.65,
+        "days_held": 4
+      },
+      "sector_etf": "SMH"
+    },
+    "TSM": {
+      "ticker": "TSM",
+      "as_of": "2026-10-09",
+      "close": 453.31,
+      "prev_close": 457.99,
+      "day_change_pct": -1.02,
+      "returns_pct": {
+        "1w": -4.12,
+        "1m": 4.4,
+        "3m": 4.7,
+        "6m": 22.93,
+        "ytd": 50.34,
+        "1y": 52.76
+      },
+      "high_52w": 487.47,
+      "low_52w": 266.82,
+      "pct_below_52w_high": -7.01,
+      "position_in_52w_range_pct": 84.52,
+      "sma": {
+        "20": 450.47,
+        "50": 432.47,
+        "200": 391.77
+      },
+      "pct_vs_sma": {
+        "20": 0.63,
+        "50": 4.82,
+        "200": 15.71
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 52.4,
+      "rsi_state": "neutral",
+      "atr_14": 11.4,
+      "atr_pct_of_price": 2.51,
+      "volatility_ann_pct": {
+        "20d": 29.9,
+        "60d": 34.0
+      },
+      "max_drawdown_1y_pct": -21.55,
+      "relative_volume_vs_20d": 0.9,
+      "beta_1y_vs_market": 2.16,
+      "corr_60d_vs_market": 0.61,
+      "excess_return_pct": {
+        "vs_market_1m": 2.03,
+        "vs_market_3m": 1.32,
+        "vs_sector_1m": -0.65,
+        "vs_sector_3m": 5.96
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.03,
+        "side": "Long",
+        "entry_price": 485.8,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 14.57,
+        "value": 13.6,
+        "pnl": -0.97,
+        "pnl_pct": -6.69,
+        "peak_close_since_entry": 485.8,
+        "trough_close_since_entry": 453.31,
+        "drawdown_from_peak_since_entry_pct": -6.69,
+        "days_held": 4
+      },
+      "sector_etf": "SMH"
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "as_of": "2026-10-09",
+      "close": 608.1,
+      "prev_close": 620.68,
+      "day_change_pct": -2.03,
+      "returns_pct": {
+        "1w": -4.07,
+        "1m": 16.7,
+        "3m": 9.0,
+        "6m": 148.16,
+        "ytd": 183.95,
+        "1y": 161.11
+      },
+      "high_52w": 658.52,
+      "low_52w": 188.22,
+      "pct_below_52w_high": -7.66,
+      "position_in_52w_range_pct": 89.28,
+      "sma": {
+        "20": 598.07,
+        "50": 528.92,
+        "200": 385.32
+      },
+      "pct_vs_sma": {
+        "20": 1.68,
+        "50": 14.97,
+        "200": 57.82
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 57.2,
+      "rsi_state": "neutral",
+      "atr_14": 23.82,
+      "atr_pct_of_price": 3.92,
+      "volatility_ann_pct": {
+        "20d": 53.8,
+        "60d": 63.3
+      },
+      "max_drawdown_1y_pct": -27.76,
+      "relative_volume_vs_20d": 0.61,
+      "beta_1y_vs_market": 3.15,
+      "corr_60d_vs_market": 0.51,
+      "excess_return_pct": {
+        "vs_market_1m": 14.32,
+        "vs_market_3m": 5.62,
+        "vs_sector_1m": 11.64,
+        "vs_sector_3m": 10.26
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.01,
+        "side": "Long",
+        "entry_price": 631.75,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 6.32,
+        "value": 6.08,
+        "pnl": -0.24,
+        "pnl_pct": -3.74,
+        "peak_close_since_entry": 649.42,
+        "trough_close_since_entry": 608.1,
+        "drawdown_from_peak_since_entry_pct": -6.36,
+        "days_held": 4
+      },
+      "sector_etf": "SMH"
+    },
+    "PANW": {
+      "ticker": "PANW",
+      "as_of": "2026-10-09",
+      "close": 418.78,
+      "prev_close": 398.5,
+      "day_change_pct": 5.09,
+      "returns_pct": {
+        "1w": 3.85,
+        "1m": 24.97,
+        "3m": 28.5,
+        "6m": 168.91,
+        "ytd": 127.35,
+        "1y": 94.63
+      },
+      "high_52w": 432.33,
+      "low_52w": 139.57,
+      "pct_below_52w_high": -3.13,
+      "position_in_52w_range_pct": 95.37,
+      "sma": {
+        "20": 389.72,
+        "50": 370.85,
+        "200": 255.92
+      },
+      "pct_vs_sma": {
+        "20": 7.46,
+        "50": 12.92,
+        "200": 63.63
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 63.1,
+      "rsi_state": "neutral",
+      "atr_14": 17.35,
+      "atr_pct_of_price": 4.14,
+      "volatility_ann_pct": {
+        "20d": 60.8,
+        "60d": 58.7
+      },
+      "max_drawdown_1y_pct": -36.01,
+      "relative_volume_vs_20d": 0.62,
+      "beta_1y_vs_market": 1.2,
+      "corr_60d_vs_market": 0.23,
+      "excess_return_pct": {
+        "vs_market_1m": 22.6,
+        "vs_market_3m": 25.11,
+        "vs_sector_1m": 8.54,
+        "vs_sector_3m": 8.77
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.05,
+        "side": "Long",
+        "entry_price": 406.76,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 20.34,
+        "value": 20.94,
+        "pnl": 0.6,
+        "pnl_pct": 2.96,
+        "peak_close_since_entry": 419.91,
+        "trough_close_since_entry": 398.5,
+        "drawdown_from_peak_since_entry_pct": -0.27,
+        "days_held": 4
+      },
+      "sector_etf": "CIBR"
+    },
+    "BE": {
+      "ticker": "BE",
+      "as_of": "2026-10-09",
+      "close": 280.5,
+      "prev_close": 272.82,
+      "day_change_pct": 2.82,
+      "returns_pct": {
+        "1w": -2.99,
+        "1m": 4.17,
+        "3m": 14.67,
+        "6m": 68.27,
+        "ytd": 222.82,
+        "1y": 223.72
+      },
+      "high_52w": 351.28,
+      "low_52w": 75.7,
+      "pct_below_52w_high": -20.15,
+      "position_in_52w_range_pct": 74.32,
+      "sma": {
+        "20": 276.88,
+        "50": 246.48,
+        "200": 212.43
+      },
+      "pct_vs_sma": {
+        "20": 1.31,
+        "50": 13.8,
+        "200": 32.04
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 54.0,
+      "rsi_state": "neutral",
+      "atr_14": 19.03,
+      "atr_pct_of_price": 6.79,
+      "volatility_ann_pct": {
+        "20d": 81.0,
+        "60d": 104.8
+      },
+      "max_drawdown_1y_pct": -52.65,
+      "relative_volume_vs_20d": 0.5,
+      "beta_1y_vs_market": 4.25,
+      "corr_60d_vs_market": 0.42,
+      "excess_return_pct": {
+        "vs_market_1m": 1.79,
+        "vs_market_3m": 11.29,
+        "vs_sector_1m": 8.22,
+        "vs_sector_3m": 24.91
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.03,
+        "side": "Long",
+        "entry_price": 286.65,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 8.6,
+        "value": 8.41,
+        "pnl": -0.18,
+        "pnl_pct": -2.15,
+        "peak_close_since_entry": 295.78,
+        "trough_close_since_entry": 272.82,
+        "drawdown_from_peak_since_entry_pct": -5.17,
+        "days_held": 4
+      },
+      "sector_etf": "ICLN"
+    },
+    "SNOW": {
+      "ticker": "SNOW",
+      "as_of": "2026-10-09",
+      "close": 368.89,
+      "prev_close": 343.4,
+      "day_change_pct": 7.42,
+      "returns_pct": {
+        "1w": 8.17,
+        "1m": 11.29,
+        "3m": 41.09,
+        "6m": 204.59,
+        "ytd": 68.17,
+        "1y": 47.16
+      },
+      "high_52w": 384.56,
+      "low_52w": 118.3,
+      "pct_below_52w_high": -4.07,
+      "position_in_52w_range_pct": 94.11,
+      "sma": {
+        "20": 336.95,
+        "50": 330.25,
+        "200": 231.05
+      },
+      "pct_vs_sma": {
+        "20": 9.48,
+        "50": 11.7,
+        "200": 59.66
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 68.9,
+      "rsi_state": "neutral",
+      "atr_14": 14.34,
+      "atr_pct_of_price": 3.89,
+      "volatility_ann_pct": {
+        "20d": 37.0,
+        "60d": 50.7
+      },
+      "max_drawdown_1y_pct": -56.3,
+      "relative_volume_vs_20d": 2.0,
+      "beta_1y_vs_market": 1.28,
+      "corr_60d_vs_market": 0.39,
+      "excess_return_pct": {
+        "vs_market_1m": 8.91,
+        "vs_market_3m": 37.71,
+        "vs_sector_1m": 0.64,
+        "vs_sector_3m": 19.17
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.03,
+        "side": "Long",
+        "entry_price": 338.99,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 10.17,
+        "value": 11.07,
+        "pnl": 0.9,
+        "pnl_pct": 8.82,
+        "peak_close_since_entry": 368.89,
+        "trough_close_since_entry": 332.85,
+        "drawdown_from_peak_since_entry_pct": 0.0,
+        "days_held": 4
+      },
+      "sector_etf": "IGV"
+    },
+    "AAOI": {
+      "ticker": "AAOI",
+      "as_of": "2026-10-09",
+      "close": 109.64,
+      "prev_close": 105.9,
+      "day_change_pct": 3.53,
+      "returns_pct": {
+        "1w": -5.15,
+        "1m": 1.58,
+        "3m": -8.57,
+        "6m": -27.2,
+        "ytd": 214.52,
+        "1y": 238.71
+      },
+      "high_52w": 233.67,
+      "low_52w": 18.5,
+      "pct_below_52w_high": -53.08,
+      "position_in_52w_range_pct": 42.36,
+      "sma": {
+        "20": 105.98,
+        "50": 113.89,
+        "200": 110.96
+      },
+      "pct_vs_sma": {
+        "20": 3.45,
+        "50": -3.73,
+        "200": -1.19
+      },
+      "trend_state": "mixed / turning",
+      "rsi_14": 49.9,
+      "rsi_state": "neutral",
+      "atr_14": 9.52,
+      "atr_pct_of_price": 8.69,
+      "volatility_ann_pct": {
+        "20d": 93.1,
+        "60d": 121.1
+      },
+      "max_drawdown_1y_pct": -65.7,
+      "relative_volume_vs_20d": 1.68,
+      "beta_1y_vs_market": 4.26,
+      "corr_60d_vs_market": 0.53,
+      "excess_return_pct": {
+        "vs_market_1m": -0.79,
+        "vs_market_3m": -11.96,
+        "vs_sector_1m": -3.47,
+        "vs_sector_3m": -7.31
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.07,
+        "side": "Long",
+        "entry_price": 121.57,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 8.51,
+        "value": 7.67,
+        "pnl": -0.84,
+        "pnl_pct": -9.81,
+        "peak_close_since_entry": 130.16,
+        "trough_close_since_entry": 105.9,
+        "drawdown_from_peak_since_entry_pct": -15.77,
+        "days_held": 4
+      },
+      "sector_etf": "SMH"
+    },
+    "A": {
+      "ticker": "A",
+      "as_of": "2026-10-09",
+      "close": 170.54,
+      "prev_close": 168.17,
+      "day_change_pct": 1.41,
+      "returns_pct": {
+        "1w": 1.8,
+        "1m": 17.99,
+        "3m": 27.18,
+        "6m": 48.72,
+        "ytd": 26.27,
+        "1y": 22.63
+      },
+      "high_52w": 177.05,
+      "low_52w": 108.35,
+      "pct_below_52w_high": -3.68,
+      "position_in_52w_range_pct": 90.52,
+      "sma": {
+        "20": 165.46,
+        "50": 155.58,
+        "200": 133.63
+      },
+      "pct_vs_sma": {
+        "20": 3.07,
+        "50": 9.62,
+        "200": 27.62
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 62.2,
+      "rsi_state": "neutral",
+      "atr_14": 5.08,
+      "atr_pct_of_price": 2.98,
+      "volatility_ann_pct": {
+        "20d": 30.5,
+        "60d": 29.9
+      },
+      "max_drawdown_1y_pct": -29.75,
+      "relative_volume_vs_20d": 0.6,
+      "beta_1y_vs_market": 0.84,
+      "corr_60d_vs_market": 0.21,
+      "excess_return_pct": {
+        "vs_market_1m": 15.62,
+        "vs_market_3m": 23.8,
+        "vs_sector_1m": 15.06,
+        "vs_sector_3m": 20.58
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.03,
+        "side": "Long",
+        "entry_price": 171.29,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 5.14,
+        "value": 5.12,
+        "pnl": -0.02,
+        "pnl_pct": -0.44,
+        "peak_close_since_entry": 171.29,
+        "trough_close_since_entry": 168.17,
+        "drawdown_from_peak_since_entry_pct": -0.44,
+        "days_held": 4
+      },
+      "sector_etf": "XLV"
+    },
+    "AXTI": {
+      "ticker": "AXTI",
+      "as_of": "2026-10-09",
+      "close": 68.46,
+      "prev_close": 71.66,
+      "day_change_pct": -4.47,
+      "returns_pct": {
+        "1w": -20.27,
+        "1m": -0.65,
+        "3m": 19.66,
+        "6m": 6.67,
+        "ytd": 318.72,
+        "1y": 1208.99
+      },
+      "high_52w": 143.16,
+      "low_52w": 4.0,
+      "pct_below_52w_high": -52.18,
+      "position_in_52w_range_pct": 46.32,
+      "sma": {
+        "20": 74.5,
+        "50": 71.61,
+        "200": 61.94
+      },
+      "pct_vs_sma": {
+        "20": -8.1,
+        "50": -4.4,
+        "200": 10.53
+      },
+      "trend_state": "pullback inside a longer uptrend (below the 50-day, still above the 200-day)",
+      "rsi_14": 44.8,
+      "rsi_state": "neutral",
+      "atr_14": 6.82,
+      "atr_pct_of_price": 9.97,
+      "volatility_ann_pct": {
+        "20d": 108.4,
+        "60d": 151.2
+      },
+      "max_drawdown_1y_pct": -73.75,
+      "relative_volume_vs_20d": 1.05,
+      "beta_1y_vs_market": 4.29,
+      "corr_60d_vs_market": 0.4,
+      "excess_return_pct": {
+        "vs_market_1m": -3.03,
+        "vs_market_3m": 16.28,
+        "vs_sector_1m": -5.71,
+        "vs_sector_3m": 20.92
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.1,
+        "side": "Long",
+        "entry_price": 86.66,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 8.67,
+        "value": 6.85,
+        "pnl": -1.82,
+        "pnl_pct": -21.0,
+        "peak_close_since_entry": 86.66,
+        "trough_close_since_entry": 68.46,
+        "drawdown_from_peak_since_entry_pct": -21.0,
+        "days_held": 4
+      },
+      "sector_etf": "SMH"
+    },
+    "VIAV": {
+      "ticker": "VIAV",
+      "as_of": "2026-10-09",
+      "close": 45.46,
+      "prev_close": 44.09,
+      "day_change_pct": 3.11,
+      "returns_pct": {
+        "1w": -3.48,
+        "1m": 16.03,
+        "3m": 5.52,
+        "6m": 8.78,
+        "ytd": 155.11,
+        "1y": 259.08
+      },
+      "high_52w": 60.43,
+      "low_52w": 12.23,
+      "pct_below_52w_high": -24.77,
+      "position_in_52w_range_pct": 68.94,
+      "sma": {
+        "20": 40.32,
+        "50": 39.32,
+        "200": 37.5
+      },
+      "pct_vs_sma": {
+        "20": 12.74,
+        "50": 15.63,
+        "200": 21.23
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 61.7,
+      "rsi_state": "neutral",
+      "atr_14": 2.47,
+      "atr_pct_of_price": 5.44,
+      "volatility_ann_pct": {
+        "20d": 71.3,
+        "60d": 80.3
+      },
+      "max_drawdown_1y_pct": -41.75,
+      "relative_volume_vs_20d": 0.47,
+      "beta_1y_vs_market": 2.12,
+      "corr_60d_vs_market": 0.36,
+      "excess_return_pct": {
+        "vs_market_1m": 13.65,
+        "vs_market_3m": 2.14,
+        "vs_sector_1m": 10.97,
+        "vs_sector_3m": 6.78
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.2,
+        "side": "Long",
+        "entry_price": 46.91,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 9.38,
+        "value": 9.09,
+        "pnl": -0.29,
+        "pnl_pct": -3.09,
+        "peak_close_since_entry": 48.14,
+        "trough_close_since_entry": 44.09,
+        "drawdown_from_peak_since_entry_pct": -5.57,
+        "days_held": 4
+      },
+      "sector_etf": "SMH"
+    },
+    "FORM": {
+      "ticker": "FORM",
+      "as_of": "2026-10-09",
+      "close": 139.67,
+      "prev_close": 137.13,
+      "day_change_pct": 1.85,
+      "returns_pct": {
+        "1w": -6.36,
+        "1m": 22.32,
+        "3m": 18.85,
+        "6m": 12.82,
+        "ytd": 150.39,
+        "1y": 264.1
+      },
+      "high_52w": 160.27,
+      "low_52w": 37.14,
+      "pct_below_52w_high": -12.85,
+      "position_in_52w_range_pct": 83.27,
+      "sma": {
+        "20": 129.73,
+        "50": 119.8,
+        "200": 110.67
+      },
+      "pct_vs_sma": {
+        "20": 7.66,
+        "50": 16.59,
+        "200": 26.2
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 60.5,
+      "rsi_state": "neutral",
+      "atr_14": 7.24,
+      "atr_pct_of_price": 5.19,
+      "volatility_ann_pct": {
+        "20d": 69.8,
+        "60d": 93.4
+      },
+      "max_drawdown_1y_pct": -47.82,
+      "relative_volume_vs_20d": 0.41,
+      "beta_1y_vs_market": 2.77,
+      "corr_60d_vs_market": 0.39,
+      "excess_return_pct": {
+        "vs_market_1m": 19.95,
+        "vs_market_3m": 15.46,
+        "vs_sector_1m": 17.27,
+        "vs_sector_3m": 20.11
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.05,
+        "side": "Long",
+        "entry_price": 147.99,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 7.4,
+        "value": 6.98,
+        "pnl": -0.42,
+        "pnl_pct": -5.62,
+        "peak_close_since_entry": 147.99,
+        "trough_close_since_entry": 137.13,
+        "drawdown_from_peak_since_entry_pct": -5.62,
+        "days_held": 4
+      },
+      "sector_etf": "SMH"
+    },
+    "ASML": {
+      "ticker": "ASML",
+      "as_of": "2026-10-09",
+      "close": 1780.34,
+      "prev_close": 1769.79,
+      "day_change_pct": 0.6,
+      "returns_pct": {
+        "1w": -4.66,
+        "1m": 2.94,
+        "3m": -0.82,
+        "6m": 20.85,
+        "ytd": 67.21,
+        "1y": 82.76
+      },
+      "high_52w": 1999.96,
+      "low_52w": 935.41,
+      "pct_below_52w_high": -10.98,
+      "position_in_52w_range_pct": 79.37,
+      "sma": {
+        "20": 1744.55,
+        "50": 1738.61,
+        "200": 1561.82
+      },
+      "pct_vs_sma": {
+        "20": 2.05,
+        "50": 2.4,
+        "200": 13.99
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 52.4,
+      "rsi_state": "neutral",
+      "atr_14": 51.83,
+      "atr_pct_of_price": 2.91,
+      "volatility_ann_pct": {
+        "20d": 38.6,
+        "60d": 39.8
+      },
+      "max_drawdown_1y_pct": -21.95,
+      "relative_volume_vs_20d": 0.84,
+      "beta_1y_vs_market": 2.2,
+      "corr_60d_vs_market": 0.37,
+      "excess_return_pct": {
+        "vs_market_1m": 0.56,
+        "vs_market_3m": -4.2,
+        "vs_sector_1m": -2.12,
+        "vs_sector_3m": 0.44
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.014,
+        "side": "Long",
+        "entry_price": 1859.86,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-05",
+        "fees": 0.0,
+        "invested": 26.04,
+        "value": 24.92,
+        "pnl": -1.11,
+        "pnl_pct": -4.28,
+        "peak_close_since_entry": 1859.86,
+        "trough_close_since_entry": 1769.79,
+        "drawdown_from_peak_since_entry_pct": -4.28,
+        "days_held": 4
+      },
+      "sector_etf": "SMH"
+    },
+    "QQQM": {
+      "ticker": "QQQM",
+      "as_of": "2026-10-09",
+      "close": 309.39,
+      "prev_close": 307.85,
+      "day_change_pct": 0.5,
+      "returns_pct": {
+        "1w": 0.23,
+        "1m": 5.0,
+        "3m": 3.68,
+        "6m": 23.24,
+        "ytd": 22.77,
+        "1y": 23.66
+      },
+      "high_52w": 314.11,
+      "low_52w": 228.75,
+      "pct_below_52w_high": -1.5,
+      "position_in_52w_range_pct": 94.46,
+      "sma": {
+        "20": 303.68,
+        "50": 298.33,
+        "200": 276.76
+      },
+      "pct_vs_sma": {
+        "20": 1.88,
+        "50": 3.71,
+        "200": 11.79
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 61.0,
+      "rsi_state": "neutral",
+      "atr_14": 3.74,
+      "atr_pct_of_price": 1.21,
+      "volatility_ann_pct": {
+        "20d": 15.7,
+        "60d": 18.2
+      },
+      "max_drawdown_1y_pct": -11.96,
+      "relative_volume_vs_20d": 0.56,
+      "beta_1y_vs_market": 1.41,
+      "corr_60d_vs_market": 0.91,
+      "excess_return_pct": {
+        "vs_market_1m": 2.62,
+        "vs_market_3m": 0.3,
+        "vs_sector_1m": 0.01,
+        "vs_sector_3m": 0.02
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      },
+      "position": {
+        "shares": 0.1,
+        "side": "Long",
+        "entry_price": 312.76,
+        "entry_price_source": "sheet-estimate",
+        "open_date": "2026-10-06",
+        "fees": 0.0,
+        "invested": 31.28,
+        "value": 30.94,
+        "pnl": -0.34,
+        "pnl_pct": -1.08,
+        "peak_close_since_entry": 312.76,
+        "trough_close_since_entry": 307.85,
+        "drawdown_from_peak_since_entry_pct": -1.08,
+        "days_held": 3
+      },
+      "sector_etf": "QQQ"
+    }
+  },
+  "benchmarks": {
+    "SPY": {
+      "ticker": "SPY",
+      "as_of": "2026-10-09",
+      "close": 778.57,
+      "prev_close": 773.93,
+      "day_change_pct": 0.6,
+      "returns_pct": {
+        "1w": 1.16,
+        "1m": 2.37,
+        "3m": 3.38,
+        "6m": 15.17,
+        "ytd": 15.06,
+        "1y": 17.26
+      },
+      "high_52w": 781.62,
+      "low_52w": 629.28,
+      "pct_below_52w_high": -0.39,
+      "position_in_52w_range_pct": 98.0,
+      "sma": {
+        "20": 767.98,
+        "50": 767.57,
+        "200": 722.93
+      },
+      "pct_vs_sma": {
+        "20": 1.38,
+        "50": 1.43,
+        "200": 7.7
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 59.9,
+      "rsi_state": "neutral",
+      "atr_14": 6.61,
+      "atr_pct_of_price": 0.85,
+      "volatility_ann_pct": {
+        "20d": 10.0,
+        "60d": 11.1
+      },
+      "max_drawdown_1y_pct": -8.88,
+      "relative_volume_vs_20d": 0.47,
+      "beta_1y_vs_market": 1.0,
+      "corr_60d_vs_market": 1.0,
+      "excess_return_pct": {
+        "vs_market_1m": 0.0,
+        "vs_market_3m": 0.0,
+        "vs_sector_1m": null,
+        "vs_sector_3m": null
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      }
+    },
+    "QQQ": {
+      "ticker": "QQQ",
+      "as_of": "2026-10-09",
+      "close": 751.27,
+      "prev_close": 747.58,
+      "day_change_pct": 0.49,
+      "returns_pct": {
+        "1w": 0.23,
+        "1m": 4.99,
+        "3m": 3.66,
+        "6m": 23.21,
+        "ytd": 22.71,
+        "1y": 23.6
+      },
+      "high_52w": 762.86,
+      "low_52w": 555.6,
+      "pct_below_52w_high": -1.52,
+      "position_in_52w_range_pct": 94.41,
+      "sma": {
+        "20": 737.54,
+        "50": 724.52,
+        "200": 672.18
+      },
+      "pct_vs_sma": {
+        "20": 1.86,
+        "50": 3.69,
+        "200": 11.77
+      },
+      "trend_state": "uptrend (price above its 50- and 200-day averages, and the 50 is above the 200)",
+      "rsi_14": 60.9,
+      "rsi_state": "neutral",
+      "atr_14": 9.16,
+      "atr_pct_of_price": 1.22,
+      "volatility_ann_pct": {
+        "20d": 15.6,
+        "60d": 18.2
+      },
+      "max_drawdown_1y_pct": -11.96,
+      "relative_volume_vs_20d": 0.59,
+      "beta_1y_vs_market": 1.42,
+      "corr_60d_vs_market": 0.91,
+      "excess_return_pct": {
+        "vs_market_1m": 2.62,
+        "vs_market_3m": 0.27,
+        "vs_sector_1m": null,
+        "vs_sector_3m": null
+      },
+      "data_quality": {
+        "rows": 501,
+        "first_date": "2024-10-10",
+        "warnings": []
+      }
+    }
+  },
+  "missing_prices": []
+}

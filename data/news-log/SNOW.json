@@ -174,6 +174,93 @@
         "z": -0.56,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "snow-2026-10-08-asos-explanation",
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "security incident",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "ASOS said the breach began when an employee was tricked into giving up a login used on 'third-party platforms'; Snowflake +3.17% that day (company part +3.32).",
+      "source": {
+        "name": "Irish Examiner (PA)",
+        "date": "2026-10-08",
+        "url": "https://www.irishexaminer.com/news/arid-41921518.html",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": 3.17,
+        "market_pct": -0.42,
+        "beyond_market_pct": 3.59,
+        "typical_day_pct": 2.3,
+        "z": 1.56,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "snow-2026-10-09-snowflake-statement",
+      "date": "2026-10-09",
+      "timing": "before open",
+      "type": "company statement",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "Snowflake said no flaw in its service was involved and no customer action is needed (media statement); whether the stolen login reached ASOS's Snowflake account is unknown. Stock +7.42% with the software rally.",
+      "source": {
+        "name": "The Independent via Yahoo Finance UK",
+        "date": "2026-10-09",
+        "url": "https://uk.finance.yahoo.com/news/asos-cyber-breach-not-caused-102151192.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": 7.42,
+        "market_pct": 0.6,
+        "beyond_market_pct": 6.82,
+        "typical_day_pct": 2.22,
+        "z": 3.07,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "snow-2026-10-07-dageville-sale",
+      "date": "2026-10-07",
+      "timing": "unknown",
+      "type": "insider sale (planned)",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Co-founder Dageville's trust sold 50,000 shares at $333.42 (about $16.67m) under a 10b5-1 plan.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-10-08",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000016/xslF345X06/wk-form4_1791497594.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": -0.92,
+        "market_pct": -0.24,
+        "beyond_market_pct": -0.68,
+        "typical_day_pct": 2.27,
+        "z": -0.3,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -198,27 +285,33 @@
       "company_part_pct": 0.64,
       "z": 0.2,
       "main_news": "Co-founder Benoit Dageville filed to sell 50,000 shares (about $16.7m) under a 10b5-1 plan, continuing fortnightly sales since July."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 368.89,
+      "day_pct": 7.42,
+      "market_part_pct": 0.59,
+      "industry_part_pct": 3.09,
+      "company_part_pct": 3.74,
+      "z": 1.21,
+      "main_news": "Snowflake said no flaw in its service was involved and no customer action is needed (media statement); whether the stolen login reached ASOS's Snowflake account is unknown. Stock +7.42% with the software rally."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
         "date": "2026-10-13",
-        "event": "Court deadline in securities class action; end of convertible-note option window (approx.)",
-        "confirmed": true,
+        "event": "Court deadline (motion to dismiss) and end of $550m convertible option (approximate)",
+        "confirmed": false,
         "source": {}
       },
       {
         "date": "2026-11-03",
-        "event": "EXPEDITION 2026 online event (11-03 to 11-05)",
+        "event": "EXPEDITION event (to 11-05)",
         "confirmed": true,
-        "source": {
-          "name": "Snowflake",
-          "date": "2026-10-05",
-          "url": "https://www.snowflake.com/en/news/press-releases/snowflake-agentic-transformation-expedition-2026-speaker-satya-nadella/",
-          "tier": 1
-        }
+        "source": {}
       },
       {
         "date": "2026-12-02",

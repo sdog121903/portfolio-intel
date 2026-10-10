@@ -27,7 +27,7 @@
         "beyond_market_pct": 6.97,
         "typical_day_pct": 8.1,
         "z": 0.86,
-        "next_5_days_pct": null
+        "next_5_days_pct": -5.15
       }
     },
     {
@@ -251,7 +251,16 @@
       "logged": "2026-10-07",
       "reports": [
         "2026-10-07"
-      ]
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -13.58,
+        "market_pct": -0.42,
+        "beyond_market_pct": -13.16,
+        "typical_day_pct": 8.15,
+        "z": -1.61,
+        "next_5_days_pct": null
+      }
     },
     {
       "key": "aaoi-2026-09-08-chang-nonplan-sale",
@@ -280,6 +289,93 @@
         "typical_day_pct": 8.14,
         "z": 0.77,
         "next_5_days_pct": -14.58
+      }
+    },
+    {
+      "key": "aaoi-2026-10-08-optics-selloff",
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Fell 13.58% with no company news: optical stocks fell from the open (oil, high rates, profit-taking) and the sell-off deepened after a Financial Times report that OpenAI's revenue pace was about $50bn, not $70bn; chipmakers −3.4%.",
+      "source": {
+        "name": "Reuters via Yahoo Finance",
+        "date": "2026-10-08",
+        "url": "https://finance.yahoo.com/news/p-500-nasdaq-end-lower-203227225.html",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -13.58,
+        "market_pct": -0.42,
+        "beyond_market_pct": -13.16,
+        "typical_day_pct": 8.15,
+        "z": -1.61,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "aaoi-2026-10-09-optics-rebound",
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "low",
+      "direction": "good",
+      "what": "Rose 3.53% (opened +6.4%, faded) as optical stocks bounced after Lumentum's CEO said its parts are sold out until almost 2029.",
+      "source": {
+        "name": "24/7 Wall St",
+        "date": "2026-10-09",
+        "url": "https://247wallst.com/investing/2026/10/09/optics-stocks-rally-on-sold-out-optical-capacity-through-early-2029-applied-optoelectronics-and-lumentum-surge-7-coherent-climbs-5/",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": 3.53,
+        "market_pct": 0.6,
+        "beyond_market_pct": 2.93,
+        "typical_day_pct": 8.15,
+        "z": 0.36,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "aaoi-2026-09-capacity-8ks",
+      "date": "2026-09-10",
+      "timing": "unknown",
+      "type": "filing",
+      "materiality": "low",
+      "direction": "good",
+      "what": "September 8-Ks (missed earlier): two more Houston buildings leased, a Houston building bought for $26,783,472 in cash, and a 10-year factory lease in Ningbo, China.",
+      "source": {
+        "name": "AOI 8-K",
+        "date": "2026-09-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007057/aaoi_8k.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-09-10",
+        "stock_pct": -4.3,
+        "market_pct": -0.6,
+        "beyond_market_pct": -3.7,
+        "typical_day_pct": 8.26,
+        "z": -0.45,
+        "next_5_days_pct": -5.06
       }
     }
   ],
@@ -316,21 +412,27 @@
       "company_part_pct": -3.67,
       "z": -0.47,
       "main_news": "Fell 5.85% with no company news as chip and optical stocks fell together on a day of a morning rate spike; it had risen 29% in five sessions."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 109.64,
+      "day_pct": 3.53,
+      "market_part_pct": 0.99,
+      "industry_part_pct": -2.39,
+      "company_part_pct": 4.93,
+      "z": 0.63,
+      "main_news": "Rose 3.53% (opened +6.4%, faded) as optical stocks bounced after Lumentum's CEO said its parts are sold out until almost 2029."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
         "date": "2026-11-05",
-        "event": "Q3 2026 results (estimated)",
+        "event": "Q3 2026 results (estimated; date announcement expected mid-October)",
         "confirmed": false,
-        "source": {
-          "name": "Investing.com",
-          "date": "2026-10-07",
-          "url": "https://www.investing.com/equities/applied-opt-earnings",
-          "tier": 3
-        }
+        "source": {}
       }
     ]
   }

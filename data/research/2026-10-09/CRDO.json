@@ -1,0 +1,231 @@
+{
+  "ticker": "CRDO",
+  "company": "Credo Technology Group Holding Ltd",
+  "window": {"from": "2026-10-07 16:00 ET (after Wednesday's US close)", "to": "2026-10-09 after the US close (Friday)"},
+  "newest_item_checked": "SEC EDGAR submissions list for CIK 1807794, fetched 2026-10-10: newest filing is Form 4 0001628280-26-065523 (COO gift), accepted 2026-10-09 20:01 UTC = 16:01 ET Friday, after the close. No 8-K, S-3, 424B or proxy filing in the window. Newest news item: Credo OCP Summit press release, 2026-10-09 before the open.",
+  "events": [
+    {
+      "date": "2026-10-07",
+      "timing": "after close",
+      "type": "insider trade (Form 4): pre-planned 10b5-1 sale plus tax withholding",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "CTO and director Chi Fung (Lawrence) Cheng reported that the Cheng Huang Family Trust (he and his wife are trustees; their family are beneficiaries) sold 27,500 shares on 2026-10-06 in 13 lots at weighted-average prices from $211.06 to $226.175, about $6.09m in total (sum of lots $6,090,654; average about $221.48). The 10b5-1 box is checked and footnote F2 says the sales were 'effected pursuant to a Rule 10b5-1 trading plan adopted by the Cheng Huang Family Trust on September 5, 2025'. The trust held 5,634,897 shares after; he also holds 134,108 directly, so the sale was about 0.47% of his shares. Separately, 2,460 shares were withheld for tax (code F) at $218.64 on 2026-10-05 when stock awards vested. Filed 2026-10-07, accepted 20:55 ET.",
+      "why_it_matters": "It is a planned sale, scheduled a year earlier, so it says little about his current view; it is not a sale outside a 10b5-1 plan and does not count toward the 'several insiders' breaker. It does add to the steady pre-planned selling with no insider buying (the CTO trust also sold 27,500 shares on 2026-09-29 under the same plan, about $5.33m, per the pipeline's filings file).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4 (Cheng Chi Fung), filed 2026-10-07", "date": "2026-10-07", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065346/xslF345X06/wk-form4_1791406499.xml", "tier": 1},
+        {"name": "MarketBeat news list ('CTO Sells $6,090,700.00 in Stock', 2026-10-08)", "date": "2026-10-08", "url": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "after close",
+      "type": "insider trade (Form 4): tax withholding",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "COO and director Yat Tung (Tony) Lam had 3,180 shares withheld by Credo to pay tax (code F) at $218.64 on 2026-10-05 when restricted stock units vested (about $0.70m). He held 2,247,809 shares directly afterwards, plus indirect holdings (Zhan BVI Co Ltd 250,000; EZ Trust 125,000; Lam GRAT 2026 100,000; JL Trust 75,000). 10b5-1 box not checked (not relevant to a tax withholding). Accepted 20:55 ET.",
+      "why_it_matters": "Routine: shares kept by the company to cover tax, not a sale in the market.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4 (Lam Yat Tung), filed 2026-10-07", "date": "2026-10-07", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065347/xslF345X06/wk-form4_1791406514.xml", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "after close",
+      "type": "Form 144 (notice of planned sale)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "CFO Daniel Fleming filed notice (through Goldman Sachs) of a planned sale of 7,580 shares, aggregate market value $1,605,898.80 (which equals 7,580 x $211.86, Thursday's close), approximate sale date 2026-10-08. The shares are restricted stock units that vested on 2026-10-02 and 2026-10-05 (3,790 each). Remarks: sales are 'made in connection with a selling plan dated 1/12/2026, that is intended to comply with Rule 10b5-1(c)'; plan adoption date 01/12/2026. Prior sale in the last three months: 7,580 shares on 2026-07-08 for $1,863,771.92. Shares outstanding stated: 187,951,918. Accepted 21:48 ET on 10-08.",
+      "why_it_matters": "A notice, not the sale itself, and it is under a pre-set plan, so it is not a non-plan sale. The matching Form 4 (the actual sale) had not appeared by Friday's close; under the two-business-day rule it is due by Monday 2026-10-12 (inference from the rule). Pattern (inference, high): the CFO had 2,460 shares withheld for tax on each of those vest dates, and 3,790 is what was left of each vest, so the plan sells the net vested shares.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 144 (Daniel Fleming), filed 2026-10-08", "date": "2026-10-08", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195824426000651/xsl144X01/primary_doc.xml", "tier": 1},
+        {"name": "SEC Form 4 (Fleming tax withholding 10-02 and 10-05), filed 2026-10-06", "date": "2026-10-06", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065265/xslF345X06/wk-form4_1791321925.xml", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "after close",
+      "type": "insider trade (Form 4): gift to a family trust",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "COO Yat Tung Lam reported a gift (code G) of 200,000 shares on 2026-10-07, shown twice: disposed from his direct holding (2,047,809 left) and acquired by the Lam GRAT 2026 II. Footnote F1: 'Represents a gift of 200,000 ordinary shares from the Reporting Person to the Lam GRAT 2026 II, a grantor retained annuity trust, for which the Reporting Person is a co-trustee.' Price $0; no money changed hands. 10b5-1 box not checked (not applicable to a gift). Worth about $44.0m at Wednesday's close of $220.01 (computed, not stated in the filing). Accepted 16:01 ET Friday.",
+      "why_it_matters": "Not a sale: the shares moved from his own name into a trust he co-manages (a common estate-planning tool), and they are still reported as his indirect holding, so his total stake did not change. It does not count toward the insider-selling breaker. Shares held in such trusts can be sold later; any sale would need its own Form 4.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4 (Lam Yat Tung gift), filed 2026-10-09", "date": "2026-10-09", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065523/xslF345X06/wk-form4_1791576067.xml", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "industry / macro: AI-trade selloff",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Chip and AI stocks fell after a Financial Times report that OpenAI's annualized revenue is about $20bn lower than previously reported: OpenAI told investors it was 'nearing $50 billion', against roughly $70bn reported earlier (CNN). Nasdaq -1.25% (worst day since mid-August), S&P 500 -0.5%, Nvidia -2.9%, Intel -5.3%, Oracle -5.5% (CNN). Yahoo's live blog: the Philadelphia Semiconductor Index fell as much as 4% intraday; Marvell and Arm fell more than 6%; Brent oil above $104 on Middle East tensions and the 10-year Treasury yield at 5.23% added pressure. The chip fund SMH fell 2.84% and Lumentum 5.62% (data/prices). Credo fell 3.70%.",
+      "why_it_matters": "OpenAI is one of the largest buyers of AI computing; lower revenue raises doubts about how fast AI data-center spending can grow, which is what drives Credo's sales (inference, medium). Baird's Ross Mayfield to CNN: 'There are going to be tremors throughout all of the related sub-industries.' Credo's own part of the move was small (+0.71 points, z 0.15).",
+      "direction": "weakens",
+      "sources": [
+        {"name": "CNN (via ABC17 News), 'Tech stocks drop after report that OpenAI's revenue is lower than expected'", "date": "2026-10-08", "url": "https://abc17news.com/money/cnn-business-consumer/2026/10/08/tech-stocks-drop-after-report-that-openais-revenue-is-lower-than-expected/", "tier": 2},
+        {"name": "Yahoo Finance live blog, 'Stock market today: S&P 500, Nasdaq fall for second day in a row as AI trade takes a hit'", "date": "2026-10-08", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html", "tier": 3},
+        {"name": "CNBC, 'Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report' (headline seen in search; page blocked, not read)", "date": "2026-10-08", "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html", "tier": 2}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "before open",
+      "type": "industry peer: optical demand signal",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Optical-component stocks rebounded after Lumentum's CEO said optical components are 'completely sold out through early 2029'; the comment 'reached the market overnight' (24/7 Wall St, 8:36 a.m. ET). Lumentum closed +5.22% and SMH -0.65% (data/prices); Credo +2.21%. Credo is not mentioned in the coverage.",
+      "why_it_matters": "Credo now sells optical products too (management guided optical revenue above $600m for fiscal 2027 on the September call, transcript tier 3), so a sold-out optical supply chain signals strong demand in its second growth leg (inference, medium). It likely explains much of Credo's +3.57-point company-specific move on Friday, which the chip fund SMH does not capture (inference, medium).",
+      "direction": "supports",
+      "sources": [
+        {"name": "24/7 Wall St, 'Optics Stocks Rally on Sold-Out Optical Capacity Through Early 2029'", "date": "2026-10-09", "url": "https://247wallst.com/investing/2026/10/09/optics-stocks-rally-on-sold-out-optical-capacity-through-early-2029-applied-optoelectronics-and-lumentum-surge-7-coherent-climbs-5/", "tier": 3},
+        {"name": "Yahoo Finance (same story syndicated)", "date": "2026-10-09", "url": "https://finance.yahoo.com/markets/stocks/articles/optics-stocks-rally-sold-optical-123659817.html", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "before open",
+      "type": "company press release: trade-show product showcase",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Credo announced what it will show at the OCP Global Summit in San Jose (12-15 October): booth B2 (13-15 October) demos of a Micro-Emitter NPO-enabled optical backplane for scale-up, 1.6T ZeroFlap Active Light Cable, 1.6T ZeroFlap Optics with PILOT observability, 1.6T ZeroFlap Active Electrical Cable, Toucan Gen6 PCIe AEC, OmniConnect Weaver and 1.6T Cardinal DSP plus silicon-photonics integration. CEO Bill Brennan gives an executive session, 'Wider. Slower. Better: Optics That Can Beat Copper', on 12 October at 3:20 p.m.; four more Credo talks 13-15 October. Company claim: its 'micro-emitter blind-mate optical backplane architecture ... delivers up to 10x higher bandwidth compared to the latest copper backplanes.' No sales, customer, shipment or availability figures; no executive quotes.",
+      "why_it_matters": "Shows Credo pushing deeper into optics (thesis 2) and into 'scale-up' links inside a rack, but it is a demo list, not orders. The CEO's talk title also shows Credo itself arguing optics can beat copper, which is the long-run risk to its copper-cable business (inference, medium).",
+      "direction": "supports",
+      "sources": [
+        {"name": "Credo press release (investor relations site)", "date": "2026-10-09", "url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-to-Showcase-Broad-Portfolio-of-Connectivity-Solutions-for-AI-Scale-Out-and-Scale-Up-Fabrics-at-2026-OCP-Global-Summit/default.aspx", "tier": 1},
+        {"name": "MarketBeat news list (release listed 2026-10-09 before the open)", "date": "2026-10-09", "url": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/", "tier": 3}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Thursday 10-08: Credo fell 3.70% (220.01 to 211.86). Attribution: market -0.45 points, chips industry -3.96, Credo's own +0.71 (z 0.15, normal noise). So Thursday was an industry move, not a Credo story.", "evidence": "data/research/2026-10-09/thursday-attribution.json (pipeline calculation)"},
+    {"rung": 2, "text": "Chip and AI stocks fell broadly: Nasdaq -1.25%, the semiconductor index down as much as 4% intraday, Nvidia -2.9%, Marvell and Arm more than -6%; the chip fund SMH -2.84%.", "evidence": "https://abc17news.com/money/cnn-business-consumer/2026/10/08/tech-stocks-drop-after-report-that-openais-revenue-is-lower-than-expected/ ; https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html ; data/prices/SMH.csv"},
+    {"rung": 3, "text": "Trigger: a Financial Times report that OpenAI's annualized revenue is 'nearing $50 billion', about $20bn below the roughly $70bn previously reported. Rising oil (Brent above $104) and a 5.23% 10-year Treasury yield added pressure.", "evidence": "https://abc17news.com/money/cnn-business-consumer/2026/10/08/tech-stocks-drop-after-report-that-openais-revenue-is-lower-than-expected/ ; https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html"},
+    {"rung": 4, "text": "Why that hits chip suppliers: OpenAI and the cloud companies building for it are among the biggest buyers of AI data-center hardware; if AI revenue is smaller than thought, investors fear the spending on chips, switches and cables may grow more slowly.", "evidence": "inference (medium); supported by Baird's Ross Mayfield quoted by CNN: 'tremors throughout all of the related sub-industries'"},
+    {"rung": 5, "text": "Basic driver: AI-hardware share prices rest on expected future data-center spending, which in the end must be paid for by AI revenue. News that this revenue is lower lowers that expectation for the whole group, Credo included.", "evidence": "inference (medium)"},
+    {"rung": 6, "text": "Friday 10-09: Credo rose 2.21% while SMH fell 0.65%. Attribution: market +0.66, industry -2.02, Credo's own +3.57 (z 0.75, normal noise).", "evidence": "data/metrics/attribution-2026-10-09.json (pipeline calculation)"},
+    {"rung": 7, "text": "Optical stocks rebounded after Lumentum's CEO said optical components are 'completely sold out through early 2029' (Lumentum closed +5.22%). Credo now sells optical products too, so its own part of the move most likely came from this group rebound, which SMH does not capture.", "evidence": "https://247wallst.com/investing/2026/10/09/optics-stocks-rally-on-sold-out-optical-capacity-through-early-2029-applied-optoelectronics-and-lumentum-surge-7-coherent-climbs-5/ ; link to Credo is inference (medium)"},
+    {"rung": 8, "text": "Credo's OCP Summit press release came out before Friday's open, but it contains no numbers; any effect on the price is unknown.", "evidence": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-to-Showcase-Broad-Portfolio-of-Connectivity-Solutions-for-AI-Scale-Out-and-Scale-Up-Fabrics-at-2026-OCP-Global-Summit/default.aspx ; contribution: inference (low)"},
+    {"rung": 9, "text": "Net over the two days: -1.57%, with the industry part -5.90 and Credo's own part +4.13 (z 0.62): Credo held up better than chip stocks generally.", "evidence": "data/research/2026-10-09/thursday-attribution.json (pipeline calculation)"}
+  ],
+  "products": [
+    {
+      "name": "1.6T ZeroFlap Active Light Cable (ALC) and ZeroFlap optics (shown at OCP 2026)",
+      "what_it_is": "Credo's optical connection products: transceivers (and, from the name, a cable with optics built into its ends) that carry data as light at 1.6 terabits per second. The release read does not define 'Active Light Cable'; the cable description is an inference from the name and from Credo's 'Active Electrical Cable' naming (medium).",
+      "analogy": "If an AEC is a garden hose with a booster pump at each end, an optical cable is a pipe that carries water much further with almost no loss; it costs more and uses more power, so it is used where the hose is too short.",
+      "buyers": "Hyperscale cloud and AI data-center operators (Credo does not name them).",
+      "how_it_works": "A digital signal processor chip (DSP, the 'Cardinal DSP') cleans and times the signal; optics turn it into light. 'ZeroFlap' is Credo's brand for links built to avoid 'link flaps' (brief drops that stall AI training jobs); 'PILOT observability' is Credo's monitoring for the link's health.",
+      "price": "not disclosed",
+      "sales": "Not disclosed by product. Proxy (labelled): management guided optical revenue above $600m for fiscal 2027 on the 2026-09 results call (transcript, tier 3), against total Q1 FY2027 revenue of $479.0m.",
+      "sales_source": "https://www.fool.com/earnings/call-transcripts/2026/09/08/credo-crdo-q1-2027-earnings-call-transcript/ ; https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm",
+      "stage": "Demonstrated at trade shows; the OCP release gives no shipping or customer status for the ALC. ZeroFlap optics ramp was expected in fiscal Q1 2027 across more than four customers (tier-3 coverage, not verified against a primary source in this run).",
+      "size_for_company": "Optics is the second growth leg; above $600m guided for fiscal 2027 would be a large share of revenue, but the exact split is not disclosed.",
+      "competition": "Broadcom, Marvell and the transceiver makers (Lumentum, Coherent, InnoLight) in optics; tier-3 coverage, not verified this run.",
+      "why_investors_care": "Thesis 2: Credo needs optics to keep growing once speeds and distances outgrow copper.",
+      "watch_next": "Any optical revenue figure or named customer at Q2 FY2027 results (about 2026-12-02, not confirmed); CEO's OCP talk on 10-12."
+    },
+    {
+      "name": "Micro-Emitter NPO-enabled optical backplane for scale-up (shown at OCP 2026)",
+      "what_it_is": "An optical 'backplane': the wiring that links many AI chips inside one rack, done with light instead of copper. NPO usually means near-packaged optics, with the light engines placed right next to the chip (general industry meaning; the release text read does not define it).",
+      "analogy": "Replacing the copper wiring inside a building's walls with fibre: much more capacity in the same space.",
+      "buyers": "Builders of large AI racks (cloud companies, AI-system makers); no buyers named.",
+      "how_it_works": "Company claim: a 'high-reliability micro-emitter blind-mate optical backplane architecture' that 'delivers up to 10x higher bandwidth compared to the latest copper backplanes'. 'Blind-mate' means boards plug in without anyone connecting cables by hand.",
+      "price": "not disclosed",
+      "sales": "not disclosed; demonstration stage, no revenue reported",
+      "sales_source": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-to-Showcase-Broad-Portfolio-of-Connectivity-Solutions-for-AI-Scale-Out-and-Scale-Up-Fabrics-at-2026-OCP-Global-Summit/default.aspx",
+      "stage": "Demonstration (booth demo 13-15 October 2026); no production or customer status given.",
+      "size_for_company": "none yet (no revenue disclosed)",
+      "competition": "not available in sources read this run",
+      "why_investors_care": "It aims at 'scale-up' links inside a rack, a market today served mostly by copper; it could be a future product line, and it shows Credo competing against copper, including its own AECs.",
+      "watch_next": "Whether any customer or timeline is named at OCP (12-15 October) or on the next results call."
+    }
+  ],
+  "earnings": {
+    "status": "none",
+    "date": "",
+    "confirmed": false,
+    "consensus": {},
+    "actual": {},
+    "guidance": {},
+    "key_metrics": {},
+    "quality_flags": [],
+    "management_explanation": "No results in the window. Last results: Q1 FY2027 on 2026-09-01 (already in the news log).",
+    "sources": []
+  },
+  "next_earnings": {
+    "date": "about 2026-12-02 (estimated by MarketBeat; Credo has not announced it). Last year's equivalent Q2 report was 2025-12-01; Credo usually announces the date about three weeks ahead.",
+    "confirmed": false,
+    "consensus_eps": "not reliably available: aggregator figures conflict (MarketBeat shows $0.43, which looks stale or on a different basis; one tier-3 page shows $1.19 non-GAAP). Q1 FY2027 non-GAAP EPS was $1.20 (prior research file).",
+    "consensus_revenue": "not reliably available: aggregator figures ($513.8m to $516.5m) sit below the company's own $525-535m guide and look stale.",
+    "company_guidance": "Q2 FY2027 revenue $525-535m; non-GAAP gross margin 67-69% (GAAP 62.9-64.9%); non-GAAP operating expenses $100-105m; fiscal 2027 revenue growth above 85%; optical revenue above $600m in fiscal 2027 (call). No EPS guidance.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm",
+      "https://www.fool.com/earnings/call-transcripts/2026/09/08/credo-crdo-q1-2027-earnings-call-transcript/",
+      "https://www.marketbeat.com/stocks/NASDAQ/CRDO/",
+      "data/research/2026-10-07/CRDO.json"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-10-05 to 2026-10-09", "firm": "none found", "action": "No rating change or price-target change dated in the window (MarketBeat lists none from 10-05 onward; searches found none).", "reason": "n/a", "url": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/"},
+    {"date": "2026-10-05", "firm": "Stifel", "action": "Price target cut to $310 from $350, Buy kept (rehash, already in the news log)", "reason": "not available", "url": "https://www.tipranks.com/news/the-fly/credo-technology-price-target-lowered-to-310-from-350-at-stifel-thefly-news"},
+    {"date": "2026-10-09", "firm": "Consensus (aggregators, opinions)", "action": "MarketBeat: 'Moderate Buy', average target $262.67; StockAnalysis (via search): 'Strong Buy', average $279.09 from 20 analysts (high $315, low $185). Aggregators disagree.", "reason": "n/a", "url": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/"}
+  ],
+  "insiders": {
+    "summary": "No NEW open-market sale outside a 10b5-1 plan was filed in the window (Wednesday 10-07 after the close to Friday 10-09 after the close). Every item, checked in the raw SEC documents: (1) the CTO's family trust sold 27,500 shares (about $6.09m, 13 lots, $211.06 to $226.175) on 10-06 under a 10b5-1 plan adopted 2025-09-05, box checked; (2) the COO (3,180) and CTO (2,460) had shares withheld for tax on 10-05 (code F); (3) the CFO filed a Form 144 for 7,580 shares (about $1.61m) around 10-08 under a 10b5-1 plan adopted 2026-01-12; (4) the COO gave 200,000 shares (about $44.0m at $220.01) to his own grantor retained annuity trust on 10-07 (code G), not a sale. No insider purchases. The earlier non-plan sales (director Hosein 07-01; CLO 06-11, 09-21 and 10-01; CTO 09-04) are unchanged, and Santi has still not defined 'several'.",
+    "notable": [
+      {"date": "2026-10-06", "who": "Chi Fung Cheng, CTO and director (via Cheng Huang Family Trust)", "what": "Sold 27,500 shares in 13 lots, weighted-average prices $211.06 to $226.175, total about $6,090,654 (sum of lots); trust holds 5,634,897 after; about 0.47% of his direct plus trust shares", "plan": "10b5-1: box checked; footnote: plan adopted by the trust on 2025-09-05", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065346/xslF345X06/wk-form4_1791406499.xml"},
+      {"date": "2026-10-05", "who": "Chi Fung Cheng, CTO", "what": "2,460 shares withheld for tax at $218.64 (code F); 134,108 held directly after", "plan": "n/a (tax withholding)", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065346/xslF345X06/wk-form4_1791406499.xml"},
+      {"date": "2026-10-05", "who": "Yat Tung Lam, COO and director", "what": "3,180 shares withheld for tax at $218.64 (code F, about $0.70m); 2,247,809 held directly after", "plan": "n/a (tax withholding)", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065347/xslF345X06/wk-form4_1791406514.xml"},
+      {"date": "2026-10-08 (approximate sale date)", "who": "Daniel Fleming, CFO", "what": "Form 144: plans to sell 7,580 shares, aggregate market value $1,605,898.80, via Goldman Sachs; shares from RSUs vested 10-02 and 10-05 (3,790 each); prior sale 7,580 shares on 2026-07-08 for $1,863,771.92. Matching Form 4 not yet filed by Friday's close.", "plan": "10b5-1 plan dated 2026-01-12 (stated in the form)", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195824426000651/xsl144X01/primary_doc.xml"},
+      {"date": "2026-10-07", "who": "Yat Tung Lam, COO and director", "what": "Gift of 200,000 shares to the Lam GRAT 2026 II (grantor retained annuity trust; he is co-trustee); 2,047,809 held directly after; GRAT II holds 200,000; total stake unchanged; about $44.0m at $220.01 (computed)", "plan": "n/a (gift, code G; not a sale)", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065523/xslF345X06/wk-form4_1791576067.xml"}
+    ]
+  },
+  "filings": [
+    {"form": "4", "items": "Cheng Chi Fung (CTO): F 2,460 on 10-05; S 27,500 on 10-06 (10b5-1)", "plain_english": "The CTO's family trust sold about $6.09m of shares under a plan set up in September 2025, and some of his vested shares were kept to pay tax.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065346/xslF345X06/wk-form4_1791406499.xml"},
+    {"form": "4", "items": "Lam Yat Tung (COO): F 3,180 on 10-05", "plain_english": "Shares kept by the company to cover the COO's tax on vested stock; not a market sale.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065347/xslF345X06/wk-form4_1791406514.xml"},
+    {"form": "144", "items": "Daniel Fleming (CFO): 7,580 shares, about $1.61m, around 10-08", "plain_english": "Advance notice that the CFO planned to sell newly vested shares under a pre-set plan (adopted 2026-01-12). A notice, not the sale itself.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195824426000651/xsl144X01/primary_doc.xml"},
+    {"form": "4", "items": "Lam Yat Tung (COO): G 200,000 disposed and acquired on 10-07", "plain_english": "The COO moved 200,000 shares into a family trust he co-manages. A gift, not a sale; his total stake is unchanged.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065523/xslF345X06/wk-form4_1791576067.xml"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-12", "event": "Annual General Meeting, 1:00 p.m. Pacific, San Jose and online. Votes: elect three Class II directors, advisory say-on-pay, ratify Ernst & Young as auditor (routine); results usually filed in an 8-K (Item 5.07) within four business days.", "confirmed": true, "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026058936/crdo-20260825.htm"},
+    {"date": "2026-10-12", "event": "OCP Global Summit: CEO Bill Brennan executive session, 'Wider. Slower. Better: Optics That Can Beat Copper', 3:20 p.m.", "confirmed": true, "url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-to-Showcase-Broad-Portfolio-of-Connectivity-Solutions-for-AI-Scale-Out-and-Scale-Up-Fabrics-at-2026-OCP-Global-Summit/default.aspx"},
+    {"date": "2026-10-13 to 2026-10-15", "event": "OCP Global Summit, Credo booth B2 demos and four technical talks (San Jose Convention Center)", "confirmed": true, "url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-to-Showcase-Broad-Portfolio-of-Connectivity-Solutions-for-AI-Scale-Out-and-Scale-Up-Fabrics-at-2026-OCP-Global-Summit/default.aspx"},
+    {"date": "by 2026-10-12", "event": "CFO Form 4 for the planned 10-08 sale (7,580 shares) due under the two-business-day rule (inference from the rule)", "confirmed": false, "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195824426000651/xsl144X01/primary_doc.xml"},
+    {"date": "about 2026-12-02", "event": "Q2 FY2027 results (estimated; not announced)", "confirmed": false, "url": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "Guidance cut (general; CRDO trigger 1)", "found": false, "evidence": "No 8-K, results release or guidance update in the window (EDGAR submissions list fetched 2026-10-10; Credo's only release was the OCP showcase)."},
+    {"event": "Results miss", "found": false, "evidence": "No results in the window; next about 2026-12-02 (estimated)."},
+    {"event": "Major customer lost or cut orders (CRDO trigger 2: top customer switches)", "found": false, "evidence": "No company disclosure or tier-1/2 report found in the window."},
+    {"event": "8-K Item 4.02 (past results unreliable)", "found": false, "evidence": "No 8-K filed in the window (EDGAR)."},
+    {"event": "8-K Item 4.01 (auditor change)", "found": false, "evidence": "No 8-K in the window; the AGM on 10-12 proposes ratifying Ernst & Young again (DEF 14A)."},
+    {"event": "8-K Item 5.02 (CEO or CFO left)", "found": false, "evidence": "No 8-K in the window; CEO Brennan is speaking at OCP on 10-12 and CFO Fleming filed a Form 144 on 10-08."},
+    {"event": "Large dilutive share sale", "found": false, "evidence": "No S-3, 424B or 8-K Item 3.02 in the window (EDGAR)."},
+    {"event": "Regulator investigation or major litigation", "found": false, "evidence": "Search found only 2023 law-firm 'investigation' notices tied to the February 2023 demand cut (old, avoid-tier); nothing new."},
+    {"event": "Two or more analyst downgrades within five trading days", "found": false, "evidence": "No rating changes from 10-05 onward on MarketBeat; Stifel's 10-05 action was a target cut with Buy kept."},
+    {"event": "Several insiders sold on the open market outside 10b5-1 plans", "found": false, "evidence": "No NEW non-plan sale in the window: the CTO trust's 27,500-share sale is under a 10b5-1 plan (box checked, plan adopted 2025-09-05); the CFO's Form 144 cites a 10b5-1 plan adopted 2026-01-12; COO and CTO code F are tax withholding; the COO's 200,000-share code G is a gift to his own trust. Earlier non-plan sellers unchanged (Hosein 07-01; CLO 06-11, 09-21, 10-01; CTO 09-04). Status still depends on Santi's definition of 'several'."},
+    {"event": "CRDO trigger 3: optical business reported shrinking or losing customers", "found": false, "evidence": "No figures given in the window; the OCP release lists optical demos with no sales figures."},
+    {"event": "CRDO trigger 4: DustPhotonics write-down", "found": false, "evidence": "No 10-Q, 10-K or 8-K in the window."},
+    {"event": "CRDO trigger 5: gross margin falls two quarters in a row", "found": false, "evidence": "Not testable until Q2 FY2027 results (about 2026-12-02); the GAAP guide midpoint 63.9% would be a second fall (prior research)."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "AI revenue may be smaller than the market assumed: OpenAI's annualized revenue is 'nearing $50 billion', about $20bn below earlier reports, which hit AI hardware stocks on 10-08.", "url": "https://abc17news.com/money/cnn-business-consumer/2026/10/08/tech-stocks-drop-after-report-that-openais-revenue-is-lower-than-expected/", "assessment": "Industry-level risk to the 'more AI data centers' thesis; one company's revenue, not a spending cut. Credo fell less than its industry model predicted (company part +0.71). Weakens the backdrop, does not break the thesis."},
+    {"claim": "Insider selling continues with no insider buying: about $6.09m by the CTO's trust on 10-06 and a planned $1.61m by the CFO around 10-08, on top of about $53m pre-planned in September.", "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065346/xslF345X06/wk-form4_1791406499.xml", "assessment": "Pre-planned and small against their holdings (CTO about 0.47%), so weak evidence; but the steady one-way flow is a fact worth stating."},
+    {"claim": "Optics could replace copper cables, Credo's main product; Credo's own CEO is giving a talk titled 'Optics That Can Beat Copper'.", "url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-to-Showcase-Broad-Portfolio-of-Connectivity-Solutions-for-AI-Scale-Out-and-Scale-Up-Fabrics-at-2026-OCP-Global-Summit/default.aspx", "assessment": "Cuts both ways: supports thesis 2 (Credo is building the optics) while confirming the long-run substitution risk to its AECs (inference, medium). An avoid-tier article (cryptobriefing, 2026-06-24) blamed a June drop on this fear without sources; not used as evidence."},
+    {"claim": "Lawsuits or investigations", "url": "https://api.newsfilecorp.com/redirect/e4W47SxmgQ", "assessment": "Only 2023 law-firm notices after the February 2023 demand cut; nothing new found. Not evidence of a current problem."}
+  ],
+  "open_questions": [
+    "Santi's definition of 'several insiders' is still pending (from the 10-07 report). Note for the main session: if the definition is a rolling window (for example, two non-plan sellers within 30 days), then as of 10-09 only the CLO (09-21, 10-01) sold outside a plan in the last 30 days, because the CTO's non-plan sale on 09-04 is now 35 days old; if it is 'ever within any month', the 09-04 and 09-21 sales already met it. Arithmetic only; the decision is Santi's.",
+    "CFO Form 4 for the planned 10-08 sale (7,580 shares) not yet filed; due by 2026-10-12.",
+    "Exact time zone of the OCP press release (syndication page says 09:00; MarketBeat lists 3:00 AM); both are before the 9:30 a.m. ET open.",
+    "Whether Credo names customers, shipment dates or revenue for the Active Light Cable or optical backplane at OCP (12-15 October).",
+    "Consensus EPS and revenue for Q2 FY2027: aggregator figures conflict and look stale; not reliably available.",
+    "CNBC's 10-08 article could not be read (HTTP 403); Thursday's cause rests on CNN (tier 2) and Yahoo's live blog (tier 3)."
+  ],
+  "searches_run": 14
+}

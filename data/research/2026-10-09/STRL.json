@@ -1,0 +1,198 @@
+{
+  "ticker": "STRL",
+  "company": "Sterling Infrastructure, Inc.",
+  "window": {"from": "2026-10-07 16:00 ET (after Wednesday close)", "to": "2026-10-09 after US close; post-close check done Saturday 2026-10-10 08:30 UTC"},
+  "newest_item_checked": "SEC EDGAR submissions list and strlco.com Latest News page, both re-checked 2026-10-10 08:30 UTC: newest filing is the Form 4 filed 2026-10-07 (accepted 2026-10-08 00:21 UTC); newest press release is 2026-10-05 (Hargis appointment). Nothing new after Friday's close.",
+  "price_context": {
+    "closes": {"2026-10-07": 534.13, "2026-10-08": 518.41, "2026-10-09": 513.00},
+    "thursday_pct": -2.94, "friday_pct": -1.04, "two_day_pct": -3.96,
+    "attribution": {
+      "thursday": {"market": -1.29, "industry_PAVE": 0.81, "company": -2.46, "z": -0.55, "source": "data/research/2026-10-09/thursday-attribution.json"},
+      "friday": {"market": 1.82, "industry_PAVE": -0.52, "company": -2.34, "z": -0.52, "source": "data/metrics/attribution-2026-10-09.json"},
+      "thu_fri_2_days": {"market": 0.53, "industry_PAVE": 0.29, "company": -4.78, "z": -0.75},
+      "last_5_days": {"actual": -3.83, "market": 3.52, "industry_PAVE": -4.55, "company": -2.80, "z": -0.28}
+    },
+    "peer_moves_pct": {
+      "source": "Yahoo Finance chart API daily closes, fetched 2026-10-10 (tier 3, same source family as the pipeline)",
+      "thursday_2026-10-08": {"FIX": -2.01, "MYRG": -0.73, "EME": -0.82, "PRIM": 0.61, "PWR": -2.25, "DY": -1.86, "MTZ": -3.00, "IESC": -2.72, "equal_weight_mean": -1.60, "median": -1.94, "SPY": -0.42, "PAVE": -0.08},
+      "friday_2026-10-09": {"FIX": 0.55, "MYRG": 0.26, "EME": 1.44, "PRIM": 1.14, "PWR": 3.01, "DY": -2.88, "MTZ": -1.85, "IESC": -0.97, "equal_weight_mean": 0.09, "median": 0.41, "SPY": 0.60, "PAVE": 0.38}
+    },
+    "note": "PAVE (roads, materials, machinery) barely moved Thursday (-0.08%) while the data-center builder group fell about 1.6-1.9%, so the attribution model's 'company' part on Thursday is largely the data-center-builder group, not Sterling news (inference, medium-high). Friday the group was mixed: the big electrical/mechanical names rose (PWR +3.0%, EME +1.4%) while DY, MTZ, IESC and STRL fell; no Sterling-specific reason found."
+  },
+  "events": [
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "sector/macro: AI-funding worry",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "The Financial Times reported that OpenAI's annualized revenue was about $50 billion at end-September, $20 billion below the widely reported figure; AI-related stocks fell (Nasdaq -1.3%, S&P 500 -0.5%; Marvell, Arm and Intel down more than 6%, Micron over 5%). The Motley Fool also cited news that an Nvidia-backed Australian data-center firm had not attracted the hoped-for support, 'raising questions about AI funding'. Bond yields were near 5.2-5.3% and oil jumped. Data-center builders fell together (equal-weight mean of 8 peers -1.60%); Sterling fell 2.94%.",
+      "why_it_matters": "Sterling's growth is mostly data-center site work; investors sell it when they doubt that the money for AI data centers (ultimately paid for by AI revenue) will keep flowing. No company or customer cut its plans; this was a sentiment move. On Friday Bloomberg reported OpenAI expects to reach or exceed $70 billion annualized revenue by year end (per Yahoo live blog), which partly answered the worry.",
+      "direction": "weakens",
+      "sources": [
+        {"name": "Yahoo Finance live blog (Thursday)", "date": "2026-10-08", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html", "tier": 3},
+        {"name": "CNBC live updates headline: 'Nasdaq falls 1% as AI trade stumbles following OpenAI revenue setback' (page returned 403; headline seen in search results only)", "date": "2026-10-08", "url": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html", "tier": 2},
+        {"name": "Motley Fool, Stock Market Midday Oct. 8", "date": "2026-10-08", "url": "https://fool.com/coverage/stock-market-today/2026/10/08/stock-market-midday-oct-8-stocks-edge-lower-on-growing-ai-caution/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "analyst action: price-target cut (rating kept)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Stifel analyst Brian Brophy kept a Buy rating on Sterling but cut the price target to $742 from $804 (-7.7%). No reason was published in any source found. GuruFocus timestamps it 12:33 PM on 10-08 (time zone not stated).",
+      "why_it_matters": "A target cut with the rating unchanged is a mild negative opinion signal, not a downgrade, so it does not count toward Santi's 'two or more downgrades in five trading days' breaker. The new target is still about 39% above Wednesday's close (our calculation: 742 / 534.13). It may have added a little to Thursday's selling (inference, low).",
+      "direction": "weakens",
+      "sources": [
+        {"name": "GuruFocus", "date": "2026-10-08", "url": "https://www.gurufocus.com/news/9115929/strl-maintained-by-stifel-price-target-lowered-to-742", "tier": 3},
+        {"name": "StockAnalysis.com analyst ratings list", "date": "2026-10-08", "url": "https://stockanalysis.com/stocks/strl/forecast/", "tier": 3},
+        {"name": "Rallies.ai brief", "date": "2026-10-08", "url": "https://rallies.ai/news/sterling-infrastructure-inc-stifel-cuts-target-price-to-742-from-804-97b971d14a7784cc", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "after close",
+      "type": "insider filing: new officer Form 3 and Form 4 (grants)",
+      "materiality": "low",
+      "new_or_rehash": "rehash",
+      "summary": "Katherine Hargis, appointed SVP, General Counsel, Chief Compliance Officer and Corporate Secretary on 10-05 (already in the news log), filed her Form 3 (first report of holdings as a new insider) and a Form 4 showing two company share awards on 10-05: 1,000 shares and 87 shares (code A, price $0), leaving her with 1,087 shares. No shares were bought or sold.",
+      "why_it_matters": "Routine paperwork for a new executive; a grant is pay, not a purchase or sale. The appointment itself was a planned succession: her predecessor Mark D. Wolf (General Counsel since August 2020) told the company on 2026-07-06 that he would retire later this year (8-K Item 5.02 filed 2026-07-10). The 10-05 announcement was filed as an 8-K Item 7.01 press release; a general counsel is not one of the officers (CEO, CFO, etc.) whose change triggers Santi's 5.02 breaker.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4", "date": "2026-10-07", "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000117/xslF345X06/wk-form4_1791404512.xml", "tier": 1},
+        {"name": "SEC Form 3", "date": "2026-10-07", "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000115/xslF345X06/wk-form3_1791404244.xml", "tier": 1},
+        {"name": "SEC 8-K Ex. 99.1 press release (Hargis appointment)", "date": "2026-10-05", "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000110/a20260805ex991pressrelease.htm", "tier": 1},
+        {"name": "SEC 8-K Item 5.02 (Wolf retirement notice)", "date": "2026-07-10", "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000095/strl-20260706.htm", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "market: rebound day, no company news",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Stocks rose Friday (S&P 500 +0.59% to 7,811.54) as oil eased and tech rebounded from Thursday's AI scare; 10-year yield 5.24%. Sterling fell 1.04% anyway. Data-center builders were split: Quanta +3.0%, EMCOR +1.4%, Comfort Systems +0.6% rose, while Dycom -2.9%, MasTec -1.9%, IES -1.0% fell. Telecom stocks dropped 7%+ after a SpaceX spectrum deal (Yahoo), which plausibly explains Dycom/MasTec (telecom network builders) but not Sterling. No Sterling-specific news, filing or analyst action found for Friday.",
+      "why_it_matters": "Friday's company-specific part (-2.34 points, z -0.52) is within Sterling's normal noise; no cause was published. Leave it as 'no reason found'.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Yahoo Finance live blog (Friday)", "date": "2026-10-09", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html", "tier": 3},
+        {"name": "TheStreet, Stock Market Today Oct. 9 (search-result summary only, not opened)", "date": "2026-10-09", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-09-2026", "tier": 3}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "Sterling fell 2.94% Thursday and 1.04% Friday (-3.96% over two days) to $513.00.", "evidence": "data/metrics/2026-10-09.json; data/research/2026-10-09/thursday-attribution.json"},
+    {"rung": 2, "text": "The attribution model calls both days 'mostly company-specific but within normal noise' (z -0.55 and -0.52). But the model's industry fund, PAVE, holds road, materials and machinery companies and barely moved Thursday (-0.08%), so it misses the data-center-builder group.", "evidence": "data/metrics/attribution-2026-10-09.json; Yahoo chart closes for PAVE | inference (high) that PAVE is a poor proxy for the data-center group"},
+    {"rung": 3, "text": "Thursday: the data-center builders fell together (8-peer mean -1.60%: MasTec -3.0%, IES -2.7%, Quanta -2.3%, Comfort Systems -2.0%). With Sterling's market beta of about 3, a -0.42% SPY day alone predicts roughly -1.3%; adding a group down ~1.6-1.9% gets close to Sterling's -2.94%.", "evidence": "Yahoo Finance chart API closes fetched 2026-10-10 | inference (medium-high) for the decomposition"},
+    {"rung": 4, "text": "The group fell because AI stocks sold off on a Financial Times report that OpenAI's annualized revenue was about $50bn, $20bn below the figure widely reported, plus news that an Nvidia-backed Australian data-center firm had not drawn the hoped-for support; yields near 5.2-5.3% and higher oil added pressure.", "evidence": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html ; https://fool.com/coverage/stock-market-today/2026/10/08/stock-market-midday-oct-8-stocks-edge-lower-on-growing-ai-caution/ (sourced, tier 3; CNBC headline corroborates)"},
+    {"rung": 5, "text": "Basic driver: Sterling's value rests on years of AI data-center building. If AI companies earn less than hoped, the money to build data centers could slow, so investors sell the builders on any sign of weaker AI revenue, even before any order is cancelled. No customer or Sterling project was affected.", "evidence": "inference (medium); thesis trigger 3 not hit"},
+    {"rung": 6, "text": "Stifel's target cut ($804 to $742, Buy kept) came out during Thursday's session and may have added a little; its reason is not published.", "evidence": "https://www.gurufocus.com/news/9115929/strl-maintained-by-stifel-price-target-lowered-to-742 | inference (low) on its price effect"},
+    {"rung": 7, "text": "Friday: no published cause. The market rebounded and the larger electrical/mechanical builders rose, but Sterling, Dycom, MasTec and IES fell. Sterling's extra -2.3 points is within its normal daily noise.", "evidence": "Yahoo Finance chart API closes; https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html | no reason found"}
+  ],
+  "products": [
+    {
+      "name": "E-Infrastructure Solutions (site development plus CEC mission-critical electrical)",
+      "what_it_is": "Preparing huge plots of land for data centers, chip plants and big factories: clearing, levelling, foundations, underground utilities; since the CEC acquisition also electrical work inside those sites.",
+      "analogy": "The crew that levels the lot and digs the foundation before a house goes up, but for buildings the size of several football fields.",
+      "buyers": "Data-center owners (hyperscalers and developers), semiconductor and manufacturing companies, large warehouse developers. Customer names not disclosed.",
+      "how_it_works": "Paid per project under contracts; signed contracts sit in backlog until the work is done. Data-center campuses often come in phases, so one customer can award follow-on 'future phase' work.",
+      "price": "Not disclosed per project.",
+      "sales": "Segment revenue $905.0m in Q2 2026, +192% year on year (as cited in the 2026-10-07 report from the Q2 release). E-Infrastructure signed backlog +165% year on year; mission-critical projects were 92% of E-Infrastructure backlog at 2026-06-30. Company backlog $4.33bn (+116%; +50% organic); combined backlog incl. $1.28bn unsigned awards $5.62bn; book-to-burn 1.4x (backlog) and 1.3x (combined), excluding Stone Ridge; future-phase pipeline over $1.4bn.",
+      "sales_source": "Sterling Q2 2026 results release, 2026-08-03: https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/",
+      "stage": "Scaling: record revenue and backlog; legacy site development revenue +111% with operating margins up year on year and quarter on quarter (company statement).",
+      "size_for_company": "About 78% of Q2 revenue ($905.0m of $1.168bn; our calculation, from the 2026-10-07 report).",
+      "competition": "Other data-center builders listed: Comfort Systems (FIX, record backlog $14.1bn), Quanta (PWR, backlog $53bn), EMCOR, MYR Group, Primoris, IES, plus many private regional site contractors (peer backlog figures from Nasdaq/Zacks articles, tier 3).",
+      "why_investors_care": "It is the growth engine; the stock trades on whether data-center building keeps expanding.",
+      "watch_next": "Q3 results (est. 2026-11-02): E-Infrastructure backlog, book-to-burn, margins; hyperscaler capex updates in late October."
+    }
+  ],
+  "earnings": {
+    "status": "none",
+    "date": "",
+    "confirmed": false,
+    "consensus": {},
+    "actual": {},
+    "guidance": {},
+    "key_metrics": {},
+    "quality_flags": [],
+    "management_explanation": "No results in the window.",
+    "sources": []
+  },
+  "next_earnings": {
+    "date": "2026-11-02 (estimated, after the close; not yet announced by Sterling)",
+    "confirmed": false,
+    "consensus_eps": "Q3 2026 adjusted EPS $5.80 (8 estimates, range $5.59-5.93; 1 upward revision, 0 downward in 4 weeks) per Nasdaq/Zacks on 2026-10-10; year-ago quarter $3.33. Note: the 2026-10-07 report cited $6.07 from a Zacks article dated 2026-10-05; the sources disagree and the reason is not known.",
+    "consensus_revenue": "About $1.16bn for Q3 (Zacks via Yahoo Finance, 2026-10-05, as cited in the 2026-10-07 report; not re-verified today). Full year 2026: about $4.12bn revenue and $20.04 EPS (StockAnalysis.com, 2026-10-10); Nasdaq/Zacks full-year EPS consensus $19.10 (9 estimates).",
+    "company_guidance": "Full year 2026 (raised 2026-08-03): revenue $4.00-4.15bn; net income $536-555m; diluted EPS $17.25-17.85; EBITDA $829-854m; adjusted net income $612-631m; adjusted diluted EPS $19.70-20.30; adjusted EBITDA $891-916m. No quarterly guidance.",
+    "sources": [
+      "https://api.nasdaq.com/api/analyst/STRL/earnings-date",
+      "https://api.nasdaq.com/api/analyst/STRL/earnings-forecast",
+      "https://stockanalysis.com/stocks/strl/forecast/",
+      "https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/",
+      "https://finance.yahoo.com/markets/stocks/articles/sterling-infrastructure-strl-stock-declines-204505398.html"
+    ],
+    "date_basis": "Pattern: Sterling announced Q2 timing on 2026-07-22 for 2026-08-03 results and Q1 timing on 2026-04-22 for 2026-05-04 results (strlco.com Latest News), so a scheduling release around 2026-10-21/22 is likely (inference)."
+  },
+  "analyst_actions": [
+    {"date": "2026-10-08", "firm": "Stifel (Brian Brophy)", "action": "Price target cut to $742 from $804; Buy rating maintained", "reason": "Not published in any source found", "url": "https://www.gurufocus.com/news/9115929/strl-maintained-by-stifel-price-target-lowered-to-742"},
+    {"date": "2026-09-30", "firm": "Cantor Fitzgerald (Manish Somaiya)", "action": "Buy maintained, $742 target (outside window; context)", "reason": "not available", "url": "https://stockanalysis.com/stocks/strl/forecast/"},
+    {"date": "2026-10-10 snapshot", "firm": "Consensus (StockAnalysis.com, 8 analysts)", "action": "Strong Buy consensus; average target $836.57, median $754, range $700-1,000", "reason": "Opinion data, tier 3. A search-engine summary gave a different set (average $665.33, low $500 DA Davidson); unverified and not used.", "url": "https://stockanalysis.com/stocks/strl/forecast/"}
+  ],
+  "insiders": {
+    "summary": "Only filings in the window are the new General Counsel's Form 3 and Form 4 (company grants, code A: 1,000 and 87 shares on 10-05; owns 1,087). No open-market buys or sales; no seller outside a 10b5-1 plan. Previous insider filing was the CEO's gift (Form 4, 2026-09-23), already covered.",
+    "notable": [
+      {"name": "Katherine Hargis", "role": "SVP, General Counsel & Chief Compliance Officer", "date": "2026-10-05", "code": "A (grant)", "shares": 1087, "price": 0, "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000117/xslF345X06/wk-form4_1791404512.xml"}
+    ]
+  },
+  "filings": [
+    {"form": "3", "items": "", "plain_english": "A new insider's first report of what she owns. Filed 2026-10-07 by Katherine Hargis on joining as General Counsel.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000115/xslF345X06/wk-form3_1791404244.xml"},
+    {"form": "4", "items": "", "plain_english": "Two share awards from the company to Hargis on 10-05 (1,000 and 87 shares, $0 price): sign-on/pay, not a purchase or sale.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000117/xslF345X06/wk-form4_1791404512.xml"},
+    {"form": "8-K (context, 2026-10-05, already logged)", "items": "7.01, 9.01", "plain_english": "Press release announcing Hargis succeeds Mark D. Wolf. Filed as a Regulation FD item, not 5.02.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000110/strl-20261005.htm"},
+    {"form": "8-K (context, 2026-07-10)", "items": "5.02", "plain_english": "On 2026-07-06 General Counsel Mark D. Wolf told the company he intends to retire later this year and would help the transition. This shows the October change was planned.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000095/strl-20260706.htm"}
+  ],
+  "catalysts": [
+    {"date": "around 2026-10-21/22", "event": "Sterling likely announces its Q3 release date and call (pattern from prior quarters)", "confirmed": false, "url": "https://www.strlco.com/investor-relations/latest-news/"},
+    {"date": "late October 2026", "event": "Microsoft, Alphabet, Amazon, Meta Q3 results: capex plans test thesis trigger 3", "confirmed": false, "url": ""},
+    {"date": "2026-10-27/28", "event": "Fed rate decision", "confirmed": true, "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"},
+    {"date": "2026-11-02", "event": "Q3 2026 results (estimated, after close)", "confirmed": false, "url": "https://api.nasdaq.com/api/analyst/STRL/earnings-date"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "Guidance cut", "found": false, "evidence": "No release or filing since 2026-10-05; 2026 guidance $4.00-4.15bn stands (strlco.com Latest News and EDGAR checked 2026-10-10)."},
+    {"event": "Results miss", "found": false, "evidence": "No results in window; next results estimated 2026-11-02."},
+    {"event": "Major customer lost", "found": false, "evidence": "No report found; customer names not disclosed."},
+    {"event": "8-K Item 4.02 (non-reliance on financials)", "found": false, "evidence": "EDGAR list: only 8-K since August is 2026-10-05 (items 7.01, 9.01)."},
+    {"event": "8-K Item 4.01 (auditor change)", "found": false, "evidence": "None on EDGAR."},
+    {"event": "CEO/CFO left (5.02)", "found": false, "evidence": "No 5.02 in window. The General Counsel change was a planned retirement (5.02 filed 2026-07-10), not CEO/CFO. CEO Cutillo's contract was extended through 2027-12-31 (8-K 5.02, 2026-05-21). CFO Nicholas Grindstaff signed the July 8-K."},
+    {"event": "Large dilutive share sale (424B under May 2026 shelf)", "found": false, "evidence": "No 424B or prospectus supplement on EDGAR in the window (latest filings: Form 3/4 on 10-07)."},
+    {"event": "Regulator investigation or major litigation", "found": false, "evidence": "Disconfirming search found no lawsuit, investigation or short report in 2026."},
+    {"event": "Two+ analyst downgrades in five trading days", "found": false, "evidence": "One price-target cut (Stifel, Buy kept) on 10-08; no rating downgrades found."},
+    {"event": "Several insiders sold outside 10b5-1 plans", "found": false, "evidence": "No sales in window; data/filings/2026-10-09.json insider_summary shows 0 sells."},
+    {"event": "STRL trigger 1: backlog shrinks two quarters in a row", "found": false, "evidence": "Next check Q3 results; last backlog $4.33bn, +116%."},
+    {"event": "STRL trigger 2: 2026 outlook cut", "found": false, "evidence": "No update since 2026-08-03."},
+    {"event": "STRL trigger 3: big tech cuts data-center plans", "found": false, "evidence": "No hyperscaler capex cut announced in window. Early-warning flavour only: 10-08 FT report on OpenAI revenue and an Nvidia-backed Australian data-center firm's weak funding raised AI-funding doubts; Bloomberg (via Yahoo, 10-09) reported OpenAI expects to reach or exceed $70bn annualized revenue by year end. Not a cut."},
+    {"event": "STRL trigger 4: customers cancel or delay large projects", "found": false, "evidence": "No Sterling-specific delays reported. Industry articles on data-center delays (power, transformers) are from earlier in 2026 and not about Sterling sites."},
+    {"event": "STRL trigger 5: book-to-bill below 1 for several quarters", "found": false, "evidence": "Q2 2026 book-to-burn 1.4x (backlog) and 1.3x (combined), excluding Stone Ridge (Q2 release). Pillar 3's 'Now' line can be updated with this sourced figure (it currently says 'not in our files')."},
+    {"event": "STRL trigger 6: share sale under shelf above 5%", "found": false, "evidence": "No 424B filed."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "AI revenue may be lower than assumed: FT reported OpenAI's annualized revenue at about $50bn, $20bn below widely reported estimates (10-08).", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html", "assessment": "Relevant to the bear case (who pays for data centers), but second-hand (FT not opened, tier 3 relay) and partly countered next day by Bloomberg's report that OpenAI expects at least $70bn by year end. No direct effect on Sterling's backlog."},
+    {"claim": "Stifel cut its target to $742 from $804 (10-08).", "url": "https://www.gurufocus.com/news/9115929/strl-maintained-by-stifel-price-target-lowered-to-742", "assessment": "Opinion; rating still Buy; reason unknown. Low weight."},
+    {"claim": "Nearly half of US data-center capacity planned for 2026 has been cancelled or delayed (power and transformer shortages).", "url": "https://www.webpronews.com/the-great-data-center-stall-nearly-half-of-u-s-projects-planned-for-2026-are-already-dead-or-delayed/", "assessment": "Tier 3/avoid-grade aggregator, older than the window, not Sterling-specific. Background risk only; Sterling's backlog still grew 116% to mid-2026."},
+    {"claim": "Seeking Alpha contributor downgraded Sterling to Hold on valuation (~37x forward P/E).", "url": "https://seekingalpha.com/article/4920251-sterling-infrastructure-great-business-less-attractive-stock-today", "assessment": "Contributor opinion, date not confirmed, appears older than the window; not a Wall Street downgrade."},
+    {"claim": "Margin worries (the 2026-08-04 drop) - checked against primary source.", "url": "https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/", "assessment": "Counter-evidence to the inference in pillar 4: the Q2 release says legacy site-development operating margins expanded year on year and quarter on quarter and CEC margins improved; Building Solutions adjusted operating income fell 11% and Transportation revenue fell 20% (deliberate shift). The cause of the August drop remains unconfirmed."}
+  ],
+  "open_questions": [
+    "Stifel's reason for the target cut is not published (no tier 1/2 source; three tier-3 sources agree on the numbers).",
+    "Q3 EPS consensus: Nasdaq/Zacks shows $5.80 (8 estimates) today vs $6.07 cited from a Zacks article on 10-05; reason for the gap unknown.",
+    "Full-year EPS consensus differs by provider: $19.10 (Nasdaq/Zacks, below the company's $19.70-20.30 adjusted guidance) vs $20.04 (StockAnalysis.com).",
+    "Identity of the 'Nvidia-backed Australian data-center firm' cited by the Motley Fool on 10-08 not established.",
+    "Friday's -2.34-point company-specific move has no published cause.",
+    "Q3 results date not yet announced by Sterling (2026-11-02 is an algorithmic estimate).",
+    "CNBC and Bloomberg pages returned 403/paywall; the FT report itself was not opened."
+  ],
+  "suggested_thesis_fact_updates": [
+    "Pillar 3 'Now' could cite: Q2 2026 book-to-burn 1.4x backlog, 1.3x combined backlog, excluding Stone Ridge [Sterling Q2 2026 results, 2026-08-03]. Pillar 4 'Now' could cite the company's statement that legacy site-development margins expanded. These are fact updates for the main session to decide; reasons/pillars/triggers are not changed."
+  ],
+  "searches_run": 11
+}

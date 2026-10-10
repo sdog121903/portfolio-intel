@@ -27,7 +27,7 @@
         "beyond_market_pct": 2.21,
         "typical_day_pct": 3.31,
         "z": 0.67,
-        "next_5_days_pct": null
+        "next_5_days_pct": -4.07
       }
     },
     {
@@ -261,6 +261,64 @@
         "z": -0.1,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "amd-2026-10-08-chip-selloff",
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Fell 3.90% (and 2.03% on 10-09) with chip stocks: oil and yields at the open, then the FT report on OpenAI, a 6 GW AMD customer; AMD's own part was small.",
+      "source": {
+        "name": "Euronews via Yahoo Finance UK",
+        "date": "2026-10-09",
+        "url": "https://uk.finance.yahoo.com/news/happened-openai-20bn-revenue-scare-120626166.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -3.9,
+        "market_pct": -0.42,
+        "beyond_market_pct": -3.48,
+        "typical_day_pct": 3.11,
+        "z": -1.12,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "amd-2026-08-05-10q-helios-warrants",
+      "date": "2026-08-05",
+      "timing": "unknown",
+      "type": "filing",
+      "materiality": "medium",
+      "direction": "neutral",
+      "what": "Newly read 10-Q: AMD does not sell completed Helios racks (licenses design, supplies chips); OpenAI and Meta warrants for up to 320m shares at $0.01 (about 19.6%) tied to purchase and price milestones, none vested.",
+      "source": {
+        "name": "AMD 10-Q",
+        "date": "2026-08-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-08-05",
+        "stock_pct": -7.04,
+        "market_pct": -0.2,
+        "beyond_market_pct": -6.84,
+        "typical_day_pct": 2.98,
+        "z": -2.29,
+        "next_5_days_pct": 0.18
+      }
     }
   ],
   "days": [
@@ -296,18 +354,29 @@
       "company_part_pct": 1.08,
       "z": 0.41,
       "main_news": "Confirmed Q3 results on 2026-11-03 after the close."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 608.1,
+      "day_pct": -2.03,
+      "market_part_pct": 0.73,
+      "industry_part_pct": -1.77,
+      "company_part_pct": -0.99,
+      "z": -0.38,
+      "main_news": null
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
         "date": "2026-10-12",
-        "event": "Lisa Su keynote, OCP Global Summit",
+        "event": "Lisa Su OCP keynote, 4:15 p.m. Pacific (after the US close)",
         "confirmed": true,
         "source": {
           "name": "AMD",
-          "date": "2026-10-07",
+          "date": "2026-10-09",
           "url": "https://newsroom.amd.com/news/media-alert-ceo-lisa-su-keynote-2026-ocp/",
           "tier": 1
         }

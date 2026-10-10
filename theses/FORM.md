@@ -14,7 +14,7 @@ Before chips are cut from a wafer, each one is tested with a probe card, a custo
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Before chips are cut from a wafer, each one is tested with a probe card, a custo
 - Operating margin (share left after all running costs): rising (8.9% to 22.4%, +13.5 points).
 - Profit: positive net income in 4 of the last 4 quarters.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +34.5% | +25.3% | +18.7% | +260.0% | +27.2% | -47.8% | 5.2% |
+| +22.3% | +18.9% | +12.8% | +264.1% | +26.2% | -47.8% | 5.2% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -127,7 +127,7 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Counts if:* SK hynix, Samsung or Micron cuts its spending plan or reports falling HBM output.
    - *Early warning:* Talk of HBM oversupply or falling memory prices.
    - *Where and when to check:* Memory makers' results; news in every daily report.
-   - *Status now (2026-10-04):* Not hit.
+   - *Status now (2026-10-09):* Not hit. Samsung reported record preliminary Q3 profit and is expanding HBM lines, the opposite of a spending cut [Samsung, 2026-10-08](https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026).
 3. **Revenue drops sharply in a chip-industry downturn, which would show sales are less repeatable than thought.** *(Thesis 2)*
    - *Why it matters:* The repeat-sales reason only holds if revenue is resilient.
    - *Counts if:* Revenue falls more than 20% from a year earlier during an industry downturn.
@@ -153,7 +153,11 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* Quarterly results.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-04 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- Samsung preliminary Q3 2026: operating profit about KRW 107.4tn (a record, +782.5% from a year earlier), sales about KRW 195tn [Samsung, 2026-10-08](https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026); HBM supply tight and Samsung expanding HBM lines [Korea Herald, 2026-10-08](https://www.koreaherald.com/article/10896336)
+- Q3 results confirmed for 2026-10-28 after the close [MarketScreener, 2026-10-07](https://www.marketscreener.com/news/formfactor-to-announce-third-quarter-2026-financial-results-on-october-28th-ce785ddedd8df023)
+- Q2 2026 DRAM probe-card revenue $85.0m (32.9% of revenue, +49.0% from $57.1m); HBM about 75% of that increase [FormFactor 10-Q, 2026-08-04](https://www.sec.gov/Archives/edgar/data/1039399/000103939926000033/form-20260627.htm)
+- Over 10-08 and 10-09 FormFactor was flat (−0.09%) while the middle of eight test and equipment peers fell 2.93% (Yahoo price data; our arithmetic)
 - Q2 2026 revenue $258.2m (+31.9%), a record; adjusted gross margin 53.3%; Q3 guidance $270m ± $10m [FormFactor Q2 2026 results, 2026-07-29](https://www.sec.gov/Archives/edgar/data/1039399/000103939926000030/ex9901-earningsreleasexq226.htm)
 - About a third of Q2's margin gain was one-off (tariff refunds, metal recovered from scrap) (research file, call transcript)
 - SK hynix 24.3% of revenue (research file, from the 10-Q)
@@ -165,3 +169,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-04: File created by the daily routine because FORM appeared in the trade log (order dated 2026-10-05).
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (Samsung preliminary results, confirmed results date, DRAM/HBM probe-card figures from the 10-Q). Trigger 2 status refreshed. No change to the reasons, pillars or triggers.

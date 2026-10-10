@@ -14,15 +14,15 @@ NVIDIA, AMD, Apple and many others design chips but do not make them; TSMC does,
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 *No quarterly SEC figures for this company (it files as a foreign company); see the key trends below, taken from its own results releases.*
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +10.4% | +8.3% | +29.7% | +62.3% | +21.0% | -21.6% | 2.2% |
+| +4.4% | +4.7% | +22.9% | +52.8% | +15.7% | -21.6% | 2.5% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -102,7 +102,7 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Counts if:* Monthly revenue below the same month a year earlier for three months in a row.
    - *Early warning:* One month below a year earlier, or two months of falling sales.
    - *Where and when to check:* Monthly sales releases (around the 10th of each month).
-   - *Status now (2026-10-04):* Not hit.
+   - *Status now (2026-10-09):* Not hit. September +54.6% from a year earlier; September's −0.6% from August is the first month-on-month dip (the early warning needs two) [TSMC 6-K, 2026-10-08](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm).
 2. **A major customer moves its advanced chips to another manufacturer.** *(Thesis 1)*
    - *Why it matters:* TSMC's growth depends on a handful of very large designers.
    - *Counts if:* NVIDIA, AMD, Apple or another top customer announces its newest chip will be made mainly elsewhere.
@@ -132,9 +132,14 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Counts if:* A tariff takes effect and TSMC lowers guidance or says it cuts its margin.
    - *Early warning:* A tariff is formally announced with a start date.
    - *Where and when to check:* News (tier-3 reports only so far); TSMC results.
-   - *Status now (2026-10-04):* Not hit. A decision is pending (tier-3 reports only).
+   - *Status now (2026-10-09):* Not hit. Secondary sources (not confirmed) say a narrow 25% Section 232 chip tariff has applied since 2026-01-15 with an exemption framework for Taiwan, so "a decision is pending" may be out of date; to verify with a tier-1 source.
 
-## Facts as of 2026-10-05 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- September 2026 sales NT$511.86bn: −0.6% from August, +54.6% from a year earlier, a September record; Q3 total NT$1,494.24bn (July 467.58 + August 514.81 + September 511.86), about US$46.70bn at the NT$32 per US$ assumed in guidance, about 2% above the top of the US$44.6-45.8bn range (our calculation) [TSMC 6-K, 2026-10-08](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm)
+- Q3 sales beat the analysts' average of NT$1.46tn by about 2.3% [CNBC, 2026-10-08](https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html); the US shares still fell 3.01% (10-08) and 1.02% (10-09) with chip stocks (data/metrics)
+- GlobalFoundries signed a five-year, US$2bn agreement to make silicon interposers for TSMC's CoWoS packaging in New York, volume from 2028 [GlobalFoundries, 2026-10-08](https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/)
+- 30 officers bought about 1,530 shares (about US$121k) on 10-07 through the employee stock purchase plan (routine) [SEC Form 4, 2026-10-08](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000715/xslF345X06/wk-form4_1791455546.xml)
+- Q3 results 2026-10-15, 14:00 Taipei (confirmed) [TSMC financial calendar, 2026-10-09](https://investor.tsmc.com/english/financial-calendar)
 - Q2 2026 revenue US$40.20bn (+36%), gross margin 67.7%; Q3 guidance US$44.6-45.8bn, margin 65-67% [TSMC Q2 2026 results, 2026-07-16](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm)
 - August 2026 sales NT$514.81bn, +53.3% from a year earlier, a record [TSMC, 2026-09-10](https://pr.tsmc.com/english/news/3340)
 - Weighing a multi-factory campus near Dallas, each factory at least $20bn; TSMC: "no comment on market rumors" [Bloomberg, 2026-10-01](https://www.bloomberg.com/news/articles/2026-10-01/tsmc-mulls-multibillion-dollar-texas-campus-for-more-ai-chips)
@@ -147,3 +152,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-05 (daily report): Facts updated with the Terafab talks confirmed by Elon Musk and Monday's close. No pillar or trigger status changed. No change to the reasons, pillars or triggers.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (September sales, Q3 above guidance, GlobalFoundries interposer deal, employee share purchases). Trigger 1 and 6 status lines refreshed. No change to the reasons, pillars or triggers.

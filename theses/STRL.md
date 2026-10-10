@@ -14,7 +14,7 @@ Before a data center can be built, the land has to be cleared, levelled, given f
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,13 +32,13 @@ Before a data center can be built, the land has to be cleared, levelled, given f
 - Operating margin (share left after all running costs): rising (18.2% to 18.8%, +0.6 points).
 - Profit: positive net income in 4 of the last 4 quarters.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +9.8% | -19.2% | +26.2% | +53.2% | -1.6% | -54.1% | 5.6% |
+| +3.6% | -24.8% | +14.9% | +44.3% | -5.8% | -54.1% | 5.9% |
 
-*Price trend:* short-term bounce inside a longer downtrend (above the 50-day, below the 200-day). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
+*Price trend:* downtrend (price below its 50- and 200-day averages, and the 50 is below the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
 <!-- numbers:end -->
 
@@ -93,12 +93,12 @@ Each pillar says why it matters, how it is measured, where it stands now and whe
 3. **New orders at least replace finished work.** *(Thesis 2)*
    - *Why it matters:* If new orders fall below the work completed, backlog shrinks and future revenue with it.
    - *Measured by:* Book-to-bill: new orders divided by revenue in the quarter (1 or above is healthy).
-   - *Now (as of 2026-10-04):* Not in our files; backlog more than doubling implies well above 1 (inference).
+   - *Now (as of 2026-10-09):* Q2 book-to-burn 1.4x on backlog (1.3x combined, excluding Stone Ridge) [Sterling Q2 2026 results, 2026-08-03](https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/).
    - *Next check:* Q3 results, early November.
 4. **Profit margins keep up with revenue.** *(whole position; added 2026-10-05)*
    - *Why it matters:* Growing revenue at thinner margins is less valuable; the August sell-off may have been about this.
    - *Measured by:* Gross and operating margin against a year earlier.
-   - *Now (as of 2026-10-04):* Exact margins not in our files; stock fell 13% after hours on 2026-08-03 (cause inferred, medium confidence).
+   - *Now (as of 2026-10-09):* Exact margins not in our files; the Q2 release says legacy site-development operating margins rose from a year earlier and from Q1 [Sterling Q2 2026 results, 2026-08-03](https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/), which weakens the guess that the August fall was about margins.
    - *Next check:* Q3 results, early November.
 5. **No share sale under the shelf registration.** *(whole position; added 2026-10-05)*
    - *Why it matters:* The shelf lets it sell shares at any time; a sale would dilute owners.
@@ -146,7 +146,10 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* SEC filings in every daily report.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-04 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- Stifel kept Buy and cut its target to $742 from $804 on 2026-10-08; no reason published [GuruFocus, 2026-10-08](https://www.gurufocus.com/news/9115929/strl-maintained-by-stifel-price-target-lowered-to-742)
+- Q2 2026 book-to-burn 1.4x on backlog (1.3x on combined backlog, excluding Stone Ridge); legacy site-development operating margins rose from a year earlier and from the previous quarter [Sterling Q2 2026 results, 2026-08-03](https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/)
+- Stock −2.94% (10-08) with data-center builders after the OpenAI revenue report, −1.04% (10-09) with no published cause (data/metrics)
 - Q2 2026 revenue $1.168bn (+90%); backlog $4.33bn (+116%); 2026 outlook raised to $4.00-4.15bn; stock fell 13% after hours [Sterling Q2 2026 results, 2026-08-03](https://www.strlco.com/news/sterling-reports-record-second-quarter-results-and-raises-full-year-2026-guidance/)
 - Backlog is about one year of revenue at the 2026 outlook ($4.33bn vs $4.00-4.15bn; our calculation)
 - Shelf registration (S-3) filed May 2026; no shares sold under it; stock fell 8.3% that week [QuiverQuant, 2026-05-18](https://www.quiverquant.com/news/Sterling+Infrastructure+falls+8.3%25+as+investors+react+to+shelf+filing+and+post-rally+profit-taking) (tier 3)
@@ -156,3 +159,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - Created with the repository.
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (Stifel target cut, Q2 book-to-burn and margin comment). Pillar 3 and 4 'Now' lines refreshed. No trigger status changed. No change to the reasons, pillars or triggers.

@@ -27,7 +27,7 @@
         "beyond_market_pct": 2.51,
         "typical_day_pct": 2.46,
         "z": 1.02,
-        "next_5_days_pct": null
+        "next_5_days_pct": -4.66
       }
     },
     {
@@ -203,6 +203,55 @@
         "z": -0.81,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "asml-2026-10-08-hyper-na-paper",
+      "date": "2026-10-08",
+      "timing": "before open",
+      "type": "technology",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "ASML and Zeiss published a paper on 'Hyper NA', a possible machine about 10 years away that ASML has not committed to produce; stock held up better than chips over the two days (company part +2.28).",
+      "source": {
+        "name": "Reuters via Euronext",
+        "date": "2026-10-08",
+        "url": "https://live.euronext.com/en/financial-news/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-10-years",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -1.95,
+        "market_pct": -0.42,
+        "beyond_market_pct": -1.53,
+        "typical_day_pct": 2.44,
+        "z": -0.63,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "asml-2026-10-09-parts-price-rumour",
+      "date": "2026-10-09",
+      "timing": "after close",
+      "type": "unconfirmed report",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Unconfirmed reports citing unnamed Korean media say ASML will raise parts prices 10% for Samsung and SK hynix from January 2027.",
+      "source": {
+        "name": "GuruFocus",
+        "date": "2026-10-09",
+        "url": "https://www.gurufocus.com/news/9118211/asml-set-to-raise-prices-on-equipment-parts-by-10",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ]
     }
   ],
   "days": [
@@ -227,14 +276,25 @@
       "company_part_pct": -0.42,
       "z": -0.26,
       "main_news": null
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 1780.34,
+      "day_pct": 0.6,
+      "market_part_pct": 0.47,
+      "industry_part_pct": -1.3,
+      "company_part_pct": 1.42,
+      "z": 0.9,
+      "main_news": "Unconfirmed reports citing unnamed Korean media say ASML will raise parts prices 10% for Samsung and SK hynix from January 2027."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
         "date": "2026-10-14",
-        "event": "Q3 2026 results, before the US open",
+        "event": "Q3 2026 results, about 07:00 Amsterdam, before the US open",
         "confirmed": true,
         "source": {
           "name": "ASML",

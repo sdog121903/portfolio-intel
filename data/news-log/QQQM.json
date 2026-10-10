@@ -29,6 +29,64 @@
         "z": -0.05,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "qqqm-2026-10-08-nasdaq-chip-drag",
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "price move",
+      "materiality": "low",
+      "direction": "bad",
+      "what": "−1.31% (10-08) and +0.50% (10-09), tracking the Nasdaq-100; it fell three times as much as the S&P 500 on Thursday because the index is chip-heavy.",
+      "source": {
+        "name": "Yahoo Finance",
+        "date": "2026-10-08",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -1.31,
+        "market_pct": -0.42,
+        "beyond_market_pct": -0.89,
+        "typical_day_pct": 0.48,
+        "z": -1.85,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "qqqm-2026-10-09-moderna-added",
+      "date": "2026-10-09",
+      "timing": "before open",
+      "type": "index change",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Moderna replaced Warner Bros. Discovery in the Nasdaq-100, so QQQM now holds a slice of Moderna.",
+      "source": {
+        "name": "Reuters via Zawya",
+        "date": "2026-10-01",
+        "url": "https://www.zawya.com/en/capital-markets/moderna-to-replace-warner-bros-discovery-on-nasdaq-100-1486543",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": 0.5,
+        "market_pct": 0.6,
+        "beyond_market_pct": -0.1,
+        "typical_day_pct": 0.48,
+        "z": -0.21,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -42,21 +100,27 @@
       "company_part_pct": -0.01,
       "z": -0.36,
       "main_news": "Santi bought 0.100 shares at Tuesday's close ($312.76); the Nasdaq-100 index it copies adds Moderna on 10-09."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 309.39,
+      "day_pct": 0.5,
+      "market_part_pct": 0.6,
+      "industry_part_pct": -0.1,
+      "company_part_pct": 0.01,
+      "z": 0.33,
+      "main_news": "Moderna replaced Warner Bros. Discovery in the Nasdaq-100, so QQQM now holds a slice of Moderna."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
-        "date": "2026-10-09",
-        "event": "Moderna joins the Nasdaq-100 (QQQM's index)",
+        "date": "2026-10-14",
+        "event": "ASML (a member) Q3 results",
         "confirmed": true,
-        "source": {
-          "name": "Nasdaq",
-          "date": "2026-10-01",
-          "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
-          "tier": 1
-        }
+        "source": {}
       }
     ]
   }

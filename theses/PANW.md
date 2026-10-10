@@ -14,7 +14,7 @@ Big companies use dozens of separate security products, which is expensive and l
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Big companies use dozens of separate security products, which is expensive and l
 - Operating margin (share left after all running costs): falling (12.5% to 5.0%, -7.5 points).
 - Profit: positive net income in 2 of the last 4 quarters.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +21.7% | +26.5% | +133.4% | +92.2% | +59.9% | -36.0% | 4.2% |
+| +25.0% | +28.5% | +168.9% | +94.6% | +63.6% | -36.0% | 4.1% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -151,7 +151,11 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* Quarterly results.
    - *Status now (2026-10-04):* Not hit (one GAAP loss quarter so far, -$0.35).
 
-## Facts as of 2026-10-04 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- Founding partner (one of 11) of Anthropic's Critical Infrastructure Defense Program; no financial terms [Anthropic, 2026-10-08](https://www.anthropic.com/news/anthropic-cyber-mission)
+- Lee Klarich's family trust gave 60,000 shares to the Boost Giving Foundation (a charity he founded and controls), which filed notice to sell 60,000 shares (about $23.9m) with no 10b5-1 plan listed [SEC Form 144, 2026-10-08](https://www.sec.gov/Archives/edgar/data/1327567/000195824426000652/xsl144X01/primary_doc.xml) [SEC Form 4, 2026-10-09](https://www.sec.gov/Archives/edgar/data/1327567/000168226026000008/xslF345X06/ownership.xml)
+- Director Aparna Bawa's family trust sold outside a 10b5-1 plan on 09-14 (1,000 shares), 09-15 (500), 09-24 (260) and 10-09 (250, about $103k) [SEC Form 4, 2026-09-16](https://www.sec.gov/Archives/edgar/data/1327567/000119312526393132/) [SEC Form 4, 2026-09-28](https://www.sec.gov/Archives/edgar/data/1327567/000119312526405399/) [SEC Form 4, 2026-10-09](https://www.sec.gov/Archives/edgar/data/1327567/000119312526419277/ownership.xml)
+- Stock +5.09% on 10-09, almost all from the cybersecurity group (company part +0.07 points) (attribution)
 - Q4 FY2026 revenue $3.41bn (+34%), above forecasts; next-generation security ARR $9.10bn (+63%); GAAP loss $0.35 a share [PANW Q4 FY2026 results, 2026-09-01](https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm)
 - FY2027 revenue guidance $14.10-14.20bn (growth 23-24%); Q1 guidance $3.300-3.310bn (same release)
 - CyberArk purchase completed 2026-02-11 for $21.1bn, partly paid with 112 million new shares [Palo Alto Networks, 2026-02-11](https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-completes-acquisition-of-cyberark-to-secure-the-ai-era); [PANW 10-Q, 2026-06-02](https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000015/panw-20260430.htm)
@@ -163,3 +167,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-04: Created when the holding appeared in the FIDELITY sheet.
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (Anthropic program, insider items). No trigger status changed. The general insider breaker, read with the VIAVI definition (two or more unplanned Form 4 sales within 30 days), is not met if it counts people (only Bawa) and met if it counts sales (Bawa four times in 30 days) or the charity's planned sale; waiting for Santi's choice. No change to the reasons, pillars or triggers.

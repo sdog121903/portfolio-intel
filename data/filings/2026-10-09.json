@@ -1,0 +1,3950 @@
+{
+  "window_start": "2026-09-29",
+  "window_end": "2026-10-09",
+  "tickers": {
+    "A": {
+      "cik": 1090872,
+      "company": "AGILENT TECHNOLOGIES, INC.",
+      "filings": [],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 0,
+        "sell_value_usd": 0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "AAOI": {
+      "cik": 1158114,
+      "company": "APPLIED OPTOELECTRONICS, INC.",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-07",
+          "accepted": "2026-10-08T00:05:03",
+          "accession": "0001683168-26-007698",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007698/xslF345X06/ownership.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007698/0001683168-26-007698-index.htm",
+          "insider": {
+            "issuer": "APPLIED OPTOELECTRONICS, INC.",
+            "ticker": "AAOI",
+            "owner": "Yeh Shu-Hua (Joshua)",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "*** See Remarks",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-10-05",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 6000.0,
+                "price": 120.03,
+                "value_usd": 720180.0,
+                "shares_owned_after": 371498.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "144",
+          "filing_date": "2026-10-05",
+          "accepted": "2026-10-06T01:29:27",
+          "accession": "0001974078-26-000376",
+          "meaning": "Notice that an insider or affiliate plans to sell restricted or control shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1158114/000197407826000376/xsl144X01/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1158114/000197407826000376/0001974078-26-000376-index.htm"
+        }
+      ],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 1,
+        "sell_value_usd": 720180.0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "AMD": {
+      "cik": 2488,
+      "company": "ADVANCED MICRO DEVICES INC",
+      "filings": [],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 0,
+        "sell_value_usd": 0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "ASML": {
+      "cik": 937966,
+      "company": "ASML HOLDING NV",
+      "filings": [],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 0,
+        "sell_value_usd": 0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "AXTI": {
+      "cik": 1051627,
+      "company": "AXT INC",
+      "filings": [
+        {
+          "form": "SCHEDULE 13G/A",
+          "filing_date": "2026-10-05",
+          "accepted": "2026-10-05T19:58:08",
+          "accession": "0002012383-26-003311",
+          "meaning": "Other filing (see document)",
+          "materiality": "low",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1051627/000201238326003311/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1051627/000201238326003311/0002012383-26-003311-index.htm"
+        }
+      ],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 0,
+        "sell_value_usd": 0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "BE": {
+      "cik": 1664703,
+      "company": "Bloom Energy Corp",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-02T21:00:13",
+          "accession": "0001193125-26-412560",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1664703/000119312526412560/xslF345X06/ownership.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1664703/000119312526412560/0001193125-26-412560-index.htm",
+          "insider": {
+            "issuer": "Bloom Energy Corp",
+            "ticker": "BE",
+            "owner": "Joshi Aman",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "Chief Commercial Officer",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 8437.0,
+                "price": 277.17,
+                "value_usd": 2338483.29,
+                "shares_owned_after": 147092.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-02T21:00:12",
+          "accession": "0001193125-26-412559",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1664703/000119312526412559/xslF345X06/ownership.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1664703/000119312526412559/0001193125-26-412559-index.htm",
+          "insider": {
+            "issuer": "Bloom Energy Corp",
+            "ticker": "BE",
+            "owner": "IMMELT JEFFREY R",
+            "roles": [
+              "director"
+            ],
+            "officer_title": null,
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-09-30",
+                "code": "A",
+                "code_meaning": "grant or award from the company (compensation, not a purchase)",
+                "acquired_or_disposed": "acquired",
+                "shares": 81.0,
+                "price": 276.98,
+                "value_usd": 22435.38,
+                "shares_owned_after": 201324.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-02T21:00:10",
+          "accession": "0001193125-26-412558",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1664703/000119312526412558/xslF345X06/ownership.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1664703/000119312526412558/0001193125-26-412558-index.htm",
+          "insider": {
+            "issuer": "Bloom Energy Corp",
+            "ticker": "BE",
+            "owner": "WARNER CYNTHIA J",
+            "roles": [
+              "director"
+            ],
+            "officer_title": null,
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-09-30",
+                "code": "A",
+                "code_meaning": "grant or award from the company (compensation, not a purchase)",
+                "acquired_or_disposed": "acquired",
+                "shares": 83.0,
+                "price": 276.98,
+                "value_usd": 22989.34,
+                "shares_owned_after": 34978.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "144",
+          "filing_date": "2026-10-01",
+          "accepted": "2026-10-01T20:26:32",
+          "accession": "0001950047-26-009960",
+          "meaning": "Notice that an insider or affiliate plans to sell restricted or control shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1664703/000195004726009960/xsl144X01/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1664703/000195004726009960/0001950047-26-009960-index.htm"
+        }
+      ],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 1,
+        "sell_value_usd": 2338483.29,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "CRDO": {
+      "cik": 1807794,
+      "company": "Credo Technology Group Holding Ltd",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-09",
+          "accepted": "2026-10-09T20:01:10",
+          "accession": "0001628280-26-065523",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065523/xslF345X06/wk-form4_1791576067.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065523/0001628280-26-065523-index.htm",
+          "insider": {
+            "issuer": "Credo Technology Group Holding Ltd",
+            "ticker": "CRDO",
+            "owner": "Lam Yat Tung",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "Chief Operating Officer",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "G",
+                "code_meaning": "gift",
+                "acquired_or_disposed": "disposed",
+                "shares": 200000.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 2047809.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "G",
+                "code_meaning": "gift",
+                "acquired_or_disposed": "acquired",
+                "shares": 200000.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 200000.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "144",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-09T01:48:06",
+          "accession": "0001958244-26-000651",
+          "meaning": "Notice that an insider or affiliate plans to sell restricted or control shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195824426000651/xsl144X01/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1807794/000195824426000651/0001958244-26-000651-index.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-07",
+          "accepted": "2026-10-08T00:55:16",
+          "accession": "0001628280-26-065347",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065347/xslF345X06/wk-form4_1791406514.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065347/0001628280-26-065347-index.htm",
+          "insider": {
+            "issuer": "Credo Technology Group Holding Ltd",
+            "ticker": "CRDO",
+            "owner": "Lam Yat Tung",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "Chief Operating Officer",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-05",
+                "code": "F",
+                "code_meaning": "shares withheld to pay taxes or the exercise price (routine)",
+                "acquired_or_disposed": "disposed",
+                "shares": 3180.0,
+                "price": 218.64,
+                "value_usd": 695275.2,
+                "shares_owned_after": 2247809.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-07",
+          "accepted": "2026-10-08T00:55:04",
+          "accession": "0001628280-26-065346",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065346/xslF345X06/wk-form4_1791406499.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065346/0001628280-26-065346-index.htm",
+          "insider": {
+            "issuer": "Credo Technology Group Holding Ltd",
+            "ticker": "CRDO",
+            "owner": "Cheng Chi Fung",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "Chief Technology Officer",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-10-05",
+                "code": "F",
+                "code_meaning": "shares withheld to pay taxes or the exercise price (routine)",
+                "acquired_or_disposed": "disposed",
+                "shares": 2460.0,
+                "price": 218.64,
+                "value_usd": 537854.4,
+                "shares_owned_after": 134108.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 200.0,
+                "price": 211.06,
+                "value_usd": 42212.0,
+                "shares_owned_after": 5662197.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 100.0,
+                "price": 211.82,
+                "value_usd": 21182.0,
+                "shares_owned_after": 5662097.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 300.0,
+                "price": 213.44,
+                "value_usd": 64032.0,
+                "shares_owned_after": 5661797.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 300.0,
+                "price": 214.46,
+                "value_usd": 64338.0,
+                "shares_owned_after": 5661497.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 200.0,
+                "price": 217.795,
+                "value_usd": 43559.0,
+                "shares_owned_after": 5661297.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 2298.0,
+                "price": 219.4712,
+                "value_usd": 504344.82,
+                "shares_owned_after": 5658999.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 7548.0,
+                "price": 220.4583,
+                "value_usd": 1664019.25,
+                "shares_owned_after": 5651451.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 6188.0,
+                "price": 221.3698,
+                "value_usd": 1369836.32,
+                "shares_owned_after": 5645263.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 3068.0,
+                "price": 222.3844,
+                "value_usd": 682275.34,
+                "shares_owned_after": 5642195.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 3798.0,
+                "price": 223.414,
+                "value_usd": 848526.37,
+                "shares_owned_after": 5638397.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 2300.0,
+                "price": 224.3091,
+                "value_usd": 515910.93,
+                "shares_owned_after": 5636097.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1000.0,
+                "price": 225.183,
+                "value_usd": 225183.0,
+                "shares_owned_after": 5635097.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 200.0,
+                "price": 226.175,
+                "value_usd": 45235.0,
+                "shares_owned_after": 5634897.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-06",
+          "accepted": "2026-10-07T01:26:30",
+          "accession": "0001628280-26-065266",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065266/xslF345X06/wk-form4_1791321987.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065266/0001628280-26-065266-index.htm",
+          "insider": {
+            "issuer": "Credo Technology Group Holding Ltd",
+            "ticker": "CRDO",
+            "owner": "Brennan William Joseph",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "Pres & Chief Executive Officer",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-02",
+                "code": "F",
+                "code_meaning": "shares withheld to pay taxes or the exercise price (routine)",
+                "acquired_or_disposed": "disposed",
+                "shares": 6149.0,
+                "price": 210.17,
+                "value_usd": 1292335.33,
+                "shares_owned_after": 360331.0
+              },
+              {
+                "date": "2026-10-05",
+                "code": "F",
+                "code_meaning": "shares withheld to pay taxes or the exercise price (routine)",
+                "acquired_or_disposed": "disposed",
+                "shares": 6149.0,
+                "price": 218.64,
+                "value_usd": 1344417.36,
+                "shares_owned_after": 354182.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-06",
+          "accepted": "2026-10-07T01:25:28",
+          "accession": "0001628280-26-065265",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065265/xslF345X06/wk-form4_1791321925.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026065265/0001628280-26-065265-index.htm",
+          "insider": {
+            "issuer": "Credo Technology Group Holding Ltd",
+            "ticker": "CRDO",
+            "owner": "Fleming Daniel W.",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "Chief Financial Officer",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-02",
+                "code": "F",
+                "code_meaning": "shares withheld to pay taxes or the exercise price (routine)",
+                "acquired_or_disposed": "disposed",
+                "shares": 2460.0,
+                "price": 210.17,
+                "value_usd": 517018.2,
+                "shares_owned_after": 502248.0
+              },
+              {
+                "date": "2026-10-05",
+                "code": "F",
+                "code_meaning": "shares withheld to pay taxes or the exercise price (routine)",
+                "acquired_or_disposed": "disposed",
+                "shares": 2460.0,
+                "price": 218.64,
+                "value_usd": 537854.4,
+                "shares_owned_after": 499788.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-05",
+          "accepted": "2026-10-06T00:21:30",
+          "accession": "0001628280-26-064939",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064939/xslF345X06/wk-form4_1791231688.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064939/0001628280-26-064939-index.htm",
+          "insider": {
+            "issuer": "Credo Technology Group Holding Ltd",
+            "ticker": "CRDO",
+            "owner": "Laufman James",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "Chief Legal Officer, Secretary",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 5000.0,
+                "price": 205.0,
+                "value_usd": 1025000.0,
+                "shares_owned_after": 164223.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-03T00:57:54",
+          "accession": "0001628280-26-064627",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064627/xslF345X06/wk-form4_1790974671.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064627/0001628280-26-064627-index.htm",
+          "insider": {
+            "issuer": "Credo Technology Group Holding Ltd",
+            "ticker": "CRDO",
+            "owner": "Lam Yat Tung",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "Chief Operating Officer",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-09-30",
+                "code": "G",
+                "code_meaning": "gift",
+                "acquired_or_disposed": "disposed",
+                "shares": 75000.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 0.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "G",
+                "code_meaning": "gift",
+                "acquired_or_disposed": "acquired",
+                "shares": 75000.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 75000.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 50000.0,
+                "price": 205.2175,
+                "value_usd": 10260875.0,
+                "shares_owned_after": 2254169.0
+              },
+              {
+                "date": "2026-10-02",
+                "code": "F",
+                "code_meaning": "shares withheld to pay taxes or the exercise price (routine)",
+                "acquired_or_disposed": "disposed",
+                "shares": 3180.0,
+                "price": 210.17,
+                "value_usd": 668340.6,
+                "shares_owned_after": 2250989.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-01",
+          "accepted": "2026-10-02T00:49:24",
+          "accession": "0001628280-26-064300",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064300/xslF345X06/wk-form4_1790887761.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026064300/0001628280-26-064300-index.htm",
+          "insider": {
+            "issuer": "Credo Technology Group Holding Ltd",
+            "ticker": "CRDO",
+            "owner": "Cheng Chi Fung",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "Chief Technology Officer",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 300.0,
+                "price": 189.6467,
+                "value_usd": 56894.01,
+                "shares_owned_after": 5689597.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 900.0,
+                "price": 191.4544,
+                "value_usd": 172308.96,
+                "shares_owned_after": 5688697.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 8366.0,
+                "price": 192.4774,
+                "value_usd": 1610265.93,
+                "shares_owned_after": 5680331.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 6332.0,
+                "price": 193.24,
+                "value_usd": 1223595.68,
+                "shares_owned_after": 5673999.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 4426.0,
+                "price": 194.3727,
+                "value_usd": 860293.57,
+                "shares_owned_after": 5669573.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 2985.0,
+                "price": 195.3981,
+                "value_usd": 583263.33,
+                "shares_owned_after": 5666588.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1591.0,
+                "price": 196.2563,
+                "value_usd": 312243.77,
+                "shares_owned_after": 5664997.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1500.0,
+                "price": 197.2113,
+                "value_usd": 295816.95,
+                "shares_owned_after": 5663497.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1100.0,
+                "price": 198.6145,
+                "value_usd": 218475.95,
+                "shares_owned_after": 5662397.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "144",
+          "filing_date": "2026-10-01",
+          "accepted": "2026-10-02T00:08:37",
+          "accession": "0001950047-26-009924",
+          "meaning": "Notice that an insider or affiliate plans to sell restricted or control shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000195004726009924/xsl144X01/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1807794/000195004726009924/0001950047-26-009924-index.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-29",
+          "accepted": "2026-09-30T00:28:04",
+          "accession": "0001628280-26-063815",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026063815/xslF345X06/wk-form4_1790713681.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026063815/0001628280-26-063815-index.htm",
+          "insider": {
+            "issuer": "Credo Technology Group Holding Ltd",
+            "ticker": "CRDO",
+            "owner": "Lam Yat Tung",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "Chief Operating Officer",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-09-25",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 25508.0,
+                "price": 205.3828,
+                "value_usd": 5238904.46,
+                "shares_owned_after": 2503661.0
+              },
+              {
+                "date": "2026-09-25",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 11170.0,
+                "price": 206.7167,
+                "value_usd": 2309025.54,
+                "shares_owned_after": 2492491.0
+              },
+              {
+                "date": "2026-09-25",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 13322.0,
+                "price": 207.698,
+                "value_usd": 2766952.76,
+                "shares_owned_after": 2479169.0
+              },
+              {
+                "date": "2026-09-25",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 26000.0,
+                "price": 205.3935,
+                "value_usd": 5340231.0,
+                "shares_owned_after": 274000.0
+              },
+              {
+                "date": "2026-09-25",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 11465.0,
+                "price": 206.8034,
+                "value_usd": 2371000.98,
+                "shares_owned_after": 262535.0
+              },
+              {
+                "date": "2026-09-25",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 12535.0,
+                "price": 207.6829,
+                "value_usd": 2603305.15,
+                "shares_owned_after": 250000.0
+              },
+              {
+                "date": "2026-09-25",
+                "code": "G",
+                "code_meaning": "gift",
+                "acquired_or_disposed": "disposed",
+                "shares": 100000.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 2379169.0
+              },
+              {
+                "date": "2026-09-25",
+                "code": "G",
+                "code_meaning": "gift",
+                "acquired_or_disposed": "disposed",
+                "shares": 75000.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 2304169.0
+              },
+              {
+                "date": "2026-09-25",
+                "code": "G",
+                "code_meaning": "gift",
+                "acquired_or_disposed": "acquired",
+                "shares": 100000.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 100000.0
+              },
+              {
+                "date": "2026-09-25",
+                "code": "G",
+                "code_meaning": "gift",
+                "acquired_or_disposed": "acquired",
+                "shares": 75000.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 75000.0
+              }
+            ]
+          }
+        }
+      ],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 30,
+        "sell_value_usd": 43339107.07,
+        "sellers_not_under_10b5_1_plan": [
+          "Laufman James"
+        ],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "CRWD": {
+      "cik": 1535527,
+      "company": "CrowdStrike Holdings, Inc.",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-09T04:00:07",
+          "accession": "0001778564-26-000179",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000179/xslF345X06/form4-10082026_081001.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000179/0001778564-26-000179-index.htm",
+          "insider": {
+            "issuer": "CrowdStrike Holdings, Inc.",
+            "ticker": "CRWD",
+            "owner": "Kurtz George",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "PRESIDENT AND CEO",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 120.0,
+                "price": 277.02,
+                "value_usd": 33242.4,
+                "shares_owned_after": 7531384.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1200.0,
+                "price": 278.35,
+                "value_usd": 334020.0,
+                "shares_owned_after": 7530184.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 3800.0,
+                "price": 279.1,
+                "value_usd": 1060580.0,
+                "shares_owned_after": 7526384.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 600.0,
+                "price": 280.32,
+                "value_usd": 168192.0,
+                "shares_owned_after": 7525784.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1880.0,
+                "price": 281.35,
+                "value_usd": 528938.0,
+                "shares_owned_after": 7523904.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1199.0,
+                "price": 282.21,
+                "value_usd": 338369.79,
+                "shares_owned_after": 7522705.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 361.0,
+                "price": 283.23,
+                "value_usd": 102246.03,
+                "shares_owned_after": 7522344.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 320.0,
+                "price": 284.3,
+                "value_usd": 90976.0,
+                "shares_owned_after": 7522024.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 337.0,
+                "price": 285.45,
+                "value_usd": 96196.65,
+                "shares_owned_after": 7521687.0
+              },
+              {
+                "date": "2026-10-06",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 183.0,
+                "price": 286.3,
+                "value_usd": 52392.9,
+                "shares_owned_after": 7521504.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 2066.0,
+                "price": 265.15,
+                "value_usd": 547799.9,
+                "shares_owned_after": 7519438.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 564.0,
+                "price": 266.15,
+                "value_usd": 150108.6,
+                "shares_owned_after": 7518874.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1295.0,
+                "price": 267.26,
+                "value_usd": 346101.7,
+                "shares_owned_after": 7517579.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1020.0,
+                "price": 268.09,
+                "value_usd": 273451.8,
+                "shares_owned_after": 7516559.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1670.0,
+                "price": 269.22,
+                "value_usd": 449597.4,
+                "shares_owned_after": 7514889.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1160.0,
+                "price": 270.14,
+                "value_usd": 313362.4,
+                "shares_owned_after": 7513729.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 640.0,
+                "price": 271.18,
+                "value_usd": 173555.2,
+                "shares_owned_after": 7513089.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 200.0,
+                "price": 272.38,
+                "value_usd": 54476.0,
+                "shares_owned_after": 7512889.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 280.0,
+                "price": 273.45,
+                "value_usd": 76566.0,
+                "shares_owned_after": 7512609.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 800.0,
+                "price": 274.9,
+                "value_usd": 219920.0,
+                "shares_owned_after": 7511809.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 305.0,
+                "price": 276.25,
+                "value_usd": 84256.25,
+                "shares_owned_after": 7511504.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-06",
+          "accepted": "2026-10-07T04:00:06",
+          "accession": "0001778564-26-000177",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000177/xslF345X06/form4-10062026_081001.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000177/0001778564-26-000177-index.htm",
+          "insider": {
+            "issuer": "CrowdStrike Holdings, Inc.",
+            "ticker": "CRWD",
+            "owner": "Kurtz George",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "PRESIDENT AND CEO",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-10-02",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1920.0,
+                "price": 268.47,
+                "value_usd": 515462.4,
+                "shares_owned_after": 7549584.0
+              },
+              {
+                "date": "2026-10-02",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 5000.0,
+                "price": 269.4,
+                "value_usd": 1347000.0,
+                "shares_owned_after": 7544584.0
+              },
+              {
+                "date": "2026-10-02",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1308.0,
+                "price": 270.44,
+                "value_usd": 353735.52,
+                "shares_owned_after": 7543276.0
+              },
+              {
+                "date": "2026-10-02",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1455.0,
+                "price": 271.36,
+                "value_usd": 394828.8,
+                "shares_owned_after": 7541821.0
+              },
+              {
+                "date": "2026-10-02",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 317.0,
+                "price": 272.53,
+                "value_usd": 86392.01,
+                "shares_owned_after": 7541504.0
+              },
+              {
+                "date": "2026-10-05",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 400.0,
+                "price": 269.4,
+                "value_usd": 107760.0,
+                "shares_owned_after": 7541104.0
+              },
+              {
+                "date": "2026-10-05",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 720.0,
+                "price": 270.31,
+                "value_usd": 194623.2,
+                "shares_owned_after": 7540384.0
+              },
+              {
+                "date": "2026-10-05",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 3005.0,
+                "price": 271.41,
+                "value_usd": 815587.05,
+                "shares_owned_after": 7537379.0
+              },
+              {
+                "date": "2026-10-05",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 5075.0,
+                "price": 272.26,
+                "value_usd": 1381719.5,
+                "shares_owned_after": 7532304.0
+              },
+              {
+                "date": "2026-10-05",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 760.0,
+                "price": 273.02,
+                "value_usd": 207495.2,
+                "shares_owned_after": 7531544.0
+              },
+              {
+                "date": "2026-10-05",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 40.0,
+                "price": 274.08,
+                "value_usd": 10963.2,
+                "shares_owned_after": 7531504.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-05",
+          "accepted": "2026-10-06T04:00:13",
+          "accession": "0001201326-26-000027",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000027/xslF345X06/form4-10052026_081004.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000027/0001201326-26-000027-index.htm",
+          "insider": {
+            "issuer": "CrowdStrike Holdings, Inc.",
+            "ticker": "CRWD",
+            "owner": "GANDHI SAMEER K",
+            "roles": [
+              "director"
+            ],
+            "officer_title": "",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 457.0,
+                "price": 260.34,
+                "value_usd": 118975.38,
+                "shares_owned_after": 2895513.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 2431.0,
+                "price": 261.1,
+                "value_usd": 634734.1,
+                "shares_owned_after": 2893082.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1018.0,
+                "price": 262.29,
+                "value_usd": 267011.22,
+                "shares_owned_after": 2892064.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 2317.0,
+                "price": 263.29,
+                "value_usd": 610042.93,
+                "shares_owned_after": 2889747.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 9607.0,
+                "price": 264.2,
+                "value_usd": 2538169.4,
+                "shares_owned_after": 2880140.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 17382.0,
+                "price": 265.21,
+                "value_usd": 4609880.22,
+                "shares_owned_after": 2862758.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 12718.0,
+                "price": 266.15,
+                "value_usd": 3384895.7,
+                "shares_owned_after": 2850040.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 5012.0,
+                "price": 267.09,
+                "value_usd": 1338655.08,
+                "shares_owned_after": 2845028.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 2978.0,
+                "price": 268.0,
+                "value_usd": 798104.0,
+                "shares_owned_after": 2842050.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 80.0,
+                "price": 269.07,
+                "value_usd": 21525.6,
+                "shares_owned_after": 2841970.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-05",
+          "accepted": "2026-10-06T04:00:11",
+          "accession": "0001921602-26-000012",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000192160226000012/xslF345X06/form4-10052026_081001.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1535527/000192160226000012/0001921602-26-000012-index.htm",
+          "insider": {
+            "issuer": "CrowdStrike Holdings, Inc.",
+            "ticker": "CRWD",
+            "owner": "Saha Anurag",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "CHIEF ACCOUNTING OFFICER",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 700.0,
+                "price": 259.95,
+                "value_usd": 181965.0,
+                "shares_owned_after": 205176.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 5637.0,
+                "price": 261.13,
+                "value_usd": 1471989.81,
+                "shares_owned_after": 199539.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 3170.0,
+                "price": 262.01,
+                "value_usd": 830571.7,
+                "shares_owned_after": 196369.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 6145.0,
+                "price": 263.06,
+                "value_usd": 1616503.7,
+                "shares_owned_after": 190224.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 9004.0,
+                "price": 263.92,
+                "value_usd": 2376335.68,
+                "shares_owned_after": 181220.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 120.0,
+                "price": 264.6,
+                "value_usd": 31752.0,
+                "shares_owned_after": 181100.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-03T05:31:24",
+          "accession": "0000950103-26-015176",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015176/xslF345X06/ownership.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015176/0000950103-26-015176-index.htm",
+          "insider": {
+            "issuer": "CrowdStrike Holdings, Inc.",
+            "ticker": "CRWD",
+            "owner": "Sentonas Michael",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "PRESIDENT",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-09-30",
+                "code": "M",
+                "code_meaning": "exercise or conversion of an option or similar derivative",
+                "acquired_or_disposed": "acquired",
+                "shares": 12920.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 1487461.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 13274.0,
+                "price": 262.71,
+                "value_usd": 3487212.54,
+                "shares_owned_after": 1474187.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 30933.0,
+                "price": 263.5,
+                "value_usd": 8150845.5,
+                "shares_owned_after": 1443254.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 40573.0,
+                "price": 264.39,
+                "value_usd": 10727095.47,
+                "shares_owned_after": 1402681.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 53539.0,
+                "price": 265.39,
+                "value_usd": 14208715.21,
+                "shares_owned_after": 1349142.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 61611.0,
+                "price": 266.53,
+                "value_usd": 16421179.83,
+                "shares_owned_after": 1287531.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 41974.0,
+                "price": 267.29,
+                "value_usd": 11219230.46,
+                "shares_owned_after": 1245557.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 40.0,
+                "price": 267.96,
+                "value_usd": 10718.4,
+                "shares_owned_after": 1245517.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-03T02:35:09",
+          "accession": "0000950103-26-015151",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015151/xslF345X06/ownership.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326015151/0000950103-26-015151-index.htm",
+          "insider": {
+            "issuer": "CrowdStrike Holdings, Inc.",
+            "ticker": "CRWD",
+            "owner": "Kurtz George",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "PRESIDENT AND CEO",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 533.0,
+                "price": 263.09,
+                "value_usd": 140226.97,
+                "shares_owned_after": 7570971.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1328.0,
+                "price": 264.23,
+                "value_usd": 350897.44,
+                "shares_owned_after": 7569643.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 4066.0,
+                "price": 265.21,
+                "value_usd": 1078343.86,
+                "shares_owned_after": 7565577.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 2049.0,
+                "price": 266.2,
+                "value_usd": 545443.8,
+                "shares_owned_after": 7563528.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1432.0,
+                "price": 267.2,
+                "value_usd": 382630.4,
+                "shares_owned_after": 7562096.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 506.0,
+                "price": 268.05,
+                "value_usd": 135633.3,
+                "shares_owned_after": 7561590.0
+              },
+              {
+                "date": "2026-09-30",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 86.0,
+                "price": 268.81,
+                "value_usd": 23117.66,
+                "shares_owned_after": 7561504.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 403.0,
+                "price": 261.16,
+                "value_usd": 105247.48,
+                "shares_owned_after": 7561101.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 168.0,
+                "price": 262.29,
+                "value_usd": 44064.72,
+                "shares_owned_after": 7560933.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 672.0,
+                "price": 263.4,
+                "value_usd": 177004.8,
+                "shares_owned_after": 7560261.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 2050.0,
+                "price": 264.34,
+                "value_usd": 541897.0,
+                "shares_owned_after": 7558211.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 3046.0,
+                "price": 265.33,
+                "value_usd": 808195.18,
+                "shares_owned_after": 7555165.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 2411.0,
+                "price": 266.25,
+                "value_usd": 641928.75,
+                "shares_owned_after": 7552754.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 935.0,
+                "price": 267.39,
+                "value_usd": 250009.65,
+                "shares_owned_after": 7551819.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 315.0,
+                "price": 268.13,
+                "value_usd": 84460.95,
+                "shares_owned_after": 7551504.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "144",
+          "filing_date": "2026-10-01",
+          "accepted": "2026-10-02T02:01:15",
+          "accession": "0001958244-26-000634",
+          "meaning": "Notice that an insider or affiliate plans to sell restricted or control shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000195824426000634/xsl144X01/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1535527/000195824426000634/0001958244-26-000634-index.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-30",
+          "accepted": "2026-10-01T04:00:06",
+          "accession": "0001778564-26-000175",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000175/xslF345X06/form4-09302026_080901.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000175/0001778564-26-000175-index.htm",
+          "insider": {
+            "issuer": "CrowdStrike Holdings, Inc.",
+            "ticker": "CRWD",
+            "owner": "Kurtz George",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "PRESIDENT AND CEO",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-09-28",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 204.0,
+                "price": 248.24,
+                "value_usd": 50640.96,
+                "shares_owned_after": 7591300.0
+              },
+              {
+                "date": "2026-09-28",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 382.0,
+                "price": 249.81,
+                "value_usd": 95427.42,
+                "shares_owned_after": 7590918.0
+              },
+              {
+                "date": "2026-09-28",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 460.0,
+                "price": 251.76,
+                "value_usd": 115809.6,
+                "shares_owned_after": 7590458.0
+              },
+              {
+                "date": "2026-09-28",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1146.0,
+                "price": 252.56,
+                "value_usd": 289433.76,
+                "shares_owned_after": 7589312.0
+              },
+              {
+                "date": "2026-09-28",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1234.0,
+                "price": 253.71,
+                "value_usd": 313078.14,
+                "shares_owned_after": 7588078.0
+              },
+              {
+                "date": "2026-09-28",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 459.0,
+                "price": 254.79,
+                "value_usd": 116948.61,
+                "shares_owned_after": 7587619.0
+              },
+              {
+                "date": "2026-09-28",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 293.0,
+                "price": 255.99,
+                "value_usd": 75005.07,
+                "shares_owned_after": 7587326.0
+              },
+              {
+                "date": "2026-09-28",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 256.0,
+                "price": 256.99,
+                "value_usd": 65789.44,
+                "shares_owned_after": 7587070.0
+              },
+              {
+                "date": "2026-09-28",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 565.0,
+                "price": 258.01,
+                "value_usd": 145775.65,
+                "shares_owned_after": 7586505.0
+              },
+              {
+                "date": "2026-09-28",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 3530.0,
+                "price": 259.26,
+                "value_usd": 915187.8,
+                "shares_owned_after": 7582975.0
+              },
+              {
+                "date": "2026-09-28",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1471.0,
+                "price": 259.88,
+                "value_usd": 382283.48,
+                "shares_owned_after": 7581504.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 315.0,
+                "price": 256.42,
+                "value_usd": 80772.3,
+                "shares_owned_after": 7581189.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 645.0,
+                "price": 257.35,
+                "value_usd": 165990.75,
+                "shares_owned_after": 7580544.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1440.0,
+                "price": 258.63,
+                "value_usd": 372427.2,
+                "shares_owned_after": 7579104.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 3355.0,
+                "price": 259.5,
+                "value_usd": 870622.5,
+                "shares_owned_after": 7575749.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 2163.0,
+                "price": 260.41,
+                "value_usd": 563266.83,
+                "shares_owned_after": 7573586.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 842.0,
+                "price": 261.49,
+                "value_usd": 220174.58,
+                "shares_owned_after": 7572744.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 1240.0,
+                "price": 262.42,
+                "value_usd": 325400.8,
+                "shares_owned_after": 7571504.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "144",
+          "filing_date": "2026-09-30",
+          "accepted": "2026-10-01T00:24:21",
+          "accession": "0001950047-26-009890",
+          "meaning": "Notice that an insider or affiliate plans to sell restricted or control shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000195004726009890/xsl144X01/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1535527/000195004726009890/0001950047-26-009890-index.htm"
+        }
+      ],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 88,
+        "sell_value_usd": 106439161.68,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "FORM": {
+      "cik": 1039399,
+      "company": "FORMFACTOR INC",
+      "filings": [],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 0,
+        "sell_value_usd": 0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "LITE": {
+      "cik": 1633978,
+      "company": "Lumentum Holdings Inc.",
+      "filings": [
+        {
+          "form": "ARS",
+          "filing_date": "2026-10-06",
+          "accepted": "2026-10-07T00:08:38",
+          "accession": "0001308179-26-000422",
+          "meaning": "Other filing (see document)",
+          "materiality": "low",
+          "items": [],
+          "description": "ANNUAL REPORT TO SECURITY HOLDERS",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000422/lite-ars.pdf",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000422/0001308179-26-000422-index.htm"
+        },
+        {
+          "form": "DEFA14A",
+          "filing_date": "2026-10-06",
+          "accepted": "2026-10-07T00:06:56",
+          "accession": "0001308179-26-000421",
+          "meaning": "Additional proxy material",
+          "materiality": "low",
+          "items": [],
+          "description": "DEFINITIVE ADDITIONAL PROXY SOLICITING MATERIALS",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000421/lite2026-defa14a.htm",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000421/0001308179-26-000421-index.htm"
+        },
+        {
+          "form": "DEF 14A",
+          "filing_date": "2026-10-06",
+          "accepted": "2026-10-07T00:05:46",
+          "accession": "0001308179-26-000420",
+          "meaning": "Proxy statement: shareholder meeting agenda, executive pay, board elections",
+          "materiality": "low",
+          "items": [],
+          "description": "DEFINITIVE PROXY STATEMENT",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/0001308179-26-000420-index.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-03T00:16:45",
+          "accession": "0001561100-26-000008",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000156110026000008/xslF345X06/form4-10022026_081041.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1633978/000156110026000008/0001561100-26-000008-index.htm",
+          "insider": {
+            "issuer": "Lumentum Holdings Inc.",
+            "ticker": "LITE",
+            "owner": "Ali Wajid",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "EVP & CHIEF FINANCIAL OFFICER",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 24542.0,
+                "price": 1048.5,
+                "value_usd": 25732287.0,
+                "shares_owned_after": 75074.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "144",
+          "filing_date": "2026-10-01",
+          "accepted": "2026-10-02T00:10:26",
+          "accession": "0001950047-26-009928",
+          "meaning": "Notice that an insider or affiliate plans to sell restricted or control shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000195004726009928/xsl144X01/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1633978/000195004726009928/0001950047-26-009928-index.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-30",
+          "accepted": "2026-10-01T03:01:06",
+          "accession": "0001489550-26-000015",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000148955026000015/xslF345X06/form4-09302026_110901.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1633978/000148955026000015/0001489550-26-000015-index.htm",
+          "insider": {
+            "issuer": "Lumentum Holdings Inc.",
+            "ticker": "LITE",
+            "owner": "Wupen Yuen",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "PRESIDENT, GLOBAL BUS. UNITS",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-09-28",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 500.0,
+                "price": 948.5,
+                "value_usd": 474250.0,
+                "shares_owned_after": 108627.0
+              },
+              {
+                "date": "2026-09-29",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 307.0,
+                "price": 945.0,
+                "value_usd": 290115.0,
+                "shares_owned_after": 108320.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "144",
+          "filing_date": "2026-09-29",
+          "accepted": "2026-09-30T00:21:18",
+          "accession": "0001950047-26-009855",
+          "meaning": "Notice that an insider or affiliate plans to sell restricted or control shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000195004726009855/xsl144X01/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1633978/000195004726009855/0001950047-26-009855-index.htm"
+        }
+      ],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 3,
+        "sell_value_usd": 26496652.0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "MRNA": {
+      "cik": 1682852,
+      "company": "Moderna, Inc.",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-07",
+          "accepted": "2026-10-08T00:04:45",
+          "accession": "0001682852-26-000185",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "PRIMARY DOCUMENT",
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000185/xslF345X06/form4.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000185/0001682852-26-000185-index.htm",
+          "insider": {
+            "issuer": "Moderna, Inc.",
+            "ticker": "MRNA",
+            "owner": "Mock James M",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "Chief Financial Officer",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-05",
+                "code": "M",
+                "code_meaning": "exercise or conversion of an option or similar derivative",
+                "acquired_or_disposed": "acquired",
+                "shares": 1454.0,
+                "price": null,
+                "value_usd": null,
+                "shares_owned_after": 60829.0
+              },
+              {
+                "date": "2026-10-05",
+                "code": "F",
+                "code_meaning": "shares withheld to pay taxes or the exercise price (routine)",
+                "acquired_or_disposed": "disposed",
+                "shares": 704.0,
+                "price": 190.01,
+                "value_usd": 133767.04,
+                "shares_owned_after": 60125.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "3",
+          "filing_date": "2026-10-05",
+          "accepted": "2026-10-06T02:27:02",
+          "accession": "0001682852-26-000183",
+          "meaning": "New insider's first report of holdings",
+          "materiality": "low",
+          "items": [],
+          "description": "PRIMARY DOCUMENT",
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000183/xslF345X06/form3.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000183/0001682852-26-000183-index.htm"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-09-30",
+          "accepted": "2026-09-30T15:15:20",
+          "accession": "0001193125-26-408289",
+          "meaning": "Current report: the company must tell investors about a major event within four business days",
+          "materiality": "high",
+          "items": [
+            {
+              "item": "5.02",
+              "meaning": "Director or senior officer left, joined, or pay arrangements changed",
+              "materiality": "high"
+            },
+            {
+              "item": "7.01",
+              "meaning": "Regulation FD disclosure (often a presentation or press release)",
+              "materiality": "medium"
+            },
+            {
+              "item": "9.01",
+              "meaning": "Financial statements and exhibits attached",
+              "materiality": "low"
+            }
+          ],
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/d18337d8k.htm",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/0001193125-26-408289-index.htm"
+        }
+      ],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 0,
+        "sell_value_usd": 0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "PANW": {
+      "cik": 1327567,
+      "company": "Palo Alto Networks Inc",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-09",
+          "accepted": "2026-10-09T20:30:09",
+          "accession": "0001682260-26-000008",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000168226026000008/xslF345X06/ownership.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1327567/000168226026000008/0001682260-26-000008-index.htm",
+          "insider": {
+            "issuer": "Palo Alto Networks Inc",
+            "ticker": "PANW",
+            "owner": "Klarich Lee",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "EVP Chief Product & Tech Ofcr",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-08",
+                "code": "G",
+                "code_meaning": "gift",
+                "acquired_or_disposed": "disposed",
+                "shares": 60000.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 555070.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "144",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-09T01:48:27",
+          "accession": "0001958244-26-000652",
+          "meaning": "Notice that an insider or affiliate plans to sell restricted or control shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000195824426000652/xsl144X01/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1327567/000195824426000652/0001958244-26-000652-index.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-05",
+          "accepted": "2026-10-06T00:30:10",
+          "accession": "0001882285-26-000027",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000188228526000027/xslF345X06/ownership.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1327567/000188228526000027/0001882285-26-000027-index.htm",
+          "insider": {
+            "issuer": "Palo Alto Networks Inc",
+            "ticker": "PANW",
+            "owner": "Paul Josh D.",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "Chief Accounting Officer",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-10-01",
+                "code": "F",
+                "code_meaning": "shares withheld to pay taxes or the exercise price (routine)",
+                "acquired_or_disposed": "disposed",
+                "shares": 1308.0,
+                "price": 397.31,
+                "value_usd": 519681.48,
+                "shares_owned_after": 78387.0
+              },
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 400.0,
+                "price": 395.7,
+                "value_usd": 158280.0,
+                "shares_owned_after": 77987.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-01",
+          "accepted": "2026-10-02T00:30:07",
+          "accession": "0001682260-26-000006",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000168226026000006/xslF345X06/ownership.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1327567/000168226026000006/0001682260-26-000006-index.htm",
+          "insider": {
+            "issuer": "Palo Alto Networks Inc",
+            "ticker": "PANW",
+            "owner": "Klarich Lee",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "EVP Chief Product & Tech Ofcr",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-09-30",
+                "code": "G",
+                "code_meaning": "gift",
+                "acquired_or_disposed": "disposed",
+                "shares": 25000.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 615070.0
+              }
+            ]
+          }
+        }
+      ],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 1,
+        "sell_value_usd": 158280.0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "QQQM": {
+      "error": "ticker not found in SEC list"
+    },
+    "SNOW": {
+      "cik": 1640147,
+      "company": "Snowflake Inc.",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-09T02:13:17",
+          "accession": "0001821737-26-000016",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000016/xslF345X06/wk-form4_1791497594.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000016/0001821737-26-000016-index.htm",
+          "insider": {
+            "issuer": "Snowflake Inc.",
+            "ticker": "SNOW",
+            "owner": "Dageville Benoit",
+            "roles": [
+              "director"
+            ],
+            "officer_title": null,
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 50000.0,
+                "price": 333.42,
+                "value_usd": 16671000.0,
+                "shares_owned_after": 2384879.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "G",
+                "code_meaning": "gift",
+                "acquired_or_disposed": "disposed",
+                "shares": 16668.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 2368211.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "144",
+          "filing_date": "2026-10-07",
+          "accepted": "2026-10-07T18:27:28",
+          "accession": "0001959173-26-007302",
+          "meaning": "Notice that an insider or affiliate plans to sell restricted or control shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007302/xsl144X01/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007302/0001959173-26-007302-index.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-03T04:00:09",
+          "accession": "0001433644-26-000017",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1640147/000143364426000017/xslF345X06/wk-form4_1790985606.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1640147/000143364426000017/0001433644-26-000017-index.htm",
+          "insider": {
+            "issuer": "Snowflake Inc.",
+            "ticker": "SNOW",
+            "owner": "Speiser Michael L",
+            "roles": [
+              "director"
+            ],
+            "officer_title": null,
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-10-02",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 403.0,
+                "price": 344.0,
+                "value_usd": 138632.0,
+                "shares_owned_after": 21767.0
+              },
+              {
+                "date": "2026-10-02",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 12973.0,
+                "price": 344.0,
+                "value_usd": 4462712.0,
+                "shares_owned_after": 376201.0
+              },
+              {
+                "date": "2026-10-02",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 840.0,
+                "price": 344.0,
+                "value_usd": 288960.0,
+                "shares_owned_after": 24356.0
+              },
+              {
+                "date": "2026-10-02",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 840.0,
+                "price": 344.0,
+                "value_usd": 288960.0,
+                "shares_owned_after": 24356.0
+              },
+              {
+                "date": "2026-10-02",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 840.0,
+                "price": 344.0,
+                "value_usd": 288960.0,
+                "shares_owned_after": 24356.0
+              },
+              {
+                "date": "2026-10-02",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 840.0,
+                "price": 344.0,
+                "value_usd": 288960.0,
+                "shares_owned_after": 24356.0
+              },
+              {
+                "date": "2026-10-02",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 34005.0,
+                "price": 344.0,
+                "value_usd": 11697720.0,
+                "shares_owned_after": 1137741.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-03T03:59:08",
+          "accession": "0001979088-26-000022",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000022/xslF345X06/wk-form4_1790985545.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000022/0001979088-26-000022-index.htm",
+          "insider": {
+            "issuer": "Snowflake Inc.",
+            "ticker": "SNOW",
+            "owner": "Kleinerman Christian",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "EVP, Product Management",
+            "under_10b5_1_plan": true,
+            "transactions": [
+              {
+                "date": "2026-10-01",
+                "code": "S",
+                "code_meaning": "open-market or private SALE",
+                "acquired_or_disposed": "disposed",
+                "shares": 15000.0,
+                "price": 341.57,
+                "value_usd": 5123550.0,
+                "shares_owned_after": 313738.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "144",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-03T00:40:06",
+          "accession": "0001973251-26-000039",
+          "meaning": "Notice that an insider or affiliate plans to sell restricted or control shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1640147/000197325126000039/xsl144X01/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1640147/000197325126000039/0001973251-26-000039-index.htm"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-03T00:06:31",
+          "accession": "0001640147-26-000043",
+          "meaning": "Current report: the company must tell investors about a major event within four business days",
+          "materiality": "high",
+          "items": [
+            {
+              "item": "1.01",
+              "meaning": "Signed a major contract or agreement",
+              "materiality": "high"
+            },
+            {
+              "item": "2.03",
+              "meaning": "Took on a significant new debt or obligation",
+              "materiality": "medium"
+            },
+            {
+              "item": "3.02",
+              "meaning": "Sold shares without public registration",
+              "materiality": "medium"
+            },
+            {
+              "item": "8.01",
+              "meaning": "Other events the company chose to report",
+              "materiality": "medium"
+            },
+            {
+              "item": "9.01",
+              "meaning": "Financial statements and exhibits attached",
+              "materiality": "low"
+            }
+          ],
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/0001640147-26-000043-index.htm"
+        },
+        {
+          "form": "144",
+          "filing_date": "2026-10-01",
+          "accepted": "2026-10-01T19:52:00",
+          "accession": "0001959173-26-007179",
+          "meaning": "Notice that an insider or affiliate plans to sell restricted or control shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007179/xsl144X01/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1640147/000195917326007179/0001959173-26-007179-index.htm"
+        }
+      ],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 9,
+        "sell_value_usd": 39249454.0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "STRL": {
+      "cik": 874238,
+      "company": "STERLING INFRASTRUCTURE, INC.",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-07",
+          "accepted": "2026-10-08T00:21:54",
+          "accession": "0000874238-26-000117",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000117/xslF345X06/wk-form4_1791404512.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000117/0000874238-26-000117-index.htm",
+          "insider": {
+            "issuer": "STERLING INFRASTRUCTURE, INC.",
+            "ticker": "STRL",
+            "owner": "Hargis Katherine",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "General Counsel & CCO",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-05",
+                "code": "A",
+                "code_meaning": "grant or award from the company (compensation, not a purchase)",
+                "acquired_or_disposed": "acquired",
+                "shares": 1000.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 1000.0
+              },
+              {
+                "date": "2026-10-05",
+                "code": "A",
+                "code_meaning": "grant or award from the company (compensation, not a purchase)",
+                "acquired_or_disposed": "acquired",
+                "shares": 87.0,
+                "price": 0.0,
+                "value_usd": null,
+                "shares_owned_after": 1087.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "3",
+          "filing_date": "2026-10-07",
+          "accepted": "2026-10-08T00:17:27",
+          "accession": "0000874238-26-000115",
+          "meaning": "New insider's first report of holdings",
+          "materiality": "low",
+          "items": [],
+          "description": "FORM 3",
+          "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000115/xslF345X06/wk-form3_1791404244.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000115/0000874238-26-000115-index.htm"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-10-05",
+          "accepted": "2026-10-05T17:35:28",
+          "accession": "0000874238-26-000110",
+          "meaning": "Current report: the company must tell investors about a major event within four business days",
+          "materiality": "medium",
+          "items": [
+            {
+              "item": "7.01",
+              "meaning": "Regulation FD disclosure (often a presentation or press release)",
+              "materiality": "medium"
+            },
+            {
+              "item": "9.01",
+              "meaning": "Financial statements and exhibits attached",
+              "materiality": "low"
+            }
+          ],
+          "description": "FORM 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000110/strl-20261005.htm",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000110/0000874238-26-000110-index.htm"
+        }
+      ],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 0,
+        "sell_value_usd": 0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "TSM": {
+      "cik": 1046179,
+      "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:35:58",
+          "accession": "0001046179-26-000724",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000724/xslF345X06/wk-form4_1791455755.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000724/0001046179-26-000724-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Yuan Lipen",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 40.0,
+                "price": 79.39,
+                "value_usd": 3175.6,
+                "shares_owned_after": 1341.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:35:53",
+          "accession": "0001046179-26-000723",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000723/xslF345X06/wk-form4_1791455750.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000723/0001046179-26-000723-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Yeap Choh Fei",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "SVP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 52.0,
+                "price": 79.39,
+                "value_usd": 4128.28,
+                "shares_owned_after": 53.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:35:46",
+          "accession": "0001046179-26-000722",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000722/xslF345X06/wk-form4_1791455743.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000722/0001046179-26-000722-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Zhang Kevin Xiaoqiang",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "SVP and Deputy Co-COO",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 59.0,
+                "price": 79.39,
+                "value_usd": 4684.01,
+                "shares_owned_after": 7406.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:35:40",
+          "accession": "0001046179-26-000721",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000721/xslF345X06/wk-form4_1791455737.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000721/0001046179-26-000721-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Yoo Chue-San",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 50.0,
+                "price": 79.39,
+                "value_usd": 3969.5,
+                "shares_owned_after": 6744.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:32:36",
+          "accession": "0001046179-26-000716",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000716/xslF345X06/wk-form4_1791455553.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000716/0001046179-26-000716-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Wu Shien-Yang",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "SVP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 53.0,
+                "price": 79.39,
+                "value_usd": 4207.67,
+                "shares_owned_after": 6915.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:32:29",
+          "accession": "0001046179-26-000715",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000715/xslF345X06/wk-form4_1791455546.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000715/0001046179-26-000715-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Wei Che-Chia",
+            "roles": [
+              "director",
+              "officer"
+            ],
+            "officer_title": "Chairman and CEO",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 144.0,
+                "price": 79.39,
+                "value_usd": 11432.16,
+                "shares_owned_after": 18280.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:32:22",
+          "accession": "0001046179-26-000714",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000714/xslF345X06/wk-form4_1791455539.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000714/0001046179-26-000714-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Wu Yi-Huang",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 39.0,
+                "price": 79.39,
+                "value_usd": 3096.21,
+                "shares_owned_after": 199.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:30:17",
+          "accession": "0001046179-26-000710",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000710/xslF345X06/wk-form4_1791455413.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000710/0001046179-26-000710-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Wang Ying-Lang",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "SVP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 52.0,
+                "price": 79.39,
+                "value_usd": 4128.28,
+                "shares_owned_after": 6551.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:30:10",
+          "accession": "0001046179-26-000709",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000709/xslF345X06/wk-form4_1791455406.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000709/0001046179-26-000709-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Mii Yuh-Jier",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "EVP and Co-COO",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 68.0,
+                "price": 79.39,
+                "value_usd": 5398.52,
+                "shares_owned_after": 8238.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:30:04",
+          "accession": "0001046179-26-000708",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000708/xslF345X06/wk-form4_1791455401.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000708/0001046179-26-000708-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Tien Bor-Zen",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 40.0,
+                "price": 79.39,
+                "value_usd": 3175.6,
+                "shares_owned_after": 353.0
+              },
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 7.0,
+                "price": 79.39,
+                "value_usd": 555.73,
+                "shares_owned_after": 92.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:27:28",
+          "accession": "0001046179-26-000704",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000704/xslF345X06/wk-form4_1791455244.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000704/0001046179-26-000704-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Lu Chin-Sheng",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 36.0,
+                "price": 79.39,
+                "value_usd": 2858.04,
+                "shares_owned_after": 187.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:27:22",
+          "accession": "0001046179-26-000703",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000703/xslF345X06/wk-form4_1791455238.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000703/0001046179-26-000703-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Lu Lee-Chung",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 49.0,
+                "price": 79.39,
+                "value_usd": 3890.11,
+                "shares_owned_after": 6534.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:27:14",
+          "accession": "0001046179-26-000702",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000702/xslF345X06/wk-form4_1791455231.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000702/0001046179-26-000702-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Lin Shyue-Shyh",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 44.0,
+                "price": 79.39,
+                "value_usd": 3493.16,
+                "shares_owned_after": 384.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:25:04",
+          "accession": "0001046179-26-000698",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000698/xslF345X06/wk-form4_1791455100.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000698/0001046179-26-000698-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Lin Chris Horng-Dar",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP and CIO",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 44.0,
+                "price": 79.39,
+                "value_usd": 3493.16,
+                "shares_owned_after": 45.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:24:56",
+          "accession": "0001046179-26-000697",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000697/xslF345X06/wk-form4_1791455093.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000697/0001046179-26-000697-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Lee Chun-Hsien",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "SVP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 51.0,
+                "price": 79.39,
+                "value_usd": 4048.89,
+                "shares_owned_after": 6092.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:24:49",
+          "accession": "0001046179-26-000696",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000696/xslF345X06/wk-form4_1791455086.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000696/0001046179-26-000696-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Ku Yao-Ching",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 46.0,
+                "price": 79.39,
+                "value_usd": 3651.94,
+                "shares_owned_after": 234.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:21:25",
+          "accession": "0001046179-26-000692",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000692/xslF345X06/wk-form4_1791454881.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000692/0001046179-26-000692-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Hwang Yuan-Ko",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 39.0,
+                "price": 79.39,
+                "value_usd": 3096.21,
+                "shares_owned_after": 338.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:21:17",
+          "accession": "0001046179-26-000691",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000691/xslF345X06/wk-form4_1791454873.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000691/0001046179-26-000691-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Huang Jen-Chau",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "SVP and CFO",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 28.0,
+                "price": 79.39,
+                "value_usd": 2222.92,
+                "shares_owned_after": 3611.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:21:11",
+          "accession": "0001046179-26-000690",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000690/xslF345X06/wk-form4_1791454868.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000690/0001046179-26-000690-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Jang Syun-Ming",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 46.0,
+                "price": 79.39,
+                "value_usd": 3651.94,
+                "shares_owned_after": 5988.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:17:51",
+          "accession": "0001046179-26-000686",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000686/xslF345X06/wk-form4_1791454668.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000686/0001046179-26-000686-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Hou Yung-Chin",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "SVP and Deputy Co-COO",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 60.0,
+                "price": 79.39,
+                "value_usd": 4763.4,
+                "shares_owned_after": 60.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:17:46",
+          "accession": "0001046179-26-000685",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000685/xslF345X06/wk-form4_1791454663.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000685/0001046179-26-000685-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Hsu Kuo-Chin",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 52.0,
+                "price": 79.39,
+                "value_usd": 4128.28,
+                "shares_owned_after": 6781.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:17:39",
+          "accession": "0001046179-26-000684",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000684/xslF345X06/wk-form4_1791454656.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000684/0001046179-26-000684-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "He Jun",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 43.0,
+                "price": 79.39,
+                "value_usd": 3413.77,
+                "shares_owned_after": 45.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "6-K",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:12:39",
+          "accession": "0001046179-26-000680",
+          "meaning": "Report from a foreign company: news it published at home (results, events, announcements)",
+          "materiality": "medium",
+          "items": [],
+          "description": "6-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/0001046179-26-000680-index.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:12:39",
+          "accession": "0001046179-26-000679",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000679/xslF345X06/wk-form4_1791454355.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000679/0001046179-26-000679-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Chuang Tzu-Sou",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 46.0,
+                "price": 79.39,
+                "value_usd": 3651.94,
+                "shares_owned_after": 47.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:12:32",
+          "accession": "0001046179-26-000678",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000678/xslF345X06/wk-form4_1791454349.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000678/0001046179-26-000678-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Cao Min",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 51.0,
+                "price": 79.39,
+                "value_usd": 4048.89,
+                "shares_owned_after": 6824.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:12:25",
+          "accession": "0001046179-26-000677",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000677/xslF345X06/wk-form4_1791454342.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000677/0001046179-26-000677-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Chin Yung-Pei",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "EVP and Co-COO",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 67.0,
+                "price": 79.39,
+                "value_usd": 5319.13,
+                "shares_owned_after": 8573.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:12:18",
+          "accession": "0001046179-26-000676",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000676/xslF345X06/wk-form4_1791454335.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000676/0001046179-26-000676-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Chang Tzonz-Sheng",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "SVP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 51.0,
+                "price": 79.39,
+                "value_usd": 4048.89,
+                "shares_owned_after": 52.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:12:12",
+          "accession": "0001046179-26-000675",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000675/xslF345X06/wk-form4_1791454329.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000675/0001046179-26-000675-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Fang Shu-Hua",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "SVP and GC",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 53.0,
+                "price": 79.39,
+                "value_usd": 4207.67,
+                "shares_owned_after": 6761.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:12:05",
+          "accession": "0001046179-26-000674",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000674/xslF345X06/wk-form4_1791454322.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000674/0001046179-26-000674-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Chuang Juiping",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 46.0,
+                "price": 79.39,
+                "value_usd": 3651.94,
+                "shares_owned_after": 48.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:11:58",
+          "accession": "0001046179-26-000673",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000673/xslF345X06/wk-form4_1791454315.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000673/0001046179-26-000673-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Chen Pei-Hung",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "VP",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 43.0,
+                "price": 79.39,
+                "value_usd": 3413.77,
+                "shares_owned_after": 1438.0
+              }
+            ]
+          }
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "accepted": "2026-10-08T14:11:51",
+          "accession": "0001046179-26-000672",
+          "meaning": "Insider trade: a director, officer or 10% owner bought, sold or received shares",
+          "materiality": "medium",
+          "items": [],
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000672/xslF345X06/wk-form4_1791454308.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000672/0001046179-26-000672-index.htm",
+          "insider": {
+            "issuer": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "ticker": "TSM",
+            "owner": "Chen Chih-Ho",
+            "roles": [
+              "officer"
+            ],
+            "officer_title": "Controller",
+            "under_10b5_1_plan": false,
+            "transactions": [
+              {
+                "date": "2026-10-07",
+                "code": "P",
+                "code_meaning": "open-market or private PURCHASE (insider spent their own money)",
+                "acquired_or_disposed": "acquired",
+                "shares": 31.0,
+                "price": 79.39,
+                "value_usd": 2461.09,
+                "shares_owned_after": 233.0
+              }
+            ]
+          }
+        }
+      ],
+      "insider_summary": {
+        "open_market_buys": 31,
+        "buy_value_usd": 121466.7,
+        "open_market_sells": 0,
+        "sell_value_usd": 0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    },
+    "VIAV": {
+      "cik": 912093,
+      "company": "VIAVI SOLUTIONS INC.",
+      "filings": [
+        {
+          "form": "SCHEDULE 13G/A",
+          "filing_date": "2026-10-05",
+          "accepted": "2026-10-05T19:58:08",
+          "accession": "0002012383-26-003337",
+          "meaning": "Other filing (see document)",
+          "materiality": "low",
+          "items": [],
+          "description": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/912093/000201238326003337/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/912093/000201238326003337/0002012383-26-003337-index.htm"
+        },
+        {
+          "form": "ARS",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-03T00:26:57",
+          "accession": "0001628280-26-064554",
+          "meaning": "Other filing (see document)",
+          "materiality": "low",
+          "items": [],
+          "description": "ARS",
+          "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064554/viavisolutionsinccombinedp.pdf",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064554/0001628280-26-064554-index.htm"
+        },
+        {
+          "form": "DEFA14A",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-03T00:18:46",
+          "accession": "0001628280-26-064533",
+          "meaning": "Additional proxy material",
+          "materiality": "low",
+          "items": [],
+          "description": "DEFA14A",
+          "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064533/defa14-afy26a.htm",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064533/0001628280-26-064533-index.htm"
+        },
+        {
+          "form": "DEF 14A",
+          "filing_date": "2026-10-02",
+          "accepted": "2026-10-03T00:16:44",
+          "accession": "0001628280-26-064524",
+          "meaning": "Proxy statement: shareholder meeting agenda, executive pay, board elections",
+          "materiality": "low",
+          "items": [],
+          "description": "DEF 14A",
+          "url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/viav-20261002.htm",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/912093/000162828026064524/0001628280-26-064524-index.htm"
+        }
+      ],
+      "insider_summary": {
+        "open_market_buys": 0,
+        "buy_value_usd": 0,
+        "open_market_sells": 0,
+        "sell_value_usd": 0,
+        "sellers_not_under_10b5_1_plan": [],
+        "note": "Grants (A), tax withholding (F) and option exercises (M) are usually routine compensation events."
+      }
+    }
+  }
+}

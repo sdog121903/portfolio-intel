@@ -27,7 +27,7 @@
         "beyond_market_pct": 5.51,
         "typical_day_pct": 8.93,
         "z": 0.62,
-        "next_5_days_pct": null
+        "next_5_days_pct": -12.41
       }
     },
     {
@@ -204,6 +204,93 @@
         "z": -0.57,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "axti-2026-10-08-optics-selloff",
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Fell 10.19% with no company news as chip and optical stocks sold off (FT report on OpenAI's revenue pace); AXT moves about twice as much as chip stocks.",
+      "source": {
+        "name": "Reuters via Yahoo Finance",
+        "date": "2026-10-08",
+        "url": "https://finance.yahoo.com/news/p-500-nasdaq-end-lower-203227225.html",
+        "tier": 2
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -10.19,
+        "market_pct": -0.42,
+        "beyond_market_pct": -9.77,
+        "typical_day_pct": 8.61,
+        "z": -1.13,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "axti-2026-10-09-fall-no-cause",
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Fell another 4.47% (opened +2.9%, closed near its low) while optical peers rose; no published cause; four straight down days, below its 50-day average.",
+      "source": {
+        "name": "Yahoo Finance",
+        "date": "2026-10-09",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": -4.47,
+        "market_pct": 0.6,
+        "beyond_market_pct": -5.07,
+        "typical_day_pct": 8.67,
+        "z": -0.58,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "axti-2026-06-17-casela-prepay",
+      "date": "2026-06-17",
+      "timing": "unknown",
+      "type": "filing",
+      "materiality": "low",
+      "direction": "good",
+      "what": "Not in earlier logs: Nanjing Casela committed about $25.4m for 2027, 50% due within 15 business days of signing, the rest by 2026-12-31 (third prepaid customer).",
+      "source": {
+        "name": "AXT 8-K",
+        "date": "2026-06-17",
+        "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926020978/axti20260615_8k.htm",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-06-17",
+        "stock_pct": -1.0,
+        "market_pct": -1.25,
+        "beyond_market_pct": 0.25,
+        "typical_day_pct": 7.81,
+        "z": 0.03,
+        "next_5_days_pct": -25.02
+      }
     }
   ],
   "days": [
@@ -239,10 +326,21 @@
       "company_part_pct": -2.88,
       "z": -0.34,
       "main_news": "Fell 5.08% with no company news; the whole fall came at the open, when the 10-year rate touched 5.36% and chip and optical stocks opened lower. Tuesday's 3.00% slide had no published cause."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 68.46,
+      "day_pct": -4.47,
+      "market_part_pct": 0.98,
+      "industry_part_pct": -2.44,
+      "company_part_pct": -3.01,
+      "z": -0.35,
+      "main_news": "Fell another 4.47% (opened +2.9%, closed near its low) while optical peers rose; no published cause; four straight down days, below its 50-day average."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
         "date": "2026-10-29",
@@ -257,7 +355,7 @@
       },
       {
         "date": "2026-11-27",
-        "event": "China's pause of its gallium/germanium export ban to the US due to end (extension not verified)",
+        "event": "China's gallium/germanium export-ban pause due to end (extension not verified)",
         "confirmed": false,
         "source": {}
       }

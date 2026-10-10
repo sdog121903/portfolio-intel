@@ -1,0 +1,261 @@
+{
+  "ticker": "TSM",
+  "company": "Taiwan Semiconductor Manufacturing Co Ltd (TSMC), US-listed ADR (1 ADR = 5 Taiwan common shares)",
+  "window": {
+    "from": "2026-10-07 16:00 New York (after Wednesday's US close)",
+    "to": "2026-10-09 after the US close (checked again Saturday 2026-10-10 morning Madrid for anything newer)"
+  },
+  "newest_item_checked": "2026-10-10 (Saturday morning Madrid): TSMC newsroom (latest item is the September revenue report of 2026-10-08), TSMC investor calendar, and a web search for TSMC news dated 2026-10-10. The newest relevant item is the Stifel note reported by Investing.com on 2026-10-09. Nothing material about TSMC published after Friday's US close was found.",
+  "events": [
+    {
+      "date": "2026-10-08",
+      "timing": "before open",
+      "type": "monthly sales report (tier-1 6-K) / quarterly revenue vs guidance",
+      "materiality": "high",
+      "new_or_rehash": "new",
+      "summary": "September 2026 revenue was about NT$511.86bn (NT$511,857m), down 0.6% from August (NT$514,806m) and up 54.6% from September 2025 (NT$330,980m). January-September 2026 revenue was NT$3,898.73bn, up 41.1%. Released 13:30 Taipei on Thursday, which is 01:30 New York, before the US open. Q3 2026 revenue (July NT$467,580m + August NT$514,806m + September NT$511,857m) = NT$1,494.24bn: a record, up 17.62% from Q2 (NT$1,270.38bn) and up about 51% from Q3 2025 (NT$989.92bn). TSMC's Q3 guidance was US$44.6-45.8bn and assumed an exchange rate of 1 US dollar = 32 NT dollars, so the top of the range equals about NT$1,465.6bn (Focus Taiwan rounds it to about NT$1.47tn). At the guidance rate of NT$32, Q3 is about US$46.70bn: about 1.95% above the top of the range and 3.3% above its midpoint (US$45.2bn). At Thursday's Taipei closing rate of NT$31.875, it is about US$46.88bn. Media reported US$46.71bn. Q3 revenue was about 2.35% above the LSEG SmartEstimate of NT$1.46tn (19 analysts). TSMC will give its own US$ figure, at the quarter's actual average exchange rate, on 10-15 (not available yet). In US$ at NT$32, Q3 growth from Q3 2025 (US$33.10bn) is about 41% (a calculation).",
+      "why_it_matters": "This is the fastest check on thesis pillars 1 and 2. Sales are still growing about 55% from a year earlier, and Q3 revenue landed above the top of TSMC's own range, so the AI-demand thesis got fresh support from TSMC's own numbers. The NT$ was slightly stronger than the NT$32 that guidance assumed (31.875 on Thursday), so the beat is not an artefact of a weaker currency. One small caution: September was the first month-on-month dip of the quarter (-0.6%). That is one month, while the thesis's early warning needs two months of falling sales. Focus Taiwan attributes the record quarter to AI-chip demand plus smartphone makers building inventory before new product launches.",
+      "direction": "supports",
+      "sources": [
+        {"name": "TSMC Form 6-K, September 2026 revenue report", "date": "2026-10-08", "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm", "tier": 1},
+        {"name": "TSMC Form 6-K, August 2026 revenue report (July figure NT$467,580m)", "date": "2026-09-10", "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000658/tsm-revenue20260910.htm", "tier": 1},
+        {"name": "TSMC Q2 2026 results with Q3 guidance (US$44.6-45.8bn; 1 US$ = 32 NT$; GM 65-67%; OM 56-58%)", "date": "2026-07-16", "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm", "tier": 1},
+        {"name": "TSMC Q3 2025 results (revenue NT$989.92bn / US$33.10bn; EPS NT$17.44, US$2.92 per ADR; GM 59.5%)", "date": "2025-10-16", "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000116/a3q25e_withguidancexfinal.htm", "tier": 1},
+        {"name": "Focus Taiwan (CNA), TSMC posts record quarterly revenue, highest-ever September sales", "date": "2026-10-08", "url": "https://focustaiwan.tw/business/202610080012", "tier": 2},
+        {"name": "Focus Taiwan (CNA), U.S. dollar closes higher on Taipei forex market (NT$31.875)", "date": "2026-10-08", "url": "https://focustaiwan.tw/business/202610080014", "tier": 2},
+        {"name": "CNBC, TSMC's September sales surge year-over-year as AI drives chip demand", "date": "2026-10-08", "url": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html", "tier": 2},
+        {"name": "TrendForce, TSMC Q3 revenue beats forecasts at record NT$1.49 trillion (cites Reuters/LSEG)", "date": "2026-10-08", "url": "https://www.trendforce.com/news/2026/10/08/news-tsmc-q3-revenue-beats-forecasts-at-record-nt1-49-trillion-net-profit-seen-surging-64/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "before open",
+      "type": "industry / AI-demand news (customer-of-customers revenue report)",
+      "materiality": "high",
+      "new_or_rehash": "new",
+      "summary": "The Financial Times reported that OpenAI told investors its annualized revenue was about US$50bn at the end of September, about US$20bn below the roughly US$68bn figure that circulated in late September. The gap is reportedly a difference in counting method: Anthropic includes sales through cloud partners and OpenAI does not. OpenAI also reported 77% run-rate growth in Q3. AI and chip stocks fell: Nvidia -3%, AMD -4%, Broadcom -4%, Intel -5%, Oracle nearly -6%, CoreWeave nearly -8% (CNBC). The Philadelphia Semiconductor Index fell 3.4% and the Nasdaq 100 1.4%, its worst day in seven weeks, as the report 'revived worries that the artificial-intelligence spending spree is becoming harder to justify' (Bloomberg). Bloomberg's pre-market story also cited a 'mounting energy shock' (oil rising on Middle East tension). A tier-3 market wrap adds rising bond yields and reports of Broadcom and Oracle arranging large financing for OpenAI. SMH fell 2.84% and TSM 3.01% (to $457.99, on 13.4m shares vs 7.3m on Wednesday).",
+      "why_it_matters": "This explains most of Thursday's fall: the attribution puts -1.79 points on chips as a group and only -0.73 on TSMC itself (z -0.54, normal). OpenAI is one of the biggest end buyers of AI computing. If its revenue is lower than believed, investors worry about how long the chip spending that ends up as TSMC wafer orders can last. Nothing changed in TSMC's own reported numbers. It is a sentiment and expectations shock, not a TSMC fact.",
+      "direction": "weakens",
+      "sources": [
+        {"name": "CNBC, Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report", "date": "2026-10-08", "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html", "tier": 2},
+        {"name": "Bloomberg, Nasdaq 100 Drops 1.4% as OpenAI Warning Deepens Bubble Fears", "date": "2026-10-08", "url": "https://www.bloomberg.com/news/articles/2026-10-08/us-stock-futures-slip-on-mounting-energy-shock-ai-bubble-fears", "tier": 2},
+        {"name": "Bloomberg, OpenAI's Revenue Run Rate Nears $50 Billion, Less Than Reported (FT says)", "date": "2026-10-08", "url": "https://www.bloomberg.com/news/articles/2026-10-08/openai-s-annualized-revenue-nears-50-billion-ft-says", "tier": 2},
+        {"name": "BigGo Finance market wrap (TSM ADR -$14.21 or -3.01% to $457.99; SOX -3.39% to 12,623.72)", "date": "2026-10-08", "url": "https://finance.biggo.com/news/5d793ce5-4589-4eb3-9393-8e6c175795b7", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "contract / supply agreement (TSMC is the buyer)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "GlobalFoundries announced a US$2bn manufacturing agreement with an initial five-year term to make silicon interposers for TSMC's CoWoS advanced-packaging ecosystem at its Malta, New York fab. GF will expand capacity there and says this will be the first US-based source of silicon interposers, including embedded deep trench capacitor components. Volume production is expected to begin ramping in the first half of 2028. The release includes no TSMC quote, and TSMC's own newsroom has not published it.",
+      "why_it_matters": "This adds a US supplier for one of the bottlenecks in making AI chips (CoWoS packaging) and extends TSMC's US manufacturing footprint, which can matter for US tariff policy (inference, medium). It is small in money terms. US$2bn over five years is roughly US$0.4bn a year if spread evenly (actual schedule not disclosed), a cost for TSMC rather than revenue, and under 1% of one quarter's revenue (Q3 about US$46.7bn).",
+      "direction": "supports",
+      "sources": [
+        {"name": "GlobalFoundries press release, GF reaches agreement to establish US-based supply of silicon interposers for advanced AI packaging", "date": "2026-10-08", "url": "https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/", "tier": 1},
+        {"name": "The Register, TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal", "date": "2026-10-08", "url": "https://www.theregister.com/systems/2026/10/08/tsmc-taps-globalfoundries-to-bolster-us-silicon-interposer-production-in-2b-deal/5302061", "tier": 3},
+        {"name": "Tom's Hardware, GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US", "date": "2026-10-08", "url": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-to-produce-silicon-interposers-for-tsmcs-cowos-in-the-us-five-year-agreement-valued-at-usd2-billion", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "before open",
+      "type": "home-market trading (Taiwan Stock Exchange)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "On Thursday the Taiex fell 492.93 points (0.99%) to 49,313.44. Taiwan-listed TSMC shares reportedly closed 1.35% lower at NT$2,550 (single tier-3 source; another search snippet gave NT$2,510 +1.21%, which looks like an older article, so treat the figure as unconfirmed). Taiwan's market closes at 13:30, the same moment the revenue report came out, so Taiwan shares had not traded on the September figures yet. The Taiwan Stock Exchange was closed on Friday 10-09 for the National Day holiday (10-10 falls on a Saturday). So Monday 10-12 is the first Taiwan session to react both to the revenue and to Thursday's US chip sell-off. Separately, Taiwan's September exports were a record US$87.22bn.",
+      "why_it_matters": "This explains why there was no Taiwan move to lead the ADR on Friday and why Monday in Taipei is worth watching. The record exports are another sign that AI hardware demand flowing through Taiwan stayed strong in September.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Focus Taiwan (CNA), Taiwan shares close down 0.99%", "date": "2026-10-08", "url": "https://focustaiwan.tw/business/202610080007", "tier": 2},
+        {"name": "Yahoo Finance, TSMC Q3 revenue tops its own guidance and the 19-analyst forecast (Taiwan close NT$2,550, -1.35%)", "date": "2026-10-08", "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-q3-revenue-tops-own-113733291.html", "tier": 3},
+        {"name": "TradingHours.com, TWSE market hours and holidays 2026 (closed Friday 2026-10-09, National Day)", "date": "2026-10-09", "url": "https://www.tradinghours.com/markets/twse", "tier": 3},
+        {"name": "Focus Taiwan (CNA), September exports hit record monthly high, extend growth to 35 months", "date": "2026-10-08", "url": "https://focustaiwan.tw/business/202610080020", "tier": 2}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "before open",
+      "type": "peer results (Samsung Electronics preliminary Q3)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Samsung Electronics guided Q3 2026 operating profit of about KRW 107.4tn (range 107.3-107.5tn) on sales of about KRW 195tn, a record driven by memory chips. Some brokerage estimates had been about KRW 108.1tn, and a tier-3 wrap said it 'fell short of expectations'.",
+      "why_it_matters": "This is not a TSMC demand signal. Samsung's profit is mostly memory, and the shortfall was tiny. It is at most a minor contributor to Thursday's chip mood (inference, medium). Samsung is TSMC's main foundry rival, but nothing here concerns foundry customers.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Samsung Newsroom, Samsung Electronics announces earnings guidance for third quarter 2026", "date": "2026-10-08", "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026", "tier": 1},
+        {"name": "BigGo Finance market wrap", "date": "2026-10-08", "url": "https://finance.biggo.com/news/5d793ce5-4589-4eb3-9393-8e6c175795b7", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "price action, no company news",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "On Friday TSM opened up 1.36% at $464.21, then slid to close at $453.31 (-1.02%; intraday low $449.75). SMH followed the same pattern: it opened up 1.3% at $615.14 and closed -0.65% at $603.33, while SPY rose 0.6%. AMD fell 2.03%. The attribution splits Friday into market +0.69, chips -0.92 and TSMC -0.79 (z -0.58). No TSMC-specific news was found, and no tier-1/2 explanation for the chip sector's intraday fade was found. A search result describing a Friday chip rally (Qualcomm +12%, AMD +5%) does not match our price data (AMD -2.03%) and was discarded as referring to a different day.",
+      "why_it_matters": "Friday was a normal-sized day for TSM, with chips lagging a rising market. The likeliest reading is that Thursday's AI-spending worry carried over (inference, low confidence: no source states it).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Pipeline prices data/prices/TSM.csv, SMH.csv, SPY.csv", "date": "2026-10-09", "url": "not available (local data file)", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "timing": "unknown",
+      "type": "insider filings (30 Form 4s filed 2026-10-08)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "30 TSMC officers, including Chairman and CEO C.C. Wei (Wei Che-Chia) and CFO Wendell Huang (Huang Jen-Chau), each reported a code-P purchase of 7-144 common shares on 2026-10-07: 31 transactions, 1,530 shares in total, about US$121,467. The Form 4 footnotes say these are 'Common Shares purchased by the administrator of the issuer's Employee Stock Purchase Plan (\"ESPP\") on behalf of the filer pursuant to terms predetermined by the issuer.' The US$79.39 price is per Taiwan common share, in US dollars, 'translated from the average purchase price of NT$2,524.2277 ... at the rate of NT$31.795 to US$1'. One ADR = 5 common shares, so that is about US$396.95 per ADR-equivalent.",
+      "why_it_matters": "These are routine automatic purchases under a company plan, not a sign of insiders' personal views. They are tiny: the CEO's 144 shares are about 0.002% of the roughly 8.66 million shares his Form 4 lists across direct and trust holdings. No insider sales were filed. A side lesson: the ADR closed at $472.20 that day, about 19% above 5 x $79.39, which shows US ADRs trading at a premium to the Taiwan shares (calculation).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "SEC Form 4, Wei Che-Chia (Chairman and CEO)", "date": "2026-10-08", "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000715/xslF345X06/wk-form4_1791455546.xml", "tier": 1},
+        {"name": "SEC Form 4, Wu Shien-Yang (SVP)", "date": "2026-10-08", "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000716/xslF345X06/wk-form4_1791455553.xml", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "TSM fell 3.01% on Thursday 10-08 (to $457.99) and 1.02% on Friday 10-09 (to $453.31), -4.00% over the two days. Attribution: Thursday market -0.49, chips -1.79, TSMC -0.73 (z -0.54); two days market +0.20, chips -2.70, TSMC -1.50 (z -0.79). Mostly an industry move, and the company part is normal-sized.", "evidence": "data/metrics/attribution-2026-10-09.json and data/research/2026-10-09/thursday-attribution.json (pipeline data)"},
+    {"rung": 2, "text": "Chip stocks fell as a group on Thursday: Philadelphia Semiconductor Index -3.4%, SMH -2.84%, Nvidia -3%, AMD -4%, Broadcom -4%, Intel -5%. TSM and SMH both gapped down at the open (TSM -1.25%, SMH -1.49%), so TSM moved with the sector.", "evidence": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html ; https://www.bloomberg.com/news/articles/2026-10-08/us-stock-futures-slip-on-mounting-energy-shock-ai-bubble-fears ; open/close from data/prices"},
+    {"rung": 3, "text": "The trigger was a Financial Times report that OpenAI's annualized revenue is about US$50bn, about US$20bn below the figure that had circulated, which 'revived worries that the artificial-intelligence spending spree is becoming harder to justify'. Rising oil (Middle East tension) added to the risk-off mood.", "evidence": "https://www.bloomberg.com/news/articles/2026-10-08/us-stock-futures-slip-on-mounting-energy-shock-ai-bubble-fears ; https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"},
+    {"rung": 4, "text": "TSMC's own September/Q3 number was not the cause. It beat its guidance (about 2% above the top) and the LSEG consensus (about 2.35%), but analysts had already expected a result near the top of the range, so a beat was largely priced in and could not outweigh the sector selling.", "evidence": "inference (medium); https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm ; https://www.tipranks.com/news/tsmc-stock-heres-what-analysts-and-options-traders-expect"},
+    {"rung": 5, "text": "Basic driver: chip stocks are priced on the expectation that AI companies' revenue will eventually justify their huge spending on chips. A lower-than-believed revenue figure at the most prominent AI company lowers confidence in how long that spending lasts. High-valuation stocks such as AI chipmakers fall first, even when today's sales are strong.", "evidence": "inference (medium)"},
+    {"rung": 6, "text": "Friday: chips opened higher, then faded below Thursday's close while the S&P 500 rose 0.6%. No published reason was found. The likeliest explanation is a carry-over of Thursday's AI-spending worry.", "evidence": "inference (low)"}
+  ],
+  "products": [
+    {
+      "name": "CoWoS advanced packaging and silicon interposers (subject of the GlobalFoundries agreement)",
+      "what_it_is": "CoWoS (Chip-on-Wafer-on-Substrate) is TSMC's method of placing a large processor and its stacks of fast memory (HBM, high-bandwidth memory) side by side on a thin slab of silicon called an interposer, which wires them together into one package. GlobalFoundries will make some of those interposers for TSMC in New York.",
+      "analogy": "The interposer is like a tiny motherboard made of silicon: a flat base with extremely fine wiring that lets the processor and its memory talk to each other almost as if they were one chip.",
+      "buyers": "AI and high-performance computing chip designers whose multi-chip accelerators TSMC packages. The GF release names no end customers.",
+      "how_it_works": "Silicon interposers 'sit under the compute logic and memory and provide a higher speed and lower power path for communications between the chips than would be possible using conventional organic packaging' (The Register, 2026-10-08). TSMC makes the processor die, then packages it with HBM on the interposer.",
+      "price": "Not disclosed. The GF agreement is valued at US$2bn over an initial five-year term (GlobalFoundries, 2026-10-08), roughly US$0.4bn a year if spread evenly (calculation; actual schedule not disclosed).",
+      "sales": "Not disclosed. TSMC does not report CoWoS or advanced-packaging revenue separately. Proxy (labelled): TSMC plans to spend 10-20% of its 2026 capex of US$60-64bn on 'high-end IC assembly and testing' (advanced packaging), roughly US$6-12.8bn (calculation from Focus Taiwan, 2026-07-16).",
+      "sales_source": "https://focustaiwan.tw/business/202607160020 (capex split, CFO Wendell Huang); https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/ (deal value)",
+      "stage": "CoWoS: shipping in volume from Taiwan (inference, high). GF Malta interposers: agreement signed 2026-10-08, with volume ramp expected in the first half of 2028.",
+      "size_for_company": "The GF deal is a purchase by TSMC of about US$0.4bn a year on average, under 1% of one quarter's revenue (Q3 about US$46.7bn at NT$32). It matters strategically more than financially.",
+      "competition": "Intel and Samsung offer rival advanced-packaging technologies, and outsourced assembly firms also package chips (general industry knowledge, not sourced in this run).",
+      "why_investors_care": "Advanced-packaging capacity has been a limit on how many AI chips can be shipped. A second, US-based interposer source adds capacity and a US footprint relevant to tariff policy (inference, medium).",
+      "watch_next": "CoWoS capacity and US packaging comments on the Q3 call (10-15). Any TSMC confirmation of the GF agreement."
+    }
+  ],
+  "earnings": {
+    "status": "upcoming",
+    "date": "2026-10-15",
+    "confirmed": true,
+    "consensus": {
+      "revenue_before_september_data": "LSEG SmartEstimate NT$1.46tn (19 analysts) [TrendForce citing Reuters/LSEG, 2026-10-08]; US$45.36bn [TipRanks, 2026-10-06]",
+      "net_profit": "NT$740.8bn, +64% from a year earlier (LSEG) [TrendForce, 2026-10-08]",
+      "eps_per_adr": "US$4.41 [TipRanks, 2026-10-06]. Prior-year Q3 2025 actual: US$2.92 per ADR, NT$17.44 per share [TSMC Q3 2025 release]",
+      "gross_margin": "not available",
+      "options_implied_move": "+/-5.05% (about $24.53) [TipRanks, 2026-10-06]"
+    },
+    "actual": {
+      "revenue_known_from_monthly_reports": "NT$1,494.24bn for Q3 (sum of July-September monthly reports); about US$46.70bn at the NT$32 guidance rate. TSMC's official US$ figure, EPS and margins are not available until 10-15."
+    },
+    "guidance": {
+      "q3_2026": "Revenue US$44.6-45.8bn assuming 1 US$ = 32 NT$; gross margin 65-67%; operating margin 56-58% [TSMC Q2 2026 results, 2026-07-16]",
+      "full_year_2026": "Revenue growth of more than 40% in US-dollar terms (raised from more than 30% in April); capex US$60-64bn (raised from US$52-56bn) [Focus Taiwan, 2026-07-16]"
+    },
+    "key_metrics": {
+      "september_revenue": "NT$511.86bn, -0.6% from August, +54.6% from a year earlier",
+      "q3_revenue_vs_q2": "+17.62% in NT$",
+      "q3_revenue_vs_q3_2025": "about +51% in NT$ (NT$1,494.24bn vs NT$989.92bn); about +41% in US$ at NT$32 (calculation)",
+      "jan_sep_2026": "NT$3,898.73bn, +41.1%",
+      "q2_2026_reference": "Revenue NT$1,270.38bn / US$40.20bn; EPS NT$27.25 / US$4.31 per ADR; GM 67.7%"
+    },
+    "quality_flags": [
+      "Q3 revenue is known only in NT$. TSMC's US$ figure depends on the quarter's average exchange rate (not available until 10-15).",
+      "Focus Taiwan says part of Q3 strength came from smartphone makers building inventory before new product launches, which may not repeat every quarter.",
+      "TipRanks shows Q3 2025 EPS as $2.85 per ADR, but TSMC reported US$2.92, so the consensus EPS basis may differ."
+    ],
+    "management_explanation": "Not available until the 10-15 call. The monthly release gives no commentary.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm",
+      "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm",
+      "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000116/a3q25e_withguidancexfinal.htm",
+      "https://focustaiwan.tw/business/202607160020",
+      "https://www.trendforce.com/news/2026/10/08/news-tsmc-q3-revenue-beats-forecasts-at-record-nt1-49-trillion-net-profit-seen-surging-64/",
+      "https://www.tipranks.com/news/tsmc-stock-heres-what-analysts-and-options-traders-expect"
+    ]
+  },
+  "next_earnings": {
+    "date": "2026-10-15, 14:00-15:30 Taipei (02:00-03:30 New York, 08:00-09:30 Madrid), before the US open",
+    "confirmed": true,
+    "consensus_eps": "US$4.41 per ADR [TipRanks, 2026-10-06, tier 3]. LSEG net-profit consensus NT$740.8bn (+64%) [TrendForce citing LSEG, 2026-10-08, tier 3]. Gross-margin consensus not available.",
+    "consensus_revenue": "Before the September figures: US$45.36bn [TipRanks, 2026-10-06] and LSEG NT$1.46tn [TrendForce, 2026-10-08]. Q3 revenue is now known in NT$ (NT$1,494.24bn, about US$46.70bn at NT$32), so the call's focus shifts to margin and Q4 guidance.",
+    "company_guidance": "Q3: US$44.6-45.8bn at NT$32 per US$, gross margin 65-67%, operating margin 56-58% [TSMC, 2026-07-16]. Full-year 2026: growth above 40% in US$; capex US$60-64bn [Focus Taiwan, 2026-07-16]. Stifel (opinion, 2026-10-09) expects the call to bring Q4 guidance that lifts the full-year outlook.",
+    "sources": [
+      "https://investor.tsmc.com/english/financial-calendar",
+      "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000451/a2q26e_withguidancexfinal.htm",
+      "https://focustaiwan.tw/business/202607160020",
+      "https://www.tipranks.com/news/tsmc-stock-heres-what-analysts-and-options-traders-expect",
+      "https://www.trendforce.com/news/2026/10/08/news-tsmc-q3-revenue-beats-forecasts-at-record-nt1-49-trillion-net-profit-seen-surging-64/",
+      "https://www.investing.com/news/analyst-ratings/stifel-reiterates-buy-on-taiwan-semi-stock-keeps-515-target-93CH-4941160"
+    ]
+  },
+  "analyst_actions": [
+    {"date": "2026-10-09", "firm": "Stifel", "action": "Reiterated Buy, price target $515", "reason": "Q3 revenue 'came in about 2% above the top of the company's guided range and roughly 2.5% ahead of consensus estimates'. Expects the 10-15 call 'to bring fourth-quarter guidance that lifts the full-year outlook'. (Its claim that keeping guidance would imply a Q4 decline of about 4% could not be reconciled with TSMC's 'above 40%' full-year guidance and is not used.)", "url": "https://www.investing.com/news/analyst-ratings/stifel-reiterates-buy-on-taiwan-semi-stock-keeps-515-target-93CH-4941160"},
+    {"date": "2026-10-08", "firm": "Wedbush", "action": "Comment, no rating or target change reported", "reason": "Called Q3 revenue 'a slightly larger-than-typical beat'.", "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-q3-revenue-tops-own-113733291.html"},
+    {"date": "not available (mentioned 2026-10-09)", "firm": "Bernstein", "action": "Outperform maintained, target $554", "reason": "not available", "url": "https://www.investing.com/news/analyst-ratings/stifel-reiterates-buy-on-taiwan-semi-stock-keeps-515-target-93CH-4941160"},
+    {"date": "not available (mentioned 2026-10-09)", "firm": "Piper Sandler", "action": "Commentary", "reason": "Leading-edge capacity sold out through the first half of 2028 on AI demand; capex expected to grow 15% a year through 2029.", "url": "https://www.investing.com/news/analyst-ratings/stifel-reiterates-buy-on-taiwan-semi-stock-keeps-515-target-93CH-4941160"},
+    {"date": "2026-10-07", "firm": "Citi", "action": "Buy, Taiwan-share target raised to NT$4,000 from NT$3,800 (rehash, already in news log)", "reason": "Expects Q3 beat and AI revenue to nearly double next year.", "url": "https://www.gurufocus.com/news/9113745/tsmc-stocks-drop-2-despite-citis-nt4000-target"},
+    {"date": "2026-10-06", "firm": "Weiss Ratings (quantitative rating service, not a brokerage)", "action": "Downgraded Buy (B-) to Hold (C+); before the window, single tier-3 source", "reason": "not available", "url": "https://www.marketbeat.com/stocks/NYSE/TSM/forecast/"}
+  ],
+  "insiders": {
+    "summary": "30 Form 4s filed 2026-10-08, all ESPP purchases on 2026-10-07 (code P, made by the plan administrator 'pursuant to terms predetermined by the issuer'): 31 transactions, 1,530 common shares in total, about US$121,467, at US$79.39 per Taiwan common share (NT$2,524.2277 converted at NT$31.795 per US$; 1 ADR = 5 shares, so about US$396.95 per ADR-equivalent). No insider sales and no Form 144 in the window. Routine, low information.",
+    "notable": [
+      "Chairman and CEO C.C. Wei (Wei Che-Chia): 144 shares (US$11,432) through the ESPP. His Form 4 lists 7,656,724 direct, 18,280 ESPP-trust, 285,245 LTI-trust and 700,261 spouse-held shares. https://www.sec.gov/Archives/edgar/data/1046179/000104617926000715/xslF345X06/wk-form4_1791455546.xml",
+      "CFO Wendell Huang (Huang Jen-Chau): 28 shares (US$2,223) through the ESPP.",
+      "The ADR closed at $472.20 on 10-07, about 19% above 5 x $79.39 (calculation): US ADRs trade at a premium to the Taiwan shares."
+    ]
+  },
+  "filings": [
+    {"form": "6-K", "items": "Monthly revenue report (September 2026)", "plain_english": "TSMC's official September sales: NT$511.86bn, -0.6% from August, +54.6% from a year earlier; January-September NT$3,898.73bn, +41.1%. With July and August, Q3 totals NT$1,494.24bn, above the top of guidance at NT$32.", "materiality": "high", "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm"},
+    {"form": "4 (x30)", "items": "Code P purchases via the Employee Stock Purchase Plan, 2026-10-07", "plain_english": "Automatic plan purchases of a few dozen shares each by 30 officers, including the CEO and CFO. These are not personal market bets.", "materiality": "low", "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000715/xslF345X06/wk-form4_1791455546.xml"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-12", "event": "Taiwan Stock Exchange reopens after the National Day holiday: the first Taiwan session to price the September revenue and Thursday's US chip sell-off", "confirmed": false, "url": "https://www.tradinghours.com/markets/twse"},
+    {"date": "2026-10-15", "event": "Q3 2026 results and earnings call, 14:00-15:30 Taipei (02:00 New York, 08:00 Madrid): gross margin vs 65-67%, Q4 guidance, full-year growth (above 40%) and capex (US$60-64bn) updates", "confirmed": true, "url": "https://investor.tsmc.com/english/financial-calendar"},
+    {"date": "2026-11-10", "event": "October 2026 revenue", "confirmed": true, "url": "https://investor.tsmc.com/english/financial-calendar"},
+    {"date": "2026-12-10", "event": "November 2026 revenue", "confirmed": true, "url": "https://investor.tsmc.com/english/financial-calendar"},
+    {"date": "2027-01-08", "event": "December 2026 revenue", "confirmed": true, "url": "https://investor.tsmc.com/english/financial-calendar"},
+    {"date": "2028 H1", "event": "GlobalFoundries Malta silicon-interposer volume ramp for TSMC CoWoS (company expectation)", "confirmed": false, "url": "https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "Guidance cut", "found": false, "evidence": "No guidance update in the window. Q3 revenue (NT$1,494.24bn) came in above the top of the US$44.6-45.8bn range at the guided NT$32 rate. https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm"},
+    {"event": "Results miss", "found": false, "evidence": "Q3 revenue beat both guidance and the LSEG consensus (NT$1.46tn). Full results, including margins, come out on 10-15."},
+    {"event": "Major customer lost or cut orders", "found": false, "evidence": "No report of a TSMC customer cutting or moving orders. The OpenAI revenue report raises a demand question one step removed (OpenAI buys chips designed by TSMC's customers), but it is not an order cut."},
+    {"event": "8-K Item 4.02 / 4.01 equivalents (restatement, auditor change)", "found": false, "evidence": "The only non-insider filing in the window is the revenue 6-K (data/filings/2026-10-09.json)."},
+    {"event": "CEO or CFO left", "found": false, "evidence": "C.C. Wei (Chairman and CEO) and Wendell Huang (SVP and CFO) both filed Form 4s as current officers on 2026-10-08."},
+    {"event": "Large dilutive share sale", "found": false, "evidence": "No share-issuance filing or announcement found."},
+    {"event": "Regulator investigation or major litigation", "found": false, "evidence": "A disconfirming search (downgrade / price target cut / lawsuit / investigation, October 2026) returned none."},
+    {"event": "Two or more analyst downgrades in five trading days", "found": false, "evidence": "No brokerage downgrades found: Stifel, Bernstein and Citi kept or raised ratings. Two borderline items: Weiss Ratings, a quantitative rating service, went from Buy (B-) to Hold (C+) on 2026-10-06 (tier 3, before the window), and a Seeking Alpha contributor article titled 'Rating Downgrade' could not be opened or dated. Neither is a brokerage analyst downgrade."},
+    {"event": "Insiders selling outside plans", "found": false, "evidence": "All 30 Form 4s are ESPP purchases; no sales."},
+    {"event": "TSM trigger 1: monthly sales below a year earlier (three months in a row)", "found": false, "evidence": "September +54.6% from a year earlier. Early warning (two months of falling sales) not hit: September -0.6% from August is the first month-on-month dip, while August had risen from July."},
+    {"event": "TSM trigger 2/4: major customer moves advanced chips to a rival / rival wins a leading-edge customer", "found": false, "evidence": "No tier-1/2 report in the window. An undated tier-3 claim that Samsung's 2nm order book doubled is unverified."},
+    {"event": "TSM trigger 3: gross margin below guidance (65%)", "found": false, "evidence": "Not testable until 10-15."},
+    {"event": "TSM trigger 5: Taiwan conflict, blockade or sanctions disrupting operations", "found": false, "evidence": "No such news. The Taiwan market's only closure was the scheduled National Day holiday."},
+    {"event": "TSM trigger 6: US chip tariffs cut sales or margin", "found": false, "evidence": "No new tariff action found in the window (two searches). Background, not new: secondary sources say a 25% Section 232 tariff on a narrow set of advanced computing chips took effect on 2026-01-15, with exemptions, and that a January 2026 US-Taiwan agreement gives Taiwanese chipmakers that build US capacity tariff-free quotas (KPMG/White & Case/Digitimes, tier 3; the commerce.gov fact sheet returned 403). Broader chip tariffs covering laptops and servers were reported as 'preliminary and fluid' on 2026-08-27 (Quartz via Yahoo, citing CNBC/Politico). https://www.commerce.gov/news/fact-sheets/2026/01/fact-sheet-restoring-american-semiconductor-manufacturing-leadership ; https://finance.yahoo.com/economy/policy/articles/trump-considering-broader-semiconductor-tariffs-132500414.html"}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "OpenAI's annualized revenue is about US$50bn, about US$20bn below the figure that circulated, reviving doubts that AI spending can be justified.", "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html", "assessment": "The strongest bear point this week. It hits the end of the chain that pays for TSMC's AI wafers. TSMC's own data (September +54.6%) shows no slowdown yet, and the gap was reportedly an accounting-method difference, not falling demand. Still, worth watching in TSMC's Q4 guidance and customers' spending plans."},
+    {"claim": "Expectations are high going into 10-15: consensus sat near the top of guidance, options imply about a 5% move, and the stock trades at about 30 times trailing earnings (10-07, tier 3).", "url": "https://www.tipranks.com/news/tsmc-stock-heres-what-analysts-and-options-traders-expect", "assessment": "A beat was already expected, which helps explain why the revenue beat did not lift the stock. The reaction on 10-15 will likely hinge on margins and Q4 guidance rather than revenue."},
+    {"claim": "Ramping 2nm is expected to dilute gross margin by 2-3 points over the year, possibly 3-4 points at times.", "url": "https://www.nasdaq.com/articles/tsmcs-2nm-node-will-it-power-next-growth-cycle-or-pressure-margins", "assessment": "Tier 3 and already reflected in the lower 65-67% Q3 margin guidance. It is the main risk to thesis trigger 3 at the 10-15 results."},
+    {"claim": "Weiss Ratings cut TSM to Hold (C+) on 10-06, and a Seeking Alpha contributor argued 'Sell the perfect quarter'.", "url": "https://seekingalpha.com/article/4862330-tsmc-sell-the-perfect-quarter-a-contrarian-view-rating-downgrade", "assessment": "These are opinions from a quantitative rating service and an individual contributor, not brokerage research. Low weight. The Seeking Alpha article's date could not be verified (page returned 403)."},
+    {"claim": "September revenue fell 0.6% from August.", "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm", "assessment": "Minor. Monthly revenue is lumpy, and September was still the second-highest month on record and the highest September. The thesis early warning needs two consecutive monthly declines."}
+  ],
+  "open_questions": [
+    "TSMC's official Q3 revenue in US$ (at the quarter's actual average NT$/US$ rate), EPS and gross margin: not available until 10-15.",
+    "Taiwan-listed TSMC close on 10-08: NT$2,550 (-1.35%) per a single tier-3 source (Yahoo Finance, which also misdated the ADR move). Another snippet gave NT$2,510 (+1.21%), likely from an older article. Unconfirmed.",
+    "The thesis file says US chip tariffs are 'a pending decision'. Secondary sources say a narrow 25% Section 232 chip tariff has applied since 2026-01-15, with a US-Taiwan exemption framework from January 2026; the commerce.gov fact sheet could not be opened. The main session may want to verify this and refresh the trigger-6 status facts (not the trigger itself).",
+    "Stifel's statement that keeping guidance would imply a Q4 decline of about 4% could not be reconciled with TSMC's 'above 40%' full-year growth guidance. Not used.",
+    "Q3 gross-margin consensus: not available.",
+    "No tier-1/2 explanation was found for chips fading on Friday 10-09 after a higher open.",
+    "The ESPP average price (NT$2,524.23) is below the Taiwan closes reported around 10-06/10-07. The ESPP purchase timing is not disclosed.",
+    "Unverified tier-3 crypto-news item (2026-10-10) that ASML will raise prices 10% for Samsung and SK Hynix and that TSMC 'previously resisted similar adjustments'. Not used."
+  ],
+  "searches_run": 17
+}

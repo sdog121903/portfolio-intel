@@ -14,7 +14,7 @@ CrowdStrike's Falcon software guards a company's laptops, servers, cloud systems
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ CrowdStrike's Falcon software guards a company's laptops, servers, cloud systems
 - Operating margin (share left after all running costs): rising (-5.6% to -2.3%, +3.4 points).
 - Profit: positive net income in 3 of the last 4 quarters.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +24.6% | +38.9% | +148.9% | +119.1% | +70.3% | -37.2% | 4.3% |
+| +32.4% | +46.9% | +190.3% | +116.1% | +74.8% | -37.2% | 4.2% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -165,7 +165,10 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* Quarterly results.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-04 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- BMO raised its target to $295 from $235 and kept Outperform on 2026-10-08, citing management's view that enterprise security budgets rise in 2027 [Investing.com, 2026-10-08](https://www.investing.com/news/analyst-ratings/bmo-raises-crowdstrike-stock-price-target-to-295-on-growth-outlook-93CH-4938967)
+- CEO George Kurtz sold 20,000 shares (about $5.49m) on 10-06 and 10-07 under a 10b5-1 plan adopted 2026-01-06 [SEC Form 4, 2026-10-08](https://www.sec.gov/Archives/edgar/data/1535527/000177856426000179/xslF345X06/form4-10082026_081001.xml)
+- Stock +4.57% on 10-09 with cybersecurity (industry part +5.31, company part −1.50); five-day company part −6.59 points (z-score −1.91) (attribution)
 - Q2 FY2027: ARR $5.84bn (+25%); revenue $1.47bn (+26%); record net new ARR $332.8m (+51%); free cash flow $377.4m; GAAP net income $5.3m [CrowdStrike Q2 FY2027 results, 2026-08-26](https://finance.yahoo.com/markets/stocks/articles/crowdstrike-reports-second-quarter-fiscal-200500872.html)
 - Full-year revenue forecast raised to $5,991-6,011m; Q3 guidance $1,523.2-1,529.2m, adjusted EPS $0.31 (same release)
 - Falcon Flex accounts: over $2.29bn of ARR, +101% (same release)
@@ -177,3 +180,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - Created with the repository.
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (BMO target, CEO plan sales, relative weakness against its industry). No trigger status changed. No change to the reasons, pillars or triggers.

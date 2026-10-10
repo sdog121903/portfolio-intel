@@ -27,7 +27,7 @@
         "beyond_market_pct": -0.08,
         "typical_day_pct": 1.6,
         "z": -0.05,
-        "next_5_days_pct": null
+        "next_5_days_pct": 1.8
       }
     },
     {
@@ -203,6 +203,35 @@
         "z": 0.9,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "a-2026-10-09-healthcare-days",
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "−0.54% (after −3.4% intraday) on 10-08 and +1.41% on 10-09, both with health-care stocks; no company news; barely moved with the AI sell-off.",
+      "source": {
+        "name": "Yahoo Finance",
+        "date": "2026-10-09",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/A?range=5d&interval=1d",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": 1.41,
+        "market_pct": 0.6,
+        "beyond_market_pct": 0.81,
+        "typical_day_pct": 1.58,
+        "z": 0.51,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -227,27 +256,33 @@
       "company_part_pct": -0.84,
       "z": -0.48,
       "main_news": "Barclays raised its target to $195 from $175 (Overweight); the stock barely reacted."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 170.54,
+      "day_pct": 1.41,
+      "market_part_pct": 0.86,
+      "industry_part_pct": 0.81,
+      "company_part_pct": -0.26,
+      "z": -0.15,
+      "main_news": "−0.54% (after −3.4% intraday) on 10-08 and +1.41% on 10-09, both with health-care stocks; no company news; barely moved with the AI sell-off."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
         "date": "2026-10-21",
-        "event": "Thermo Fisher Q3 results (peer)",
-        "confirmed": false,
+        "event": "Thermo Fisher Q3 results (peer read-across)",
+        "confirmed": true,
         "source": {}
       },
       {
         "date": "2026-10-28",
         "event": "Dividend paid (25.5 cents)",
         "confirmed": true,
-        "source": {
-          "name": "Agilent via Business Wire",
-          "date": "2026-09-16",
-          "url": "https://www.businesswire.com/news/home/20260916777704/en/CORRECTING-and-REPLACING-Agilent-Announces-Cash-Dividend-of-25.5-Cents-per-Share",
-          "tier": 1
-        }
+        "source": {}
       },
       {
         "date": "2026-11-30",

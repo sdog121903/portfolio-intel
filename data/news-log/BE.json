@@ -27,7 +27,7 @@
         "beyond_market_pct": 3.43,
         "typical_day_pct": 5.63,
         "z": 0.61,
-        "next_5_days_pct": null
+        "next_5_days_pct": -2.99
       }
     },
     {
@@ -56,7 +56,7 @@
         "beyond_market_pct": 3.43,
         "typical_day_pct": 5.63,
         "z": 0.61,
-        "next_5_days_pct": null
+        "next_5_days_pct": -2.99
       }
     },
     {
@@ -203,6 +203,64 @@
         "z": -0.23,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "be-2026-10-08-oracle-trucked-gas",
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "customer news",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Bloomberg: Oracle trucks compressed natural gas to some data centers while waiting for pipelines, is weighing it for Project Jupiter, and praised rival VoltaGrid for other sites. Bloom −6.34%, mostly with power-for-AI stocks (Vistra −6.35%, Oklo −6.11%).",
+      "source": {
+        "name": "Investing.com",
+        "date": "2026-10-08",
+        "url": "https://www.investing.com/news/stock-market-news/bloom-energy-shares-fall-on-report-of-oracle-using-natural-gas-for-data-centers-4939543",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -6.34,
+        "market_pct": -0.42,
+        "beyond_market_pct": -5.92,
+        "typical_day_pct": 5.57,
+        "z": -1.06,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "be-2026-10-08-oracle-debt",
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "customer news",
+      "materiality": "low",
+      "direction": "bad",
+      "what": "Oracle's long-term debt has nearly doubled to more than $160bn and it is seeking chip financing: a question about Bloom's biggest customer's capacity to keep paying.",
+      "source": {
+        "name": "Yahoo Finance",
+        "date": "2026-10-08",
+        "url": "https://finance.yahoo.com/technology/article/oracle-stock-falls-on-more-debt-to-fund-ai-chip-buying-openai-revenue-disclosure-181653494.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -6.34,
+        "market_pct": -0.42,
+        "beyond_market_pct": -5.92,
+        "typical_day_pct": 5.57,
+        "z": -1.06,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -227,14 +285,31 @@
       "company_part_pct": 2.4,
       "z": 0.55,
       "main_news": "Bernstein kept Market Perform ($282 target), seeing a 10-20 GW behind-the-meter market by 2030 and utilities as a second group of buyers."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 280.5,
+      "day_pct": 2.82,
+      "market_part_pct": 1.34,
+      "industry_part_pct": 1.06,
+      "company_part_pct": 0.41,
+      "z": 0.09,
+      "main_news": null
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
         "date": "2026-10-27",
-        "event": "Q3 2026 results (estimated 10-26 to 10-29)",
+        "event": "Q3 2026 results (estimated)",
+        "confirmed": false,
+        "source": {}
+      },
+      {
+        "date": "2027-02-01",
+        "event": "Jupiter gas pipeline target",
         "confirmed": false,
         "source": {}
       }

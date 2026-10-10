@@ -1,0 +1,221 @@
+{
+  "ticker": "QQQM",
+  "company": "Invesco NASDAQ 100 ETF (index fund copying the Nasdaq-100; comparison fund QQQ)",
+  "window": {"from": "2026-10-07 16:00 ET (after Wednesday close)", "to": "2026-10-09 after the US close (Friday)"},
+  "newest_item_checked": "Yahoo Finance live blog, Friday 2026-10-09 closing update; US Treasury daily par yield curve row for 10/09/2026; StockAnalysis QQQM holdings dated 2026-10-08",
+  "events": [
+    {
+      "date": "2026-10-09",
+      "timing": "before open",
+      "type": "index change (constituent added/removed)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Moderna (MRNA) replaced Warner Bros. Discovery (WBD) in the Nasdaq-100 before the open on Friday 2026-10-09, as Nasdaq announced on 2026-10-01. WBD left because it is being acquired by Paramount (Skydance); Reuters said on 10-01 the deal was expected to close on 2026-10-06 'following an extended delay'. Reuters put Moderna's value at about $75 billion after shares rose more than sixfold this year. Nasdaq says more than 200 products with more than $800 billion of assets track the index. The announcement is already in the news log's calendar. What is new here: the switch was due to take effect in this window, and the company it replaced was WBD. Moderna's weight in the index or in QQQM after it joined: not available. No published figure was found, and the latest holdings list (StockAnalysis, dated 2026-10-08) was published before the switch. Indirect sign that index funds bought: MRNA volume on Thursday 10-08 was 37,400,000 shares against 14,640,200 on Wednesday (data/prices/MRNA.csv). That fits index funds buying at Thursday's close (inference, medium). No source found confirms after the fact that the switch took effect. No source found reports a delay either.",
+      "why_it_matters": "QQQM now holds a small slice of Moderna, which Santi also owns directly, so his Moderna exposure rises slightly. For QQQM's daily moves the effect is tiny, because a roughly $75 billion company is a small weight in an index led by NVIDIA (8.33%) and Apple (7.45%).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Nasdaq press release (Moderna, Inc. to Join the Nasdaq-100 Index Beginning October 9, 2026)", "date": "2026-10-01", "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026", "tier": 1},
+        {"name": "Same Nasdaq release on GlobeNewswire (page returned 403; title and summary seen in search results only)", "date": "2026-10-01", "url": "https://www.globenewswire.com/news-release/2026/10/02/3373491/6948/en/index.html", "tier": 1},
+        {"name": "Reuters (Fabiola Aramburo), via Zawya: Moderna to replace Warner Bros Discovery on Nasdaq 100", "date": "2026-10-01", "url": "https://www.zawya.com/en/capital-markets/moderna-to-replace-warner-bros-discovery-on-nasdaq-100-1486543", "tier": 2}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "market/industry move (AI demand scare; chip sell-off)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Thursday 10-08: the Financial Times reported that OpenAI told investors its annualized revenue was 'approaching $50 billion at the end of September, rather than the $70 billion previously reported'. Benzinga/Yahoo said the gap came from different calculation methods, not lost sales, and that OpenAI declined to comment to the FT. Chip stocks sold off. The Philadelphia Semiconductor Index fell as much as 4%. Arm, Intel and Marvell fell more than 6% and Micron more than 5% (Yahoo Finance live blog). Oracle fell more than 5% (Benzinga/Yahoo). Closes: Nasdaq Composite -1.25% to 27,193.34, S&P 500 -0.47% to 7,765.36, Dow +0.1% (+51.77) to 51,231.64 (Yahoo Finance/Motley Fool). From our price files: QQQM -1.31%, QQQ -1.34%, SPY -0.42%, chip fund SMH -2.84%, AMD -3.90%, TSM -3.01%. CNBC's headline that day: 'Nasdaq falls 1% as AI trade stumbles following OpenAI revenue setback' (page blocked, headline only). Attribution for QQQM: market -0.42 points, Nasdaq-100's extra move -0.91, the fund itself +0.02 (data/research/2026-10-09/thursday-attribution.json).",
+      "why_it_matters": "This explains all of QQQM's -1.31%. It was not fund news. The index fell about three times as much as the S&P 500 because its biggest weights are AI chipmakers (NVIDIA 8.33%, Micron 4.84%, AMD 4.19%, Broadcom 2.57%, Intel 2.33%). It shows that QQQM carries the same AI-spending risk as Santi's single stocks, in milder form.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Yahoo Finance live blog (Ines Ferre et al.): S&P 500, Nasdaq fall for second day in a row as AI trade takes a hit", "date": "2026-10-08", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html", "tier": 3},
+        {"name": "Benzinga via Yahoo Finance (Daragh Thomas): OpenAI Revenue $20B Below Previous Reports, ORCL, NVDA Tumble (cites the Financial Times)", "date": "2026-10-08", "url": "https://finance.yahoo.com/technology/ai/articles/openai-revenue-20b-below-previous-181839907.html", "tier": 3},
+        {"name": "CNBC markets live blog: 'Nasdaq falls 1% as AI trade stumbles following OpenAI revenue setback' (HTTP 403; headline from search results only, body not read)", "date": "2026-10-08", "url": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html", "tier": 2},
+        {"name": "Motley Fool market wrap, Oct. 8 (index closes only; its yield figures conflict with Treasury data, see disconfirming_evidence)", "date": "2026-10-08", "url": "https://www.fool.com/coverage/stock-market-today/2026/10/08/stock-market-today-oct-8-tech-stocks-slide-as-treasury-yields-and-oil-prices-surge/", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "before open",
+      "type": "macro data (weekly jobless claims)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "US Labor Department, 8:30 a.m. ET Thursday 10-08: seasonally adjusted initial jobless claims were 197,000 for the week ending October 3, down 2,000 from the previous week's revised 199,000. The 4-week average was 198,000. Yahoo Finance described it as a sign that 'layoffs remain low'.",
+      "why_it_matters": "It rules out a weak economy as Thursday's cause. Layoffs stayed low, so the sell-off was about AI, not jobs (inference, high).",
+      "direction": "neutral",
+      "sources": [
+        {"name": "US Department of Labor, Unemployment Insurance Weekly Claims news release", "date": "2026-10-08", "url": "https://www.dol.gov/ui/data.pdf", "tier": 1},
+        {"name": "Yahoo Finance live blog", "date": "2026-10-08", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "macro (interest rates)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Official US Treasury 10-year yield: 5.28% on Wednesday 10-07, 5.22% on Thursday 10-08 (down 6 basis points), 5.24% on Friday 10-09 (up 2). 30-year: 5.67%, then 5.60%, then 5.60%. 2-year: 4.77%, then 4.75%, then 4.80%. Yahoo Finance quoted the 10-year at 5.23% on Thursday and 5.24% on Friday, which agrees.",
+      "why_it_matters": "On Thursday, rates fell while tech fell. So unlike Wednesday, rising rates were not the cause; the AI news was (inference, high). On Friday, rates edged up slightly and stocks still rose.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "US Treasury, Daily Treasury Par Yield Curve Rates (October 2026; CSV download parsed)", "date": "2026-10-09", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610", "tier": 1}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "macro (oil, geopolitics)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "Thursday: Brent crude about $104 a barrel and WTI about $91. Oil gave back part of its gains after President Trump said the US 'will not be attacking Iran at any time prior to the Midterm Elections' (Yahoo Finance live blog). Friday: oil 'eased', with Brent about $104 after Trump announced that Russia would release diesel supplies (Yahoo Finance). The exact oil prices and changes were not checked against a tier-1 or tier-2 source.",
+      "why_it_matters": "High oil feeds inflation and keeps interest rates high, which weighs on growth stocks. Friday's easing in oil was one of the reasons reporters gave for that day's rise.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Yahoo Finance live blog, Thursday", "date": "2026-10-08", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html", "tier": 3},
+        {"name": "Yahoo Finance live blog, Friday", "date": "2026-10-09", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "market move (rebound)",
+      "materiality": "medium",
+      "new_or_rehash": "new",
+      "summary": "Friday 10-09: 'US stocks rose on Friday as oil prices eased and tech stocks rebounded' (Yahoo Finance; O'Donnell, Hollerith, Ferre). Yahoo also cited a Bloomberg report that 'OpenAI expects to reach or exceed $70 billion in annualized revenue by the end of the year'. Bloomberg's own story was not opened. Closes: S&P 500 +0.59% (+46.18) to 7,811.54; Nasdaq Composite +0.64% (+172.83) to 27,366.17; Dow +0.83% (+423.31) to 51,654.95. All three posted weekly gains. From our price files: QQQM +0.50%, QQQ +0.49%, SPY +0.60%. Chips did NOT lead: SMH -0.65%, AMD -2.03%, TSM -1.02%. Which Nasdaq-100 stocks drove Friday's gain: not available. Attribution for QQQM: market +0.60, Nasdaq-100 extra -0.10, the fund itself +0.01 (data/metrics/attribution-2026-10-09.json). Over the two days QQQM was -0.82% and QQQ -0.85%.",
+      "why_it_matters": "QQQM simply followed the broad market up. The Nasdaq-100 lagged the S&P 500 slightly because chipmakers kept falling.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "Yahoo Finance live blog: Dow, S&P 500, Nasdaq rally to cap volatile week as earnings season nears", "date": "2026-10-09", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html", "tier": 3},
+        {"name": "Yahoo Finance: Stock Market Today (Oct. 9, 2026): S&P 500 rises as tech rebounds (headline from search results)", "date": "2026-10-09", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-9-135834993.html", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "macro data (consumer sentiment)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "University of Michigan, preliminary October reading released 10:00 a.m. ET Friday 10-09: consumer sentiment 46.3, down from 48.1 in September. Current conditions 44.7; expectations 47.3. Year-ahead inflation expectations 4.7%; long-run 3.5%. Director Joanne Hsu: 'Frustration over cost-of-living continues to mount, as consumers across the political spectrum believe that the trajectory of the economy has weakened since the beginning of the year.' Benzinga called it the second-lowest reading ever and the current-conditions index a record low (tier 3, not verified). Bloomberg headline: 'US Consumer Sentiment Falls to Five-Month Low in October'.",
+      "why_it_matters": "Gloomy consumers and 4.7% expected inflation are a background risk for rates and spending. Stocks rose anyway on Friday.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "University of Michigan Surveys of Consumers", "date": "2026-10-09", "url": "https://www.sca.isr.umich.edu/", "tier": 1},
+        {"name": "Bloomberg (headline from search results; body not read)", "date": "2026-10-09", "url": "https://www.bloomberg.com/news/articles/2026-10-09/us-consumer-sentiment-falls-to-five-month-low-in-october", "tier": 2}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "timing": "unknown",
+      "type": "fund holdings update",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "QQQM holdings as of 2026-10-08 (StockAnalysis, data from Finnhub; 105 lines; top 10 = 46.82%): NVIDIA 8.33%, Apple 7.45%, Microsoft 5.82%, Micron 4.84%, AMD 4.19%, Amazon 4.11%, Meta 3.21%, Alphabet A 3.06%, Tesla 2.95%, Alphabet C 2.86% (Alphabet combined 5.92%), SpaceX (SPCX) 2.85%, Broadcom 2.57%, Intel 2.33%, Walmart 2.23%, Palantir 1.89%, Cisco 1.87%, Costco 1.74%, Applied Materials 1.67%, Lam Research 1.66%, Palo Alto Networks 1.34%, Netflix 1.23%, CrowdStrike 1.11%, Texas Instruments 1.09%, KLA 1.06%, Marvell 1.00%. Santi's single stocks inside it: AMD 4.19% (10-05: 4.27%), Palo Alto 1.34% (1.36%), CrowdStrike 1.11% (1.14%). ASML and Moderna weights are not in the visible top 25. Technology share 67.22% as of 2026-10-06 (P&I ETF data), unchanged from the last report.",
+      "why_it_matters": "These are the companies that move QQQM. About 47% sits in ten names, and its chip names (NVIDIA, Micron, AMD, Broadcom, Intel, Applied Materials, Lam, KLA, Marvell, TI) are about 28.7% of the fund (our sum of the visible top 25: 28.74%). That is why an AI chip scare hits it.",
+      "direction": "neutral",
+      "sources": [
+        {"name": "StockAnalysis, QQQM holdings (as of 2026-10-08)", "date": "2026-10-08", "url": "https://stockanalysis.com/etf/qqqm/holdings/", "tier": 3},
+        {"name": "Pensions & Investments ETF data, QQQM (as of 2026-10-06)", "date": "2026-10-06", "url": "https://etf.pionline.com/fund/QQQM", "tier": 3}
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "timing": "unknown",
+      "type": "fund data (fee, assets, flows)",
+      "materiality": "low",
+      "new_or_rehash": "new",
+      "summary": "No fund-specific news found in the window: no fee change, no announcement. P&I ETF data as of 2026-10-06: expense ratio 0.15%; assets $113,626.94 million (about $113.6 billion); 1-month net inflows $2,625 million; tracking difference -0.20% (period not stated); 101 holdings; technology 67.22%. Invesco's QQQ page lists QQQ's expense ratio as 0.18% (as of 2026-06-30), so QQQM remains the cheaper of the two.",
+      "why_it_matters": "This is the fee and size check behind draft pillar 1. The fee is unchanged, and money is still flowing in, not out.",
+      "direction": "supports",
+      "sources": [
+        {"name": "Pensions & Investments ETF data, QQQM", "date": "2026-10-06", "url": "https://etf.pionline.com/fund/QQQM", "tier": 3},
+        {"name": "Invesco QQQ ETF site (QQQ expense ratio 0.18% as of 2026-06-30; the page had no QQQM data)", "date": "2026-06-30", "url": "https://www.invesco.com/qqq-etf/en/home.html", "tier": 1}
+      ]
+    }
+  ],
+  "why_chain": [
+    {"rung": 1, "text": "QQQM fell 1.31% on Thursday 10-08. QQQ fell 1.34% and the S&P 500 fund 0.42%. Split: market -0.42 points, the Nasdaq-100's extra move -0.91, the fund itself +0.02. So the cause was what the index holds, not the fund.", "evidence": "data/research/2026-10-09/thursday-attribution.json; data/prices/QQQM.csv, QQQ.csv, SPY.csv"},
+    {"rung": 2, "text": "The Nasdaq-100 fell about three times as much as the S&P 500 because chip stocks sold off. The Philadelphia Semiconductor Index fell as much as 4%; Arm, Intel and Marvell fell more than 6% and Micron more than 5%. From our price files: SMH -2.84%, AMD -3.90%, TSM -3.01%.", "evidence": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html (tier 3) + data/prices/SMH.csv, AMD.csv, TSM.csv"},
+    {"rung": 3, "text": "The trigger: the Financial Times reported that OpenAI told investors its annualized revenue was 'approaching $50 billion at the end of September, rather than the $70 billion previously reported'.", "evidence": "https://finance.yahoo.com/technology/ai/articles/openai-revenue-20b-below-previous-181839907.html (tier 3, citing the FT); CNBC headline https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html (tier 2, headline only)"},
+    {"rung": 4, "text": "Why that hits chipmakers: OpenAI is one of the biggest buyers of AI computing, mostly through cloud partners such as Microsoft and Oracle (Oracle fell more than 5%). If its revenue is lower, it may be harder for OpenAI to pay for the data centers it has promised to use. That would mean fewer chips ordered from NVIDIA, Micron, AMD and others, so investors lowered what they will pay for those companies' future profits.", "evidence": "inference (medium); Oracle move from https://finance.yahoo.com/technology/ai/articles/openai-revenue-20b-below-previous-181839907.html"},
+    {"rung": 5, "text": "It was not rates or the economy. The 10-year Treasury yield FELL from 5.28% to 5.22% (official Treasury data). Jobless claims were a low 197,000. On Wednesday rates were a candidate cause; on Thursday they were not.", "evidence": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610 (tier 1); https://www.dol.gov/ui/data.pdf (tier 1); conclusion is inference (high)"},
+    {"rung": 6, "text": "Friday 10-09: QQQM +0.50%, QQQ +0.49%, S&P 500 fund +0.60%. Split: market +0.60, Nasdaq-100 extra -0.10, fund +0.01. Reporters credited easing oil and a tech rebound after a Bloomberg report that OpenAI expects to reach or exceed $70 billion in annualized revenue by year-end.", "evidence": "data/metrics/attribution-2026-10-09.json; https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html (tier 3; the Bloomberg story itself was not opened)"},
+    {"rung": 7, "text": "Chipmakers did not rebound on Friday: SMH -0.65%, AMD -2.03%, TSM -1.02%. So Friday's gain came from other parts of the index. Which mega-caps drove it was not found. The doubt about AI spending from Thursday was not fully reversed.", "evidence": "data/prices/SMH.csv, AMD.csv, TSM.csv; interpretation is inference (low)"}
+  ],
+  "products": [
+    {
+      "name": "QQQM (Invesco NASDAQ 100 ETF)",
+      "what_it_is": "An exchange-traded fund that buys the roughly 100 largest non-financial companies on the Nasdaq exchange, in the same proportions as the Nasdaq-100 index.",
+      "analogy": "A ready-made basket at the market: one price buys a small piece of about 100 big companies, weighted by size.",
+      "buyers": "Individual and professional investors who want broad exposure to large US growth and technology companies in one trade.",
+      "how_it_works": "Invesco holds the shares directly (physical replication) and adjusts them when Nasdaq changes the index. Example: buying Moderna and selling Warner Bros. Discovery for the 10-09 switch. Invesco earns 0.15% a year of assets.",
+      "price": "0.15% a year fee (P&I ETF data, as of 2026-10-06); QQQ, which tracks the same index, costs 0.18% (Invesco, as of 2026-06-30). Share price $309.39 at Friday's close (data/prices).",
+      "sales": "Assets $113,626.94 million; 1-month net inflows $2,625 million (both as of 2026-10-06).",
+      "sales_source": "Pensions & Investments ETF data, https://etf.pionline.com/fund/QQQM (tier 3; not checked against Invesco's own page)",
+      "stage": "Established, growing (net inflows over the past month).",
+      "size_for_company": "not applicable (a fund, not a company); for Invesco the fee on $113.6 billion is about $170 million a year (our arithmetic: 0.15% x $113.6 billion; inference, not an Invesco figure)",
+      "competition": "Invesco QQQ (same index, 0.18%); other Nasdaq-100 trackers (not checked in this window).",
+      "why_investors_care": "Cheap, faithful tracking of the index is the whole product. Any fee rise or tracking gap would show here first.",
+      "watch_next": "Invesco's updated holdings showing Moderna's weight; the Nasdaq-100 annual reconstitution (usually December; 2026 date not verified)."
+    }
+  ],
+  "earnings": {
+    "status": "none",
+    "date": "not applicable (index fund)",
+    "confirmed": true,
+    "consensus": {},
+    "actual": {},
+    "guidance": {},
+    "key_metrics": {},
+    "quality_flags": [],
+    "management_explanation": "not applicable",
+    "sources": []
+  },
+  "next_earnings": {
+    "date": "not applicable: an index fund has no earnings. What moves it is its members' results. Q3 season inside the fund: ASML 2026-10-14 (confirmed per the 2026-10-07 report calendar), AMD 2026-11-03 (confirmed, same calendar). Dates for the biggest weights (NVIDIA, Apple, Microsoft, Amazon, Meta, Alphabet) were not verified in this run.",
+    "confirmed": false,
+    "consensus_eps": "not applicable",
+    "consensus_revenue": "not applicable",
+    "company_guidance": "not applicable",
+    "sources": ["reports/daily/2026/10/2026-10-07.md (Next 14 days table)"]
+  },
+  "analyst_actions": [],
+  "insiders": {"summary": "not applicable (index fund; no insider trades)", "notable": []},
+  "filings": [
+    {"form": "none", "items": "", "plain_english": "The pipeline could not match QQQM to a company in the SEC ticker list (data/filings/2026-10-09.json: 'ticker not found in SEC list'). ETFs file under their trust, not a ticker. No fund filings were checked in this window.", "materiality": "low", "url": "not available"}
+  ],
+  "catalysts": [
+    {"date": "2026-10-14", "event": "ASML Q3 results before the US open (an index member; chip-equipment bellwether)", "confirmed": true, "url": "reports/daily/2026/10/2026-10-07.md (calendar)"},
+    {"date": "2026-10-15", "event": "TSMC Q3 results (not in the Nasdaq-100, but the main read-through for its chip names)", "confirmed": true, "url": "reports/daily/2026/10/2026-10-07.md (calendar)"},
+    {"date": "2026-10-15", "event": "Weekly jobless claims, 8:30 a.m. ET (DOL publishes on Thursdays; this date is inferred, not checked)", "confirmed": false, "url": "https://www.dol.gov/ui/data.pdf"},
+    {"date": "2026-10-23", "event": "University of Michigan final October consumer sentiment, 10:00 a.m. ET", "confirmed": true, "url": "https://www.sca.isr.umich.edu/"},
+    {"date": "2026-10-27/28", "event": "Federal Reserve rate decision", "confirmed": true, "url": "reports/daily/2026/10/2026-10-07.md (calendar)"},
+    {"date": "2026-11-03", "event": "AMD Q3 results (4.19% of QQQM and a direct holding)", "confirmed": true, "url": "reports/daily/2026/10/2026-10-07.md (calendar)"},
+    {"date": "late October (not verified)", "event": "Q3 results from the largest weights (Microsoft, Alphabet, Meta, Apple, Amazon); NVIDIA usually reports later", "confirmed": false, "url": "not available"},
+    {"date": "December 2026 (not verified)", "event": "Nasdaq-100 annual reconstitution", "confirmed": false, "url": "not available"}
+  ],
+  "thesis_breaker_checks": [
+    {"event": "Draft trigger 1: the fund stops tracking its index or its fee rises (counts if QQQM trails QQQ by more than 0.5 points over a year; early warning more than 0.2 points in a month)", "found": false, "evidence": "Total return including dividends, from data/prices adj_close (our calculation): 1 year (2025-10-08 to 2026-10-09) QQQM +23.51% vs QQQ +23.45% (QQQM ahead by 0.07 points); 21 trading days QQQM +6.14% vs QQQ +6.12% (+0.02); Thursday -1.311% vs -1.340%; Friday +0.500% vs +0.494%. data/metrics excess_return vs_sector_1m = +0.01. Fee still 0.15% (P&I, as of 2026-10-06); no fee announcement found. P&I lists a tracking difference of -0.20% (period not stated), close to the fee."},
+    {"event": "Draft trigger 2: it behaves like one more tech stock (counts if 60-day volatility is above 30% or 60-day correlation with his AI holdings is above 0.8; early warning: volatility above 25%)", "found": false, "evidence": "60-day volatility 18.2%; 20-day 15.7% (data/metrics/2026-10-09.json). 60-day correlation with his AI holdings: TSM 0.79, AMD 0.73, AAOI 0.70, FORM 0.64, CRDO 0.63, ASML 0.59, LITE 0.56, AXTI 0.56, BE 0.56, VIAV 0.55 (data/metrics/portfolio-2026-10-09.json). None is above 0.8, but TSM is 0.01 below the line. Correlation with the market: 0.91; beta 1.41."},
+    {"event": "Draft pillar 2 check: it stays steadier than his single stocks", "found": false, "evidence": "Holds. Worst fall in the past year: 11.96% vs 21.57% for the whole portfolio. Volatility: 18.2% over 60 days vs 41.5% for the portfolio over a year (different windows). Typical day 1.21% of price (data/metrics/2026-10-09.json, portfolio-2026-10-09.json). On Thursday it fell 1.31%, while AMD fell 3.90% and TSM 3.01% (data/prices)."},
+    {"event": "Draft pillar 1 check: it tracks the Nasdaq-100 closely and cheaply", "found": false, "evidence": "Holds. See trigger 1: one-day gaps against QQQ of 0.03 points or less; fee 0.15% vs QQQ's 0.18%."}
+  ],
+  "disconfirming_evidence": [
+    {"claim": "An 'index fund' still behaves like an AI bet on a bad AI day: a single press report about OpenAI's revenue knocked the Nasdaq-100 down about 1.3%, three times the S&P 500's fall.", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html", "assessment": "Valid and directly observed in the price data (QQQM -1.31% vs SPY -0.42%). It does not hit the draft triggers, but it supports the existing 'what I accept' risk: about 67% technology, about 47% in ten names, and about 28.7% in chip names in the visible top 25."},
+    {"claim": "Concentration warning: commentary says the Nasdaq rally depends on AI spending tied to a few buyers (OpenAI, Microsoft, Nvidia, Oracle). It claims about 70% of hyperscaler AI revenue comes from OpenAI and Anthropic.", "url": "https://www.vtmarkets.com/en-eu/analysis/nasdaq-100-holds-firm-as-fears-on-ai-fuelled-valuation-looms/", "assessment": "Low-quality source (broker marketing commentary); its numbers are not verified and should not be cited as fact. The general risk it describes matches what happened on Thursday."},
+    {"claim": "QQQM's correlation with TSMC is close to the draft 'behaves like a tech stock' line.", "url": "data/metrics/portfolio-2026-10-09.json", "assessment": "0.79 against a 0.8 trigger (TSM 0.79 on both 10-07 and 10-09). An early sign worth watching; not hit."},
+    {"claim": "The Motley Fool's Thursday wrap said Treasury yields 'surge[d]', with the 10-year rising to 5.28% at the close.", "url": "https://www.fool.com/coverage/stock-market-today/2026/10/08/stock-market-today-oct-8-tech-stocks-slide-as-treasury-yields-and-oil-prices-surge/", "assessment": "Contradicted by official Treasury data (10-year 5.22% on 10-08, down from 5.28% on 10-07) and by Yahoo (5.23%). The Fool figures look like Wednesday's (5.28% close, 5.35% intraday peak). Do not use them for Thursday."},
+    {"claim": "Friday's OpenAI 'rebound' story may not cancel Thursday's: the FT number (about $50 billion run rate at end-September) and the Bloomberg number (expects at least $70 billion by year-end) measure different things.", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html", "assessment": "Unresolved. Chip stocks kept falling on Friday (SMH -0.65%), which suggests the market did not fully accept the reassurance (inference, low)."}
+  ],
+  "open_questions": [
+    "Moderna's weight in the Nasdaq-100 and QQQM after the 10-09 inclusion: not published in any source checked. StockAnalysis holdings are dated 10-08 (before the switch). Check Invesco's daily holdings next run.",
+    "No source seen after the fact confirms the switch took effect at the 10-09 open. Thursday's MRNA volume (37.4 million vs 14.6 million Wednesday) fits index buying at the close (inference, medium).",
+    "Whether Paramount's acquisition of Warner Bros. Discovery actually closed on 10-06: Reuters on 10-01 said 'expected to close on October 6'. Not confirmed afterwards.",
+    "Friday's price rows may be preliminary: QQQM volume 1,564,428 vs 2,884,200 on Thursday (relative volume 0.56), and MRNA's 10-09 high and close are both exactly $225.00 (+14.2%), while Yahoo's blog said Moderna was 'up 9%'. Re-check final Friday closes before publishing.",
+    "Which Nasdaq-100 stocks drove Friday's +0.5% while chips fell: not found.",
+    "Tier-2 confirmation of the day wraps is weak: CNBC, AP, Bloomberg and the Nasdaq/Barchart wrap returned 403, a fetch block or timeouts. Wrap details rest on Yahoo Finance live blogs (tier 3) plus tier-1 data (Treasury, Labor Department, University of Michigan) and our own price files. CNBC and Bloomberg headlines were seen only in search results.",
+    "Data-source disagreements: P&I (as of 10-06) shows 101 holdings and NVIDIA 8.75%; StockAnalysis (10-08) shows 105 lines and NVIDIA 8.33%. Different dates and counting methods.",
+    "The thesis numbers block (rebuilt by thesis_tools.py) says QQQM 'files as a foreign company'. That boilerplate is wrong for an ETF; the main session may want to flag it (not edited here)."
+  ],
+  "searches_run": 6
+}

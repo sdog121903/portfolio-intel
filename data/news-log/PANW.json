@@ -27,7 +27,7 @@
         "beyond_market_pct": 1.02,
         "typical_day_pct": 2.09,
         "z": 0.49,
-        "next_5_days_pct": null
+        "next_5_days_pct": 3.85
       }
     },
     {
@@ -56,7 +56,7 @@
         "beyond_market_pct": 1.02,
         "typical_day_pct": 2.09,
         "z": 0.49,
-        "next_5_days_pct": null
+        "next_5_days_pct": 3.85
       }
     },
     {
@@ -230,7 +230,7 @@
         "beyond_market_pct": -0.45,
         "typical_day_pct": 2.09,
         "z": -0.21,
-        "next_5_days_pct": null
+        "next_5_days_pct": 0.57
       }
     },
     {
@@ -290,6 +290,122 @@
         "z": -1.46,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "panw-2026-10-09-cyber-rally",
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "medium",
+      "direction": "good",
+      "what": "Rose 5.09%, almost entirely the cybersecurity group (industry part +4.41) as software led Friday's rebound; no cybersecurity-specific reason published.",
+      "source": {
+        "name": "Yahoo Finance",
+        "date": "2026-10-09",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": 5.09,
+        "market_pct": 0.6,
+        "beyond_market_pct": 4.49,
+        "typical_day_pct": 2.21,
+        "z": 2.03,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "panw-2026-10-08-anthropic-program",
+      "date": "2026-10-08",
+      "timing": "unknown",
+      "type": "partnership",
+      "materiality": "low",
+      "direction": "good",
+      "what": "Named one of 11 founding partners of Anthropic's Critical Infrastructure Defense Program; no money terms.",
+      "source": {
+        "name": "Anthropic",
+        "date": "2026-10-08",
+        "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -1.74,
+        "market_pct": -0.42,
+        "beyond_market_pct": -1.32,
+        "typical_day_pct": 2.21,
+        "z": -0.6,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "panw-2026-10-08-klarich-foundation",
+      "date": "2026-10-08",
+      "timing": "unknown",
+      "type": "insider filing",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Klarich's trust gave 60,000 shares to a charity he controls, which filed notice to sell them (about $23.9m), no plan listed; proceeds go to the charity.",
+      "source": {
+        "name": "SEC Form 144",
+        "date": "2026-10-08",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000195824426000652/xsl144X01/primary_doc.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -1.74,
+        "market_pct": -0.42,
+        "beyond_market_pct": -1.32,
+        "typical_day_pct": 2.21,
+        "z": -0.6,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "panw-2026-10-09-bawa-sales",
+      "date": "2026-10-09",
+      "timing": "unknown",
+      "type": "insider sale (unplanned)",
+      "materiality": "low",
+      "direction": "bad",
+      "what": "Director Bawa's trust sold 250 shares (about $103k) outside a plan, after unplanned sales on 09-14, 09-15 and 09-24: four in 30 days by one person.",
+      "source": {
+        "name": "SEC Form 4",
+        "date": "2026-10-09",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526419277/ownership.xml",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": 5.09,
+        "market_pct": 0.6,
+        "beyond_market_pct": 4.49,
+        "typical_day_pct": 2.21,
+        "z": 2.03,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -325,14 +441,25 @@
       "company_part_pct": -1.4,
       "z": -0.87,
       "main_news": "Fell 3.42% with the cybersecurity group; no company news."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 418.78,
+      "day_pct": 5.09,
+      "market_part_pct": 0.61,
+      "industry_part_pct": 4.41,
+      "company_part_pct": 0.07,
+      "z": 0.04,
+      "main_news": "Rose 5.09%, almost entirely the cybersecurity group (industry part +4.41) as software led Friday's rebound; no cybersecurity-specific reason published."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
-        "date": "2026-11-12",
-        "event": "Q1 FY2027 results (third parties: 11-12 or 11-18; not announced)",
+        "date": "2026-11-18",
+        "event": "Q1 FY2027 results (estimated)",
         "confirmed": false,
         "source": {}
       }

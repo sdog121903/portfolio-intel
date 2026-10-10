@@ -14,7 +14,7 @@ AI data centers send data as light, and the lasers that make that light are buil
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,13 +32,13 @@ AI data centers send data as light, and the lasers that make that light are buil
 - Operating margin (share left after all running costs): rising (-4.0% to 21.9%, +25.9 points).
 - Profit: positive net income in 1 of the last 4 quarters.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +29.4% | +32.7% | +50.0% | +1402.6% | +30.0% | -73.8% | 8.3% |
+| -0.7% | +19.7% | +6.7% | +1209.0% | +10.5% | -73.8% | 10.0% |
 
-*Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
+*Price trend:* pullback inside a longer uptrend (below the 50-day, still above the 200-day). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
 <!-- numbers:end -->
 
@@ -148,7 +148,11 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* SEC filings in every daily report.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-07 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- Third prepaid customer: Nanjing Casela committed about RMB 173m (about $25.4m) for 2027, with 50% due within 15 business days of signing and the rest by 2026-12-31 [AXT 8-K, 2026-06-17](https://www.sec.gov/Archives/edgar/data/1051627/000143774926020978/axti20260615_8k.htm)
+- Stock −10.19% (10-08) and −4.47% (10-09) to $68.46, four straight down days, below its 50-day average; no company news or filing (data/metrics; [SEC EDGAR, 2026-10-09](https://data.sec.gov/submissions/CIK0001051627.json))
+- Valuation about 42.5 times trailing sales [Zacks via Yahoo Finance, 2026-10-07](https://finance.yahoo.com/markets/stocks/articles/axti-stock-rises-21-month-142700749.html); consensus "Hold", average target $77 (MarketBeat, tier 3)
+- Q3 results 2026-10-29 after the close (confirmed) [Business Wire, 2026-10-01](https://www.businesswire.com/news/home/20261001072530/en/AXT-Inc.-Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026)
 - Revenue $47.6m last quarter, up from $18.0m a year earlier; InP $30.7m of it; Q3 guidance about $66m (research file, call transcript; tier 3)
 - China export permits for InP wafers to US customers still not issued: "the most significant challenge we currently face" [AXT 10-Q, 2026-08-13](https://www.sec.gov/Archives/edgar/data/0001051627/000143774926027677/axti20260630_10q.htm)
 - Lumentum six-year supply deal with two $43.5m deposits [AXT 8-K, 2026-07-29](https://www.sec.gov/Archives/edgar/data/0001051627/000143774926024883/axti20260715_8k.htm)
@@ -165,3 +169,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-07 (daily report): Facts updated (BlackRock stake doubled; Coherent prepayment; results date). Trigger 2 'Status now': not hit, early warning present (rival capacity plans from June-July). No change to the reasons, pillars or triggers.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (third prepaid customer, two-day fall with no company news, valuation). No trigger status changed. No change to the reasons, pillars or triggers.

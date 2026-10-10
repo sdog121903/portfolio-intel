@@ -14,15 +14,15 @@ ASML is the only company that makes EUV (extreme ultraviolet) lithography machin
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 *No quarterly SEC figures for this company (it files as a foreign company); see the key trends below, taken from its own results releases.*
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +5.2% | +2.2% | +27.5% | +81.3% | +16.1% | -21.9% | 2.7% |
+| +2.9% | -0.8% | +20.9% | +82.8% | +14.0% | -21.9% | 2.9% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -170,7 +170,12 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* Q3 results 2026-10-14 (comments) and Q4 results, January 2027 (outlook).
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-04 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- ASML no longer publishes quarterly bookings: the Q4 2025 release was the last (Q4 2025 net bookings €13,158m; backlog €38,797m at end-2025, reported yearly) [ASML Q4 2025 results, 2026-01-28](https://www.sec.gov/Archives/edgar/data/937966/000162828026003701/pressreleasefinancialresul.htm) [Reuters via Yahoo Finance, 2026-01-28](https://finance.yahoo.com/news/asml-q4-bookings-beat-expectations-061654428.html)
+- ASML and Zeiss published a paper on "Hyper NA", a possible next-generation machine about 10 years away that ASML "has not committed to producing" [Reuters via Euronext, 2026-10-08](https://live.euronext.com/en/financial-news/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-10-years)
+- Q3 consensus (US dollars, tier 3): sales $13.18bn, EPS $12.47; 2026-27 estimates edged down over 60 days [Zacks via Yahoo Finance, 2026-10-09](https://finance.yahoo.com/markets/stocks/articles/asmls-q3-earnings-coming-play-150000186.html)
+- Unconfirmed (after the window): reports citing unnamed Korean media say ASML will raise parts prices 10% for Samsung and SK hynix from January 2027 [GuruFocus, 2026-10-09](https://www.gurufocus.com/news/9118211/asml-set-to-raise-prices-on-equipment-parts-by-10)
+- Stock −1.95% (10-08) and +0.60% (10-09), better than SMH (−3.47% over the two days); company part +2.28 points (attribution)
 - 2025 sales €32,667.3m (+15.6%), gross margin 52.8%, operating margin 34.6%, net income €9,609.4m, diluted EPS €24.71 [20-F FY2025, accn 0001628280-26-011378]
 - 2025 free cash flow €11,027.3m; €8.5bn returned to shareholders [20-F FY2025]
 - Q2 2026 sales €9,326.5m, gross margin 54.0%, net income €2,917.6m [6-K 2026-07-15, accn 0001628280-26-048235]
@@ -183,3 +188,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-04: First deep dive. Filled the company description, money model, metrics and facts; added proposed pillars and triggers, marked "(Proposed)", for Santi to keep, edit or delete.
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts kept from the deep dive.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (bookings no longer published, Hyper NA paper, Q3 consensus, unconfirmed parts-price report). No trigger status changed. No change to the reasons, pillars or triggers.

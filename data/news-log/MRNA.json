@@ -27,7 +27,7 @@
         "beyond_market_pct": -0.17,
         "typical_day_pct": 3.43,
         "z": -0.05,
-        "next_5_days_pct": null
+        "next_5_days_pct": 18.41
       }
     },
     {
@@ -348,6 +348,93 @@
         "z": -2.48,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "mrna-2026-10-09-nih-cancer-vaccine",
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "sector / policy news",
+      "materiality": "high",
+      "direction": "good",
+      "what": "Rose 14.21% to $225.00 (one-year closing high) with a biotech rally (XBI +3.00%) and a New York Times report that the NIH plans a personalised cancer-vaccine partnership from December; cause not proven (Moderna was +5% before the first link; plan first reported in March).",
+      "source": {
+        "name": "Yahoo Finance",
+        "date": "2026-10-09",
+        "url": "https://finance.yahoo.com/markets/stocks/article/moderna-stock-jumps-on-planned-national-cancer-vaccine-effort-161458165.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": 14.21,
+        "market_pct": 0.6,
+        "beyond_market_pct": 13.61,
+        "typical_day_pct": 3.43,
+        "z": 3.97,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "mrna-2026-10-09-nasdaq-100-entry",
+      "date": "2026-10-09",
+      "timing": "before open",
+      "type": "index inclusion",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Joined the Nasdaq-100 (replacing Warner Bros. Discovery); index funds bought at Thursday's close (37.4m shares, about 2.4x normal; price +0.26%).",
+      "source": {
+        "name": "Nasdaq",
+        "date": "2026-10-01",
+        "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": 14.21,
+        "market_pct": 0.6,
+        "beyond_market_pct": 13.61,
+        "typical_day_pct": 3.43,
+        "z": 3.97,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "mrna-2026-10-07-tempus",
+      "date": "2026-10-07",
+      "timing": "before open",
+      "type": "partnership",
+      "materiality": "low",
+      "direction": "good",
+      "what": "Tempus announced a multi-year collaboration with Moderna and Merck to prepare for a possible intismeran launch (tumour testing); terms not disclosed. May partly explain 10-07's +4.81% (inference, low).",
+      "source": {
+        "name": "Tempus",
+        "date": "2026-10-07",
+        "url": "https://www.tempus.com/news/pr/tempus-announces-multi-year-collaboration-with-moderna-and-merck/",
+        "tier": 1
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-07",
+        "stock_pct": 4.81,
+        "market_pct": -0.24,
+        "beyond_market_pct": 5.05,
+        "typical_day_pct": 3.4,
+        "z": 1.49,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -383,28 +470,22 @@
       "company_part_pct": 5.88,
       "z": 0.53,
       "main_news": "Rose 4.81% with no published cause; index funds must buy before the 10-09 Nasdaq-100 entry and traders may buy ahead (inference, low)."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 225.0,
+      "day_pct": 14.21,
+      "market_part_pct": 1.13,
+      "industry_part_pct": 7.33,
+      "company_part_pct": 5.75,
+      "z": 0.52,
+      "main_news": "Rose 14.21% to $225.00 (one-year closing high) with a biotech rally (XBI +3.00%) and a New York Times report that the NIH plans a personalised cancer-vaccine partnership from December; cause not proven (Moderna was +5% before the first link; plan first reported in March)."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
-      {
-        "date": "2026-10-08",
-        "event": "Index funds expected to buy at the close, before the Nasdaq-100 entry",
-        "confirmed": false,
-        "source": {}
-      },
-      {
-        "date": "2026-10-09",
-        "event": "Joins the Nasdaq-100 index before the open",
-        "confirmed": true,
-        "source": {
-          "name": "Nasdaq",
-          "date": "2026-10-01",
-          "url": "https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026",
-          "tier": 1
-        }
-      },
       {
         "date": "2026-10-24",
         "event": "Full Phase 3 melanoma data at ESMO, 10:30 a.m. New York time",
@@ -418,7 +499,7 @@
       },
       {
         "date": "2026-11-05",
-        "event": "Q3 2026 results (estimated early November; not announced)",
+        "event": "Q3 2026 results (estimated, early November)",
         "confirmed": false,
         "source": {}
       }

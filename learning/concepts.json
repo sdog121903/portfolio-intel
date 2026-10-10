@@ -27,8 +27,8 @@
     "gross margin": {
       "term": "gross margin",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-08",
-      "days_seen": 3,
+      "last_seen": "2026-10-09",
+      "days_seen": 4,
       "level": "learning",
       "one_liner": "The share of each sale left after paying to make the product."
     },
@@ -99,26 +99,26 @@
     "beta": {
       "term": "beta",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-08",
-      "days_seen": 3,
+      "last_seen": "2026-10-09",
+      "days_seen": 4,
       "level": "learning",
       "one_liner": "How much a stock tends to move when the market moves 1%."
     },
     "volatility": {
       "term": "volatility",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-08",
-      "days_seen": 3,
+      "last_seen": "2026-10-09",
+      "days_seen": 4,
       "level": "learning",
-      "one_liner": "How bumpy the ride is: how much the price swings."
+      "one_liner": "How bumpy the ride is."
     },
     "correlation": {
       "term": "correlation",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-08",
-      "days_seen": 3,
+      "last_seen": "2026-10-09",
+      "days_seen": 4,
       "level": "learning",
-      "one_liner": "How closely two stocks move together; 1.0 means in lockstep."
+      "one_liner": "How often two stocks move the same way on the same day, from -1 to +1."
     },
     "drawdown": {
       "term": "drawdown",
@@ -139,10 +139,10 @@
     "rsi": {
       "term": "RSI",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-06",
-      "days_seen": 2,
+      "last_seen": "2026-10-09",
+      "days_seen": 3,
       "level": "learning",
-      "one_liner": "A 0-100 gauge of how fast a stock has risen or fallen lately."
+      "one_liner": "Relative strength index; above 70 means a stock rose fast recently."
     },
     "value at risk": {
       "term": "value at risk",
@@ -227,10 +227,10 @@
     "arr": {
       "term": "ARR",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-08",
-      "days_seen": 3,
+      "last_seen": "2026-10-09",
+      "days_seen": 4,
       "level": "learning",
-      "one_liner": "Annual recurring revenue: the yearly value of all active subscriptions."
+      "one_liner": "The yearly value of all active subscriptions."
     },
     "net new arr": {
       "term": "net new ARR",
@@ -315,10 +315,10 @@
     "z-score": {
       "term": "z-score",
       "first_explained": "2026-10-04",
-      "last_seen": "2026-10-08",
-      "days_seen": 3,
+      "last_seen": "2026-10-09",
+      "days_seen": 4,
       "level": "learning",
-      "one_liner": "A move measured in the stock's usual-sized swings."
+      "one_liner": "A move measured in the stock's usual swings."
     },
     "capped call": {
       "term": "capped call",
@@ -411,8 +411,8 @@
     "index rebalancing": {
       "term": "index rebalancing",
       "first_explained": "2026-10-06",
-      "last_seen": "2026-10-06",
-      "days_seen": 1,
+      "last_seen": "2026-10-09",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "Index funds buying and selling when a company joins or leaves their list, usually at the close."
     },
@@ -507,8 +507,8 @@
     "var": {
       "term": "VaR",
       "first_explained": "2026-10-06",
-      "last_seen": "2026-10-08",
-      "days_seen": 2,
+      "last_seen": "2026-10-09",
+      "days_seen": 3,
       "level": "learning",
       "one_liner": "A loss exceeded only on the worst 1 day in 20, based on past behaviour."
     },
@@ -699,8 +699,8 @@
     "convertible bond": {
       "term": "convertible bond",
       "first_explained": "2026-10-08",
-      "last_seen": "2026-10-08",
-      "days_seen": 1,
+      "last_seen": "2026-10-09",
+      "days_seen": 2,
       "level": "learning",
       "one_liner": "A loan the lender can swap for shares above a set price."
     },
@@ -755,10 +755,298 @@
     "priced in": {
       "term": "priced in",
       "first_explained": "2026-10-08",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-09",
+      "days_seen": 2,
+      "level": "learning",
+      "one_liner": "Already reflected in the price because investors expected it."
+    },
+    "annualized revenue": {
+      "term": "annualized revenue",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
       "days_seen": 1,
       "level": "learning",
-      "one_liner": "Already reflected in the share price because investors expected it."
+      "one_liner": "Today's sales pace stretched to a full year; a pace, not a year of reported sales."
+    },
+    "run rate": {
+      "term": "run rate",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Today's sales pace stretched to a full quarter or year; a pace, not reported sales."
+    },
+    "warrant": {
+      "term": "warrant",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A right to buy shares at a fixed price, often very low; if used, new shares dilute existing owners."
+    },
+    "personalised cancer vaccine": {
+      "term": "personalised cancer vaccine",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A vaccine made for one patient from their tumour's genes, teaching the immune system to attack it."
+    },
+    "social engineering": {
+      "term": "social engineering",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Tricking a person into handing over a password instead of breaking the software."
+    },
+    "sold out": {
+      "term": "sold out",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Customers have reserved everything a factory can make for a period: predictable sales, firmer prices."
+    },
+    "pricing power": {
+      "term": "pricing power",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A seller's ability to keep or raise prices without losing customers."
+    },
+    "book-to-burn": {
+      "term": "book-to-burn",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "New work signed divided by work completed; above 1 means future work is piling up."
+    },
+    "monthly revenue": {
+      "term": "monthly revenue",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Sales published every month (like TSMC's), an early look before quarterly results."
+    },
+    "preliminary results": {
+      "term": "preliminary results",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Early, rounded figures published before the full quarterly report."
+    },
+    "employee stock purchase plan": {
+      "term": "employee stock purchase plan",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A company program that buys shares for staff on preset terms; routine, not a signal."
+    },
+    "grat": {
+      "term": "GRAT",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A family trust used to pass shares to relatives; moving shares in is a gift, not a sale."
+    },
+    "gift (code g)": {
+      "term": "gift (code G)",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "An insider gives shares away (often to a trust or charity); no money changes hands."
+    },
+    "foundation (charitable)": {
+      "term": "foundation (charitable)",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A charity that receives donated shares; if an executive controls it, its sales are reported like an insider's."
+    },
+    "interposer": {
+      "term": "interposer",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A thin silicon base on which an AI chip and its memory sit side by side, wired together."
+    },
+    "cowos": {
+      "term": "CoWoS",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "TSMC's way of packaging an AI chip and its memory together on an interposer."
+    },
+    "relative weakness": {
+      "term": "relative weakness",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A stock doing worse than its own industry even on good days."
+    },
+    "momentum": {
+      "term": "momentum",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Buying because a stock has been rising; can push prices beyond what facts justify."
+    },
+    "50-day average": {
+      "term": "50-day average",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Average closing price of the last 50 trading days; breaks below it can trigger trend-following selling."
+    },
+    "compressed natural gas": {
+      "term": "compressed natural gas",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Gas squeezed into tanks and trucked where no pipeline exists; works but costs more."
+    },
+    "bookings": {
+      "term": "bookings",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Value of new orders signed in a period; ASML stopped publishing them quarterly in 2026."
+    },
+    "laser chip": {
+      "term": "laser chip",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The tiny laser in an optical module that turns electrical signals into light."
+    },
+    "fab": {
+      "term": "fab",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A chip factory (fabrication plant); a new one takes years to build."
+    },
+    "ocp": {
+      "term": "OCP",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Open Compute Project Global Summit: a yearly data-center hardware conference."
+    },
+    "esmo": {
+      "term": "ESMO",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "European Society for Medical Oncology; its congress is a main stage for cancer-trial results."
+    },
+    "nih": {
+      "term": "NIH",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "National Institutes of Health, the US government's medical research agency."
+    },
+    "public-private partnership": {
+      "term": "public-private partnership",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A project run jointly by a government agency and companies."
+    },
+    "trading volume": {
+      "term": "trading volume",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "How many shares changed hands in a day; heavy volume means many investors acted at once."
+    },
+    "analyst labels": {
+      "term": "analyst labels",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Ratings like Buy, Outperform, Neutral or Sell: one analyst's opinion of how a stock will do."
+    },
+    "gigawatt": {
+      "term": "gigawatt",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "A billion watts; about the output of a large power plant."
+    },
+    "hbm": {
+      "term": "HBM",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "High-bandwidth memory: stacked memory chips that feed AI processors data very fast."
+    },
+    "dram": {
+      "term": "DRAM",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The main working memory in computers and servers."
+    },
+    "mrna": {
+      "term": "mRNA",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Genetic instructions that tell cells to make a specific protein; the basis of Moderna's vaccines."
+    },
+    "co-packaged optics": {
+      "term": "co-packaged optics",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Putting the optical (light) parts right next to the chip instead of in a separate plug-in module."
+    },
+    "dividend": {
+      "term": "dividend",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "Cash a company pays its owners, usually every quarter."
+    },
+    "fed": {
+      "term": "Fed",
+      "first_explained": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "days_seen": 1,
+      "level": "learning",
+      "one_liner": "The Federal Reserve, the US central bank that sets short-term interest rates."
     }
   }
 }

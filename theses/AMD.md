@@ -14,7 +14,7 @@ AI labs and cloud companies do not want to depend on a single chip supplier, and
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ AI labs and cloud companies do not want to depend on a single chip supplier, and
 - Operating margin (share left after all running costs): rising (13.7% to 17.2%, +3.5 points).
 - Profit: positive net income in 4 of the last 4 quarters.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +35.2% | +24.8% | +178.6% | +205.4% | +69.4% | -27.8% | 3.6% |
+| +16.7% | +9.0% | +148.2% | +161.1% | +57.8% | -27.8% | 3.9% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -103,7 +103,7 @@ Each pillar says why it matters, how it is measured, where it stands now and whe
 5. **Dilution and investments in customers stay small.** *(whole position; added 2026-10-05)*
    - *Why it matters:* Paying in shares and investing in customers can quietly reduce what each share earns.
    - *Measured by:* Share count in each 10-Q; size of investments in customers.
-   - *Now (as of 2026-10-04):* World Labs adds about 0.8% more shares; up to $5bn pledged to Anthropic (research file).
+   - *Now (as of 2026-10-09):* World Labs adds about 0.8% more shares; up to $5bn pledged to Anthropic (research file). Also, from the 10-Q: warrants for OpenAI and Meta could add up to 320 million shares (about 19.6%) if all milestones are met; none vested as of 2026-06-27 [AMD 10-Q, 2026-08-05](https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm).
    - *Next check:* Next 10-Q.
 
 ## Invalidation triggers (what would prove the thesis wrong)
@@ -132,7 +132,7 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Counts if:* By the end of 2027 management reports no meaningful rack revenue, or says customers prefer chips only.
    - *Early warning:* Few new Helios customers announced after the first ones.
    - *Where and when to check:* Earnings calls.
-   - *Status now (2026-10-04):* Not hit.
+   - *Status now (2026-10-09):* Not hit. Note: AMD's 10-Q says it does not sell completed Helios racks, so "no meaningful rack revenue" cannot be tested as written (see Proposed below).
 5. **Revenue misses company guidance.** *(whole position; added 2026-10-05)*
    - *Why it matters:* With expectations high after a 191% rise, a miss would show demand is not keeping up with the story.
    - *Counts if:* Quarterly revenue below the guided range.
@@ -140,7 +140,11 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* Quarterly results.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-07 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- AMD's 10-Q: AMD does "not manufacture or sell the completed Helios rack systems"; it licenses the design and supplies components [AMD 10-Q, 2026-08-05](https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm)
+- Warrants to OpenAI and Meta for up to 320 million AMD shares at $0.01, vesting in tranches tied to purchase and share-price milestones; none vested as of 2026-06-27; about 19.6% of 1.632bn shares if all were issued (our calculation) [AMD 10-Q, 2026-08-05](https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm)
+- Stock −3.90% (10-08) and −2.03% (10-09), almost all chip-sector moves after a Financial Times report that OpenAI's revenue pace was about $50bn, not $70bn (data/metrics; [TechCrunch, 2026-10-08](https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/))
+- Lisa Su OCP keynote 2026-10-12, 4:15 p.m. Pacific [AMD media alert (page as read), 2026-10-09](https://newsroom.amd.com/news/media-alert-ceo-lisa-su-keynote-2026-ocp/)
 - Q2 2026 revenue $11.5bn (+50%); data center $6.7bn (+107%); Q3 guidance about $13.0bn (+41%) [AMD Q2 2026 results, 2026-08-04](https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm)
 - Anthropic: up to 2 GW of AMD GPUs in Helios racks, first GW from H1 2027; AMD to invest up to $5bn in Anthropic [CNBC, 2026-07-22](https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html)
 - World Labs purchase for about $8.2bn in AMD shares (about 0.8% dilution, researcher's calculation) [SEC 8-K, 2026-09-28](https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm)
@@ -155,3 +159,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-05: Added the draft thesis (up to three statements, each with why / what must stay true / what would prove it wrong), the 3-sentence company summary, the recent-news table and the link to the news log. Replaced the earlier starting points in "What must stay true" and "Invalidation triggers" with items from the draft, marked "(Proposed)". "Why I own it" untouched.
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-07 (daily report): Facts updated (results date confirmed; CEO supply comments). No trigger status changed. No change to the reasons, pillars or triggers.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (10-Q: Helios racks not sold by AMD; OpenAI/Meta warrants). Pillar 5 'Now' and trigger 4 status refreshed. Proposed (waiting for Santi's approval, nothing changed): (1) re-word Thesis 2 ("selling complete AI systems") to match the 10-Q (AMD licenses the Helios design and sells the chips); (2) re-word trigger 4 so it can be tested (for example, Helios-related data-center revenue or customer count); (3) add the warrants to pillar 5's measure.

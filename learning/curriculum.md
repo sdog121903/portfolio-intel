@@ -45,7 +45,7 @@ Tick a topic (`[x]`) when it has been taught. Order is a guide, not a rule.
 - [ ] Volatility: how bumpy the ride is
 - [ ] Beta: how much a stock follows the market
 - [ ] Drawdowns: the worst falls
-- [ ] Correlation: why several stocks can behave like one
+- [x] Correlation: why several stocks can behave like one
 - [ ] Concentration and themes
 - [ ] Value at risk in dollars
 - [ ] Why rules written in advance help (stop-loss, targets) and their limits

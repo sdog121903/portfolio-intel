@@ -56,7 +56,7 @@
         "beyond_market_pct": 7.49,
         "typical_day_pct": 6.28,
         "z": 1.19,
-        "next_5_days_pct": null
+        "next_5_days_pct": 0.27
       }
     },
     {
@@ -261,6 +261,122 @@
         "z": 0.52,
         "next_5_days_pct": null
       }
+    },
+    {
+      "key": "lite-2026-10-08-optics-selloff",
+      "date": "2026-10-08",
+      "timing": "during",
+      "type": "price move without company news",
+      "materiality": "medium",
+      "direction": "bad",
+      "what": "Fell 5.62% with the optical sell-off (−4% by noon, then the FT/OpenAI report); industry part −4.18 points.",
+      "source": {
+        "name": "24/7 Wall St",
+        "date": "2026-10-08",
+        "url": "https://247wallst.com/investing/2026/10/08/optics-stocks-tumble-as-profit-taking-cuts-into-big-yearly-gains-applied-optoelectronics-drops-9-coherent-falls-5-lumentum-slides-4/",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-08",
+        "stock_pct": -5.62,
+        "market_pct": -0.42,
+        "beyond_market_pct": -5.2,
+        "typical_day_pct": 6.29,
+        "z": -0.83,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "lite-2026-10-08-sold-out-2029",
+      "date": "2026-10-08",
+      "timing": "after close",
+      "type": "management comment",
+      "materiality": "high",
+      "direction": "good",
+      "what": "CEO told Bloomberg TV its optical parts are 'completely sold out' until almost 2029 (April: through 2027); laser chips the tightest limit; second Japan fab. Stock +5.22% on 10-09 (company part +7.01).",
+      "source": {
+        "name": "Investopedia via AOL",
+        "date": "2026-10-09",
+        "url": "https://www.aol.com/articles/nvidia-backed-lumentum-says-t-155557000.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": 5.22,
+        "market_pct": 0.6,
+        "beyond_market_pct": 4.62,
+        "typical_day_pct": 6.29,
+        "z": 0.74,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "lite-2026-10-08-acquisition-intent",
+      "date": "2026-10-08",
+      "timing": "after close",
+      "type": "management comment",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "CEO reportedly wants to complete an acquisition within the next year; no target or terms (secondary sources only).",
+      "source": {
+        "name": "Investopedia via AOL",
+        "date": "2026-10-09",
+        "url": "https://www.aol.com/articles/nvidia-backed-lumentum-says-t-155557000.html",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": 5.22,
+        "market_pct": 0.6,
+        "beyond_market_pct": 4.62,
+        "typical_day_pct": 6.29,
+        "z": 0.74,
+        "next_5_days_pct": null
+      }
+    },
+    {
+      "key": "lite-2026-10-09-evercore",
+      "date": "2026-10-09",
+      "timing": "during",
+      "type": "analyst rating",
+      "materiality": "low",
+      "direction": "neutral",
+      "what": "Evercore ISI kept Outperform with a $1,100 target (below the $1,103.35 close).",
+      "source": {
+        "name": "Investing.com",
+        "date": "2026-10-09",
+        "url": "https://www.investing.com/news/analyst-ratings/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4941510",
+        "tier": 3
+      },
+      "fact_checked": true,
+      "logged": "2026-10-09",
+      "reports": [
+        "2026-10-09"
+      ],
+      "reaction": {
+        "day": "2026-10-09",
+        "stock_pct": 5.22,
+        "market_pct": 0.6,
+        "beyond_market_pct": 4.62,
+        "typical_day_pct": 6.29,
+        "z": 0.74,
+        "next_5_days_pct": null
+      }
     }
   ],
   "days": [
@@ -296,38 +412,55 @@
       "company_part_pct": -0.22,
       "z": -0.04,
       "main_news": "Proxy filed: annual meeting 11-18 with three routine items and no share request; the shareholder letter says the optical circuit switch business is 'rapidly scaling past a $100 million quarterly revenue run rate' and 1.6T modules are in production."
+    },
+    {
+      "report": "2026-10-09",
+      "trading_day": "2026-10-09",
+      "close": 1103.35,
+      "day_pct": 5.22,
+      "market_part_pct": 0.34,
+      "industry_part_pct": -2.13,
+      "company_part_pct": 7.01,
+      "z": 1.4,
+      "main_news": "CEO told Bloomberg TV its optical parts are 'completely sold out' until almost 2029 (April: through 2027); laser chips the tightest limit; second Japan fab. Stock +5.22% on 10-09 (company part +7.01)."
     }
   ],
   "upcoming": {
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-09",
     "events": [
       {
         "date": "2026-10-14",
-        "event": "Talks at the OCP Global Summit",
+        "event": "OCP talk (lasers for co-packaged optics)",
         "confirmed": true,
-        "source": {}
+        "source": {
+          "name": "Lumentum",
+          "date": "2026-10-09",
+          "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Speaker-Lineup-at-2026-OCP-Global-Summit/default.aspx",
+          "tier": 1
+        }
+      },
+      {
+        "date": "2026-10-15",
+        "event": "OCP talk 8:45 a.m. Pacific (optical circuit switches, with Oracle Cloud)",
+        "confirmed": true,
+        "source": {
+          "name": "Lumentum",
+          "date": "2026-10-09",
+          "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Speaker-Lineup-at-2026-OCP-Global-Summit/default.aspx",
+          "tier": 1
+        }
       },
       {
         "date": "2026-11-05",
         "event": "Q1 FY2027 results after the close",
         "confirmed": true,
-        "source": {
-          "name": "Lumentum via Business Wire (Yahoo Finance)",
-          "date": "2026-10-05",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-announces-reporting-date-fiscal-120000373.html",
-          "tier": 3
-        }
+        "source": {}
       },
       {
         "date": "2026-11-18",
-        "event": "Annual shareholder meeting (online)",
+        "event": "Annual meeting",
         "confirmed": true,
-        "source": {
-          "name": "Lumentum DEF 14A",
-          "date": "2026-10-06",
-          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817926000420/lite2026-def14a.htm",
-          "tier": 1
-        }
+        "source": {}
       }
     ]
   }

@@ -14,7 +14,7 @@ Moderna and Merck's personalised melanoma vaccine (intismeran, given with Merck'
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,11 +32,11 @@ Moderna and Merck's personalised melanoma vaccine (intismeran, given with Merck'
 - Operating margin (share left after all running costs): falling (-25.6% to -562.1%, -536.5 points).
 - Profit: positive net income in 0 of the last 4 quarters.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +35.0% | +166.2% | +277.1% | +618.6% | +177.3% | -34.2% | 7.5% |
+| +65.9% | +229.6% | +341.5% | +717.3% | +209.8% | -34.2% | 6.8% |
 
 *Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
@@ -103,7 +103,7 @@ Each pillar says why it matters, how it is measured, where it stands now and whe
 3. **The Merck partnership holds.** *(Thesis 1)*
    - *Why it matters:* Merck shares the cost and brings Keytruda; losing it would make the project much harder and costlier.
    - *Measured by:* Any change in the 50/50 agreement disclosed in filings.
-   - *Now (as of 2026-10-04):* In force; costs and profits shared 50/50.
+   - *Now (as of 2026-10-09):* In force; costs and profits shared 50/50. Merck co-signed the Tempus launch-preparation collaboration on 2026-10-07 [Tempus, 2026-10-07](https://www.tempus.com/news/pr/tempus-announces-multi-year-collaboration-with-moderna-and-merck/).
    - *Next check:* Each 10-Q.
 4. **Non-COVID sales start to grow.** *(Thesis 2)*
    - *Why it matters:* Growth outside COVID is what proves mRNA is a platform, not a one-product company.
@@ -162,7 +162,11 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* Quarterly results.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-07 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- Stock +14.21% on 2026-10-09 to $225.00, its highest close of the past year, on 1.7 times usual volume; most-cited reason a New York Times report that the NIH plans a public-private personalised cancer-vaccine partnership from December (first reported in March with a $200m target; no money for Moderna mentioned) [Yahoo Finance, 2026-10-09](https://finance.yahoo.com/markets/stocks/article/moderna-stock-jumps-on-planned-national-cancer-vaccine-effort-161458165.html); biotech rallied (XBI +3.00%, Novavax +16%)
+- Tempus announced (2026-10-07, before the open) a multi-year collaboration with Moderna and Merck to prepare for a possible intismeran launch (tumour sample collection and sequencing); terms not disclosed [Tempus, 2026-10-07](https://www.tempus.com/news/pr/tempus-announces-multi-year-collaboration-with-moderna-and-merck/)
+- Joined the Nasdaq-100 before the open on 2026-10-09, replacing Warner Bros. Discovery; index buying at the 10-08 close (37.4m shares, about 2.4 times normal) [Nasdaq, 2026-10-01](https://ir.nasdaq.com/news-releases/news-release-details/moderna-inc-join-nasdaq-100-indexr-beginning-october-9-2026)
+- Convertible notes: the stock is above the $210.58 conversion price, but early conversion needs at least about $315.87 for 20 of 30 trading days; Moderna may settle in cash [SEC 8-K, 2026-09-01](https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm)
 - Phase 3 melanoma trial (intismeran plus Keytruda) met its main goals; the stock rose 177% that day [Moderna/Merck, 2026-08-19](https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma)
 - mFLUSIVA mRNA flu vaccine approved by the FDA for adults 50+ [NBC News, 2026-08-05](https://www.nbcnews.com/health/health-news/fda-approves-1st-mrna-flu-shot-moderna-rcna590599)
 - Q2 2026 revenue $145m; net loss $0.8bn [Moderna Q2 2026 results, 2026-07-31](https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm)
@@ -178,3 +182,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-05 (daily report): the stock rose 6.95% with no company news; pillar 1's next check now has the confirmed ESMO session and time. No pillar or trigger status changed. No change to the reasons, pillars or triggers.
 - 2026-10-07 (daily report): Facts updated (COO's Form 3; plague-scare swing). No pillar or trigger status changed. No change to the reasons, pillars or triggers.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (Friday's jump and its reported cause, Tempus collaboration, Nasdaq-100 entry, convertible-note conversion terms). Pillar 3 'Now' refreshed. No trigger status changed. No change to the reasons, pillars or triggers.

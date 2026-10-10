@@ -14,7 +14,7 @@ Every server link in an AI data center needs a transceiver, a plug-in module tha
 
 ### The numbers behind it
 
-<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-07; edits inside this block are lost) -->
+<!-- numbers:start (rebuilt by thesis_tools.py from data as of 2026-10-09; edits inside this block are lost) -->
 
 **The business, last five quarters** (SEC filings via `data/fundamentals/`; Q4 figures marked * are the annual total minus the three other quarters)
 
@@ -32,13 +32,13 @@ Every server link in an AI data center needs a transceiver, a plug-in module tha
 - Operating margin (share left after all running costs): rising (-15.3% to -12.9%, +2.4 points).
 - Profit: positive net income in 0 of the last 4 quarters.
 
-**The stock** (to 2026-10-07, `data/metrics/`)
+**The stock** (to 2026-10-09, `data/metrics/`)
 
 | 1 month | 3 months | 6 months | 1 year | vs its 200-day average | Worst fall in the past year | Typical day |
 |---|---|---|---|---|---|---|
-| +16.1% | +7.1% | -7.7% | +291.1% | +11.2% | -65.7% | 7.1% |
+| +1.6% | -8.6% | -27.2% | +238.7% | -1.2% | -65.7% | 8.7% |
 
-*Price trend:* uptrend (price above its 50- and 200-day averages, and the 50 is above the 200). (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
+*Price trend:* mixed / turning. (The 200-day average is the average closing price over about the last ten months; trading above it usually means a longer uptrend.)
 
 <!-- numbers:end -->
 
@@ -155,7 +155,9 @@ Each trigger says why it matters, exactly what counts, the early warning that us
    - *Where and when to check:* 10-Q.
    - *Status now (2026-10-04):* Not hit.
 
-## Facts as of 2026-10-07 (every figure sourced)
+## Facts as of 2026-10-09 (every figure sourced)
+- September filings add capacity: two more Houston buildings leased [AOI 8-K, 2026-09-01](https://www.sec.gov/Archives/edgar/data/1158114/000168316826006862/aaoi_8k.htm); a Houston building bought for $26,783,472 in cash [AOI 8-K, 2026-09-10](https://www.sec.gov/Archives/edgar/data/1158114/000168316826007057/aaoi_8k.htm); a 10-year factory lease in Ningbo, China [AOI 8-K, 2026-09-15](https://www.sec.gov/Archives/edgar/data/1158114/000168316826007160/aaoi_8k.htm)
+- Stock −13.58% (10-08, optical sell-off, about 2.5 times usual volume) and +3.53% (10-09); no company news or filing (data/metrics; [SEC EDGAR, 2026-10-09](https://data.sec.gov/submissions/CIK0001158114.json))
 - Q2 2026 revenue $191.9m (+86.4%), a record; data centers 56.1%; first adjusted profit; Q3 guidance $255-290m [AOI Q2 2026 results, 2026-08-06](https://www.sec.gov/Archives/edgar/data/1158114/000168316826006055/aaoi_ex9901.htm)
 - Capacity target: about 650,000 high-speed units a month by end-2026 (same release)
 - Shares outstanding 84.4m, up from 75.0m in six months; top 10 customers 99% of revenue; receivables $314.0m, of which one distributor $211.0m; GAAP net loss $22.8m [AOI 10-Q, 2026-08-06](https://www.sec.gov/Archives/edgar/data/1158114/000143774926026278/aaoi20260630_10q.htm)
@@ -173,3 +175,4 @@ Each trigger says why it matters, exactly what counts, the early warning that us
 - 2026-10-05: Santi approved the theses. "Why I own it" filled with the justification (one-sentence reason, the case, what I accept), a numbers block (SEC quarterly trend and price trend, rebuilt each run) and key trends; the news and upcoming-events tables now live only in the news log. Pillars and triggers strengthened: each has why it matters, how it is measured (or exactly what counts), an early warning, where and when to check, and its status. All approved triggers kept; new ones are marked "added 2026-10-05". Facts as of 2026-10-04 filled.
 - 2026-10-05 (daily report): the $600m at-the-market program was completed (5,694,845 shares, about 6.7% more). Updated: key trends, pillar 5 "Now", trigger 6 "Status now" (met, read literally: about 12.5% in five months from the 10-Q share counts) and Facts. The daily report rated the thesis Challenged and raised a THESIS ALERT. Proposed (awaiting Santi): say whether trigger 6's "again" excludes windows that overlap the first-half sales already accepted at approval. No change to the reasons, pillars or triggers.
 - 2026-10-07 (daily report): Facts updated (Yeh sale executed; one unplanned September sale by SVP Chang, previously missed). Trigger 6 unchanged (no new share count). No change to the reasons, pillars or triggers.
+- 2026-10-09 (daily report, covering Thu 10-08 and Fri 10-09): Facts updated (September factory filings, two-day moves). Trigger 6 status unchanged (met if read literally). No change to the reasons, pillars or triggers.
